@@ -1,0 +1,19 @@
+/* 黃色強調色 */
+:root[data-mode="dark"] {
+  --link-color: #ffc107;
+  --link-underline-color: rgba(255, 193, 7, 0.5);
+  --sidebar-active-color: #ffc107;
+  --tag-hover: #ffc107;
+  --btn-patinated-text-color: #ffc107;
+  --highlight-bg-color: #1a1a1a;
+}
+
+/* 側邊欄標題顏色 */
+#sidebar .site-title a {
+  color: #ffc107 !important;
+}
+
+/* 滑鼠懸停連結 */
+a:hover {
+  color: #ffc107 !important;
+}
