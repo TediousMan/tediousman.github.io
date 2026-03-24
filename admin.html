@@ -1,0 +1,618 @@
+---
+layout: null
+permalink: /admin/
+---
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>發表文章 | {{ site.title }}</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #1a1a1a;
+      color: #e0e0e0;
+      min-height: 100vh;
+    }
+    .admin-header {
+      background: #222;
+      border-bottom: 1px solid #333;
+      padding: 16px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .admin-header h1 {
+      font-size: 1.2rem;
+      color: #fff;
+    }
+    .admin-header a {
+      color: #aaa;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .admin-header a:hover { color: #fff; }
+
+    /* Login */
+    .login-container {
+      max-width: 450px;
+      margin: 80px auto;
+      padding: 32px;
+      background: #252525;
+      border-radius: 8px;
+      border: 1px solid #333;
+    }
+    .login-container h2 {
+      margin-bottom: 20px;
+      font-size: 1.3rem;
+    }
+    .login-container p {
+      color: #999;
+      font-size: 0.85rem;
+      margin-bottom: 16px;
+      line-height: 1.5;
+    }
+
+    /* Editor */
+    .editor-container {
+      max-width: 860px;
+      margin: 32px auto;
+      padding: 0 24px;
+    }
+    .form-group {
+      margin-bottom: 20px;
+    }
+    .form-group label {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 0.9rem;
+      color: #bbb;
+    }
+    input[type="text"],
+    input[type="date"],
+    input[type="password"],
+    select,
+    textarea {
+      width: 100%;
+      padding: 10px 14px;
+      background: #2a2a2a;
+      border: 1px solid #444;
+      border-radius: 6px;
+      color: #e0e0e0;
+      font-size: 1rem;
+      font-family: inherit;
+      transition: border-color 0.2s;
+    }
+    input:focus, select:focus, textarea:focus {
+      outline: none;
+      border-color: #888;
+    }
+    textarea {
+      min-height: 400px;
+      resize: vertical;
+      font-family: "Consolas", "Monaco", monospace;
+      line-height: 1.6;
+    }
+    .form-row {
+      display: flex;
+      gap: 16px;
+    }
+    .form-row .form-group {
+      flex: 1;
+    }
+
+    /* Buttons */
+    .btn {
+      padding: 10px 24px;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .btn-primary {
+      background: #4a9eff;
+      color: #fff;
+    }
+    .btn-primary:hover { background: #3a8eef; }
+    .btn-primary:disabled {
+      background: #555;
+      cursor: not-allowed;
+    }
+    .btn-secondary {
+      background: #444;
+      color: #ddd;
+    }
+    .btn-secondary:hover { background: #555; }
+    .btn-danger {
+      background: transparent;
+      color: #e74c3c;
+      border: 1px solid #e74c3c;
+    }
+    .btn-danger:hover { background: #e74c3c; color: #fff; }
+
+    .actions {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      margin-top: 8px;
+    }
+
+    /* Preview */
+    .tabs {
+      display: flex;
+      gap: 0;
+      margin-bottom: 0;
+    }
+    .tab-btn {
+      padding: 8px 20px;
+      background: #2a2a2a;
+      border: 1px solid #444;
+      border-bottom: none;
+      color: #aaa;
+      cursor: pointer;
+      font-size: 0.9rem;
+      border-radius: 6px 6px 0 0;
+    }
+    .tab-btn.active {
+      background: #333;
+      color: #fff;
+      border-color: #555;
+    }
+    .preview-area {
+      background: #333;
+      border: 1px solid #555;
+      border-radius: 0 6px 6px 6px;
+      padding: 24px;
+      min-height: 400px;
+      line-height: 1.8;
+      display: none;
+    }
+    .preview-area h1, .preview-area h2, .preview-area h3 {
+      margin: 16px 0 8px;
+      color: #fff;
+    }
+    .preview-area p { margin-bottom: 12px; }
+    .preview-area blockquote {
+      border-left: 3px solid #666;
+      padding-left: 16px;
+      color: #aaa;
+    }
+    .preview-area code {
+      background: #2a2a2a;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-size: 0.9em;
+    }
+    .preview-area img { max-width: 100%; border-radius: 4px; }
+    .preview-area ul, .preview-area ol {
+      margin-left: 20px;
+      margin-bottom: 12px;
+    }
+
+    /* Status message */
+    .status {
+      padding: 12px 16px;
+      border-radius: 6px;
+      margin-bottom: 20px;
+      display: none;
+    }
+    .status.success {
+      background: rgba(46, 204, 113, 0.15);
+      color: #2ecc71;
+      border: 1px solid rgba(46, 204, 113, 0.3);
+      display: block;
+    }
+    .status.error {
+      background: rgba(231, 76, 60, 0.15);
+      color: #e74c3c;
+      border: 1px solid rgba(231, 76, 60, 0.3);
+      display: block;
+    }
+
+    /* Toolbar */
+    .toolbar {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 8px;
+      flex-wrap: wrap;
+    }
+    .toolbar button {
+      padding: 6px 10px;
+      background: #333;
+      border: 1px solid #444;
+      color: #ccc;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 0.85rem;
+    }
+    .toolbar button:hover { background: #444; color: #fff; }
+
+    .logout-btn {
+      background: none;
+      border: none;
+      color: #e74c3c;
+      cursor: pointer;
+      font-size: 0.85rem;
+    }
+    .logout-btn:hover { text-decoration: underline; }
+
+    @media (max-width: 600px) {
+      .form-row { flex-direction: column; gap: 0; }
+      .editor-container { padding: 0 12px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Login Screen -->
+<div id="loginScreen">
+  <div class="admin-header">
+    <h1>{{ site.title }}</h1>
+    <a href="{{ '/' | relative_url }}">← 回到首頁</a>
+  </div>
+  <div class="login-container">
+    <h2>登入管理後台</h2>
+    <p>請輸入你的 GitHub Personal Access Token 來登入。<br>Token 僅儲存在你的瀏覽器中，不會上傳到任何伺服器。</p>
+    <div class="form-group">
+      <label for="tokenInput">GitHub Token</label>
+      <input type="password" id="tokenInput" placeholder="ghp_xxxxxxxxxxxx">
+    </div>
+    <div style="margin-top: 16px;">
+      <button class="btn btn-primary" onclick="login()">登入</button>
+    </div>
+    <div id="loginStatus" class="status" style="margin-top: 16px;"></div>
+  </div>
+</div>
+
+<!-- Editor Screen -->
+<div id="editorScreen" style="display: none;">
+  <div class="admin-header">
+    <h1>發表新文章</h1>
+    <div>
+      <a href="{{ '/' | relative_url }}" style="margin-right: 16px;">← 回到首頁</a>
+      <button class="logout-btn" onclick="logout()">登出</button>
+    </div>
+  </div>
+
+  <div class="editor-container">
+    <div id="editorStatus" class="status"></div>
+
+    <div class="form-row">
+      <div class="form-group">
+        <label for="postTitle">文章標題</label>
+        <input type="text" id="postTitle" placeholder="輸入文章標題...">
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group">
+        <label for="postDate">日期</label>
+        <input type="date" id="postDate">
+      </div>
+      <div class="form-group">
+        <label for="postCategory">分類</label>
+        <select id="postCategory">
+          <option value="樂評">樂評</option>
+          <option value="個人心得">個人心得</option>
+          <option value="生活紀錄">生活紀錄</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="tabs">
+        <button class="tab-btn active" onclick="switchTab('edit')">編輯</button>
+        <button class="tab-btn" onclick="switchTab('preview')">預覽</button>
+      </div>
+
+      <div id="editTab">
+        <div class="toolbar">
+          <button onclick="insertFormat('**', '**')" title="粗體">B</button>
+          <button onclick="insertFormat('*', '*')" title="斜體"><em>I</em></button>
+          <button onclick="insertFormat('\n## ', '\n')" title="標題">H2</button>
+          <button onclick="insertFormat('\n### ', '\n')" title="小標題">H3</button>
+          <button onclick="insertFormat('\n> ', '\n')" title="引用">引用</button>
+          <button onclick="insertFormat('\n- ', '\n')" title="清單">清單</button>
+          <button onclick="insertFormat('[', '](https://)')" title="連結">連結</button>
+          <button onclick="insertFormat('![圖片描述](', ')')" title="圖片">圖片</button>
+          <button onclick="insertSpotify()" title="Spotify">Spotify</button>
+          <button onclick="insertYouTube()" title="YouTube">YouTube</button>
+        </div>
+        <textarea id="postContent" placeholder="在這裡用 Markdown 撰寫文章內容..."></textarea>
+      </div>
+
+      <div id="previewTab" class="preview-area"></div>
+    </div>
+
+    <div class="actions">
+      <button class="btn btn-primary" id="publishBtn" onclick="publish()">發佈文章</button>
+      <button class="btn btn-secondary" onclick="saveDraft()">儲存草稿</button>
+      <button class="btn btn-danger" onclick="clearAll()">清除</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  const REPO_OWNER = 'TediousMan';
+  const REPO_NAME = 'tediousman.github.io';
+  const API_BASE = 'https://api.github.com';
+
+  // Set today's date as default
+  document.getElementById('postDate').value = new Date().toISOString().split('T')[0];
+
+  // Check if already logged in
+  (function checkAuth() {
+    const token = localStorage.getItem('gh_token');
+    if (token) {
+      showEditor();
+    }
+  })();
+
+  // Load draft if exists
+  (function loadDraft() {
+    const draft = localStorage.getItem('post_draft');
+    if (draft) {
+      try {
+        const d = JSON.parse(draft);
+        if (d.title) document.getElementById('postTitle').value = d.title;
+        if (d.date) document.getElementById('postDate').value = d.date;
+        if (d.category) document.getElementById('postCategory').value = d.category;
+        if (d.content) document.getElementById('postContent').value = d.content;
+      } catch(e) {}
+    }
+  })();
+
+  async function login() {
+    const token = document.getElementById('tokenInput').value.trim();
+    if (!token) return;
+
+    const statusEl = document.getElementById('loginStatus');
+    statusEl.className = 'status';
+    statusEl.style.display = 'none';
+
+    try {
+      const res = await fetch(API_BASE + '/user', {
+        headers: { 'Authorization': 'token ' + token }
+      });
+      if (!res.ok) throw new Error('Token 無效');
+      const user = await res.json();
+      localStorage.setItem('gh_token', token);
+      showEditor();
+    } catch(e) {
+      statusEl.textContent = '登入失敗：' + e.message;
+      statusEl.className = 'status error';
+    }
+  }
+
+  function logout() {
+    localStorage.removeItem('gh_token');
+    document.getElementById('loginScreen').style.display = '';
+    document.getElementById('editorScreen').style.display = 'none';
+  }
+
+  function showEditor() {
+    document.getElementById('loginScreen').style.display = 'none';
+    document.getElementById('editorScreen').style.display = '';
+  }
+
+  function switchTab(tab) {
+    const tabs = document.querySelectorAll('.tab-btn');
+    const editTab = document.getElementById('editTab');
+    const previewTab = document.getElementById('previewTab');
+
+    tabs.forEach(t => t.classList.remove('active'));
+
+    if (tab === 'edit') {
+      tabs[0].classList.add('active');
+      editTab.style.display = '';
+      previewTab.style.display = 'none';
+    } else {
+      tabs[1].classList.add('active');
+      editTab.style.display = 'none';
+      previewTab.style.display = 'block';
+      previewTab.innerHTML = markdownToHtml(document.getElementById('postContent').value);
+    }
+  }
+
+  function markdownToHtml(md) {
+    let html = md
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;');
+
+    // Restore HTML tags for iframes
+    html = html.replace(/&lt;iframe(.*?)&gt;&lt;\/iframe&gt;/gs, function(match) {
+      return match.replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&').replace(/&quot;/g, '"');
+    });
+
+    // Headers
+    html = html.replace(/^### (.+)$/gm, '<h3>$1</h3>');
+    html = html.replace(/^## (.+)$/gm, '<h2>$1</h2>');
+    html = html.replace(/^# (.+)$/gm, '<h1>$1</h1>');
+
+    // Bold and italic
+    html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+    html = html.replace(/\*(.+?)\*/g, '<em>$1</em>');
+
+    // Images
+    html = html.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, '<img src="$2" alt="$1">');
+
+    // Links
+    html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" style="color:#4a9eff;">$1</a>');
+
+    // Blockquotes
+    html = html.replace(/^&gt; (.+)$/gm, '<blockquote>$1</blockquote>');
+
+    // Lists
+    html = html.replace(/^- (.+)$/gm, '<li>$1</li>');
+    html = html.replace(/(<li>.*<\/li>)/s, '<ul>$1</ul>');
+
+    // Code
+    html = html.replace(/`([^`]+)`/g, '<code>$1</code>');
+
+    // Paragraphs
+    html = html.replace(/\n\n/g, '</p><p>');
+    html = '<p>' + html + '</p>';
+    html = html.replace(/<p>\s*<(h[1-3]|ul|blockquote|iframe)/g, '<$1');
+    html = html.replace(/<\/(h[1-3]|ul|blockquote|iframe)>\s*<\/p>/g, '</$1>');
+
+    return html;
+  }
+
+  function insertFormat(before, after) {
+    const ta = document.getElementById('postContent');
+    const start = ta.selectionStart;
+    const end = ta.selectionEnd;
+    const selected = ta.value.substring(start, end) || '文字';
+    ta.value = ta.value.substring(0, start) + before + selected + after + ta.value.substring(end);
+    ta.focus();
+    ta.selectionStart = start + before.length;
+    ta.selectionEnd = start + before.length + selected.length;
+  }
+
+  function insertSpotify() {
+    const url = prompt('請貼上 Spotify 歌曲或專輯的網址：\n例如：https://open.spotify.com/album/xxxxx');
+    if (!url) return;
+
+    const match = url.match(/open\.spotify\.com\/(track|album|playlist)\/([a-zA-Z0-9]+)/);
+    if (!match) {
+      alert('無法辨識 Spotify 網址，請確認格式正確。');
+      return;
+    }
+
+    const type = match[1];
+    const id = match[2];
+    const iframe = `\n<iframe style="border-radius:12px" src="https://open.spotify.com/embed/${type}/${id}" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>\n`;
+
+    const ta = document.getElementById('postContent');
+    const pos = ta.selectionStart;
+    ta.value = ta.value.substring(0, pos) + iframe + ta.value.substring(pos);
+    ta.focus();
+  }
+
+  function insertYouTube() {
+    const url = prompt('請貼上 YouTube 影片網址：\n例如：https://www.youtube.com/watch?v=xxxxx');
+    if (!url) return;
+
+    let videoId = '';
+    const match1 = url.match(/[?&]v=([a-zA-Z0-9_-]+)/);
+    const match2 = url.match(/youtu\.be\/([a-zA-Z0-9_-]+)/);
+    if (match1) videoId = match1[1];
+    else if (match2) videoId = match2[1];
+
+    if (!videoId) {
+      alert('無法辨識 YouTube 網址，請確認格式正確。');
+      return;
+    }
+
+    const iframe = `\n<iframe width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>\n`;
+
+    const ta = document.getElementById('postContent');
+    const pos = ta.selectionStart;
+    ta.value = ta.value.substring(0, pos) + iframe + ta.value.substring(pos);
+    ta.focus();
+  }
+
+  function saveDraft() {
+    const draft = {
+      title: document.getElementById('postTitle').value,
+      date: document.getElementById('postDate').value,
+      category: document.getElementById('postCategory').value,
+      content: document.getElementById('postContent').value
+    };
+    localStorage.setItem('post_draft', JSON.stringify(draft));
+    showStatus('editorStatus', '草稿已儲存！', 'success');
+  }
+
+  function clearAll() {
+    if (!confirm('確定要清除所有內容嗎？')) return;
+    document.getElementById('postTitle').value = '';
+    document.getElementById('postDate').value = new Date().toISOString().split('T')[0];
+    document.getElementById('postCategory').value = '樂評';
+    document.getElementById('postContent').value = '';
+    localStorage.removeItem('post_draft');
+    showStatus('editorStatus', '已清除。', 'success');
+  }
+
+  async function publish() {
+    const title = document.getElementById('postTitle').value.trim();
+    const date = document.getElementById('postDate').value;
+    const category = document.getElementById('postCategory').value;
+    const content = document.getElementById('postContent').value.trim();
+    const token = localStorage.getItem('gh_token');
+
+    if (!title) { alert('請輸入文章標題'); return; }
+    if (!date) { alert('請選擇日期'); return; }
+    if (!content) { alert('請輸入文章內容'); return; }
+
+    const btn = document.getElementById('publishBtn');
+    btn.disabled = true;
+    btn.textContent = '發佈中...';
+
+    // Build filename
+    const slug = title
+      .toLowerCase()
+      .replace(/[^\w\u4e00-\u9fff\u3400-\u4dbf]+/g, '-')
+      .replace(/^-+|-+$/g, '')
+      .substring(0, 50);
+    const filename = `_posts/${date}-${slug}.md`;
+
+    // Build front matter
+    const fileContent = `---\nlayout: post\ntitle: "${title}"\ndate: ${date}\ncategory: ${category}\n---\n\n${content}\n`;
+
+    try {
+      const res = await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/${filename}`, {
+        method: 'PUT',
+        headers: {
+          'Authorization': 'token ' + token,
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          message: `新文章：${title}`,
+          content: btoa(unescape(encodeURIComponent(fileContent)))
+        })
+      });
+
+      if (!res.ok) {
+        const err = await res.json();
+        throw new Error(err.message || '發佈失敗');
+      }
+
+      showStatus('editorStatus', '文章已成功發佈！網站將在 1-2 分鐘後自動更新。', 'success');
+      localStorage.removeItem('post_draft');
+      document.getElementById('postTitle').value = '';
+      document.getElementById('postContent').value = '';
+      document.getElementById('postDate').value = new Date().toISOString().split('T')[0];
+    } catch(e) {
+      showStatus('editorStatus', '發佈失敗：' + e.message, 'error');
+    }
+
+    btn.disabled = false;
+    btn.textContent = '發佈文章';
+  }
+
+  function showStatus(id, msg, type) {
+    const el = document.getElementById(id);
+    el.textContent = msg;
+    el.className = 'status ' + type;
+    if (type === 'success') {
+      setTimeout(() => { el.style.display = 'none'; el.className = 'status'; }, 5000);
+    }
+  }
+
+  // Auto-save draft every 30 seconds
+  setInterval(() => {
+    const content = document.getElementById('postContent').value;
+    if (content.trim()) saveDraft();
+  }, 30000);
+
+  // Enter key to login
+  document.getElementById('tokenInput').addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') login();
+  });
+</script>
+</body>
+</html>
