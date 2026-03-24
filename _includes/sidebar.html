@@ -1,0 +1,25 @@
+<aside class="sidebar">
+  <section class="sidebar-section">
+    <h3>最新文章</h3>
+    <ul class="post-list">
+      {% assign recent_posts = site.posts | slice: 0, 8 %}
+      {% for post in recent_posts %}
+      <li>
+        <a href="{{ post.url | relative_url }}" {% if page.url == post.url %}class="active"{% endif %}>
+          <span class="post-list-title">{{ post.title }}</span>
+          <span class="post-list-date">{{ post.date | date: "%m/%d" }}</span>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section class="sidebar-section">
+    <h3>分類</h3>
+    <ul class="category-list">
+      <li><a href="{{ '/music-reviews' | relative_url }}">樂評</a></li>
+      <li><a href="{{ '/reflections' | relative_url }}">個人心得</a></li>
+      <li><a href="{{ '/life' | relative_url }}">生活紀錄</a></li>
+    </ul>
+  </section>
+</aside>

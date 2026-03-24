@@ -1,0 +1,37 @@
+# Site settings
+title: 無聊男子的自言自語
+description: 樂評 · 心得 · 生活紀錄
+author: tediousman
+url: "https://tediousman.github.io"
+baseurl: ""
+lang: zh-TW
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title/
+paginate: 10
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Collections / Categories
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+# Exclude
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

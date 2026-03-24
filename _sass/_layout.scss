@@ -1,0 +1,107 @@
+.site-main {
+  min-height: calc(100vh - #{$header-height} - 80px);
+  padding: 40px 0;
+}
+
+.content-wrapper {
+  display: flex;
+  gap: $gap;
+}
+
+.main-content {
+  flex: 1;
+  min-width: 0;
+}
+
+// Post styles
+.post-header {
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid $border-color;
+}
+
+.post-title {
+  font-size: 2rem;
+  margin-bottom: 0.3em;
+}
+
+.post-meta {
+  color: $text-muted;
+  font-size: 0.85rem;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.post-category {
+  background: $bg-tertiary;
+  padding: 2px 10px;
+  border-radius: 3px;
+  color: $accent;
+  font-size: 0.8rem;
+}
+
+.post-content {
+  h2 {
+    margin-top: 2em;
+  }
+
+  ul, ol {
+    padding-left: 1.5em;
+    margin-bottom: 1em;
+  }
+
+  li {
+    margin-bottom: 0.3em;
+  }
+}
+
+// Page styles
+.page-header {
+  margin-bottom: 1.5em;
+  padding-bottom: 0.8em;
+  border-bottom: 1px solid $border-color;
+}
+
+// Post cards on index / category pages
+.post-card {
+  padding: 1.5em 0;
+  border-bottom: 1px solid $border-color;
+
+  &:first-child {
+    padding-top: 0;
+  }
+
+  h2 {
+    margin: 0 0 0.3em;
+    font-size: 1.3rem;
+
+    a {
+      color: $text-primary;
+
+      &:hover {
+        color: $accent;
+      }
+    }
+  }
+
+  .post-meta {
+    margin-bottom: 0.5em;
+  }
+
+  .post-excerpt {
+    color: $text-secondary;
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: $mobile) {
+  .content-wrapper {
+    flex-direction: column;
+  }
+
+  .post-title {
+    font-size: 1.5rem;
+  }
+}

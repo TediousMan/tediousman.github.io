@@ -1,0 +1,98 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: $font-size-base;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-body;
+  background-color: $bg-primary;
+  color: $text-primary;
+  line-height: $line-height-base;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+  transition: color 0.2s;
+
+  &:hover {
+    color: $link-hover;
+  }
+}
+
+h1, h2, h3, h4 {
+  font-family: $font-heading;
+  font-weight: 600;
+  line-height: 1.3;
+  color: $text-primary;
+}
+
+h1 { font-size: 1.8rem; margin-bottom: 0.5em; }
+h2 { font-size: 1.4rem; margin: 1.5em 0 0.5em; }
+h3 { font-size: 1.15rem; margin: 1.2em 0 0.4em; }
+
+p {
+  margin-bottom: 1em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+blockquote {
+  border-left: 3px solid $accent;
+  padding-left: 1em;
+  margin: 1.5em 0;
+  color: $text-secondary;
+  font-style: italic;
+}
+
+code {
+  font-family: $font-mono;
+  background: $bg-tertiary;
+  padding: 0.15em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+pre {
+  background: $bg-secondary;
+  border: 1px solid $border-color;
+  border-radius: 4px;
+  padding: 1em;
+  overflow-x: auto;
+  margin: 1.5em 0;
+
+  code {
+    background: none;
+    padding: 0;
+  }
+}
+
+hr {
+  border: none;
+  border-top: 1px solid $border-color;
+  margin: 2em 0;
+}
+
+// Embed support (Spotify, YouTube, etc.)
+iframe {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 1em 0;
+}
+
+.container {
+  max-width: $container-width;
+  margin: 0 auto;
+  padding: 0 20px;
+}

@@ -1,0 +1,19 @@
+---
+layout: default
+title: 首頁
+---
+
+<h1>最新文章</h1>
+
+{% for post in site.posts %}
+<div class="post-card">
+  <div class="post-meta">
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y 年 %m 月 %d 日" }}</time>
+    {% if post.category %}
+    <span class="post-category">{{ post.category }}</span>
+    {% endif %}
+  </div>
+  <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+  <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
+</div>
+{% endfor %}

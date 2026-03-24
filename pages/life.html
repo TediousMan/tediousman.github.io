@@ -1,0 +1,22 @@
+---
+layout: default
+title: 生活紀錄
+permalink: /life/
+---
+
+<h1>生活紀錄</h1>
+
+{% assign posts = site.posts | where: "category", "生活紀錄" %}
+{% for post in posts %}
+<div class="post-card">
+  <div class="post-meta">
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y 年 %m 月 %d 日" }}</time>
+  </div>
+  <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+  <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
+</div>
+{% endfor %}
+
+{% if posts.size == 0 %}
+<p style="color: #666;">目前還沒有生活紀錄文章。</p>
+{% endif %}
