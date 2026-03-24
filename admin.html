@@ -239,9 +239,165 @@ permalink: /admin/
     }
     .logout-btn:hover { text-decoration: underline; }
 
+    /* Nav tabs for admin sections */
+    .admin-nav {
+      display: flex;
+      gap: 0;
+      background: #222;
+      border-bottom: 1px solid #333;
+      padding: 0 24px;
+    }
+    .admin-nav button {
+      padding: 12px 24px;
+      background: transparent;
+      border: none;
+      border-bottom: 2px solid transparent;
+      color: #999;
+      cursor: pointer;
+      font-size: 0.95rem;
+      transition: all 0.2s;
+    }
+    .admin-nav button:hover { color: #fff; }
+    .admin-nav button.active {
+      color: #4a9eff;
+      border-bottom-color: #4a9eff;
+    }
+    .admin-section { display: none; }
+    .admin-section.active { display: block; }
+
+    /* Analytics styles */
+    .analytics-container {
+      max-width: 1000px;
+      margin: 32px auto;
+      padding: 0 24px;
+    }
+    .analytics-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+    .stat-card {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+    }
+    .stat-card .stat-value {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #4a9eff;
+      margin-bottom: 4px;
+    }
+    .stat-card .stat-label {
+      font-size: 0.85rem;
+      color: #999;
+    }
+    .analytics-section {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 8px;
+      padding: 24px;
+      margin-bottom: 24px;
+    }
+    .analytics-section h3 {
+      font-size: 1.1rem;
+      color: #fff;
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid #333;
+    }
+    .country-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .country-table th,
+    .country-table td {
+      padding: 10px 12px;
+      text-align: left;
+      border-bottom: 1px solid #333;
+    }
+    .country-table th {
+      color: #999;
+      font-size: 0.85rem;
+      font-weight: 500;
+    }
+    .country-table td { font-size: 0.9rem; }
+    .country-bar {
+      height: 6px;
+      background: #4a9eff;
+      border-radius: 3px;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 8px;
+    }
+    .page-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .page-table th,
+    .page-table td {
+      padding: 10px 12px;
+      text-align: left;
+      border-bottom: 1px solid #333;
+    }
+    .page-table th {
+      color: #999;
+      font-size: 0.85rem;
+      font-weight: 500;
+    }
+    .page-table td { font-size: 0.9rem; }
+    .ga-setup-box {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 8px;
+      padding: 32px;
+      max-width: 600px;
+      margin: 40px auto;
+    }
+    .ga-setup-box h3 { margin-bottom: 16px; }
+    .ga-setup-box p { color: #999; line-height: 1.6; margin-bottom: 12px; font-size: 0.9rem; }
+    .ga-setup-box ol { color: #bbb; padding-left: 20px; line-height: 2; font-size: 0.9rem; }
+    .ga-setup-box code {
+      background: #333;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-size: 0.85rem;
+    }
+    .date-range-picker {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      margin-bottom: 24px;
+    }
+    .date-range-picker select,
+    .date-range-picker input {
+      padding: 8px 12px;
+      background: #2a2a2a;
+      border: 1px solid #444;
+      border-radius: 6px;
+      color: #e0e0e0;
+      font-size: 0.9rem;
+    }
+    .loading-spinner {
+      text-align: center;
+      padding: 40px;
+      color: #999;
+    }
+
     @media (max-width: 600px) {
       .form-row { flex-direction: column; gap: 0; }
       .editor-container { padding: 0 12px; }
+      .analytics-container { padding: 0 12px; }
+      .analytics-grid { grid-template-columns: 1fr 1fr; }
+      .analytics-section h3 { font-size: 1rem; }
+      div[style*="grid-template-columns: 1fr 1fr"] {
+        display: block !important;
+      }
+      div[style*="grid-template-columns: 1fr 1fr"] > div {
+        margin-bottom: 16px;
+      }
     }
   </style>
 </head>
@@ -270,13 +426,20 @@ permalink: /admin/
 <!-- Editor Screen -->
 <div id="editorScreen" style="display: none;">
   <div class="admin-header">
-    <h1>發表新文章</h1>
+    <h1>管理後台</h1>
     <div>
       <a href="{{ '/' | relative_url }}" style="margin-right: 16px;">← 回到首頁</a>
       <button class="logout-btn" onclick="logout()">登出</button>
     </div>
   </div>
 
+  <div class="admin-nav">
+    <button class="active" onclick="switchAdminTab('editor')">發表文章</button>
+    <button onclick="switchAdminTab('analytics')">數據分析</button>
+  </div>
+
+  <!-- Editor Section -->
+  <div id="editorSection" class="admin-section active">
   <div class="editor-container">
     <div id="editorStatus" class="status"></div>
 
@@ -333,6 +496,99 @@ permalink: /admin/
       <button class="btn btn-danger" onclick="clearAll()">清除</button>
     </div>
   </div>
+  </div><!-- end editorSection -->
+
+  <!-- Analytics Section -->
+  <div id="analyticsSection" class="admin-section">
+    <div class="analytics-container">
+
+      <div id="gaNotConfigured" style="display:none;">
+        <div class="ga-setup-box">
+          <h3>設定 Google Analytics</h3>
+          <p>要使用數據分析功能，你需要先設定 Google Analytics 4。以下是設定步驟：</p>
+          <ol>
+            <li>前往 <a href="https://analytics.google.com" target="_blank" style="color:#4a9eff;">Google Analytics</a> 建立帳戶</li>
+            <li>建立新的 GA4 資源（屬性），網站填入 <code>https://tediousman.github.io</code></li>
+            <li>取得「測量 ID」（格式為 <code>G-XXXXXXXXXX</code>）</li>
+            <li>在下方輸入你的測量 ID 並儲存</li>
+          </ol>
+          <div class="form-group" style="margin-top: 20px;">
+            <label for="gaIdInput">GA4 測量 ID</label>
+            <input type="text" id="gaIdInput" placeholder="G-XXXXXXXXXX">
+          </div>
+          <div style="margin-top: 12px; display: flex; gap: 12px;">
+            <button class="btn btn-primary" onclick="saveGaId()">儲存設定</button>
+          </div>
+          <p style="margin-top: 16px; font-size: 0.8rem; color: #666;">
+            儲存後需要將測量 ID 更新到 <code>_config.yml</code> 並重新部署網站。<br>
+            GA 通常需要 24-48 小時才會開始顯示數據。
+          </p>
+        </div>
+      </div>
+
+      <div id="gaConfigured" style="display:none;">
+        <div class="date-range-picker">
+          <label style="color:#999; font-size:0.9rem;">時間範圍：</label>
+          <select id="dateRange" onchange="loadAnalytics()">
+            <option value="7">過去 7 天</option>
+            <option value="30" selected>過去 30 天</option>
+            <option value="90">過去 90 天</option>
+          </select>
+          <button class="btn btn-secondary" onclick="loadAnalytics()" style="padding:8px 16px; font-size:0.85rem;">重新整理</button>
+        </div>
+
+        <div class="analytics-grid">
+          <div class="stat-card">
+            <div class="stat-value" id="totalPageviews">--</div>
+            <div class="stat-label">總瀏覽量</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value" id="totalUsers">--</div>
+            <div class="stat-label">總訪客數</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value" id="avgDuration">--</div>
+            <div class="stat-label">平均停留時間</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value" id="bounceRate">--</div>
+            <div class="stat-label">跳出率</div>
+          </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px;">
+          <div class="analytics-section">
+            <h3>訪客國家/地區</h3>
+            <div id="countryData">
+              <div class="loading-spinner">載入中...</div>
+            </div>
+          </div>
+
+          <div class="analytics-section">
+            <h3>熱門頁面</h3>
+            <div id="pageData">
+              <div class="loading-spinner">載入中...</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="analytics-section">
+          <h3>每日瀏覽趨勢</h3>
+          <div id="dailyChart" style="height: 200px; display: flex; align-items: flex-end; gap: 2px; padding-top: 20px;">
+            <div class="loading-spinner" style="width:100%;">載入中...</div>
+          </div>
+        </div>
+
+        <div class="analytics-section" style="text-align: center; padding: 16px;">
+          <a href="https://analytics.google.com" target="_blank" style="color: #4a9eff; font-size: 0.9rem;">
+            前往 Google Analytics 查看完整報告 →
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div><!-- end analyticsSection -->
+
 </div>
 
 <script>
@@ -613,6 +869,342 @@ permalink: /admin/
   document.getElementById('tokenInput').addEventListener('keydown', function(e) {
     if (e.key === 'Enter') login();
   });
+
+  // ========== Admin Tab Navigation ==========
+  function switchAdminTab(tab) {
+    document.querySelectorAll('.admin-nav button').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.admin-section').forEach(s => s.classList.remove('active'));
+
+    if (tab === 'editor') {
+      document.querySelector('.admin-nav button:nth-child(1)').classList.add('active');
+      document.getElementById('editorSection').classList.add('active');
+    } else if (tab === 'analytics') {
+      document.querySelector('.admin-nav button:nth-child(2)').classList.add('active');
+      document.getElementById('analyticsSection').classList.add('active');
+      initAnalytics();
+    }
+  }
+
+  // ========== Google Analytics Integration ==========
+  const GA_PROPERTY_ID_KEY = 'ga_property_id';
+  const GA_TOKEN_KEY = 'ga_access_token';
+
+  function initAnalytics() {
+    const propertyId = localStorage.getItem(GA_PROPERTY_ID_KEY);
+    if (propertyId) {
+      document.getElementById('gaNotConfigured').style.display = 'none';
+      document.getElementById('gaConfigured').style.display = 'block';
+      loadAnalytics();
+    } else {
+      document.getElementById('gaNotConfigured').style.display = 'block';
+      document.getElementById('gaConfigured').style.display = 'none';
+    }
+  }
+
+  function saveGaId() {
+    const gaId = document.getElementById('gaIdInput').value.trim();
+    if (!gaId || !gaId.startsWith('G-')) {
+      alert('請輸入有效的 GA4 測量 ID（格式為 G-XXXXXXXXXX）');
+      return;
+    }
+    localStorage.setItem(GA_PROPERTY_ID_KEY, gaId);
+    alert('已儲存！\n\n接下來請：\n1. 到你的 _config.yml 檔案中取消 google_analytics 的註解\n2. 填入測量 ID：' + gaId + '\n3. 重新部署網站\n\nGA 需要 24-48 小時才會開始收集數據。');
+    initAnalytics();
+  }
+
+  async function loadAnalytics() {
+    const gaToken = localStorage.getItem(GA_TOKEN_KEY);
+    if (gaToken) {
+      await fetchGAData(gaToken);
+    } else {
+      loadAnalyticsFromBusuanzi();
+    }
+  }
+
+  function loadAnalyticsFromBusuanzi() {
+    // Use busuanzi data + simulated analytics for demo
+    // Real-time stats from busuanzi
+    setTimeout(() => {
+      const sitePv = document.getElementById('busuanzi_value_site_pv');
+      const siteUv = document.getElementById('busuanzi_value_site_uv');
+
+      const pvText = sitePv ? sitePv.textContent : '--';
+      const uvText = siteUv ? siteUv.textContent : '--';
+
+      document.getElementById('totalPageviews').textContent = pvText !== '--' ? pvText : '等待數據';
+      document.getElementById('totalUsers').textContent = uvText !== '--' ? uvText : '等待數據';
+      document.getElementById('avgDuration').textContent = '--';
+      document.getElementById('bounceRate').textContent = '--';
+
+      // Show info about GA for detailed stats
+      document.getElementById('countryData').innerHTML = `
+        <div style="text-align: center; padding: 20px; color: #999;">
+          <p style="margin-bottom: 12px;">需要連接 Google Analytics 才能查看國家統計</p>
+          <p style="font-size: 0.8rem;">基本瀏覽量由不蒜子提供<br>詳細分析（國家、停留時間等）需要 GA4</p>
+          <button class="btn btn-secondary" onclick="startGAAuth()" style="margin-top: 16px; font-size: 0.85rem;">
+            連接 Google Analytics
+          </button>
+        </div>`;
+
+      document.getElementById('pageData').innerHTML = `
+        <div style="text-align: center; padding: 20px; color: #999;">
+          <p style="margin-bottom: 12px;">需要連接 Google Analytics 才能查看頁面統計</p>
+        </div>`;
+
+      // Render placeholder chart
+      document.getElementById('dailyChart').innerHTML = `
+        <div style="text-align: center; width: 100%; padding: 20px; color: #999;">
+          <p>連接 Google Analytics 後可查看每日趨勢圖表</p>
+        </div>`;
+    }, 1500);
+  }
+
+  function startGAAuth() {
+    // Google Analytics Data API requires OAuth2
+    // Redirect to Google OAuth consent screen
+    const clientId = localStorage.getItem('ga_client_id');
+    if (!clientId) {
+      const input = prompt(
+        'Google Analytics API 需要 OAuth2 驗證。\n\n' +
+        '請先在 Google Cloud Console 建立 OAuth2 Client ID：\n' +
+        '1. 前往 console.cloud.google.com\n' +
+        '2. 建立專案 → 啟用 Google Analytics Data API\n' +
+        '3. 建立 OAuth2 Client ID（Web 應用程式類型）\n' +
+        '4. 將重新導向 URI 設為：' + window.location.origin + '/admin/\n\n' +
+        '請輸入你的 OAuth2 Client ID：'
+      );
+      if (input) {
+        localStorage.setItem('ga_client_id', input.trim());
+        redirectToGoogleAuth(input.trim());
+      }
+      return;
+    }
+    redirectToGoogleAuth(clientId);
+  }
+
+  function redirectToGoogleAuth(clientId) {
+    const redirectUri = encodeURIComponent(window.location.origin + '/admin/');
+    const scope = encodeURIComponent('https://www.googleapis.com/auth/analytics.readonly');
+    const authUrl = `https://accounts.google.com/o/oauth2/v2/auth?client_id=${clientId}&redirect_uri=${redirectUri}&response_type=token&scope=${scope}`;
+    window.location.href = authUrl;
+  }
+
+  // Handle OAuth callback (token in URL hash)
+  (function handleOAuthCallback() {
+    const hash = window.location.hash;
+    if (hash.includes('access_token')) {
+      const params = new URLSearchParams(hash.substring(1));
+      const token = params.get('access_token');
+      if (token) {
+        localStorage.setItem(GA_TOKEN_KEY, token);
+        window.location.hash = '';
+        // Will load analytics on next init
+      }
+    }
+  })();
+
+  async function fetchGAData(token) {
+    const propertyId = localStorage.getItem(GA_PROPERTY_ID_KEY);
+    if (!propertyId) return;
+
+    // GA4 property IDs from measurement ID need lookup
+    // For now, we need the numeric property ID
+    const numericId = localStorage.getItem('ga_numeric_property_id');
+    if (!numericId) {
+      // Try to list properties to find matching one
+      try {
+        const res = await fetch('https://analyticsadmin.googleapis.com/v1beta/accountSummaries', {
+          headers: { 'Authorization': 'Bearer ' + token }
+        });
+        if (res.status === 401) {
+          localStorage.removeItem(GA_TOKEN_KEY);
+          loadAnalyticsFromBusuanzi();
+          return;
+        }
+        const data = await res.json();
+        if (data.accountSummaries) {
+          let foundId = null;
+          for (const account of data.accountSummaries) {
+            if (account.propertySummaries) {
+              for (const prop of account.propertySummaries) {
+                if (prop.property) {
+                  // Store first property found; user may need to select
+                  foundId = prop.property.replace('properties/', '');
+                  break;
+                }
+              }
+            }
+            if (foundId) break;
+          }
+          if (foundId) {
+            localStorage.setItem('ga_numeric_property_id', foundId);
+            await runGAReport(token, foundId);
+            return;
+          }
+        }
+      } catch(e) {
+        console.error('GA API error:', e);
+      }
+      loadAnalyticsFromBusuanzi();
+      return;
+    }
+
+    await runGAReport(token, numericId);
+  }
+
+  async function runGAReport(token, propertyId) {
+    const days = document.getElementById('dateRange').value;
+    const startDate = days + 'daysAgo';
+
+    try {
+      // Fetch main metrics
+      const metricsRes = await fetch(`https://analyticsdata.googleapis.com/v1beta/properties/${propertyId}:runReport`, {
+        method: 'POST',
+        headers: {
+          'Authorization': 'Bearer ' + token,
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          dateRanges: [{ startDate, endDate: 'today' }],
+          metrics: [
+            { name: 'screenPageViews' },
+            { name: 'totalUsers' },
+            { name: 'averageSessionDuration' },
+            { name: 'bounceRate' }
+          ]
+        })
+      });
+      const metricsData = await metricsRes.json();
+
+      if (metricsData.rows && metricsData.rows[0]) {
+        const vals = metricsData.rows[0].metricValues;
+        document.getElementById('totalPageviews').textContent = parseInt(vals[0].value).toLocaleString();
+        document.getElementById('totalUsers').textContent = parseInt(vals[1].value).toLocaleString();
+        const avgSec = parseFloat(vals[2].value);
+        const min = Math.floor(avgSec / 60);
+        const sec = Math.round(avgSec % 60);
+        document.getElementById('avgDuration').textContent = min + ':' + String(sec).padStart(2, '0');
+        document.getElementById('bounceRate').textContent = (parseFloat(vals[3].value) * 100).toFixed(1) + '%';
+      }
+
+      // Fetch country data
+      const countryRes = await fetch(`https://analyticsdata.googleapis.com/v1beta/properties/${propertyId}:runReport`, {
+        method: 'POST',
+        headers: {
+          'Authorization': 'Bearer ' + token,
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          dateRanges: [{ startDate, endDate: 'today' }],
+          dimensions: [{ name: 'country' }],
+          metrics: [{ name: 'totalUsers' }, { name: 'screenPageViews' }],
+          orderBys: [{ metric: { metricName: 'totalUsers' }, desc: true }],
+          limit: 10
+        })
+      });
+      const countryData = await countryRes.json();
+      renderCountryTable(countryData);
+
+      // Fetch top pages
+      const pageRes = await fetch(`https://analyticsdata.googleapis.com/v1beta/properties/${propertyId}:runReport`, {
+        method: 'POST',
+        headers: {
+          'Authorization': 'Bearer ' + token,
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          dateRanges: [{ startDate, endDate: 'today' }],
+          dimensions: [{ name: 'pagePath' }],
+          metrics: [{ name: 'screenPageViews' }],
+          orderBys: [{ metric: { metricName: 'screenPageViews' }, desc: true }],
+          limit: 10
+        })
+      });
+      const pageData = await pageRes.json();
+      renderPageTable(pageData);
+
+      // Fetch daily data for chart
+      const dailyRes = await fetch(`https://analyticsdata.googleapis.com/v1beta/properties/${propertyId}:runReport`, {
+        method: 'POST',
+        headers: {
+          'Authorization': 'Bearer ' + token,
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          dateRanges: [{ startDate, endDate: 'today' }],
+          dimensions: [{ name: 'date' }],
+          metrics: [{ name: 'screenPageViews' }],
+          orderBys: [{ dimension: { dimensionName: 'date' }, desc: false }]
+        })
+      });
+      const dailyData = await dailyRes.json();
+      renderDailyChart(dailyData);
+
+    } catch(e) {
+      console.error('GA fetch error:', e);
+      loadAnalyticsFromBusuanzi();
+    }
+  }
+
+  function renderCountryTable(data) {
+    const el = document.getElementById('countryData');
+    if (!data.rows || data.rows.length === 0) {
+      el.innerHTML = '<p style="color:#999; text-align:center; padding:20px;">尚無數據</p>';
+      return;
+    }
+    const maxUsers = Math.max(...data.rows.map(r => parseInt(r.metricValues[0].value)));
+    let html = '<table class="country-table"><thead><tr><th>國家/地區</th><th>訪客</th><th>瀏覽量</th></tr></thead><tbody>';
+    for (const row of data.rows) {
+      const country = row.dimensionValues[0].value;
+      const users = parseInt(row.metricValues[0].value);
+      const views = parseInt(row.metricValues[1].value);
+      const barWidth = Math.max(4, (users / maxUsers) * 80);
+      html += `<tr><td><span class="country-bar" style="width:${barWidth}px"></span>${country}</td><td>${users.toLocaleString()}</td><td>${views.toLocaleString()}</td></tr>`;
+    }
+    html += '</tbody></table>';
+    el.innerHTML = html;
+  }
+
+  function renderPageTable(data) {
+    const el = document.getElementById('pageData');
+    if (!data.rows || data.rows.length === 0) {
+      el.innerHTML = '<p style="color:#999; text-align:center; padding:20px;">尚無數據</p>';
+      return;
+    }
+    let html = '<table class="page-table"><thead><tr><th>頁面路徑</th><th>瀏覽量</th></tr></thead><tbody>';
+    for (const row of data.rows) {
+      const path = row.dimensionValues[0].value;
+      const views = parseInt(row.metricValues[0].value);
+      html += `<tr><td style="word-break:break-all;">${path}</td><td>${views.toLocaleString()}</td></tr>`;
+    }
+    html += '</tbody></table>';
+    el.innerHTML = html;
+  }
+
+  function renderDailyChart(data) {
+    const el = document.getElementById('dailyChart');
+    if (!data.rows || data.rows.length === 0) {
+      el.innerHTML = '<p style="color:#999; text-align:center; width:100%; padding:20px;">尚無數據</p>';
+      return;
+    }
+    const values = data.rows.map(r => parseInt(r.metricValues[0].value));
+    const maxVal = Math.max(...values);
+    const barWidth = Math.max(4, Math.floor((el.offsetWidth - data.rows.length * 2) / data.rows.length));
+
+    let html = '';
+    for (let i = 0; i < data.rows.length; i++) {
+      const val = values[i];
+      const height = maxVal > 0 ? Math.max(2, (val / maxVal) * 180) : 2;
+      const dateStr = data.rows[i].dimensionValues[0].value;
+      const displayDate = dateStr.substring(4, 6) + '/' + dateStr.substring(6, 8);
+      html += `<div style="display:flex; flex-direction:column; align-items:center; flex:1; min-width:0;">
+        <span style="font-size:0.7rem; color:#999; margin-bottom:4px;">${val}</span>
+        <div style="width:100%; max-width:${barWidth}px; height:${height}px; background:#4a9eff; border-radius:2px 2px 0 0;" title="${displayDate}: ${val} 瀏覽"></div>
+        <span style="font-size:0.6rem; color:#666; margin-top:4px; transform:rotate(-45deg); white-space:nowrap;">${displayDate}</span>
+      </div>`;
+    }
+    el.innerHTML = html;
+  }
 </script>
 </body>
 </html>

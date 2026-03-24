@@ -29,6 +29,9 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
 
+# Google Analytics 4 (填入你的 GA4 測量 ID，例如 G-XXXXXXXXXX)
+# google_analytics: G-XXXXXXXXXX
+
 # Exclude
 exclude:
   - Gemfile

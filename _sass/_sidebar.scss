@@ -73,6 +73,35 @@
   }
 }
 
+.visitor-counter {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.visitor-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+  border-bottom: 1px solid rgba($border-color, 0.5);
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.visitor-label {
+  font-size: 0.85rem;
+  color: $text-muted;
+}
+
+.visitor-count {
+  font-size: 1rem;
+  font-weight: 600;
+  color: $text-primary;
+}
+
 @media (max-width: $mobile) {
   .sidebar {
     width: 100%;
