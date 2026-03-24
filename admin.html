@@ -1334,25 +1334,14 @@ permalink: /admin/
   }
 
   function startGAAuth() {
-    // Google Analytics Data API requires OAuth2
-    // Redirect to Google OAuth consent screen
-    const clientId = localStorage.getItem('ga_client_id');
+    let clientId = localStorage.getItem('ga_client_id');
     if (!clientId) {
-      const input = prompt(
-        'Google Analytics API 需要 OAuth2 驗證。\n\n' +
-        '請先在 Google Cloud Console 建立 OAuth2 Client ID：\n' +
-        '1. 前往 console.cloud.google.com\n' +
-        '2. 建立專案 → 啟用 Google Analytics Data API\n' +
-        '3. 建立 OAuth2 Client ID（Web 應用程式類型）\n' +
-        '4. 將重新導向 URI 設為：' + window.location.origin + '/admin/\n\n' +
-        '請輸入你的 OAuth2 Client ID：'
-      );
-      if (input) {
-        localStorage.setItem('ga_client_id', input.trim());
-        redirectToGoogleAuth(input.trim());
-      }
-      return;
+      clientId = prompt('請輸入你的 Google OAuth2 Client ID：');
+      if (!clientId) return;
+      localStorage.setItem('ga_client_id', clientId.trim());
+      clientId = clientId.trim();
     }
+    localStorage.setItem('go_to_analytics', 'true');
     redirectToGoogleAuth(clientId);
   }
 
@@ -1371,9 +1360,20 @@ permalink: /admin/
       const token = params.get('access_token');
       if (token) {
         localStorage.setItem(GA_TOKEN_KEY, token);
+        localStorage.setItem('go_to_analytics', 'true');
         window.location.hash = '';
-        // Will load analytics on next init
+        window.location.replace(window.location.pathname);
+        return;
       }
+    }
+    // Auto-switch to analytics tab if redirected back from OAuth
+    if (localStorage.getItem('go_to_analytics') === 'true') {
+      localStorage.removeItem('go_to_analytics');
+      setTimeout(() => {
+        if (localStorage.getItem('gh_token')) {
+          switchAdminTab('analytics');
+        }
+      }, 300);
     }
   })();
 
