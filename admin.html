@@ -547,7 +547,7 @@ permalink: /admin/
       <div class="form-group">
         <label for="postCategory">分類</label>
         <select id="postCategory">
-          <option value="樂評">樂評</option>
+          <option value="音樂記錄">音樂記錄</option>
           <option value="個人心得">個人心得</option>
           <option value="生活紀錄">生活紀錄</option>
         </select>
@@ -595,7 +595,7 @@ permalink: /admin/
         <div class="post-filter">
           <select id="postFilter" onchange="filterPosts()">
             <option value="all">全部分類</option>
-            <option value="樂評">樂評</option>
+            <option value="音樂記錄">音樂記錄</option>
             <option value="個人心得">個人心得</option>
             <option value="生活紀錄">生活紀錄</option>
           </select>
@@ -898,7 +898,7 @@ permalink: /admin/
     if (!confirm('確定要清除所有內容嗎？')) return;
     document.getElementById('postTitle').value = '';
     document.getElementById('postDate').value = new Date().toISOString().split('T')[0];
-    document.getElementById('postCategory').value = '樂評';
+    document.getElementById('postCategory').value = '音樂記錄';
     document.getElementById('postContent').value = '';
     localStorage.removeItem('post_draft');
     showStatus('editorStatus', '已清除。', 'success');
@@ -1123,7 +1123,7 @@ permalink: /admin/
     // Fill in the editor fields
     document.getElementById('postTitle').value = post.title || '';
     document.getElementById('postDate').value = post.date || '';
-    document.getElementById('postCategory').value = post.category || '樂評';
+    document.getElementById('postCategory').value = post.category || '音樂記錄';
     document.getElementById('postContent').value = body;
 
     // Store editing state
@@ -1225,7 +1225,7 @@ permalink: /admin/
     document.getElementById('postTitle').value = '';
     document.getElementById('postContent').value = '';
     document.getElementById('postDate').value = new Date().toISOString().split('T')[0];
-    document.getElementById('postCategory').value = '樂評';
+    document.getElementById('postCategory').value = '音樂記錄';
     localStorage.removeItem('post_draft');
   }
 

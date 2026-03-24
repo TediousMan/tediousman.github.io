@@ -1,12 +1,12 @@
 ---
 layout: default
-title: 樂評
+title: 音樂記錄
 permalink: /music-reviews/
 ---
 
-<h1>樂評</h1>
+<h1>音樂記錄</h1>
 
-{% assign posts = site.posts | where: "category", "樂評" %}
+{% assign posts = site.posts | where: "category", "音樂記錄" %}
 {% for post in posts %}
 <div class="post-card">
   <div class="post-meta">
@@ -18,5 +18,5 @@ permalink: /music-reviews/
 {% endfor %}
 
 {% if posts.size == 0 %}
-<p style="color: #666;">目前還沒有樂評文章。</p>
+<p style="color: #666;">目前還沒有音樂記錄文章。</p>
 {% endif %}
