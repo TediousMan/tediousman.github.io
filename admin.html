@@ -1013,6 +1013,11 @@ permalink: /admin/
       const res = await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/_posts`, {
         headers: { 'Authorization': 'token ' + token }
       });
+      if (res.status === 404) {
+        listEl.innerHTML = '<div class="posts-loading">目前沒有任何文章，請先到「發表文章」新增文章。</div>';
+        allPosts = [];
+        return;
+      }
       if (!res.ok) throw new Error('無法載入文章列表');
       const files = await res.json();
 
