@@ -386,6 +386,94 @@ permalink: /admin/
       color: #999;
     }
 
+    /* Post management styles */
+    .posts-container {
+      max-width: 900px;
+      margin: 32px auto;
+      padding: 0 24px;
+    }
+    .posts-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .posts-header h2 {
+      font-size: 1.2rem;
+      color: #fff;
+    }
+    .post-item {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin-bottom: 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: border-color 0.2s;
+    }
+    .post-item:hover { border-color: #555; }
+    .post-item-info {
+      flex: 1;
+      min-width: 0;
+    }
+    .post-item-title {
+      font-size: 1rem;
+      color: #fff;
+      margin-bottom: 4px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .post-item-meta {
+      font-size: 0.8rem;
+      color: #888;
+    }
+    .post-item-meta span { margin-right: 12px; }
+    .post-item-actions {
+      display: flex;
+      gap: 8px;
+      flex-shrink: 0;
+      margin-left: 16px;
+    }
+    .btn-sm {
+      padding: 6px 14px;
+      font-size: 0.82rem;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .btn-edit {
+      background: #3a3a3a;
+      color: #4a9eff;
+    }
+    .btn-edit:hover { background: #4a9eff; color: #fff; }
+    .btn-delete {
+      background: #3a3a3a;
+      color: #e74c3c;
+    }
+    .btn-delete:hover { background: #e74c3c; color: #fff; }
+    .posts-loading {
+      text-align: center;
+      padding: 60px 20px;
+      color: #999;
+    }
+    .post-filter {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+    .post-filter select {
+      padding: 6px 12px;
+      background: #2a2a2a;
+      border: 1px solid #444;
+      border-radius: 4px;
+      color: #e0e0e0;
+      font-size: 0.85rem;
+    }
+
     @media (max-width: 600px) {
       .form-row { flex-direction: column; gap: 0; }
       .editor-container { padding: 0 12px; }
@@ -435,6 +523,7 @@ permalink: /admin/
 
   <div class="admin-nav">
     <button class="active" onclick="switchAdminTab('editor')">發表文章</button>
+    <button onclick="switchAdminTab('posts')">文章管理</button>
     <button onclick="switchAdminTab('analytics')">數據分析</button>
   </div>
 
@@ -497,6 +586,28 @@ permalink: /admin/
     </div>
   </div>
   </div><!-- end editorSection -->
+
+  <!-- Posts Management Section -->
+  <div id="postsSection" class="admin-section">
+    <div class="posts-container">
+      <div class="posts-header">
+        <h2>所有文章</h2>
+        <div class="post-filter">
+          <select id="postFilter" onchange="filterPosts()">
+            <option value="all">全部分類</option>
+            <option value="樂評">樂評</option>
+            <option value="個人心得">個人心得</option>
+            <option value="生活紀錄">生活紀錄</option>
+          </select>
+          <button class="btn btn-secondary" onclick="loadPosts()" style="padding:6px 14px; font-size:0.85rem;">重新整理</button>
+        </div>
+      </div>
+      <div id="postsStatus" class="status"></div>
+      <div id="postsList">
+        <div class="posts-loading">載入中...</div>
+      </div>
+    </div>
+  </div><!-- end postsSection -->
 
   <!-- Analytics Section -->
   <div id="analyticsSection" class="admin-section">
@@ -878,10 +989,268 @@ permalink: /admin/
     if (tab === 'editor') {
       document.querySelector('.admin-nav button:nth-child(1)').classList.add('active');
       document.getElementById('editorSection').classList.add('active');
-    } else if (tab === 'analytics') {
+    } else if (tab === 'posts') {
       document.querySelector('.admin-nav button:nth-child(2)').classList.add('active');
+      document.getElementById('postsSection').classList.add('active');
+      loadPosts();
+    } else if (tab === 'analytics') {
+      document.querySelector('.admin-nav button:nth-child(3)').classList.add('active');
       document.getElementById('analyticsSection').classList.add('active');
       initAnalytics();
+    }
+  }
+
+  // ========== Post Management ==========
+  let allPosts = [];
+  let editingFile = null; // track if we are editing an existing post
+
+  async function loadPosts() {
+    const token = localStorage.getItem('gh_token');
+    const listEl = document.getElementById('postsList');
+    listEl.innerHTML = '<div class="posts-loading">載入中...</div>';
+
+    try {
+      const res = await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/_posts`, {
+        headers: { 'Authorization': 'token ' + token }
+      });
+      if (!res.ok) throw new Error('無法載入文章列表');
+      const files = await res.json();
+
+      allPosts = files
+        .filter(f => f.name.endsWith('.md'))
+        .map(f => {
+          const match = f.name.match(/^(\d{4}-\d{2}-\d{2})-(.+)\.md$/);
+          return {
+            filename: f.name,
+            path: f.path,
+            sha: f.sha,
+            date: match ? match[1] : '',
+            slug: match ? match[2] : f.name
+          };
+        })
+        .sort((a, b) => b.date.localeCompare(a.date));
+
+      // Fetch front matter for each post to get title & category
+      await Promise.all(allPosts.map(async (post) => {
+        try {
+          const r = await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/${post.path}`, {
+            headers: { 'Authorization': 'token ' + token }
+          });
+          const data = await r.json();
+          const content = decodeURIComponent(escape(atob(data.content)));
+          post.sha = data.sha;
+          post.rawContent = content;
+
+          const fmMatch = content.match(/^---\n([\s\S]*?)\n---/);
+          if (fmMatch) {
+            const fm = fmMatch[1];
+            const titleMatch = fm.match(/title:\s*"?(.+?)"?\s*$/m);
+            const catMatch = fm.match(/category:\s*(.+)$/m);
+            post.title = titleMatch ? titleMatch[1] : post.slug;
+            post.category = catMatch ? catMatch[1].trim() : '';
+          } else {
+            post.title = post.slug;
+            post.category = '';
+          }
+        } catch(e) {
+          post.title = post.slug;
+          post.category = '';
+        }
+      }));
+
+      renderPosts(allPosts);
+    } catch(e) {
+      listEl.innerHTML = `<div class="posts-loading">載入失敗：${e.message}</div>`;
+    }
+  }
+
+  function filterPosts() {
+    const filter = document.getElementById('postFilter').value;
+    if (filter === 'all') {
+      renderPosts(allPosts);
+    } else {
+      renderPosts(allPosts.filter(p => p.category === filter));
+    }
+  }
+
+  function renderPosts(posts) {
+    const listEl = document.getElementById('postsList');
+    if (posts.length === 0) {
+      listEl.innerHTML = '<div class="posts-loading">沒有找到文章</div>';
+      return;
+    }
+
+    listEl.innerHTML = posts.map(post => `
+      <div class="post-item">
+        <div class="post-item-info">
+          <div class="post-item-title">${post.title}</div>
+          <div class="post-item-meta">
+            <span>${post.date}</span>
+            <span>${post.category || '未分類'}</span>
+            <span>${post.filename}</span>
+          </div>
+        </div>
+        <div class="post-item-actions">
+          <button class="btn-sm btn-edit" onclick="editPost('${post.path}')">編輯</button>
+          <button class="btn-sm btn-delete" onclick="deletePost('${post.path}', '${post.sha}', '${post.title.replace(/'/g, "\\'")}')">刪除</button>
+        </div>
+      </div>
+    `).join('');
+  }
+
+  async function editPost(path) {
+    const post = allPosts.find(p => p.path === path);
+    if (!post || !post.rawContent) {
+      alert('無法載入文章內容');
+      return;
+    }
+
+    // Parse front matter and body
+    const fmMatch = post.rawContent.match(/^---\n([\s\S]*?)\n---\n\n?([\s\S]*)$/);
+    let body = post.rawContent;
+    if (fmMatch) {
+      body = fmMatch[2].trim();
+    }
+
+    // Switch to editor tab
+    switchAdminTab('editor');
+
+    // Fill in the editor fields
+    document.getElementById('postTitle').value = post.title || '';
+    document.getElementById('postDate').value = post.date || '';
+    document.getElementById('postCategory').value = post.category || '樂評';
+    document.getElementById('postContent').value = body;
+
+    // Store editing state
+    editingFile = {
+      path: post.path,
+      sha: post.sha
+    };
+
+    // Change publish button to update mode
+    const btn = document.getElementById('publishBtn');
+    btn.textContent = '更新文章';
+    btn.onclick = updatePost;
+
+    showStatus('editorStatus', '正在編輯：' + post.title, 'success');
+  }
+
+  async function updatePost() {
+    const title = document.getElementById('postTitle').value.trim();
+    const date = document.getElementById('postDate').value;
+    const category = document.getElementById('postCategory').value;
+    const content = document.getElementById('postContent').value.trim();
+    const token = localStorage.getItem('gh_token');
+
+    if (!title) { alert('請輸入文章標題'); return; }
+    if (!date) { alert('請選擇日期'); return; }
+    if (!content) { alert('請輸入文章內容'); return; }
+
+    const btn = document.getElementById('publishBtn');
+    btn.disabled = true;
+    btn.textContent = '更新中...';
+
+    const fileContent = `---\nlayout: post\ntitle: "${title}"\ndate: ${date}\ncategory: ${category}\n---\n\n${content}\n`;
+
+    try {
+      // If date or title changed, we need a new filename
+      const newSlug = title
+        .toLowerCase()
+        .replace(/[^\w\u4e00-\u9fff\u3400-\u4dbf]+/g, '-')
+        .replace(/^-+|-+$/g, '')
+        .substring(0, 50);
+      const newPath = `_posts/${date}-${newSlug}.md`;
+
+      if (newPath !== editingFile.path) {
+        // Delete old file first
+        await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/${editingFile.path}`, {
+          method: 'DELETE',
+          headers: {
+            'Authorization': 'token ' + token,
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            message: `刪除舊文章：${editingFile.path}`,
+            sha: editingFile.sha
+          })
+        });
+
+        // Create new file
+        await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/${newPath}`, {
+          method: 'PUT',
+          headers: {
+            'Authorization': 'token ' + token,
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            message: `更新文章：${title}`,
+            content: btoa(unescape(encodeURIComponent(fileContent)))
+          })
+        });
+      } else {
+        // Same filename, just update content
+        await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/${editingFile.path}`, {
+          method: 'PUT',
+          headers: {
+            'Authorization': 'token ' + token,
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            message: `更新文章：${title}`,
+            content: btoa(unescape(encodeURIComponent(fileContent))),
+            sha: editingFile.sha
+          })
+        });
+      }
+
+      showStatus('editorStatus', '文章已成功更新！網站將在 1-2 分鐘後自動更新。', 'success');
+      cancelEdit();
+    } catch(e) {
+      showStatus('editorStatus', '更新失敗：' + e.message, 'error');
+    }
+
+    btn.disabled = false;
+  }
+
+  function cancelEdit() {
+    editingFile = null;
+    const btn = document.getElementById('publishBtn');
+    btn.textContent = '發佈文章';
+    btn.onclick = publish;
+    document.getElementById('postTitle').value = '';
+    document.getElementById('postContent').value = '';
+    document.getElementById('postDate').value = new Date().toISOString().split('T')[0];
+    document.getElementById('postCategory').value = '樂評';
+    localStorage.removeItem('post_draft');
+  }
+
+  async function deletePost(path, sha, title) {
+    if (!confirm(`確定要刪除文章「${title}」嗎？\n\n此操作無法復原！`)) return;
+
+    const token = localStorage.getItem('gh_token');
+
+    try {
+      const res = await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/${path}`, {
+        method: 'DELETE',
+        headers: {
+          'Authorization': 'token ' + token,
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          message: `刪除文章：${title}`,
+          sha: sha
+        })
+      });
+
+      if (!res.ok) {
+        const err = await res.json();
+        throw new Error(err.message || '刪除失敗');
+      }
+
+      showStatus('postsStatus', `已刪除「${title}」，網站將在 1-2 分鐘後更新。`, 'success');
+      loadPosts(); // Refresh list
+    } catch(e) {
+      showStatus('postsStatus', '刪除失敗：' + e.message, 'error');
     }
   }
 
