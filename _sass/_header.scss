@@ -45,6 +45,19 @@
       color: $text-primary;
       background: $bg-tertiary;
     }
+
+    &.nav-admin {
+      color: #4a9eff;
+      border: 1px solid #4a9eff;
+      border-radius: 4px;
+      font-size: 0.82rem;
+      padding: 6px 12px;
+
+      &:hover {
+        background: #4a9eff;
+        color: #fff;
+      }
+    }
   }
 }
 
