@@ -28,6 +28,7 @@ defaults:
 plugins:
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Google Analytics 4
 google_analytics: G-3HQTYZDSB3
