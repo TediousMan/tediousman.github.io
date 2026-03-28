@@ -1,21 +1,22 @@
 <header class="site-header">
   <div class="container">
-    <nav class="site-nav">
+    <div class="header-top">
       <a href="{{ '/' | relative_url }}" class="site-logo">{{ site.title }}</a>
+    </div>
+    <nav class="site-nav">
       <ul class="nav-links">
         <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>首頁</a></li>
         <li><a href="{{ '/music-reviews' | relative_url }}" {% if page.url contains 'music-reviews' %}class="active"{% endif %}>音樂記錄</a></li>
         <li><a href="{{ '/reflections' | relative_url }}" {% if page.url contains 'reflections' %}class="active"{% endif %}>個人心得</a></li>
         <li><a href="{{ '/life' | relative_url }}" {% if page.url contains 'life' %}class="active"{% endif %}>生活紀錄</a></li>
         <li><a href="{{ '/about' | relative_url }}" {% if page.url contains 'about' %}class="active"{% endif %}>關於我</a></li>
-        <li id="nav-admin-links" style="display:none; list-style:none;">
-          <a href="{{ '/admin/' | relative_url }}#editor">發表文章</a>
-        </li>
-        <li id="nav-posts-links" style="display:none; list-style:none;">
-          <a href="{{ '/admin/' | relative_url }}#posts">文章管理</a>
-        </li>
-        <li id="nav-analytics-links" style="display:none; list-style:none;">
-          <a href="{{ '/admin/' | relative_url }}#analytics">數據分析</a>
+        <li id="nav-admin-dropdown" class="nav-dropdown" style="display:none;">
+          <button class="dropdown-toggle" onclick="toggleAdminDropdown(event)">管理 ▾</button>
+          <ul class="dropdown-menu" id="adminDropdownMenu">
+            <li><a href="#" onclick="openAdminPanel('editor');return false;">發表文章</a></li>
+            <li><a href="#" onclick="openAdminPanel('posts');return false;">文章管理</a></li>
+            <li><a href="#" onclick="openAdminPanel('analytics');return false;">數據分析</a></li>
+          </ul>
         </li>
         <li id="nav-logout-link" style="display:none; list-style:none;">
           <a href="#" onclick="adminLogout(); return false;" style="color:#f85149;">登出</a>
@@ -28,28 +29,54 @@
   </div>
 </header>
 
+<!-- Admin Panel Overlay -->
+<div id="admin-overlay" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; z-index:9999; background:#1a1a1a;">
+  <button onclick="closeAdminPanel()" style="position:fixed; top:14px; right:20px; background:none; border:1px solid #555; color:#ccc; font-size:0.9rem; cursor:pointer; padding:6px 14px; border-radius:4px; z-index:10000;">✕ 關閉</button>
+  <iframe id="admin-iframe" src="" style="width:100%; height:100%; border:none;"></iframe>
+</div>
+
 <script>
   document.querySelector('.nav-toggle').addEventListener('click', function() {
     document.querySelector('.nav-links').classList.toggle('open');
     this.classList.toggle('open');
   });
 
-  // Show admin nav links if logged in
+  // Show admin nav if logged in
   (function() {
     const token = localStorage.getItem('gh_token');
     if (token) {
-      document.getElementById('nav-admin-links').style.display = '';
-      document.getElementById('nav-posts-links').style.display = '';
-      document.getElementById('nav-analytics-links').style.display = '';
+      document.getElementById('nav-admin-dropdown').style.display = '';
       document.getElementById('nav-logout-link').style.display = '';
     }
   })();
 
+  function toggleAdminDropdown(e) {
+    e.stopPropagation();
+    const menu = document.getElementById('adminDropdownMenu');
+    menu.classList.toggle('open');
+  }
+
+  document.addEventListener('click', function() {
+    const menu = document.getElementById('adminDropdownMenu');
+    if (menu) menu.classList.remove('open');
+  });
+
+  function openAdminPanel(tab) {
+    document.getElementById('adminDropdownMenu').classList.remove('open');
+    document.getElementById('admin-iframe').src = '/admin/#' + tab;
+    document.getElementById('admin-overlay').style.display = 'block';
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeAdminPanel() {
+    document.getElementById('admin-overlay').style.display = 'none';
+    document.getElementById('admin-iframe').src = '';
+    document.body.style.overflow = '';
+  }
+
   function adminLogout() {
     localStorage.removeItem('gh_token');
-    document.getElementById('nav-admin-links').style.display = 'none';
-    document.getElementById('nav-posts-links').style.display = 'none';
-    document.getElementById('nav-analytics-links').style.display = 'none';
+    document.getElementById('nav-admin-dropdown').style.display = 'none';
     document.getElementById('nav-logout-link').style.display = 'none';
   }
 </script>
