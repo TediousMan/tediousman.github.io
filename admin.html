@@ -638,6 +638,23 @@ permalink: /admin/
       </div>
 
       <div id="gaConfigured" style="display:none;">
+
+        <!-- GA 授權區 -->
+        <div id="gaConnectSection" style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; margin-bottom: 20px;">
+          <p style="color: #ccc; margin-bottom: 12px; font-size: 0.9rem;">連接 Google Analytics API 以查看詳細數據（國家、停留時間等）</p>
+          <div style="display: flex; gap: 12px; align-items: center; flex-wrap: wrap;">
+            <input type="text" id="gaClientIdInput" placeholder="貼上你的 OAuth2 Client ID" style="flex: 1; min-width: 280px; background: #0d1117; border: 1px solid #444; color: #e6edf3; padding: 8px 12px; border-radius: 6px; font-size: 0.85rem;">
+            <button class="btn btn-primary" onclick="startGAAuth()" style="white-space: nowrap;">連接 Google Analytics</button>
+          </div>
+          <p style="font-size: 0.75rem; color: #666; margin-top: 8px;">
+            Client ID 格式：<code style="color:#aaa;">xxxxxxxxx-xxxx.apps.googleusercontent.com</code>
+          </p>
+        </div>
+        <div id="gaConnectedBadge" style="display:none; margin-bottom: 20px; display:flex; align-items:center; gap:12px;">
+          <span style="background:#1a4731; color:#3fb950; padding:6px 14px; border-radius:6px; font-size:0.85rem;">✓ 已連接 Google Analytics</span>
+          <button onclick="disconnectGA()" style="background:none; border:none; color:#666; cursor:pointer; font-size:0.8rem; text-decoration:underline;">中斷連接</button>
+        </div>
+
         <div class="date-range-picker">
           <label style="color:#999; font-size:0.9rem;">時間範圍：</label>
           <select id="dateRange" onchange="loadAnalytics()">
@@ -1268,6 +1285,17 @@ permalink: /admin/
     if (propertyId) {
       document.getElementById('gaNotConfigured').style.display = 'none';
       document.getElementById('gaConfigured').style.display = 'block';
+
+      // 預填已存的 Client ID
+      const savedClientId = localStorage.getItem('ga_client_id');
+      const inputEl = document.getElementById('gaClientIdInput');
+      if (savedClientId && inputEl) inputEl.value = savedClientId;
+
+      // 根據是否有 token 顯示對應區塊
+      const hasToken = !!localStorage.getItem(GA_TOKEN_KEY);
+      document.getElementById('gaConnectSection').style.display = hasToken ? 'none' : 'block';
+      document.getElementById('gaConnectedBadge').style.display = hasToken ? 'flex' : 'none';
+
       loadAnalytics();
     } else {
       document.getElementById('gaNotConfigured').style.display = 'block';
@@ -1313,16 +1341,12 @@ permalink: /admin/
       // Show info about GA for detailed stats
       document.getElementById('countryData').innerHTML = `
         <div style="text-align: center; padding: 20px; color: #999;">
-          <p style="margin-bottom: 12px;">需要連接 Google Analytics 才能查看國家統計</p>
-          <p style="font-size: 0.8rem;">基本瀏覽量由不蒜子提供<br>詳細分析（國家、停留時間等）需要 GA4</p>
-          <button class="btn btn-secondary" onclick="startGAAuth()" style="margin-top: 16px; font-size: 0.85rem;">
-            連接 Google Analytics
-          </button>
+          <p>連接 Google Analytics 後可查看國家統計</p>
         </div>`;
 
       document.getElementById('pageData').innerHTML = `
         <div style="text-align: center; padding: 20px; color: #999;">
-          <p style="margin-bottom: 12px;">需要連接 Google Analytics 才能查看頁面統計</p>
+          <p>連接 Google Analytics 後可查看頁面統計</p>
         </div>`;
 
       // Render placeholder chart
@@ -1334,15 +1358,24 @@ permalink: /admin/
   }
 
   function startGAAuth() {
-    let clientId = localStorage.getItem('ga_client_id');
+    const inputEl = document.getElementById('gaClientIdInput');
+    let clientId = (inputEl && inputEl.value.trim()) || localStorage.getItem('ga_client_id');
     if (!clientId) {
-      clientId = prompt('請輸入你的 Google OAuth2 Client ID：');
-      if (!clientId) return;
-      localStorage.setItem('ga_client_id', clientId.trim());
-      clientId = clientId.trim();
+      alert('請先在上方輸入你的 OAuth2 Client ID');
+      if (inputEl) inputEl.focus();
+      return;
     }
+    localStorage.setItem('ga_client_id', clientId);
     localStorage.setItem('go_to_analytics', 'true');
     redirectToGoogleAuth(clientId);
+  }
+
+  function disconnectGA() {
+    localStorage.removeItem('ga_access_token');
+    localStorage.removeItem('ga_numeric_property_id');
+    document.getElementById('gaConnectedBadge').style.display = 'none';
+    document.getElementById('gaConnectSection').style.display = 'block';
+    loadAnalyticsFromBusuanzi();
   }
 
   function redirectToGoogleAuth(clientId) {
