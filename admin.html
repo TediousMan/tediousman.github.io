@@ -775,11 +775,19 @@ permalink: /admin/
     localStorage.removeItem('gh_token');
     document.getElementById('loginScreen').style.display = '';
     document.getElementById('editorScreen').style.display = 'none';
+    ['nav-admin-links','nav-posts-links','nav-analytics-links','nav-logout-link'].forEach(id => {
+      const el = document.getElementById(id);
+      if (el) el.style.display = 'none';
+    });
   }
 
   function showEditor() {
     document.getElementById('loginScreen').style.display = 'none';
     document.getElementById('editorScreen').style.display = '';
+    ['nav-admin-links','nav-posts-links','nav-analytics-links','nav-logout-link'].forEach(id => {
+      const el = document.getElementById(id);
+      if (el) el.style.display = '';
+    });
   }
 
   function switchTab(tab) {

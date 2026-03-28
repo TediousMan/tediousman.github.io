@@ -8,7 +8,18 @@
         <li><a href="{{ '/reflections' | relative_url }}" {% if page.url contains 'reflections' %}class="active"{% endif %}>個人心得</a></li>
         <li><a href="{{ '/life' | relative_url }}" {% if page.url contains 'life' %}class="active"{% endif %}>生活紀錄</a></li>
         <li><a href="{{ '/about' | relative_url }}" {% if page.url contains 'about' %}class="active"{% endif %}>關於我</a></li>
-        <li><a href="{{ '/admin/' | relative_url }}" class="nav-admin">後台管理</a></li>
+        <li id="nav-admin-links" style="display:none; list-style:none;">
+          <a href="{{ '/admin/' | relative_url }}#editor">發表文章</a>
+        </li>
+        <li id="nav-posts-links" style="display:none; list-style:none;">
+          <a href="{{ '/admin/' | relative_url }}#posts">文章管理</a>
+        </li>
+        <li id="nav-analytics-links" style="display:none; list-style:none;">
+          <a href="{{ '/admin/' | relative_url }}#analytics">數據分析</a>
+        </li>
+        <li id="nav-logout-link" style="display:none; list-style:none;">
+          <a href="#" onclick="adminLogout(); return false;" style="color:#f85149;">登出</a>
+        </li>
       </ul>
       <button class="nav-toggle" aria-label="選單">
         <span></span><span></span><span></span>
@@ -22,4 +33,23 @@
     document.querySelector('.nav-links').classList.toggle('open');
     this.classList.toggle('open');
   });
+
+  // Show admin nav links if logged in
+  (function() {
+    const token = localStorage.getItem('gh_token');
+    if (token) {
+      document.getElementById('nav-admin-links').style.display = '';
+      document.getElementById('nav-posts-links').style.display = '';
+      document.getElementById('nav-analytics-links').style.display = '';
+      document.getElementById('nav-logout-link').style.display = '';
+    }
+  })();
+
+  function adminLogout() {
+    localStorage.removeItem('gh_token');
+    document.getElementById('nav-admin-links').style.display = 'none';
+    document.getElementById('nav-posts-links').style.display = 'none';
+    document.getElementById('nav-analytics-links').style.display = 'none';
+    document.getElementById('nav-logout-link').style.display = 'none';
+  }
 </script>
