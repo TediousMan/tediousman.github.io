@@ -511,7 +511,7 @@ permalink: /admin/
 
 <!-- Editor Screen -->
 <div id="editorScreen" style="display: none;">
-  <div class="admin-nav">
+  <div class="admin-nav" style="display:none;">
     <button class="active" onclick="switchAdminTab('editor')">發表文章</button>
     <button onclick="switchAdminTab('posts')">文章管理</button>
     <button onclick="switchAdminTab('analytics')">數據分析</button>
@@ -728,6 +728,16 @@ permalink: /admin/
       }
     }
   })();
+
+  // Handle hash change when already on admin page (from dropdown)
+  window.addEventListener('hashchange', function() {
+    const token = localStorage.getItem('gh_token');
+    if (!token) return;
+    const hash = window.location.hash.replace('#', '');
+    if (hash === 'posts' || hash === 'analytics' || hash === 'editor') {
+      switchAdminTab(hash);
+    }
+  });
 
   // Load draft if exists
   (function loadDraft() {
