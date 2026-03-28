@@ -732,6 +732,10 @@ permalink: /admin/
     const token = localStorage.getItem('gh_token');
     if (token) {
       showEditor();
+      const hash = window.location.hash.replace('#', '');
+      if (hash === 'posts' || hash === 'analytics' || hash === 'editor') {
+        switchAdminTab(hash);
+      }
     }
   })();
 
