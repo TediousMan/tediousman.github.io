@@ -6,6 +6,10 @@
   <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   {% seo %}
+  {% assign og_image = page.image | default: '/assets/images/og-cover.jpg' %}
+  <meta property="og:image" content="{{ og_image | absolute_url }}" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="{{ og_image | absolute_url }}" />
   {% if site.google_analytics %}
   <!-- Google Analytics 4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
