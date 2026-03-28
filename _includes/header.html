@@ -13,9 +13,9 @@
         <li id="nav-admin-dropdown" class="nav-dropdown" style="display:none;">
           <button class="dropdown-toggle" onclick="toggleAdminDropdown(event)">管理 ▾</button>
           <ul class="dropdown-menu" id="adminDropdownMenu">
-            <li><a href="#" onclick="openAdminPanel('editor');return false;">發表文章</a></li>
-            <li><a href="#" onclick="openAdminPanel('posts');return false;">文章管理</a></li>
-            <li><a href="#" onclick="openAdminPanel('analytics');return false;">數據分析</a></li>
+            <li><a href="{{ '/admin/' | relative_url }}#editor">發表文章</a></li>
+            <li><a href="{{ '/admin/' | relative_url }}#posts">文章管理</a></li>
+            <li><a href="{{ '/admin/' | relative_url }}#analytics">數據分析</a></li>
           </ul>
         </li>
         <li id="nav-logout-link" style="display:none; list-style:none;">
@@ -29,19 +29,12 @@
   </div>
 </header>
 
-<!-- Admin Panel Overlay -->
-<div id="admin-overlay" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; z-index:9999; background:#1a1a1a;">
-  <button onclick="closeAdminPanel()" style="position:fixed; top:14px; right:20px; background:none; border:1px solid #555; color:#ccc; font-size:0.9rem; cursor:pointer; padding:6px 14px; border-radius:4px; z-index:10000;">✕ 關閉</button>
-  <iframe id="admin-iframe" src="" style="width:100%; height:100%; border:none;"></iframe>
-</div>
-
 <script>
   document.querySelector('.nav-toggle').addEventListener('click', function() {
     document.querySelector('.nav-links').classList.toggle('open');
     this.classList.toggle('open');
   });
 
-  // Show admin nav if logged in
   (function() {
     const token = localStorage.getItem('gh_token');
     if (token) {
@@ -52,8 +45,7 @@
 
   function toggleAdminDropdown(e) {
     e.stopPropagation();
-    const menu = document.getElementById('adminDropdownMenu');
-    menu.classList.toggle('open');
+    document.getElementById('adminDropdownMenu').classList.toggle('open');
   }
 
   document.addEventListener('click', function() {
@@ -61,22 +53,11 @@
     if (menu) menu.classList.remove('open');
   });
 
-  function openAdminPanel(tab) {
-    document.getElementById('adminDropdownMenu').classList.remove('open');
-    document.getElementById('admin-iframe').src = '/admin/#' + tab;
-    document.getElementById('admin-overlay').style.display = 'block';
-    document.body.style.overflow = 'hidden';
-  }
-
-  function closeAdminPanel() {
-    document.getElementById('admin-overlay').style.display = 'none';
-    document.getElementById('admin-iframe').src = '';
-    document.body.style.overflow = '';
-  }
-
   function adminLogout() {
     localStorage.removeItem('gh_token');
+    localStorage.removeItem('ga_access_token');
     document.getElementById('nav-admin-dropdown').style.display = 'none';
     document.getElementById('nav-logout-link').style.display = 'none';
+    window.location.href = '/';
   }
 </script>

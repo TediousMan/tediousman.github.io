@@ -7,7 +7,8 @@ permalink: /admin/
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>發表文章 | {{ site.title }}</title>
+  <title>管理後台 | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
@@ -490,13 +491,10 @@ permalink: /admin/
   </style>
 </head>
 <body>
+{% include header.html %}
 
 <!-- Login Screen -->
 <div id="loginScreen">
-  <div class="admin-header">
-    <h1>{{ site.title }}</h1>
-    <a href="{{ '/' | relative_url }}">← 回到首頁</a>
-  </div>
   <div class="login-container">
     <h2>登入管理後台</h2>
     <p>請輸入你的 GitHub Personal Access Token 來登入。<br>Token 僅儲存在你的瀏覽器中，不會上傳到任何伺服器。</p>
@@ -513,14 +511,6 @@ permalink: /admin/
 
 <!-- Editor Screen -->
 <div id="editorScreen" style="display: none;">
-  <div class="admin-header">
-    <h1>管理後台</h1>
-    <div>
-      <a href="{{ '/' | relative_url }}" style="margin-right: 16px;">← 回到首頁</a>
-      <button class="logout-btn" onclick="logout()">登出</button>
-    </div>
-  </div>
-
   <div class="admin-nav">
     <button class="active" onclick="switchAdminTab('editor')">發表文章</button>
     <button onclick="switchAdminTab('posts')">文章管理</button>
@@ -777,21 +767,13 @@ permalink: /admin/
 
   function logout() {
     localStorage.removeItem('gh_token');
-    document.getElementById('loginScreen').style.display = '';
-    document.getElementById('editorScreen').style.display = 'none';
-    ['nav-admin-links','nav-posts-links','nav-analytics-links','nav-logout-link'].forEach(id => {
-      const el = document.getElementById(id);
-      if (el) el.style.display = 'none';
-    });
+    localStorage.removeItem('ga_access_token');
+    window.location.href = '/';
   }
 
   function showEditor() {
     document.getElementById('loginScreen').style.display = 'none';
     document.getElementById('editorScreen').style.display = '';
-    ['nav-admin-links','nav-posts-links','nav-analytics-links','nav-logout-link'].forEach(id => {
-      const el = document.getElementById(id);
-      if (el) el.style.display = '';
-    });
   }
 
   function switchTab(tab) {
