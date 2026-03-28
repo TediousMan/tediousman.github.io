@@ -107,7 +107,8 @@
   padding: 8px 12px;
   border-bottom: 1px solid rgba($border-color, 0.5);
 
-  &:last-child {
+  &:last-child,
+  #busuanzi_container_site_uv & {
     border-bottom: none;
   }
 }
