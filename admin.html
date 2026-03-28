@@ -1493,6 +1493,13 @@ permalink: /admin/
           ]
         })
       });
+      if (metricsRes.status === 401) {
+        localStorage.removeItem(GA_TOKEN_KEY);
+        document.getElementById('gaConnectedBadge').style.display = 'none';
+        document.getElementById('gaConnectSection').style.display = 'block';
+        showGAError('Token 已過期，請重新點擊「連接 Google Analytics」。');
+        return;
+      }
       const metricsData = await metricsRes.json();
 
       if (metricsData.rows && metricsData.rows[0]) {
