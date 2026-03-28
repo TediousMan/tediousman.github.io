@@ -734,7 +734,7 @@ permalink: /admin/
       showEditor();
       const hash = window.location.hash.replace('#', '');
       if (hash === 'posts' || hash === 'analytics' || hash === 'editor') {
-        switchAdminTab(hash);
+        setTimeout(() => switchAdminTab(hash), 0);
       }
     }
   })();
