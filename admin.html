@@ -337,6 +337,7 @@ permalink: /admin/
     .page-table {
       width: 100%;
       border-collapse: collapse;
+      table-layout: fixed;
     }
     .page-table th,
     .page-table td {
@@ -348,8 +349,19 @@ permalink: /admin/
       color: #999;
       font-size: 0.85rem;
       font-weight: 500;
+      white-space: nowrap;
     }
     .page-table td { font-size: 0.9rem; }
+    .page-table col:first-child { width: 80%; }
+    .page-table col:last-child { width: 20%; }
+    .page-table td:first-child {
+      max-width: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .page-table td:last-child { white-space: nowrap; text-align: right; }
+    .page-table th:last-child { text-align: right; }
     .ga-setup-box {
       background: #252525;
       border: 1px solid #333;
@@ -1613,11 +1625,11 @@ permalink: /admin/
       el.innerHTML = '<p style="color:#999; text-align:center; padding:20px;">尚無數據</p>';
       return;
     }
-    let html = '<table class="page-table"><thead><tr><th>頁面路徑</th><th>瀏覽量</th></tr></thead><tbody>';
+    let html = '<table class="page-table"><colgroup><col><col></colgroup><thead><tr><th>頁面路徑</th><th>瀏覽量</th></tr></thead><tbody>';
     for (const row of data.rows) {
       const path = row.dimensionValues[0].value;
       const views = parseInt(row.metricValues[0].value);
-      html += `<tr><td style="word-break:break-all;">${path}</td><td>${views.toLocaleString()}</td></tr>`;
+      html += `<tr><td title="${path}">${path}</td><td>${views.toLocaleString()}</td></tr>`;
     }
     html += '</tbody></table>';
     el.innerHTML = html;
