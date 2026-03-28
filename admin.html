@@ -112,6 +112,7 @@ permalink: /admin/
       font-size: 1rem;
       cursor: pointer;
       transition: background 0.2s;
+      white-space: nowrap;
     }
     .btn-primary {
       background: #4a9eff;
@@ -269,7 +270,7 @@ permalink: /admin/
     /* Analytics styles */
     .analytics-container {
       max-width: 1000px;
-      margin: 32px auto;
+      margin: 20px auto;
       padding: 0 24px;
     }
     .analytics-grid {
@@ -390,7 +391,7 @@ permalink: /admin/
     /* Post management styles */
     .posts-container {
       max-width: 900px;
-      margin: 32px auto;
+      margin: 20px auto;
       padding: 0 24px;
     }
     .posts-header {
@@ -646,7 +647,7 @@ permalink: /admin/
         </div>
 
         <div class="date-range-picker">
-          <label style="color:#999; font-size:0.9rem;">時間範圍：</label>
+          <label style="color:#999; font-size:0.9rem; white-space:nowrap;">時間範圍：</label>
           <select id="dateRange" onchange="loadAnalytics()">
             <option value="7">過去 7 天</option>
             <option value="30" selected>過去 30 天</option>
