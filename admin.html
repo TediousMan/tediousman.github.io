@@ -1410,21 +1410,33 @@ permalink: /admin/
     }
   })();
 
+  function showGAError(msg) {
+    document.getElementById('countryData').innerHTML = `<div style="padding:16px; color:#f85149; background:#2d1b1e; border-radius:6px; font-size:0.85rem;">${msg}</div>`;
+    document.getElementById('pageData').innerHTML = '';
+  }
+
   async function fetchGAData(token) {
     const propertyId = localStorage.getItem(GA_PROPERTY_ID_KEY);
     if (!propertyId) return;
 
-    // GA4 property IDs from measurement ID need lookup
-    // For now, we need the numeric property ID
     const numericId = localStorage.getItem('ga_numeric_property_id');
     if (!numericId) {
-      // Try to list properties to find matching one
       try {
         const res = await fetch('https://analyticsadmin.googleapis.com/v1beta/accountSummaries', {
           headers: { 'Authorization': 'Bearer ' + token }
         });
         if (res.status === 401) {
           localStorage.removeItem(GA_TOKEN_KEY);
+          document.getElementById('gaConnectedBadge').style.display = 'none';
+          document.getElementById('gaConnectSection').style.display = 'block';
+          showGAError('Token 已過期，請重新連接 Google Analytics。');
+          loadAnalyticsFromBusuanzi();
+          return;
+        }
+        if (!res.ok) {
+          const err = await res.json().catch(() => ({}));
+          const reason = err.error?.message || `HTTP ${res.status}`;
+          showGAError(`無法取得 GA 屬性列表：${reason}<br><br>請確認 <strong>Google Analytics Admin API</strong> 已在 Google Cloud Console 中啟用。`);
           loadAnalyticsFromBusuanzi();
           return;
         }
@@ -1435,7 +1447,6 @@ permalink: /admin/
             if (account.propertySummaries) {
               for (const prop of account.propertySummaries) {
                 if (prop.property) {
-                  // Store first property found; user may need to select
                   foundId = prop.property.replace('properties/', '');
                   break;
                 }
@@ -1449,8 +1460,9 @@ permalink: /admin/
             return;
           }
         }
+        showGAError('找不到 GA4 屬性，請確認你的 Google 帳號有 Analytics 權限。');
       } catch(e) {
-        console.error('GA API error:', e);
+        showGAError(`連線失敗：${e.message}`);
       }
       loadAnalyticsFromBusuanzi();
       return;
