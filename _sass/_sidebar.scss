@@ -81,9 +81,10 @@
 
 .visitor-item {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  padding: 6px 0;
+  text-align: center;
+  padding: 8px 0;
   border-bottom: 1px solid rgba($border-color, 0.5);
 
   &:last-child {
@@ -92,13 +93,14 @@
 }
 
 .visitor-label {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   color: $text-muted;
+  margin-bottom: 4px;
 }
 
 .visitor-count {
-  font-size: 1rem;
-  font-weight: 600;
+  font-size: 1.3rem;
+  font-weight: 700;
   color: $text-primary;
 }
 
