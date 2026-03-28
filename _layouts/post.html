@@ -23,6 +23,18 @@ layout: default
     data-page-id="{{ page.url }}"
     data-page-url="{{ site.url }}{{ page.url }}"
     data-page-title="{{ page.title }}"
+    data-theme="dark"
   ></div>
   <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+  <script>
+    // 自動調整 Cusdis iframe 高度
+    window.addEventListener('message', function(e) {
+      if (e.data && e.data.from === 'cusdis') {
+        var iframe = document.querySelector('#cusdis_thread iframe');
+        if (iframe && e.data.height) {
+          iframe.style.height = e.data.height + 'px';
+        }
+      }
+    });
+  </script>
 </section>
