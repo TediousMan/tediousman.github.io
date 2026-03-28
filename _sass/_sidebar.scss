@@ -101,10 +101,10 @@
 
 .visitor-item {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  text-align: center;
-  padding: 8px 0;
+  justify-content: space-between;
+  padding: 8px 12px;
   border-bottom: 1px solid rgba($border-color, 0.5);
 
   &:last-child {
@@ -113,13 +113,12 @@
 }
 
 .visitor-label {
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   color: $text-muted;
-  margin-bottom: 4px;
 }
 
 .visitor-count {
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 700;
   color: $text-primary;
 }
