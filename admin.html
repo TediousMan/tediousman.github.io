@@ -559,7 +559,7 @@ permalink: /admin/
           <button onclick="insertFormat('\n> ', '\n')" title="引用">引用</button>
           <button onclick="insertFormat('\n- ', '\n')" title="清單">清單</button>
           <button onclick="insertFormat('[', '](https://)')" title="連結">連結</button>
-          <button onclick="insertFormat('![圖片描述](', ')')" title="圖片">圖片</button>
+          <button onclick="insertImage()" title="圖片">圖片</button>
           <button onclick="insertSpotify()" title="Spotify">Spotify</button>
           <button onclick="insertYouTube()" title="YouTube">YouTube</button>
         </div>
@@ -859,6 +859,17 @@ permalink: /admin/
     ta.focus();
     ta.selectionStart = start + before.length;
     ta.selectionEnd = start + before.length + selected.length;
+  }
+
+  function insertImage() {
+    const url = prompt('請貼上圖片網址：');
+    if (!url) return;
+    const alt = prompt('圖片說明文字（可留空）：') || '';
+    const md = `![${alt}](${url})`;
+    const ta = document.getElementById('postContent');
+    const pos = ta.selectionStart;
+    ta.value = ta.value.substring(0, pos) + '\n' + md + '\n' + ta.value.substring(pos);
+    ta.focus();
   }
 
   function insertSpotify() {
