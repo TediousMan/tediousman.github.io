@@ -1085,8 +1085,8 @@ permalink: /admin/
       return;
     }
 
-    const cleanUrl = 'https://x.com/' + url.match(/(?:twitter\.com|x\.com)\/([^/]+\/status\/\d+)/)[1];
-    const embed = `\n<blockquote class="twitter-tweet"><a href="${cleanUrl}"></a></blockquote>\n`;
+    const tweetId = match[1];
+    const embed = `\n<iframe src="https://platform.twitter.com/embed/Tweet.html?id=${tweetId}" style="width:100%;max-width:550px;border:none;display:block;margin:1em auto;" height="500" scrolling="no" frameborder="0" allowfullscreen></iframe>\n`;
 
     const ta = document.getElementById('postContent');
     const pos = ta.selectionStart;
