@@ -39,7 +39,7 @@ h2 { font-size: 1.4rem; margin: 1.5em 0 0.5em; }
 h3 { font-size: 1.15rem; margin: 1.2em 0 0.4em; }
 
 p {
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
 }
 
 img {
@@ -50,10 +50,12 @@ img {
 
 blockquote {
   border-left: 3px solid $accent;
-  padding-left: 1em;
+  padding: 1em 1.2em;
   margin: 1.5em 0;
   color: $text-secondary;
   font-style: italic;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 4px;
 }
 
 code {
