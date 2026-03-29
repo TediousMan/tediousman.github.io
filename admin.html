@@ -1499,6 +1499,9 @@ permalink: /admin/
   const GA_TOKEN_KEY = 'ga_access_token';
 
   function initAnalytics() {
+    // Pre-load posts for title matching in popular pages table
+    if (allPosts.length === 0) loadPosts();
+
     const propertyId = localStorage.getItem(GA_PROPERTY_ID_KEY);
     if (propertyId) {
       document.getElementById('gaNotConfigured').style.display = 'none';
@@ -1826,7 +1829,7 @@ permalink: /admin/
       return;
     }
 
-    // Build a lookup: GA path -> post title
+    // Build path -> title lookup from loaded posts
     const pathToTitle = {};
     const existingPaths = new Set();
     for (const post of allPosts) {
@@ -1837,26 +1840,41 @@ permalink: /admin/
       }
     }
 
-    // Non-post paths that are expected to exist (homepage, category pages, etc.)
-    const staticPaths = new Set(['/', '/music-reviews/', '/reflections/', '/life/', '/about/', '/admin/']);
+    // Article path pattern: /category/YYYY/MM/DD/slug/
+    const articlePathRe = /^\/[^/]+\/\d{4}\/\d{2}\/\d{2}\/[^/]+\/$/;
 
-    let html = '<table class="page-table"><colgroup><col><col></colgroup><thead><tr><th>頁面路徑</th><th>瀏覽量</th></tr></thead><tbody>';
-    for (const row of data.rows) {
+    // Filter to article pages only, exclude /admin/
+    const articleRows = data.rows.filter(row => {
+      const path = row.dimensionValues[0].value;
+      return articlePathRe.test(path) && path !== '/admin/';
+    });
+
+    if (articleRows.length === 0) {
+      el.innerHTML = '<p style="color:#999; text-align:center; padding:20px;">尚無文章瀏覽數據</p>';
+      return;
+    }
+
+    // Total views across filtered articles (for percentage)
+    const totalViews = articleRows.reduce((sum, row) => sum + parseInt(row.metricValues[0].value), 0);
+
+    let html = '<table class="page-table"><colgroup><col><col><col></colgroup><thead><tr><th>文章</th><th style="text-align:right;">瀏覽量</th><th style="text-align:right;">佔比</th></tr></thead><tbody>';
+    for (const row of articleRows) {
       const path = row.dimensionValues[0].value;
       const views = parseInt(row.metricValues[0].value);
+      const pct = totalViews > 0 ? Math.round(views / totalViews * 100) : 0;
 
-      const isPostPath = path.split('/').length >= 6; // category/year/month/day/slug format
-      const isDeleted = isPostPath && allPosts.length > 0 && !existingPaths.has(path);
+      const isDeleted = allPosts.length > 0 && !existingPaths.has(path);
       const title = pathToTitle[path];
 
-      const pathCell = isDeleted
-        ? `<span class="page-deleted" title="${path}">${path}</span><span class="page-deleted-badge">已刪除</span>`
-        : `<span title="${path}">${path}</span>`;
-      const titleHint = title
-        ? `<span class="page-title-hint">${title}</span>`
-        : '';
+      // Extract slug from path as fallback display text
+      const slugFallback = path.replace(/\/$/, '').split('/').pop().replace(/-/g, ' ');
+      const displayName = title || slugFallback;
 
-      html += `<tr><td>${pathCell}${titleHint}</td><td>${views.toLocaleString()}</td></tr>`;
+      const titleCell = isDeleted
+        ? `<span class="page-deleted" title="${path}">${displayName}</span><span class="page-deleted-badge">已刪除</span>`
+        : `<span title="${path}">${displayName}</span>`;
+
+      html += `<tr><td>${titleCell}</td><td style="text-align:right; white-space:nowrap;">${views.toLocaleString()}</td><td style="text-align:right; white-space:nowrap; color:#888;">${pct}%</td></tr>`;
     }
     html += '</tbody></table>';
     el.innerHTML = html;
