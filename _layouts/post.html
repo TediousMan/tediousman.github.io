@@ -101,3 +101,17 @@ function loadDisqus() {
 }
 </script>
 <noscript>請啟用 JavaScript 以查看 <a href="https://disqus.com/?ref_noscript">Disqus 留言</a>。</noscript>
+<script>
+window.addEventListener('message', function(e) {
+  if (!e.origin || e.origin.indexOf('twitter.com') === -1) return;
+  try {
+    var data = typeof e.data === 'string' ? JSON.parse(e.data) : e.data;
+    if (data && data['twttr.embed'] && data['twttr.embed'].height) {
+      var h = data['twttr.embed'].height;
+      document.querySelectorAll('iframe[src*="platform.twitter.com/embed"]').forEach(function(f) {
+        f.style.height = (h + 20) + 'px';
+      });
+    }
+  } catch(err) {}
+});
+</script>
