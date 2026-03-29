@@ -135,6 +135,14 @@ iframe {
   margin: 1em 0;
 }
 
+// Responsive YouTube / video iframe in post content
+.post-content iframe[src*="youtube"] {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  display: block;
+}
+
 // Twitter/X embed scrollbar styling
 iframe[src*="platform.twitter.com"] {
   scrollbar-width: thin;
