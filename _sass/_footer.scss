@@ -5,3 +5,18 @@
   color: $text-muted;
   font-size: 0.8rem;
 }
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 8px;
+
+  a {
+    color: $text-muted;
+    font-size: 0.8rem;
+    transition: color 0.2s;
+
+    &:hover { color: $text-primary; }
+  }
+}

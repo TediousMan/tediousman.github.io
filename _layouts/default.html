@@ -41,5 +41,41 @@
   </main>
 
   {% include footer.html %}
+
+  <button id="back-to-top" aria-label="回到頂部">↑</button>
+
+  <script>
+    // Back to top
+    (function() {
+      var btn = document.getElementById('back-to-top');
+      window.addEventListener('scroll', function() {
+        btn.classList.toggle('visible', window.scrollY > 300);
+      });
+      btn.addEventListener('click', function() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    })();
+
+    // Auto TOC
+    (function() {
+      var container = document.getElementById('toc-container');
+      if (!container) return;
+      var headings = document.querySelectorAll('.post-content h2, .post-content h3');
+      if (headings.length < 3) return;
+      var ol = document.createElement('ol');
+      headings.forEach(function(h, i) {
+        if (!h.id) h.id = 'heading-' + i;
+        var li = document.createElement('li');
+        if (h.tagName === 'H3') li.style.paddingLeft = '1em';
+        li.innerHTML = '<a href="#' + h.id + '">' + h.textContent + '</a>';
+        ol.appendChild(li);
+      });
+      var box = document.createElement('div');
+      box.className = 'toc';
+      box.innerHTML = '<h4>目錄</h4>';
+      box.appendChild(ol);
+      container.appendChild(box);
+    })();
+  </script>
 </body>
 </html>

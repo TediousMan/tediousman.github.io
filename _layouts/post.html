@@ -8,12 +8,69 @@ layout: default
     {% if page.category %}
     <span class="post-category">{{ page.category }}</span>
     {% endif %}
+    {% assign read_min = content | number_of_words | divided_by: 200 | plus: 1 %}
+    <span class="read-time">約 {{ read_min }} 分鐘閱讀</span>
   </div>
 </header>
+
+{% if page.image %}
+<img src="{{ page.image | relative_url }}" alt="{{ page.title }}" class="post-cover-image">
+{% endif %}
+
+<div id="toc-container"></div>
 
 <div class="post-content">
   {{ content }}
 </div>
+
+<div class="post-share">
+  <span class="share-label">分享這篇文章</span>
+  <div class="share-buttons">
+    <a href="https://twitter.com/intent/tweet?url={{ page.url | absolute_url | url_encode }}&text={{ page.title | url_encode }}" target="_blank" rel="noopener" class="share-btn">X (Twitter)</a>
+    <a href="https://www.threads.net/intent/post?text={{ page.title | url_encode }}%20{{ page.url | absolute_url | url_encode }}" target="_blank" rel="noopener" class="share-btn">Threads</a>
+    <a href="https://social-plugins.line.me/lineit/share?url={{ page.url | absolute_url | url_encode }}" target="_blank" rel="noopener" class="share-btn">LINE</a>
+  </div>
+</div>
+
+<nav class="post-nav">
+  <div class="post-nav-item prev">
+    {% if page.next %}
+    <span class="nav-label">← 上一篇</span>
+    <a href="{{ page.next.url | relative_url }}">{{ page.next.title }}</a>
+    {% endif %}
+  </div>
+  <div class="post-nav-item next">
+    {% if page.previous %}
+    <span class="nav-label">下一篇 →</span>
+    <a href="{{ page.previous.url | relative_url }}">{{ page.previous.title }}</a>
+    {% endif %}
+  </div>
+</nav>
+
+{% if page.category %}
+{% assign related_posts = "" | split: "" %}
+{% for p in site.posts %}
+  {% if p.category == page.category and p.url != page.url %}
+    {% assign related_posts = related_posts | push: p %}
+  {% endif %}
+  {% if related_posts.size == 3 %}{% break %}{% endif %}
+{% endfor %}
+{% if related_posts.size > 0 %}
+<section class="related-posts">
+  <h3>同分類文章</h3>
+  <ul class="related-list">
+    {% for rp in related_posts %}
+    <li>
+      <a href="{{ rp.url | relative_url }}">
+        <span class="related-title">{{ rp.title }}</span>
+        <span class="related-date">{{ rp.date | date: "%m/%d" }}</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+{% endif %}
 
 <section class="post-comments">
   <h3>留言區</h3>

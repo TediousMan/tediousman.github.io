@@ -9,6 +9,9 @@ permalink: /music-reviews/
 {% assign posts = site.posts | where: "category", "音樂記錄" %}
 {% for post in posts %}
 <div class="post-card">
+  {% if post.image %}
+  <a href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="post-card-image"></a>
+  {% endif %}
   <div class="post-meta">
     <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y 年 %m 月 %d 日" }}</time>
   </div>
