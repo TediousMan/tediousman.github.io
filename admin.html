@@ -882,7 +882,7 @@ permalink: /admin/
         body = fmMatch[2].trim();
         const fm = fmMatch[1];
         const titleMatch = fm.match(/title:\s*"?(.+?)"?\s*$/m);
-        const dateMatch = fm.match(/date:\s*(.+)$/m);
+        const dateMatch = fm.match(/date:\s*(\d{4}-\d{2}-\d{2})/m);
         const catMatch = fm.match(/category:\s*(.+)$/m);
         const descMatch = fm.match(/description:\s*"?([^"\n]+)"?\s*$/m);
         if (titleMatch) title = titleMatch[1].trim();
