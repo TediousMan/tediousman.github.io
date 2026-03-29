@@ -841,8 +841,12 @@ permalink: /admin/
     return !/^(javascript|data|vbscript):/i.test(String(url).trim());
   }
 
-  // Set today's date as default
-  document.getElementById('postDate').value = new Date().toISOString().split('T')[0];
+  // Set today's date as default (use local date, not UTC)
+  function localDateStr() {
+    const d = new Date();
+    return d.getFullYear() + '-' + String(d.getMonth()+1).padStart(2,'0') + '-' + String(d.getDate()).padStart(2,'0');
+  }
+  document.getElementById('postDate').value = localDateStr();
 
   // Check if already logged in
   (function checkAuth() {
@@ -1212,7 +1216,7 @@ permalink: /admin/
   function clearAll() {
     if (!confirm('確定要清除所有內容嗎？')) return;
     document.getElementById('postTitle').value = '';
-    document.getElementById('postDate').value = new Date().toISOString().split('T')[0];
+    document.getElementById('postDate').value = localDateStr();
     document.getElementById('postCategory').value = '音樂記錄';
     document.getElementById('postDescription').value = '';
     document.getElementById('postContent').value = '';
@@ -1277,7 +1281,7 @@ permalink: /admin/
       localStorage.removeItem('post_draft');
       document.getElementById('postTitle').value = '';
       document.getElementById('postContent').value = '';
-      document.getElementById('postDate').value = new Date().toISOString().split('T')[0];
+      document.getElementById('postDate').value = localDateStr();
       setTimeout(() => { window.location.href = '/'; }, 2000);
     } catch(e) {
       showStatus('editorStatus', '發佈失敗：' + e.message, 'error');
@@ -1623,7 +1627,7 @@ permalink: /admin/
     document.getElementById('postTitle').value = '';
     document.getElementById('postDescription').value = '';
     document.getElementById('postContent').value = '';
-    document.getElementById('postDate').value = new Date().toISOString().split('T')[0];
+    document.getElementById('postDate').value = localDateStr();
     document.getElementById('postCategory').value = '音樂記錄';
     localStorage.removeItem('post_draft');
     switchAdminTab('posts');
