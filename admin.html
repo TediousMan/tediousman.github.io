@@ -488,6 +488,22 @@ permalink: /admin/
       font-size: 0.85rem;
     }
 
+    .editor-footer-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 6px;
+      min-height: 18px;
+    }
+    .word-count-info {
+      font-size: 0.78rem;
+      color: #666;
+    }
+    .auto-save-status {
+      font-size: 0.78rem;
+      color: #555;
+    }
+
     @media (max-width: 600px) {
       .form-row { flex-direction: column; gap: 0; }
       .editor-container { padding: 0 12px; }
@@ -558,6 +574,11 @@ permalink: /admin/
     </div>
 
     <div class="form-group">
+      <label for="postDescription">文章描述 <span style="color:#555; font-weight:400;">（選填，用於社群分享預覽文字）</span></label>
+      <input type="text" id="postDescription" placeholder="一句話介紹這篇文章...">
+    </div>
+
+    <div class="form-group">
       <div class="tabs">
         <button class="tab-btn active" onclick="switchTab('edit')">編輯</button>
         <button class="tab-btn" onclick="switchTab('preview')">預覽</button>
@@ -578,6 +599,10 @@ permalink: /admin/
           <button onclick="insertYouTube()" title="YouTube">YouTube</button>
         </div>
         <textarea id="postContent" placeholder="在這裡用 Markdown 撰寫文章內容..."></textarea>
+        <div class="editor-footer-info">
+          <span id="wordCountInfo" class="word-count-info"></span>
+          <span id="autoSaveStatus" class="auto-save-status"></span>
+        </div>
       </div>
 
       <div id="previewTab" class="preview-area"></div>
@@ -762,6 +787,7 @@ permalink: /admin/
         if (d.title) document.getElementById('postTitle').value = d.title;
         if (d.date) document.getElementById('postDate').value = d.date;
         if (d.category) document.getElementById('postCategory').value = d.category;
+        if (d.description) document.getElementById('postDescription').value = d.description;
         if (d.content) document.getElementById('postContent').value = d.content;
       } catch(e) {}
     }
@@ -958,9 +984,14 @@ permalink: /admin/
       title: document.getElementById('postTitle').value,
       date: document.getElementById('postDate').value,
       category: document.getElementById('postCategory').value,
+      description: document.getElementById('postDescription').value,
       content: document.getElementById('postContent').value
     };
     localStorage.setItem('post_draft', JSON.stringify(draft));
+    const now = new Date();
+    const hhmm = now.getHours().toString().padStart(2,'0') + ':' + now.getMinutes().toString().padStart(2,'0');
+    const statusEl = document.getElementById('autoSaveStatus');
+    if (statusEl) statusEl.textContent = '自動儲存於 ' + hhmm;
     showStatus('editorStatus', '草稿已儲存！', 'success');
   }
 
@@ -969,7 +1000,10 @@ permalink: /admin/
     document.getElementById('postTitle').value = '';
     document.getElementById('postDate').value = new Date().toISOString().split('T')[0];
     document.getElementById('postCategory').value = '音樂記錄';
+    document.getElementById('postDescription').value = '';
     document.getElementById('postContent').value = '';
+    const statusEl = document.getElementById('autoSaveStatus');
+    if (statusEl) statusEl.textContent = '';
     localStorage.removeItem('post_draft');
     showStatus('editorStatus', '已清除。', 'success');
   }
@@ -978,6 +1012,7 @@ permalink: /admin/
     const title = document.getElementById('postTitle').value.trim();
     const date = document.getElementById('postDate').value;
     const category = document.getElementById('postCategory').value;
+    const description = document.getElementById('postDescription').value.trim();
     const content = document.getElementById('postContent').value.trim();
     const token = localStorage.getItem('gh_token');
 
@@ -998,7 +1033,8 @@ permalink: /admin/
     const filename = `_posts/${date}-${slug}.md`;
 
     // Build front matter
-    const fileContent = `---\nlayout: post\ntitle: "${title}"\ndate: ${date}\ncategory: ${category}\n---\n\n${content}\n`;
+    const descLine = description ? `description: "${description}"\n` : '';
+    const fileContent = `---\nlayout: post\ntitle: "${title}"\ndate: ${date}\ncategory: ${category}\n${descLine}---\n\n${content}\n`;
 
     try {
       const res = await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/${filename}`, {
@@ -1040,10 +1076,36 @@ permalink: /admin/
     }
   }
 
-  // Auto-save draft every 30 seconds
+  // Word count + reading time
+  function updateWordCount() {
+    const text = document.getElementById('postContent').value;
+    const cjk = (text.match(/[\u4e00-\u9fff\u3400-\u4dbf\uff00-\uffef]/g) || []).length;
+    const latin = (text.match(/[a-zA-Z]+/g) || []).length;
+    const total = cjk + latin;
+    const mins = Math.max(1, Math.ceil(total / 300));
+    const el = document.getElementById('wordCountInfo');
+    if (el) el.textContent = total > 0 ? total + ' 字 · 約 ' + mins + ' 分鐘閱讀' : '';
+  }
+  document.getElementById('postContent').addEventListener('input', updateWordCount);
+  updateWordCount();
+
+  // Auto-save draft every 30 seconds (silent)
   setInterval(() => {
     const content = document.getElementById('postContent').value;
-    if (content.trim()) saveDraft();
+    if (content.trim()) {
+      const draft = {
+        title: document.getElementById('postTitle').value,
+        date: document.getElementById('postDate').value,
+        category: document.getElementById('postCategory').value,
+        description: document.getElementById('postDescription').value,
+        content: content
+      };
+      localStorage.setItem('post_draft', JSON.stringify(draft));
+      const now = new Date();
+      const hhmm = now.getHours().toString().padStart(2,'0') + ':' + now.getMinutes().toString().padStart(2,'0');
+      const statusEl = document.getElementById('autoSaveStatus');
+      if (statusEl) statusEl.textContent = '自動儲存於 ' + hhmm;
+    }
   }, 30000);
 
   // Enter key to login
@@ -1190,10 +1252,18 @@ permalink: /admin/
     // Switch to editor tab
     switchAdminTab('editor');
 
+    // Parse description from front matter
+    let postDescription = '';
+    if (fmMatch) {
+      const descMatch = fmMatch[1].match(/description:\s*"?([^"\n]+)"?\s*$/m);
+      if (descMatch) postDescription = descMatch[1].trim();
+    }
+
     // Fill in the editor fields
     document.getElementById('postTitle').value = post.title || '';
     document.getElementById('postDate').value = post.date || '';
     document.getElementById('postCategory').value = post.category || '音樂記錄';
+    document.getElementById('postDescription').value = postDescription;
     document.getElementById('postContent').value = body;
 
     // Store editing state
@@ -1214,6 +1284,7 @@ permalink: /admin/
     const title = document.getElementById('postTitle').value.trim();
     const date = document.getElementById('postDate').value;
     const category = document.getElementById('postCategory').value;
+    const description = document.getElementById('postDescription').value.trim();
     const content = document.getElementById('postContent').value.trim();
     const token = localStorage.getItem('gh_token');
 
@@ -1225,7 +1296,8 @@ permalink: /admin/
     btn.disabled = true;
     btn.textContent = '更新中...';
 
-    const fileContent = `---\nlayout: post\ntitle: "${title}"\ndate: ${date}\ncategory: ${category}\n---\n\n${content}\n`;
+    const descLine = description ? `description: "${description}"\n` : '';
+    const fileContent = `---\nlayout: post\ntitle: "${title}"\ndate: ${date}\ncategory: ${category}\n${descLine}---\n\n${content}\n`;
 
     try {
       // If date or title changed, we need a new filename
