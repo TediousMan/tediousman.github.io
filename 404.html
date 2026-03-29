@@ -4,10 +4,24 @@ title: 頁面找不到
 permalink: /404.html
 ---
 
-<div style="text-align:center; padding: 4em 0 6em;">
-  <div style="font-size:6rem; font-weight:700; color:#333; line-height:1;">404</div>
-  <p style="color:#666; font-size:1.1rem; margin: 0.8em 0 2em;">找不到這個頁面，它可能已被移動或刪除。</p>
-  <a href="/" style="display:inline-block; padding:10px 24px; border:1px solid #444; border-radius:4px; color:#a0a0a0; font-size:0.95rem; transition:border-color 0.2s, color 0.2s;"
+<div style="text-align:center; padding: 3em 0 2em;">
+  <div style="font-size:5rem; font-weight:700; color:#2a2a2a; line-height:1;">404</div>
+  <p style="color:#666; font-size:1rem; margin: 0.6em 0 1.8em;">找不到這個頁面，它可能已被移動或刪除。</p>
+  <a href="/" style="display:inline-block; padding:9px 22px; border:1px solid #444; border-radius:4px; color:#a0a0a0; font-size:0.9rem; transition:border-color 0.2s, color 0.2s;"
      onmouseover="this.style.borderColor='#8a9ba8';this.style.color='#c8c8c8'"
      onmouseout="this.style.borderColor='#444';this.style.color='#a0a0a0'">← 回到首頁</a>
+</div>
+
+<div style="margin-top:2em; border-top:1px solid #2a2a2a; padding-top:2em;">
+  <h3 style="font-size:0.95rem; color:#666; margin-bottom:1em; font-weight:400; letter-spacing:0.05em;">最新文章</h3>
+  <ul style="list-style:none; padding:0; margin:0;">
+    {% for post in site.posts limit:5 %}
+    <li style="padding:0.5em 0; border-bottom:1px solid #222;">
+      <a href="{{ post.url | relative_url }}" style="color:#a0a0a0; font-size:0.9rem;">
+        {{ post.title }}
+      </a>
+      <span style="color:#444; font-size:0.78rem; margin-left:0.8em;">{{ post.date | date: "%m/%d" }}</span>
+    </li>
+    {% endfor %}
+  </ul>
 </div>

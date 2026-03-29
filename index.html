@@ -49,7 +49,7 @@ title: 首頁
           body: JSON.stringify({ message: '刪除文章：' + title, sha: data.sha })
         });
         if (del.ok) {
-          alert('文章已刪除，頁面即將重新整理。');
+          alert('文章已刪除。\n網站需要約 1-2 分鐘重建，重建完成後刷新頁面即可看到更新。');
           window.location.reload();
         } else {
           var err = await del.json();

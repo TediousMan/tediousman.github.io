@@ -1,5 +1,13 @@
 <footer class="site-footer">
   <div class="container">
-    <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved. &nbsp;·&nbsp; <a href="/feed.xml" style="color:#666;">RSS</a></p>
+    <div class="footer-inner">
+      <p class="footer-desc">音樂記錄 · 心得 · 生活紀錄</p>
+      <div class="footer-links">
+        <a href="/feed.xml">RSS</a>
+        <a href="/about/">關於我</a>
+        <a href="/sitemap.xml">Sitemap</a>
+      </div>
+      <p class="footer-copy">&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</p>
+    </div>
   </div>
 </footer>

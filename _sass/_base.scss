@@ -58,6 +58,48 @@ blockquote {
   border-radius: 4px;
 }
 
+// Threads embed fallback (embed.js unavailable — render as link card)
+blockquote.text-post-media {
+  border-left: none;
+  font-style: normal;
+  background: $bg-secondary;
+  border: 1px solid $border-color;
+  border-radius: 8px;
+  padding: 1.2em 1.5em;
+  max-width: 540px;
+  margin: 1.5em auto;
+  text-align: center;
+
+  a {
+    display: inline-block;
+    color: $text-primary;
+    font-size: 0.95rem;
+    text-decoration: none;
+
+    &::before {
+      content: "Threads";
+      display: block;
+      font-size: 1rem;
+      font-weight: 600;
+      color: $text-secondary;
+      margin-bottom: 0.5em;
+      letter-spacing: 0.02em;
+    }
+
+    p {
+      margin: 0;
+      color: $accent;
+      font-size: 0.88rem;
+
+      &::after {
+        content: " ↗";
+      }
+    }
+
+    &:hover p { color: $accent-hover; }
+  }
+}
+
 code {
   font-family: $font-mono;
   background: $bg-tertiary;

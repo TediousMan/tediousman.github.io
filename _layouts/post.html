@@ -1,42 +1,46 @@
 ---
 layout: default
 ---
-<div id="admin-post-bar" style="display:none; margin-bottom:1em; padding:8px 12px; background:#252525; border:1px solid #333; border-radius:6px; display:none; gap:8px; align-items:center;">
+<div id="admin-post-bar"
+     data-post-path="{{ page.path | escape }}"
+     data-post-title="{{ page.title | escape }}"
+     style="display:none; margin-bottom:1em; padding:8px 12px; background:#252525; border:1px solid #333; border-radius:6px; gap:8px; align-items:center;">
   <span style="font-size:0.8rem; color:#666; margin-right:4px;">管理</span>
   <a id="admin-edit-btn" href="/admin/?edit={{ page.path | url_encode }}" style="padding:5px 14px; border:1px solid #444; border-radius:4px; font-size:0.82rem; color:#a0a0a0; text-decoration:none;">編輯</a>
-  <button id="admin-delete-btn" onclick="adminDeleteThisPost()" style="padding:5px 14px; border:1px solid #5a2020; border-radius:4px; font-size:0.82rem; color:#c06060; background:none; cursor:pointer;">刪除</button>
+  <button id="admin-delete-btn" style="padding:5px 14px; border:1px solid #5a2020; border-radius:4px; font-size:0.82rem; color:#c06060; background:none; cursor:pointer;">刪除</button>
 </div>
 <script>
 (function() {
   if (!localStorage.getItem('gh_token')) return;
   var bar = document.getElementById('admin-post-bar');
   bar.style.display = 'flex';
-})();
-window.adminDeleteThisPost = async function() {
-  if (!confirm('確定要刪除「{{ page.title | escape }}」嗎？此操作無法復原！')) return;
-  var token = localStorage.getItem('gh_token');
-  var path = '{{ page.path }}';
-  try {
-    var res = await fetch('https://api.github.com/repos/TediousMan/tediousman.github.io/contents/' + path, {
-      headers: { 'Authorization': 'token ' + token }
-    });
-    var data = await res.json();
-    var del = await fetch('https://api.github.com/repos/TediousMan/tediousman.github.io/contents/' + path, {
-      method: 'DELETE',
-      headers: { 'Authorization': 'token ' + token, 'Content-Type': 'application/json' },
-      body: JSON.stringify({ message: '刪除文章：{{ page.title | escape }}', sha: data.sha })
-    });
-    if (del.ok) {
-      alert('文章已刪除，即將返回首頁。');
-      window.location.href = '/';
-    } else {
-      var err = await del.json();
-      alert('刪除失敗：' + (err.message || '未知錯誤'));
+  document.getElementById('admin-delete-btn').addEventListener('click', async function() {
+    var path = bar.dataset.postPath;
+    var title = bar.dataset.postTitle;
+    if (!confirm('確定要刪除「' + title + '」嗎？此操作無法復原！')) return;
+    var token = localStorage.getItem('gh_token');
+    try {
+      var res = await fetch('https://api.github.com/repos/TediousMan/tediousman.github.io/contents/' + path, {
+        headers: { 'Authorization': 'token ' + token }
+      });
+      var data = await res.json();
+      var del = await fetch('https://api.github.com/repos/TediousMan/tediousman.github.io/contents/' + path, {
+        method: 'DELETE',
+        headers: { 'Authorization': 'token ' + token, 'Content-Type': 'application/json' },
+        body: JSON.stringify({ message: '刪除文章：' + title, sha: data.sha })
+      });
+      if (del.ok) {
+        alert('文章已刪除。\n網站需要約 1-2 分鐘重建，完成後首頁即更新。');
+        window.location.href = '/';
+      } else {
+        var err = await del.json();
+        alert('刪除失敗：' + (err.message || '未知錯誤'));
+      }
+    } catch(e) {
+      alert('刪除失敗：' + e.message);
     }
-  } catch(e) {
-    alert('刪除失敗：' + e.message);
-  }
-};
+  });
+})();
 </script>
 <header class="post-header">
   <h1 class="post-title">{{ page.title }}</h1>
@@ -45,7 +49,7 @@ window.adminDeleteThisPost = async function() {
     {% if page.category %}
     <span class="post-category">{{ page.category }}</span>
     {% endif %}
-    {% assign read_min = content | number_of_words | divided_by: 500 | plus: 1 %}
+    {% assign read_min = content | strip_html | size | divided_by: 400 | plus: 1 %}
     <span class="read-time">約 {{ read_min }} 分鐘閱讀</span>
   </div>
 </header>

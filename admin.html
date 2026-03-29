@@ -1470,12 +1470,14 @@ permalink: /admin/
       </div>`;
     }).join('');
 
-    listEl.addEventListener('click', function(e) {
+    if (listEl._clickHandler) listEl.removeEventListener('click', listEl._clickHandler);
+    listEl._clickHandler = function(e) {
       const editBtn = e.target.closest('.btn-edit');
       const deleteBtn = e.target.closest('.btn-delete');
       if (editBtn) editPost(editBtn.dataset.path);
       if (deleteBtn) deletePost(deleteBtn.dataset.path, deleteBtn.dataset.sha, deleteBtn.dataset.title);
-    }, { once: true });
+    };
+    listEl.addEventListener('click', listEl._clickHandler);
   }
 
   async function editPost(path) {
@@ -1598,6 +1600,10 @@ permalink: /admin/
 
       showStatus('editorStatus', '文章已成功更新！2 秒後返回首頁…', 'success');
       editingFile = null;
+      btn.onclick = publish;
+      btn.textContent = '發佈文章';
+      const cancelBtn2 = document.getElementById('cancelEditBtn');
+      if (cancelBtn2) cancelBtn2.classList.remove('visible');
       localStorage.removeItem('post_draft');
       setTimeout(() => { window.location.href = '/'; }, 2000);
     } catch(e) {
