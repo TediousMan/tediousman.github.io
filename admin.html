@@ -643,7 +643,7 @@ permalink: /admin/
 
     <div class="form-group">
       <label for="postDescription">文章描述 <span style="color:#555; font-weight:400;">（選填，用於社群分享預覽文字）</span></label>
-      <input type="text" id="postDescription" placeholder="一句話介紹這篇文章...">
+      <input type="text" id="postDescription" placeholder="一句話介紹這篇文章..." maxlength="300">
     </div>
 
     <div class="form-group">
@@ -863,19 +863,23 @@ permalink: /admin/
     }
   });
 
-  // Load draft if exists
+  // Load draft if exists (expires after 7 days)
   (function loadDraft() {
-    const draft = localStorage.getItem('post_draft');
-    if (draft) {
-      try {
-        const d = JSON.parse(draft);
-        if (d.title) document.getElementById('postTitle').value = d.title;
-        if (d.date) document.getElementById('postDate').value = d.date;
-        if (d.category) document.getElementById('postCategory').value = d.category;
-        if (d.description) document.getElementById('postDescription').value = d.description;
-        if (d.content) document.getElementById('postContent').value = d.content;
-      } catch(e) {}
-    }
+    const raw = localStorage.getItem('post_draft');
+    if (!raw) return;
+    try {
+      const d = JSON.parse(raw);
+      const sevenDays = 7 * 24 * 60 * 60 * 1000;
+      if (d._savedAt && Date.now() - d._savedAt > sevenDays) {
+        localStorage.removeItem('post_draft');
+        return;
+      }
+      if (d.title) document.getElementById('postTitle').value = d.title;
+      if (d.date) document.getElementById('postDate').value = d.date;
+      if (d.category) document.getElementById('postCategory').value = d.category;
+      if (d.description) document.getElementById('postDescription').value = d.description;
+      if (d.content) document.getElementById('postContent').value = d.content;
+    } catch(e) { localStorage.removeItem('post_draft'); }
   })();
 
   async function login() {
@@ -1078,6 +1082,7 @@ permalink: /admin/
       description: document.getElementById('postDescription').value,
       content: document.getElementById('postContent').value
     };
+    draft._savedAt = Date.now();
     localStorage.setItem('post_draft', JSON.stringify(draft));
     const now = new Date();
     const hhmm = now.getHours().toString().padStart(2,'0') + ':' + now.getMinutes().toString().padStart(2,'0');
@@ -1111,7 +1116,8 @@ permalink: /admin/
     if (title.length > 200) { alert('標題不能超過 200 字'); return; }
     if (!date) { alert('請選擇日期'); return; }
     if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) { alert('日期格式錯誤，應為 YYYY-MM-DD'); return; }
-    const allowedCategories = ['音樂記錄', '生活紀錄', '內心獨白'];
+    if (isNaN(new Date(date + 'T00:00:00').getTime())) { alert('日期不合法'); return; }
+    const allowedCategories = ['音樂記錄', '生活紀錄', '個人心得'];
     if (!allowedCategories.includes(category)) { alert('請選擇有效的分類'); return; }
     if (!content) { alert('請輸入文章內容'); return; }
 
@@ -1633,9 +1639,11 @@ permalink: /admin/
   }
 
   function redirectToGoogleAuth(clientId) {
+    const state = Math.random().toString(36).substring(2, 18);
+    sessionStorage.setItem('oauth_state', state);
     const redirectUri = encodeURIComponent(window.location.origin + '/admin/');
     const scope = encodeURIComponent('https://www.googleapis.com/auth/analytics.readonly');
-    const authUrl = `https://accounts.google.com/o/oauth2/v2/auth?client_id=${clientId}&redirect_uri=${redirectUri}&response_type=token&scope=${scope}`;
+    const authUrl = `https://accounts.google.com/o/oauth2/v2/auth?client_id=${clientId}&redirect_uri=${redirectUri}&response_type=token&scope=${scope}&state=${encodeURIComponent(state)}`;
     window.location.href = authUrl;
   }
 
@@ -1644,6 +1652,14 @@ permalink: /admin/
     const hash = window.location.hash;
     if (hash.includes('access_token')) {
       const params = new URLSearchParams(hash.substring(1));
+      const returnedState = params.get('state');
+      const savedState = sessionStorage.getItem('oauth_state');
+      sessionStorage.removeItem('oauth_state');
+      if (!returnedState || returnedState !== savedState) {
+        alert('安全驗證失敗，請重新授權');
+        window.location.hash = '';
+        return;
+      }
       const token = params.get('access_token');
       if (token) {
         localStorage.setItem(GA_TOKEN_KEY, token);

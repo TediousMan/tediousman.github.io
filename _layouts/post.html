@@ -8,7 +8,7 @@ layout: default
     {% if page.category %}
     <span class="post-category">{{ page.category }}</span>
     {% endif %}
-    {% assign read_min = content | number_of_words | divided_by: 200 | plus: 1 %}
+    {% assign read_min = content | number_of_words | divided_by: 500 | plus: 1 %}
     <span class="read-time">約 {{ read_min }} 分鐘閱讀</span>
   </div>
 </header>
@@ -29,8 +29,18 @@ layout: default
     <a href="https://twitter.com/intent/tweet?url={{ page.url | absolute_url | url_encode }}&text={{ page.title | url_encode }}" target="_blank" rel="noopener" class="share-btn">X (Twitter)</a>
     <a href="https://www.threads.net/intent/post?text={{ page.title | url_encode }}%20{{ page.url | absolute_url | url_encode }}" target="_blank" rel="noopener" class="share-btn">Threads</a>
     <a href="https://social-plugins.line.me/lineit/share?url={{ page.url | absolute_url | url_encode }}" target="_blank" rel="noopener" class="share-btn">LINE</a>
+    <button class="share-btn" id="copy-link-btn" onclick="copyPostLink()" style="cursor:pointer; background:none; border:1px solid #333;">複製連結</button>
   </div>
 </div>
+<script>
+function copyPostLink() {
+  navigator.clipboard.writeText(window.location.href).then(function() {
+    var btn = document.getElementById('copy-link-btn');
+    btn.textContent = '已複製！';
+    setTimeout(function() { btn.textContent = '複製連結'; }, 2000);
+  });
+}
+</script>
 
 <nav class="post-nav">
   <div class="post-nav-item prev">
@@ -74,18 +84,20 @@ layout: default
 
 <section class="post-comments">
   <h3>留言區</h3>
+  <button id="load-comments-btn" onclick="loadDisqus()" style="padding:8px 20px; border:1px solid #444; border-radius:4px; background:none; color:#a0a0a0; font-size:0.9rem; cursor:pointer;">載入留言</button>
   <div id="disqus_thread"></div>
-  <script>
-    var disqus_config = function () {
-      this.page.url = '{{ site.url }}{{ page.url }}';
-      this.page.identifier = '{{ page.url }}';
-    };
-    (function() {
-      var d = document, s = d.createElement('script');
-      s.src = 'https://tediousman.disqus.com/embed.js';
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-    })();
-  </script>
-  <noscript>請啟用 JavaScript 以查看 <a href="https://disqus.com/?ref_noscript">Disqus 留言</a>。</noscript>
 </section>
+<script>
+function loadDisqus() {
+  document.getElementById('load-comments-btn').style.display = 'none';
+  var disqus_config = function () {
+    this.page.url = '{{ site.url }}{{ page.url }}';
+    this.page.identifier = '{{ page.url }}';
+  };
+  var d = document, s = d.createElement('script');
+  s.src = 'https://tediousman.disqus.com/embed.js';
+  s.setAttribute('data-timestamp', +new Date());
+  (d.head || d.body).appendChild(s);
+}
+</script>
+<noscript>請啟用 JavaScript 以查看 <a href="https://disqus.com/?ref_noscript">Disqus 留言</a>。</noscript>

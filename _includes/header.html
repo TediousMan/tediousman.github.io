@@ -54,8 +54,9 @@
   });
 
   function adminLogout() {
-    localStorage.removeItem('gh_token');
-    localStorage.removeItem('ga_access_token');
+    ['gh_token', 'ga_access_token', 'ga_property_id', 'ga_client_id', 'post_draft'].forEach(function(k) {
+      localStorage.removeItem(k);
+    });
     document.getElementById('nav-admin-dropdown').style.display = 'none';
     document.getElementById('nav-logout-link').style.display = 'none';
     window.location.href = '/';
