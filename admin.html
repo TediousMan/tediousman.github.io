@@ -853,8 +853,64 @@ permalink: /admin/
       if (hash === 'posts' || hash === 'analytics' || hash === 'editor') {
         setTimeout(() => switchAdminTab(hash), 0);
       }
+      // Auto-load post for editing if ?edit= param is present
+      const editPath = new URLSearchParams(window.location.search).get('edit');
+      if (editPath) {
+        setTimeout(() => loadPostForEditByPath(editPath), 0);
+      }
     }
   })();
+
+  async function loadPostForEditByPath(path) {
+    const token = localStorage.getItem('gh_token');
+    try {
+      const res = await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/${path}`, {
+        headers: { 'Authorization': 'token ' + token }
+      });
+      if (!res.ok) throw new Error('無法載入文章');
+      const data = await res.json();
+      const rawContent = decodeURIComponent(escape(atob(data.content)));
+
+      const fmMatch = rawContent.match(/^---\n([\s\S]*?)\n---\n\n?([\s\S]*)$/);
+      let body = rawContent;
+      let title = '', date = '', category = '音樂記錄', description = '';
+      if (fmMatch) {
+        body = fmMatch[2].trim();
+        const fm = fmMatch[1];
+        const titleMatch = fm.match(/title:\s*"?(.+?)"?\s*$/m);
+        const dateMatch = fm.match(/date:\s*(.+)$/m);
+        const catMatch = fm.match(/category:\s*(.+)$/m);
+        const descMatch = fm.match(/description:\s*"?([^"\n]+)"?\s*$/m);
+        if (titleMatch) title = titleMatch[1].trim();
+        if (dateMatch) date = dateMatch[1].trim();
+        if (catMatch) category = catMatch[1].trim();
+        if (descMatch) description = descMatch[1].trim();
+      }
+
+      document.getElementById('postTitle').value = title;
+      document.getElementById('postDate').value = date;
+      document.getElementById('postCategory').value = category;
+      document.getElementById('postDescription').value = description;
+      document.getElementById('postContent').value = body;
+
+      editingFile = { path: path, sha: data.sha };
+
+      const btn = document.getElementById('publishBtn');
+      btn.textContent = '更新文章';
+      btn.onclick = updatePost;
+      const cancelBtn = document.getElementById('cancelEditBtn');
+      if (cancelBtn) cancelBtn.classList.add('visible');
+
+      showStatus('editorStatus', '正在編輯：' + (title || path), 'success');
+
+      // Clean up URL param without reloading
+      const url = new URL(window.location.href);
+      url.searchParams.delete('edit');
+      history.replaceState(null, '', url.toString());
+    } catch(e) {
+      alert('載入文章失敗：' + e.message);
+    }
+  }
 
   // Handle hash change when already on admin page (from dropdown)
   window.addEventListener('hashchange', function() {
@@ -1217,11 +1273,12 @@ permalink: /admin/
         throw new Error(err.message || '發佈失敗');
       }
 
-      showStatus('editorStatus', '文章已成功發佈！網站將在 1-2 分鐘後自動更新。', 'success');
+      showStatus('editorStatus', '文章已成功發佈！2 秒後返回首頁…', 'success');
       localStorage.removeItem('post_draft');
       document.getElementById('postTitle').value = '';
       document.getElementById('postContent').value = '';
       document.getElementById('postDate').value = new Date().toISOString().split('T')[0];
+      setTimeout(() => { window.location.href = '/'; }, 2000);
     } catch(e) {
       showStatus('editorStatus', '發佈失敗：' + e.message, 'error');
     }
@@ -1539,8 +1596,10 @@ permalink: /admin/
         });
       }
 
-      showStatus('editorStatus', '文章已成功更新！網站將在 1-2 分鐘後自動更新。', 'success');
-      cancelEdit();
+      showStatus('editorStatus', '文章已成功更新！2 秒後返回首頁…', 'success');
+      editingFile = null;
+      localStorage.removeItem('post_draft');
+      setTimeout(() => { window.location.href = '/'; }, 2000);
     } catch(e) {
       showStatus('editorStatus', '更新失敗：' + e.message, 'error');
     }
