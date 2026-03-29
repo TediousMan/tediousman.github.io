@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Apple Music 測試"
-date: 2026-03-29
+date: 2026-03-29 12:00:00 +0800
 category: 音樂記錄
 description: "這是測試Apple Music 功能"
 ---
