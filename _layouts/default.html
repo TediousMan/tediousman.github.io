@@ -7,9 +7,12 @@
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   {% seo %}
   {% assign og_image = page.image | default: '/assets/images/og-cover.jpg' %}
+  {% assign og_desc = page.description | default: page.excerpt | strip_html | truncate: 160 | default: site.description %}
   <meta property="og:image" content="{{ og_image | absolute_url }}" />
-  <meta name="twitter:card" content="summary" />
+  <meta property="og:description" content="{{ og_desc }}" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:image" content="{{ og_image | absolute_url }}" />
+  <meta name="twitter:description" content="{{ og_desc }}" />
   {% if site.google_analytics %}
   <!-- Google Analytics 4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
