@@ -1116,17 +1116,17 @@ permalink: /admin/
   }
 
   function insertThreads() {
-    const url = prompt('請貼上 Threads 貼文網址：\n例如：https://www.threads.net/@user/post/ABC123');
+    const url = prompt('請貼上 Threads 貼文網址：\n例如：https://www.threads.com/@user/post/ABC123');
     if (!url) return;
 
-    const match = url.match(/threads\.net\/@[^/]+\/post\/([A-Za-z0-9_-]+)/);
+    const match = url.match(/threads\.(?:net|com)\/@[^/]+\/post\/([A-Za-z0-9_-]+)/);
     if (!match) {
       alert('無法辨識 Threads 網址，請確認格式正確。');
       return;
     }
 
     const postId = match[1];
-    const embed = `\n<iframe src="https://www.threads.net/embed/post/${postId}" style="width:100%;max-width:540px;border:none;border-radius:12px;display:block;margin:1.5em auto;overflow:hidden;" height="480" frameborder="0" scrolling="no" allowfullscreen></iframe>\n`;
+    const embed = `\n<iframe src="https://www.threads.com/embed/post/${postId}" style="width:100%;max-width:540px;border:none;border-radius:12px;display:block;margin:1.5em auto;overflow:hidden;" height="480" frameborder="0" scrolling="no" allowfullscreen></iframe>\n`;
 
     const ta = document.getElementById('postContent');
     const pos = ta.selectionStart;
