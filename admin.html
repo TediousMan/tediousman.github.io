@@ -665,6 +665,7 @@ permalink: /admin/
           <button onclick="insertSpotify()" title="Spotify">Spotify</button>
           <button onclick="insertAppleMusic()" title="Apple Music">Apple Music</button>
           <button onclick="insertYouTube()" title="YouTube">YouTube</button>
+          <button onclick="insertTwitter()" title="X (Twitter) 推文/影片">X</button>
         </div>
         <textarea id="postContent" placeholder="在這裡用 Markdown 撰寫文章內容..."></textarea>
         <div class="editor-footer-info">
@@ -1071,6 +1072,25 @@ permalink: /admin/
     const ta = document.getElementById('postContent');
     const pos = ta.selectionStart;
     ta.value = ta.value.substring(0, pos) + iframe + ta.value.substring(pos);
+    ta.focus();
+  }
+
+  function insertTwitter() {
+    const url = prompt('請貼上 X (Twitter) 推文網址：\n例如：https://x.com/user/status/1234567890');
+    if (!url) return;
+
+    const match = url.match(/(?:twitter\.com|x\.com)\/[^/]+\/status\/(\d+)/);
+    if (!match) {
+      alert('無法辨識 X (Twitter) 網址，請確認格式正確。');
+      return;
+    }
+
+    const cleanUrl = 'https://x.com/' + url.match(/(?:twitter\.com|x\.com)\/([^/]+\/status\/\d+)/)[1];
+    const embed = `\n<blockquote class="twitter-tweet"><a href="${cleanUrl}"></a></blockquote>\n`;
+
+    const ta = document.getElementById('postContent');
+    const pos = ta.selectionStart;
+    ta.value = ta.value.substring(0, pos) + embed + ta.value.substring(pos);
     ta.focus();
   }
 

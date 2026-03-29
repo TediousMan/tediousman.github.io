@@ -101,3 +101,12 @@ function loadDisqus() {
 }
 </script>
 <noscript>請啟用 JavaScript 以查看 <a href="https://disqus.com/?ref_noscript">Disqus 留言</a>。</noscript>
+<script>
+(function() {
+  if (!document.querySelector('.twitter-tweet')) return;
+  var s = document.createElement('script');
+  s.src = 'https://platform.twitter.com/widgets.js';
+  s.async = true;
+  document.body.appendChild(s);
+})();
+</script>
