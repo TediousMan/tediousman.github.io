@@ -10,7 +10,7 @@
   {% assign og_desc = page.description | default: page.excerpt | strip_html | truncate: 160 | default: site.description %}
   <meta property="og:image" content="{{ og_image | absolute_url }}" />
   <meta property="og:description" content="{{ og_desc }}" />
-  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:card" content="summary" />
   <meta name="twitter:image" content="{{ og_image | absolute_url }}" />
   <meta name="twitter:description" content="{{ og_desc }}" />
   {% if site.google_analytics %}
