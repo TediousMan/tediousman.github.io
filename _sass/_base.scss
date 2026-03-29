@@ -93,6 +93,15 @@ iframe {
   margin: 1em 0;
 }
 
+// Twitter/X embed scrollbar styling
+iframe[src*="platform.twitter.com"] {
+  scrollbar-width: thin;
+  scrollbar-color: #444 transparent;
+  &::-webkit-scrollbar { width: 4px; }
+  &::-webkit-scrollbar-track { background: transparent; }
+  &::-webkit-scrollbar-thumb { background: #444; border-radius: 4px; }
+}
+
 .container {
   max-width: $container-width;
   margin: 0 auto;
