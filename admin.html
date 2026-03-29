@@ -666,6 +666,8 @@ permalink: /admin/
           <button onclick="insertAppleMusic()" title="Apple Music">Apple Music</button>
           <button onclick="insertYouTube()" title="YouTube">YouTube</button>
           <button onclick="insertTwitter()" title="X (Twitter) 推文/影片">X</button>
+          <button onclick="insertInstagram()" title="Instagram 貼文/Reels">IG</button>
+          <button onclick="insertThreads()" title="Threads 貼文">Threads</button>
         </div>
         <textarea id="postContent" placeholder="在這裡用 Markdown 撰寫文章內容..."></textarea>
         <div class="editor-footer-info">
@@ -1087,6 +1089,44 @@ permalink: /admin/
 
     const tweetId = match[1];
     const embed = `\n<iframe src="https://platform.twitter.com/embed/Tweet.html?id=${tweetId}&theme=dark&dnt=true" style="width:100%;max-width:550px;border:none;border-radius:12px;display:block;margin:1.5em auto;overflow-y:auto;" height="550" scrolling="yes" frameborder="0" allowfullscreen></iframe>\n`;
+
+    const ta = document.getElementById('postContent');
+    const pos = ta.selectionStart;
+    ta.value = ta.value.substring(0, pos) + embed + ta.value.substring(pos);
+    ta.focus();
+  }
+
+  function insertInstagram() {
+    const url = prompt('請貼上 Instagram 貼文或 Reels 網址：\n例如：https://www.instagram.com/p/ABC123/\n或：https://www.instagram.com/reel/ABC123/');
+    if (!url) return;
+
+    const match = url.match(/instagram\.com\/(?:p|reel|tv)\/([A-Za-z0-9_-]+)/);
+    if (!match) {
+      alert('無法辨識 Instagram 網址，請確認格式正確。');
+      return;
+    }
+
+    const shortcode = match[1];
+    const embed = `\n<iframe src="https://www.instagram.com/p/${shortcode}/embed/captioned/" style="width:100%;max-width:540px;border:none;border-radius:12px;display:block;margin:1.5em auto;overflow:hidden;" height="700" frameborder="0" scrolling="no" allowfullscreen></iframe>\n`;
+
+    const ta = document.getElementById('postContent');
+    const pos = ta.selectionStart;
+    ta.value = ta.value.substring(0, pos) + embed + ta.value.substring(pos);
+    ta.focus();
+  }
+
+  function insertThreads() {
+    const url = prompt('請貼上 Threads 貼文網址：\n例如：https://www.threads.net/@user/post/ABC123');
+    if (!url) return;
+
+    const match = url.match(/threads\.net\/@[^/]+\/post\/([A-Za-z0-9_-]+)/);
+    if (!match) {
+      alert('無法辨識 Threads 網址，請確認格式正確。');
+      return;
+    }
+
+    const postId = match[1];
+    const embed = `\n<iframe src="https://www.threads.net/embed/post/${postId}" style="width:100%;max-width:540px;border:none;border-radius:12px;display:block;margin:1.5em auto;overflow:hidden;" height="480" frameborder="0" scrolling="no" allowfullscreen></iframe>\n`;
 
     const ta = document.getElementById('postContent');
     const pos = ta.selectionStart;
