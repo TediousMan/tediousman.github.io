@@ -504,6 +504,73 @@ permalink: /admin/
       color: #555;
     }
 
+    /* Search + count */
+    .post-search-input {
+      padding: 6px 12px;
+      background: #2a2a2a;
+      border: 1px solid #444;
+      border-radius: 4px;
+      color: #e0e0e0;
+      font-size: 0.85rem;
+      width: 180px;
+    }
+    .post-search-input:focus { outline: none; border-color: #888; }
+    .posts-count {
+      font-size: 0.82rem;
+      color: #666;
+      margin-left: 8px;
+    }
+
+    /* View button */
+    .btn-view {
+      background: #3a3a3a;
+      color: #aaa;
+    }
+    .btn-view:hover { background: #555; color: #fff; }
+
+    /* Cancel edit button */
+    .btn-cancel-edit {
+      background: transparent;
+      border: 1px solid #555;
+      color: #aaa;
+      padding: 10px 18px;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+      display: none;
+    }
+    .btn-cancel-edit:hover { border-color: #888; color: #fff; }
+    .btn-cancel-edit.visible { display: inline-block; }
+
+    /* Deleted page in analytics */
+    .page-deleted { text-decoration: line-through; color: #666; }
+    .page-deleted-badge {
+      font-size: 0.72rem;
+      background: #3d1f1f;
+      color: #e74c3c;
+      border-radius: 3px;
+      padding: 1px 5px;
+      margin-left: 6px;
+      vertical-align: middle;
+    }
+    .page-title-hint {
+      display: block;
+      font-size: 0.75rem;
+      color: #888;
+      margin-top: 2px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    /* Analytics last updated */
+    .analytics-last-updated {
+      font-size: 0.75rem;
+      color: #555;
+      text-align: right;
+      margin-bottom: 16px;
+    }
+
     @media (max-width: 600px) {
       .form-row { flex-direction: column; gap: 0; }
       .editor-container { padding: 0 12px; }
@@ -611,6 +678,7 @@ permalink: /admin/
     <div class="actions">
       <button class="btn btn-primary" id="publishBtn" onclick="publish()">發佈文章</button>
       <button class="btn btn-secondary" onclick="saveDraft()">儲存草稿</button>
+      <button class="btn-cancel-edit" id="cancelEditBtn" onclick="cancelEdit()">取消編輯</button>
       <button class="btn btn-danger" onclick="clearAll()">清除</button>
     </div>
   </div>
@@ -620,8 +688,9 @@ permalink: /admin/
   <div id="postsSection" class="admin-section">
     <div class="posts-container">
       <div class="posts-header">
-        <h2>所有文章</h2>
+        <h2>所有文章<span id="postsCount" class="posts-count"></span></h2>
         <div class="post-filter">
+          <input type="text" id="postSearch" class="post-search-input" placeholder="搜尋標題..." oninput="filterPosts()">
           <select id="postFilter" onchange="filterPosts()">
             <option value="all">全部分類</option>
             <option value="音樂記錄">音樂記錄</option>
@@ -693,6 +762,7 @@ permalink: /admin/
           </select>
           <button class="btn btn-secondary" onclick="loadAnalytics()" style="padding:8px 16px; font-size:0.85rem;">重新整理</button>
         </div>
+        <div id="analyticsUpdatedAt" class="analytics-last-updated"></div>
 
         <div class="analytics-grid">
           <div class="stat-card">
@@ -1203,21 +1273,36 @@ permalink: /admin/
 
   function filterPosts() {
     const filter = document.getElementById('postFilter').value;
-    if (filter === 'all') {
-      renderPosts(allPosts);
-    } else {
-      renderPosts(allPosts.filter(p => p.category === filter));
-    }
+    const searchEl = document.getElementById('postSearch');
+    const keyword = searchEl ? searchEl.value.trim().toLowerCase() : '';
+    let posts = allPosts;
+    if (filter !== 'all') posts = posts.filter(p => p.category === filter);
+    if (keyword) posts = posts.filter(p => (p.title || '').toLowerCase().includes(keyword));
+    renderPosts(posts);
+  }
+
+  function buildPostPath(post) {
+    if (!post.date || !post.category || !post.slug) return null;
+    const [year, month, day] = post.date.split('-');
+    return `/${post.category}/${year}/${month}/${day}/${post.slug}/`;
   }
 
   function renderPosts(posts) {
     const listEl = document.getElementById('postsList');
+    const countEl = document.getElementById('postsCount');
+    if (countEl) countEl.textContent = posts.length > 0 ? `（共 ${posts.length} 篇）` : '';
+
     if (posts.length === 0) {
       listEl.innerHTML = '<div class="posts-loading">沒有找到文章</div>';
       return;
     }
 
-    listEl.innerHTML = posts.map(post => `
+    listEl.innerHTML = posts.map(post => {
+      const viewPath = buildPostPath(post);
+      const viewBtn = viewPath
+        ? `<a href="${viewPath}" target="_blank" class="btn-sm btn-view" style="text-decoration:none; padding:6px 14px; border-radius:4px; font-size:0.82rem; display:inline-block;">查看</a>`
+        : '';
+      return `
       <div class="post-item">
         <div class="post-item-info">
           <div class="post-item-title">${post.title}</div>
@@ -1228,11 +1313,12 @@ permalink: /admin/
           </div>
         </div>
         <div class="post-item-actions">
+          ${viewBtn}
           <button class="btn-sm btn-edit" onclick="editPost('${post.path}')">編輯</button>
           <button class="btn-sm btn-delete" onclick="deletePost('${post.path}', '${post.sha}', '${post.title.replace(/'/g, "\\'")}')">刪除</button>
         </div>
-      </div>
-    `).join('');
+      </div>`;
+    }).join('');
   }
 
   async function editPost(path) {
@@ -1276,6 +1362,9 @@ permalink: /admin/
     const btn = document.getElementById('publishBtn');
     btn.textContent = '更新文章';
     btn.onclick = updatePost;
+
+    const cancelBtn = document.getElementById('cancelEditBtn');
+    if (cancelBtn) cancelBtn.classList.add('visible');
 
     showStatus('editorStatus', '正在編輯：' + post.title, 'success');
   }
@@ -1364,11 +1453,15 @@ permalink: /admin/
     const btn = document.getElementById('publishBtn');
     btn.textContent = '發佈文章';
     btn.onclick = publish;
+    const cancelBtn = document.getElementById('cancelEditBtn');
+    if (cancelBtn) cancelBtn.classList.remove('visible');
     document.getElementById('postTitle').value = '';
+    document.getElementById('postDescription').value = '';
     document.getElementById('postContent').value = '';
     document.getElementById('postDate').value = new Date().toISOString().split('T')[0];
     document.getElementById('postCategory').value = '音樂記錄';
     localStorage.removeItem('post_draft');
+    switchAdminTab('posts');
   }
 
   async function deletePost(path, sha, title) {
@@ -1479,6 +1572,7 @@ permalink: /admin/
         <div style="text-align: center; width: 100%; padding: 20px; color: #999;">
           <p>連接 Google Analytics 後可查看每日趨勢圖表</p>
         </div>`;
+      updateAnalyticsTimestamp();
     }, 1500);
   }
 
@@ -1691,10 +1785,19 @@ permalink: /admin/
       const dailyData = await dailyRes.json();
       renderDailyChart(dailyData);
 
+      updateAnalyticsTimestamp();
     } catch(e) {
       console.error('GA fetch error:', e);
       loadAnalyticsFromBusuanzi();
     }
+  }
+
+  function updateAnalyticsTimestamp() {
+    const el = document.getElementById('analyticsUpdatedAt');
+    if (!el) return;
+    const now = new Date();
+    const hhmm = now.getHours().toString().padStart(2,'0') + ':' + now.getMinutes().toString().padStart(2,'0');
+    el.textContent = '最後更新：' + hhmm;
   }
 
   function renderCountryTable(data) {
@@ -1722,11 +1825,38 @@ permalink: /admin/
       el.innerHTML = '<p style="color:#999; text-align:center; padding:20px;">尚無數據</p>';
       return;
     }
+
+    // Build a lookup: GA path -> post title
+    const pathToTitle = {};
+    const existingPaths = new Set();
+    for (const post of allPosts) {
+      const p = buildPostPath(post);
+      if (p) {
+        existingPaths.add(p);
+        pathToTitle[p] = post.title;
+      }
+    }
+
+    // Non-post paths that are expected to exist (homepage, category pages, etc.)
+    const staticPaths = new Set(['/', '/music-reviews/', '/reflections/', '/life/', '/about/', '/admin/']);
+
     let html = '<table class="page-table"><colgroup><col><col></colgroup><thead><tr><th>頁面路徑</th><th>瀏覽量</th></tr></thead><tbody>';
     for (const row of data.rows) {
       const path = row.dimensionValues[0].value;
       const views = parseInt(row.metricValues[0].value);
-      html += `<tr><td title="${path}">${path}</td><td>${views.toLocaleString()}</td></tr>`;
+
+      const isPostPath = path.split('/').length >= 6; // category/year/month/day/slug format
+      const isDeleted = isPostPath && allPosts.length > 0 && !existingPaths.has(path);
+      const title = pathToTitle[path];
+
+      const pathCell = isDeleted
+        ? `<span class="page-deleted" title="${path}">${path}</span><span class="page-deleted-badge">已刪除</span>`
+        : `<span title="${path}">${path}</span>`;
+      const titleHint = title
+        ? `<span class="page-title-hint">${title}</span>`
+        : '';
+
+      html += `<tr><td>${pathCell}${titleHint}</td><td>${views.toLocaleString()}</td></tr>`;
     }
     html += '</tbody></table>';
     el.innerHTML = html;
