@@ -1081,7 +1081,7 @@ permalink: /admin/
       if (!res.ok) throw new Error('帳號或密碼錯誤');
       const { token } = await res.json();
       saveToken(token);
-      showEditor();
+      window.location.href = '/';
     } catch(e) {
       statusEl.textContent = '登入失敗：' + e.message;
       statusEl.className = 'status error';
