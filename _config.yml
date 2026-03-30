@@ -11,6 +11,7 @@ lang: zh-TW
 markdown: kramdown
 permalink: /:categories/:year/:month/:day/:title/
 paginate: 10
+future: true
 
 # Sass
 sass:
