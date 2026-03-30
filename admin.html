@@ -6,12 +6,13 @@ permalink: /admin/
 <html lang="zh-TW">
 <head>
   <meta charset="UTF-8">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
   <meta http-equiv="Pragma" content="no-cache">
   <meta http-equiv="Expires" content="0">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>管理後台 | {{ site.title }}</title>
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://apis.google.com https://accounts.google.com; connect-src 'self' https://api.github.com https://analyticsdata.googleapis.com https://analyticsadmin.googleapis.com https://oauth2.googleapis.com https://www.googleapis.com; frame-src https://accounts.google.com; img-src 'self' data: https:; style-src 'self' 'unsafe-inline';">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://apis.google.com https://accounts.google.com; connect-src 'self' https://api.github.com https://analyticsdata.googleapis.com https://analyticsadmin.googleapis.com https://oauth2.googleapis.com https://www.googleapis.com; frame-src https://accounts.google.com https://www.youtube.com https://youtube.com https://open.spotify.com https://embed.music.apple.com https://platform.twitter.com https://www.instagram.com https://www.threads.net https://www.threads.com; img-src 'self' data: https:; style-src 'self' 'unsafe-inline'; base-uri 'self'; frame-ancestors 'none';">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -880,6 +881,48 @@ permalink: /admin/
     return !/^(javascript|data|vbscript):/i.test(String(url).trim());
   }
 
+  // ========== Token Storage (with 8-hour expiry) ==========
+  const GH_TOKEN_KEY = 'gh_token';
+  const GH_TOKEN_EXP_KEY = 'gh_token_exp';
+  const TOKEN_TTL_MS = 8 * 60 * 60 * 1000; // 8 hours
+
+  function saveToken(token) {
+    sessionStorage.setItem(GH_TOKEN_KEY, token);
+    localStorage.setItem(GH_TOKEN_KEY, token);
+    localStorage.setItem(GH_TOKEN_EXP_KEY, String(Date.now() + TOKEN_TTL_MS));
+  }
+
+  function getToken() {
+    const sess = sessionStorage.getItem(GH_TOKEN_KEY);
+    if (sess) return sess;
+    const exp = parseInt(localStorage.getItem(GH_TOKEN_EXP_KEY) || '0');
+    if (Date.now() < exp) {
+      const ls = localStorage.getItem(GH_TOKEN_KEY);
+      if (ls) { sessionStorage.setItem(GH_TOKEN_KEY, ls); return ls; }
+    }
+    clearToken();
+    return null;
+  }
+
+  function clearToken() {
+    sessionStorage.removeItem(GH_TOKEN_KEY);
+    localStorage.removeItem(GH_TOKEN_KEY);
+    localStorage.removeItem(GH_TOKEN_EXP_KEY);
+  }
+  // ==========================================================
+
+  // UTF-8 safe base64 encode/decode (replaces deprecated escape/unescape)
+  function decodeBase64Content(b64) {
+    const bytes = Uint8Array.from(atob(b64.replace(/\s/g, '')), c => c.charCodeAt(0));
+    return new TextDecoder('utf-8').decode(bytes);
+  }
+  function encodeToBase64(str) {
+    const bytes = new TextEncoder().encode(str);
+    let bin = '';
+    bytes.forEach(b => bin += String.fromCharCode(b));
+    return btoa(bin);
+  }
+
   // Set today's date as default (use local date, not UTC)
   function localDateStr() {
     const d = new Date();
@@ -889,7 +932,7 @@ permalink: /admin/
 
   // Check if already logged in
   (function checkAuth() {
-    const token = localStorage.getItem('gh_token');
+    const token = getToken();
     if (token) {
       showEditor();
       const hash = window.location.hash.replace('#', '');
@@ -905,14 +948,14 @@ permalink: /admin/
   })();
 
   async function loadPostForEditByPath(path) {
-    const token = localStorage.getItem('gh_token');
+    const token = getToken();
     try {
       const res = await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/${path}`, {
         headers: { 'Authorization': 'token ' + token }
       });
       if (!res.ok) throw new Error('無法載入文章');
       const data = await res.json();
-      const rawContent = decodeURIComponent(escape(atob(data.content)));
+      const rawContent = decodeBase64Content(data.content);
 
       const fmMatch = rawContent.match(/^---\n([\s\S]*?)\n---\n\n?([\s\S]*)$/);
       let body = rawContent;
@@ -957,7 +1000,7 @@ permalink: /admin/
 
   // Handle hash change when already on admin page (from dropdown)
   window.addEventListener('hashchange', function() {
-    const token = localStorage.getItem('gh_token');
+    const token = getToken();
     if (!token) return;
     const hash = window.location.hash.replace('#', '');
     if (hash === 'posts' || hash === 'analytics' || hash === 'editor') {
@@ -998,7 +1041,7 @@ permalink: /admin/
       });
       if (!res.ok) throw new Error('Token 無效');
       const user = await res.json();
-      localStorage.setItem('gh_token', token);
+      saveToken(token);
       showEditor();
     } catch(e) {
       statusEl.textContent = '登入失敗：' + e.message;
@@ -1007,8 +1050,8 @@ permalink: /admin/
   }
 
   function logout() {
-    localStorage.removeItem('gh_token');
-    localStorage.removeItem('ga_access_token');
+    clearToken();
+    sessionStorage.removeItem('ga_access_token');
     window.location.href = '/';
   }
 
@@ -1036,16 +1079,30 @@ permalink: /admin/
     }
   }
 
+  const ALLOWED_IFRAME_ORIGINS = new Set([
+    'https://www.youtube.com', 'https://youtube.com',
+    'https://open.spotify.com', 'https://embed.music.apple.com',
+    'https://platform.twitter.com', 'https://www.instagram.com',
+    'https://www.threads.net', 'https://www.threads.com',
+  ]);
+
+  function isAllowedIframeSrc(src) {
+    try {
+      const url = new URL(src);
+      return url.protocol === 'https:' && ALLOWED_IFRAME_ORIGINS.has(url.origin);
+    } catch(e) { return false; }
+  }
+
   function markdownToHtml(md) {
     let html = md
       .replace(/&/g, '&amp;')
       .replace(/</g, '&lt;')
       .replace(/>/g, '&gt;');
 
-    // Restore HTML tags for iframes (only allow https:// src)
+    // Restore HTML tags for iframes — only allow whitelisted origins
     html = html.replace(/&lt;iframe(.*?)&gt;&lt;\/iframe&gt;/gs, function(match, attrs) {
       const srcMatch = attrs.match(/src=&quot;([^&]+)&quot;/);
-      if (!srcMatch || !srcMatch[1].startsWith('https://')) return '<!-- iframe blocked -->';
+      if (!srcMatch || !isAllowedIframeSrc(srcMatch[1])) return '<!-- iframe blocked -->';
       return match.replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&').replace(/&quot;/g, '"');
     });
 
@@ -1271,7 +1328,7 @@ permalink: /admin/
     const category = document.getElementById('postCategory').value;
     const description = document.getElementById('postDescription').value.trim();
     const content = document.getElementById('postContent').value.trim();
-    const token = localStorage.getItem('gh_token');
+    const token = getToken();
 
     if (!title) { alert('請輸入文章標題'); return; }
     if (title.length > 200) { alert('標題不能超過 200 字'); return; }
@@ -1313,7 +1370,7 @@ permalink: /admin/
         },
         body: JSON.stringify({
           message: `新文章：${title}`,
-          content: btoa(unescape(encodeURIComponent(fileContent)))
+          content: encodeToBase64(fileContent)
         })
       });
 
@@ -1406,7 +1463,7 @@ permalink: /admin/
   let editingFile = null; // track if we are editing an existing post
 
   async function loadPosts() {
-    const token = localStorage.getItem('gh_token');
+    const token = getToken();
     const listEl = document.getElementById('postsList');
     listEl.innerHTML = '<div class="posts-loading">載入中...</div>';
 
@@ -1443,7 +1500,7 @@ permalink: /admin/
             headers: { 'Authorization': 'token ' + token }
           });
           const data = await r.json();
-          const content = decodeURIComponent(escape(atob(data.content)));
+          const content = decodeBase64Content(data.content);
           post.sha = data.sha;
           post.rawContent = content;
 
@@ -1593,7 +1650,7 @@ permalink: /admin/
     const category = document.getElementById('postCategory').value;
     const description = document.getElementById('postDescription').value.trim();
     const content = document.getElementById('postContent').value.trim();
-    const token = localStorage.getItem('gh_token');
+    const token = getToken();
 
     if (!title) { alert('請輸入文章標題'); return; }
     if (!date) { alert('請選擇日期'); return; }
@@ -1638,7 +1695,7 @@ permalink: /admin/
           },
           body: JSON.stringify({
             message: `更新文章：${title}`,
-            content: btoa(unescape(encodeURIComponent(fileContent)))
+            content: encodeToBase64(fileContent)
           })
         });
       } else {
@@ -1651,7 +1708,7 @@ permalink: /admin/
           },
           body: JSON.stringify({
             message: `更新文章：${title}`,
-            content: btoa(unescape(encodeURIComponent(fileContent))),
+            content: encodeToBase64(fileContent),
             sha: editingFile.sha
           })
         });
@@ -1691,7 +1748,7 @@ permalink: /admin/
   async function deletePost(path, sha, title) {
     if (!confirm(`確定要刪除文章「${title}」嗎？\n\n此操作無法復原！`)) return;
 
-    const token = localStorage.getItem('gh_token');
+    const token = getToken();
 
     try {
       const res = await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/${path}`, {
@@ -1746,7 +1803,7 @@ permalink: /admin/
     if (checked.length === 0) return;
     if (!confirm(`確定要刪除選取的 ${checked.length} 篇文章嗎？\n\n此操作無法復原！`)) return;
 
-    const token = localStorage.getItem('gh_token');
+    const token = getToken();
     const statusEl = document.getElementById('postsStatus');
     showStatus('postsStatus', `刪除中，請稍候...`, 'success');
 
@@ -1791,7 +1848,7 @@ permalink: /admin/
       if (savedClientId && inputEl) inputEl.value = savedClientId;
 
       // 根據是否有 token 顯示對應區塊
-      const hasToken = !!localStorage.getItem(GA_TOKEN_KEY);
+      const hasToken = !!sessionStorage.getItem(GA_TOKEN_KEY);
       document.getElementById('gaConnectSection').style.display = hasToken ? 'none' : 'block';
       document.getElementById('gaConnectedBadge').style.display = hasToken ? 'flex' : 'none';
 
@@ -1814,7 +1871,7 @@ permalink: /admin/
   }
 
   async function loadAnalytics() {
-    const gaToken = localStorage.getItem(GA_TOKEN_KEY);
+    const gaToken = sessionStorage.getItem(GA_TOKEN_KEY);
     if (gaToken) {
       await fetchGAData(gaToken);
     } else {
@@ -1871,7 +1928,7 @@ permalink: /admin/
   }
 
   function disconnectGA() {
-    localStorage.removeItem('ga_access_token');
+    sessionStorage.removeItem('ga_access_token');
     localStorage.removeItem('ga_numeric_property_id');
     document.getElementById('gaConnectedBadge').style.display = 'none';
     document.getElementById('gaConnectSection').style.display = 'block';
@@ -1879,7 +1936,9 @@ permalink: /admin/
   }
 
   function redirectToGoogleAuth(clientId) {
-    const state = Math.random().toString(36).substring(2, 18);
+    const arr = new Uint8Array(16);
+    crypto.getRandomValues(arr);
+    const state = Array.from(arr, b => b.toString(16).padStart(2, '0')).join('');
     sessionStorage.setItem('oauth_state', state);
     const redirectUri = encodeURIComponent(window.location.origin + '/admin/');
     const scope = encodeURIComponent('https://www.googleapis.com/auth/analytics.readonly');
@@ -1902,9 +1961,10 @@ permalink: /admin/
       }
       const token = params.get('access_token');
       if (token) {
-        localStorage.setItem(GA_TOKEN_KEY, token);
+        // Clear hash from URL FIRST before storing token (reduces exposure window)
+        history.replaceState(null, '', window.location.pathname);
+        sessionStorage.setItem(GA_TOKEN_KEY, token);
         localStorage.setItem('go_to_analytics', 'true');
-        window.location.hash = '';
         window.location.replace(window.location.pathname);
         return;
       }
@@ -1913,7 +1973,7 @@ permalink: /admin/
     if (localStorage.getItem('go_to_analytics') === 'true') {
       localStorage.removeItem('go_to_analytics');
       setTimeout(() => {
-        if (localStorage.getItem('gh_token')) {
+        if (getToken()) {
           switchAdminTab('analytics');
         }
       }, 300);
@@ -1939,7 +1999,7 @@ permalink: /admin/
           headers: { 'Authorization': 'Bearer ' + token }
         });
         if (res.status === 401) {
-          localStorage.removeItem(GA_TOKEN_KEY);
+          sessionStorage.removeItem(GA_TOKEN_KEY);
           document.getElementById('gaConnectedBadge').style.display = 'none';
           document.getElementById('gaConnectSection').style.display = 'block';
           showGAError('Token 已過期，請重新連接 Google Analytics。');
@@ -2007,7 +2067,7 @@ permalink: /admin/
         })
       });
       if (metricsRes.status === 401) {
-        localStorage.removeItem(GA_TOKEN_KEY);
+        sessionStorage.removeItem(GA_TOKEN_KEY);
         document.getElementById('gaConnectedBadge').style.display = 'none';
         document.getElementById('gaConnectSection').style.display = 'block';
         showGAError('Token 已過期，請重新點擊「連接 Google Analytics」。');
