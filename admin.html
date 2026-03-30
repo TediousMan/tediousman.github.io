@@ -42,22 +42,44 @@ permalink: /admin/
     .admin-header a:hover { color: #fff; }
 
     /* Login */
+    #loginScreen {
+      min-height: calc(100vh - 60px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #1a1a1a;
+    }
     .login-container {
-      max-width: 450px;
-      margin: 80px auto;
-      padding: 32px;
+      width: 100%;
+      max-width: 400px;
+      padding: 40px 36px;
       background: #252525;
-      border-radius: 8px;
+      border-radius: 12px;
       border: 1px solid #333;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+    }
+    .login-logo {
+      width: 52px;
+      height: 52px;
+      background: #3b82f6;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 20px;
+      font-size: 24px;
     }
     .login-container h2 {
-      margin-bottom: 20px;
-      font-size: 1.3rem;
+      text-align: center;
+      margin-bottom: 6px;
+      font-size: 1.35rem;
+      color: #f1f1f1;
     }
     .login-container p {
-      color: #999;
+      text-align: center;
+      color: #888;
       font-size: 0.85rem;
-      margin-bottom: 16px;
+      margin-bottom: 28px;
       line-height: 1.5;
     }
 
@@ -628,18 +650,19 @@ permalink: /admin/
 <!-- Login Screen -->
 <div id="loginScreen">
   <div class="login-container">
-    <h2>登入管理後台</h2>
-    <p>請輸入帳號和密碼登入。</p>
+    <div class="login-logo">🔐</div>
+    <h2>管理後台</h2>
+    <p>請輸入帳號和密碼登入</p>
     <div class="form-group">
       <label for="usernameInput">帳號</label>
-      <input type="text" id="usernameInput" placeholder="帳號" autocomplete="username">
+      <input type="text" id="usernameInput" placeholder="輸入帳號" autocomplete="username">
     </div>
     <div class="form-group">
       <label for="passwordInput">密碼</label>
-      <input type="password" id="passwordInput" placeholder="密碼" autocomplete="current-password">
+      <input type="password" id="passwordInput" placeholder="輸入密碼" autocomplete="current-password">
     </div>
-    <div style="margin-top: 16px;">
-      <button class="btn btn-primary" onclick="login()">登入</button>
+    <div style="margin-top: 20px;">
+      <button class="btn btn-primary" style="width:100%;padding:10px;font-size:1rem;" onclick="login()">登入</button>
     </div>
     <div id="loginStatus" class="status" style="margin-top: 16px;"></div>
   </div>
