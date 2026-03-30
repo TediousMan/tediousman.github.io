@@ -1096,6 +1096,14 @@ permalink: /admin/
   function showEditor() {
     document.getElementById('loginScreen').style.display = 'none';
     document.getElementById('editorScreen').style.display = '';
+    document.querySelector('#editorScreen .admin-nav').style.display = '';
+    // Update header nav to reflect logged-in state
+    const adminDropdown = document.getElementById('nav-admin-dropdown');
+    const loginLink = document.getElementById('nav-login-link');
+    const logoutLink = document.getElementById('nav-logout-link');
+    if (adminDropdown) adminDropdown.style.display = '';
+    if (loginLink) loginLink.style.display = 'none';
+    if (logoutLink) logoutLink.style.display = '';
   }
 
   function switchTab(tab) {
