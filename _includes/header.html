@@ -18,6 +18,9 @@
         <li><a href="{{ '/reflections' | relative_url }}" {% if page.url contains 'reflections' %}class="active"{% endif %}>個人心得</a></li>
         <li><a href="{{ '/life' | relative_url }}" {% if page.url contains 'life' %}class="active"{% endif %}>生活紀錄</a></li>
         <li><a href="{{ '/about' | relative_url }}" {% if page.url contains 'about' %}class="active"{% endif %}>關於我</a></li>
+        <li id="nav-login-link" style="list-style:none;">
+          <a href="{{ '/admin/' | relative_url }}">登入</a>
+        </li>
         <li id="nav-logout-link" style="display:none; list-style:none;">
           <a href="#" onclick="adminLogout(); return false;" style="color:#f85149;">登出</a>
         </li>
@@ -40,6 +43,7 @@
     if (token) {
       document.getElementById('nav-admin-dropdown').style.display = '';
       document.getElementById('nav-logout-link').style.display = '';
+      document.getElementById('nav-login-link').style.display = 'none';
     }
   })();
 
