@@ -182,13 +182,17 @@
       button {
         background: none;
         border: none;
-        color: #666;
+        color: #888;
         cursor: pointer;
-        font-size: 0.9rem;
-        padding: 0;
+        font-size: 0.85rem;
+        padding: 4px 8px;
         line-height: 1;
+        border-radius: 4px;
 
-        &:hover { color: #c8c8c8; }
+        &:hover {
+          color: #fff;
+          background: rgba(255,255,255,0.1);
+        }
       }
     }
   }
@@ -200,6 +204,16 @@
     #spotify-panel {
       width: calc(100vw - 32px);
       right: 0;
+
+      .spotify-panel-header button {
+        font-size: 1.2rem;
+        padding: 4px 8px;
+        min-width: 36px;
+        min-height: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
     }
   }
 }
