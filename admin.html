@@ -12,7 +12,7 @@ permalink: /admin/
   <meta http-equiv="Expires" content="0">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>管理後台 | {{ site.title }}</title>
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://apis.google.com https://accounts.google.com; connect-src 'self' https://api.github.com https://analyticsdata.googleapis.com https://analyticsadmin.googleapis.com https://oauth2.googleapis.com https://www.googleapis.com; frame-src https://accounts.google.com https://www.youtube.com https://youtube.com https://open.spotify.com https://embed.music.apple.com https://platform.twitter.com https://www.instagram.com https://www.threads.net https://www.threads.com; img-src 'self' data: https:; style-src 'self' 'unsafe-inline'; base-uri 'self'; frame-ancestors 'none';">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://apis.google.com https://accounts.google.com; connect-src 'self' https://blog-admin-proxy.bingbongsky.workers.dev https://analyticsdata.googleapis.com https://analyticsadmin.googleapis.com https://oauth2.googleapis.com https://www.googleapis.com; frame-src https://accounts.google.com https://www.youtube.com https://youtube.com https://open.spotify.com https://embed.music.apple.com https://platform.twitter.com https://www.instagram.com https://www.threads.net https://www.threads.com; img-src 'self' data: https:; style-src 'self' 'unsafe-inline'; base-uri 'self'; frame-ancestors 'none';">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -629,10 +629,14 @@ permalink: /admin/
 <div id="loginScreen">
   <div class="login-container">
     <h2>登入管理後台</h2>
-    <p>請輸入你的 GitHub Personal Access Token 來登入。<br>Token 僅儲存在你的瀏覽器中，不會上傳到任何伺服器。</p>
+    <p>請輸入帳號和密碼登入。</p>
     <div class="form-group">
-      <label for="tokenInput">GitHub Token</label>
-      <input type="password" id="tokenInput" placeholder="ghp_xxxxxxxxxxxx">
+      <label for="usernameInput">帳號</label>
+      <input type="text" id="usernameInput" placeholder="帳號" autocomplete="username">
+    </div>
+    <div class="form-group">
+      <label for="passwordInput">密碼</label>
+      <input type="password" id="passwordInput" placeholder="密碼" autocomplete="current-password">
     </div>
     <div style="margin-top: 16px;">
       <button class="btn btn-primary" onclick="login()">登入</button>
@@ -865,7 +869,8 @@ permalink: /admin/
 <script>
   const REPO_OWNER = 'TediousMan';
   const REPO_NAME = 'tediousman.github.io';
-  const API_BASE = 'https://api.github.com';
+  const WORKER_BASE = 'https://blog-admin-proxy.bingbongsky.workers.dev';
+  const API_BASE = WORKER_BASE + '/api/github';
 
   function escapeHtml(str) {
     if (str == null) return '';
@@ -884,7 +889,7 @@ permalink: /admin/
   // ========== Token Storage (with 8-hour expiry) ==========
   const GH_TOKEN_KEY = 'gh_token';
   const GH_TOKEN_EXP_KEY = 'gh_token_exp';
-  const TOKEN_TTL_MS = 8 * 60 * 60 * 1000; // 8 hours
+  const TOKEN_TTL_MS = 30 * 24 * 60 * 60 * 1000; // 30 days
 
   function saveToken(token) {
     sessionStorage.setItem(GH_TOKEN_KEY, token);
@@ -951,7 +956,7 @@ permalink: /admin/
     const token = getToken();
     try {
       const res = await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/${path}`, {
-        headers: { 'Authorization': 'token ' + token }
+        headers: { 'Authorization': 'Bearer ' + token }
       });
       if (!res.ok) throw new Error('無法載入文章');
       const data = await res.json();
@@ -1028,24 +1033,34 @@ permalink: /admin/
   })();
 
   async function login() {
-    const token = document.getElementById('tokenInput').value.trim();
-    if (!token) return;
+    const username = document.getElementById('usernameInput').value.trim();
+    const password = document.getElementById('passwordInput').value.trim();
 
     const statusEl = document.getElementById('loginStatus');
     statusEl.className = 'status';
     statusEl.style.display = 'none';
 
+    if (!username || !password) {
+      statusEl.textContent = '請輸入帳號和密碼';
+      statusEl.className = 'status error';
+      statusEl.style.display = '';
+      return;
+    }
+
     try {
-      const res = await fetch(API_BASE + '/user', {
-        headers: { 'Authorization': 'token ' + token }
+      const res = await fetch(WORKER_BASE + '/api/auth/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ username, password })
       });
-      if (!res.ok) throw new Error('Token 無效');
-      const user = await res.json();
+      if (!res.ok) throw new Error('帳號或密碼錯誤');
+      const { token } = await res.json();
       saveToken(token);
       showEditor();
     } catch(e) {
       statusEl.textContent = '登入失敗：' + e.message;
       statusEl.className = 'status error';
+      statusEl.style.display = '';
     }
   }
 
@@ -1365,7 +1380,7 @@ permalink: /admin/
       const res = await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/${filename}`, {
         method: 'PUT',
         headers: {
-          'Authorization': 'token ' + token,
+          'Authorization': 'Bearer ' + token,
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
@@ -1435,7 +1450,7 @@ permalink: /admin/
   }, 30000);
 
   // Enter key to login
-  document.getElementById('tokenInput').addEventListener('keydown', function(e) {
+  document.getElementById('passwordInput').addEventListener('keydown', function(e) {
     if (e.key === 'Enter') login();
   });
 
@@ -1469,7 +1484,7 @@ permalink: /admin/
 
     try {
       const res = await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/_posts`, {
-        headers: { 'Authorization': 'token ' + token }
+        headers: { 'Authorization': 'Bearer ' + token }
       });
       if (res.status === 404) {
         listEl.innerHTML = '<div class="posts-loading">目前沒有任何文章，請先到「發表文章」新增文章。</div>';
@@ -1497,7 +1512,7 @@ permalink: /admin/
       await Promise.all(allPosts.map(async (post) => {
         try {
           const r = await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/${post.path}`, {
-            headers: { 'Authorization': 'token ' + token }
+            headers: { 'Authorization': 'Bearer ' + token }
           });
           const data = await r.json();
           const content = decodeBase64Content(data.content);
@@ -1677,7 +1692,7 @@ permalink: /admin/
         await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/${editingFile.path}`, {
           method: 'DELETE',
           headers: {
-            'Authorization': 'token ' + token,
+            'Authorization': 'Bearer ' + token,
             'Content-Type': 'application/json'
           },
           body: JSON.stringify({
@@ -1690,7 +1705,7 @@ permalink: /admin/
         await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/${newPath}`, {
           method: 'PUT',
           headers: {
-            'Authorization': 'token ' + token,
+            'Authorization': 'Bearer ' + token,
             'Content-Type': 'application/json'
           },
           body: JSON.stringify({
@@ -1703,7 +1718,7 @@ permalink: /admin/
         await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/${editingFile.path}`, {
           method: 'PUT',
           headers: {
-            'Authorization': 'token ' + token,
+            'Authorization': 'Bearer ' + token,
             'Content-Type': 'application/json'
           },
           body: JSON.stringify({
@@ -1754,7 +1769,7 @@ permalink: /admin/
       const res = await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/${path}`, {
         method: 'DELETE',
         headers: {
-          'Authorization': 'token ' + token,
+          'Authorization': 'Bearer ' + token,
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
