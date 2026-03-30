@@ -420,6 +420,37 @@ permalink: /admin/
       font-size: 1.2rem;
       color: #fff;
     }
+    .bulk-bar {
+      display: none;
+      align-items: center;
+      gap: 12px;
+      background: #1e3a5f;
+      border: 1px solid #2a5298;
+      border-radius: 8px;
+      padding: 10px 16px;
+      margin-bottom: 12px;
+    }
+    .bulk-bar.visible { display: flex; }
+    .bulk-bar span { color: #a0c4ff; font-size: 0.9rem; flex: 1; }
+    .btn-bulk-delete {
+      background: #e74c3c;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      padding: 6px 16px;
+      font-size: 0.85rem;
+      cursor: pointer;
+    }
+    .btn-bulk-delete:hover { background: #c0392b; }
+    .post-item-checkbox {
+      margin-right: 14px;
+      width: 17px;
+      height: 17px;
+      cursor: pointer;
+      flex-shrink: 0;
+      accent-color: #4a9eff;
+    }
+    .post-item.selected { border-color: #4a9eff; background: #1a2a3a; }
     .post-item {
       background: #252525;
       border: 1px solid #333;
@@ -706,6 +737,11 @@ permalink: /admin/
           </select>
           <button class="btn btn-secondary" onclick="loadPosts()" style="padding:6px 14px; font-size:0.85rem;">重新整理</button>
         </div>
+      </div>
+      <div id="bulkBar" class="bulk-bar">
+        <input type="checkbox" id="selectAllCheckbox" class="post-item-checkbox" onchange="toggleSelectAll(this.checked)" title="全選">
+        <span id="bulkCount">已選取 0 篇</span>
+        <button class="btn-bulk-delete" onclick="bulkDeletePosts()">刪除選取</button>
       </div>
       <div id="postsStatus" class="status"></div>
       <div id="postsList">
@@ -1461,6 +1497,8 @@ permalink: /admin/
 
     if (posts.length === 0) {
       listEl.innerHTML = '<div class="posts-loading">沒有找到文章</div>';
+      const bar = document.getElementById('bulkBar');
+      if (bar) bar.classList.remove('visible');
       return;
     }
 
@@ -1470,7 +1508,8 @@ permalink: /admin/
         ? `<a href="${escapeHtml(viewPath)}" target="_blank" class="btn-sm btn-view" style="text-decoration:none; padding:6px 14px; border-radius:4px; font-size:0.82rem; display:inline-block;">查看</a>`
         : '';
       return `
-      <div class="post-item">
+      <div class="post-item" data-path="${escapeHtml(post.path)}">
+        <input type="checkbox" class="post-item-checkbox post-check" data-path="${escapeHtml(post.path)}" data-sha="${escapeHtml(post.sha)}" data-title="${escapeHtml(post.title)}">
         <div class="post-item-info">
           <div class="post-item-title">${escapeHtml(post.title)}</div>
           <div class="post-item-meta">
@@ -1491,10 +1530,13 @@ permalink: /admin/
     listEl._clickHandler = function(e) {
       const editBtn = e.target.closest('.btn-edit');
       const deleteBtn = e.target.closest('.btn-delete');
+      const checkbox = e.target.closest('.post-check');
       if (editBtn) editPost(editBtn.dataset.path);
       if (deleteBtn) deletePost(deleteBtn.dataset.path, deleteBtn.dataset.sha, deleteBtn.dataset.title);
+      if (checkbox) updateBulkBar();
     };
     listEl.addEventListener('click', listEl._clickHandler);
+    updateBulkBar();
   }
 
   async function editPost(path) {
@@ -1674,6 +1716,60 @@ permalink: /admin/
     } catch(e) {
       showStatus('postsStatus', '刪除失敗：' + e.message, 'error');
     }
+  }
+
+  function updateBulkBar() {
+    const checked = document.querySelectorAll('.post-check:checked');
+    const all = document.querySelectorAll('.post-check');
+    const bar = document.getElementById('bulkBar');
+    const countEl = document.getElementById('bulkCount');
+    const selectAll = document.getElementById('selectAllCheckbox');
+    bar.classList.toggle('visible', checked.length > 0 || all.length > 0);
+    countEl.textContent = checked.length > 0 ? `已選取 ${checked.length} 篇` : '勾選文章以批量刪除';
+    if (selectAll) {
+      selectAll.checked = all.length > 0 && checked.length === all.length;
+      selectAll.indeterminate = checked.length > 0 && checked.length < all.length;
+    }
+    document.querySelectorAll('.post-item').forEach(item => {
+      const cb = item.querySelector('.post-check');
+      item.classList.toggle('selected', cb && cb.checked);
+    });
+  }
+
+  function toggleSelectAll(checked) {
+    document.querySelectorAll('.post-check').forEach(cb => cb.checked = checked);
+    updateBulkBar();
+  }
+
+  async function bulkDeletePosts() {
+    const checked = Array.from(document.querySelectorAll('.post-check:checked'));
+    if (checked.length === 0) return;
+    if (!confirm(`確定要刪除選取的 ${checked.length} 篇文章嗎？\n\n此操作無法復原！`)) return;
+
+    const token = localStorage.getItem('gh_token');
+    const statusEl = document.getElementById('postsStatus');
+    showStatus('postsStatus', `刪除中，請稍候...`, 'success');
+
+    let failed = 0;
+    for (const cb of checked) {
+      try {
+        const res = await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/${cb.dataset.path}`, {
+          method: 'DELETE',
+          headers: { 'Authorization': `token ${token}`, 'Content-Type': 'application/json' },
+          body: JSON.stringify({ message: `刪除文章：${cb.dataset.title}`, sha: cb.dataset.sha })
+        });
+        if (!res.ok) failed++;
+      } catch(e) {
+        failed++;
+      }
+    }
+
+    if (failed === 0) {
+      showStatus('postsStatus', `已刪除 ${checked.length} 篇文章，網站將在 1-2 分鐘後更新。`, 'success');
+    } else {
+      showStatus('postsStatus', `完成，但有 ${failed} 篇刪除失敗。`, 'error');
+    }
+    loadPosts();
   }
 
   // ========== Google Analytics Integration ==========
