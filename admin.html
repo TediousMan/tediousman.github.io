@@ -895,11 +895,10 @@ permalink: /admin/
 
       <div class="ga-setup-box">
         <h3>Spotify 播放清單</h3>
-        <p>貼上 Spotify 播放清單網址，儲存後約 1-2 分鐘生效。</p>
-        <label style="font-size:0.85rem; color:#888; display:block; margin-bottom:6px;">播放清單網址</label>
-        <input type="text" id="spotifyUrlInput" placeholder="https://open.spotify.com/playlist/xxxxxx"
-          style="width:100%; padding:8px 10px; background:#2a2a2a; border:1px solid #444; border-radius:4px; color:#c8c8c8; font-size:0.9rem; box-sizing:border-box;">
-        <div style="margin-top:12px; display:flex; gap:12px; align-items:center;">
+        <p>可新增多個播放清單，訪客每次進入網站時將隨機播放其中一個。</p>
+        <div id="spotifyListInputs"></div>
+        <button class="btn" onclick="addSpotifyRow()" style="margin-top:8px; font-size:0.85rem;">＋ 新增播放清單</button>
+        <div style="margin-top:16px; display:flex; gap:12px; align-items:center;">
           <button class="btn btn-primary" onclick="saveSpotifyPlaylist()">儲存</button>
           <span id="spotifyStatus" style="font-size:0.85rem; color:#888;"></span>
         </div>
@@ -1508,51 +1507,67 @@ permalink: /admin/
   });
 
   // ========== Spotify Settings ==========
+  function addSpotifyRow(url) {
+    var container = document.getElementById('spotifyListInputs');
+    var row = document.createElement('div');
+    row.style.cssText = 'display:flex; gap:8px; margin-bottom:8px; align-items:center;';
+    row.innerHTML = '<input type="text" class="spotify-url-input" placeholder="https://open.spotify.com/playlist/xxxxxx"'
+      + ' style="flex:1; padding:8px 10px; background:#2a2a2a; border:1px solid #444; border-radius:4px; color:#c8c8c8; font-size:0.9rem;"'
+      + ' value="' + (url || '') + '">'
+      + '<button onclick="this.closest(\'div\').remove()" style="background:none; border:none; color:#666; cursor:pointer; font-size:1.1rem; padding:0 4px;" title="移除">✕</button>';
+    container.appendChild(row);
+  }
+
   async function loadSpotifySettings() {
+    document.getElementById('spotifyListInputs').innerHTML = '';
     const token = getToken();
     try {
       const res = await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/_data/spotify.json`, {
         headers: { 'Authorization': 'Bearer ' + token }
       });
-      if (!res.ok) return;
+      if (!res.ok) { addSpotifyRow(); return; }
       const data = await res.json();
       const json = JSON.parse(atob(data.content.replace(/\n/g, '')));
-      document.getElementById('spotifyUrlInput').value =
-        'https://open.spotify.com/playlist/' + json.playlist_id;
-    } catch(e) { /* ignore */ }
+      const ids = json.playlist_ids || (json.playlist_id ? [json.playlist_id] : []);
+      if (ids.length === 0) { addSpotifyRow(); return; }
+      ids.forEach(id => addSpotifyRow('https://open.spotify.com/playlist/' + id));
+    } catch(e) { addSpotifyRow(); }
   }
 
   async function saveSpotifyPlaylist() {
     const token = getToken();
     const statusEl = document.getElementById('spotifyStatus');
-    const raw = document.getElementById('spotifyUrlInput').value.trim();
-    const match = raw.match(/open\.spotify\.com\/playlist\/([a-zA-Z0-9]+)/);
-    if (!match) {
-      statusEl.textContent = '網址格式不正確，請貼上 Spotify 播放清單網址';
+    const inputs = document.querySelectorAll('.spotify-url-input');
+    const ids = [];
+    for (const input of inputs) {
+      const raw = input.value.trim();
+      if (!raw) continue;
+      const match = raw.match(/open\.spotify\.com\/playlist\/([a-zA-Z0-9]+)/);
+      if (!match) {
+        statusEl.textContent = '網址格式不正確：' + raw;
+        statusEl.style.color = '#f85149';
+        return;
+      }
+      ids.push(match[1]);
+    }
+    if (ids.length === 0) {
+      statusEl.textContent = '請至少輸入一個播放清單網址';
       statusEl.style.color = '#f85149';
       return;
     }
-    const playlistId = match[1];
     statusEl.textContent = '儲存中...';
     statusEl.style.color = '#888';
-
     try {
-      // Get current file SHA
       const getRes = await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/_data/spotify.json`, {
         headers: { 'Authorization': 'Bearer ' + token }
       });
       if (!getRes.ok) throw new Error('無法讀取設定檔');
       const fileData = await getRes.json();
-
-      const newContent = btoa(JSON.stringify({ playlist_id: playlistId }, null, 2) + '\n');
+      const newContent = btoa(JSON.stringify({ playlist_ids: ids }, null, 2) + '\n');
       const putRes = await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/_data/spotify.json`, {
         method: 'PUT',
         headers: { 'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          message: 'Update Spotify playlist',
-          content: newContent,
-          sha: fileData.sha
-        })
+        body: JSON.stringify({ message: 'Update Spotify playlists', content: newContent, sha: fileData.sha })
       });
       if (!putRes.ok) throw new Error('儲存失敗');
       statusEl.textContent = '✓ 已儲存，約 1-2 分鐘後生效';

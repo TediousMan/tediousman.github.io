@@ -55,7 +55,7 @@
         <span>我的播放清單</span>
         <button onclick="toggleSpotify()" aria-label="關閉">✕</button>
       </div>
-      <iframe style="border-radius:0 0 12px 12px" src="https://open.spotify.com/embed/playlist/{{ site.data.spotify.playlist_id }}?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <iframe id="spotify-iframe" style="border-radius:0 0 12px 12px" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </div>
   </div>
 
@@ -65,6 +65,15 @@
       var panel = document.getElementById('spotify-panel');
       panel.style.display = panel.style.display === 'block' ? 'none' : 'block';
     }
+
+    // Random playlist selection
+    (function() {
+      var ids = [{% for id in site.data.spotify.playlist_ids %}"{{ id }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+      if (!ids.length) return;
+      var id = ids[Math.floor(Math.random() * ids.length)];
+      document.getElementById('spotify-iframe').src =
+        'https://open.spotify.com/embed/playlist/' + id + '?utm_source=generator&theme=0';
+    })();
 
     // Back to top
     (function() {
