@@ -1409,8 +1409,10 @@ permalink: /admin/
             const fm = fmMatch[1];
             const titleMatch = fm.match(/title:\s*"?(.+?)"?\s*$/m);
             const catMatch = fm.match(/category:\s*(.+)$/m);
+            const fullDateMatch = fm.match(/date:\s*(.+)$/m);
             post.title = titleMatch ? titleMatch[1] : post.slug;
             post.category = catMatch ? catMatch[1].trim() : '';
+            if (fullDateMatch) post.fullDate = fullDateMatch[1].trim();
           } else {
             post.title = post.slug;
             post.category = '';
@@ -1421,6 +1423,8 @@ permalink: /admin/
         }
       }));
 
+      // Re-sort using full date (including time) from front matter
+      allPosts.sort((a, b) => (b.fullDate || b.date).localeCompare(a.fullDate || a.date));
       renderPosts(allPosts);
     } catch(e) {
       listEl.innerHTML = `<div class="posts-loading">載入失敗：${e.message}</div>`;
