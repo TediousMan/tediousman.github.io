@@ -674,6 +674,7 @@ permalink: /admin/
     <button class="active" onclick="switchAdminTab('editor')">發表文章</button>
     <button onclick="switchAdminTab('posts')">文章管理</button>
     <button onclick="switchAdminTab('analytics')">數據分析</button>
+    <button onclick="switchAdminTab('settings')">設定</button>
   </div>
 
   <!-- Editor Section -->
@@ -886,6 +887,25 @@ permalink: /admin/
 
     </div>
   </div><!-- end analyticsSection -->
+
+  <!-- Settings Section -->
+  <div id="settingsSection" class="admin-section">
+    <div style="max-width:600px; padding: 24px 0;">
+      <h2 style="font-size:1.2rem; margin-bottom:1.5em; color:#c8c8c8; border-bottom:1px solid #333; padding-bottom:0.5em;">網站設定</h2>
+
+      <div class="ga-setup-box">
+        <h3>Spotify 播放清單</h3>
+        <p>貼上 Spotify 播放清單網址，儲存後約 1-2 分鐘生效。</p>
+        <label style="font-size:0.85rem; color:#888; display:block; margin-bottom:6px;">播放清單網址</label>
+        <input type="text" id="spotifyUrlInput" placeholder="https://open.spotify.com/playlist/xxxxxx"
+          style="width:100%; padding:8px 10px; background:#2a2a2a; border:1px solid #444; border-radius:4px; color:#c8c8c8; font-size:0.9rem; box-sizing:border-box;">
+        <div style="margin-top:12px; display:flex; gap:12px; align-items:center;">
+          <button class="btn btn-primary" onclick="saveSpotifyPlaylist()">儲存</button>
+          <span id="spotifyStatus" style="font-size:0.85rem; color:#888;"></span>
+        </div>
+      </div>
+    </div>
+  </div><!-- end settingsSection -->
 
 </div>
 
@@ -1487,6 +1507,62 @@ permalink: /admin/
     if (e.key === 'Enter') login();
   });
 
+  // ========== Spotify Settings ==========
+  async function loadSpotifySettings() {
+    const token = getToken();
+    try {
+      const res = await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/_data/spotify.json`, {
+        headers: { 'Authorization': 'Bearer ' + token }
+      });
+      if (!res.ok) return;
+      const data = await res.json();
+      const json = JSON.parse(atob(data.content.replace(/\n/g, '')));
+      document.getElementById('spotifyUrlInput').value =
+        'https://open.spotify.com/playlist/' + json.playlist_id;
+    } catch(e) { /* ignore */ }
+  }
+
+  async function saveSpotifyPlaylist() {
+    const token = getToken();
+    const statusEl = document.getElementById('spotifyStatus');
+    const raw = document.getElementById('spotifyUrlInput').value.trim();
+    const match = raw.match(/open\.spotify\.com\/playlist\/([a-zA-Z0-9]+)/);
+    if (!match) {
+      statusEl.textContent = '網址格式不正確，請貼上 Spotify 播放清單網址';
+      statusEl.style.color = '#f85149';
+      return;
+    }
+    const playlistId = match[1];
+    statusEl.textContent = '儲存中...';
+    statusEl.style.color = '#888';
+
+    try {
+      // Get current file SHA
+      const getRes = await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/_data/spotify.json`, {
+        headers: { 'Authorization': 'Bearer ' + token }
+      });
+      if (!getRes.ok) throw new Error('無法讀取設定檔');
+      const fileData = await getRes.json();
+
+      const newContent = btoa(JSON.stringify({ playlist_id: playlistId }, null, 2) + '\n');
+      const putRes = await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/_data/spotify.json`, {
+        method: 'PUT',
+        headers: { 'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          message: 'Update Spotify playlist',
+          content: newContent,
+          sha: fileData.sha
+        })
+      });
+      if (!putRes.ok) throw new Error('儲存失敗');
+      statusEl.textContent = '✓ 已儲存，約 1-2 分鐘後生效';
+      statusEl.style.color = '#3fb950';
+    } catch(e) {
+      statusEl.textContent = '錯誤：' + e.message;
+      statusEl.style.color = '#f85149';
+    }
+  }
+
   // ========== Admin Tab Navigation ==========
   function switchAdminTab(tab) {
     document.querySelectorAll('.admin-nav button').forEach(b => b.classList.remove('active'));
@@ -1503,6 +1579,10 @@ permalink: /admin/
       document.querySelector('.admin-nav button:nth-child(3)').classList.add('active');
       document.getElementById('analyticsSection').classList.add('active');
       initAnalytics();
+    } else if (tab === 'settings') {
+      document.querySelector('.admin-nav button:nth-child(4)').classList.add('active');
+      document.getElementById('settingsSection').classList.add('active');
+      loadSpotifySettings();
     }
   }
 
