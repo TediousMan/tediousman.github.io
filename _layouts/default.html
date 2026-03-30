@@ -47,7 +47,25 @@
 
   <button id="back-to-top" aria-label="回到頂部">↑</button>
 
+  <!-- Floating Spotify Player -->
+  <div id="spotify-float">
+    <button id="spotify-toggle" onclick="toggleSpotify()" aria-label="播放清單">&#9835;</button>
+    <div id="spotify-panel">
+      <div class="spotify-panel-header">
+        <span>我的播放清單</span>
+        <button onclick="toggleSpotify()" aria-label="關閉">✕</button>
+      </div>
+      <iframe style="border-radius:0 0 12px 12px" src="https://open.spotify.com/embed/playlist/6KvlBjV1dRZZ7Zz5CaffAG?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+  </div>
+
   <script>
+    // Spotify float toggle
+    function toggleSpotify() {
+      var panel = document.getElementById('spotify-panel');
+      panel.style.display = panel.style.display === 'block' ? 'none' : 'block';
+    }
+
     // Back to top
     (function() {
       var btn = document.getElementById('back-to-top');
