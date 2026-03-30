@@ -272,6 +272,7 @@ permalink: /admin/
     .admin-nav {
       display: flex;
       gap: 0;
+      justify-content: center;
       background: #222;
       border-bottom: 1px solid #333;
       padding: 0 24px;
@@ -891,7 +892,7 @@ permalink: /admin/
 
   <!-- Settings Section -->
   <div id="settingsSection" class="admin-section">
-    <div style="max-width:600px; padding: 24px;">
+    <div style="max-width:600px; padding: 24px; margin: 0 auto;">
       <h2 style="font-size:1.2rem; margin-bottom:1.5em; color:#c8c8c8; border-bottom:1px solid #333; padding-bottom:0.5em;">網站設定</h2>
 
       <div class="ga-setup-box">
@@ -986,7 +987,7 @@ permalink: /admin/
     if (token) {
       showEditor();
       const hash = window.location.hash.replace('#', '');
-      if (hash === 'posts' || hash === 'analytics' || hash === 'editor') {
+      if (hash === 'posts' || hash === 'analytics' || hash === 'editor' || hash === 'settings') {
         setTimeout(() => switchAdminTab(hash), 0);
       }
       // Auto-load post for editing if ?edit= param is present
@@ -1053,7 +1054,7 @@ permalink: /admin/
     const token = getToken();
     if (!token) return;
     const hash = window.location.hash.replace('#', '');
-    if (hash === 'posts' || hash === 'analytics' || hash === 'editor') {
+    if (hash === 'posts' || hash === 'analytics' || hash === 'editor' || hash === 'settings') {
       switchAdminTab(hash);
     }
   });

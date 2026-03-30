@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://www.gstatic.com https://*.disqus.com https://*.disquscdn.com https://*.threads.com https://*.threads.net https://*.cdninstagram.com https://*.fbcdn.net https://*.firebaseio.com https://my-blog-counter-76b39-default-rtdb.firebaseio.com; connect-src 'self' https://api.github.com https://*.firebaseio.com wss://*.firebaseio.com https://www.google-analytics.com https://region1.google-analytics.com https://www.gstatic.com https://*.disqus.com https://*.disquscdn.com https://links.services.disqus.com https://*.threads.net https://*.threads.com https://*.cdninstagram.com https://*.fbcdn.net; frame-src https://www.youtube.com https://*.youtube.com https://embed.music.apple.com https://open.spotify.com https://*.disqus.com https://platform.twitter.com https://*.x.com https://www.instagram.com https://*.threads.net https://*.cdninstagram.com https://*.firebaseio.com; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https://*.disquscdn.com; base-uri 'self'; frame-ancestors 'self';">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://www.gstatic.com https://*.disqus.com https://*.disquscdn.com https://*.threads.com https://*.threads.net https://*.cdninstagram.com https://*.fbcdn.net https://*.firebaseio.com https://my-blog-counter-76b39-default-rtdb.firebaseio.com; connect-src 'self' https://open.spotify.com https://api.github.com https://*.firebaseio.com wss://*.firebaseio.com https://www.google-analytics.com https://region1.google-analytics.com https://www.gstatic.com https://*.disqus.com https://*.disquscdn.com https://links.services.disqus.com https://*.threads.net https://*.threads.com https://*.cdninstagram.com https://*.fbcdn.net; frame-src https://www.youtube.com https://*.youtube.com https://embed.music.apple.com https://open.spotify.com https://*.disqus.com https://platform.twitter.com https://*.x.com https://www.instagram.com https://*.threads.net https://*.cdninstagram.com https://*.firebaseio.com; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https://*.disquscdn.com; base-uri 'self'; frame-ancestors 'self';">
   <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
@@ -80,6 +80,15 @@
       }
       document.getElementById('spotify-iframe').src =
         'https://open.spotify.com/embed/playlist/' + id + '?utm_source=generator&theme=0';
+      // Fetch actual playlist title
+      fetch('https://open.spotify.com/oembed?url=https://open.spotify.com/playlist/' + id)
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+          if (data.title) {
+            document.querySelector('.spotify-panel-header span').textContent = data.title;
+          }
+        })
+        .catch(function() {});
       // Restore panel open state
       if (sessionStorage.getItem('spotify_open') === '1') {
         document.getElementById('spotify-panel').style.display = 'block';
@@ -94,17 +103,6 @@
       });
       btn.addEventListener('click', function() {
         window.scrollTo({ top: 0, behavior: 'smooth' });
-      });
-    })();
-
-    // Auto-close Spotify panel on mouse leave
-    (function() {
-      document.getElementById('spotify-float').addEventListener('mouseleave', function() {
-        var panel = document.getElementById('spotify-panel');
-        if (panel.style.display === 'block') {
-          panel.style.display = 'none';
-          sessionStorage.setItem('spotify_open', '0');
-        }
       });
     })();
 
