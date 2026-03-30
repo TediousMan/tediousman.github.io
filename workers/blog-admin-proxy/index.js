@@ -57,21 +57,72 @@ async function verifyJWT(token, secret) {
   } catch { return null; }
 }
 
+// ─── Rate limiting helpers ────────────────────────────────────────────────────
+const RATE_LIMIT_MAX    = 5;   // 最多 5 次失敗
+const RATE_LIMIT_WIN_S  = 900; // 15 分鐘視窗
+
+async function getRateKey(ip) {
+  return `https://rate-limit-fake-host/login/${ip}`;
+}
+
+async function getRateLimitEntry(ip) {
+  const cache = caches.default;
+  const key   = await getRateKey(ip);
+  const res   = await cache.match(key);
+  if (!res) return { count: 0, resetAt: 0 };
+  return res.json();
+}
+
+async function incrementRateLimit(ip, ctx) {
+  const cache    = caches.default;
+  const key      = await getRateKey(ip);
+  const entry    = await getRateLimitEntry(ip);
+  const now      = Math.floor(Date.now() / 1000);
+  const resetAt  = entry.resetAt || now + RATE_LIMIT_WIN_S;
+  const count    = (now < resetAt ? entry.count : 0) + 1;
+  const ttl      = Math.max(resetAt - now, 1);
+
+  ctx.waitUntil(cache.put(key, new Response(JSON.stringify({ count, resetAt }),
+    { headers: { 'Cache-Control': `max-age=${ttl}`, 'Content-Type': 'application/json' } })));
+  return { count, resetAt };
+}
+
+async function resetRateLimit(ip, ctx) {
+  const cache = caches.default;
+  ctx.waitUntil(cache.delete(await getRateKey(ip)));
+}
+
 // ─── Route handlers ───────────────────────────────────────────────────────────
-async function handleLogin(request, env) {
+async function handleLogin(request, env, ctx) {
+  const ip = request.headers.get('CF-Connecting-IP') || 'unknown';
+
+  // 先檢查是否超過上限
+  const { count, resetAt } = await getRateLimitEntry(ip);
+  const now = Math.floor(Date.now() / 1000);
+  if (count >= RATE_LIMIT_MAX && now < resetAt) {
+    const retryAfter = resetAt - now;
+    return new Response(JSON.stringify({ error: '登入嘗試過於頻繁，請稍後再試' }),
+      { status: 429, headers: { 'Content-Type': 'application/json', 'Retry-After': String(retryAfter) } });
+  }
+
   let body;
   try { body = await request.json(); }
   catch { return new Response('Bad Request', { status: 400 }); }
 
   const { username, password } = body;
   if (username !== env.ADMIN_USERNAME || password !== env.ADMIN_PASSWORD) {
-    await new Promise(r => setTimeout(r, 500)); // 防暴力破解延遲
+    const { count: newCount } = await incrementRateLimit(ip, ctx);
+    // 指數退避延遲：1次=1s, 2次=5s, 3次+=30s
+    const delay = newCount >= 3 ? 30000 : newCount === 2 ? 5000 : 1000;
+    await new Promise(r => setTimeout(r, delay));
     return new Response(JSON.stringify({ error: '帳號或密碼錯誤' }),
       { status: 401, headers: { 'Content-Type': 'application/json' } });
   }
 
-  const now   = Math.floor(Date.now() / 1000);
-  const token = await signJWT({ sub: username, iat: now, exp: now + JWT_TTL_SEC }, env.JWT_SECRET);
+  // 登入成功，清除失敗紀錄
+  await resetRateLimit(ip, ctx);
+  const nowSec = Math.floor(Date.now() / 1000);
+  const token  = await signJWT({ sub: username, iat: nowSec, exp: nowSec + JWT_TTL_SEC }, env.JWT_SECRET);
   return new Response(JSON.stringify({ token }),
     { status: 200, headers: { 'Content-Type': 'application/json' } });
 }
@@ -85,8 +136,11 @@ async function handleGitHubProxy(request, url, env) {
   const payload = await verifyJWT(jwt, env.JWT_SECRET);
   if (!payload) return new Response('Unauthorized', { status: 401 });
 
-  // 轉發到 GitHub API
+  // 轉發到 GitHub API（僅允許存取指定 repo）
   const ghPath     = url.pathname.replace(/^\/api\/github/, '');
+  if (!/^\/repos\/TediousMan\/tediousman\.github\.io\//.test(ghPath)) {
+    return new Response('Forbidden', { status: 403 });
+  }
   const ghUrl      = `${GITHUB_API}${ghPath}${url.search}`;
   const newHeaders = new Headers(request.headers);
   newHeaders.set('Authorization', `token ${env.GITHUB_TOKEN}`);
@@ -99,7 +153,7 @@ async function handleGitHubProxy(request, url, env) {
 
 // ─── Main handler ─────────────────────────────────────────────────────────────
 export default {
-  async fetch(request, env) {
+  async fetch(request, env, ctx) {
     const origin = request.headers.get('Origin') || '';
     const url    = new URL(request.url);
 
@@ -109,7 +163,7 @@ export default {
 
     let response;
     if (url.pathname === '/api/auth/login' && request.method === 'POST') {
-      response = await handleLogin(request, env);
+      response = await handleLogin(request, env, ctx);
     } else if (url.pathname.startsWith('/api/github/')) {
       response = await handleGitHubProxy(request, url, env);
     } else {
