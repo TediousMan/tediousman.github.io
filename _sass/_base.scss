@@ -143,6 +143,13 @@ iframe {
   display: block;
 }
 
+// Spotify embed width alignment
+iframe[src*="open.spotify.com"] {
+  max-width: 550px;
+  display: block;
+  margin: 1.5em auto;
+}
+
 // Twitter/X embed scrollbar styling
 iframe[src*="platform.twitter.com"] {
   scrollbar-width: thin;
