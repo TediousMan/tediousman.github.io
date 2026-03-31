@@ -232,6 +232,30 @@
   }
 }
 
+// Two-column media layout (e.g. Twitter + Spotify side by side)
+.media-columns {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  margin: 1.5em 0;
+
+  .media-col {
+    flex: 1;
+    min-width: 0;
+
+    iframe {
+      width: 100% !important;
+      max-width: 100% !important;
+      margin: 0 !important;
+      display: block;
+    }
+  }
+
+  @media (max-width: $mobile) {
+    flex-direction: column;
+  }
+}
+
 // Related posts
 .related-posts {
   margin: 0.5em 0 1.5em;
