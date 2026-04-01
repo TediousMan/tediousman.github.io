@@ -1510,35 +1510,60 @@ permalink: /admin/
 
   // ========== Spotify Settings ==========
   function addSpotifyRow(url, isNew) {
+    // Prevent adding another empty row if one already exists
+    if (isNew) {
+      var existing = document.querySelectorAll('.spotify-url-input');
+      for (var i = 0; i < existing.length; i++) {
+        if (!existing[i].hasAttribute('readonly') && !existing[i].value.trim()) {
+          existing[i].focus();
+          return;
+        }
+      }
+    }
     var container = document.getElementById('spotifyListInputs');
     var row = document.createElement('div');
     row.style.cssText = 'display:flex; gap:8px; margin-bottom:8px; align-items:center;';
-    var borderColor = isNew ? '#444' : '#333';
     var inp = document.createElement('input');
     inp.type = 'text';
     inp.className = 'spotify-url-input';
     inp.placeholder = 'https://open.spotify.com/playlist/xxxxxx';
     inp.value = url || '';
-    inp.style.cssText = 'flex:1; padding:8px 10px; background:#2a2a2a; border:1px solid ' + borderColor + '; border-radius:4px; color:#c8c8c8; font-size:0.9rem;';
-    if (!isNew) inp.setAttribute('readonly', '');
-    row.appendChild(inp);
+    inp.style.cssText = 'flex:1; padding:8px 10px; background:#2a2a2a; border:1px solid #444; border-radius:4px; color:#c8c8c8; font-size:0.9rem;';
     if (!isNew) {
+      // Hide raw input, show display card instead
+      inp.style.display = 'none';
+      var displayDiv = document.createElement('div');
+      displayDiv.style.cssText = 'flex:1; padding:8px 10px; background:#2a2a2a; border:1px solid #333; border-radius:4px; min-width:0; overflow:hidden;';
+      displayDiv.innerHTML = '<span style="color:#555; font-size:0.85rem;">⏳ 載入中...</span>';
+      fetch('https://open.spotify.com/oembed?url=' + encodeURIComponent(url))
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+          displayDiv.innerHTML = '<div style="color:#c8c8c8; font-size:0.9rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">🎵 ' + data.title + '</div>'
+            + '<div style="color:#555; font-size:0.75rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; margin-top:2px;">' + url + '</div>';
+        })
+        .catch(function() {
+          displayDiv.innerHTML = '<div style="color:#888; font-size:0.9rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">' + url + '</div>';
+        });
+      row.appendChild(displayDiv);
+      row.appendChild(inp);
       var editBtn = document.createElement('button');
       editBtn.title = '編輯';
       editBtn.textContent = '✏';
-      editBtn.style.cssText = 'background:none; border:none; color:#666; cursor:pointer; font-size:1rem; padding:0 4px;';
+      editBtn.style.cssText = 'background:none; border:none; color:#666; cursor:pointer; font-size:1rem; padding:0 4px; flex-shrink:0;';
       editBtn.onclick = function() {
-        inp.removeAttribute('readonly');
-        inp.style.borderColor = '#666';
+        displayDiv.style.display = 'none';
+        inp.style.cssText = 'flex:1; padding:8px 10px; background:#2a2a2a; border:1px solid #666; border-radius:4px; color:#c8c8c8; font-size:0.9rem;';
         inp.focus();
         this.remove();
       };
       row.appendChild(editBtn);
+    } else {
+      row.appendChild(inp);
     }
     var delBtn = document.createElement('button');
     delBtn.title = '移除';
     delBtn.textContent = '✕';
-    delBtn.style.cssText = 'background:none; border:none; color:#666; cursor:pointer; font-size:1.1rem; padding:0 4px;';
+    delBtn.style.cssText = 'background:none; border:none; color:#666; cursor:pointer; font-size:1.1rem; padding:0 4px; flex-shrink:0;';
     delBtn.onclick = function() { this.closest('div').remove(); };
     row.appendChild(delBtn);
     container.appendChild(row);
@@ -1598,23 +1623,7 @@ permalink: /admin/
       if (!putRes.ok) throw new Error('儲存失敗');
       statusEl.textContent = '✓ 已儲存，約 1-2 分鐘後生效';
       statusEl.style.color = '#3fb950';
-      document.querySelectorAll('.spotify-url-input').forEach(function(inp) {
-        inp.setAttribute('readonly', '');
-        inp.style.borderColor = '#333';
-        if (!inp.nextElementSibling || inp.nextElementSibling.title !== '編輯') {
-          var editBtn = document.createElement('button');
-          editBtn.title = '編輯';
-          editBtn.textContent = '✏';
-          editBtn.style.cssText = 'background:none; border:none; color:#666; cursor:pointer; font-size:1rem; padding:0 4px;';
-          editBtn.onclick = function() {
-            inp.removeAttribute('readonly');
-            inp.style.borderColor = '#666';
-            inp.focus();
-            this.remove();
-          };
-          inp.after(editBtn);
-        }
-      });
+      loadSpotifySettings();
     } catch(e) {
       statusEl.textContent = '錯誤：' + e.message;
       statusEl.style.color = '#f85149';
