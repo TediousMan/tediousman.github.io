@@ -900,7 +900,7 @@ permalink: /admin/
         <p>可新增多個播放清單，訪客每次進入網站時將隨機播放其中一個。</p>
         <div id="spotifyListInputs"></div>
         <button class="btn" onclick="addSpotifyRow('', '', true)" style="margin-top:8px; font-size:0.85rem;">＋ 新增播放清單</button>
-        <div style="margin-top:16px; display:flex; gap:12px; align-items:center;">
+        <div style="margin-top:16px; display:flex; gap:12px; align-items:center; position:sticky; bottom:0; background:#252525; padding:12px 0 4px; z-index:10;">
           <button class="btn btn-primary" onclick="saveSpotifyPlaylist()">儲存</button>
           <span id="spotifyStatus" style="font-size:0.85rem; color:#888;"></span>
         </div>
@@ -1640,6 +1640,16 @@ permalink: /admin/
       statusEl.style.color = '#f85149';
       return;
     }
+    // 對沒有名稱的項目自動從 Spotify 抓取名稱
+    const emptyNameItems = playlists.filter(p => !p.name);
+    if (emptyNameItems.length > 0) {
+      statusEl.textContent = '正在取得播放清單名稱…';
+      statusEl.style.color = '#888';
+      await Promise.all(emptyNameItems.map(async p => {
+        const name = await fetchSpotifyName('https://open.spotify.com/playlist/' + p.id);
+        if (name) p.name = name;
+      }));
+    }
     statusEl.textContent = '儲存中...';
     statusEl.style.color = '#888';
     try {
@@ -1648,7 +1658,7 @@ permalink: /admin/
       });
       if (!getRes.ok) throw new Error('無法讀取設定檔');
       const fileData = await getRes.json();
-      const newContent = btoa(JSON.stringify({ playlists }, null, 2) + '\n');
+      const newContent = encodeToBase64(JSON.stringify({ playlists }, null, 2) + '\n');
       const putRes = await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/_data/spotify.json`, {
         method: 'PUT',
         headers: { 'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json' },
