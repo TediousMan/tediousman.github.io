@@ -1509,6 +1509,15 @@ permalink: /admin/
   });
 
   // ========== Spotify Settings ==========
+  async function fetchSpotifyName(url) {
+    try {
+      const r = await fetch(WORKER_BASE + '/api/spotify/oembed?url=' + encodeURIComponent(url));
+      if (!r.ok) return null;
+      const data = await r.json();
+      return data.title || null;
+    } catch(e) { return null; }
+  }
+
   function addSpotifyRow(url, name, isNew) {
     // Prevent adding another empty row if one already exists
     if (isNew) {
@@ -1572,6 +1581,7 @@ permalink: /admin/
     delBtn.onclick = function() { this.closest('div').remove(); };
     row.appendChild(delBtn);
     container.appendChild(row);
+    if (!isNew) return { displayDiv, nameInp };
   }
 
   async function loadSpotifySettings() {
@@ -1587,7 +1597,23 @@ permalink: /admin/
       const playlists = json.playlists
         || (json.playlist_ids || (json.playlist_id ? [json.playlist_id] : [])).map(id => ({ id, name: '' }));
       if (playlists.length === 0) { addSpotifyRow('', '', true); return; }
-      playlists.forEach(p => addSpotifyRow('https://open.spotify.com/playlist/' + p.id, p.name || '', false));
+      for (const p of playlists) {
+        const playlistUrl = 'https://open.spotify.com/playlist/' + p.id;
+        const refs = addSpotifyRow(playlistUrl, p.name || '', false);
+        if (!p.name && refs) {
+          refs.displayDiv.innerHTML = '<div style="color:#555; font-size:0.9rem;">正在載入…</div>';
+          fetchSpotifyName(playlistUrl).then(fetchedName => {
+            if (fetchedName) {
+              refs.nameInp.value = fetchedName;
+              refs.displayDiv.innerHTML =
+                '<div style="color:#c8c8c8; font-size:0.9rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">🎵 ' + fetchedName + '</div>'
+                + '<div style="color:#555; font-size:0.75rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; margin-top:2px;">' + playlistUrl + '</div>';
+            } else {
+              refs.displayDiv.innerHTML = '<div style="color:#888; font-size:0.9rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">' + playlistUrl + '</div>';
+            }
+          });
+        }
+      }
     } catch(e) { addSpotifyRow('', '', true); }
   }
 
