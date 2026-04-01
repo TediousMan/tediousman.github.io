@@ -899,7 +899,7 @@ permalink: /admin/
         <h3>Spotify 播放清單</h3>
         <p>可新增多個播放清單，訪客每次進入網站時將隨機播放其中一個。</p>
         <div id="spotifyListInputs"></div>
-        <button class="btn" onclick="addSpotifyRow('', true)" style="margin-top:8px; font-size:0.85rem;">＋ 新增播放清單</button>
+        <button class="btn" onclick="addSpotifyRow('', '', true)" style="margin-top:8px; font-size:0.85rem;">＋ 新增播放清單</button>
         <div style="margin-top:16px; display:flex; gap:12px; align-items:center;">
           <button class="btn btn-primary" onclick="saveSpotifyPlaylist()">儲存</button>
           <span id="spotifyStatus" style="font-size:0.85rem; color:#888;"></span>
@@ -1509,12 +1509,12 @@ permalink: /admin/
   });
 
   // ========== Spotify Settings ==========
-  function addSpotifyRow(url, isNew) {
+  function addSpotifyRow(url, name, isNew) {
     // Prevent adding another empty row if one already exists
     if (isNew) {
       var existing = document.querySelectorAll('.spotify-url-input');
       for (var i = 0; i < existing.length; i++) {
-        if (!existing[i].hasAttribute('readonly') && !existing[i].value.trim()) {
+        if (existing[i].style.display !== 'none' && !existing[i].value.trim()) {
           existing[i].focus();
           return;
         }
@@ -1529,23 +1529,26 @@ permalink: /admin/
     inp.placeholder = 'https://open.spotify.com/playlist/xxxxxx';
     inp.value = url || '';
     inp.style.cssText = 'flex:1; padding:8px 10px; background:#2a2a2a; border:1px solid #444; border-radius:4px; color:#c8c8c8; font-size:0.9rem;';
+    var nameInp = document.createElement('input');
+    nameInp.type = 'text';
+    nameInp.className = 'spotify-name-input';
+    nameInp.placeholder = '播放清單名稱（選填）';
+    nameInp.value = name || '';
+    nameInp.style.cssText = 'flex:0 0 160px; padding:8px 10px; background:#2a2a2a; border:1px solid #444; border-radius:4px; color:#c8c8c8; font-size:0.9rem;';
     if (!isNew) {
-      // Hide raw input, show display card instead
       inp.style.display = 'none';
+      nameInp.style.display = 'none';
       var displayDiv = document.createElement('div');
       displayDiv.style.cssText = 'flex:1; padding:8px 10px; background:#2a2a2a; border:1px solid #333; border-radius:4px; min-width:0; overflow:hidden;';
-      displayDiv.innerHTML = '<span style="color:#555; font-size:0.85rem;">⏳ 載入中...</span>';
-      fetch(WORKER_BASE + '/api/spotify/oembed?url=' + encodeURIComponent(url))
-        .then(function(r) { return r.json(); })
-        .then(function(data) {
-          displayDiv.innerHTML = '<div style="color:#c8c8c8; font-size:0.9rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">🎵 ' + data.title + '</div>'
-            + '<div style="color:#555; font-size:0.75rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; margin-top:2px;">' + url + '</div>';
-        })
-        .catch(function() {
-          displayDiv.innerHTML = '<div style="color:#888; font-size:0.9rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">' + url + '</div>';
-        });
+      if (name) {
+        displayDiv.innerHTML = '<div style="color:#c8c8c8; font-size:0.9rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">🎵 ' + name + '</div>'
+          + '<div style="color:#555; font-size:0.75rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; margin-top:2px;">' + url + '</div>';
+      } else {
+        displayDiv.innerHTML = '<div style="color:#888; font-size:0.9rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">' + url + '</div>';
+      }
       row.appendChild(displayDiv);
       row.appendChild(inp);
+      row.appendChild(nameInp);
       var editBtn = document.createElement('button');
       editBtn.title = '編輯';
       editBtn.textContent = '✏';
@@ -1553,12 +1556,14 @@ permalink: /admin/
       editBtn.onclick = function() {
         displayDiv.style.display = 'none';
         inp.style.cssText = 'flex:1; padding:8px 10px; background:#2a2a2a; border:1px solid #666; border-radius:4px; color:#c8c8c8; font-size:0.9rem;';
+        nameInp.style.cssText = 'flex:0 0 160px; padding:8px 10px; background:#2a2a2a; border:1px solid #444; border-radius:4px; color:#c8c8c8; font-size:0.9rem;';
         inp.focus();
         this.remove();
       };
       row.appendChild(editBtn);
     } else {
       row.appendChild(inp);
+      row.appendChild(nameInp);
     }
     var delBtn = document.createElement('button');
     delBtn.title = '移除';
@@ -1576,22 +1581,25 @@ permalink: /admin/
       const res = await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/_data/spotify.json`, {
         headers: { 'Authorization': 'Bearer ' + token }
       });
-      if (!res.ok) { addSpotifyRow('', true); return; }
+      if (!res.ok) { addSpotifyRow('', '', true); return; }
       const data = await res.json();
       const json = JSON.parse(atob(data.content.replace(/\n/g, '')));
-      const ids = json.playlist_ids || (json.playlist_id ? [json.playlist_id] : []);
-      if (ids.length === 0) { addSpotifyRow('', true); return; }
-      ids.forEach(id => addSpotifyRow('https://open.spotify.com/playlist/' + id, false));
-    } catch(e) { addSpotifyRow('', true); }
+      const playlists = json.playlists
+        || (json.playlist_ids || (json.playlist_id ? [json.playlist_id] : [])).map(id => ({ id, name: '' }));
+      if (playlists.length === 0) { addSpotifyRow('', '', true); return; }
+      playlists.forEach(p => addSpotifyRow('https://open.spotify.com/playlist/' + p.id, p.name || '', false));
+    } catch(e) { addSpotifyRow('', '', true); }
   }
 
   async function saveSpotifyPlaylist() {
     const token = getToken();
     const statusEl = document.getElementById('spotifyStatus');
-    const inputs = document.querySelectorAll('.spotify-url-input');
-    const ids = [];
-    for (const input of inputs) {
-      const raw = input.value.trim();
+    const rows = document.querySelectorAll('#spotifyListInputs > div');
+    const playlists = [];
+    for (const row of rows) {
+      const urlInp  = row.querySelector('.spotify-url-input');
+      const nameInp = row.querySelector('.spotify-name-input');
+      const raw = urlInp ? urlInp.value.trim() : '';
       if (!raw) continue;
       const match = raw.match(/open\.spotify\.com\/playlist\/([a-zA-Z0-9]+)/);
       if (!match) {
@@ -1599,9 +1607,9 @@ permalink: /admin/
         statusEl.style.color = '#f85149';
         return;
       }
-      ids.push(match[1]);
+      playlists.push({ id: match[1], name: nameInp ? nameInp.value.trim() : '' });
     }
-    if (ids.length === 0) {
+    if (playlists.length === 0) {
       statusEl.textContent = '請至少輸入一個播放清單網址';
       statusEl.style.color = '#f85149';
       return;
@@ -1614,7 +1622,7 @@ permalink: /admin/
       });
       if (!getRes.ok) throw new Error('無法讀取設定檔');
       const fileData = await getRes.json();
-      const newContent = btoa(JSON.stringify({ playlist_ids: ids }, null, 2) + '\n');
+      const newContent = btoa(JSON.stringify({ playlists }, null, 2) + '\n');
       const putRes = await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/_data/spotify.json`, {
         method: 'PUT',
         headers: { 'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json' },
