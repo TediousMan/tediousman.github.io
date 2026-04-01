@@ -70,7 +70,7 @@
 
     // Playlist selection with cross-page persistence
     (function() {
-      var ids = [{% for id in site.data.spotify.playlist_ids %}"{{ id }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+      var ids = [{% for p in site.data.spotify.playlists %}"{{ p.id }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
       if (!ids.length) return;
       var sessionKey = 'spotify_pid';
       var id = sessionStorage.getItem(sessionKey);
