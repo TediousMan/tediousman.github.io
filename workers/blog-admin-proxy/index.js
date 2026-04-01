@@ -166,6 +166,13 @@ export default {
       response = await handleLogin(request, env, ctx);
     } else if (url.pathname.startsWith('/api/github/')) {
       response = await handleGitHubProxy(request, url, env);
+    } else if (url.pathname === '/api/spotify/oembed' && request.method === 'GET') {
+      const spotifyUrl = url.searchParams.get('url');
+      if (!spotifyUrl) {
+        response = new Response('Missing url parameter', { status: 400 });
+      } else {
+        response = await fetch('https://open.spotify.com/oembed?url=' + encodeURIComponent(spotifyUrl));
+      }
     } else {
       response = new Response('Not Found', { status: 404 });
     }

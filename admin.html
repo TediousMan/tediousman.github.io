@@ -1535,7 +1535,7 @@ permalink: /admin/
       var displayDiv = document.createElement('div');
       displayDiv.style.cssText = 'flex:1; padding:8px 10px; background:#2a2a2a; border:1px solid #333; border-radius:4px; min-width:0; overflow:hidden;';
       displayDiv.innerHTML = '<span style="color:#555; font-size:0.85rem;">⏳ 載入中...</span>';
-      fetch('https://open.spotify.com/oembed?url=' + encodeURIComponent(url))
+      fetch(WORKER_BASE + '/api/spotify/oembed?url=' + encodeURIComponent(url))
         .then(function(r) { return r.json(); })
         .then(function(data) {
           displayDiv.innerHTML = '<div style="color:#c8c8c8; font-size:0.9rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">🎵 ' + data.title + '</div>'
