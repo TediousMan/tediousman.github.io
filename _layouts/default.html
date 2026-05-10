@@ -34,12 +34,20 @@
 
   <main class="site-main">
     <div class="container">
-      <div class="content-wrapper">
-        <article class="main-content">
+      {% if page.id %}
+        {% comment %} 文章頁：置中，無側欄 {% endcomment %}
+        <article class="main-content post-page-content">
           {{ content }}
         </article>
-        {% include sidebar.html %}
-      </div>
+      {% else %}
+        {% comment %} 其他頁面：保留側欄 {% endcomment %}
+        <div class="content-wrapper">
+          <article class="main-content">
+            {{ content }}
+          </article>
+          {% include sidebar.html %}
+        </div>
+      {% endif %}
     </div>
   </main>
 
