@@ -123,6 +123,23 @@ function copyPostLink() {
 {% endif %}
 {% endif %}
 
+{% assign recent_posts = site.posts | where_exp:"p", "p.url != page.url" | slice: 0, 5 %}
+{% if recent_posts.size > 0 %}
+<section class="recent-posts-in-post">
+  <h3>最新文章</h3>
+  <ul class="related-list">
+    {% for rp in recent_posts %}
+    <li>
+      <a href="{{ rp.url | relative_url }}">
+        <span class="related-title">{{ rp.title }}</span>
+        <span class="related-date">{{ rp.date | date: "%m/%d" }}</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
 <section class="post-comments">
   <h3>留言區</h3>
   <button id="load-comments-btn" onclick="loadDisqus()" style="padding:8px 20px; border:1px solid #444; border-radius:4px; background:none; color:#a0a0a0; font-size:0.9rem; cursor:pointer;">載入留言</button>

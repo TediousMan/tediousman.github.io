@@ -13,6 +13,12 @@
   min-width: 0;
 }
 
+// Post page: centered, no sidebar (Substack-like reading layout)
+.post-page-content {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
 // Post styles
 .post-header {
   margin-bottom: 2em;
@@ -43,7 +49,7 @@
 
 .post-content {
   max-width: 680px;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
 
   h2 {
     margin-top: 2em;
@@ -256,8 +262,9 @@
   }
 }
 
-// Related posts
-.related-posts {
+// Related posts (and "Recent posts" inside post pages — share styling)
+.related-posts,
+.recent-posts-in-post {
   margin: 0.5em 0 1.5em;
 
   h3 {
