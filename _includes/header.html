@@ -19,7 +19,7 @@
         <li><a href="{{ '/reflections' | relative_url }}" {% if page.url contains 'reflections' %}class="active"{% endif %}>個人心得</a></li>
         <li><a href="{{ '/life' | relative_url }}" {% if page.url contains 'life' %}class="active"{% endif %}>生活紀錄</a></li>
         <li><a href="{{ '/about' | relative_url }}" {% if page.url contains 'about' %}class="active"{% endif %}>關於我</a></li>
-        <li><a href="{{ '/search/' | relative_url }}" {% if page.url contains 'search' %}class="active"{% endif %} aria-label="搜尋">🔍</a></li>
+        <li><a href="{{ '/search/' | relative_url }}" onclick="openSearchModal(event)" {% if page.url contains 'search' %}class="active"{% endif %} aria-label="搜尋">🔍</a></li>
         <li id="nav-logout-link" style="display:none; list-style:none;">
           <a href="#" onclick="adminLogout(); return false;" style="color:#f85149;">登出</a>
         </li>
@@ -64,4 +64,109 @@
     document.getElementById('nav-logout-link').style.display = 'none';
     window.location.href = '/';
   }
+</script>
+
+<!-- 站內搜尋對話框（點 🔍 彈出，不跳頁） -->
+<div id="search-modal" class="search-modal" aria-hidden="true">
+  <div class="search-modal__backdrop" onclick="closeSearchModal()"></div>
+  <div class="search-modal__box" role="dialog" aria-modal="true" aria-label="站內搜尋">
+    <button class="search-modal__close" onclick="closeSearchModal()" aria-label="關閉搜尋">✕</button>
+    <div id="search-modal-ui"></div>
+  </div>
+</div>
+
+<style>
+  .search-modal { display:none; position:fixed; inset:0; z-index:3000; }
+  .search-modal.open { display:block; }
+  .search-modal__backdrop { position:absolute; inset:0; background:rgba(0,0,0,0.6); backdrop-filter:blur(2px); }
+  .search-modal__box { position:relative; max-width:600px; margin:8vh auto 0; background:#222; border:1px solid #333; border-radius:12px; padding:22px 20px 20px; box-shadow:0 20px 60px rgba(0,0,0,0.5); max-height:80vh; overflow-y:auto; }
+  .search-modal__close { position:absolute; top:10px; right:14px; background:none; border:none; color:#888; font-size:1.1rem; line-height:1; cursor:pointer; }
+  .search-modal__close:hover { color:#ccc; }
+  #search-modal-ui {
+    --pagefind-ui-scale:0.9; --pagefind-ui-primary:#8a9ba8; --pagefind-ui-text:#c8c8c8;
+    --pagefind-ui-background:#222222; --pagefind-ui-border:#333333; --pagefind-ui-tag:#2a2a2a;
+    --pagefind-ui-border-width:1px; --pagefind-ui-border-radius:6px; --pagefind-ui-font:inherit;
+  }
+  #search-modal-ui .pagefind-ui__result-link { color:#c8c8c8; }
+  #search-modal-ui .pagefind-ui__result-link:hover { color:#8a9ba8; }
+  #search-modal-ui .pagefind-ui__result-excerpt { color:#a0a0a0; }
+  #search-modal-ui mark { background:rgba(138,155,168,0.3); color:#e0e0e0; border-radius:2px; }
+  @media (max-width:640px) {
+    .search-modal__box { margin:0; max-width:100%; min-height:100vh; border-radius:0; padding-top:48px; }
+  }
+</style>
+
+<script>
+  (function() {
+    var loaded = false, initialized = false;
+
+    function focusInput() {
+      var input = document.querySelector('#search-modal-ui input');
+      if (input) input.focus();
+    }
+
+    function ensurePagefind() {
+      if (initialized) { setTimeout(focusInput, 50); return; }
+      if (loaded) return;
+      loaded = true;
+      var css = document.createElement('link');
+      css.rel = 'stylesheet';
+      css.href = '/pagefind/pagefind-ui.css';
+      document.head.appendChild(css);
+      var s = document.createElement('script');
+      s.src = '/pagefind/pagefind-ui.js';
+      s.onload = function() {
+        if (typeof PagefindUI === 'undefined') {
+          document.getElementById('search-modal-ui').innerHTML =
+            '<p style="color:#888;padding:1em;">搜尋索引尚未建立（本機預覽不可用，部署後生效）。</p>';
+          return;
+        }
+        new PagefindUI({
+          element: '#search-modal-ui',
+          showSubResults: false,
+          showImages: false,
+          translations: {
+            placeholder: '搜尋文章…', clear_search: '清除', load_more: '載入更多結果',
+            search_label: '站內搜尋',
+            zero_results: '找不到「[SEARCH_TERM]」相關的文章',
+            many_results: '找到 [COUNT] 篇「[SEARCH_TERM]」相關的文章',
+            one_result: '找到 [COUNT] 篇「[SEARCH_TERM]」相關的文章',
+            searching: '搜尋「[SEARCH_TERM]」中…'
+          }
+        });
+        initialized = true;
+        setTimeout(focusInput, 100);
+      };
+      s.onerror = function() {
+        document.getElementById('search-modal-ui').innerHTML =
+          '<p style="color:#888;padding:1em;">搜尋暫時無法使用。</p>';
+      };
+      document.head.appendChild(s);
+    }
+
+    window.openSearchModal = function(e) {
+      if (e) e.preventDefault();
+      var modal = document.getElementById('search-modal');
+      modal.classList.add('open');
+      modal.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+      ensurePagefind();
+      setTimeout(focusInput, 120);
+    };
+
+    window.closeSearchModal = function() {
+      var modal = document.getElementById('search-modal');
+      modal.classList.remove('open');
+      modal.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+    };
+
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') closeSearchModal();
+      if ((e.metaKey || e.ctrlKey) && (e.key === 'k' || e.key === 'K')) {
+        e.preventDefault();
+        openSearchModal();
+      }
+    });
+  })();
 </script>
