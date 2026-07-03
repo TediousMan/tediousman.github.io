@@ -1573,7 +1573,7 @@ permalink: /admin/
     }
     var container = document.getElementById('spotifyListInputs');
     var row = document.createElement('div');
-    row.style.cssText = 'display:flex; gap:8px; margin-bottom:8px; align-items:center;';
+    row.style.cssText = 'display:flex; gap:8px; margin-bottom:6px; align-items:center;';
     var inp = document.createElement('input');
     inp.type = 'text';
     inp.className = 'spotify-url-input';
@@ -1617,10 +1617,10 @@ permalink: /admin/
       inp.style.display = 'none';
       nameInp.style.display = 'none';
       var displayDiv = document.createElement('div');
-      displayDiv.style.cssText = 'flex:1; padding:8px 10px; background:#2a2a2a; border:1px solid #333; border-radius:4px; min-width:0; overflow:hidden;';
+      displayDiv.style.cssText = 'flex:1; padding:6px 10px; background:#2a2a2a; border:1px solid #333; border-radius:4px; min-width:0; overflow:hidden;';
+      displayDiv.title = url;  // 網址收進 tooltip，滑鼠移上去可見
       if (name) {
-        displayDiv.innerHTML = '<div style="color:#c8c8c8; font-size:0.9rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">🎵 ' + name + '</div>'
-          + '<div style="color:#555; font-size:0.75rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; margin-top:2px;">' + url + '</div>';
+        displayDiv.innerHTML = '<div style="color:#c8c8c8; font-size:0.9rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">🎵 ' + name + '</div>';
       } else {
         displayDiv.innerHTML = '<div style="color:#888; font-size:0.9rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">' + url + '</div>';
       }
@@ -1682,8 +1682,7 @@ permalink: /admin/
             if (fetchedName) {
               refs.nameInp.value = fetchedName;
               refs.displayDiv.innerHTML =
-                '<div style="color:#c8c8c8; font-size:0.9rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">🎵 ' + fetchedName + '</div>'
-                + '<div style="color:#555; font-size:0.75rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; margin-top:2px;">' + playlistUrl + '</div>';
+                '<div style="color:#c8c8c8; font-size:0.9rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">🎵 ' + fetchedName + '</div>';
             } else {
               refs.displayDiv.innerHTML = '<div style="color:#888; font-size:0.9rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">' + playlistUrl + '</div>';
             }
