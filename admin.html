@@ -932,7 +932,7 @@ permalink: /admin/
     try { return /^https?:$/.test(new URL(s).protocol); } catch { return false; }
   }
 
-  // ========== Token Storage (with 8-hour expiry) ==========
+  // ========== Token Storage (with 30-day expiry) ==========
   const GH_TOKEN_KEY = 'gh_token';
   const GH_TOKEN_EXP_KEY = 'gh_token_exp';
   const TOKEN_TTL_MS = 30 * 24 * 60 * 60 * 1000; // 30 days
