@@ -10,7 +10,7 @@ permalink: /music-reviews/
 {% for post in posts %}
 <div class="post-card" data-post-path="{{ post.path }}" data-post-title="{{ post.title | escape }}">
   {% if post.image %}
-  <a href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="post-card-image"></a>
+  <a href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="post-card-image" loading="lazy"></a>
   {% endif %}
   <div class="post-meta">
     <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y 年 %m 月 %d 日" }}</time>
