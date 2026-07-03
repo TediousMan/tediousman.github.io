@@ -179,6 +179,15 @@
       font-size: 0.85rem;
       color: #c8c8c8;
 
+      span {
+        flex: 1;
+        min-width: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        margin-right: 8px;
+      }
+
       button {
         background: none;
         border: none;
