@@ -42,3 +42,5 @@ exclude:
   - Gemfile.lock
   - README.md
   - vendor
+  - workers
+  - blog_update

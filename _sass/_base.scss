@@ -10,6 +10,11 @@
 html {
   font-size: $font-size-base;
   scroll-behavior: smooth;
+
+  // 小螢幕視距近，18px 偏大，微降一級
+  @media (max-width: $mobile) {
+    font-size: 17px;
+  }
 }
 
 body {
