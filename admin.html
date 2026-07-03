@@ -706,9 +706,13 @@ permalink: /admin/
       </div>
       <div class="form-group">
         <label for="postPlaylist" title="讀者進入這篇文章時，右下角播放器會自動播放這份歌單">對應歌單 <span style="color:#555; font-weight:400;">（選填）</span></label>
-        <select id="postPlaylist" title="讀者進入這篇文章時，右下角播放器會自動播放這份歌單">
-          <option value="">無（隨機播放）</option>
-        </select>
+        <div style="display:flex; gap:6px; align-items:stretch;">
+          <select id="postPlaylist" style="flex:1; min-width:0;" title="讀者進入這篇文章時，右下角播放器會自動播放這份歌單">
+            <option value="">無（隨機播放）</option>
+          </select>
+          <button type="button" onclick="insertLinkedPlaylist()" title="把選好的歌單播放器嵌入到內文游標處"
+                  style="padding:0 12px; background:#2a2a2a; border:1px solid #444; border-radius:4px; color:#c8c8c8; font-size:0.85rem; cursor:pointer; white-space:nowrap;">插入內文</button>
+        </div>
       </div>
     </div>
 
@@ -733,12 +737,16 @@ permalink: /admin/
           <button onclick="insertFormat('\n- ', '\n')" title="清單">清單</button>
           <button onclick="insertFormat('[', '](https://)')" title="連結">連結</button>
           <button onclick="insertImage()" title="圖片">圖片</button>
-          <button onclick="insertSpotify()" title="Spotify">Spotify</button>
-          <button onclick="insertAppleMusic()" title="Apple Music">Apple Music</button>
-          <button onclick="insertYouTube()" title="YouTube">YouTube</button>
-          <button onclick="insertTwitter()" title="X (Twitter) 推文/影片">X</button>
-          <button onclick="insertInstagram()" title="Instagram 貼文/Reels">IG</button>
-          <button onclick="insertThreads()" title="Threads 貼文">Threads</button>
+          <select onchange="handleEmbedSelect(this)" title="插入外部嵌入內容"
+                  style="padding:6px 10px; background:#2a2a2a; border:1px solid #444; border-radius:4px; color:#c8c8c8; font-size:0.85rem; cursor:pointer;">
+            <option value="">嵌入 ▾</option>
+            <option value="insertSpotify">Spotify</option>
+            <option value="insertAppleMusic">Apple Music</option>
+            <option value="insertYouTube">YouTube</option>
+            <option value="insertTwitter">X（推文 / 影片）</option>
+            <option value="insertInstagram">Instagram</option>
+            <option value="insertThreads">Threads</option>
+          </select>
         </div>
         <textarea id="postContent" placeholder="在這裡用 Markdown 撰寫文章內容..."></textarea>
         <div class="editor-footer-info">
@@ -1549,6 +1557,24 @@ permalink: /admin/
   function playlistFrontMatterLine() {
     const v = document.getElementById('postPlaylist').value;
     return v ? `spotify_playlist: ${v}\n` : '';
+  }
+
+  // 「插入內文」：把對應歌單的播放器嵌到內文游標處，免去再貼一次網址
+  function insertLinkedPlaylist() {
+    const id = document.getElementById('postPlaylist').value;
+    if (!id) { alert('請先在「對應歌單」下拉選一份歌單'); return; }
+    const iframe = `\n<iframe style="border-radius:12px;max-width:550px;display:block;margin:1.5em auto;" src="https://open.spotify.com/embed/playlist/${id}" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>\n`;
+    const ta = document.getElementById('postContent');
+    const pos = ta.selectionStart;
+    ta.value = ta.value.substring(0, pos) + iframe + ta.value.substring(pos);
+    ta.focus();
+  }
+
+  // 「嵌入 ▾」下拉：選了平台就呼叫對應的插入函式，選完歸位
+  function handleEmbedSelect(sel) {
+    const fn = sel.value;
+    sel.value = '';
+    if (fn && typeof window[fn] === 'function') window[fn]();
   }
 
   // ========== Spotify Settings ==========
