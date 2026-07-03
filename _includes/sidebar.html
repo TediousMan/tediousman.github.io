@@ -15,19 +15,10 @@
   </section>
 
 
-<section class="sidebar-section visitor-stats">
-    <h3>訪客統計</h3>
-    <div class="visitor-counter">
-      <div class="visitor-item">
-        <span class="visitor-label">今日訪客</span>
-        <span class="visitor-count" id="today_visitor_count">--</span>
-      </div>
-    </div>
-
-    <!-- Firebase 今日訪客精確計數 -->
+<!-- Firebase 訪客計數：只記錄不顯示（數據留給 admin 用） -->
     <script type="module">
       import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js';
-      import { getDatabase, ref, runTransaction, onValue } from 'https://www.gstatic.com/firebasejs/10.12.0/firebase-database.js';
+      import { getDatabase, ref, runTransaction } from 'https://www.gstatic.com/firebasejs/10.12.0/firebase-database.js';
 
       const firebaseConfig = {
         apiKey: "AIzaSyDUTVITEnxscPQadv0qbL33lRuPU-ClZU8",
@@ -51,12 +42,5 @@
         sessionStorage.setItem('visited_' + today, '1');
         runTransaction(todayRef, (current) => (current || 0) + 1);
       }
-
-      // 即時顯示今日訪客數
-      onValue(todayRef, (snapshot) => {
-        const count = snapshot.val() || 0;
-        document.getElementById('today_visitor_count').textContent = count;
-      });
     </script>
-  </section>
 </aside>

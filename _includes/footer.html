@@ -6,7 +6,14 @@
         <a href="/feed.xml">RSS</a>
         <a href="/about/">關於我</a>
         <a href="/sitemap.xml">Sitemap</a>
+        <a href="/admin/" id="footer-login-link" style="opacity:0.5;">登入</a>
       </div>
+      <script>
+        // 已登入（站長）就不用再顯示登入入口
+        if (localStorage.getItem('gh_token')) {
+          document.getElementById('footer-login-link').style.display = 'none';
+        }
+      </script>
       <p class="footer-copy">&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</p>
     </div>
   </div>
