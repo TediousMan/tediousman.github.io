@@ -1394,16 +1394,23 @@ permalink: /admin/
     showStatus('editorStatus', '草稿已儲存！', 'success');
   }
 
-  function clearAll() {
-    if (!confirm('確定要清除所有內容嗎？')) return;
+  // 完整清空編輯表單（發佈/更新成功、取消編輯、手動清除共用）
+  function resetEditorForm() {
     document.getElementById('postTitle').value = '';
     document.getElementById('postDate').value = localDateStr();
     document.getElementById('postCategory').value = '音樂記錄';
     document.getElementById('postDescription').value = '';
     document.getElementById('postContent').value = '';
+    const pl = document.getElementById('postPlaylist');
+    if (pl) pl.value = '';
     const statusEl = document.getElementById('autoSaveStatus');
     if (statusEl) statusEl.textContent = '';
     localStorage.removeItem('post_draft');
+  }
+
+  function clearAll() {
+    if (!confirm('確定要清除所有內容嗎？')) return;
+    resetEditorForm();
     showStatus('editorStatus', '已清除。', 'success');
   }
 
@@ -1465,12 +1472,9 @@ permalink: /admin/
         throw new Error(err.message || '發佈失敗');
       }
 
-      showStatus('editorStatus', '文章已成功發佈！2 秒後返回首頁…', 'success');
-      localStorage.removeItem('post_draft');
-      document.getElementById('postTitle').value = '';
-      document.getElementById('postContent').value = '';
-      document.getElementById('postDate').value = localDateStr();
-      setTimeout(() => { window.location.href = '/'; }, 2000);
+      showStatus('editorStatus', '文章已成功發佈！即將返回首頁…', 'success');
+      resetEditorForm();
+      setTimeout(function() { window.location.assign('/'); }, 1200);
     } catch(e) {
       showStatus('editorStatus', '發佈失敗：' + e.message, 'error');
     }
@@ -2085,14 +2089,14 @@ permalink: /admin/
         });
       }
 
-      showStatus('editorStatus', '文章已成功更新！2 秒後返回首頁…', 'success');
+      showStatus('editorStatus', '文章已成功更新！即將返回首頁…', 'success');
       editingFile = null;
       btn.onclick = publish;
       btn.textContent = '發佈文章';
       const cancelBtn2 = document.getElementById('cancelEditBtn');
       if (cancelBtn2) cancelBtn2.classList.remove('visible');
-      localStorage.removeItem('post_draft');
-      setTimeout(() => { window.location.href = '/'; }, 2000);
+      resetEditorForm();
+      setTimeout(function() { window.location.assign('/'); }, 1200);
     } catch(e) {
       showStatus('editorStatus', '更新失敗：' + e.message, 'error');
     }
@@ -2107,12 +2111,7 @@ permalink: /admin/
     btn.onclick = publish;
     const cancelBtn = document.getElementById('cancelEditBtn');
     if (cancelBtn) cancelBtn.classList.remove('visible');
-    document.getElementById('postTitle').value = '';
-    document.getElementById('postDescription').value = '';
-    document.getElementById('postContent').value = '';
-    document.getElementById('postDate').value = localDateStr();
-    document.getElementById('postCategory').value = '音樂記錄';
-    localStorage.removeItem('post_draft');
+    resetEditorForm();
     switchAdminTab('posts');
   }
 
