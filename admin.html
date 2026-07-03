@@ -1369,7 +1369,7 @@ permalink: /admin/
     const username = escapeHtml(match[1]);
     const postId = escapeHtml(match[2]);
     const permalink = `https://www.threads.com/@${username}/post/${postId}`;
-    const embed = `\n<blockquote class="text-post-media" data-text-post-permalink="${permalink}" data-text-post-version="0" id="ig-tp-${postId}" style="max-width:540px;min-width:270px;margin:1.5em auto;"><a href="${permalink}"><p>在 Threads 上查看此貼文</p></a></blockquote>\n<script async src="https://www.threads.net/embed/embed.js" class="reposts-media-embed-script"><\/script>\n`;
+    const embed = `\n<blockquote class="text-post-media" data-text-post-permalink="${permalink}" data-text-post-version="0" id="ig-tp-${postId}" style="max-width:540px;min-width:270px;margin:1.5em auto;"><a href="${permalink}"><p>在 Threads 上查看此貼文</p></a></blockquote>\n<script async src="https://www.threads.net/embed.js" class="reposts-media-embed-script"><\/script>\n`;
 
     const ta = document.getElementById('postContent');
     const pos = ta.selectionStart;
