@@ -904,7 +904,8 @@ permalink: /admin/
       <div class="ga-setup-box">
         <h3>Spotify 播放清單</h3>
         <p>可新增多個播放清單，訪客每次進入網站時將隨機播放其中一個。</p>
-        <div id="spotifyListInputs"></div>
+        <!-- 清單超過約 10 行改為內部捲動，頁面高度固定 -->
+        <div id="spotifyListInputs" style="max-height:420px; overflow-y:auto; padding-right:4px;"></div>
         <button class="btn" onclick="addSpotifyRow('', '', true)" style="margin-top:8px; font-size:0.85rem;">＋ 新增播放清單</button>
         <div style="margin-top:16px; display:flex; gap:12px; align-items:center; position:sticky; bottom:0; background:#252525; padding:12px 0 4px; z-index:10;">
           <button class="btn btn-primary" onclick="saveSpotifyPlaylist()">儲存</button>
@@ -1667,6 +1668,7 @@ permalink: /admin/
     delBtn.onclick = function() { this.closest('div').remove(); markSpotifyDirty(); };
     row.appendChild(delBtn);
     container.appendChild(row);
+    if (isNew) container.scrollTop = container.scrollHeight;  // 新增列自動捲到可見處
     return isNew ? { inp, nameInp } : { displayDiv, nameInp, inp };
   }
 
