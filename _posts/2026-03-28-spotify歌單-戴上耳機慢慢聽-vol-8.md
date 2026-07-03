@@ -4,6 +4,7 @@ title: "Spotify歌單: 戴上耳機慢慢聽 Vol. 8"
 date: 2026-03-28
 category: 音樂記錄
 description: "最近常聽的歌收在一起，又做了些取捨，大多是帶有轟音元素的另類搖滾。"
+spotify_playlist: 6KvlBjV1dRZZ7Zz5CaffAG
 ---
 
 最近常聽的歌收在一起，又做了些取捨，看了一下大多是帶有轟音元素的另類搖滾。

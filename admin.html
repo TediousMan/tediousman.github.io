@@ -704,6 +704,12 @@ permalink: /admin/
           <option value="Spotify 歌單">Spotify 歌單</option>
         </select>
       </div>
+      <div class="form-group">
+        <label for="postPlaylist">對應歌單 <span style="color:#555; font-weight:400;">（選填，讀文時自動播放）</span></label>
+        <select id="postPlaylist">
+          <option value="">無（隨機播放）</option>
+        </select>
+      </div>
     </div>
 
     <div class="form-group">
@@ -980,6 +986,7 @@ permalink: /admin/
     return d.getFullYear() + '-' + String(d.getMonth()+1).padStart(2,'0') + '-' + String(d.getDate()).padStart(2,'0');
   }
   document.getElementById('postDate').value = localDateStr();
+  loadPlaylistOptions();
 
   // Check if already logged in
   (function checkAuth() {
@@ -1428,7 +1435,8 @@ permalink: /admin/
     const ss = String(tw.getSeconds()).padStart(2,'0');
     const timeStr = `${hh}:${mm}:${ss} +0800`;
     const descLine = description ? `description: "${description}"\n` : '';
-    const fileContent = `---\nlayout: post\ntitle: "${title}"\ndate: ${date} ${timeStr}\ncategory: ${category}\n${descLine}---\n\n${content}\n`;
+    const playlistLine = playlistFrontMatterLine();
+    const fileContent = `---\nlayout: post\ntitle: "${title}"\ndate: ${date} ${timeStr}\ncategory: ${category}\n${descLine}${playlistLine}---\n\n${content}\n`;
 
     try {
       const res = await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/${filename}`, {
@@ -1508,6 +1516,40 @@ permalink: /admin/
     if (e.key === 'Enter') login();
   });
 
+  // ========== 發文編輯器「對應歌單」下拉 ==========
+  let playlistOptionsLoaded = false;
+  let pendingPlaylistValue = '';
+  async function loadPlaylistOptions() {
+    const token = getToken();
+    if (!token) return;
+    try {
+      const res = await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/_data/spotify.json`, {
+        headers: { 'Authorization': 'Bearer ' + token }
+      });
+      if (!res.ok) return;
+      const data = await res.json();
+      const json = JSON.parse(decodeBase64Content(data.content));
+      const sel = document.getElementById('postPlaylist');
+      (json.playlists || []).forEach(p => {
+        const opt = document.createElement('option');
+        opt.value = p.id;
+        opt.textContent = p.name || p.id;
+        sel.appendChild(opt);
+      });
+      playlistOptionsLoaded = true;
+      if (pendingPlaylistValue) { sel.value = pendingPlaylistValue; pendingPlaylistValue = ''; }
+    } catch(e) {}
+  }
+  function setPlaylistDropdown(id) {
+    const sel = document.getElementById('postPlaylist');
+    if (playlistOptionsLoaded) { sel.value = id || ''; }
+    else { pendingPlaylistValue = id || ''; }
+  }
+  function playlistFrontMatterLine() {
+    const v = document.getElementById('postPlaylist').value;
+    return v ? `spotify_playlist: ${v}\n` : '';
+  }
+
   // ========== Spotify Settings ==========
   async function fetchSpotifyName(url) {
     try {
@@ -1544,6 +1586,33 @@ permalink: /admin/
     nameInp.placeholder = '播放清單名稱（選填）';
     nameInp.value = name || '';
     nameInp.style.cssText = 'flex:0 0 160px; padding:8px 10px; background:#2a2a2a; border:1px solid #444; border-radius:4px; color:#c8c8c8; font-size:0.9rem;';
+
+    // 貼上/輸入網址後即時抓歌單名稱（不用等儲存才知道貼對沒）
+    inp.addEventListener('change', async function() {
+      markSpotifyDirty();
+      const m = inp.value.match(/open\.spotify\.com\/playlist\/([a-zA-Z0-9]+)/);
+      if (!m || nameInp.value.trim()) return;
+      nameInp.placeholder = '⏳ 抓取名稱中…';
+      const fetched = await fetchSpotifyName('https://open.spotify.com/playlist/' + m[1]);
+      if (fetched && !nameInp.value.trim()) nameInp.value = fetched;
+      nameInp.placeholder = '播放清單名稱（選填）';
+    });
+    nameInp.addEventListener('change', markSpotifyDirty);
+
+    // 一次貼多個網址 → 自動拆成多列
+    inp.addEventListener('paste', function(e) {
+      const text = (e.clipboardData || window.clipboardData).getData('text');
+      const matches = Array.from(text.matchAll(/open\.spotify\.com\/playlist\/([a-zA-Z0-9]+)/g));
+      if (matches.length <= 1) return;
+      e.preventDefault();
+      inp.value = 'https://open.spotify.com/playlist/' + matches[0][1];
+      inp.dispatchEvent(new Event('change'));
+      for (let i = 1; i < matches.length; i++) {
+        const refs = addSpotifyRow('https://open.spotify.com/playlist/' + matches[i][1], '', true);
+        if (refs && refs.inp) refs.inp.dispatchEvent(new Event('change'));
+      }
+    });
+
     if (!isNew) {
       inp.style.display = 'none';
       nameInp.style.display = 'none';
@@ -1578,10 +1647,17 @@ permalink: /admin/
     delBtn.title = '移除';
     delBtn.textContent = '✕';
     delBtn.style.cssText = 'background:none; border:none; color:#666; cursor:pointer; font-size:1.1rem; padding:0 4px; flex-shrink:0;';
-    delBtn.onclick = function() { this.closest('div').remove(); };
+    delBtn.onclick = function() { this.closest('div').remove(); markSpotifyDirty(); };
     row.appendChild(delBtn);
     container.appendChild(row);
-    if (!isNew) return { displayDiv, nameInp };
+    return isNew ? { inp, nameInp } : { displayDiv, nameInp, inp };
+  }
+
+  // 未儲存變更提醒
+  function markSpotifyDirty() {
+    const statusEl = document.getElementById('spotifyStatus');
+    statusEl.textContent = '⚠ 有尚未儲存的變更';
+    statusEl.style.color = '#d29922';
   }
 
   async function loadSpotifySettings() {
@@ -1637,6 +1713,13 @@ permalink: /admin/
     }
     if (playlists.length === 0) {
       statusEl.textContent = '請至少輸入一個播放清單網址';
+      statusEl.style.color = '#f85149';
+      return;
+    }
+    // 重複偵測
+    const dupIds = playlists.map(p => p.id).filter((id, i, a) => a.indexOf(id) !== i);
+    if (dupIds.length > 0) {
+      statusEl.textContent = '✗ 有重複的播放清單（同一份貼了兩次），請移除後再儲存';
       statusEl.style.color = '#f85149';
       return;
     }
@@ -1852,11 +1935,14 @@ permalink: /admin/
     // Switch to editor tab
     switchAdminTab('editor');
 
-    // Parse description from front matter
+    // Parse description / spotify_playlist from front matter
     let postDescription = '';
+    let postPlaylistId = '';
     if (fmMatch) {
       const descMatch = fmMatch[1].match(/description:\s*"?([^"\n]+)"?\s*$/m);
       if (descMatch) postDescription = descMatch[1].trim();
+      const plMatch = fmMatch[1].match(/spotify_playlist:\s*([A-Za-z0-9]+)/);
+      if (plMatch) postPlaylistId = plMatch[1];
     }
 
     // Fill in the editor fields
@@ -1864,6 +1950,7 @@ permalink: /admin/
     document.getElementById('postDate').value = post.date || '';
     document.getElementById('postCategory').value = post.category || '音樂記錄';
     document.getElementById('postDescription').value = postDescription;
+    setPlaylistDropdown(postPlaylistId);
     document.getElementById('postContent').value = body;
 
     // Store editing state
@@ -1900,7 +1987,8 @@ permalink: /admin/
     btn.textContent = '更新中...';
 
     const descLine = description ? `description: "${description}"\n` : '';
-    const fileContent = `---\nlayout: post\ntitle: "${title}"\ndate: ${date}\ncategory: ${category}\n${descLine}---\n\n${content}\n`;
+    const playlistLine = playlistFrontMatterLine();
+    const fileContent = `---\nlayout: post\ntitle: "${title}"\ndate: ${date}\ncategory: ${category}\n${descLine}${playlistLine}---\n\n${content}\n`;
 
     try {
       // If date or title changed, we need a new filename

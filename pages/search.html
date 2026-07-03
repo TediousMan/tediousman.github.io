@@ -1,0 +1,58 @@
+---
+layout: default
+title: 搜尋
+permalink: /search/
+---
+
+<div class="page-header">
+  <h1>搜尋</h1>
+</div>
+
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+<script src="/pagefind/pagefind-ui.js"></script>
+
+<div id="search"></div>
+
+<style>
+  /* Pagefind UI 深色主題（沿用站上配色） */
+  #search {
+    --pagefind-ui-scale: 0.9;
+    --pagefind-ui-primary: #8a9ba8;
+    --pagefind-ui-text: #c8c8c8;
+    --pagefind-ui-background: #222222;
+    --pagefind-ui-border: #333333;
+    --pagefind-ui-tag: #2a2a2a;
+    --pagefind-ui-border-width: 1px;
+    --pagefind-ui-border-radius: 6px;
+    --pagefind-ui-font: inherit;
+  }
+  #search .pagefind-ui__result-link { color: #c8c8c8; }
+  #search .pagefind-ui__result-link:hover { color: #8a9ba8; }
+  #search .pagefind-ui__result-excerpt { color: #a0a0a0; }
+  #search mark { background: rgba(138, 155, 168, 0.3); color: #e0e0e0; border-radius: 2px; }
+</style>
+
+<script>
+  window.addEventListener('DOMContentLoaded', function() {
+    if (typeof PagefindUI === 'undefined') {
+      document.getElementById('search').innerHTML =
+        '<p style="color:#888;">搜尋索引尚未建立（本機預覽時不可用，部署後生效）。</p>';
+      return;
+    }
+    new PagefindUI({
+      element: '#search',
+      showSubResults: false,
+      showImages: false,
+      translations: {
+        placeholder: '搜尋文章…',
+        clear_search: '清除',
+        load_more: '載入更多結果',
+        search_label: '站內搜尋',
+        zero_results: '找不到「[SEARCH_TERM]」相關的文章',
+        many_results: '找到 [COUNT] 篇「[SEARCH_TERM]」相關的文章',
+        one_result: '找到 [COUNT] 篇「[SEARCH_TERM]」相關的文章',
+        searching: '搜尋「[SEARCH_TERM]」中…'
+      }
+    });
+  });
+</script>

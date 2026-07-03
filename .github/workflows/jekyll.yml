@@ -30,6 +30,12 @@ jobs:
           source: ./
           destination: ./_site
 
+      # Jekyll 容器產出的檔案屬 root，先改回所有權再讓 Pagefind 寫入索引
+      - name: Build search index (Pagefind)
+        run: |
+          sudo chown -R $USER:$USER ./_site
+          npx --yes pagefind --site ./_site
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
