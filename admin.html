@@ -1632,11 +1632,28 @@ permalink: /admin/
       editBtn.textContent = '✏';
       editBtn.style.cssText = 'background:none; border:none; color:#666; cursor:pointer; font-size:1rem; padding:0 4px; flex-shrink:0;';
       editBtn.onclick = function() {
-        displayDiv.style.display = 'none';
-        inp.style.cssText = 'flex:1; padding:8px 10px; background:#2a2a2a; border:1px solid #666; border-radius:4px; color:#c8c8c8; font-size:0.9rem;';
-        nameInp.style.cssText = 'flex:0 0 160px; padding:8px 10px; background:#2a2a2a; border:1px solid #444; border-radius:4px; color:#c8c8c8; font-size:0.9rem;';
-        inp.focus();
-        this.remove();
+        var editing = inp.style.display !== 'none';
+        if (!editing) {
+          // 展開編輯
+          displayDiv.style.display = 'none';
+          inp.style.cssText = 'flex:1; padding:8px 10px; background:#2a2a2a; border:1px solid #666; border-radius:4px; color:#c8c8c8; font-size:0.9rem;';
+          nameInp.style.cssText = 'flex:0 0 160px; padding:8px 10px; background:#2a2a2a; border:1px solid #444; border-radius:4px; color:#c8c8c8; font-size:0.9rem;';
+          inp.focus();
+          editBtn.textContent = '↩';
+          editBtn.title = '收合';
+        } else {
+          // 收合回單行，顯示內容跟著輸入框更新
+          inp.style.display = 'none';
+          nameInp.style.display = 'none';
+          displayDiv.style.display = '';
+          displayDiv.title = inp.value;
+          var label = nameInp.value.trim();
+          displayDiv.innerHTML = label
+            ? '<div style="color:#c8c8c8; font-size:0.9rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">🎵 ' + label + '</div>'
+            : '<div style="color:#888; font-size:0.9rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">' + inp.value + '</div>';
+          editBtn.textContent = '✏';
+          editBtn.title = '編輯';
+        }
       };
       row.appendChild(editBtn);
     } else {
