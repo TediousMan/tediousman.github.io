@@ -74,6 +74,18 @@
 
   <button id="back-to-top" aria-label="回到頂部">↑</button>
 
+  {% if page.id %}
+  <div id="read-progress" aria-hidden="true"></div>
+  <style>
+    #read-progress {
+      position: fixed; top: 0; left: 0; height: 3px; width: 0;
+      background: #7c93b0; z-index: 5000; pointer-events: none;
+      transition: width 80ms linear;
+    }
+    @media (prefers-reduced-motion: reduce) { #read-progress { transition: none; } }
+  </style>
+  {% endif %}
+
   <!-- 內嵌編輯彈窗：登入後點「編輯」直接跳出編輯器，不跳頁 -->
   <div id="edit-modal" class="edit-modal" aria-hidden="true">
     <div class="edit-modal__backdrop"></div>
@@ -222,6 +234,21 @@
       btn.addEventListener('click', function() {
         window.scrollTo({ top: 0, behavior: 'smooth' });
       });
+    })();
+
+    // Reading progress bar (post pages only)
+    (function() {
+      var bar = document.getElementById('read-progress');
+      if (!bar) return;
+      function update() {
+        var h = document.documentElement;
+        var scrollable = h.scrollHeight - h.clientHeight;
+        var top = h.scrollTop || window.scrollY || 0;
+        bar.style.width = (scrollable > 0 ? (top / scrollable) * 100 : 0) + '%';
+      }
+      window.addEventListener('scroll', update, { passive: true });
+      window.addEventListener('resize', update);
+      update();
     })();
 
     // Auto TOC
