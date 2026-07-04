@@ -13,34 +13,4 @@
       {% endfor %}
     </ul>
   </section>
-
-
-<!-- Firebase 訪客計數：只記錄不顯示（數據留給 admin 用） -->
-    <script type="module">
-      import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js';
-      import { getDatabase, ref, runTransaction } from 'https://www.gstatic.com/firebasejs/10.12.0/firebase-database.js';
-
-      const firebaseConfig = {
-        apiKey: "AIzaSyDUTVITEnxscPQadv0qbL33lRuPU-ClZU8",
-        authDomain: "my-blog-counter-76b39.firebaseapp.com",
-        databaseURL: "https://my-blog-counter-76b39-default-rtdb.firebaseio.com",
-        projectId: "my-blog-counter-76b39",
-        storageBucket: "my-blog-counter-76b39.firebasestorage.app",
-        messagingSenderId: "236902134298",
-        appId: "1:236902134298:web:63d4f1871717bf7dca17a3"
-      };
-
-      const app = initializeApp(firebaseConfig);
-      const db = getDatabase(app);
-
-      // 取得今天日期（台灣時區）
-      const today = new Date().toLocaleDateString('sv-SE', { timeZone: 'Asia/Taipei' });
-      const todayRef = ref(db, 'visitors/' + today);
-
-      // 每個 session 只計算一次
-      if (!sessionStorage.getItem('visited_' + today)) {
-        sessionStorage.setItem('visited_' + today, '1');
-        runTransaction(todayRef, (current) => (current || 0) + 1);
-      }
-    </script>
 </aside>
