@@ -144,7 +144,11 @@ function copyPostLink() {
     path: window.location.pathname,
     dark: true,
     lang: 'zh-TW',
-    emoji: false,
+    emoji: [
+      'https://cdn.jsdelivr.net/npm/@waline/emojis@1.2.0/weibo',
+      'https://cdn.jsdelivr.net/npm/@waline/emojis@1.2.0/bilibili',
+      'https://cdn.jsdelivr.net/npm/@waline/emojis@1.2.0/tieba'
+    ],
     locale: {
       placeholder: '留下你的想法⋯（免註冊，暱稱必填，Email 可留可不留）'
     }
