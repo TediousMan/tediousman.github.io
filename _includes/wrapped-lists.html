@@ -1,0 +1,56 @@
+{% comment %} 聽歌回顧「看板 + 三榜」共用區塊。參數：include.d(資料塊)、include.sub(大數字下方說明)、include.span(可選日期/年份) {% endcomment %}
+<header class="wr-hero">
+  <div class="wr-eyebrow">Listening Wrapped</div>
+  <h1>我的聽歌回顧</h1>
+  <div class="wr-big">{{ include.d.total_fmt }}</div>
+  <div class="wr-big-label">{{ include.sub }}</div>
+  <div class="wr-chips">
+    <span class="wr-chip"><b>{{ include.d.uniq_art_fmt }}</b> 位藝人</span>
+    <span class="wr-chip"><b>{{ include.d.uniq_trk_fmt }}</b> 首不重複歌曲</span>
+  </div>
+  {% if include.span %}<div class="wr-span">{{ include.span }}</div>{% endif %}
+</header>
+
+<section>
+  <div class="wr-h"><h2>最常聽的藝人</h2><span class="en">Top Artists</span></div>
+  <ul class="wr-arts">
+    {% for a in include.d.top_art %}
+    <li class="wr-art">
+      <span class="wr-rk">{{ forloop.index }}</span>
+      {% if a.img %}<img class="wr-av" src="{{ a.img }}" alt="{{ a.artist }}" loading="lazy">{% else %}<div class="wr-av-none">{{ a.artist | slice: 0 }}</div>{% endif %}
+      <div class="wr-am">
+        <div class="wr-atop"><span class="wr-aname">{{ a.artist }}</span><span class="wr-aplays">{{ a.plays_fmt }} 次</span></div>
+        <div class="wr-bar"><span style="width:{{ a.pct }}%"></span></div>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section>
+  <div class="wr-h"><h2>最愛的專輯</h2><span class="en">Top Albums</span></div>
+  <div class="wr-albs">
+    {% for al in include.d.top_alb %}
+    <figure class="wr-alb">
+      <div class="wr-alb-cover">
+        {% if al.img %}<img src="{{ al.img }}" alt="{{ al.album }}" loading="lazy">{% else %}<div class="wr-noimg">♪</div>{% endif %}
+        <span class="wr-alb-plays">{{ al.plays_fmt }} 次</span>
+      </div>
+      <figcaption><b>{{ al.album }}</b><span>{{ al.artist }}</span></figcaption>
+    </figure>
+    {% endfor %}
+  </div>
+</section>
+
+<section>
+  <div class="wr-h"><h2>單曲循環冠軍</h2><span class="en">Most Played Tracks</span></div>
+  <ul class="wr-trks">
+    {% for t in include.d.top_trk %}
+    <li>
+      <span class="wr-tn">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
+      <div class="wr-tk"><span class="wr-tk-name">{{ t.track }}</span><span class="wr-tk-art">{{ t.artist }}</span></div>
+      <span class="wr-tk-plays">{{ t.plays_fmt }} 次</span>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
