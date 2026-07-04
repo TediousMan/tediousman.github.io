@@ -1,13 +1,13 @@
 {
  "generated": "2026-07-04",
- "total": 205963,
- "total_fmt": "205,963",
- "uniq_art": 7092,
- "uniq_art_fmt": "7,092",
- "uniq_trk": 29555,
- "uniq_trk_fmt": "29,555",
+ "total": 206252,
+ "total_fmt": "206,252",
+ "uniq_art": 7119,
+ "uniq_art_fmt": "7,119",
+ "uniq_trk": 29675,
+ "uniq_trk_fmt": "29,675",
  "start": "2018-03-06",
- "end": "2026-07-02",
+ "end": "2026-07-04",
  "top_art": [
   {
    "artist": "Mr.ふぉるて",
@@ -88,9 +88,9 @@
   },
   {
    "artist": "FINLANDS",
-   "plays": 685,
+   "plays": 686,
    "img": "https://i.scdn.co/image/ab6761610000e5ebcf8988fc2f6375e25eb7a350",
-   "plays_fmt": "685",
+   "plays_fmt": "686",
    "pct": 66
   }
  ],
@@ -253,9 +253,9 @@
   },
   {
    "year": "2026",
-   "plays": 22876,
-   "plays_fmt": "22,876",
-   "pct": 42
+   "plays": 23165,
+   "plays_fmt": "23,165",
+   "pct": 43
   }
  ]
 }
