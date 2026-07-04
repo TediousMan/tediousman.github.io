@@ -12,7 +12,7 @@ title: 首頁
   <a href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="post-card-image" loading="lazy"></a>
   {% endif %}
   <div class="post-meta">
-    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y 年 %m 月 %d 日" }}</time>
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</time>
     {% if post.category %}
     <span class="post-category">{{ post.category }}</span>
     {% endif %}

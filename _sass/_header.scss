@@ -45,10 +45,15 @@
     font-size: 0.9rem;
     transition: all 0.2s;
 
-    &:hover,
-    &.active {
+    &:hover {
       color: $text-primary;
       background: $bg-tertiary;
+    }
+
+    &.active {
+      color: $accent;
+      background: transparent;
+      font-weight: 600;
     }
   }
 }

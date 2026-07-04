@@ -5,11 +5,11 @@ $bg-tertiary: #2a2a2a;
 $text-primary: #c8c8c8;
 $text-secondary: #a0a0a0;
 $text-muted: #666666;
-$accent: #8a9ba8;
-$accent-hover: #adbdca;
+$accent: #7c93b0;        // 招牌霧藍 Slate Blue（比原本 #8a9ba8 更藍、對比更清楚）
+$accent-hover: #9db2cc;
 $border-color: #333333;
-$link-color: #8a9ba8;
-$link-hover: #c0c0c0;
+$link-color: #7c93b0;
+$link-hover: #9db2cc;
 
 // Typography — LXGW WenKai for CJK body (via jsdelivr CDN), Noto Sans JP for Japanese display
 $font-body: "LXGW WenKai TC", -apple-system, BlinkMacSystemFont, "PingFang TC", "Microsoft JhengHei", "Noto Sans TC", sans-serif;
