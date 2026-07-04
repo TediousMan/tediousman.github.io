@@ -738,9 +738,9 @@ permalink: /admin/
     <div class="form-group">
       <label for="postCover">封面圖 <span style="color:#555; font-weight:400;">（選填，顯示在文章列表）</span></label>
       <div style="display:flex; gap:6px; align-items:stretch;">
-        <input type="text" id="postCover" placeholder="貼圖片網址，或按右邊從內文 Spotify 抓" oninput="updateCoverPreview()" style="flex:1; min-width:0;">
-        <button type="button" id="pullCoverBtn" onclick="pullCoverFromContent()" title="掃描內文第一個 Spotify 專輯，自動帶入封面"
-                style="padding:0 12px; background:#1db954; border:none; border-radius:6px; color:#04150a; font-size:0.82rem; font-weight:600; cursor:pointer; white-space:nowrap;">🎵 從內文 Spotify 抓封面</button>
+        <input type="text" id="postCover" placeholder="貼 Spotify 專輯連結（按右鈕轉封面），或直接貼圖片網址" oninput="updateCoverPreview()" style="flex:1; min-width:0;">
+        <button type="button" id="pullCoverBtn" onclick="pullCoverFromContent()" title="把左邊（或內文）的 Spotify 連結轉成封面圖"
+                style="padding:0 12px; background:#1db954; border:none; border-radius:6px; color:#04150a; font-size:0.82rem; font-weight:600; cursor:pointer; white-space:nowrap;">🎵 抓 Spotify 封面</button>
       </div>
       <div id="coverPreviewWrap" style="display:none; margin-top:10px; align-items:center; gap:12px;">
         <img id="coverPreview" alt="封面預覽" style="width:72px; height:72px; object-fit:cover; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.4);">
@@ -1631,7 +1631,8 @@ permalink: /admin/
     const url = document.getElementById('postCover').value.trim();
     const wrap = document.getElementById('coverPreviewWrap');
     const img = document.getElementById('coverPreview');
-    if (url) {
+    // Spotify 頁面連結不是圖片，先不預覽（等按「抓 Spotify 封面」轉換後才是真圖）
+    if (url && !/open\.spotify\.com/.test(url)) {
       img.src = url;
       wrap.style.display = 'flex';
     } else {
@@ -1645,12 +1646,14 @@ permalink: /admin/
     updateCoverPreview();
   }
 
-  // 掃內文第一個 Spotify 專輯／單曲／歌單，抓封面帶入
+  // 抓 Spotify 封面帶入：先看「封面圖」欄位本身有沒有貼 Spotify 連結，沒有才去掃內文
   async function pullCoverFromContent() {
+    const coverVal = document.getElementById('postCover').value;
     const content = document.getElementById('postContent').value;
-    const m = content.match(/open\.spotify\.com\/(?:embed\/)?(album|track|playlist)\/([A-Za-z0-9]+)/);
+    const source = /open\.spotify\.com/.test(coverVal) ? coverVal : content;
+    const m = source.match(/open\.spotify\.com\/(?:embed\/)?(album|track|playlist)\/([A-Za-z0-9]+)/);
     if (!m) {
-      alert('內文裡找不到 Spotify 專輯／單曲／歌單，請先嵌入一個，或直接貼圖片網址。');
+      alert('找不到 Spotify 連結。請把 Spotify 專輯／單曲／歌單網址貼到「封面圖」欄位，或在內文嵌入一個，再按這顆按鈕。也可以直接貼圖片網址當封面。');
       return;
     }
     const spUrl = `https://open.spotify.com/${m[1]}/${m[2]}`;
