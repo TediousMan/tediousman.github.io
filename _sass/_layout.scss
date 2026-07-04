@@ -73,8 +73,11 @@
   border-bottom: 1px solid $border-color;
 }
 
-// Post cards on index / category pages
+// Post cards on index / category pages — 一律小方縮圖靠左（沒封面用佔位圖）
 .post-card {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
   padding: 1.5em 0;
   border-bottom: 1px solid $border-color;
 
@@ -106,12 +109,6 @@
   }
 }
 
-// Cover image on post cards — 有封面時：小方縮圖靠左
-.post-card.has-cover {
-  display: flex;
-  gap: 18px;
-  align-items: flex-start;
-}
 .post-card-thumb {
   flex-shrink: 0;
   display: block;
@@ -128,10 +125,22 @@
   border-radius: 8px;
   display: block;
 }
+// 沒封面的文章：低調佔位縮圖（深色底 + 淡淡音符）
+.post-card-ph {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #202024, #27272c);
+  border: 1px solid rgba($border-color, 0.6);
+  color: rgba($accent, 0.5);
+  font-size: 1.9rem;
+  line-height: 1;
+}
 
 @media (max-width: $mobile) {
-  .post-card.has-cover { gap: 14px; }
+  .post-card { gap: 14px; }
   .post-card-image { width: 78px; height: 78px; }
+  .post-card-ph { font-size: 1.5rem; }
 }
 
 // Cover image on post page
