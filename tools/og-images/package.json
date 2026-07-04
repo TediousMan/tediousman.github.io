@@ -1,0 +1,9 @@
+{
+  "name": "og-images",
+  "private": true,
+  "type": "module",
+  "description": "建置時為每篇文章產生專屬 OG 分享圖",
+  "dependencies": {
+    "playwright": "^1.49.0"
+  }
+}

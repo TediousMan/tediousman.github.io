@@ -30,10 +30,22 @@ jobs:
           source: ./
           destination: ./_site
 
-      # Jekyll 容器產出的檔案屬 root，先改回所有權再讓 Pagefind 寫入索引
-      - name: Build search index (Pagefind)
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      # Jekyll 容器產出的檔案屬 root，先改回所有權才能寫入
+      - name: Generate per-post OG images
         run: |
           sudo chown -R $USER:$USER ./_site
+          cd tools/og-images
+          npm install --no-audit --no-fund
+          npx playwright install --with-deps chromium
+          node generate.mjs "$GITHUB_WORKSPACE/_site"
+
+      - name: Build search index (Pagefind)
+        run: |
           npx --yes pagefind --site ./_site
 
       - name: Upload artifact

@@ -2,7 +2,6 @@
 title: 無聊男子的自言自語
 description: 音樂記錄 · 心得 · 生活紀錄
 author: tediousman
-image: /assets/images/og-cover.jpg
 url: "https://tediousman.github.io"
 baseurl: ""
 lang: zh-TW
@@ -44,3 +43,4 @@ exclude:
   - vendor
   - workers
   - blog_update
+  - tools
