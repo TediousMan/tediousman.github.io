@@ -6,6 +6,21 @@
   </section>
 
   <section class="sidebar-section">
+    <h3>最新文章</h3>
+    <ul class="post-list">
+      {% assign recent_posts = site.posts | slice: 0, 8 %}
+      {% for post in recent_posts %}
+      <li>
+        <a href="{{ post.url | relative_url }}">
+          <span class="post-list-title">{{ post.title }}</span>
+          <span class="post-list-date">{{ post.date | date: "%m/%d" }}</span>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section class="sidebar-section">
     <h3>分類</h3>
     <ul class="sidebar-cats">
       <li><a href="{{ '/music-reviews' | relative_url }}">音樂記錄<span class="cat-count">{{ site.posts | where: "category", "音樂記錄" | size }}</span></a></li>
