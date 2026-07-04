@@ -35,18 +35,22 @@
 
   <main class="site-main">
     <div class="container">
-      {% if page.id or page.url == '/' %}
-        {% comment %} 文章頁與首頁：置中單欄，無側欄 {% endcomment %}
+      {% if page.id %}
+        {% comment %} 文章頁：置中單欄，無側欄 {% endcomment %}
         <article class="main-content post-page-content">
           {{ content }}
         </article>
       {% else %}
-        {% comment %} 其他頁面（分類、關於等）：保留側欄 {% endcomment %}
+        {% comment %} 首頁用專屬側欄（關於＋分類），其他頁面用一般側欄（最新文章） {% endcomment %}
         <div class="content-wrapper">
           <article class="main-content">
             {{ content }}
           </article>
-          {% include sidebar.html %}
+          {% if page.url == '/' %}
+            {% include sidebar-home.html %}
+          {% else %}
+            {% include sidebar.html %}
+          {% endif %}
         </div>
       {% endif %}
     </div>

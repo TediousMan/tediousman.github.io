@@ -21,6 +21,45 @@
   }
 }
 
+// 首頁側欄：關於這裡
+.sidebar-about p {
+  color: $text-secondary;
+  font-size: 0.9rem;
+  line-height: 1.75;
+  margin-bottom: 0.9em;
+}
+.sidebar-more {
+  font-size: 0.85rem;
+  color: $accent;
+
+  &:hover { color: $accent-hover; }
+}
+
+// 首頁側欄：分類（含篇數）
+.sidebar-cats {
+  list-style: none;
+
+  li a {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 7px 0;
+    color: $text-secondary;
+    font-size: 0.92rem;
+    border-bottom: 1px solid rgba($border-color, 0.5);
+
+    &:hover { color: $accent; }
+  }
+
+  li:last-child a { border-bottom: none; }
+
+  .cat-count {
+    color: $text-muted;
+    font-size: 0.8rem;
+    flex-shrink: 0;
+  }
+}
+
 .post-list {
   list-style: none;
 
