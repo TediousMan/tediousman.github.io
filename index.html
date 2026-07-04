@@ -3,6 +3,126 @@ layout: default
 title: 首頁
 ---
 
+<section id="now-listening" class="now-listening" hidden aria-label="我最近在聽">
+  <div class="nl-head">
+    <span class="nl-title"><span class="nl-eq" aria-hidden="true"><span></span><span></span><span></span><span></span></span>我最近在聽</span>
+    <a class="nl-more" href="{{ '/wrapped/' | relative_url }}">完整聽歌回顧 →</a>
+  </div>
+  <div id="nl-row" class="nl-row"></div>
+</section>
+
+<style>
+  .now-listening { margin: 0 0 2.4em; }
+  .nl-head { display:flex; align-items:baseline; justify-content:space-between; gap:12px; margin-bottom:14px; }
+  .nl-title { font-family: var(--font-heading, "LXGW WenKai TC", serif); font-size:1.15rem; color:#e6e6e6; display:flex; align-items:center; gap:10px; }
+  .nl-more { font-size:0.82rem; color:#7c93b0; text-decoration:none; white-space:nowrap; }
+  .nl-more:hover { color:#9db2cc; }
+  .nl-eq { display:inline-flex; align-items:flex-end; gap:2px; height:15px; }
+  .nl-eq span { width:3px; background:#9db2cc; border-radius:1px; animation:nlEq 900ms ease-in-out infinite; }
+  .nl-eq span:nth-child(1){height:40%;animation-delay:-200ms;}
+  .nl-eq span:nth-child(2){height:90%;animation-delay:-600ms;}
+  .nl-eq span:nth-child(3){height:60%;animation-delay:-400ms;}
+  .nl-eq span:nth-child(4){height:100%;}
+  @keyframes nlEq { 0%,100%{transform:scaleY(0.35);} 50%{transform:scaleY(1);} }
+  .nl-row { display:grid; grid-auto-flow:column; grid-auto-columns:100px; gap:14px; overflow-x:auto; padding-bottom:8px; scrollbar-width:thin; }
+  .nl-row::-webkit-scrollbar { height:6px; }
+  .nl-row::-webkit-scrollbar-thumb { background:rgba(255,255,255,0.14); border-radius:3px; }
+  .nl-card { text-decoration:none; color:inherit; display:block; }
+  .nl-cover { position:relative; width:100px; height:100px; border-radius:9px; overflow:hidden; display:flex; align-items:center; justify-content:center; border:1px solid rgba(255,255,255,0.08); background:linear-gradient(150deg,#2f3a49,#4a3f52); }
+  .nl-cover img { width:100%; height:100%; object-fit:cover; display:block; }
+  .nl-cover .nl-ph { font-family: var(--font-heading, "LXGW WenKai TC", serif); font-size:2rem; color:rgba(255,255,255,0.8); }
+  .nl-card:hover .nl-cover { transform:translateY(-3px); }
+  .nl-cover { transition:transform 160ms ease; }
+  .nl-badge { position:absolute; left:6px; bottom:6px; background:rgba(20,20,20,0.72); color:#9db2cc; font-size:0.6rem; letter-spacing:0.06em; padding:2px 7px 2px 5px; border-radius:999px; display:inline-flex; align-items:center; gap:4px; }
+  .nl-badge .dot { width:5px; height:5px; border-radius:50%; background:#9db2cc; animation:nlPulse 1.4s ease-in-out infinite; }
+  @keyframes nlPulse { 0%,100%{opacity:1;} 50%{opacity:0.3;} }
+  .nl-track { margin-top:8px; font-size:0.8rem; color:#e6e6e6; line-height:1.35; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .nl-artist { font-size:0.72rem; color:#8a8a92; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .nl-ago { font-size:0.68rem; color:#6a6a72; margin-top:2px; }
+  @media (prefers-reduced-motion: reduce) {
+    .nl-eq span, .nl-badge .dot { animation:none; }
+    .nl-eq span:nth-child(2){height:70%;}
+    .nl-cover { transition:none; }
+  }
+  @media (max-width:560px) {
+    .nl-row { grid-auto-columns:84px; }
+    .nl-cover { width:84px; height:84px; }
+  }
+</style>
+
+<script>
+// 「我最近在聽」— 直接讀 Last.fm 公開 API（唯讀金鑰，最近播放本就是公開資料）
+(function() {
+  var API_KEY = '2a5eb9b6f72653b72899d26f79b845c0';
+  var USER = 'TediousMan';
+  var LIMIT = 8;
+  var PLACEHOLDER_HASH = '2a96cbd8b46e442fc41c2b86b821562f'; // Last.fm 無封面星星圖，視為沒圖
+
+  function timeAgo(uts) {
+    if (!uts) return '';
+    var diff = Math.floor(Date.now() / 1000) - parseInt(uts, 10);
+    if (diff < 60) return '剛剛';
+    if (diff < 3600) return Math.floor(diff / 60) + ' 分鐘前';
+    if (diff < 86400) return Math.floor(diff / 3600) + ' 小時前';
+    if (diff < 86400 * 7) return Math.floor(diff / 86400) + ' 天前';
+    var d = new Date(uts * 1000);
+    return (d.getMonth() + 1) + '/' + d.getDate();
+  }
+
+  function pickImage(images) {
+    if (!images || !images.length) return '';
+    for (var i = images.length - 1; i >= 0; i--) {
+      var u = images[i]['#text'];
+      if (u && u.indexOf(PLACEHOLDER_HASH) === -1) return u;
+    }
+    return '';
+  }
+
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function(c) {
+      return { '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c];
+    });
+  }
+
+  var url = 'https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=' +
+    encodeURIComponent(USER) + '&api_key=' + API_KEY + '&format=json&limit=' + LIMIT;
+
+  fetch(url)
+    .then(function(r) { return r.ok ? r.json() : Promise.reject(new Error('lastfm ' + r.status)); })
+    .then(function(data) {
+      var tracks = data && data.recenttracks && data.recenttracks.track;
+      if (!tracks) return;
+      if (!Array.isArray(tracks)) tracks = [tracks];
+      tracks = tracks.slice(0, LIMIT);
+      if (!tracks.length) return;
+
+      var html = tracks.map(function(t) {
+        var nowPlaying = t['@attr'] && t['@attr'].nowplaying === 'true';
+        var name = t.name || '';
+        var artist = (t.artist && (t.artist['#text'] || t.artist.name)) || '';
+        var img = pickImage(t.image);
+        var link = t.url || '#';
+        var ago = nowPlaying ? '正在播放' : (t.date && timeAgo(t.date.uts));
+        var first = (name || '♪').slice(0, 1);
+        var cover = img
+          ? '<img src="' + esc(img) + '" alt="' + esc(name) + '" loading="lazy">'
+          : '<span class="nl-ph">' + esc(first) + '</span>';
+        var badge = nowPlaying ? '<span class="nl-badge"><span class="dot"></span>播放中</span>' : '';
+        return '<a class="nl-card" href="' + esc(link) + '" target="_blank" rel="noopener">' +
+          '<span class="nl-cover">' + cover + badge + '</span>' +
+          '<div class="nl-track">' + esc(name) + '</div>' +
+          '<div class="nl-artist">' + esc(artist) + '</div>' +
+          '<div class="nl-ago">' + esc(ago || '') + '</div>' +
+          '</a>';
+      }).join('');
+
+      document.getElementById('nl-row').innerHTML = html;
+      document.getElementById('now-listening').hidden = false;
+    })
+    .catch(function() { /* 抓失敗就整區隱藏，不打擾 */ });
+})();
+</script>
+
 <h1>最新文章</h1>
 
 {% assign posts_to_show = paginator.posts | default: site.posts %}
