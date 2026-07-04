@@ -697,6 +697,12 @@ permalink: /admin/
   <div class="editor-container">
     <div id="editorStatus" class="status"></div>
 
+    <div id="draftBanner" style="display:none; margin-bottom:14px; padding:10px 14px; background:#2a2410; border:1px solid #5a4a1a; border-radius:8px; color:#d8c98a; font-size:0.88rem; align-items:center; gap:12px; flex-wrap:wrap;">
+      <span id="draftBannerText" style="flex:1; min-width:180px;">偵測到上次未發佈的草稿</span>
+      <button type="button" onclick="restoreDraft()" style="padding:5px 14px; background:#8a9ba8; border:none; border-radius:6px; color:#12181c; font-size:0.82rem; font-weight:600; cursor:pointer;">還原草稿</button>
+      <button type="button" onclick="discardDraft()" style="padding:5px 14px; background:none; border:1px solid #5a4a1a; border-radius:6px; color:#c9b877; font-size:0.82rem; cursor:pointer;">捨棄</button>
+    </div>
+
     <div class="form-row">
       <div class="form-group">
         <label for="postTitle">文章標題</label>
@@ -1118,8 +1124,12 @@ permalink: /admin/
     }
   });
 
-  // Load draft if exists (expires after 7 days)
+  // 草稿處理：偵測到未發佈草稿時，顯示提示條讓使用者自己決定「還原/捨棄」，
+  // 不再開頁就偷偷塞回表單（避免舊草稿被誤認為殘留、清不掉）。
+  let pendingDraft = null;
   (function loadDraft() {
+    // 若是透過連結進入「編輯既有文章」，不跳草稿還原（等下會載入該文內容）
+    if (new URLSearchParams(window.location.search).get('edit')) return;
     const raw = localStorage.getItem('post_draft');
     if (!raw) return;
     try {
@@ -1129,14 +1139,45 @@ permalink: /admin/
         localStorage.removeItem('post_draft');
         return;
       }
-      if (d.title) document.getElementById('postTitle').value = d.title;
-      if (d.date) document.getElementById('postDate').value = d.date;
-      if (d.category) document.getElementById('postCategory').value = d.category;
-      if (d.description) document.getElementById('postDescription').value = d.description;
-      if (d.cover) { document.getElementById('postCover').value = d.cover; updateCoverPreview(); }
-      if (d.content) document.getElementById('postContent').value = d.content;
+      // 空草稿直接丟掉，不打擾
+      if (!d.title && !d.content && !d.description) {
+        localStorage.removeItem('post_draft');
+        return;
+      }
+      pendingDraft = d;
+      const banner = document.getElementById('draftBanner');
+      const txt = document.getElementById('draftBannerText');
+      let when = '';
+      if (d._savedAt) {
+        const t = new Date(d._savedAt);
+        when = '（儲存於 ' + String(t.getHours()).padStart(2,'0') + ':' + String(t.getMinutes()).padStart(2,'0') + '）';
+      }
+      const preview = (d.title || d.content || '').toString().slice(0, 20);
+      if (txt) txt.textContent = '偵測到上次未發佈的草稿' + when + '：' + preview + (preview.length >= 20 ? '…' : '');
+      if (banner) banner.style.display = 'flex';
     } catch(e) { localStorage.removeItem('post_draft'); }
   })();
+
+  function restoreDraft() {
+    if (!pendingDraft) return;
+    const d = pendingDraft;
+    if (d.title) document.getElementById('postTitle').value = d.title;
+    if (d.date) document.getElementById('postDate').value = d.date;
+    if (d.category) document.getElementById('postCategory').value = d.category;
+    if (d.description) document.getElementById('postDescription').value = d.description;
+    if (d.cover) { document.getElementById('postCover').value = d.cover; updateCoverPreview(); }
+    if (d.content) document.getElementById('postContent').value = d.content;
+    if (typeof updateWordCount === 'function') updateWordCount();
+    const banner = document.getElementById('draftBanner');
+    if (banner) banner.style.display = 'none';
+  }
+
+  function discardDraft() {
+    pendingDraft = null;
+    localStorage.removeItem('post_draft');
+    const banner = document.getElementById('draftBanner');
+    if (banner) banner.style.display = 'none';
+  }
 
   async function login() {
     const username = document.getElementById('usernameInput').value.trim();
@@ -1453,6 +1494,9 @@ permalink: /admin/
     const statusEl = document.getElementById('autoSaveStatus');
     if (statusEl) statusEl.textContent = '';
     localStorage.removeItem('post_draft');
+    pendingDraft = null;
+    const banner = document.getElementById('draftBanner');
+    if (banner) banner.style.display = 'none';
   }
 
   function clearAll() {
@@ -1555,6 +1599,8 @@ permalink: /admin/
 
   // Auto-save draft every 30 seconds (silent)
   setInterval(() => {
+    // 編輯既有文章時不自動存草稿，避免舊文內容污染「新文草稿」
+    if (editingFile) return;
     const content = document.getElementById('postContent').value;
     if (content.trim()) {
       const draft = {
