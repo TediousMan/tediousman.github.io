@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval' https://cdn.jsdelivr.net https://www.googletagmanager.com https://www.google-analytics.com https://www.gstatic.com https://*.disqus.com https://*.disquscdn.com https://*.threads.com https://*.threads.net https://*.cdninstagram.com https://*.fbcdn.net https://*.firebaseio.com https://my-blog-counter-76b39-default-rtdb.firebaseio.com; connect-src 'self' https://blog-comments-mu-blond.vercel.app https://open.spotify.com https://api.github.com https://*.firebaseio.com wss://*.firebaseio.com https://www.google-analytics.com https://region1.google-analytics.com https://www.gstatic.com https://*.disqus.com https://*.disquscdn.com https://links.services.disqus.com https://*.threads.net https://*.threads.com https://*.cdninstagram.com https://*.fbcdn.net; frame-src https://www.youtube.com https://*.youtube.com https://embed.music.apple.com https://open.spotify.com https://*.disqus.com https://platform.twitter.com https://*.x.com https://www.instagram.com https://*.threads.net https://*.threads.com https://*.cdninstagram.com https://*.firebaseio.com; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https://*.disquscdn.com https://cdn.jsdelivr.net https://fonts.googleapis.com; font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com; base-uri 'self';">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval' https://cdn.jsdelivr.net https://www.googletagmanager.com https://www.google-analytics.com https://www.gstatic.com https://*.disqus.com https://*.disquscdn.com https://*.threads.com https://*.threads.net https://*.cdninstagram.com https://*.fbcdn.net https://*.firebaseio.com https://my-blog-counter-76b39-default-rtdb.firebaseio.com; connect-src 'self' https://blog-comments-mu-blond.vercel.app https://open.spotify.com https://api.github.com https://*.firebaseio.com wss://*.firebaseio.com https://www.google-analytics.com https://region1.google-analytics.com https://www.gstatic.com https://*.disqus.com https://*.disquscdn.com https://links.services.disqus.com https://*.threads.net https://*.threads.com https://*.cdninstagram.com https://*.fbcdn.net; frame-src 'self' https://www.youtube.com https://*.youtube.com https://embed.music.apple.com https://open.spotify.com https://*.disqus.com https://platform.twitter.com https://*.x.com https://www.instagram.com https://*.threads.net https://*.threads.com https://*.cdninstagram.com https://*.firebaseio.com; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https://*.disquscdn.com https://cdn.jsdelivr.net https://fonts.googleapis.com; font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com; base-uri 'self';">
   <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -55,6 +55,77 @@
   {% include footer.html %}
 
   <button id="back-to-top" aria-label="回到頂部">↑</button>
+
+  <!-- 內嵌編輯彈窗：登入後點「編輯」直接跳出編輯器，不跳頁 -->
+  <div id="edit-modal" class="edit-modal" aria-hidden="true">
+    <div class="edit-modal__backdrop"></div>
+    <div class="edit-modal__box" role="dialog" aria-modal="true" aria-label="編輯文章">
+      <div class="edit-modal__bar">
+        <span class="edit-modal__title">✎ 編輯文章</span>
+        <button class="edit-modal__close" aria-label="關閉">✕</button>
+      </div>
+      <iframe id="edit-iframe" title="編輯文章" src="about:blank"></iframe>
+    </div>
+  </div>
+  <style>
+    .edit-modal { display:none; position:fixed; inset:0; z-index:4000; }
+    .edit-modal.open { display:block; }
+    .edit-modal__backdrop { position:absolute; inset:0; background:rgba(0,0,0,0.65); backdrop-filter:blur(2px); }
+    .edit-modal__box { position:relative; width:min(920px,94vw); height:min(88vh,900px); margin:5vh auto 0; background:#1a1a1a; border:1px solid #333; border-radius:14px; overflow:hidden; display:flex; flex-direction:column; box-shadow:0 24px 70px rgba(0,0,0,0.6); }
+    .edit-modal__bar { display:flex; align-items:center; justify-content:space-between; padding:11px 16px; border-bottom:1px solid #333; background:#202020; flex-shrink:0; }
+    .edit-modal__title { font-size:0.95rem; color:#c8c8c8; }
+    .edit-modal__close { background:none; border:none; color:#888; font-size:1.1rem; line-height:1; cursor:pointer; }
+    .edit-modal__close:hover { color:#ccc; }
+    #edit-iframe { flex:1; width:100%; border:none; background:#1a1a1a; }
+    @media (max-width:640px) { .edit-modal__box { width:100vw; height:100vh; margin:0; border-radius:0; } }
+  </style>
+  <script>
+    (function() {
+      var modal = document.getElementById('edit-modal');
+      var iframe = document.getElementById('edit-iframe');
+      if (!modal || !iframe) return;
+
+      function openEdit(adminUrl) {
+        iframe.src = adminUrl + (adminUrl.indexOf('?') === -1 ? '?' : '&') + 'embed=1';
+        modal.classList.add('open');
+        modal.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+      }
+      function closeEdit() {
+        modal.classList.remove('open');
+        modal.setAttribute('aria-hidden', 'true');
+        document.body.style.overflow = '';
+        iframe.src = 'about:blank';
+      }
+
+      // 攔截所有指向 /admin/?edit= 的「編輯」連結（僅在已登入時彈窗，否則照常跳頁）
+      document.addEventListener('click', function(e) {
+        var a = e.target.closest && e.target.closest('a[href*="/admin/?edit="]');
+        if (!a) return;
+        if (!localStorage.getItem('gh_token')) return;
+        e.preventDefault();
+        openEdit(a.getAttribute('href'));
+      });
+
+      modal.querySelector('.edit-modal__backdrop').addEventListener('click', closeEdit);
+      modal.querySelector('.edit-modal__close').addEventListener('click', closeEdit);
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && modal.classList.contains('open')) closeEdit();
+      });
+
+      // 接收編輯器 iframe 的訊息
+      window.addEventListener('message', function(e) {
+        if (e.origin !== window.location.origin) return;
+        var d = e.data || {};
+        if (d.type === 'tm-post-saved') {
+          closeEdit();
+          alert('文章已更新！網站約 1–2 分鐘重建，稍後重新整理即可看到最新內容。');
+        } else if (d.type === 'tm-cancel') {
+          closeEdit();
+        }
+      });
+    })();
+  </script>
 
   <!-- Floating Spotify Player -->
   <div id="spotify-float">

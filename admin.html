@@ -932,6 +932,19 @@ permalink: /admin/
   const WORKER_BASE = 'https://blog-admin-proxy.bingbongsky.workers.dev';
   const API_BASE = WORKER_BASE + '/api/github';
 
+  // 內嵌（彈窗）編輯模式：由 blog 端 iframe 以 ?embed=1 載入，只顯示編輯器
+  const IS_EMBED = new URLSearchParams(window.location.search).get('embed') === '1';
+  if (IS_EMBED) {
+    document.documentElement.classList.add('embed-mode');
+    var _embedStyle = document.createElement('style');
+    _embedStyle.textContent =
+      '.embed-mode .site-header,.embed-mode .admin-nav{display:none!important}' +
+      '.embed-mode body{padding-top:0!important;margin-top:0!important}' +
+      '.embed-mode #editorScreen{padding-top:16px!important}' +
+      '.embed-mode #editorSection{padding:0!important}';
+    document.head.appendChild(_embedStyle);
+  }
+
   function escapeHtml(str) {
     if (str == null) return '';
     return String(str)
@@ -1027,7 +1040,7 @@ permalink: /admin/
 
       const fmMatch = rawContent.match(/^---\n([\s\S]*?)\n---\n\n?([\s\S]*)$/);
       let body = rawContent;
-      let title = '', date = '', category = '音樂記錄', description = '';
+      let title = '', date = '', category = '音樂記錄', description = '', playlistId = '';
       if (fmMatch) {
         body = fmMatch[2].trim();
         const fm = fmMatch[1];
@@ -1035,16 +1048,19 @@ permalink: /admin/
         const dateMatch = fm.match(/date:\s*(\d{4}-\d{2}-\d{2})/m);
         const catMatch = fm.match(/category:\s*(.+)$/m);
         const descMatch = fm.match(/description:\s*"?([^"\n]+)"?\s*$/m);
+        const plMatch = fm.match(/spotify_playlist:\s*([A-Za-z0-9]+)/);
         if (titleMatch) title = titleMatch[1].trim();
         if (dateMatch) date = dateMatch[1].trim();
         if (catMatch) category = catMatch[1].trim();
         if (descMatch) description = descMatch[1].trim();
+        if (plMatch) playlistId = plMatch[1];
       }
 
       document.getElementById('postTitle').value = title;
       document.getElementById('postDate').value = date;
       document.getElementById('postCategory').value = category;
       document.getElementById('postDescription').value = description;
+      setPlaylistDropdown(playlistId);
       document.getElementById('postContent').value = body;
 
       editingFile = { path: path, sha: data.sha };
@@ -2090,14 +2106,19 @@ permalink: /admin/
         });
       }
 
-      showStatus('editorStatus', '文章已成功更新！即將返回首頁…', 'success');
       editingFile = null;
       btn.onclick = publish;
       btn.textContent = '發佈文章';
       const cancelBtn2 = document.getElementById('cancelEditBtn');
       if (cancelBtn2) cancelBtn2.classList.remove('visible');
       resetEditorForm();
-      setTimeout(function() { window.location.assign('/'); }, 1200);
+      if (IS_EMBED) {
+        showStatus('editorStatus', '文章已成功更新！', 'success');
+        try { window.parent.postMessage({ type: 'tm-post-saved', path: newPath }, '*'); } catch(e) {}
+      } else {
+        showStatus('editorStatus', '文章已成功更新！即將返回首頁…', 'success');
+        setTimeout(function() { window.location.assign('/'); }, 1200);
+      }
     } catch(e) {
       showStatus('editorStatus', '更新失敗：' + e.message, 'error');
     }
@@ -2113,7 +2134,11 @@ permalink: /admin/
     const cancelBtn = document.getElementById('cancelEditBtn');
     if (cancelBtn) cancelBtn.classList.remove('visible');
     resetEditorForm();
-    switchAdminTab('posts');
+    if (IS_EMBED) {
+      try { window.parent.postMessage({ type: 'tm-cancel' }, '*'); } catch(e) {}
+    } else {
+      switchAdminTab('posts');
+    }
   }
 
   async function deletePost(path, sha, title) {
