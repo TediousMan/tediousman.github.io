@@ -8,18 +8,20 @@ permalink: /music-reviews/
 
 {% assign posts = site.posts | where: "category", "音樂記錄" %}
 {% for post in posts %}
-<div class="post-card" data-post-path="{{ post.path }}" data-post-title="{{ post.title | escape }}">
+<div class="post-card{% if post.image %} has-cover{% endif %}" data-post-path="{{ post.path }}" data-post-title="{{ post.title | escape }}">
   {% if post.image %}
-  <a href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="post-card-image" loading="lazy"></a>
+  <a class="post-card-thumb" href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="post-card-image" loading="lazy"></a>
   {% endif %}
-  <div class="post-meta">
-    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y 年 %m 月 %d 日" }}</time>
-  </div>
-  <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-  <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
-  <div class="post-card-admin" style="display:none; margin-top:0.6em; gap:6px;">
-    <a class="admin-card-btn" href="/admin/?edit={{ post.path | url_encode }}" style="padding:4px 12px; border:1px solid #444; border-radius:4px; font-size:0.78rem; color:#a0a0a0; text-decoration:none;">編輯</a>
-    <button class="admin-card-btn admin-card-btn-delete" style="padding:4px 12px; border:1px solid #5a2020; border-radius:4px; font-size:0.78rem; color:#c06060; background:none; cursor:pointer;">刪除</button>
+  <div class="post-card-body">
+    <div class="post-meta">
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y 年 %m 月 %d 日" }}</time>
+    </div>
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
+    <div class="post-card-admin" style="display:none; margin-top:0.6em; gap:6px;">
+      <a class="admin-card-btn" href="/admin/?edit={{ post.path | url_encode }}" style="padding:4px 12px; border:1px solid #444; border-radius:4px; font-size:0.78rem; color:#a0a0a0; text-decoration:none;">編輯</a>
+      <button class="admin-card-btn admin-card-btn-delete" style="padding:4px 12px; border:1px solid #5a2020; border-radius:4px; font-size:0.78rem; color:#c06060; background:none; cursor:pointer;">刪除</button>
+    </div>
   </div>
 </div>
 {% endfor %}

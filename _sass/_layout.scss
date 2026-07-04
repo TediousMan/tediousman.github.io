@@ -106,14 +106,32 @@
   }
 }
 
-// Cover image on post cards
-.post-card-image {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-  border-radius: 4px;
-  margin-bottom: 0.8em;
+// Cover image on post cards — 有封面時：小方縮圖靠左
+.post-card.has-cover {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+}
+.post-card-thumb {
+  flex-shrink: 0;
   display: block;
+  line-height: 0;
+}
+.post-card-body {
+  flex: 1;
+  min-width: 0;
+}
+.post-card-image {
+  width: 104px;
+  height: 104px;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
+
+@media (max-width: $mobile) {
+  .post-card.has-cover { gap: 14px; }
+  .post-card-image { width: 78px; height: 78px; }
 }
 
 // Cover image on post page

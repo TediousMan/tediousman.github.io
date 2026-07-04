@@ -736,6 +736,19 @@ permalink: /admin/
     </div>
 
     <div class="form-group">
+      <label for="postCover">封面圖 <span style="color:#555; font-weight:400;">（選填，顯示在文章列表）</span></label>
+      <div style="display:flex; gap:6px; align-items:stretch;">
+        <input type="text" id="postCover" placeholder="貼圖片網址，或按右邊從內文 Spotify 抓" oninput="updateCoverPreview()" style="flex:1; min-width:0;">
+        <button type="button" id="pullCoverBtn" onclick="pullCoverFromContent()" title="掃描內文第一個 Spotify 專輯，自動帶入封面"
+                style="padding:0 12px; background:#1db954; border:none; border-radius:6px; color:#04150a; font-size:0.82rem; font-weight:600; cursor:pointer; white-space:nowrap;">🎵 從內文 Spotify 抓封面</button>
+      </div>
+      <div id="coverPreviewWrap" style="display:none; margin-top:10px; align-items:center; gap:12px;">
+        <img id="coverPreview" alt="封面預覽" style="width:72px; height:72px; object-fit:cover; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.4);">
+        <button type="button" onclick="clearCover()" style="padding:5px 12px; background:none; border:1px solid #444; border-radius:6px; color:#a0a0a0; font-size:0.78rem; cursor:pointer;">移除封面</button>
+      </div>
+    </div>
+
+    <div class="form-group">
       <div class="tabs">
         <button class="tab-btn active" onclick="switchTab('edit')">編輯</button>
         <button class="tab-btn" onclick="switchTab('preview')">預覽</button>
@@ -1120,6 +1133,7 @@ permalink: /admin/
       if (d.date) document.getElementById('postDate').value = d.date;
       if (d.category) document.getElementById('postCategory').value = d.category;
       if (d.description) document.getElementById('postDescription').value = d.description;
+      if (d.cover) { document.getElementById('postCover').value = d.cover; updateCoverPreview(); }
       if (d.content) document.getElementById('postContent').value = d.content;
     } catch(e) { localStorage.removeItem('post_draft'); }
   })();
@@ -1413,6 +1427,7 @@ permalink: /admin/
       date: document.getElementById('postDate').value,
       category: document.getElementById('postCategory').value,
       description: document.getElementById('postDescription').value,
+      cover: document.getElementById('postCover').value,
       content: document.getElementById('postContent').value
     };
     draft._savedAt = Date.now();
@@ -1431,6 +1446,8 @@ permalink: /admin/
     document.getElementById('postCategory').value = '音樂記錄';
     document.getElementById('postDescription').value = '';
     document.getElementById('postContent').value = '';
+    document.getElementById('postCover').value = '';
+    updateCoverPreview();
     const pl = document.getElementById('postPlaylist');
     if (pl) pl.value = '';
     const statusEl = document.getElementById('autoSaveStatus');
@@ -1482,7 +1499,8 @@ permalink: /admin/
     const timeStr = `${hh}:${mm}:${ss} +0800`;
     const descLine = description ? `description: "${description}"\n` : '';
     const playlistLine = playlistFrontMatterLine();
-    const fileContent = `---\nlayout: post\ntitle: "${title}"\ndate: ${date} ${timeStr}\ncategory: ${category}\n${descLine}${playlistLine}---\n\n${content}\n`;
+    const coverLine = coverFrontMatterLine();
+    const fileContent = `---\nlayout: post\ntitle: "${title}"\ndate: ${date} ${timeStr}\ncategory: ${category}\n${descLine}${playlistLine}${coverLine}---\n\n${content}\n`;
 
     try {
       const res = await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/${filename}`, {
@@ -1544,6 +1562,7 @@ permalink: /admin/
         date: document.getElementById('postDate').value,
         category: document.getElementById('postCategory').value,
         description: document.getElementById('postDescription').value,
+        cover: document.getElementById('postCover').value,
         content: content
       };
       localStorage.setItem('post_draft', JSON.stringify(draft));
@@ -1591,6 +1610,67 @@ permalink: /admin/
   function playlistFrontMatterLine() {
     const v = document.getElementById('postPlaylist').value;
     return v ? `spotify_playlist: ${v}\n` : '';
+  }
+
+  // ========== 封面圖 ==========
+  function coverFrontMatterLine() {
+    const v = document.getElementById('postCover').value.trim();
+    return v ? `image: ${v}\n` : '';
+  }
+
+  // 把 Spotify 封面網址正規化成穩定的 i.scdn.co 形式（雜湊固定、不會失效）；歌單拼貼圖 (mosaic) 維持原狀
+  function normalizeSpotifyImg(url) {
+    const m = url.match(/\/image\/([A-Za-z0-9]+)$/);
+    if (m && /(scdn\.co|spotifycdn\.com)/.test(url) && !/mosaic\./.test(url)) {
+      return 'https://i.scdn.co/image/' + m[1];
+    }
+    return url;
+  }
+
+  function updateCoverPreview() {
+    const url = document.getElementById('postCover').value.trim();
+    const wrap = document.getElementById('coverPreviewWrap');
+    const img = document.getElementById('coverPreview');
+    if (url) {
+      img.src = url;
+      wrap.style.display = 'flex';
+    } else {
+      wrap.style.display = 'none';
+      img.removeAttribute('src');
+    }
+  }
+
+  function clearCover() {
+    document.getElementById('postCover').value = '';
+    updateCoverPreview();
+  }
+
+  // 掃內文第一個 Spotify 專輯／單曲／歌單，抓封面帶入
+  async function pullCoverFromContent() {
+    const content = document.getElementById('postContent').value;
+    const m = content.match(/open\.spotify\.com\/(?:embed\/)?(album|track|playlist)\/([A-Za-z0-9]+)/);
+    if (!m) {
+      alert('內文裡找不到 Spotify 專輯／單曲／歌單，請先嵌入一個，或直接貼圖片網址。');
+      return;
+    }
+    const spUrl = `https://open.spotify.com/${m[1]}/${m[2]}`;
+    const btn = document.getElementById('pullCoverBtn');
+    const orig = btn.textContent;
+    btn.disabled = true; btn.textContent = '抓取中…';
+    try {
+      const r = await fetch(WORKER_BASE + '/api/spotify/oembed?url=' + encodeURIComponent(spUrl));
+      const data = await r.json();
+      if (data && data.thumbnail_url) {
+        document.getElementById('postCover').value = normalizeSpotifyImg(data.thumbnail_url);
+        updateCoverPreview();
+      } else {
+        alert('抓不到封面，請改用手動貼圖片網址。');
+      }
+    } catch(e) {
+      alert('抓取失敗：' + e.message);
+    } finally {
+      btn.disabled = false; btn.textContent = orig;
+    }
   }
 
   // 「插入內文」：把對應歌單的播放器嵌到內文游標處，免去再貼一次網址
@@ -2013,14 +2093,17 @@ permalink: /admin/
     // Switch to editor tab
     switchAdminTab('editor');
 
-    // Parse description / spotify_playlist from front matter
+    // Parse description / spotify_playlist / image from front matter
     let postDescription = '';
     let postPlaylistId = '';
+    let postImage = '';
     if (fmMatch) {
       const descMatch = fmMatch[1].match(/description:\s*"?([^"\n]+)"?\s*$/m);
       if (descMatch) postDescription = descMatch[1].trim();
       const plMatch = fmMatch[1].match(/spotify_playlist:\s*([A-Za-z0-9]+)/);
       if (plMatch) postPlaylistId = plMatch[1];
+      const imgMatch = fmMatch[1].match(/^image:\s*(.+?)\s*$/m);
+      if (imgMatch) postImage = imgMatch[1].trim();
     }
 
     // Fill in the editor fields
@@ -2029,6 +2112,8 @@ permalink: /admin/
     document.getElementById('postCategory').value = post.category || '音樂記錄';
     document.getElementById('postDescription').value = postDescription;
     setPlaylistDropdown(postPlaylistId);
+    document.getElementById('postCover').value = postImage;
+    updateCoverPreview();
     document.getElementById('postContent').value = body;
 
     // Store editing state
@@ -2066,7 +2151,8 @@ permalink: /admin/
 
     const descLine = description ? `description: "${description}"\n` : '';
     const playlistLine = playlistFrontMatterLine();
-    const fileContent = `---\nlayout: post\ntitle: "${title}"\ndate: ${date}\ncategory: ${category}\n${descLine}${playlistLine}---\n\n${content}\n`;
+    const coverLine = coverFrontMatterLine();
+    const fileContent = `---\nlayout: post\ntitle: "${title}"\ndate: ${date}\ncategory: ${category}\n${descLine}${playlistLine}${coverLine}---\n\n${content}\n`;
 
     try {
       // If date or title changed, we need a new filename
