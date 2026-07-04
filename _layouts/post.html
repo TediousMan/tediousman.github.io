@@ -83,52 +83,32 @@ function copyPostLink() {
 }
 </script>
 
-<nav class="post-nav">
-  <div class="post-nav-item prev">
-    {% if page.next %}
-    <span class="nav-label">← 上一篇</span>
-    <a href="{{ page.next.url | relative_url }}">{{ page.next.title }}</a>
-    {% endif %}
-  </div>
-  <div class="post-nav-item next">
-    {% if page.previous %}
-    <span class="nav-label">下一篇 →</span>
-    <a href="{{ page.previous.url | relative_url }}">{{ page.previous.title }}</a>
-    {% endif %}
-  </div>
-</nav>
-
+{% comment %} 繼續閱讀：同分類優先，補到 3 篇，排除本篇與重複 {% endcomment %}
+{% assign rec = "" | split: "" %}
+{% assign used = "" %}
 {% if page.category %}
-{% assign related_posts = "" | split: "" %}
+  {% for p in site.posts %}
+    {% if rec.size < 3 and p.url != page.url and p.category == page.category %}
+      {% assign rec = rec | push: p %}
+      {% assign used = used | append: p.url | append: "|" %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
 {% for p in site.posts %}
-  {% if p.category == page.category and p.url != page.url %}
-    {% assign related_posts = related_posts | push: p %}
-  {% endif %}
-  {% if related_posts.size == 3 %}{% break %}{% endif %}
+  {% unless p.url == page.url %}
+    {% unless used contains p.url %}
+      {% if rec.size < 3 %}
+        {% assign rec = rec | push: p %}
+        {% assign used = used | append: p.url | append: "|" %}
+      {% endif %}
+    {% endunless %}
+  {% endunless %}
 {% endfor %}
-{% if related_posts.size > 0 %}
-<section class="related-posts">
-  <h3>同分類文章</h3>
+{% if rec.size > 0 %}
+<section class="continue-reading">
+  <h3>繼續閱讀</h3>
   <ul class="related-list">
-    {% for rp in related_posts %}
-    <li>
-      <a href="{{ rp.url | relative_url }}">
-        <span class="related-title">{{ rp.title }}</span>
-        <span class="related-date">{{ rp.date | date: "%m/%d" }}</span>
-      </a>
-    </li>
-    {% endfor %}
-  </ul>
-</section>
-{% endif %}
-{% endif %}
-
-{% assign recent_posts = site.posts | where_exp:"p", "p.url != page.url" | slice: 0, 5 %}
-{% if recent_posts.size > 0 %}
-<section class="recent-posts-in-post">
-  <h3>最新文章</h3>
-  <ul class="related-list">
-    {% for rp in recent_posts %}
+    {% for rp in rec %}
     <li>
       <a href="{{ rp.url | relative_url }}">
         <span class="related-title">{{ rp.title }}</span>

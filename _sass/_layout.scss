@@ -238,33 +238,25 @@
   }
 }
 
-// Two-column media layout (e.g. Twitter + Spotify side by side)
+// Media embeds — stacked, each embed centered with breathing room
+// (previously side-by-side, which squeezed tall embeds like X/Twitter)
 .media-columns {
-  display: flex;
-  gap: 16px;
-  align-items: flex-start;
   margin: 1.5em 0;
 
   .media-col {
-    flex: 1;
-    min-width: 0;
-
     iframe {
-      width: 100% !important;
-      max-width: 100% !important;
-      margin: 0 !important;
+      width: 100%;
+      max-width: 550px;
+      margin: 1.5em auto;
       display: block;
     }
   }
-
-  @media (max-width: $mobile) {
-    flex-direction: column;
-  }
 }
 
-// Related posts (and "Recent posts" inside post pages — share styling)
+// Related posts (and "Recent posts" / "Continue reading" inside post pages — share styling)
 .related-posts,
-.recent-posts-in-post {
+.recent-posts-in-post,
+.continue-reading {
   margin: 0.5em 0 1.5em;
 
   h3 {

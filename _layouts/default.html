@@ -35,13 +35,13 @@
 
   <main class="site-main">
     <div class="container">
-      {% if page.id %}
-        {% comment %} 文章頁：置中，無側欄 {% endcomment %}
+      {% if page.id or page.url == '/' %}
+        {% comment %} 文章頁與首頁：置中單欄，無側欄 {% endcomment %}
         <article class="main-content post-page-content">
           {{ content }}
         </article>
       {% else %}
-        {% comment %} 其他頁面：保留側欄 {% endcomment %}
+        {% comment %} 其他頁面（分類、關於等）：保留側欄 {% endcomment %}
         <div class="content-wrapper">
           <article class="main-content">
             {{ content }}
