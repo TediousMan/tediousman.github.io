@@ -49,6 +49,11 @@
         <article class="main-content post-page-content">
           {{ content }}
         </article>
+      {% elsif page.wide %}
+        {% comment %} 全寬單欄頁（如聽歌回顧）：置中、無側欄、比文章寬 {% endcomment %}
+        <article class="main-content wide-content">
+          {{ content }}
+        </article>
       {% else %}
         {% comment %} 首頁用專屬側欄（關於＋分類），其他頁面用一般側欄（最新文章） {% endcomment %}
         <div class="content-wrapper">

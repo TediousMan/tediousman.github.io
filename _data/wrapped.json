@@ -1,0 +1,261 @@
+{
+ "generated": "2026-07-04",
+ "total": 205963,
+ "total_fmt": "205,963",
+ "uniq_art": 7092,
+ "uniq_art_fmt": "7,092",
+ "uniq_trk": 29555,
+ "uniq_trk_fmt": "29,555",
+ "start": "2018-03-06",
+ "end": "2026-07-02",
+ "top_art": [
+  {
+   "artist": "Mr.ふぉるて",
+   "plays": 1044,
+   "img": "https://i.scdn.co/image/ab6761610000e5ebdeb5dcdb155743929e7448e8",
+   "plays_fmt": "1,044",
+   "pct": 100
+  },
+  {
+   "artist": "Candygirl",
+   "plays": 1043,
+   "img": null,
+   "plays_fmt": "1,043",
+   "pct": 100
+  },
+  {
+   "artist": "chilldspot",
+   "plays": 1023,
+   "img": "https://i.scdn.co/image/ab6761610000e5ebfffcd64678af9f7b7bab7832",
+   "plays_fmt": "1,023",
+   "pct": 98
+  },
+  {
+   "artist": "No Buses",
+   "plays": 1005,
+   "img": "https://i.scdn.co/image/ab6761610000e5eba1ab78242c288873882867d7",
+   "plays_fmt": "1,005",
+   "pct": 96
+  },
+  {
+   "artist": "クレナズム",
+   "plays": 876,
+   "img": "https://i.scdn.co/image/ab6761610000e5ebfd833836d124624e366ed252",
+   "plays_fmt": "876",
+   "pct": 84
+  },
+  {
+   "artist": "KROI",
+   "plays": 862,
+   "img": "https://i.scdn.co/image/ab6761610000e5eb3891ccf48bd7eb050237f789",
+   "plays_fmt": "862",
+   "pct": 83
+  },
+  {
+   "artist": "nee",
+   "plays": 786,
+   "img": "https://i.scdn.co/image/ab6761610000e5eb729b6da509b5b0fb63c1515d",
+   "plays_fmt": "786",
+   "pct": 75
+  },
+  {
+   "artist": "Mississippi Khaki Hair",
+   "plays": 782,
+   "img": "https://i.scdn.co/image/ab6761610000e5eb1e7aca440d70e04fe82d50ee",
+   "plays_fmt": "782",
+   "pct": 75
+  },
+  {
+   "artist": "Cody・Lee(李)",
+   "plays": 760,
+   "img": "https://i.scdn.co/image/ab6761610000e5eb5ab731a2080334504454b0c1",
+   "plays_fmt": "760",
+   "pct": 73
+  },
+  {
+   "artist": "POP ART TOWN",
+   "plays": 747,
+   "img": "https://i.scdn.co/image/ab6761610000e5ebfbae2db36e47006dba304a05",
+   "plays_fmt": "747",
+   "pct": 72
+  },
+  {
+   "artist": "Dannie May",
+   "plays": 713,
+   "img": "https://i.scdn.co/image/ab6761610000e5eb9629e866cc65376368fe66a8",
+   "plays_fmt": "713",
+   "pct": 68
+  },
+  {
+   "artist": "FINLANDS",
+   "plays": 685,
+   "img": "https://i.scdn.co/image/ab6761610000e5ebcf8988fc2f6375e25eb7a350",
+   "plays_fmt": "685",
+   "pct": 66
+  }
+ ],
+ "top_alb": [
+  {
+   "album": "WOLVEs1",
+   "artist": "WOLVEs GROOVY",
+   "plays": 535,
+   "img": "https://lastfm.freetls.fastly.net/i/u/300x300/7e7bd8b2962aa80fbf7858366d01832b.jpg",
+   "plays_fmt": "535"
+  },
+  {
+   "album": "All Shimmer in a Day",
+   "artist": "My Lucky Day",
+   "plays": 467,
+   "img": "https://lastfm.freetls.fastly.net/i/u/300x300/ab0df120ae8e1bff08297f4898d6b538.jpg",
+   "plays_fmt": "467"
+  },
+  {
+   "album": "Seikatsu",
+   "artist": "kuyuru",
+   "plays": 449,
+   "img": "https://lastfm.freetls.fastly.net/i/u/300x300/2e634de2f586c52f2acc55e65a45ca81.jpg",
+   "plays_fmt": "449"
+  },
+  {
+   "album": "No Buses",
+   "artist": "No Buses",
+   "plays": 406,
+   "img": "https://lastfm.freetls.fastly.net/i/u/300x300/dec375a698212b9c10a50d83a51e2a69.jpg",
+   "plays_fmt": "406"
+  },
+  {
+   "album": "ジャーニー",
+   "artist": "Mr.ふぉるて",
+   "plays": 391,
+   "img": "https://lastfm.freetls.fastly.net/i/u/300x300/fe2c2f456e84842c764c0895c67272da.jpg",
+   "plays_fmt": "391"
+  },
+  {
+   "album": "THE FIRST TASTE OF ME",
+   "artist": "Doll Parts",
+   "plays": 337,
+   "img": "https://lastfm.freetls.fastly.net/i/u/300x300/b54169cd84dbb2a9fbf0d45ca27c8f81.jpg",
+   "plays_fmt": "337"
+  },
+  {
+   "album": "歹勢好勢",
+   "artist": "拍謝少年",
+   "plays": 330,
+   "img": "https://lastfm.freetls.fastly.net/i/u/300x300/7c133ba512f90e5962dd3e5861331a90.jpg",
+   "plays_fmt": "330"
+  },
+  {
+   "album": "From Nightfall till Dawn",
+   "artist": "Mississippi Khaki Hair",
+   "plays": 327,
+   "img": "https://lastfm.freetls.fastly.net/i/u/300x300/accd5432baddaef1d747547588f1c629.jpg",
+   "plays_fmt": "327"
+  }
+ ],
+ "top_trk": [
+  {
+   "track": "ameagari",
+   "artist": "My Lucky Day",
+   "plays": 331,
+   "plays_fmt": "331"
+  },
+  {
+   "track": "銃声への応答",
+   "artist": "Sazanami",
+   "plays": 254,
+   "plays_fmt": "254"
+  },
+  {
+   "track": "Violet",
+   "artist": "GAMBS",
+   "plays": 213,
+   "plays_fmt": "213"
+  },
+  {
+   "track": "Verandah",
+   "artist": "kuyuru",
+   "plays": 189,
+   "plays_fmt": "189"
+  },
+  {
+   "track": "夢で逢ったら",
+   "artist": "Pinky Ram's Head",
+   "plays": 186,
+   "plays_fmt": "186"
+  },
+  {
+   "track": "BUG",
+   "artist": "WOLVEs GROOVY",
+   "plays": 184,
+   "plays_fmt": "184"
+  },
+  {
+   "track": "juvenile",
+   "artist": "Africa",
+   "plays": 171,
+   "plays_fmt": "171"
+  },
+  {
+   "track": "Liquid Room",
+   "artist": "梁山泊",
+   "plays": 168,
+   "plays_fmt": "168"
+  }
+ ],
+ "by_year": [
+  {
+   "year": "2018",
+   "plays": 1606,
+   "plays_fmt": "1,606",
+   "pct": 5
+  },
+  {
+   "year": "2019",
+   "plays": 2615,
+   "plays_fmt": "2,615",
+   "pct": 5
+  },
+  {
+   "year": "2020",
+   "plays": 4270,
+   "plays_fmt": "4,270",
+   "pct": 8
+  },
+  {
+   "year": "2021",
+   "plays": 26651,
+   "plays_fmt": "26,651",
+   "pct": 49
+  },
+  {
+   "year": "2022",
+   "plays": 28214,
+   "plays_fmt": "28,214",
+   "pct": 52
+  },
+  {
+   "year": "2023",
+   "plays": 22010,
+   "plays_fmt": "22,010",
+   "pct": 41
+  },
+  {
+   "year": "2024",
+   "plays": 54005,
+   "plays_fmt": "54,005",
+   "pct": 100
+  },
+  {
+   "year": "2025",
+   "plays": 43716,
+   "plays_fmt": "43,716",
+   "pct": 81
+  },
+  {
+   "year": "2026",
+   "plays": 22876,
+   "plays_fmt": "22,876",
+   "pct": 42
+  }
+ ]
+}

@@ -1,0 +1,152 @@
+---
+layout: default
+title: 聽歌回顧
+permalink: /wrapped/
+wide: true
+description: 我的 Last.fm 聽歌回顧 — 最常聽的藝人、專輯、歌曲與這些年的聽歌量
+---
+
+{% assign w = site.data.wrapped %}
+
+<style>
+  .wide-content { max-width: 820px; margin: 0 auto; width: 100%; }
+
+  .wr { --wr-accent:#7c93b0; --wr-accent2:#9db2cc; --wr-head:#f0f0f0;
+        --wr-muted:#8a8a8a; --wr-dim:#6f6f6f; --wr-border:#333; --wr-soft:rgba(124,147,176,.14); }
+  .wr *{ box-sizing:border-box; }
+
+  .wr-hero{ text-align:center; padding:20px 0 40px; border-bottom:1px solid var(--wr-border); }
+  .wr-eyebrow{ font-size:.82rem; letter-spacing:.26em; text-transform:uppercase; color:var(--wr-accent); margin-bottom:14px; }
+  .wr-hero h1{ font-size:clamp(1.9rem,5.5vw,2.8rem); color:var(--wr-head); line-height:1.2; margin:0; }
+  .wr-big{ font-size:clamp(3rem,12vw,5rem); color:var(--wr-accent2); font-weight:800; line-height:1.05;
+    margin:20px 0 2px; font-variant-numeric:tabular-nums; letter-spacing:-.01em; }
+  .wr-big-label{ color:var(--wr-muted); font-size:1rem; }
+  .wr-chips{ margin-top:24px; display:flex; gap:12px; justify-content:center; flex-wrap:wrap; }
+  .wr-chip{ background:#202020; border:1px solid var(--wr-border); border-radius:999px; padding:8px 16px; font-size:.86rem; }
+  .wr-chip b{ color:var(--wr-head); font-variant-numeric:tabular-nums; }
+  .wr-span{ margin-top:14px; color:var(--wr-dim); font-size:.85rem; font-variant-numeric:tabular-nums; }
+
+  .wr section{ margin-top:48px; }
+  .wr-h{ display:flex; align-items:baseline; gap:12px; margin-bottom:20px; }
+  .wr-h h2{ font-size:1.45rem; color:var(--wr-head); margin:0; }
+  .wr-h .en{ color:var(--wr-dim); font-size:.82rem; }
+
+  .wr-arts{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:4px; }
+  .wr-art{ display:flex; align-items:center; gap:14px; padding:9px 6px; border-radius:10px; }
+  .wr-art:nth-child(-n+3){ background:var(--wr-soft); }
+  .wr-rk{ width:24px; text-align:center; font-weight:700; color:var(--wr-dim); font-size:1rem; flex-shrink:0; font-variant-numeric:tabular-nums; }
+  .wr-art:nth-child(-n+3) .wr-rk{ color:var(--wr-accent2); }
+  .wr-av{ width:50px; height:50px; border-radius:50%; object-fit:cover; flex-shrink:0; box-shadow:0 2px 8px rgba(0,0,0,.4); }
+  .wr-av-none{ width:50px; height:50px; border-radius:50%; flex-shrink:0; background:#2a2a2a; color:var(--wr-muted);
+    display:flex; align-items:center; justify-content:center; font-size:1.25rem; font-weight:700; }
+  .wr-am{ flex:1; min-width:0; }
+  .wr-atop{ display:flex; justify-content:space-between; align-items:baseline; gap:10px; margin-bottom:6px; }
+  .wr-aname{ color:var(--wr-head); font-size:1rem; font-weight:600; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .wr-aplays{ color:var(--wr-muted); font-size:.82rem; flex-shrink:0; font-variant-numeric:tabular-nums; }
+  .wr-bar{ height:5px; background:#2a2a2a; border-radius:3px; overflow:hidden; }
+  .wr-bar span{ display:block; height:100%; background:linear-gradient(90deg,var(--wr-accent),var(--wr-accent2)); border-radius:3px; }
+
+  .wr-albs{ display:grid; grid-template-columns:repeat(4,1fr); gap:16px; }
+  .wr-alb-cover{ position:relative; aspect-ratio:1; border-radius:8px; overflow:hidden; background:#222; box-shadow:0 3px 12px rgba(0,0,0,.45); }
+  .wr-alb-cover img{ width:100%; height:100%; object-fit:cover; display:block; }
+  .wr-noimg{ width:100%; height:100%; display:flex; align-items:center; justify-content:center; color:#555; font-size:2rem; }
+  .wr-alb-plays{ position:absolute; left:6px; bottom:6px; background:rgba(0,0,0,.66); color:#fff;
+    font-size:.7rem; padding:2px 7px; border-radius:999px; font-variant-numeric:tabular-nums; }
+  .wr-alb figcaption{ margin-top:8px; display:flex; flex-direction:column; gap:1px; }
+  .wr-alb figcaption b{ color:var(--wr-head); font-size:.82rem; line-height:1.35;
+    display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+  .wr-alb figcaption span{ color:var(--wr-dim); font-size:.75rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+
+  .wr-trks{ list-style:none; margin:0; padding:0; }
+  .wr-trks li{ display:flex; align-items:center; gap:14px; padding:12px 4px; border-bottom:1px solid rgba(51,51,51,.7); }
+  .wr-trks li:last-child{ border-bottom:none; }
+  .wr-tn{ color:var(--wr-dim); font-weight:700; font-size:.9rem; width:26px; flex-shrink:0; font-variant-numeric:tabular-nums; }
+  .wr-tk{ flex:1; min-width:0; display:flex; flex-direction:column; }
+  .wr-tk-name{ color:var(--wr-head); font-size:.96rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .wr-tk-art{ color:var(--wr-dim); font-size:.8rem; }
+  .wr-tk-plays{ color:var(--wr-muted); font-size:.82rem; flex-shrink:0; font-variant-numeric:tabular-nums; }
+
+  .wr-years{ display:flex; align-items:flex-end; gap:8px; height:210px; padding-top:10px; }
+  .wr-yb{ flex:1; display:flex; flex-direction:column; align-items:center; justify-content:flex-end; height:100%; gap:7px; }
+  .wr-yb-val{ font-size:.64rem; color:var(--wr-muted); font-variant-numeric:tabular-nums; }
+  .wr-yb-bar{ width:100%; max-width:42px; background:linear-gradient(180deg,var(--wr-accent2),var(--wr-accent));
+    border-radius:5px 5px 0 0; min-height:5px; }
+  .wr-yb-year{ font-size:.74rem; color:var(--wr-dim); font-variant-numeric:tabular-nums; }
+
+  .wr-foot{ margin-top:52px; padding-top:22px; border-top:1px solid var(--wr-border); text-align:center; color:var(--wr-dim); font-size:.82rem; }
+
+  @media (max-width:560px){ .wr-albs{ grid-template-columns:repeat(2,1fr); } }
+</style>
+
+<div class="wr">
+  <header class="wr-hero">
+    <div class="wr-eyebrow">Listening Wrapped</div>
+    <h1>我的聽歌回顧</h1>
+    <div class="wr-big">{{ w.total_fmt }}</div>
+    <div class="wr-big-label">次播放</div>
+    <div class="wr-chips">
+      <span class="wr-chip"><b>{{ w.uniq_art_fmt }}</b> 位藝人</span>
+      <span class="wr-chip"><b>{{ w.uniq_trk_fmt }}</b> 首不重複歌曲</span>
+    </div>
+    <div class="wr-span">{{ w.start }} &nbsp;→&nbsp; {{ w.end }}</div>
+  </header>
+
+  <section>
+    <div class="wr-h"><h2>最常聽的藝人</h2><span class="en">Top Artists</span></div>
+    <ul class="wr-arts">
+      {% for a in w.top_art %}
+      <li class="wr-art">
+        <span class="wr-rk">{{ forloop.index }}</span>
+        {% if a.img %}<img class="wr-av" src="{{ a.img }}" alt="{{ a.artist }}" loading="lazy">{% else %}<div class="wr-av-none">{{ a.artist | slice: 0 }}</div>{% endif %}
+        <div class="wr-am">
+          <div class="wr-atop"><span class="wr-aname">{{ a.artist }}</span><span class="wr-aplays">{{ a.plays_fmt }} 次</span></div>
+          <div class="wr-bar"><span style="width:{{ a.pct }}%"></span></div>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section>
+    <div class="wr-h"><h2>最愛的專輯</h2><span class="en">Top Albums</span></div>
+    <div class="wr-albs">
+      {% for al in w.top_alb %}
+      <figure class="wr-alb">
+        <div class="wr-alb-cover">
+          {% if al.img %}<img src="{{ al.img }}" alt="{{ al.album }}" loading="lazy">{% else %}<div class="wr-noimg">♪</div>{% endif %}
+          <span class="wr-alb-plays">{{ al.plays_fmt }} 次</span>
+        </div>
+        <figcaption><b>{{ al.album }}</b><span>{{ al.artist }}</span></figcaption>
+      </figure>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section>
+    <div class="wr-h"><h2>單曲循環冠軍</h2><span class="en">Most Played Tracks</span></div>
+    <ul class="wr-trks">
+      {% for t in w.top_trk %}
+      <li>
+        <span class="wr-tn">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
+        <div class="wr-tk"><span class="wr-tk-name">{{ t.track }}</span><span class="wr-tk-art">{{ t.artist }}</span></div>
+        <span class="wr-tk-plays">{{ t.plays_fmt }} 次</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section>
+    <div class="wr-h"><h2>這些年的聽歌量</h2><span class="en">Plays by Year</span></div>
+    <div class="wr-years">
+      {% for y in w.by_year %}
+      <div class="wr-yb">
+        <span class="wr-yb-val">{{ y.plays_fmt }}</span>
+        <div class="wr-yb-bar" style="height:{{ y.pct }}%"></div>
+        <span class="wr-yb-year">{{ y.year }}</span>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <div class="wr-foot">資料來源：Last.fm · 更新於 {{ w.generated }}</div>
+</div>
