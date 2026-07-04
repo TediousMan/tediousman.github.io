@@ -11,9 +11,9 @@ $border-color: #333333;
 $link-color: #7c93b0;
 $link-hover: #9db2cc;
 
-// Typography — LXGW WenKai for CJK body (via jsdelivr CDN), Noto Sans JP for Japanese display
-$font-body: "LXGW WenKai TC", -apple-system, BlinkMacSystemFont, "PingFang TC", "Microsoft JhengHei", "Noto Sans TC", sans-serif;
-$font-heading: $font-body;
+// Typography — 內文思源黑體 Noto Sans TC（好讀），標題霞鶩文楷 LXGW WenKai TC（溫度）
+$font-body: "Noto Sans TC", -apple-system, BlinkMacSystemFont, "PingFang TC", "Microsoft JhengHei", sans-serif;
+$font-heading: "LXGW WenKai TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
 $font-display: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", "LXGW WenKai TC", "PingFang TC", sans-serif;
 $font-mono: "SF Mono", "Fira Code", monospace;
 $font-size-base: 18px;
