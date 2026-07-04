@@ -1,0 +1,228 @@
+---
+layout: null
+permalink: /font-compare/
+sitemap: false
+---
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>字型比較 | 無聊男子的自言自語</title>
+
+  <!-- 候選字型：思源黑體、思源宋體（Google）＋ 霞鶩文楷（jsDelivr，你現在用的） -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-tc-webfont@1.2.0/style.css" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #1a1a1a;
+      --bg-card: #202020;
+      --border: #333;
+      --text: #c8c8c8;
+      --text-2: #a0a0a0;
+      --muted: #666;
+      --accent: #7c93b0;
+
+      /* 你網站的閱讀設定 */
+      --reading-size: 18px;
+      --reading-lh: 1.95;
+      --reading-ls: 0.02em;
+
+      --kai: "LXGW WenKai TC", serif;
+      --sans: "Noto Sans TC", -apple-system, "PingFang TC", "Microsoft JhengHei", sans-serif;
+      --serif: "Noto Serif TC", "Songti TC", serif;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--sans);
+      -webkit-font-smoothing: antialiased;
+      padding: 0 20px 80px;
+    }
+
+    .wrap { max-width: 780px; margin: 0 auto; }
+
+    header.page-top {
+      text-align: center;
+      padding: 48px 0 8px;
+    }
+    header.page-top h1 {
+      font-family: var(--kai);
+      font-size: 2rem;
+      font-weight: 700;
+      color: #e6e6e6;
+      letter-spacing: 0.01em;
+    }
+    header.page-top p {
+      color: var(--text-2);
+      font-size: 0.95rem;
+      margin-top: 0.6em;
+      line-height: 1.7;
+    }
+
+    .settings-note {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 24px 0 40px;
+      font-size: 0.85rem;
+      color: var(--text-2);
+      line-height: 1.8;
+      text-align: center;
+    }
+    .settings-note b { color: var(--accent); font-weight: 600; }
+
+    .option {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 28px 30px 34px;
+      margin-bottom: 30px;
+    }
+
+    .option-label {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 22px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid var(--border);
+    }
+    .chip {
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 3px 10px;
+      border-radius: 20px;
+      letter-spacing: 0.04em;
+    }
+    .chip.now { background: #3a3320; color: #d8c48a; }
+    .chip.rec { background: #24333f; color: #9db8d4; }
+    .chip.alt { background: #2a2a2a; color: #a0a0a0; }
+    .option-label .name { font-size: 1.05rem; font-weight: 600; color: #e0e0e0; }
+    .option-label .desc { font-size: 0.85rem; color: var(--muted); flex-basis: 100%; }
+
+    /* 樣本標題與內文 */
+    .sample-h {
+      font-size: 1.7rem;
+      font-weight: 700;
+      color: #e6e6e6;
+      margin-bottom: 0.7em;
+      letter-spacing: 0.01em;
+      line-height: 1.35;
+    }
+    .sample-body {
+      font-size: var(--reading-size);
+      line-height: var(--reading-lh);
+      letter-spacing: var(--reading-ls);
+      color: var(--text);
+    }
+    .sample-body p { margin-bottom: 1.3em; }
+    .sample-body p:last-child { margin-bottom: 0; }
+
+    /* 各方案字型套用 */
+    .opt-kai .sample-h,   .opt-kai .sample-body   { font-family: var(--kai); }
+    .opt-sans .sample-h,  .opt-sans .sample-body  { font-family: var(--sans); }
+    .opt-serif .sample-body { font-family: var(--serif); }
+    .opt-serif .sample-h    { font-family: var(--kai); }   /* 配對：標題文楷 */
+    .opt-sans-pair .sample-body { font-family: var(--sans); }
+    .opt-sans-pair .sample-h    { font-family: var(--kai); } /* 配對：標題文楷 */
+
+    .back {
+      display: inline-block;
+      margin-top: 10px;
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .back:hover { color: #9db2cc; }
+
+    @media (max-width: 600px) {
+      :root { --reading-size: 17px; }
+      .option { padding: 22px 20px 26px; }
+      .sample-h { font-size: 1.45rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="page-top">
+      <h1>字型比較</h1>
+      <p>用你網站真實的文字，並排四種可行的組合。<br>找一個看起來最順、最不累的，告訴我編號就好。</p>
+    </header>
+
+    <div class="settings-note">
+      四張卡片都套用你網站現有的閱讀設定：<br>
+      字級 <b>18px</b>（手機 17px）· 行距 <b>1.95</b> · 字距 <b>0.02em</b> · 行寬約 <b>700px</b><br>
+      差別<b>只在字型</b>，這樣比較才公平。
+    </div>
+
+    <!-- 方案 1：現狀 -->
+    <section class="option opt-kai">
+      <div class="option-label">
+        <span class="chip now">方案 1・現在</span>
+        <span class="name">全站霞鶩文楷</span>
+        <span class="desc">標題與內文都是手寫楷體。溫暖、有個性，就是你現在的樣子。</span>
+      </div>
+      <div class="sample-h">戴上耳機慢慢聽 筆記</div>
+      <div class="sample-body">
+        <p>2017 年活動於東京的五人制旋律硬蕊樂團 Fall of Tears。以旋律硬蕊為基底，融合後搖、另類搖滾與氛圍音樂，編織出層疊的聲響。兩位風格迴異的雙主唱是最大特色，呢喃般的念著歌詞、痛切的嘶吼，以及清澈的歌聲交錯，帶來既虛幻又哀愁的情景。</p>
+        <p>其中偷渡了一首比較安靜的 norke〈Six Feet Ravine〉，特別是 3:58 的那聲吶喊，彷彿什麼都明白而下定了決心。</p>
+      </div>
+    </section>
+
+    <!-- 方案 2：推薦 標題文楷 + 內文思源黑體 -->
+    <section class="option opt-sans-pair">
+      <div class="option-label">
+        <span class="chip rec">方案 2・我最推薦</span>
+        <span class="name">標題霞鶩文楷 ＋ 內文思源黑體</span>
+        <span class="desc">內文換成中性黑體，長文最清爽不累；標題保留手寫溫度。兩全其美。</span>
+      </div>
+      <div class="sample-h">戴上耳機慢慢聽 筆記</div>
+      <div class="sample-body">
+        <p>2017 年活動於東京的五人制旋律硬蕊樂團 Fall of Tears。以旋律硬蕊為基底，融合後搖、另類搖滾與氛圍音樂，編織出層疊的聲響。兩位風格迴異的雙主唱是最大特色，呢喃般的念著歌詞、痛切的嘶吼，以及清澈的歌聲交錯，帶來既虛幻又哀愁的情景。</p>
+        <p>其中偷渡了一首比較安靜的 norke〈Six Feet Ravine〉，特別是 3:58 的那聲吶喊，彷彿什麼都明白而下定了決心。</p>
+      </div>
+    </section>
+
+    <!-- 方案 3：標題文楷 + 內文思源宋體 -->
+    <section class="option opt-serif">
+      <div class="option-label">
+        <span class="chip alt">方案 3</span>
+        <span class="name">標題霞鶩文楷 ＋ 內文思源宋體</span>
+        <span class="desc">內文換成明體，帶書卷、文學氣息；適合抒情、慢節奏的音樂筆記。</span>
+      </div>
+      <div class="sample-h">戴上耳機慢慢聽 筆記</div>
+      <div class="sample-body">
+        <p>2017 年活動於東京的五人制旋律硬蕊樂團 Fall of Tears。以旋律硬蕊為基底，融合後搖、另類搖滾與氛圍音樂，編織出層疊的聲響。兩位風格迴異的雙主唱是最大特色，呢喃般的念著歌詞、痛切的嘶吼，以及清澈的歌聲交錯，帶來既虛幻又哀愁的情景。</p>
+        <p>其中偷渡了一首比較安靜的 norke〈Six Feet Ravine〉，特別是 3:58 的那聲吶喊，彷彿什麼都明白而下定了決心。</p>
+      </div>
+    </section>
+
+    <!-- 方案 4：全站思源黑體 -->
+    <section class="option opt-sans">
+      <div class="option-label">
+        <span class="chip alt">方案 4</span>
+        <span class="name">全站思源黑體</span>
+        <span class="desc">標題與內文都用中性黑體，最乾淨俐落、最現代；但少了手寫的溫度。</span>
+      </div>
+      <div class="sample-h">戴上耳機慢慢聽 筆記</div>
+      <div class="sample-body">
+        <p>2017 年活動於東京的五人制旋律硬蕊樂團 Fall of Tears。以旋律硬蕊為基底，融合後搖、另類搖滾與氛圍音樂，編織出層疊的聲響。兩位風格迴異的雙主唱是最大特色，呢喃般的念著歌詞、痛切的嘶吼，以及清澈的歌聲交錯，帶來既虛幻又哀愁的情景。</p>
+        <p>其中偷渡了一首比較安靜的 norke〈Six Feet Ravine〉，特別是 3:58 的那聲吶喊，彷彿什麼都明白而下定了決心。</p>
+      </div>
+    </section>
+
+    <a class="back" href="/">← 回首頁</a>
+  </div>
+</body>
+</html>
