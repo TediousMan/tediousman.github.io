@@ -769,7 +769,9 @@ permalink: /admin/
           <button onclick="insertFormat('\n> ', '\n')" title="引用">引用</button>
           <button onclick="insertFormat('\n- ', '\n')" title="清單">清單</button>
           <button onclick="insertFormat('[', '](https://)')" title="連結">連結</button>
-          <button onclick="insertImage()" title="圖片">圖片</button>
+          <button onclick="pickImageFile()" title="上傳圖片到部落格（也可直接把圖片拖進下方、或貼上）">🖼 圖片</button>
+          <button onclick="insertImage()" title="插入外部圖片網址">圖片網址</button>
+          <input type="file" id="imgFileInput" accept="image/png,image/jpeg,image/gif,image/webp" multiple style="display:none" onchange="handleImagePick(this)">
           <select onchange="handleEmbedSelect(this)" title="插入外部嵌入內容"
                   style="width:auto; padding:6px 10px; background:#333; border:1px solid #444; border-radius:4px; color:#ccc; font-size:0.85rem; cursor:pointer;">
             <option value="">嵌入 ▾</option>
@@ -781,11 +783,14 @@ permalink: /admin/
             <option value="insertThreads">Threads</option>
           </select>
         </div>
-        <textarea id="postContent" placeholder="在這裡用 Markdown 撰寫文章內容..."></textarea>
+        <textarea id="postContent" placeholder="在這裡用 Markdown 撰寫文章內容...（可直接把圖片拖進來，或截圖後 Ctrl+V 貼上，會自動上傳）"></textarea>
         <div class="editor-footer-info">
           <span id="wordCountInfo" class="word-count-info"></span>
           <span id="autoSaveStatus" class="auto-save-status"></span>
         </div>
+        <style>
+          #postContent.drag-over { outline: 2px dashed #7c93b0; outline-offset: -4px; background: rgba(124,147,176,0.06); }
+        </style>
       </div>
 
       <div id="previewTab" class="preview-area"></div>
@@ -1335,6 +1340,99 @@ permalink: /admin/
     ta.value = ta.value.substring(0, pos) + '\n' + md + '\n' + ta.value.substring(pos);
     ta.focus();
   }
+
+  // ===== 圖片上傳：工具列選檔 / 拖曳 / 貼上，皆自動上傳到 repo 並插入 Markdown =====
+  const IMG_MAX_BYTES = 8 * 1024 * 1024; // 8MB 上限
+  const IMG_EXT = { 'image/png': 'png', 'image/jpeg': 'jpg', 'image/gif': 'gif', 'image/webp': 'webp' };
+
+  function pickImageFile() { document.getElementById('imgFileInput').click(); }
+  function handleImagePick(input) {
+    const files = Array.from(input.files || []);
+    files.forEach(f => uploadImageFile(f));
+    input.value = '';
+  }
+
+  function insertAtCursor(ta, text) {
+    const s = ta.selectionStart, e = ta.selectionEnd;
+    ta.value = ta.value.substring(0, s) + text + ta.value.substring(e);
+    ta.focus();
+    ta.selectionStart = ta.selectionEnd = s + text.length;
+  }
+
+  async function uploadImageFile(file) {
+    const ta = document.getElementById('postContent');
+    const ext = IMG_EXT[file.type];
+    if (!ext) { showStatus('editorStatus', '只支援 PNG / JPG / GIF / WebP 圖片', 'error'); return; }
+    if (file.size > IMG_MAX_BYTES) { showStatus('editorStatus', '圖片太大（上限 8MB），請先壓縮再上傳', 'error'); return; }
+    const token = getToken();
+    if (!token) { showStatus('editorStatus', '請先登入再上傳圖片', 'error'); return; }
+
+    // 唯一標記，避免多張同時上傳時佔位文字互相蓋到
+    const stamp = Date.now() + '-' + Math.random().toString(36).slice(2, 6);
+    const placeholder = `![上傳中…](uploading-${stamp})`;
+    insertAtCursor(ta, placeholder + '\n');
+
+    try {
+      // 讀成 base64（去掉 data:image/...;base64, 前綴，剩下的就是 GitHub 要的二進位 base64）
+      const b64 = await new Promise((resolve, reject) => {
+        const r = new FileReader();
+        r.onload = () => resolve(String(r.result).split(',')[1]);
+        r.onerror = () => reject(new Error('讀取檔案失敗'));
+        r.readAsDataURL(file);
+      });
+
+      const now = new Date();
+      const yyyy = now.getFullYear();
+      const mm = String(now.getMonth() + 1).padStart(2, '0');
+      const safe = (file.name || 'image').replace(/\.[^.]+$/, '')
+        .replace(/[^\w一-鿿㐀-䶿-]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 40) || 'image';
+      const path = `assets/images/uploads/${yyyy}/${mm}/${stamp}-${safe}.${ext}`;
+
+      const res = await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/${path}`, {
+        method: 'PUT',
+        headers: { 'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json' },
+        body: JSON.stringify({ message: `上傳圖片：${safe}.${ext}`, content: b64 })
+      });
+      if (!res.ok) { const e = await res.json().catch(() => ({})); throw new Error(e.message || '上傳失敗'); }
+
+      // 用真正的 Markdown 取代佔位文字
+      ta.value = ta.value.replace(placeholder, `![${safe}](/${path})`);
+      if (typeof updateWordCount === 'function') updateWordCount();
+      showStatus('editorStatus', '圖片已上傳並插入！網站重建後就會顯示。', 'success');
+    } catch (err) {
+      ta.value = ta.value.replace(placeholder + '\n', '').replace(placeholder, '');
+      showStatus('editorStatus', '圖片上傳失敗：' + err.message, 'error');
+    }
+  }
+
+  // 綁定拖曳與貼上（截圖 Ctrl+V）到編輯區
+  (function() {
+    const ta = document.getElementById('postContent');
+    if (!ta) return;
+    ['dragenter', 'dragover'].forEach(ev => ta.addEventListener(ev, e => {
+      if (e.dataTransfer && Array.from(e.dataTransfer.types || []).includes('Files')) {
+        e.preventDefault();
+        ta.classList.add('drag-over');
+      }
+    }));
+    ['dragleave', 'dragend', 'drop'].forEach(ev => ta.addEventListener(ev, () => ta.classList.remove('drag-over')));
+    ta.addEventListener('drop', e => {
+      const files = e.dataTransfer && e.dataTransfer.files;
+      if (!files || !files.length) return;
+      const imgs = Array.from(files).filter(f => f.type && f.type.startsWith('image/'));
+      if (imgs.length) { e.preventDefault(); imgs.forEach(f => uploadImageFile(f)); }
+    });
+    ta.addEventListener('paste', e => {
+      const items = e.clipboardData && e.clipboardData.items;
+      if (!items) return;
+      for (const it of items) {
+        if (it.type && it.type.startsWith('image/')) {
+          const f = it.getAsFile();
+          if (f) { e.preventDefault(); uploadImageFile(f); }
+        }
+      }
+    });
+  })();
 
   function insertSpotify() {
     const url = prompt('請貼上 Spotify 歌曲或專輯的網址：\n例如：https://open.spotify.com/album/xxxxx');
