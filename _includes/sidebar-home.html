@@ -19,13 +19,4 @@
       {% endfor %}
     </ul>
   </section>
-
-  <section class="sidebar-section">
-    <h3>分類</h3>
-    <ul class="sidebar-cats">
-      <li><a href="{{ '/music-reviews' | relative_url }}">音樂記錄<span class="cat-count">{{ site.posts | where: "category", "音樂記錄" | size }}</span></a></li>
-      <li><a href="{{ '/reflections' | relative_url }}">個人心得<span class="cat-count">{{ site.posts | where: "category", "個人心得" | size }}</span></a></li>
-      <li><a href="{{ '/life' | relative_url }}">生活紀錄<span class="cat-count">{{ site.posts | where: "category", "生活紀錄" | size }}</span></a></li>
-    </ul>
-  </section>
 </aside>
