@@ -3,6 +3,12 @@
     <h3>關於這裡</h3>
     <p>一個無聊男子的自言自語。關於音樂、關於生活，還有那些說不上重要、卻想留住的瞬間。</p>
 
+    <div class="sns-row">
+      <a href="https://open.spotify.com/user/bigbone1127" target="_blank" rel="me noopener">Spotify</a>
+      <a href="https://www.instagram.com/tediousman2021" target="_blank" rel="me noopener">Instagram</a>
+      <a href="https://www.threads.com/@tediousman2021" target="_blank" rel="me noopener">Threads</a>
+    </div>
+
     <a id="now-listening" class="now-listening" href="{{ '/wrapped/' | relative_url }}" hidden>
       <span class="nl-top"><span id="nl-icon" class="nl-icon" aria-hidden="true">🎧</span><span id="nl-label" class="nl-label">最近聽</span></span>
       <span id="nl-song" class="nl-song"></span>
@@ -10,6 +16,14 @@
   </section>
 
   <style>
+    .sns-row { display:flex; gap:8px; flex-wrap:wrap; margin-top:14px; }
+    .sns-row a {
+      font-size:0.75rem; padding:4px 12px; border-radius:999px;
+      border:1px solid rgba(255,255,255,0.12); color:#8a8a92;
+      text-decoration:none; line-height:1.4;
+      transition:color 160ms ease, border-color 160ms ease;
+    }
+    .sns-row a:hover { color:#9db2cc; border-color:rgba(124,147,176,0.55); }
     .now-listening {
       display:block; margin-top:14px; padding-top:13px;
       border-top:1px solid rgba(255,255,255,0.08);
