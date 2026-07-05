@@ -177,6 +177,8 @@
       var isOpen = panel.style.display === 'block';
       panel.style.display = isOpen ? 'none' : 'block';
       sessionStorage.setItem('spotify_open', isOpen ? '0' : '1');
+      // 面板第一次被打開才真正載入 Spotify（省下每頁的隱形載入）
+      if (!isOpen && window._loadSpotifyPanel) window._loadSpotifyPanel();
     }
 
     // Playlist selection with cross-page persistence
@@ -185,9 +187,10 @@
       var ids = [{% for p in active_pl %}"{{ p.id }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
       if (!ids.length) return;
       var sessionKey = 'spotify_pid';
+      var pendingPid = null;   // 已選定但尚未載入的歌單
+      var loaded = false;      // 面板是否已真正載入過
 
-      function setPlaylist(pid) {
-        sessionStorage.setItem(sessionKey, pid);
+      function applyPlaylist(pid) {
         document.getElementById('spotify-iframe').src =
           'https://open.spotify.com/embed/playlist/' + pid + '?utm_source=generator&theme=0';
         // Fetch actual playlist title
@@ -200,6 +203,19 @@
           })
           .catch(function() {});
       }
+
+      // 記住選了哪個歌單；只有面板開著才立刻載入，否則等第一次打開
+      function setPlaylist(pid) {
+        sessionStorage.setItem(sessionKey, pid);
+        pendingPid = pid;
+        if (loaded) applyPlaylist(pid);
+      }
+
+      window._loadSpotifyPanel = function() {
+        if (loaded || !pendingPid) return;
+        loaded = true;
+        applyPlaylist(pendingPid);
+      };
 
       // 「換一個」：隨機換到另一個不同的歌單
       window.nextSpotify = function() {
@@ -220,9 +236,10 @@
         }
         setPlaylist(id);
       }
-      // Restore panel open state
+      // Restore panel open state（上一頁開著 → 這頁直接載入並展開）
       if (sessionStorage.getItem('spotify_open') === '1') {
         document.getElementById('spotify-panel').style.display = 'block';
+        window._loadSpotifyPanel();
       }
     })();
 

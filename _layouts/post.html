@@ -133,24 +133,39 @@ function copyPostLink() {
   }
 </style>
 <script type="module">
-  import { init } from 'https://cdn.jsdelivr.net/npm/@waline/client@v3/dist/waline.js';
-  init({
-    el: '#waline',
-    serverURL: 'https://blog-comments-mu-blond.vercel.app',
-    path: window.location.pathname,
-    dark: true,
-    lang: 'zh-TW',
-    emoji: [
-      'https://cdn.jsdelivr.net/npm/@waline/emojis@1.2.0/weibo',
-      'https://cdn.jsdelivr.net/npm/@waline/emojis@1.2.0/bilibili',
-      'https://cdn.jsdelivr.net/npm/@waline/emojis@1.2.0/tieba'
-    ],
-    locale: {
-      placeholder: '留下你的想法⋯（免註冊，暱稱必填，電子信箱可留可不留）',
-      mail: '電子信箱',
-      mailError: '請填寫正確的電子信箱'
-    }
-  });
+  // 留言系統捲到附近才載入（省下進頁面就扛 100KB+，讀者先讀文為主）
+  const walineEl = document.getElementById('waline');
+  let walineBooted = false;
+  async function bootWaline() {
+    if (walineBooted) return;
+    walineBooted = true;
+    const { init } = await import('https://cdn.jsdelivr.net/npm/@waline/client@v3/dist/waline.js');
+    init({
+      el: '#waline',
+      serverURL: 'https://blog-comments-mu-blond.vercel.app',
+      path: window.location.pathname,
+      dark: true,
+      lang: 'zh-TW',
+      emoji: [
+        'https://cdn.jsdelivr.net/npm/@waline/emojis@1.2.0/weibo',
+        'https://cdn.jsdelivr.net/npm/@waline/emojis@1.2.0/bilibili',
+        'https://cdn.jsdelivr.net/npm/@waline/emojis@1.2.0/tieba'
+      ],
+      locale: {
+        placeholder: '留下你的想法⋯（免註冊，暱稱必填，電子信箱可留可不留）',
+        mail: '電子信箱',
+        mailError: '請填寫正確的電子信箱'
+      }
+    });
+  }
+  if ('IntersectionObserver' in window && walineEl) {
+    const io = new IntersectionObserver(function(entries) {
+      if (entries.some(e => e.isIntersecting)) { io.disconnect(); bootWaline(); }
+    }, { rootMargin: '600px' });
+    io.observe(walineEl);
+  } else {
+    bootWaline();
+  }
 </script>
 <script>
 window.addEventListener('message', function(e) {
