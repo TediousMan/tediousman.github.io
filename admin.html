@@ -721,7 +721,6 @@ permalink: /admin/
           <option value="音樂記錄">音樂記錄</option>
           <option value="個人心得">個人心得</option>
           <option value="生活紀錄">生活紀錄</option>
-          <option value="Spotify 歌單">Spotify 歌單</option>
         </select>
       </div>
       <div class="form-group">
@@ -770,11 +769,11 @@ permalink: /admin/
           <button onclick="insertFormat('\n- ', '\n')" title="清單">清單</button>
           <button onclick="insertFormat('[', '](https://)')" title="連結">連結</button>
           <button onclick="pickImageFile()" title="上傳圖片到部落格（也可直接把圖片拖進下方、或貼上）">🖼 圖片</button>
-          <button onclick="insertImage()" title="插入外部圖片網址">圖片網址</button>
           <input type="file" id="imgFileInput" accept="image/png,image/jpeg,image/gif,image/webp" multiple style="display:none" onchange="handleImagePick(this)">
           <select onchange="handleEmbedSelect(this)" title="插入外部嵌入內容"
                   style="width:auto; padding:6px 10px; background:#333; border:1px solid #444; border-radius:4px; color:#ccc; font-size:0.85rem; cursor:pointer;">
             <option value="">嵌入 ▾</option>
+            <option value="insertImage">圖片網址</option>
             <option value="insertSpotify">Spotify</option>
             <option value="insertAppleMusic">Apple Music</option>
             <option value="insertYouTube">YouTube</option>
@@ -1182,6 +1181,16 @@ permalink: /admin/
     if (typeof updateWordCount === 'function') updateWordCount();
     const banner = document.getElementById('draftBanner');
     if (banner) banner.style.display = 'none';
+    // 若雲端已有同名草稿（很可能就是這份的雲端版），自動接上，之後儲存會更新同一份而不是撞檔
+    const token = getToken();
+    if (token && d.date) {
+      const guessPath = `_drafts/${d.date}-${buildSlug(d.title || '')}.md`;
+      fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/${guessPath}`, {
+        headers: { 'Authorization': 'Bearer ' + token }
+      }).then(r => r.ok ? r.json() : null).then(data => {
+        if (data && data.sha && !draftFile) draftFile = { path: guessPath, sha: data.sha };
+      }).catch(() => {});
+    }
   }
 
   function discardDraft() {
@@ -1602,11 +1611,26 @@ permalink: /admin/
       const path = draftFile ? draftFile.path : `_drafts/${date}-${buildSlug(title)}.md`;
       const body = { message: `草稿：${title || '未命名'}`, content: encodeToBase64(fileContent) };
       if (draftFile && draftFile.sha) body.sha = draftFile.sha;
-      const res = await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/${path}`, {
+      let res = await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/${path}`, {
         method: 'PUT',
         headers: { 'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json' },
         body: JSON.stringify(body)
       });
+      if (res.status === 422 && !body.sha) {
+        // 撞到既有同名草稿（例如從本機提示條還原的舊草稿）：拿它的 sha 改成「更新」，不報天書錯誤
+        const exist = await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/${path}`, {
+          headers: { 'Authorization': 'Bearer ' + token }
+        });
+        if (exist.ok) {
+          const ex = await exist.json();
+          body.sha = ex.sha;
+          res = await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/${path}`, {
+            method: 'PUT',
+            headers: { 'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json' },
+            body: JSON.stringify(body)
+          });
+        }
+      }
       if (!res.ok) { const e = await res.json().catch(() => ({})); throw new Error(e.message || 'save failed'); }
       const data = await res.json();
       draftFile = { path: path, sha: data.content.sha };
@@ -1725,9 +1749,9 @@ permalink: /admin/
           });
         } catch(e) {}
       }
-      showStatus('editorStatus', '文章已成功發佈！即將返回首頁…', 'success');
+      showStatus('editorStatus', '文章已成功發佈！網站約 1-2 分鐘後更新，回到首頁暫時還看不到是正常的。', 'success');
       resetEditorForm();
-      setTimeout(function() { window.location.assign('/'); }, 1200);
+      setTimeout(function() { window.location.assign('/'); }, 2500);
     } catch(e) {
       showStatus('editorStatus', '發佈失敗：' + e.message, 'error');
     }
@@ -2060,9 +2084,9 @@ permalink: /admin/
       displayDiv.style.cssText = 'flex:1; padding:6px 10px; background:#2a2a2a; border:1px solid #333; border-radius:4px; min-width:0; overflow:hidden;';
       displayDiv.title = url;  // 網址收進 tooltip，滑鼠移上去可見
       if (name) {
-        displayDiv.innerHTML = '<div style="color:#c8c8c8; font-size:0.9rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">🎵 ' + name + '</div>';
+        displayDiv.innerHTML = '<div style="color:#c8c8c8; font-size:0.9rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">🎵 ' + escapeHtml(name) + '</div>';
       } else {
-        displayDiv.innerHTML = '<div style="color:#888; font-size:0.9rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">' + url + '</div>';
+        displayDiv.innerHTML = '<div style="color:#888; font-size:0.9rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">' + escapeHtml(url) + '</div>';
       }
       row.appendChild(displayDiv);
       row.appendChild(inp);
@@ -2089,8 +2113,8 @@ permalink: /admin/
           displayDiv.title = inp.value;
           var label = nameInp.value.trim();
           displayDiv.innerHTML = label
-            ? '<div style="color:#c8c8c8; font-size:0.9rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">🎵 ' + label + '</div>'
-            : '<div style="color:#888; font-size:0.9rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">' + inp.value + '</div>';
+            ? '<div style="color:#c8c8c8; font-size:0.9rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">🎵 ' + escapeHtml(label) + '</div>'
+            : '<div style="color:#888; font-size:0.9rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">' + escapeHtml(inp.value) + '</div>';
           editBtn.textContent = '✏';
           editBtn.title = '編輯';
         }
@@ -2175,9 +2199,9 @@ permalink: /admin/
             if (fetchedName) {
               refs.nameInp.value = fetchedName;
               refs.displayDiv.innerHTML =
-                '<div style="color:#c8c8c8; font-size:0.9rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">🎵 ' + fetchedName + '</div>';
+                '<div style="color:#c8c8c8; font-size:0.9rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">🎵 ' + escapeHtml(fetchedName) + '</div>';
             } else {
-              refs.displayDiv.innerHTML = '<div style="color:#888; font-size:0.9rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">' + playlistUrl + '</div>';
+              refs.displayDiv.innerHTML = '<div style="color:#888; font-size:0.9rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">' + escapeHtml(playlistUrl) + '</div>';
             }
           });
         }
@@ -2500,7 +2524,7 @@ permalink: /admin/
       const draftEditBtn = e.target.closest('.btn-edit-draft');
       const draftDeleteBtn = e.target.closest('.btn-delete-draft');
       if (draftEditBtn) { editDraft(draftEditBtn.dataset.path); return; }
-      if (draftDeleteBtn) { deletePost(draftDeleteBtn.dataset.path, draftDeleteBtn.dataset.sha, draftDeleteBtn.dataset.title); return; }
+      if (draftDeleteBtn) { deletePost(draftDeleteBtn.dataset.path, draftDeleteBtn.dataset.sha, draftDeleteBtn.dataset.title, '草稿'); return; }
       const editBtn = e.target.closest('.btn-edit');
       const deleteBtn = e.target.closest('.btn-delete');
       const checkbox = e.target.closest('.post-check');
@@ -2620,7 +2644,11 @@ permalink: /admin/
     const token = getToken();
 
     if (!title) { alert('請輸入文章標題'); return; }
+    if (title.length > 200) { alert('標題不能超過 200 字'); return; }
     if (!date) { alert('請選擇日期'); return; }
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) { alert('日期格式錯誤，應為 YYYY-MM-DD'); return; }
+    if (isNaN(new Date(date + 'T00:00:00').getTime())) { alert('日期不合法'); return; }
+    if (!['音樂記錄', '生活紀錄', '個人心得'].includes(category)) { alert('請選擇有效的分類'); return; }
     if (!content) { alert('請輸入文章內容'); return; }
 
     const btn = document.getElementById('publishBtn');
@@ -2711,8 +2739,8 @@ permalink: /admin/
         showStatus('editorStatus', '文章已成功更新！', 'success');
         try { window.parent.postMessage({ type: 'tm-post-saved', path: newPath }, '*'); } catch(e) {}
       } else {
-        showStatus('editorStatus', '文章已成功更新！即將返回首頁…', 'success');
-        setTimeout(function() { window.location.assign('/'); }, 1200);
+        showStatus('editorStatus', '文章已成功更新！網站約 1-2 分鐘後生效，暫時看到舊內容是正常的。', 'success');
+        setTimeout(function() { window.location.assign('/'); }, 2500);
       }
     } catch(e) {
       showStatus('editorStatus', '更新失敗：' + e.message, 'error');
@@ -2736,8 +2764,9 @@ permalink: /admin/
     }
   }
 
-  async function deletePost(path, sha, title) {
-    if (!confirm(`確定要刪除文章「${title}」嗎？\n\n此操作無法復原！`)) return;
+  async function deletePost(path, sha, title, kind) {
+    kind = kind || '文章';
+    if (!confirm(`確定要刪除${kind}「${title}」嗎？\n\n此操作無法復原！`)) return;
 
     const token = getToken();
 
@@ -2749,7 +2778,7 @@ permalink: /admin/
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-          message: `刪除文章：${title}`,
+          message: `刪除${kind}：${title}`,
           sha: sha
         })
       });
@@ -2759,7 +2788,7 @@ permalink: /admin/
         throw new Error(err.message || '刪除失敗');
       }
 
-      showStatus('postsStatus', `已刪除「${title}」，網站將在 1-2 分鐘後更新。`, 'success');
+      showStatus('postsStatus', kind === '草稿' ? `已刪除草稿「${title}」。` : `已刪除「${title}」，網站將在 1-2 分鐘後更新。`, 'success');
       loadPosts(); // Refresh list
     } catch(e) {
       showStatus('postsStatus', '刪除失敗：' + e.message, 'error');
