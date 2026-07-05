@@ -2,12 +2,12 @@
  "generated": "2026-07-05",
  "year_label": "2026",
  "all": {
-  "total": 206445,
-  "total_fmt": "206,445",
-  "uniq_art": 7122,
-  "uniq_art_fmt": "7,122",
-  "uniq_trk": 29719,
-  "uniq_trk_fmt": "29,719",
+  "total": 206471,
+  "total_fmt": "206,471",
+  "uniq_art": 7123,
+  "uniq_art_fmt": "7,123",
+  "uniq_trk": 29724,
+  "uniq_trk_fmt": "29,724",
   "start": "2018-03-06",
   "end": "2026-07-05",
   "top_art": [
@@ -267,19 +267,19 @@
    },
    {
     "year": "2026",
-    "plays": 23358,
-    "plays_fmt": "23,358",
+    "plays": 23384,
+    "plays_fmt": "23,384",
     "pct": 43
    }
   ]
  },
  "year": {
-  "total": 23358,
-  "total_fmt": "23,358",
-  "uniq_art": 2510,
-  "uniq_art_fmt": "2,510",
-  "uniq_trk": 6838,
-  "uniq_trk_fmt": "6,838",
+  "total": 23384,
+  "total_fmt": "23,384",
+  "uniq_art": 2511,
+  "uniq_art_fmt": "2,511",
+  "uniq_trk": 6843,
+  "uniq_trk_fmt": "6,843",
   "top_art": [
    {
     "artist": "Kienai",
@@ -325,10 +325,10 @@
    },
    {
     "artist": "uyuu",
-    "plays": 143,
-    "plays_fmt": "143",
+    "plays": 144,
+    "plays_fmt": "144",
     "img": "https://i.scdn.co/image/ab67616d0000b27381582c0fb8f5908a6aee7f3e",
-    "pct": 63
+    "pct": 64
    },
    {
     "artist": "Avyss",
@@ -525,19 +525,19 @@
    },
    {
     "month": "7",
-    "plays": 657,
-    "plays_fmt": "657",
+    "plays": 683,
+    "plays_fmt": "683",
     "pct": 15
    }
   ]
  },
  "week": {
-  "total": 819,
-  "total_fmt": "819",
-  "uniq_art": 374,
-  "uniq_art_fmt": "374",
-  "uniq_trk": 514,
-  "uniq_trk_fmt": "514",
+  "total": 845,
+  "total_fmt": "845",
+  "uniq_art": 387,
+  "uniq_art_fmt": "387",
+  "uniq_trk": 537,
+  "uniq_trk_fmt": "537",
   "start": "6/29",
   "end": "7/5",
   "top_art": [
@@ -679,8 +679,8 @@
    {
     "album": "I'm Busy",
     "artist": "Cheche",
-    "plays": 8,
-    "plays_fmt": "8",
+    "plays": 9,
+    "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5eb14295c025afeac9fea39f0f2"
    }
   ],
@@ -785,9 +785,9 @@
    },
    {
     "day": "7/5",
-    "plays": 74,
-    "plays_fmt": "74",
-    "pct": 32
+    "plays": 100,
+    "plays_fmt": "100",
+    "pct": 43
    }
   ]
  }
