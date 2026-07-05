@@ -1,15 +1,15 @@
 {
- "generated": "2026-07-04",
+ "generated": "2026-07-05",
  "year_label": "2026",
  "all": {
-  "total": 206252,
-  "total_fmt": "206,252",
-  "uniq_art": 7119,
-  "uniq_art_fmt": "7,119",
-  "uniq_trk": 29675,
-  "uniq_trk_fmt": "29,675",
+  "total": 206445,
+  "total_fmt": "206,445",
+  "uniq_art": 7122,
+  "uniq_art_fmt": "7,122",
+  "uniq_trk": 29719,
+  "uniq_trk_fmt": "29,719",
   "start": "2018-03-06",
-  "end": "2026-07-04",
+  "end": "2026-07-05",
   "top_art": [
    {
     "artist": "Mr.ふぉるて",
@@ -267,19 +267,19 @@
    },
    {
     "year": "2026",
-    "plays": 23165,
-    "plays_fmt": "23,165",
+    "plays": 23358,
+    "plays_fmt": "23,358",
     "pct": 43
    }
   ]
  },
  "year": {
-  "total": 23165,
-  "total_fmt": "23,165",
-  "uniq_art": 2505,
-  "uniq_art_fmt": "2,505",
-  "uniq_trk": 6793,
-  "uniq_trk_fmt": "6,793",
+  "total": 23358,
+  "total_fmt": "23,358",
+  "uniq_art": 2510,
+  "uniq_art_fmt": "2,510",
+  "uniq_trk": 6838,
+  "uniq_trk_fmt": "6,838",
   "top_art": [
    {
     "artist": "Kienai",
@@ -290,15 +290,15 @@
    },
    {
     "artist": "Ramblamp",
-    "plays": 212,
-    "plays_fmt": "212",
+    "plays": 213,
+    "plays_fmt": "213",
     "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf",
     "pct": 94
    },
    {
     "artist": "BUDOU JUICE",
-    "plays": 198,
-    "plays_fmt": "198",
+    "plays": 200,
+    "plays_fmt": "200",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f",
     "pct": 88
    },
@@ -339,17 +339,17 @@
    },
    {
     "artist": "夜標",
-    "plays": 137,
-    "plays_fmt": "137",
+    "plays": 138,
+    "plays_fmt": "138",
     "img": "https://i.scdn.co/image/ab67616d0000b27351e19785c99f993a0cfba5ce",
     "pct": 61
    },
    {
     "artist": "the Wulongs",
-    "plays": 135,
-    "plays_fmt": "135",
+    "plays": 137,
+    "plays_fmt": "137",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
-    "pct": 60
+    "pct": 61
    }
   ],
   "top_alb": [
@@ -377,15 +377,15 @@
    {
     "album": "BUDOU JUICE",
     "artist": "BUDOU JUICE",
-    "plays": 158,
-    "plays_fmt": "158",
+    "plays": 159,
+    "plays_fmt": "159",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f"
    },
    {
     "album": "Nichijogamatakodamasuru",
     "artist": "Ramblamp",
-    "plays": 153,
-    "plays_fmt": "153",
+    "plays": 154,
+    "plays_fmt": "154",
     "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
    },
    {
@@ -403,18 +403,18 @@
     "img": "https://i.scdn.co/image/ab67616d0000b27373eadbb2eb0dfafb999dc4d4"
    },
    {
+    "album": "135",
+    "artist": "wanbed",
+    "plays": 121,
+    "plays_fmt": "121",
+    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/8f67506eb69e1457aed72a3f1273f862.jpg"
+   },
+   {
     "album": "日々、折り返すごとに",
     "artist": "爛漫天国",
     "plays": 121,
     "plays_fmt": "121",
     "img": "https://i.scdn.co/image/ab6761610000e5eb59ee187da2de942d5f50e0e0"
-   },
-   {
-    "album": "135",
-    "artist": "wanbed",
-    "plays": 120,
-    "plays_fmt": "120",
-    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/8f67506eb69e1457aed72a3f1273f862.jpg"
    },
    {
     "album": "2rue end",
@@ -452,8 +452,8 @@
    {
     "track": "浴槽",
     "artist": "夜標",
-    "plays": 65,
-    "plays_fmt": "65"
+    "plays": 66,
+    "plays_fmt": "66"
    },
    {
     "track": "Anemone",
@@ -525,9 +525,9 @@
    },
    {
     "month": "7",
-    "plays": 464,
-    "plays_fmt": "464",
-    "pct": 10
+    "plays": 657,
+    "plays_fmt": "657",
+    "pct": 15
    }
   ]
  }
