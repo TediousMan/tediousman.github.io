@@ -1107,6 +1107,7 @@ permalink: /admin/
 
       editingFile = { path: path, sha: data.sha };
       draftFile = null;
+      editorDirty = false;
 
       const btn = document.getElementById('publishBtn');
       btn.textContent = '更新文章';
@@ -1583,6 +1584,11 @@ permalink: /admin/
     const statusEl = document.getElementById('autoSaveStatus');
     if (statusEl) statusEl.textContent = '自動儲存於 ' + hhmm;
 
+    // 編輯已發佈文章時不建雲端草稿（避免之後從草稿發佈變成重複文章）
+    if (editingFile) {
+      showStatus('editorStatus', '正在編輯已發佈的文章：內容已暫存在這台電腦。要正式儲存請按「更新文章」。', 'success');
+      return;
+    }
     // 雲端草稿：存進 repo 的 _drafts/（Jekyll 不會發佈這個資料夾），換電腦也讀得到
     const token = getToken();
     if (!token) { showStatus('editorStatus', '草稿已存在這台瀏覽器（未登入，沒存到雲端）', 'success'); return; }
@@ -1626,6 +1632,7 @@ permalink: /admin/
     localStorage.removeItem('post_draft');
     pendingDraft = null;
     draftFile = null;
+    editorDirty = false;
     const banner = document.getElementById('draftBanner');
     if (banner) banner.style.display = 'none';
   }
@@ -1664,6 +1671,19 @@ permalink: /admin/
       .replace(/^-+|-+$/g, '')
       .substring(0, 50);
     const filename = `_posts/${date}-${slug}.md`;
+
+    // 同日期＋同標題會撞檔名：先檢查，避免 GitHub 回一串看不懂的英文錯誤
+    try {
+      const existRes = await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/${filename}`, {
+        headers: { 'Authorization': 'Bearer ' + token }
+      });
+      if (existRes.ok) {
+        showStatus('editorStatus', '已經有一篇同日期、同標題的文章了，請改一下標題或日期再發佈。', 'error');
+        btn.disabled = false;
+        btn.textContent = '發佈文章';
+        return;
+      }
+    } catch(e) { /* 檢查失敗就照常發佈，撞到再由下面的錯誤處理接手 */ }
 
     // Build front matter — always store as Taiwan time (UTC+8) for consistent ordering
     const now = new Date();
@@ -1737,6 +1757,32 @@ permalink: /admin/
   }
   document.getElementById('postContent').addEventListener('input', updateWordCount);
   updateWordCount();
+
+  // Ctrl+S / Cmd+S = 儲存草稿（攔掉瀏覽器沒用的「儲存網頁」視窗）
+  document.addEventListener('keydown', function(e) {
+    if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 's') {
+      const editorSection = document.getElementById('editorSection');
+      if (!editorSection || !editorSection.classList.contains('active')) return;
+      e.preventDefault();
+      saveDraft();
+    }
+  });
+
+  // 編輯既有文章時沒有自動暫存，手滑關頁會白改 → 有未儲存變更時跳原生確認
+  let editorDirty = false;
+  ['postTitle', 'postDate', 'postCategory', 'postDescription', 'postCover', 'postContent'].forEach(function(id) {
+    const el = document.getElementById(id);
+    if (el) {
+      el.addEventListener('input', function() { editorDirty = true; });
+      el.addEventListener('change', function() { editorDirty = true; });
+    }
+  });
+  window.addEventListener('beforeunload', function(e) {
+    if (editingFile && editorDirty) {
+      e.preventDefault();
+      e.returnValue = '';
+    }
+  });
 
   // Auto-save draft every 30 seconds (silent)
   setInterval(() => {
@@ -2512,6 +2558,7 @@ permalink: /admin/
       sha: post.sha
     };
     draftFile = null; // 編輯已發佈文章，不關聯任何雲端草稿
+    editorDirty = false; // 剛載入，尚無變更
 
     // Change publish button to update mode
     const btn = document.getElementById('publishBtn');
@@ -2554,6 +2601,7 @@ permalink: /admin/
 
     editingFile = null;
     draftFile = { path: d.path, sha: d.sha };
+    editorDirty = false;
     const btn = document.getElementById('publishBtn');
     btn.textContent = '發佈文章';
     btn.onclick = publish;
@@ -2593,22 +2641,17 @@ permalink: /admin/
         .substring(0, 50);
       const newPath = `_posts/${date}-${newSlug}.md`;
 
+      let oldFileLeft = false; // 改名時舊檔刪除失敗的旗標
       if (newPath !== editingFile.path) {
-        // Delete old file first
-        await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/${editingFile.path}`, {
-          method: 'DELETE',
-          headers: {
-            'Authorization': 'Bearer ' + token,
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify({
-            message: `刪除舊文章：${editingFile.path}`,
-            sha: editingFile.sha
-          })
-        });
+        // 改標題/日期＝換網址：明確警告（舊連結 404、留言綁網址會對不上）
+        if (!confirm('注意：改了標題或日期會改變這篇文章的網址！\n\n・舊網址會失效（別人存的連結會變 404）\n・這篇文章的留言是綁舊網址的，換網址後留言會看不到\n\n確定要用新網址儲存嗎？\n（按「取消」可回去把標題/日期改回原樣）')) {
+          btn.disabled = false;
+          btn.textContent = '更新文章';
+          return;
+        }
 
-        // Create new file
-        await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/${newPath}`, {
+        // 先建新檔、確認成功，再刪舊檔——中途失敗不會弄丟文章
+        const createRes = await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/${newPath}`, {
           method: 'PUT',
           headers: {
             'Authorization': 'Bearer ' + token,
@@ -2619,9 +2662,26 @@ permalink: /admin/
             content: encodeToBase64(fileContent)
           })
         });
+        if (!createRes.ok) {
+          const err = await createRes.json().catch(() => ({}));
+          throw new Error(err.message || '建立新檔失敗，文章維持原樣未變動');
+        }
+
+        const delRes = await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/${editingFile.path}`, {
+          method: 'DELETE',
+          headers: {
+            'Authorization': 'Bearer ' + token,
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            message: `刪除舊文章：${editingFile.path}`,
+            sha: editingFile.sha
+          })
+        });
+        if (!delRes.ok) oldFileLeft = true; // 新版已存好，只是舊檔沒刪掉
       } else {
         // Same filename, just update content
-        await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/${editingFile.path}`, {
+        const updRes = await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/${editingFile.path}`, {
           method: 'PUT',
           headers: {
             'Authorization': 'Bearer ' + token,
@@ -2633,6 +2693,10 @@ permalink: /admin/
             sha: editingFile.sha
           })
         });
+        if (!updRes.ok) {
+          const err = await updRes.json().catch(() => ({}));
+          throw new Error(err.message || '更新失敗');
+        }
       }
 
       editingFile = null;
@@ -2641,7 +2705,9 @@ permalink: /admin/
       const cancelBtn2 = document.getElementById('cancelEditBtn');
       if (cancelBtn2) cancelBtn2.classList.remove('visible');
       resetEditorForm();
-      if (IS_EMBED) {
+      if (oldFileLeft) {
+        showStatus('editorStatus', '新版已儲存，但舊檔刪除失敗——文章列表會出現新舊兩篇，請到「所有文章」把舊的那篇刪掉。', 'error');
+      } else if (IS_EMBED) {
         showStatus('editorStatus', '文章已成功更新！', 'success');
         try { window.parent.postMessage({ type: 'tm-post-saved', path: newPath }, '*'); } catch(e) {}
       } else {
