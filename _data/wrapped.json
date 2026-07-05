@@ -530,5 +530,265 @@
     "pct": 15
    }
   ]
+ },
+ "week": {
+  "total": 819,
+  "total_fmt": "819",
+  "uniq_art": 374,
+  "uniq_art_fmt": "374",
+  "uniq_trk": 514,
+  "uniq_trk_fmt": "514",
+  "start": "6/29",
+  "end": "7/5",
+  "top_art": [
+   {
+    "artist": "Avyss",
+    "plays": 140,
+    "plays_fmt": "140",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebd62a8f1b8fdda09095bcd4f5",
+    "pct": 100
+   },
+   {
+    "artist": "EverBrighteller",
+    "plays": 19,
+    "plays_fmt": "19",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb503dcd9fd679892ccbc7fc71",
+    "pct": 14
+   },
+   {
+    "artist": "Cyan",
+    "plays": 16,
+    "plays_fmt": "16",
+    "img": null,
+    "pct": 11
+   },
+   {
+    "artist": "AVYSS, くゆる",
+    "plays": 15,
+    "plays_fmt": "15",
+    "img": null,
+    "pct": 11
+   },
+   {
+    "artist": "eskamila",
+    "plays": 14,
+    "plays_fmt": "14",
+    "img": null,
+    "pct": 10
+   },
+   {
+    "artist": "あのと",
+    "plays": 13,
+    "plays_fmt": "13",
+    "img": null,
+    "pct": 9
+   },
+   {
+    "artist": "Kawabe Moto",
+    "plays": 12,
+    "plays_fmt": "12",
+    "img": null,
+    "pct": 9
+   },
+   {
+    "artist": "レイラ",
+    "plays": 12,
+    "plays_fmt": "12",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb5a7ae7ae77a6230eb4107638",
+    "pct": 9
+   },
+   {
+    "artist": "0.2lx",
+    "plays": 10,
+    "plays_fmt": "10",
+    "img": null,
+    "pct": 7
+   },
+   {
+    "artist": "Good Food",
+    "plays": 10,
+    "plays_fmt": "10",
+    "img": null,
+    "pct": 7
+   }
+  ],
+  "top_alb": [
+   {
+    "album": "INNER SYNC",
+    "artist": "Avyss",
+    "plays": 140,
+    "plays_fmt": "140",
+    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/389d72d53aa10059db21ff4907f3ee32.jpg"
+   },
+   {
+    "album": "GOLD",
+    "artist": "EverBrighteller",
+    "plays": 17,
+    "plays_fmt": "17",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb503dcd9fd679892ccbc7fc71"
+   },
+   {
+    "album": "INNER SYNC",
+    "artist": "AVYSS, くゆる",
+    "plays": 15,
+    "plays_fmt": "15",
+    "img": null
+   },
+   {
+    "album": "HomeComing",
+    "artist": "eskamila",
+    "plays": 14,
+    "plays_fmt": "14",
+    "img": null
+   },
+   {
+    "album": "君がいない",
+    "artist": "あのと",
+    "plays": 13,
+    "plays_fmt": "13",
+    "img": null
+   },
+   {
+    "album": "いまを生きる",
+    "artist": "レイラ",
+    "plays": 12,
+    "plays_fmt": "12",
+    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/fa0425b9bbfacd373011b58b083925d2.jpg"
+   },
+   {
+    "album": "A Wa I",
+    "artist": "0.2lx",
+    "plays": 10,
+    "plays_fmt": "10",
+    "img": null
+   },
+   {
+    "album": "Lights Out, and Away We Go",
+    "artist": "Good Food",
+    "plays": 10,
+    "plays_fmt": "10",
+    "img": null
+   },
+   {
+    "album": "Missing",
+    "artist": "Kawabe Moto",
+    "plays": 10,
+    "plays_fmt": "10",
+    "img": null
+   },
+   {
+    "album": "I'm Busy",
+    "artist": "Cheche",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb14295c025afeac9fea39f0f2"
+   }
+  ],
+  "top_trk": [
+   {
+    "track": "Soul",
+    "artist": "Avyss",
+    "plays": 139,
+    "plays_fmt": "139"
+   },
+   {
+    "track": "Soul",
+    "artist": "AVYSS, くゆる",
+    "plays": 15,
+    "plays_fmt": "15"
+   },
+   {
+    "track": "君がいない",
+    "artist": "あのと",
+    "plays": 13,
+    "plays_fmt": "13"
+   },
+   {
+    "track": "714",
+    "artist": "eskamila",
+    "plays": 8,
+    "plays_fmt": "8"
+   },
+   {
+    "track": "毒回り",
+    "artist": "harenuki",
+    "plays": 6,
+    "plays_fmt": "6"
+   },
+   {
+    "track": "talk to me",
+    "artist": "deddecay",
+    "plays": 5,
+    "plays_fmt": "5"
+   },
+   {
+    "track": "あこがれ",
+    "artist": "稀",
+    "plays": 5,
+    "plays_fmt": "5"
+   },
+   {
+    "track": "Don't",
+    "artist": "yonige",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "true",
+    "artist": "2beef",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "23",
+    "artist": "yusraume",
+    "plays": 3,
+    "plays_fmt": "3"
+   }
+  ],
+  "by_day": [
+   {
+    "day": "6/29",
+    "plays": 104,
+    "plays_fmt": "104",
+    "pct": 45
+   },
+   {
+    "day": "6/30",
+    "plays": 58,
+    "plays_fmt": "58",
+    "pct": 25
+   },
+   {
+    "day": "7/1",
+    "plays": 126,
+    "plays_fmt": "126",
+    "pct": 54
+   },
+   {
+    "day": "7/2",
+    "plays": 52,
+    "plays_fmt": "52",
+    "pct": 22
+   },
+   {
+    "day": "7/3",
+    "plays": 173,
+    "plays_fmt": "173",
+    "pct": 75
+   },
+   {
+    "day": "7/4",
+    "plays": 232,
+    "plays_fmt": "232",
+    "pct": 100
+   },
+   {
+    "day": "7/5",
+    "plays": 74,
+    "plays_fmt": "74",
+    "pct": 32
+   }
+  ]
  }
 }

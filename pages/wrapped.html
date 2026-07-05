@@ -9,6 +9,7 @@ description: 我的 Last.fm 聽歌回顧 — 最常聽的藝人、專輯、歌�
 {% assign w = site.data.wrapped %}
 {% assign span_year = w.year_label | append: ' 年至今' %}
 {% capture span_all %}{{ w.all.start }}  →  {{ w.all.end }}{% endcapture %}
+{% capture span_week %}{{ w.week.start }}  →  {{ w.week.end }}{% endcapture %}
 
 <style>
   .wide-content { max-width: 820px; margin: 0 auto; width: 100%; }
@@ -91,8 +92,25 @@ description: 我的 Last.fm 聽歌回顧 — 最常聽的藝人、專輯、歌�
 
 <div class="wr">
   <div class="wr-toggle" role="tablist">
+    <button id="wr-tab-week" class="wr-tab" role="tab" aria-selected="false" onclick="wrShow('week')">最近 7 天</button>
     <button id="wr-tab-year" class="wr-tab active" role="tab" aria-selected="true" onclick="wrShow('year')">今年 {{ w.year_label }}</button>
     <button id="wr-tab-all" class="wr-tab" role="tab" aria-selected="false" onclick="wrShow('all')">全部歷史</button>
+  </div>
+
+  <div id="wr-view-week" style="display:none;">
+    {% include wrapped-lists.html d=w.week sub="次播放（最近 7 天）" span=span_week %}
+    <section>
+      <div class="wr-h"><h2>每日聽歌量</h2><span class="en">Plays by Day</span></div>
+      <div class="wr-years">
+        {% for d in w.week.by_day %}
+        <div class="wr-yb">
+          <span class="wr-yb-val">{{ d.plays_fmt }}</span>
+          <div class="wr-yb-bar" style="height:{{ d.pct }}%"></div>
+          <span class="wr-yb-year">{{ d.day }}</span>
+        </div>
+        {% endfor %}
+      </div>
+    </section>
   </div>
 
   <div id="wr-view-year">
@@ -132,11 +150,15 @@ description: 我的 Last.fm 聽歌回顧 — 最常聽的藝人、專輯、歌�
 
 <script>
   function wrShow(which) {
-    var isYear = which === 'year';
-    document.getElementById('wr-view-year').style.display = isYear ? '' : 'none';
-    document.getElementById('wr-view-all').style.display = isYear ? 'none' : '';
-    var ty = document.getElementById('wr-tab-year'), ta = document.getElementById('wr-tab-all');
-    ty.classList.toggle('active', isYear); ty.setAttribute('aria-selected', isYear);
-    ta.classList.toggle('active', !isYear); ta.setAttribute('aria-selected', !isYear);
+    var keys = ['week', 'year', 'all'];
+    keys.forEach(function(k) {
+      var view = document.getElementById('wr-view-' + k);
+      if (view) view.style.display = (k === which) ? '' : 'none';
+      var tab = document.getElementById('wr-tab-' + k);
+      if (tab) {
+        tab.classList.toggle('active', k === which);
+        tab.setAttribute('aria-selected', k === which);
+      }
+    });
   }
 </script>
