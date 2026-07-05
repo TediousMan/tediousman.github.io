@@ -2,7 +2,69 @@
   <section class="sidebar-section sidebar-about">
     <h3>關於這裡</h3>
     <p>一個無聊男子的自言自語。關於音樂、關於生活，還有那些說不上重要、卻想留住的瞬間。</p>
+
+    <a id="now-listening" class="now-listening" href="{{ '/wrapped/' | relative_url }}" hidden>
+      <span class="nl-top"><span id="nl-icon" class="nl-icon" aria-hidden="true">🎧</span><span id="nl-label" class="nl-label">最近聽</span></span>
+      <span id="nl-song" class="nl-song"></span>
+    </a>
   </section>
+
+  <style>
+    .now-listening {
+      display:block; margin-top:14px; padding-top:13px;
+      border-top:1px solid rgba(255,255,255,0.08);
+      text-decoration:none; max-width:100%;
+    }
+    .nl-top { display:flex; align-items:center; gap:7px; margin-bottom:4px; }
+    .nl-icon { font-size:0.82rem; line-height:1; }
+    .nl-label { color:#8a8a92; font-size:0.72rem; letter-spacing:0.08em; }
+    .now-listening:hover .nl-label { color:#9db2cc; }
+    .nl-song {
+      display:block; color:#c8c8c8; font-size:0.86rem; line-height:1.5;
+      overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+      transition:color 160ms ease;
+    }
+    .now-listening:hover .nl-song { color:#e6e6e6; }
+    .nl-eq { display:inline-flex; align-items:flex-end; gap:2px; height:11px; }
+    .nl-eq span { width:3px; background:#9db2cc; border-radius:1px; animation:nlEq 900ms ease-in-out infinite; }
+    .nl-eq span:nth-child(1){height:40%;animation-delay:-200ms;}
+    .nl-eq span:nth-child(2){height:90%;animation-delay:-600ms;}
+    .nl-eq span:nth-child(3){height:60%;animation-delay:-400ms;}
+    .nl-eq span:nth-child(4){height:100%;}
+    @keyframes nlEq { 0%,100%{transform:scaleY(0.35);} 50%{transform:scaleY(1);} }
+    @media (prefers-reduced-motion: reduce) { .nl-eq span { animation:none; } .nl-eq span:nth-child(2){height:70%;} }
+  </style>
+
+  <script>
+  // 「正在聽 / 最近聽」— 直接讀 Last.fm 公開 API（唯讀金鑰，最近播放本就公開）
+  (function() {
+    var API_KEY = '2a5eb9b6f72653b72899d26f79b845c0';
+    var USER = 'TediousMan';
+    var url = 'https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=' +
+      encodeURIComponent(USER) + '&api_key=' + API_KEY + '&format=json&limit=1';
+
+    fetch(url)
+      .then(function(r) { return r.ok ? r.json() : Promise.reject(); })
+      .then(function(d) {
+        var t = d && d.recenttracks && d.recenttracks.track;
+        if (!t) return;
+        if (Array.isArray(t)) t = t[0];
+        if (!t) return;
+        var nowPlaying = t['@attr'] && t['@attr'].nowplaying === 'true';
+        var name = t.name || '';
+        var artist = (t.artist && (t.artist['#text'] || t.artist.name)) || '';
+        if (!name) return;
+        document.getElementById('nl-label').textContent = nowPlaying ? '正在聽' : '最近聽';
+        document.getElementById('nl-song').textContent = name + (artist ? ' — ' + artist : '');
+        if (nowPlaying) {
+          document.getElementById('nl-icon').outerHTML =
+            '<span class="nl-eq" aria-hidden="true"><span></span><span></span><span></span><span></span></span>';
+        }
+        document.getElementById('now-listening').hidden = false;
+      })
+      .catch(function() { /* 抓失敗就不顯示，不打擾 */ });
+  })();
+  </script>
 
   <section class="sidebar-section">
     <h3>最新文章</h3>
