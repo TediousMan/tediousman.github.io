@@ -1853,7 +1853,41 @@ permalink: /admin/
     } catch(e) { return null; }
   }
 
-  function addSpotifyRow(url, name, isNew) {
+  // 取歌單封面縮圖（oembed 的 thumbnail_url）
+  async function fetchSpotifyThumb(url) {
+    try {
+      const r = await fetch(WORKER_BASE + '/api/spotify/oembed?url=' + encodeURIComponent(url));
+      if (!r.ok) return null;
+      const data = await r.json();
+      return data.thumbnail_url || null;
+    } catch(e) { return null; }
+  }
+
+  // 歌單列拖曳排序：容器層只設定一次
+  function setupSpotifyDrag() {
+    var container = document.getElementById('spotifyListInputs');
+    if (!container || container._dragSetup) return;
+    container._dragSetup = true;
+    container.addEventListener('dragover', function(e) {
+      if (!window._spDragRow) return;
+      e.preventDefault();
+      var after = spDragAfterElement(container, e.clientY);
+      if (after == null) container.appendChild(window._spDragRow);
+      else container.insertBefore(window._spDragRow, after);
+    });
+  }
+  function spDragAfterElement(container, y) {
+    var rows = Array.prototype.slice.call(container.querySelectorAll(':scope > div:not(.sp-dragging)'));
+    return rows.reduce(function(closest, child) {
+      var box = child.getBoundingClientRect();
+      var offset = y - box.top - box.height / 2;
+      if (offset < 0 && offset > closest.offset) return { offset: offset, element: child };
+      return closest;
+    }, { offset: -Infinity, element: null }).element;
+  }
+
+  function addSpotifyRow(url, name, isNew, enabled) {
+    enabled = enabled !== false;
     // Prevent adding another empty row if one already exists
     if (isNew) {
       var existing = document.querySelectorAll('.spotify-url-input');
@@ -1865,8 +1899,35 @@ permalink: /admin/
       }
     }
     var container = document.getElementById('spotifyListInputs');
+    setupSpotifyDrag();
     var row = document.createElement('div');
     row.style.cssText = 'display:flex; gap:8px; margin-bottom:6px; align-items:center;';
+    if (!enabled) row.style.opacity = '0.5';
+
+    // 拖曳把手（只從把手起始拖曳，不影響輸入框編輯）
+    var handle = document.createElement('span');
+    handle.textContent = '≡';
+    handle.title = '拖曳排序';
+    handle.draggable = true;
+    handle.style.cssText = 'cursor:grab; color:#666; flex-shrink:0; padding:0 2px; user-select:none; font-size:1.1rem;';
+    handle.addEventListener('dragstart', function() { window._spDragRow = row; row.classList.add('sp-dragging'); });
+    handle.addEventListener('dragend', function() { row.classList.remove('sp-dragging'); window._spDragRow = null; markSpotifyDirty(); });
+    row.appendChild(handle);
+
+    // 封面縮圖（有圖才顯示）
+    var cover = document.createElement('img');
+    cover.className = 'spotify-cover';
+    cover.alt = '';
+    cover.style.cssText = 'width:40px; height:40px; border-radius:5px; object-fit:cover; flex-shrink:0; background:#1e1e1e; display:none;';
+    function loadCover(u) {
+      var m = (u || '').match(/open\.spotify\.com\/playlist\/([a-zA-Z0-9]+)/);
+      if (!m) { cover.style.display = 'none'; return; }
+      fetchSpotifyThumb('https://open.spotify.com/playlist/' + m[1]).then(function(t) {
+        if (t) { cover.src = t; cover.style.display = ''; }
+      });
+    }
+    row.appendChild(cover);
+
     var inp = document.createElement('input');
     inp.type = 'text';
     inp.className = 'spotify-url-input';
@@ -1883,6 +1944,8 @@ permalink: /admin/
     // 貼上/輸入網址後即時抓歌單名稱（不用等儲存才知道貼對沒）
     inp.addEventListener('change', async function() {
       markSpotifyDirty();
+      loadCover(inp.value);
+      setOpenHref(inp.value);
       const m = inp.value.match(/open\.spotify\.com\/playlist\/([a-zA-Z0-9]+)/);
       if (!m || nameInp.value.trim()) return;
       nameInp.placeholder = '⏳ 抓取名稱中…';
@@ -1953,6 +2016,41 @@ permalink: /admin/
       row.appendChild(inp);
       row.appendChild(nameInp);
     }
+    // 「▶ 開啟」連結（在 Spotify 開啟該歌單，確認貼對沒）
+    var openLink = document.createElement('a');
+    openLink.textContent = '▶';
+    openLink.title = '在 Spotify 開啟這個歌單';
+    openLink.target = '_blank';
+    openLink.rel = 'noopener';
+    openLink.style.cssText = 'color:#1db954; text-decoration:none; font-size:1rem; flex-shrink:0; padding:0 4px;';
+    function setOpenHref(u) {
+      var m = (u || '').match(/open\.spotify\.com\/playlist\/([a-zA-Z0-9]+)/);
+      if (m) { openLink.href = 'https://open.spotify.com/playlist/' + m[1]; openLink.style.pointerEvents = ''; openLink.style.opacity = ''; }
+      else { openLink.removeAttribute('href'); openLink.style.pointerEvents = 'none'; openLink.style.opacity = '0.3'; }
+    }
+
+    // 「啟用」開關（取消勾選則不輪播，但保留不刪）
+    var enLabel = document.createElement('label');
+    enLabel.title = '取消勾選則不會輪播這個歌單（保留不刪）';
+    enLabel.style.cssText = 'display:flex; align-items:center; gap:4px; flex-shrink:0; font-size:0.72rem; color:#888; cursor:pointer; user-select:none;';
+    var enChk = document.createElement('input');
+    enChk.type = 'checkbox';
+    enChk.className = 'spotify-enabled';
+    enChk.checked = enabled;
+    enChk.style.cssText = 'cursor:pointer; accent-color:#7c93b0; margin:0;';
+    enChk.addEventListener('change', function() {
+      markSpotifyDirty();
+      row.style.opacity = enChk.checked ? '' : '0.5';
+    });
+    enLabel.appendChild(enChk);
+    enLabel.appendChild(document.createTextNode('啟用'));
+
+    row.appendChild(enLabel);
+    row.appendChild(openLink);
+
+    loadCover(url);
+    setOpenHref(url);
+
     var delBtn = document.createElement('button');
     delBtn.title = '移除';
     delBtn.textContent = '✕';
@@ -1986,7 +2084,7 @@ permalink: /admin/
       if (playlists.length === 0) { addSpotifyRow('', '', true); return; }
       for (const p of playlists) {
         const playlistUrl = 'https://open.spotify.com/playlist/' + p.id;
-        const refs = addSpotifyRow(playlistUrl, p.name || '', false);
+        const refs = addSpotifyRow(playlistUrl, p.name || '', false, p.enabled !== false);
         if (!p.name && refs) {
           refs.displayDiv.innerHTML = '<div style="color:#555; font-size:0.9rem;">正在載入…</div>';
           fetchSpotifyName(playlistUrl).then(fetchedName => {
@@ -2019,7 +2117,8 @@ permalink: /admin/
         statusEl.style.color = '#f85149';
         return;
       }
-      playlists.push({ id: match[1], name: nameInp ? nameInp.value.trim() : '' });
+      const enChk = row.querySelector('.spotify-enabled');
+      playlists.push({ id: match[1], name: nameInp ? nameInp.value.trim() : '', enabled: enChk ? enChk.checked : true });
     }
     if (playlists.length === 0) {
       statusEl.textContent = '請至少輸入一個播放清單網址';

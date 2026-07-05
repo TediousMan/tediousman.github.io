@@ -181,7 +181,8 @@
 
     // Playlist selection with cross-page persistence
     (function() {
-      var ids = [{% for p in site.data.spotify.playlists %}"{{ p.id }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+      {% assign active_pl = site.data.spotify.playlists | where_exp: "p", "p.enabled != false" %}
+      var ids = [{% for p in active_pl %}"{{ p.id }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
       if (!ids.length) return;
       var sessionKey = 'spotify_pid';
 
