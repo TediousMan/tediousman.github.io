@@ -818,6 +818,11 @@ permalink: /admin/
             <option value="個人心得">個人心得</option>
             <option value="生活紀錄">生活紀錄</option>
           </select>
+          <select id="postSort" onchange="filterPosts()" title="排序方式">
+            <option value="date-desc">日期：新→舊</option>
+            <option value="date-asc">日期：舊→新</option>
+            <option value="title">依標題</option>
+          </select>
           <button class="btn btn-secondary" onclick="loadPosts()" style="padding:6px 14px; font-size:0.85rem;">重新整理</button>
         </div>
       </div>
@@ -2137,9 +2142,15 @@ permalink: /admin/
             const titleMatch = fm.match(/title:\s*"?(.+?)"?\s*$/m);
             const catMatch = fm.match(/category:\s*(.+)$/m);
             const fullDateMatch = fm.match(/date:\s*(.+)$/m);
+            const imgMatch = fm.match(/^image:\s*(.+?)\s*$/m);
+            const descMatch = fm.match(/^description:\s*"?(.+?)"?\s*$/m);
+            const plMatch = fm.match(/spotify_playlist:\s*([A-Za-z0-9]+)/);
             post.title = titleMatch ? titleMatch[1] : post.slug;
             post.category = catMatch ? catMatch[1].trim() : '';
             if (fullDateMatch) post.fullDate = fullDateMatch[1].trim();
+            post.image = imgMatch ? imgMatch[1].trim() : '';
+            post.description = descMatch ? descMatch[1].trim() : '';
+            post.playlist = plMatch ? plMatch[1] : '';
           } else {
             post.title = post.slug;
             post.category = '';
@@ -2165,6 +2176,12 @@ permalink: /admin/
     let posts = allPosts;
     if (filter !== 'all') posts = posts.filter(p => p.category === filter);
     if (keyword) posts = posts.filter(p => (p.title || '').toLowerCase().includes(keyword));
+    const sortEl = document.getElementById('postSort');
+    const sort = sortEl ? sortEl.value : 'date-desc';
+    posts = posts.slice();
+    if (sort === 'title') posts.sort((a, b) => (a.title || '').localeCompare(b.title || '', 'zh-Hant'));
+    else if (sort === 'date-asc') posts.sort((a, b) => (a.fullDate || a.date).localeCompare(b.fullDate || b.date));
+    else posts.sort((a, b) => (b.fullDate || b.date).localeCompare(a.fullDate || a.date));
     renderPosts(posts);
   }
 
@@ -2186,20 +2203,30 @@ permalink: /admin/
       return;
     }
 
+    const badge = (label, on) => `<span style="font-size:0.68rem; padding:1px 8px; border-radius:999px; border:1px solid ${on ? 'rgba(124,147,176,0.55)' : '#3a3a3a'}; color:${on ? '#9db2cc' : '#555'};">${on ? '' : '缺'}${label}</span>`;
     listEl.innerHTML = posts.map(post => {
       const viewPath = buildPostPath(post);
       const viewBtn = viewPath
         ? `<a href="${escapeHtml(viewPath)}" target="_blank" class="btn-sm btn-view" style="text-decoration:none; padding:6px 14px; border-radius:4px; font-size:0.82rem; display:inline-block;">查看</a>`
         : '';
+      const thumb = post.image
+        ? `<img src="${escapeHtml(post.image)}" alt="" loading="lazy" style="width:52px; height:52px; border-radius:6px; object-fit:cover; flex-shrink:0; margin-right:14px;">`
+        : `<span style="width:52px; height:52px; border-radius:6px; flex-shrink:0; margin-right:14px; display:flex; align-items:center; justify-content:center; background:#2a2a2a; color:#7c93b0; font-size:1.3rem;">&#9834;</span>`;
+      const niceDate = escapeHtml((post.date || '').replace(/-/g, '.'));
       return `
       <div class="post-item" data-path="${escapeHtml(post.path)}">
         <input type="checkbox" class="post-item-checkbox post-check" data-path="${escapeHtml(post.path)}" data-sha="${escapeHtml(post.sha)}" data-title="${escapeHtml(post.title)}">
+        ${thumb}
         <div class="post-item-info">
           <div class="post-item-title">${escapeHtml(post.title)}</div>
           <div class="post-item-meta">
-            <span>${escapeHtml(post.date)}</span>
+            <span>${niceDate}</span>
             <span>${escapeHtml(post.category || '未分類')}</span>
-            <span>${escapeHtml(post.filename)}</span>
+          </div>
+          <div style="display:flex; gap:6px; margin-top:6px; flex-wrap:wrap;">
+            ${badge('封面', !!post.image)}
+            ${badge('歌單', !!post.playlist)}
+            ${badge('描述', !!post.description)}
           </div>
         </div>
         <div class="post-item-actions">
