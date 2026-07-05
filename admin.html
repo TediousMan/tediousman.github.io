@@ -1106,6 +1106,7 @@ permalink: /admin/
       document.getElementById('postContent').value = body;
 
       editingFile = { path: path, sha: data.sha };
+      draftFile = null;
 
       const btn = document.getElementById('publishBtn');
       btn.textContent = '更新文章';
@@ -1565,22 +1566,48 @@ permalink: /admin/
     ta.focus();
   }
 
-  function saveDraft() {
-    const draft = {
-      title: document.getElementById('postTitle').value,
-      date: document.getElementById('postDate').value,
-      category: document.getElementById('postCategory').value,
-      description: document.getElementById('postDescription').value,
-      cover: document.getElementById('postCover').value,
-      content: document.getElementById('postContent').value
-    };
+  async function saveDraft() {
+    const title = document.getElementById('postTitle').value.trim();
+    const date = document.getElementById('postDate').value;
+    const category = document.getElementById('postCategory').value;
+    const description = document.getElementById('postDescription').value.trim();
+    const content = document.getElementById('postContent').value;
+
+    // 本機備份照存（斷網救援用）
+    const draft = { title, date, category, description,
+      cover: document.getElementById('postCover').value, content };
     draft._savedAt = Date.now();
     localStorage.setItem('post_draft', JSON.stringify(draft));
     const now = new Date();
     const hhmm = now.getHours().toString().padStart(2,'0') + ':' + now.getMinutes().toString().padStart(2,'0');
     const statusEl = document.getElementById('autoSaveStatus');
     if (statusEl) statusEl.textContent = '自動儲存於 ' + hhmm;
-    showStatus('editorStatus', '草稿已儲存！', 'success');
+
+    // 雲端草稿：存進 repo 的 _drafts/（Jekyll 不會發佈這個資料夾），換電腦也讀得到
+    const token = getToken();
+    if (!token) { showStatus('editorStatus', '草稿已存在這台瀏覽器（未登入，沒存到雲端）', 'success'); return; }
+    if (!title && !content.trim()) { showStatus('editorStatus', '草稿已儲存！', 'success'); return; }
+    try {
+      const descLine = description ? `description: "${description}"\n` : '';
+      const playlistLine = playlistFrontMatterLine();
+      const coverLine = coverFrontMatterLine();
+      const fileContent = `---\nlayout: post\ntitle: "${title || '未命名草稿'}"\ndate: ${date}\ncategory: ${category}\n${descLine}${playlistLine}${coverLine}---\n\n${content}\n`;
+      // 第一次存就定檔名，之後更新同一個檔（改標題不改檔名，發佈時才用正式檔名）
+      const path = draftFile ? draftFile.path : `_drafts/${date}-${buildSlug(title)}.md`;
+      const body = { message: `草稿：${title || '未命名'}`, content: encodeToBase64(fileContent) };
+      if (draftFile && draftFile.sha) body.sha = draftFile.sha;
+      const res = await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/${path}`, {
+        method: 'PUT',
+        headers: { 'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json' },
+        body: JSON.stringify(body)
+      });
+      if (!res.ok) { const e = await res.json().catch(() => ({})); throw new Error(e.message || 'save failed'); }
+      const data = await res.json();
+      draftFile = { path: path, sha: data.content.sha };
+      showStatus('editorStatus', '草稿已存到雲端（換電腦也讀得到）', 'success');
+    } catch(e) {
+      showStatus('editorStatus', '雲端草稿儲存失敗（本機備份仍在）：' + e.message, 'error');
+    }
   }
 
   // 完整清空編輯表單（發佈/更新成功、取消編輯、手動清除共用）
@@ -1598,6 +1625,7 @@ permalink: /admin/
     if (statusEl) statusEl.textContent = '';
     localStorage.removeItem('post_draft');
     pendingDraft = null;
+    draftFile = null;
     const banner = document.getElementById('draftBanner');
     if (banner) banner.style.display = 'none';
   }
@@ -1667,6 +1695,16 @@ permalink: /admin/
         throw new Error(err.message || '發佈失敗');
       }
 
+      // 發佈成功 → 這份內容已是正式文章，把雲端草稿刪掉（失敗不擋流程）
+      if (draftFile && draftFile.sha) {
+        try {
+          await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/${draftFile.path}`, {
+            method: 'DELETE',
+            headers: { 'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json' },
+            body: JSON.stringify({ message: '發佈後刪除草稿：' + draftFile.path, sha: draftFile.sha })
+          });
+        } catch(e) {}
+      }
       showStatus('editorStatus', '文章已成功發佈！即將返回首頁…', 'success');
       resetEditorForm();
       setTimeout(function() { window.location.assign('/'); }, 1200);
@@ -2191,7 +2229,17 @@ permalink: /admin/
 
   // ========== Post Management ==========
   let allPosts = [];
+  let allDrafts = [];
   let editingFile = null; // track if we are editing an existing post
+  let draftFile = null;   // track if current editor content is saved as a repo draft (_drafts/)
+
+  function buildSlug(title) {
+    return (title || 'untitled')
+      .toLowerCase()
+      .replace(/[^\w一-鿿㐀-䶿]+/g, '-')
+      .replace(/^-+|-+$/g, '')
+      .substring(0, 50) || 'untitled';
+  }
 
   async function loadPosts() {
     const token = getToken();
@@ -2262,10 +2310,49 @@ permalink: /admin/
 
       // Re-sort using full date (including time) from front matter
       allPosts.sort((a, b) => (b.fullDate || b.date).localeCompare(a.fullDate || a.date));
+      await loadDrafts(token);
       renderPosts(allPosts);
     } catch(e) {
       listEl.innerHTML = `<div class="posts-loading">載入失敗：${e.message}</div>`;
     }
+  }
+
+  // 載入 _drafts/ 雲端草稿（資料夾不存在 = 沒有草稿）
+  async function loadDrafts(token) {
+    allDrafts = [];
+    try {
+      const res = await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/_drafts`, {
+        headers: { 'Authorization': 'Bearer ' + token }
+      });
+      if (!res.ok) return;
+      const files = await res.json();
+      const mdFiles = files.filter(f => f.name.endsWith('.md'));
+      await Promise.all(mdFiles.map(async f => {
+        try {
+          const r = await fetch(`${API_BASE}/repos/${REPO_OWNER}/${REPO_NAME}/contents/${f.path}`, {
+            headers: { 'Authorization': 'Bearer ' + token }
+          });
+          const data = await r.json();
+          const content = decodeBase64Content(data.content);
+          const d = { path: f.path, sha: data.sha, filename: f.name, rawContent: content,
+                      title: f.name, category: '', date: '', image: '' };
+          const fmMatch = content.match(/^---\n([\s\S]*?)\n---/);
+          if (fmMatch) {
+            const fm = fmMatch[1];
+            const t = fm.match(/title:\s*"?(.+?)"?\s*$/m);
+            const c = fm.match(/category:\s*(.+)$/m);
+            const dt = fm.match(/date:\s*(\d{4}-\d{2}-\d{2})/m);
+            const im = fm.match(/^image:\s*(.+?)\s*$/m);
+            if (t) d.title = t[1];
+            if (c) d.category = c[1].trim();
+            if (dt) d.date = dt[1];
+            if (im) d.image = im[1].trim();
+          }
+          allDrafts.push(d);
+        } catch(e) {}
+      }));
+      allDrafts.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+    } catch(e) {}
   }
 
   function filterPosts() {
@@ -2303,7 +2390,33 @@ permalink: /admin/
     }
 
     const badge = (label, on) => `<span style="font-size:0.68rem; padding:1px 8px; border-radius:999px; border:1px solid ${on ? 'rgba(124,147,176,0.55)' : '#3a3a3a'}; color:${on ? '#9db2cc' : '#555'};">${on ? '' : '缺'}${label}</span>`;
-    listEl.innerHTML = posts.map(post => {
+
+    // 雲端草稿列在最上面（不受搜尋/分類篩選影響，數量少）
+    const draftsHtml = allDrafts.length === 0 ? '' :
+      `<div style="font-size:0.78rem; color:#d29922; margin:2px 0 10px; letter-spacing:0.06em;">📝 草稿（尚未發佈）</div>` +
+      allDrafts.map(d => {
+        const thumb = d.image
+          ? `<img src="${escapeHtml(d.image)}" alt="" loading="lazy" style="width:52px; height:52px; border-radius:6px; object-fit:cover; flex-shrink:0; margin-right:14px;">`
+          : `<span style="width:52px; height:52px; border-radius:6px; flex-shrink:0; margin-right:14px; display:flex; align-items:center; justify-content:center; background:#2a2a2a; color:#d29922; font-size:1.1rem;">✎</span>`;
+        return `
+      <div class="post-item" style="border-color:#4a3a15;">
+        ${thumb}
+        <div class="post-item-info">
+          <div class="post-item-title">${escapeHtml(d.title)} <span style="font-size:0.68rem; padding:1px 8px; border-radius:999px; background:#2a2410; border:1px solid #5a4a1a; color:#d29922; vertical-align:middle;">草稿</span></div>
+          <div class="post-item-meta">
+            <span>${escapeHtml((d.date || '').replace(/-/g, '.'))}</span>
+            <span>${escapeHtml(d.category || '未分類')}</span>
+          </div>
+        </div>
+        <div class="post-item-actions">
+          <button class="btn-sm btn-edit btn-edit-draft" data-path="${escapeHtml(d.path)}">繼續編輯</button>
+          <button class="btn-sm btn-delete btn-delete-draft" data-path="${escapeHtml(d.path)}" data-sha="${escapeHtml(d.sha)}" data-title="${escapeHtml(d.title)}">刪除</button>
+        </div>
+      </div>`;
+      }).join('') +
+      `<div style="border-top:1px solid #333; margin:16px 0;"></div>`;
+
+    listEl.innerHTML = draftsHtml + posts.map(post => {
       const viewPath = buildPostPath(post);
       const viewBtn = viewPath
         ? `<a href="${escapeHtml(viewPath)}" target="_blank" class="btn-sm btn-view" style="text-decoration:none; padding:6px 14px; border-radius:4px; font-size:0.82rem; display:inline-block;">查看</a>`
@@ -2338,6 +2451,10 @@ permalink: /admin/
 
     if (listEl._clickHandler) listEl.removeEventListener('click', listEl._clickHandler);
     listEl._clickHandler = function(e) {
+      const draftEditBtn = e.target.closest('.btn-edit-draft');
+      const draftDeleteBtn = e.target.closest('.btn-delete-draft');
+      if (draftEditBtn) { editDraft(draftEditBtn.dataset.path); return; }
+      if (draftDeleteBtn) { deletePost(draftDeleteBtn.dataset.path, draftDeleteBtn.dataset.sha, draftDeleteBtn.dataset.title); return; }
       const editBtn = e.target.closest('.btn-edit');
       const deleteBtn = e.target.closest('.btn-delete');
       const checkbox = e.target.closest('.post-check');
@@ -2394,6 +2511,7 @@ permalink: /admin/
       path: post.path,
       sha: post.sha
     };
+    draftFile = null; // 編輯已發佈文章，不關聯任何雲端草稿
 
     // Change publish button to update mode
     const btn = document.getElementById('publishBtn');
@@ -2404,6 +2522,45 @@ permalink: /admin/
     if (cancelBtn) cancelBtn.classList.add('visible');
 
     showStatus('editorStatus', '正在編輯：' + post.title, 'success');
+  }
+
+  // 繼續編輯雲端草稿：載入內容，之後「儲存草稿」更新同一檔、「發佈文章」轉正式並刪草稿
+  function editDraft(path) {
+    const d = allDrafts.find(x => x.path === path);
+    if (!d || !d.rawContent) { alert('無法載入草稿內容'); return; }
+
+    const fmMatch = d.rawContent.match(/^---\n([\s\S]*?)\n---\n\n?([\s\S]*)$/);
+    let body = d.rawContent;
+    let description = '', playlistId = '';
+    if (fmMatch) {
+      body = fmMatch[2].trim();
+      const descMatch = fmMatch[1].match(/description:\s*"?([^"\n]+)"?\s*$/m);
+      if (descMatch) description = descMatch[1].trim();
+      const plMatch = fmMatch[1].match(/spotify_playlist:\s*([A-Za-z0-9]+)/);
+      if (plMatch) playlistId = plMatch[1];
+    }
+
+    switchAdminTab('editor');
+    const title = (d.title === '未命名草稿') ? '' : d.title;
+    document.getElementById('postTitle').value = title;
+    document.getElementById('postDate').value = d.date || localDateStr();
+    document.getElementById('postCategory').value = d.category || '音樂記錄';
+    document.getElementById('postDescription').value = description;
+    setPlaylistDropdown(playlistId);
+    document.getElementById('postCover').value = d.image || '';
+    updateCoverPreview();
+    document.getElementById('postContent').value = body;
+    if (typeof updateWordCount === 'function') updateWordCount();
+
+    editingFile = null;
+    draftFile = { path: d.path, sha: d.sha };
+    const btn = document.getElementById('publishBtn');
+    btn.textContent = '發佈文章';
+    btn.onclick = publish;
+    const cancelBtn = document.getElementById('cancelEditBtn');
+    if (cancelBtn) cancelBtn.classList.add('visible');
+
+    showStatus('editorStatus', '正在編輯草稿：' + (title || '未命名'), 'success');
   }
 
   async function updatePost() {
