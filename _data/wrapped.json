@@ -2,12 +2,12 @@
  "generated": "2026-07-06",
  "year_label": "2026",
  "all": {
-  "total": 206632,
-  "total_fmt": "206,632",
-  "uniq_art": 7125,
-  "uniq_art_fmt": "7,125",
-  "uniq_trk": 29728,
-  "uniq_trk_fmt": "29,728",
+  "total": 206668,
+  "total_fmt": "206,668",
+  "uniq_art": 7126,
+  "uniq_art_fmt": "7,126",
+  "uniq_trk": 29729,
+  "uniq_trk_fmt": "29,729",
   "start": "2018-03-06",
   "end": "2026-07-06",
   "top_art": [
@@ -267,19 +267,19 @@
    },
    {
     "year": "2026",
-    "plays": 23545,
-    "plays_fmt": "23,545",
+    "plays": 23581,
+    "plays_fmt": "23,581",
     "pct": 44
    }
   ]
  },
  "year": {
-  "total": 23545,
-  "total_fmt": "23,545",
-  "uniq_art": 2513,
-  "uniq_art_fmt": "2,513",
-  "uniq_trk": 6847,
-  "uniq_trk_fmt": "6,847",
+  "total": 23581,
+  "total_fmt": "23,581",
+  "uniq_art": 2514,
+  "uniq_art_fmt": "2,514",
+  "uniq_trk": 6848,
+  "uniq_trk_fmt": "6,848",
   "top_art": [
    {
     "artist": "Kienai",
@@ -311,8 +311,8 @@
    },
    {
     "artist": "あたまたんさん",
-    "plays": 167,
-    "plays_fmt": "167",
+    "plays": 168,
+    "plays_fmt": "168",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44",
     "pct": 74
    },
@@ -370,8 +370,8 @@
    {
     "album": "鉄の掟",
     "artist": "あたまたんさん",
-    "plays": 166,
-    "plays_fmt": "166",
+    "plays": 167,
+    "plays_fmt": "167",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44"
    },
    {
@@ -417,11 +417,11 @@
     "img": "https://i.scdn.co/image/ab6761610000e5eb59ee187da2de942d5f50e0e0"
    },
    {
-    "album": "2rue end",
-    "artist": "Tattletale",
-    "plays": 120,
-    "plays_fmt": "120",
-    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/9bd64b52566248afa9e86accd8c604b6.jpg"
+    "album": "White milestone",
+    "artist": "Her",
+    "plays": 121,
+    "plays_fmt": "121",
+    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/56cbed279563c2f39f8980ab904e1f1a.png"
    }
   ],
   "top_trk": [
@@ -525,19 +525,19 @@
    },
    {
     "month": "7",
-    "plays": 844,
-    "plays_fmt": "844",
-    "pct": 19
+    "plays": 880,
+    "plays_fmt": "880",
+    "pct": 20
    }
   ]
  },
  "week": {
-  "total": 902,
-  "total_fmt": "902",
-  "uniq_art": 411,
-  "uniq_art_fmt": "411",
-  "uniq_trk": 573,
-  "uniq_trk_fmt": "573",
+  "total": 938,
+  "total_fmt": "938",
+  "uniq_art": 427,
+  "uniq_art_fmt": "427",
+  "uniq_trk": 598,
+  "uniq_trk_fmt": "598",
   "start": "6/30",
   "end": "7/6",
   "top_art": [
@@ -557,10 +557,10 @@
    },
    {
     "artist": "Cyan",
-    "plays": 16,
-    "plays_fmt": "16",
+    "plays": 17,
+    "plays_fmt": "17",
     "img": "https://i.scdn.co/image/ab6761610000e5eb10edce23f433e82fbe5cf41b",
-    "pct": 11
+    "pct": 12
    },
    {
     "artist": "AVYSS, くゆる",
@@ -722,6 +722,12 @@
     "plays_fmt": "5"
    },
    {
+    "track": "FAR",
+    "artist": "Sara Wakui",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
     "track": "talk to me",
     "artist": "deddecay",
     "plays": 4,
@@ -734,14 +740,8 @@
     "plays_fmt": "4"
    },
    {
-    "track": "23",
-    "artist": "yusraume",
-    "plays": 3,
-    "plays_fmt": "3"
-   },
-   {
-    "track": "Don't",
-    "artist": "yonige",
+    "track": "(to the) elsewhere",
+    "artist": "still in a dream",
     "plays": 3,
     "plays_fmt": "3"
    }
@@ -785,9 +785,9 @@
    },
    {
     "day": "7/6",
-    "plays": 146,
-    "plays_fmt": "146",
-    "pct": 63
+    "plays": 182,
+    "plays_fmt": "182",
+    "pct": 78
    }
   ]
  }
