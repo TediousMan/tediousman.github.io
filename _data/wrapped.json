@@ -2,12 +2,12 @@
  "generated": "2026-07-07",
  "year_label": "2026",
  "all": {
-  "total": 206815,
-  "total_fmt": "206,815",
-  "uniq_art": 7127,
-  "uniq_art_fmt": "7,127",
-  "uniq_trk": 29732,
-  "uniq_trk_fmt": "29,732",
+  "total": 206884,
+  "total_fmt": "206,884",
+  "uniq_art": 7132,
+  "uniq_art_fmt": "7,132",
+  "uniq_trk": 29751,
+  "uniq_trk_fmt": "29,751",
   "start": "2018-03-06",
   "end": "2026-07-07",
   "top_art": [
@@ -267,19 +267,19 @@
    },
    {
     "year": "2026",
-    "plays": 23728,
-    "plays_fmt": "23,728",
+    "plays": 23797,
+    "plays_fmt": "23,797",
     "pct": 44
    }
   ]
  },
  "year": {
-  "total": 23728,
-  "total_fmt": "23,728",
-  "uniq_art": 2516,
-  "uniq_art_fmt": "2,516",
-  "uniq_trk": 6851,
-  "uniq_trk_fmt": "6,851",
+  "total": 23797,
+  "total_fmt": "23,797",
+  "uniq_art": 2523,
+  "uniq_art_fmt": "2,523",
+  "uniq_trk": 6870,
+  "uniq_trk_fmt": "6,870",
   "top_art": [
    {
     "artist": "Kienai",
@@ -311,8 +311,8 @@
    },
    {
     "artist": "あたまたんさん",
-    "plays": 168,
-    "plays_fmt": "168",
+    "plays": 169,
+    "plays_fmt": "169",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44",
     "pct": 74
    },
@@ -370,8 +370,8 @@
    {
     "album": "鉄の掟",
     "artist": "あたまたんさん",
-    "plays": 167,
-    "plays_fmt": "167",
+    "plays": 168,
+    "plays_fmt": "168",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44"
    },
    {
@@ -410,18 +410,18 @@
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/8f67506eb69e1457aed72a3f1273f862.jpg"
    },
    {
+    "album": "日々、折り返すごとに",
+    "artist": "爛漫天国",
+    "plays": 123,
+    "plays_fmt": "123",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb59ee187da2de942d5f50e0e0"
+   },
+   {
     "album": "White milestone",
     "artist": "Her",
     "plays": 122,
     "plays_fmt": "122",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/56cbed279563c2f39f8980ab904e1f1a.png"
-   },
-   {
-    "album": "日々、折り返すごとに",
-    "artist": "爛漫天国",
-    "plays": 122,
-    "plays_fmt": "122",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb59ee187da2de942d5f50e0e0"
    }
   ],
   "top_trk": [
@@ -525,19 +525,19 @@
    },
    {
     "month": "7",
-    "plays": 1027,
-    "plays_fmt": "1,027",
-    "pct": 23
+    "plays": 1096,
+    "plays_fmt": "1,096",
+    "pct": 24
    }
   ]
  },
  "week": {
-  "total": 1027,
-  "total_fmt": "1,027",
-  "uniq_art": 458,
-  "uniq_art_fmt": "458",
-  "uniq_trk": 672,
-  "uniq_trk_fmt": "672",
+  "total": 1096,
+  "total_fmt": "1,096",
+  "uniq_art": 491,
+  "uniq_art_fmt": "491",
+  "uniq_trk": 722,
+  "uniq_trk_fmt": "722",
   "start": "7/1",
   "end": "7/7",
   "top_art": [
@@ -563,6 +563,13 @@
     "pct": 12
    },
    {
+    "artist": "Kawabe Moto",
+    "plays": 15,
+    "plays_fmt": "15",
+    "img": "https://i.scdn.co/image/ab67616d0000b2737a49a42cc4457aa8b862a55a",
+    "pct": 11
+   },
+   {
     "artist": "eskamila",
     "plays": 15,
     "plays_fmt": "15",
@@ -570,10 +577,10 @@
     "pct": 11
    },
    {
-    "artist": "Kawabe Moto",
+    "artist": "レイラ",
     "plays": 14,
     "plays_fmt": "14",
-    "img": "https://i.scdn.co/image/ab67616d0000b2737a49a42cc4457aa8b862a55a",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb5a7ae7ae77a6230eb4107638",
     "pct": 10
    },
    {
@@ -581,13 +588,6 @@
     "plays": 13,
     "plays_fmt": "13",
     "img": "https://i.scdn.co/image/ab6761610000e5eb5b131627b8cd72d8bb7eff07",
-    "pct": 9
-   },
-   {
-    "artist": "レイラ",
-    "plays": 13,
-    "plays_fmt": "13",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb5a7ae7ae77a6230eb4107638",
     "pct": 9
    },
    {
@@ -637,9 +637,16 @@
    {
     "album": "いまを生きる",
     "artist": "レイラ",
+    "plays": 14,
+    "plays_fmt": "14",
+    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/fa0425b9bbfacd373011b58b083925d2.jpg"
+   },
+   {
+    "album": "Missing",
+    "artist": "Kawabe Moto",
     "plays": 13,
     "plays_fmt": "13",
-    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/fa0425b9bbfacd373011b58b083925d2.jpg"
+    "img": "https://i.scdn.co/image/ab67616d0000b2737a49a42cc4457aa8b862a55a"
    },
    {
     "album": "君がいない",
@@ -647,13 +654,6 @@
     "plays": 13,
     "plays_fmt": "13",
     "img": "https://i.scdn.co/image/ab6761610000e5eb5b131627b8cd72d8bb7eff07"
-   },
-   {
-    "album": "Missing",
-    "artist": "Kawabe Moto",
-    "plays": 12,
-    "plays_fmt": "12",
-    "img": "https://i.scdn.co/image/ab67616d0000b2737a49a42cc4457aa8b862a55a"
    },
    {
     "album": "A Wa I",
@@ -710,6 +710,12 @@
     "plays_fmt": "6"
    },
    {
+    "track": "from",
+    "artist": "揺れるは幽霊",
+    "plays": 5,
+    "plays_fmt": "5"
+   },
+   {
     "track": "あこがれ",
     "artist": "稀",
     "plays": 5,
@@ -718,6 +724,12 @@
    {
     "track": "FAR",
     "artist": "Sara Wakui",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "OMOIAI",
+    "artist": "Pixie Monster",
     "plays": 4,
     "plays_fmt": "4"
    },
@@ -732,18 +744,6 @@
     "artist": "deddecay",
     "plays": 4,
     "plays_fmt": "4"
-   },
-   {
-    "track": "true",
-    "artist": "2beef",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "(to the) elsewhere",
-    "artist": "still in a dream",
-    "plays": 3,
-    "plays_fmt": "3"
    }
   ],
   "by_day": [
@@ -785,9 +785,9 @@
    },
    {
     "day": "7/7",
-    "plays": 131,
-    "plays_fmt": "131",
-    "pct": 56
+    "plays": 200,
+    "plays_fmt": "200",
+    "pct": 86
    }
   ]
  }
