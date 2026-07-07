@@ -1,15 +1,15 @@
 {
- "generated": "2026-07-06",
+ "generated": "2026-07-07",
  "year_label": "2026",
  "all": {
-  "total": 206668,
-  "total_fmt": "206,668",
-  "uniq_art": 7126,
-  "uniq_art_fmt": "7,126",
-  "uniq_trk": 29729,
-  "uniq_trk_fmt": "29,729",
+  "total": 206815,
+  "total_fmt": "206,815",
+  "uniq_art": 7127,
+  "uniq_art_fmt": "7,127",
+  "uniq_trk": 29732,
+  "uniq_trk_fmt": "29,732",
   "start": "2018-03-06",
-  "end": "2026-07-06",
+  "end": "2026-07-07",
   "top_art": [
    {
     "artist": "Mr.ふぉるて",
@@ -267,38 +267,38 @@
    },
    {
     "year": "2026",
-    "plays": 23581,
-    "plays_fmt": "23,581",
+    "plays": 23728,
+    "plays_fmt": "23,728",
     "pct": 44
    }
   ]
  },
  "year": {
-  "total": 23581,
-  "total_fmt": "23,581",
-  "uniq_art": 2514,
-  "uniq_art_fmt": "2,514",
-  "uniq_trk": 6848,
-  "uniq_trk_fmt": "6,848",
+  "total": 23728,
+  "total_fmt": "23,728",
+  "uniq_art": 2516,
+  "uniq_art_fmt": "2,516",
+  "uniq_trk": 6851,
+  "uniq_trk_fmt": "6,851",
   "top_art": [
    {
     "artist": "Kienai",
-    "plays": 227,
-    "plays_fmt": "227",
+    "plays": 228,
+    "plays_fmt": "228",
     "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481",
     "pct": 100
    },
    {
     "artist": "Ramblamp",
-    "plays": 215,
-    "plays_fmt": "215",
+    "plays": 216,
+    "plays_fmt": "216",
     "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf",
     "pct": 95
    },
    {
     "artist": "BUDOU JUICE",
-    "plays": 201,
-    "plays_fmt": "201",
+    "plays": 202,
+    "plays_fmt": "202",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f",
     "pct": 89
    },
@@ -307,7 +307,7 @@
     "plays": 190,
     "plays_fmt": "190",
     "img": "https://i.scdn.co/image/ab67616d0000b273d29467756d06ae5882d98238",
-    "pct": 84
+    "pct": 83
    },
    {
     "artist": "あたまたんさん",
@@ -318,8 +318,8 @@
    },
    {
     "artist": "Youth Illustrated",
-    "plays": 155,
-    "plays_fmt": "155",
+    "plays": 156,
+    "plays_fmt": "156",
     "img": "https://i.scdn.co/image/ab6761610000e5eb7e17378b89a11d4110d0a4c6",
     "pct": 68
    },
@@ -332,17 +332,17 @@
    },
    {
     "artist": "the Wulongs",
-    "plays": 141,
-    "plays_fmt": "141",
+    "plays": 143,
+    "plays_fmt": "143",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
-    "pct": 62
+    "pct": 63
    },
    {
     "artist": "Avyss",
     "plays": 140,
     "plays_fmt": "140",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd62a8f1b8fdda09095bcd4f5",
-    "pct": 62
+    "pct": 61
    },
    {
     "artist": "夜標",
@@ -356,8 +356,8 @@
    {
     "album": "sparkleII",
     "artist": "Kienai",
-    "plays": 224,
-    "plays_fmt": "224",
+    "plays": 225,
+    "plays_fmt": "225",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/1c6a42ba2640cb0ed267d0c9d6a5f106.jpg"
    },
    {
@@ -377,15 +377,15 @@
    {
     "album": "BUDOU JUICE",
     "artist": "BUDOU JUICE",
-    "plays": 159,
-    "plays_fmt": "159",
+    "plays": 160,
+    "plays_fmt": "160",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f"
    },
    {
     "album": "Nichijogamatakodamasuru",
     "artist": "Ramblamp",
-    "plays": 156,
-    "plays_fmt": "156",
+    "plays": 157,
+    "plays_fmt": "157",
     "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
    },
    {
@@ -405,9 +405,16 @@
    {
     "album": "135",
     "artist": "wanbed",
+    "plays": 124,
+    "plays_fmt": "124",
+    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/8f67506eb69e1457aed72a3f1273f862.jpg"
+   },
+   {
+    "album": "White milestone",
+    "artist": "Her",
     "plays": 122,
     "plays_fmt": "122",
-    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/8f67506eb69e1457aed72a3f1273f862.jpg"
+    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/56cbed279563c2f39f8980ab904e1f1a.png"
    },
    {
     "album": "日々、折り返すごとに",
@@ -415,13 +422,6 @@
     "plays": 122,
     "plays_fmt": "122",
     "img": "https://i.scdn.co/image/ab6761610000e5eb59ee187da2de942d5f50e0e0"
-   },
-   {
-    "album": "White milestone",
-    "artist": "Her",
-    "plays": 121,
-    "plays_fmt": "121",
-    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/56cbed279563c2f39f8980ab904e1f1a.png"
    }
   ],
   "top_trk": [
@@ -458,8 +458,8 @@
    {
     "track": "Anemone",
     "artist": "REVEMERE",
-    "plays": 61,
-    "plays_fmt": "61"
+    "plays": 62,
+    "plays_fmt": "62"
    },
    {
     "track": "way back",
@@ -525,21 +525,21 @@
    },
    {
     "month": "7",
-    "plays": 880,
-    "plays_fmt": "880",
-    "pct": 20
+    "plays": 1027,
+    "plays_fmt": "1,027",
+    "pct": 23
    }
   ]
  },
  "week": {
-  "total": 938,
-  "total_fmt": "938",
-  "uniq_art": 427,
-  "uniq_art_fmt": "427",
-  "uniq_trk": 598,
-  "uniq_trk_fmt": "598",
-  "start": "6/30",
-  "end": "7/6",
+  "total": 1027,
+  "total_fmt": "1,027",
+  "uniq_art": 458,
+  "uniq_art_fmt": "458",
+  "uniq_trk": 672,
+  "uniq_trk_fmt": "672",
+  "start": "7/1",
+  "end": "7/7",
   "top_art": [
    {
     "artist": "Avyss",
@@ -550,8 +550,8 @@
    },
    {
     "artist": "EverBrighteller",
-    "plays": 19,
-    "plays_fmt": "19",
+    "plays": 20,
+    "plays_fmt": "20",
     "img": "https://i.scdn.co/image/ab6761610000e5eb503dcd9fd679892ccbc7fc71",
     "pct": 14
    },
@@ -561,13 +561,6 @@
     "plays_fmt": "17",
     "img": "https://i.scdn.co/image/ab6761610000e5eb10edce23f433e82fbe5cf41b",
     "pct": 12
-   },
-   {
-    "artist": "AVYSS, くゆる",
-    "plays": 15,
-    "plays_fmt": "15",
-    "img": null,
-    "pct": 11
    },
    {
     "artist": "eskamila",
@@ -599,17 +592,24 @@
    },
    {
     "artist": "0.2lx",
-    "plays": 10,
-    "plays_fmt": "10",
+    "plays": 11,
+    "plays_fmt": "11",
     "img": "https://i.scdn.co/image/ab6761610000e5ebf63110aeed00d3ef226303cb",
-    "pct": 7
+    "pct": 8
    },
    {
     "artist": "Good Food",
-    "plays": 10,
-    "plays_fmt": "10",
+    "plays": 11,
+    "plays_fmt": "11",
     "img": "https://i.scdn.co/image/ab6761610000e5eb10ecec80d9c5c11916251c54",
-    "pct": 7
+    "pct": 8
+   },
+   {
+    "artist": "Cheche",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb14295c025afeac9fea39f0f2",
+    "pct": 6
    }
   ],
   "top_alb": [
@@ -623,8 +623,8 @@
    {
     "album": "GOLD",
     "artist": "EverBrighteller",
-    "plays": 17,
-    "plays_fmt": "17",
+    "plays": 18,
+    "plays_fmt": "18",
     "img": "https://i.scdn.co/image/ab6761610000e5eb503dcd9fd679892ccbc7fc71"
    },
    {
@@ -633,13 +633,6 @@
     "plays": 15,
     "plays_fmt": "15",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd3ffb7ac1a7bc844a61b19de"
-   },
-   {
-    "album": "INNER SYNC",
-    "artist": "AVYSS, くゆる",
-    "plays": 15,
-    "plays_fmt": "15",
-    "img": null
    },
    {
     "album": "いまを生きる",
@@ -665,15 +658,15 @@
    {
     "album": "A Wa I",
     "artist": "0.2lx",
-    "plays": 10,
-    "plays_fmt": "10",
+    "plays": 11,
+    "plays_fmt": "11",
     "img": "https://i.scdn.co/image/ab6761610000e5ebf63110aeed00d3ef226303cb"
    },
    {
     "album": "Lights Out, and Away We Go",
     "artist": "Good Food",
-    "plays": 10,
-    "plays_fmt": "10",
+    "plays": 11,
+    "plays_fmt": "11",
     "img": "https://i.scdn.co/image/ab6761610000e5eb10ecec80d9c5c11916251c54"
    },
    {
@@ -682,6 +675,13 @@
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5eb14295c025afeac9fea39f0f2"
+   },
+   {
+    "album": "sing to the sink",
+    "artist": "Cyan",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb10edce23f433e82fbe5cf41b"
    }
   ],
   "top_trk": [
@@ -690,12 +690,6 @@
     "artist": "Avyss",
     "plays": 139,
     "plays_fmt": "139"
-   },
-   {
-    "track": "Soul",
-    "artist": "AVYSS, くゆる",
-    "plays": 15,
-    "plays_fmt": "15"
    },
    {
     "track": "君がいない",
@@ -728,6 +722,12 @@
     "plays_fmt": "4"
    },
    {
+    "track": "Skip",
+    "artist": "EverBrighteller",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
     "track": "talk to me",
     "artist": "deddecay",
     "plays": 4,
@@ -747,12 +747,6 @@
    }
   ],
   "by_day": [
-   {
-    "day": "6/30",
-    "plays": 58,
-    "plays_fmt": "58",
-    "pct": 25
-   },
    {
     "day": "7/1",
     "plays": 126,
@@ -785,9 +779,15 @@
    },
    {
     "day": "7/6",
-    "plays": 182,
-    "plays_fmt": "182",
-    "pct": 78
+    "plays": 198,
+    "plays_fmt": "198",
+    "pct": 85
+   },
+   {
+    "day": "7/7",
+    "plays": 131,
+    "plays_fmt": "131",
+    "pct": 56
    }
   ]
  }
