@@ -2,12 +2,12 @@
  "generated": "2026-07-08",
  "year_label": "2026",
  "all": {
-  "total": 207046,
-  "total_fmt": "207,046",
-  "uniq_art": 7132,
-  "uniq_art_fmt": "7,132",
-  "uniq_trk": 29754,
-  "uniq_trk_fmt": "29,754",
+  "total": 207074,
+  "total_fmt": "207,074",
+  "uniq_art": 7133,
+  "uniq_art_fmt": "7,133",
+  "uniq_trk": 29769,
+  "uniq_trk_fmt": "29,769",
   "start": "2018-03-06",
   "end": "2026-07-08",
   "top_art": [
@@ -267,19 +267,19 @@
    },
    {
     "year": "2026",
-    "plays": 23959,
-    "plays_fmt": "23,959",
+    "plays": 23987,
+    "plays_fmt": "23,987",
     "pct": 44
    }
   ]
  },
  "year": {
-  "total": 23959,
-  "total_fmt": "23,959",
-  "uniq_art": 2523,
-  "uniq_art_fmt": "2,523",
-  "uniq_trk": 6873,
-  "uniq_trk_fmt": "6,873",
+  "total": 23987,
+  "total_fmt": "23,987",
+  "uniq_art": 2524,
+  "uniq_art_fmt": "2,524",
+  "uniq_trk": 6888,
+  "uniq_trk_fmt": "6,888",
   "top_art": [
    {
     "artist": "Kienai",
@@ -525,19 +525,19 @@
    },
    {
     "month": "7",
-    "plays": 1258,
-    "plays_fmt": "1,258",
-    "pct": 28
+    "plays": 1286,
+    "plays_fmt": "1,286",
+    "pct": 29
    }
   ]
  },
  "week": {
-  "total": 1132,
-  "total_fmt": "1,132",
-  "uniq_art": 547,
-  "uniq_art_fmt": "547",
-  "uniq_trk": 831,
-  "uniq_trk_fmt": "831",
+  "total": 1160,
+  "total_fmt": "1,160",
+  "uniq_art": 550,
+  "uniq_art_fmt": "550",
+  "uniq_trk": 848,
+  "uniq_trk_fmt": "848",
   "start": "7/2",
   "end": "7/8",
   "top_art": [
@@ -554,6 +554,13 @@
     "plays_fmt": "22",
     "img": "https://i.scdn.co/image/ab6761610000e5eb503dcd9fd679892ccbc7fc71",
     "pct": 51
+   },
+   {
+    "artist": "吉凶わからず、",
+    "plays": 21,
+    "plays_fmt": "21",
+    "img": "https://i.scdn.co/image/ab6761610000e5eba56f1a7fa93d2ddfb43bebb4",
+    "pct": 49
    },
    {
     "artist": "Cyan",
@@ -603,13 +610,6 @@
     "plays_fmt": "11",
     "img": "https://i.scdn.co/image/ab6761610000e5eb10ecec80d9c5c11916251c54",
     "pct": 26
-   },
-   {
-    "artist": "the Wulongs",
-    "plays": 10,
-    "plays_fmt": "10",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
-    "pct": 23
    }
   ],
   "top_alb": [
@@ -626,6 +626,13 @@
     "plays": 20,
     "plays_fmt": "20",
     "img": "https://i.scdn.co/image/ab6761610000e5eb503dcd9fd679892ccbc7fc71"
+   },
+   {
+    "album": "laundrynotes",
+    "artist": "吉凶わからず、",
+    "plays": 20,
+    "plays_fmt": "20",
+    "img": "https://i.scdn.co/image/ab6761610000e5eba56f1a7fa93d2ddfb43bebb4"
    },
    {
     "album": "HomeComing",
@@ -675,13 +682,6 @@
     "plays": 8,
     "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab6761610000e5eb10edce23f433e82fbe5cf41b"
-   },
-   {
-    "album": "某月某日某所にて",
-    "artist": "奔走狂走局",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb0be3fe6c0cab81966bad153f"
    }
   ],
   "top_trk": [
@@ -785,9 +785,9 @@
    },
    {
     "day": "7/8",
-    "plays": 144,
-    "plays_fmt": "144",
-    "pct": 62
+    "plays": 172,
+    "plays_fmt": "172",
+    "pct": 74
    }
   ]
  }
