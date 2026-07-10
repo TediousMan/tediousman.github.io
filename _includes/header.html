@@ -17,8 +17,8 @@
         </li>
         <li><a href="{{ '/music-reviews' | relative_url }}" data-tooltip="聽音樂的筆記、心得與歌單" {% if page.url contains 'music-reviews' %}class="active"{% endif %}>音樂記錄</a></li>
         <li><a href="{{ '/life' | relative_url }}" data-tooltip="音樂以外的生活片段" {% if page.url contains 'life' %}class="active"{% endif %}>生活記錄</a></li>
-        <li><a href="{{ '/wrapped/' | relative_url }}" {% if page.url contains 'wrapped' %}class="active"{% endif %}>聽歌回顧</a></li>
-        <li><a href="{{ '/search/' | relative_url }}" onclick="openSearchModal(event)" {% if page.url contains 'search' %}class="active"{% endif %} aria-label="搜尋">🔍</a></li>
+        <li><a href="{{ '/wrapped/' | relative_url }}" data-tooltip="最近 7 天、今年整年都聽了什麼的統計數據" {% if page.url contains 'wrapped' %}class="active"{% endif %}>聽歌回顧</a></li>
+        <li><a href="{{ '/search/' | relative_url }}" onclick="openSearchModal(event)" data-tooltip="搜尋站內文章" {% if page.url contains 'search' %}class="active"{% endif %} aria-label="搜尋">🔍</a></li>
         <li id="nav-logout-link" style="display:none; list-style:none;">
           <a href="#" onclick="adminLogout(); return false;" style="color:#f85149;">登出</a>
         </li>
