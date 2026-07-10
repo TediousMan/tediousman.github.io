@@ -1,12 +1,12 @@
 ---
 layout: default
-title: 生活紀錄
+title: 生活記錄
 permalink: /life/
 ---
 
-<h1>生活紀錄</h1>
+<h1>生活記錄</h1>
 
-{% assign posts = site.posts | where: "category", "生活紀錄" %}
+{% assign posts = site.posts | where: "category", "生活記錄" %}
 {% for post in posts %}
 <div class="post-card" data-post-path="{{ post.path }}" data-post-title="{{ post.title | escape }}">
   <a class="post-card-thumb" href="{{ post.url | relative_url }}">{% if post.image %}<img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="post-card-image" loading="lazy">{% else %}<span class="post-card-image post-card-ph" aria-hidden="true">&#9834;</span>{% endif %}</a>
@@ -25,7 +25,7 @@ permalink: /life/
 {% endfor %}
 
 {% if posts.size == 0 %}
-<p style="color: #666;">目前還沒有生活紀錄文章。</p>
+<p style="color: #666;">目前還沒有生活記錄文章。</p>
 {% endif %}
 
 <script>
