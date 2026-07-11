@@ -1,15 +1,15 @@
 {
- "generated": "2026-07-10",
+ "generated": "2026-07-11",
  "year_label": "2026",
  "all": {
-  "total": 207545,
-  "total_fmt": "207,545",
+  "total": 207636,
+  "total_fmt": "207,636",
   "uniq_art": 7144,
   "uniq_art_fmt": "7,144",
-  "uniq_trk": 29828,
-  "uniq_trk_fmt": "29,828",
+  "uniq_trk": 29830,
+  "uniq_trk_fmt": "29,830",
   "start": "2018-03-06",
-  "end": "2026-07-10",
+  "end": "2026-07-11",
   "top_art": [
    {
     "artist": "Mr.ふぉるて",
@@ -267,19 +267,19 @@
    },
    {
     "year": "2026",
-    "plays": 24458,
-    "plays_fmt": "24,458",
+    "plays": 24549,
+    "plays_fmt": "24,549",
     "pct": 45
    }
   ]
  },
  "year": {
-  "total": 24458,
-  "total_fmt": "24,458",
+  "total": 24549,
+  "total_fmt": "24,549",
   "uniq_art": 2540,
   "uniq_art_fmt": "2,540",
-  "uniq_trk": 6947,
-  "uniq_trk_fmt": "6,947",
+  "uniq_trk": 6949,
+  "uniq_trk_fmt": "6,949",
   "top_art": [
    {
     "artist": "Kienai",
@@ -290,8 +290,8 @@
    },
    {
     "artist": "Ramblamp",
-    "plays": 222,
-    "plays_fmt": "222",
+    "plays": 223,
+    "plays_fmt": "223",
     "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf",
     "pct": 97
    },
@@ -304,8 +304,8 @@
    },
    {
     "artist": "bedgravity",
-    "plays": 195,
-    "plays_fmt": "195",
+    "plays": 196,
+    "plays_fmt": "196",
     "img": "https://i.scdn.co/image/ab67616d0000b273d29467756d06ae5882d98238",
     "pct": 85
    },
@@ -324,17 +324,17 @@
     "pct": 68
    },
    {
+    "artist": "uyuu",
+    "plays": 150,
+    "plays_fmt": "150",
+    "img": "https://i.scdn.co/image/ab67616d0000b27381582c0fb8f5908a6aee7f3e",
+    "pct": 65
+   },
+   {
     "artist": "the Wulongs",
     "plays": 148,
     "plays_fmt": "148",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
-    "pct": 64
-   },
-   {
-    "artist": "uyuu",
-    "plays": 148,
-    "plays_fmt": "148",
-    "img": "https://i.scdn.co/image/ab67616d0000b27381582c0fb8f5908a6aee7f3e",
     "pct": 64
    },
    {
@@ -363,8 +363,8 @@
    {
     "album": "Unmet Needs",
     "artist": "bedgravity",
-    "plays": 195,
-    "plays_fmt": "195",
+    "plays": 196,
+    "plays_fmt": "196",
     "img": "https://i.scdn.co/image/ab67616d0000b273d29467756d06ae5882d98238"
    },
    {
@@ -384,8 +384,8 @@
    {
     "album": "Nichijogamatakodamasuru",
     "artist": "Ramblamp",
-    "plays": 160,
-    "plays_fmt": "160",
+    "plays": 161,
+    "plays_fmt": "161",
     "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
    },
    {
@@ -398,22 +398,22 @@
    {
     "album": "She hood",
     "artist": "cat h∞d",
-    "plays": 129,
-    "plays_fmt": "129",
+    "plays": 130,
+    "plays_fmt": "130",
     "img": "https://i.scdn.co/image/ab67616d0000b27373eadbb2eb0dfafb999dc4d4"
    },
    {
     "album": "日々、折り返すごとに",
     "artist": "爛漫天国",
-    "plays": 126,
-    "plays_fmt": "126",
+    "plays": 127,
+    "plays_fmt": "127",
     "img": "https://i.scdn.co/image/ab6761610000e5eb59ee187da2de942d5f50e0e0"
    },
    {
     "album": "135",
     "artist": "wanbed",
-    "plays": 125,
-    "plays_fmt": "125",
+    "plays": 126,
+    "plays_fmt": "126",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/8f67506eb69e1457aed72a3f1273f862.jpg"
    },
    {
@@ -525,101 +525,94 @@
    },
    {
     "month": "7",
-    "plays": 1757,
-    "plays_fmt": "1,757",
-    "pct": 39
+    "plays": 1848,
+    "plays_fmt": "1,848",
+    "pct": 41
    }
   ]
  },
  "week": {
-  "total": 1406,
-  "total_fmt": "1,406",
-  "uniq_art": 618,
-  "uniq_art_fmt": "618",
-  "uniq_trk": 1022,
-  "uniq_trk_fmt": "1,022",
-  "start": "7/4",
-  "end": "7/10",
+  "total": 1265,
+  "total_fmt": "1,265",
+  "uniq_art": 609,
+  "uniq_art_fmt": "609",
+  "uniq_trk": 973,
+  "uniq_trk_fmt": "973",
+  "start": "7/5",
+  "end": "7/11",
   "top_art": [
    {
-    "artist": "EverBrighteller",
-    "plays": 23,
-    "plays_fmt": "23",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb503dcd9fd679892ccbc7fc71",
-    "pct": 100
-   },
-   {
     "artist": "吉凶わからず、",
-    "plays": 23,
-    "plays_fmt": "23",
+    "plays": 24,
+    "plays_fmt": "24",
     "img": "https://i.scdn.co/image/ab6761610000e5eba56f1a7fa93d2ddfb43bebb4",
     "pct": 100
    },
    {
-    "artist": "Cyan",
-    "plays": 18,
-    "plays_fmt": "18",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb10edce23f433e82fbe5cf41b",
-    "pct": 78
-   },
-   {
-    "artist": "Kawabe Moto",
-    "plays": 17,
-    "plays_fmt": "17",
-    "img": "https://i.scdn.co/image/ab67616d0000b2737a49a42cc4457aa8b862a55a",
-    "pct": 74
-   },
-   {
     "artist": "Spit lulu's",
-    "plays": 14,
-    "plays_fmt": "14",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb56241300235de9822717e866",
-    "pct": 61
-   },
-   {
-    "artist": "the Wulongs",
-    "plays": 14,
-    "plays_fmt": "14",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
-    "pct": 61
-   },
-   {
-    "artist": "Cheche",
     "plays": 13,
     "plays_fmt": "13",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb14295c025afeac9fea39f0f2",
-    "pct": 57
+    "img": "https://i.scdn.co/image/ab6761610000e5eb56241300235de9822717e866",
+    "pct": 54
    },
    {
     "artist": "Wata",
     "plays": 13,
     "plays_fmt": "13",
     "img": "https://i.scdn.co/image/ab6761610000e5eb3c8127d4775c53eef720f0b5",
-    "pct": 57
+    "pct": 54
    },
    {
-    "artist": "0.2lx",
+    "artist": "AoOo",
     "plays": 12,
     "plays_fmt": "12",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebf63110aeed00d3ef226303cb",
-    "pct": 52
+    "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
+    "pct": 50
    },
    {
-    "artist": "あのと",
+    "artist": "the Wulongs",
     "plays": 12,
     "plays_fmt": "12",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb5b131627b8cd72d8bb7eff07",
-    "pct": 52
+    "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
+    "pct": 50
+   },
+   {
+    "artist": "Ramblamp",
+    "plays": 11,
+    "plays_fmt": "11",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf",
+    "pct": 46
+   },
+   {
+    "artist": "GAMIGAMI",
+    "plays": 10,
+    "plays_fmt": "10",
+    "img": "https://i.scdn.co/image/ab67616d0000b273e976320cfbb00cb9adcd6ca6",
+    "pct": 42
+   },
+   {
+    "artist": "Home",
+    "plays": 10,
+    "plays_fmt": "10",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
+    "pct": 42
+   },
+   {
+    "artist": "檸 檬",
+    "plays": 10,
+    "plays_fmt": "10",
+    "img": null,
+    "pct": 42
+   },
+   {
+    "artist": "Yabai T-Shirts Yasan",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://i.scdn.co/image/ab6761610000e5eba4942c76d42f415e9d903ed9",
+    "pct": 38
    }
   ],
   "top_alb": [
-   {
-    "album": "GOLD",
-    "artist": "EverBrighteller",
-    "plays": 22,
-    "plays_fmt": "22",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb503dcd9fd679892ccbc7fc71"
-   },
    {
     "album": "laundrynotes",
     "artist": "吉凶わからず、",
@@ -630,67 +623,68 @@
    {
     "album": "Mirumono subete?",
     "artist": "Spit lulu's",
-    "plays": 14,
-    "plays_fmt": "14",
+    "plays": 13,
+    "plays_fmt": "13",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/4d1b4c3c5748f86fe75c0b945da4219d.jpg"
    },
    {
-    "album": "Missing",
-    "artist": "Kawabe Moto",
-    "plays": 14,
-    "plays_fmt": "14",
-    "img": "https://i.scdn.co/image/ab67616d0000b2737a49a42cc4457aa8b862a55a"
-   },
-   {
-    "album": "I'm Busy",
-    "artist": "Cheche",
-    "plays": 13,
-    "plays_fmt": "13",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb14295c025afeac9fea39f0f2"
-   },
-   {
-    "album": "A Wa I",
-    "artist": "0.2lx",
-    "plays": 12,
-    "plays_fmt": "12",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebf63110aeed00d3ef226303cb"
-   },
-   {
-    "album": "君がいない",
-    "artist": "あのと",
-    "plays": 12,
-    "plays_fmt": "12",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb5b131627b8cd72d8bb7eff07"
+    "album": "Chewing!!",
+    "artist": "GAMIGAMI",
+    "plays": 10,
+    "plays_fmt": "10",
+    "img": "https://i.scdn.co/image/ab67616d0000b273e976320cfbb00cb9adcd6ca6"
    },
    {
     "album": "HOME COLLECTION",
     "artist": "Home",
-    "plays": 11,
-    "plays_fmt": "11",
+    "plays": 10,
+    "plays_fmt": "10",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
+   },
+   {
+    "album": "Falling Autumn Bouquet",
+    "artist": "Wata",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/091a9fb74d5fd873ad184f8d91a5413b.jpg"
    },
    {
     "album": "Magical Tank-top Parade",
     "artist": "Yabai T-Shirts Yasan",
-    "plays": 11,
-    "plays_fmt": "11",
+    "plays": 9,
+    "plays_fmt": "9",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/c4516a9b5490c706796e39a651d9b1a9.jpg"
+   },
+   {
+    "album": "Rooom",
+    "artist": "AoOo",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/da74e0f56cc6364849b7ac888d3492d5.jpg"
+   },
+   {
+    "album": "再訪の街 透明な約束",
+    "artist": "檸 檬",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/e2b2f6bd9aa612dabae8a7b02ceb53c8.jpg"
    },
    {
     "album": "FACH",
     "artist": "the Wulongs",
-    "plays": 10,
-    "plays_fmt": "10",
+    "plays": 8,
+    "plays_fmt": "8",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/98f2e6391df7025c381117edd5682cb7.jpg"
+   },
+   {
+    "album": "Nichijogamatakodamasuru",
+    "artist": "Ramblamp",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
    }
   ],
   "top_trk": [
-   {
-    "track": "君がいない",
-    "artist": "あのと",
-    "plays": 12,
-    "plays_fmt": "12"
-   },
    {
     "track": "Tremble, and bloom / 梅",
     "artist": "Spit lulu's",
@@ -716,8 +710,8 @@
     "plays_fmt": "4"
    },
    {
-    "track": "Kokorobakari",
-    "artist": "EverBrighteller",
+    "track": "CALL",
+    "artist": "AoOo",
     "plays": 4,
     "plays_fmt": "4"
    },
@@ -728,66 +722,72 @@
     "plays_fmt": "4"
    },
    {
-    "track": "Saigensei nothing",
-    "artist": "Xanadoo",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "Sedan",
-    "artist": "Vuw",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
     "track": "Skrrrrr!!!",
     "artist": "Wata",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "Spring and Pedaling",
+    "artist": "The Slumbers",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "アネモネ",
+    "artist": "吉凶わからず、",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "ラストレイン",
+    "artist": "kobore",
     "plays": 4,
     "plays_fmt": "4"
    }
   ],
   "by_day": [
    {
-    "day": "7/4",
-    "plays": 232,
-    "plays_fmt": "232",
-    "pct": 99
-   },
-   {
     "day": "7/5",
     "plays": 115,
     "plays_fmt": "115",
-    "pct": 49
+    "pct": 46
    },
    {
     "day": "7/6",
     "plays": 198,
     "plays_fmt": "198",
-    "pct": 85
+    "pct": 80
    },
    {
     "day": "7/7",
     "plays": 218,
     "plays_fmt": "218",
-    "pct": 93
+    "pct": 88
    },
    {
     "day": "7/8",
     "plays": 234,
     "plays_fmt": "234",
-    "pct": 100
+    "pct": 94
    },
    {
     "day": "7/9",
     "plays": 179,
     "plays_fmt": "179",
-    "pct": 76
+    "pct": 72
    },
    {
     "day": "7/10",
-    "plays": 230,
-    "plays_fmt": "230",
-    "pct": 98
+    "plays": 249,
+    "plays_fmt": "249",
+    "pct": 100
+   },
+   {
+    "day": "7/11",
+    "plays": 72,
+    "plays_fmt": "72",
+    "pct": 29
    }
   ]
  }
