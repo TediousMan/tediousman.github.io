@@ -2,12 +2,12 @@
  "generated": "2026-07-11",
  "year_label": "2026",
  "all": {
-  "total": 207674,
-  "total_fmt": "207,674",
-  "uniq_art": 7148,
-  "uniq_art_fmt": "7,148",
-  "uniq_trk": 29845,
-  "uniq_trk_fmt": "29,845",
+  "total": 207733,
+  "total_fmt": "207,733",
+  "uniq_art": 7149,
+  "uniq_art_fmt": "7,149",
+  "uniq_trk": 29846,
+  "uniq_trk_fmt": "29,846",
   "start": "2018-03-06",
   "end": "2026-07-11",
   "top_art": [
@@ -267,31 +267,31 @@
    },
    {
     "year": "2026",
-    "plays": 24587,
-    "plays_fmt": "24,587",
+    "plays": 24646,
+    "plays_fmt": "24,646",
     "pct": 46
    }
   ]
  },
  "year": {
-  "total": 24587,
-  "total_fmt": "24,587",
-  "uniq_art": 2545,
-  "uniq_art_fmt": "2,545",
-  "uniq_trk": 6972,
-  "uniq_trk_fmt": "6,972",
+  "total": 24646,
+  "total_fmt": "24,646",
+  "uniq_art": 2546,
+  "uniq_art_fmt": "2,546",
+  "uniq_trk": 6973,
+  "uniq_trk_fmt": "6,973",
   "top_art": [
    {
     "artist": "Kienai",
-    "plays": 230,
-    "plays_fmt": "230",
+    "plays": 231,
+    "plays_fmt": "231",
     "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481",
     "pct": 100
    },
    {
     "artist": "Ramblamp",
-    "plays": 223,
-    "plays_fmt": "223",
+    "plays": 224,
+    "plays_fmt": "224",
     "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf",
     "pct": 97
    },
@@ -300,7 +300,7 @@
     "plays": 204,
     "plays_fmt": "204",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f",
-    "pct": 89
+    "pct": 88
    },
    {
     "artist": "bedgravity",
@@ -311,8 +311,8 @@
    },
    {
     "artist": "あたまたんさん",
-    "plays": 173,
-    "plays_fmt": "173",
+    "plays": 174,
+    "plays_fmt": "174",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44",
     "pct": 75
    },
@@ -356,8 +356,8 @@
    {
     "album": "sparkleII",
     "artist": "Kienai",
-    "plays": 227,
-    "plays_fmt": "227",
+    "plays": 228,
+    "plays_fmt": "228",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/1c6a42ba2640cb0ed267d0c9d6a5f106.jpg"
    },
    {
@@ -370,9 +370,16 @@
    {
     "album": "鉄の掟",
     "artist": "あたまたんさん",
-    "plays": 172,
-    "plays_fmt": "172",
+    "plays": 173,
+    "plays_fmt": "173",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44"
+   },
+   {
+    "album": "Nichijogamatakodamasuru",
+    "artist": "Ramblamp",
+    "plays": 162,
+    "plays_fmt": "162",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
    },
    {
     "album": "BUDOU JUICE",
@@ -380,13 +387,6 @@
     "plays": 161,
     "plays_fmt": "161",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f"
-   },
-   {
-    "album": "Nichijogamatakodamasuru",
-    "artist": "Ramblamp",
-    "plays": 161,
-    "plays_fmt": "161",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
    },
    {
     "album": "INNER SYNC",
@@ -480,10 +480,10 @@
     "plays_fmt": "44"
    },
    {
-    "track": "Overclouds",
-    "artist": "Youth Illustrated",
-    "plays": 43,
-    "plays_fmt": "43"
+    "track": "ドライブ",
+    "artist": "Have a nice day!",
+    "plays": 44,
+    "plays_fmt": "44"
    }
   ],
   "by_month": [
@@ -525,19 +525,19 @@
    },
    {
     "month": "7",
-    "plays": 1886,
-    "plays_fmt": "1,886",
-    "pct": 42
+    "plays": 1945,
+    "plays_fmt": "1,945",
+    "pct": 43
    }
   ]
  },
  "week": {
-  "total": 1303,
-  "total_fmt": "1,303",
-  "uniq_art": 626,
-  "uniq_art_fmt": "626",
-  "uniq_trk": 1003,
-  "uniq_trk_fmt": "1,003",
+  "total": 1362,
+  "total_fmt": "1,362",
+  "uniq_art": 628,
+  "uniq_art_fmt": "628",
+  "uniq_trk": 1005,
+  "uniq_trk_fmt": "1,005",
   "start": "7/5",
   "end": "7/11",
   "top_art": [
@@ -547,6 +547,13 @@
     "plays_fmt": "24",
     "img": "https://i.scdn.co/image/ab6761610000e5eba56f1a7fa93d2ddfb43bebb4",
     "pct": 100
+   },
+   {
+    "artist": "AoOo",
+    "plays": 14,
+    "plays_fmt": "14",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
+    "pct": 58
    },
    {
     "artist": "Spit lulu's",
@@ -563,10 +570,10 @@
     "pct": 54
    },
    {
-    "artist": "AoOo",
+    "artist": "Ramblamp",
     "plays": 12,
     "plays_fmt": "12",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf",
     "pct": 50
    },
    {
@@ -575,13 +582,6 @@
     "plays_fmt": "12",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
     "pct": 50
-   },
-   {
-    "artist": "Ramblamp",
-    "plays": 11,
-    "plays_fmt": "11",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf",
-    "pct": 46
    },
    {
     "artist": "GAMIGAMI",
@@ -598,18 +598,18 @@
     "pct": 42
    },
    {
+    "artist": "Yabai T-Shirts Yasan",
+    "plays": 10,
+    "plays_fmt": "10",
+    "img": "https://i.scdn.co/image/ab6761610000e5eba4942c76d42f415e9d903ed9",
+    "pct": 42
+   },
+   {
     "artist": "檸 檬",
     "plays": 10,
     "plays_fmt": "10",
     "img": "https://i.scdn.co/image/ab6761610000e5eb1de3c217248781a33398fc81",
     "pct": 42
-   },
-   {
-    "artist": "Yabai T-Shirts Yasan",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://i.scdn.co/image/ab6761610000e5eba4942c76d42f415e9d903ed9",
-    "pct": 38
    }
   ],
   "top_alb": [
@@ -628,6 +628,13 @@
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/4d1b4c3c5748f86fe75c0b945da4219d.jpg"
    },
    {
+    "album": "Rooom",
+    "artist": "AoOo",
+    "plays": 11,
+    "plays_fmt": "11",
+    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/da74e0f56cc6364849b7ac888d3492d5.jpg"
+   },
+   {
     "album": "Chewing!!",
     "artist": "GAMIGAMI",
     "plays": 10,
@@ -642,6 +649,13 @@
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
    },
    {
+    "album": "Magical Tank-top Parade",
+    "artist": "Yabai T-Shirts Yasan",
+    "plays": 10,
+    "plays_fmt": "10",
+    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/c4516a9b5490c706796e39a651d9b1a9.jpg"
+   },
+   {
     "album": "Falling Autumn Bouquet",
     "artist": "Wata",
     "plays": 9,
@@ -649,18 +663,11 @@
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/091a9fb74d5fd873ad184f8d91a5413b.jpg"
    },
    {
-    "album": "Magical Tank-top Parade",
-    "artist": "Yabai T-Shirts Yasan",
+    "album": "Nichijogamatakodamasuru",
+    "artist": "Ramblamp",
     "plays": 9,
     "plays_fmt": "9",
-    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/c4516a9b5490c706796e39a651d9b1a9.jpg"
-   },
-   {
-    "album": "Rooom",
-    "artist": "AoOo",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/da74e0f56cc6364849b7ac888d3492d5.jpg"
+    "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
    },
    {
     "album": "再訪の街 透明な約束",
@@ -675,13 +682,6 @@
     "plays": 8,
     "plays_fmt": "8",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/98f2e6391df7025c381117edd5682cb7.jpg"
-   },
-   {
-    "album": "My Kind Of Woman",
-    "artist": "türk bluez",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebd343baf192328fd5bf490aa5"
    }
   ],
   "top_trk": [
@@ -740,8 +740,8 @@
     "plays_fmt": "4"
    },
    {
-    "track": "ラストレイン",
-    "artist": "kobore",
+    "track": "コニファー",
+    "artist": "Regallily",
     "plays": 4,
     "plays_fmt": "4"
    }
@@ -785,9 +785,9 @@
    },
    {
     "day": "7/11",
-    "plays": 110,
-    "plays_fmt": "110",
-    "pct": 44
+    "plays": 169,
+    "plays_fmt": "169",
+    "pct": 68
    }
   ]
  }
