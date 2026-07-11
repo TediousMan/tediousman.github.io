@@ -2,12 +2,12 @@
  "generated": "2026-07-11",
  "year_label": "2026",
  "all": {
-  "total": 207636,
-  "total_fmt": "207,636",
-  "uniq_art": 7144,
-  "uniq_art_fmt": "7,144",
-  "uniq_trk": 29830,
-  "uniq_trk_fmt": "29,830",
+  "total": 207674,
+  "total_fmt": "207,674",
+  "uniq_art": 7148,
+  "uniq_art_fmt": "7,148",
+  "uniq_trk": 29845,
+  "uniq_trk_fmt": "29,845",
   "start": "2018-03-06",
   "end": "2026-07-11",
   "top_art": [
@@ -267,19 +267,19 @@
    },
    {
     "year": "2026",
-    "plays": 24549,
-    "plays_fmt": "24,549",
-    "pct": 45
+    "plays": 24587,
+    "plays_fmt": "24,587",
+    "pct": 46
    }
   ]
  },
  "year": {
-  "total": 24549,
-  "total_fmt": "24,549",
-  "uniq_art": 2540,
-  "uniq_art_fmt": "2,540",
-  "uniq_trk": 6949,
-  "uniq_trk_fmt": "6,949",
+  "total": 24587,
+  "total_fmt": "24,587",
+  "uniq_art": 2545,
+  "uniq_art_fmt": "2,545",
+  "uniq_trk": 6972,
+  "uniq_trk_fmt": "6,972",
   "top_art": [
    {
     "artist": "Kienai",
@@ -339,8 +339,8 @@
    },
    {
     "artist": "Avyss",
-    "plays": 140,
-    "plays_fmt": "140",
+    "plays": 141,
+    "plays_fmt": "141",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd62a8f1b8fdda09095bcd4f5",
     "pct": 61
    },
@@ -391,8 +391,8 @@
    {
     "album": "INNER SYNC",
     "artist": "Avyss",
-    "plays": 140,
-    "plays_fmt": "140",
+    "plays": 141,
+    "plays_fmt": "141",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/389d72d53aa10059db21ff4907f3ee32.jpg"
    },
    {
@@ -428,8 +428,8 @@
    {
     "track": "Soul",
     "artist": "Avyss",
-    "plays": 139,
-    "plays_fmt": "139"
+    "plays": 140,
+    "plays_fmt": "140"
    },
    {
     "track": "UTSUROIHAMA",
@@ -525,19 +525,19 @@
    },
    {
     "month": "7",
-    "plays": 1848,
-    "plays_fmt": "1,848",
-    "pct": 41
+    "plays": 1886,
+    "plays_fmt": "1,886",
+    "pct": 42
    }
   ]
  },
  "week": {
-  "total": 1265,
-  "total_fmt": "1,265",
-  "uniq_art": 609,
-  "uniq_art_fmt": "609",
-  "uniq_trk": 973,
-  "uniq_trk_fmt": "973",
+  "total": 1303,
+  "total_fmt": "1,303",
+  "uniq_art": 626,
+  "uniq_art_fmt": "626",
+  "uniq_trk": 1003,
+  "uniq_trk_fmt": "1,003",
   "start": "7/5",
   "end": "7/11",
   "top_art": [
@@ -601,7 +601,7 @@
     "artist": "檸 檬",
     "plays": 10,
     "plays_fmt": "10",
-    "img": null,
+    "img": "https://i.scdn.co/image/ab6761610000e5eb1de3c217248781a33398fc81",
     "pct": 42
    },
    {
@@ -677,11 +677,11 @@
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/98f2e6391df7025c381117edd5682cb7.jpg"
    },
    {
-    "album": "Nichijogamatakodamasuru",
-    "artist": "Ramblamp",
+    "album": "My Kind Of Woman",
+    "artist": "türk bluez",
     "plays": 8,
     "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
+    "img": "https://i.scdn.co/image/ab6761610000e5ebd343baf192328fd5bf490aa5"
    }
   ],
   "top_trk": [
@@ -690,6 +690,12 @@
     "artist": "Spit lulu's",
     "plays": 8,
     "plays_fmt": "8"
+   },
+   {
+    "track": "Blue Train",
+    "artist": "Cattle",
+    "plays": 5,
+    "plays_fmt": "5"
    },
    {
     "track": "Sail",
@@ -702,12 +708,6 @@
     "artist": "揺れるは幽霊",
     "plays": 5,
     "plays_fmt": "5"
-   },
-   {
-    "track": "Blue Train",
-    "artist": "Cattle",
-    "plays": 4,
-    "plays_fmt": "4"
    },
    {
     "track": "CALL",
@@ -785,9 +785,9 @@
    },
    {
     "day": "7/11",
-    "plays": 72,
-    "plays_fmt": "72",
-    "pct": 29
+    "plays": 110,
+    "plays_fmt": "110",
+    "pct": 44
    }
   ]
  }
