@@ -2,8 +2,8 @@
  "generated": "2026-07-13",
  "year_label": "2026",
  "all": {
-  "total": 208059,
-  "total_fmt": "208,059",
+  "total": 208063,
+  "total_fmt": "208,063",
   "uniq_art": 7150,
   "uniq_art_fmt": "7,150",
   "uniq_trk": 29884,
@@ -267,15 +267,15 @@
    },
    {
     "year": "2026",
-    "plays": 24972,
-    "plays_fmt": "24,972",
+    "plays": 24976,
+    "plays_fmt": "24,976",
     "pct": 46
    }
   ]
  },
  "year": {
-  "total": 24972,
-  "total_fmt": "24,972",
+  "total": 24976,
+  "total_fmt": "24,976",
   "uniq_art": 2550,
   "uniq_art_fmt": "2,550",
   "uniq_trk": 7011,
@@ -525,19 +525,19 @@
    },
    {
     "month": "7",
-    "plays": 2271,
-    "plays_fmt": "2,271",
+    "plays": 2275,
+    "plays_fmt": "2,275",
     "pct": 51
    }
   ]
  },
  "week": {
-  "total": 1375,
-  "total_fmt": "1,375",
-  "uniq_art": 606,
-  "uniq_art_fmt": "606",
-  "uniq_trk": 973,
-  "uniq_trk_fmt": "973",
+  "total": 1379,
+  "total_fmt": "1,379",
+  "uniq_art": 607,
+  "uniq_art_fmt": "607",
+  "uniq_trk": 974,
+  "uniq_trk_fmt": "974",
   "start": "7/7",
   "end": "7/13",
   "top_art": [
@@ -722,6 +722,12 @@
     "plays_fmt": "4"
    },
    {
+    "track": "Heart of Gold",
+    "artist": "ANABANTFULLS",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
     "track": "Lucky7",
     "artist": "吉凶わからず、",
     "plays": 4,
@@ -736,12 +742,6 @@
    {
     "track": "Skrrrrr!!!",
     "artist": "Wata",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "heart",
-    "artist": "RED in BLUE",
     "plays": 4,
     "plays_fmt": "4"
    }
@@ -785,9 +785,9 @@
    },
    {
     "day": "7/13",
-    "plays": 94,
-    "plays_fmt": "94",
-    "pct": 38
+    "plays": 98,
+    "plays_fmt": "98",
+    "pct": 39
    }
   ]
  }
