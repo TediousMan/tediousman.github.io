@@ -1,15 +1,15 @@
 {
- "generated": "2026-07-12",
+ "generated": "2026-07-13",
  "year_label": "2026",
  "all": {
-  "total": 207964,
-  "total_fmt": "207,964",
+  "total": 208059,
+  "total_fmt": "208,059",
   "uniq_art": 7150,
   "uniq_art_fmt": "7,150",
   "uniq_trk": 29884,
   "uniq_trk_fmt": "29,884",
   "start": "2018-03-06",
-  "end": "2026-07-12",
+  "end": "2026-07-13",
   "top_art": [
    {
     "artist": "Mr.ふぉるて",
@@ -267,15 +267,15 @@
    },
    {
     "year": "2026",
-    "plays": 24877,
-    "plays_fmt": "24,877",
+    "plays": 24972,
+    "plays_fmt": "24,972",
     "pct": 46
    }
   ]
  },
  "year": {
-  "total": 24877,
-  "total_fmt": "24,877",
+  "total": 24972,
+  "total_fmt": "24,972",
   "uniq_art": 2550,
   "uniq_art_fmt": "2,550",
   "uniq_trk": 7011,
@@ -304,8 +304,8 @@
    },
    {
     "artist": "bedgravity",
-    "plays": 197,
-    "plays_fmt": "197",
+    "plays": 198,
+    "plays_fmt": "198",
     "img": "https://i.scdn.co/image/ab67616d0000b273d29467756d06ae5882d98238",
     "pct": 85
    },
@@ -346,8 +346,8 @@
    },
    {
     "artist": "夜標",
-    "plays": 139,
-    "plays_fmt": "139",
+    "plays": 140,
+    "plays_fmt": "140",
     "img": "https://i.scdn.co/image/ab67616d0000b27351e19785c99f993a0cfba5ce",
     "pct": 60
    }
@@ -363,9 +363,9 @@
    {
     "album": "Unmet Needs",
     "artist": "bedgravity",
-    "plays": 197,
-    "plays_fmt": "197",
-    "img": "https://i.scdn.co/image/ab67616d0000b273d29467756d06ae5882d98238"
+    "plays": 198,
+    "plays_fmt": "198",
+    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/d49e1932df6d076c99051c1c7fe957a4.jpg"
    },
    {
     "album": "鉄の掟",
@@ -398,15 +398,15 @@
    {
     "album": "She hood",
     "artist": "cat h∞d",
-    "plays": 130,
-    "plays_fmt": "130",
+    "plays": 131,
+    "plays_fmt": "131",
     "img": "https://i.scdn.co/image/ab67616d0000b27373eadbb2eb0dfafb999dc4d4"
    },
    {
     "album": "日々、折り返すごとに",
     "artist": "爛漫天国",
-    "plays": 127,
-    "plays_fmt": "127",
+    "plays": 128,
+    "plays_fmt": "128",
     "img": "https://i.scdn.co/image/ab6761610000e5eb59ee187da2de942d5f50e0e0"
    },
    {
@@ -446,8 +446,8 @@
    {
     "track": "季節が",
     "artist": "夜標",
-    "plays": 72,
-    "plays_fmt": "72"
+    "plays": 73,
+    "plays_fmt": "73"
    },
    {
     "track": "浴槽",
@@ -525,21 +525,21 @@
    },
    {
     "month": "7",
-    "plays": 2176,
-    "plays_fmt": "2,176",
-    "pct": 48
+    "plays": 2271,
+    "plays_fmt": "2,271",
+    "pct": 51
    }
   ]
  },
  "week": {
-  "total": 1478,
-  "total_fmt": "1,478",
-  "uniq_art": 654,
-  "uniq_art_fmt": "654",
-  "uniq_trk": 1062,
-  "uniq_trk_fmt": "1,062",
-  "start": "7/6",
-  "end": "7/12",
+  "total": 1375,
+  "total_fmt": "1,375",
+  "uniq_art": 606,
+  "uniq_art_fmt": "606",
+  "uniq_trk": 973,
+  "uniq_trk_fmt": "973",
+  "start": "7/7",
+  "end": "7/13",
   "top_art": [
    {
     "artist": "吉凶わからず、",
@@ -556,24 +556,17 @@
     "pct": 60
    },
    {
+    "artist": "Spit lulu's",
+    "plays": 14,
+    "plays_fmt": "14",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb56241300235de9822717e866",
+    "pct": 56
+   },
+   {
     "artist": "AoOo",
     "plays": 13,
     "plays_fmt": "13",
     "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
-    "pct": 52
-   },
-   {
-    "artist": "Home",
-    "plays": 13,
-    "plays_fmt": "13",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
-    "pct": 52
-   },
-   {
-    "artist": "Spit lulu's",
-    "plays": 13,
-    "plays_fmt": "13",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb56241300235de9822717e866",
     "pct": 52
    },
    {
@@ -584,24 +577,31 @@
     "pct": 52
    },
    {
-    "artist": "the Wulongs",
-    "plays": 13,
-    "plays_fmt": "13",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
-    "pct": 52
-   },
-   {
-    "artist": "Ramblamp",
+    "artist": "Home",
     "plays": 12,
     "plays_fmt": "12",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
     "pct": 48
+   },
+   {
+    "artist": "EverBrighteller",
+    "plays": 10,
+    "plays_fmt": "10",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb503dcd9fd679892ccbc7fc71",
+    "pct": 40
    },
    {
     "artist": "GAMIGAMI",
     "plays": 10,
     "plays_fmt": "10",
     "img": "https://i.scdn.co/image/ab67616d0000b273e976320cfbb00cb9adcd6ca6",
+    "pct": 40
+   },
+   {
+    "artist": "kobore",
+    "plays": 10,
+    "plays_fmt": "10",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24",
     "pct": 40
    },
    {
@@ -621,6 +621,13 @@
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/cb4df5f65408e9b1b194748a7a9b6e8b.png"
    },
    {
+    "album": "Mirumono subete?",
+    "artist": "Spit lulu's",
+    "plays": 14,
+    "plays_fmt": "14",
+    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/4d1b4c3c5748f86fe75c0b945da4219d.jpg"
+   },
+   {
     "album": "plasticpoolside",
     "artist": "plasticpoolside",
     "plays": 14,
@@ -630,16 +637,9 @@
    {
     "album": "HOME COLLECTION",
     "artist": "Home",
-    "plays": 13,
-    "plays_fmt": "13",
+    "plays": 12,
+    "plays_fmt": "12",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
-   },
-   {
-    "album": "Mirumono subete?",
-    "artist": "Spit lulu's",
-    "plays": 13,
-    "plays_fmt": "13",
-    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/4d1b4c3c5748f86fe75c0b945da4219d.jpg"
    },
    {
     "album": "Rooom",
@@ -656,11 +656,11 @@
     "img": "https://i.scdn.co/image/ab67616d0000b273e976320cfbb00cb9adcd6ca6"
    },
    {
-    "album": "FACH",
-    "artist": "the Wulongs",
+    "album": "GOLD",
+    "artist": "EverBrighteller",
     "plays": 10,
     "plays_fmt": "10",
-    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/98f2e6391df7025c381117edd5682cb7.jpg"
+    "img": "https://i.scdn.co/image/ab6761610000e5eb503dcd9fd679892ccbc7fc71"
    },
    {
     "album": "Falling Autumn Bouquet",
@@ -670,18 +670,18 @@
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/091a9fb74d5fd873ad184f8d91a5413b.jpg"
    },
    {
+    "album": "Magical Tank-top Parade",
+    "artist": "Yabai T-Shirts Yasan",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/c4516a9b5490c706796e39a651d9b1a9.jpg"
+   },
+   {
     "album": "My Kind Of Woman",
     "artist": "türk bluez",
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd343baf192328fd5bf490aa5"
-   },
-   {
-    "album": "再訪の街 透明な約束",
-    "artist": "檸 檬",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/e2b2f6bd9aa612dabae8a7b02ceb53c8.jpg"
    }
   ],
   "top_trk": [
@@ -734,25 +734,19 @@
     "plays_fmt": "4"
    },
    {
-    "track": "Skagen",
-    "artist": "ゆうらん船",
+    "track": "Skrrrrr!!!",
+    "artist": "Wata",
     "plays": 4,
     "plays_fmt": "4"
    },
    {
-    "track": "Skrrrrr!!!",
-    "artist": "Wata",
+    "track": "heart",
+    "artist": "RED in BLUE",
     "plays": 4,
     "plays_fmt": "4"
    }
   ],
   "by_day": [
-   {
-    "day": "7/6",
-    "plays": 198,
-    "plays_fmt": "198",
-    "pct": 80
-   },
    {
     "day": "7/7",
     "plays": 218,
@@ -785,9 +779,15 @@
    },
    {
     "day": "7/12",
-    "plays": 217,
-    "plays_fmt": "217",
-    "pct": 87
+    "plays": 218,
+    "plays_fmt": "218",
+    "pct": 88
+   },
+   {
+    "day": "7/13",
+    "plays": 94,
+    "plays_fmt": "94",
+    "pct": 38
    }
   ]
  }
