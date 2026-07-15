@@ -2,12 +2,12 @@
  "generated": "2026-07-15",
  "year_label": "2026",
  "all": {
-  "total": 208392,
-  "total_fmt": "208,392",
-  "uniq_art": 7156,
-  "uniq_art_fmt": "7,156",
-  "uniq_trk": 29909,
-  "uniq_trk_fmt": "29,909",
+  "total": 208401,
+  "total_fmt": "208,401",
+  "uniq_art": 7158,
+  "uniq_art_fmt": "7,158",
+  "uniq_trk": 29916,
+  "uniq_trk_fmt": "29,916",
   "start": "2018-03-06",
   "end": "2026-07-15",
   "top_art": [
@@ -267,19 +267,19 @@
    },
    {
     "year": "2026",
-    "plays": 25305,
-    "plays_fmt": "25,305",
+    "plays": 25314,
+    "plays_fmt": "25,314",
     "pct": 47
    }
   ]
  },
  "year": {
-  "total": 25305,
-  "total_fmt": "25,305",
-  "uniq_art": 2557,
-  "uniq_art_fmt": "2,557",
-  "uniq_trk": 7036,
-  "uniq_trk_fmt": "7,036",
+  "total": 25314,
+  "total_fmt": "25,314",
+  "uniq_art": 2560,
+  "uniq_art_fmt": "2,560",
+  "uniq_trk": 7043,
+  "uniq_trk_fmt": "7,043",
   "top_art": [
    {
     "artist": "Kienai",
@@ -525,19 +525,19 @@
    },
    {
     "month": "7",
-    "plays": 2604,
-    "plays_fmt": "2,604",
+    "plays": 2613,
+    "plays_fmt": "2,613",
     "pct": 58
    }
   ]
  },
  "week": {
-  "total": 1256,
-  "total_fmt": "1,256",
-  "uniq_art": 572,
-  "uniq_art_fmt": "572",
-  "uniq_trk": 898,
-  "uniq_trk_fmt": "898",
+  "total": 1265,
+  "total_fmt": "1,265",
+  "uniq_art": 577,
+  "uniq_art_fmt": "577",
+  "uniq_trk": 906,
+  "uniq_trk_fmt": "906",
   "start": "7/9",
   "end": "7/15",
   "top_art": [
@@ -785,9 +785,9 @@
    },
    {
     "day": "7/15",
-    "plays": 165,
-    "plays_fmt": "165",
-    "pct": 66
+    "plays": 174,
+    "plays_fmt": "174",
+    "pct": 70
    }
   ]
  }
