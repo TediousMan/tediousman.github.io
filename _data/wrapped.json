@@ -2,12 +2,12 @@
  "generated": "2026-07-17",
  "year_label": "2026",
  "all": {
-  "total": 208717,
-  "total_fmt": "208,717",
-  "uniq_art": 7178,
-  "uniq_art_fmt": "7,178",
-  "uniq_trk": 29969,
-  "uniq_trk_fmt": "29,969",
+  "total": 208758,
+  "total_fmt": "208,758",
+  "uniq_art": 7183,
+  "uniq_art_fmt": "7,183",
+  "uniq_trk": 29981,
+  "uniq_trk_fmt": "29,981",
   "start": "2018-03-06",
   "end": "2026-07-17",
   "top_art": [
@@ -267,19 +267,19 @@
    },
    {
     "year": "2026",
-    "plays": 25630,
-    "plays_fmt": "25,630",
-    "pct": 47
+    "plays": 25671,
+    "plays_fmt": "25,671",
+    "pct": 48
    }
   ]
  },
  "year": {
-  "total": 25630,
-  "total_fmt": "25,630",
-  "uniq_art": 2582,
-  "uniq_art_fmt": "2,582",
-  "uniq_trk": 7096,
-  "uniq_trk_fmt": "7,096",
+  "total": 25671,
+  "total_fmt": "25,671",
+  "uniq_art": 2588,
+  "uniq_art_fmt": "2,588",
+  "uniq_trk": 7108,
+  "uniq_trk_fmt": "7,108",
   "top_art": [
    {
     "artist": "Kienai",
@@ -525,94 +525,101 @@
    },
    {
     "month": "7",
-    "plays": 2929,
-    "plays_fmt": "2,929",
-    "pct": 65
+    "plays": 2970,
+    "plays_fmt": "2,970",
+    "pct": 66
    }
   ]
  },
  "week": {
-  "total": 1153,
-  "total_fmt": "1,153",
-  "uniq_art": 570,
-  "uniq_art_fmt": "570",
-  "uniq_trk": 821,
-  "uniq_trk_fmt": "821",
+  "total": 1194,
+  "total_fmt": "1,194",
+  "uniq_art": 579,
+  "uniq_art_fmt": "579",
+  "uniq_trk": 834,
+  "uniq_trk_fmt": "834",
   "start": "7/11",
   "end": "7/17",
   "top_art": [
+   {
+    "artist": "SHIKUMI",
+    "plays": 21,
+    "plays_fmt": "21",
+    "img": null,
+    "pct": 100
+   },
    {
     "artist": "plasticpoolside",
     "plays": 19,
     "plays_fmt": "19",
     "img": "https://i.scdn.co/image/ab6761610000e5eb1547c629d5008e4a50d9a321",
-    "pct": 100
+    "pct": 90
    },
    {
     "artist": "DEARDOLL",
     "plays": 17,
     "plays_fmt": "17",
     "img": "https://i.scdn.co/image/ab6761610000e5eb92aecc59912b5bf5486c8bd9",
-    "pct": 89
+    "pct": 81
    },
    {
     "artist": "吉凶わからず、",
     "plays": 13,
     "plays_fmt": "13",
     "img": "https://i.scdn.co/image/ab6761610000e5eba56f1a7fa93d2ddfb43bebb4",
-    "pct": 68
+    "pct": 62
    },
    {
     "artist": "睡眠船",
     "plays": 12,
     "plays_fmt": "12",
     "img": "https://i.scdn.co/image/ab6761610000e5eb27c4818c15515f82ced5d9aa",
-    "pct": 63
+    "pct": 57
    },
    {
     "artist": "Muque",
     "plays": 10,
     "plays_fmt": "10",
     "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f",
-    "pct": 53
+    "pct": 48
    },
    {
     "artist": "RED in BLUE",
     "plays": 10,
     "plays_fmt": "10",
     "img": "https://i.scdn.co/image/ab6761610000e5ebfc7eefc842f0ea1aa305ee44",
-    "pct": 53
+    "pct": 48
    },
    {
     "artist": "Noimage",
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5eb4bdff297db1c166423dd2d80",
-    "pct": 47
+    "pct": 43
    },
    {
     "artist": "tenbin O",
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb146cdd0b2be813c4b411eb2",
-    "pct": 47
+    "pct": 43
    },
    {
-    "artist": "EverBrighteller",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb503dcd9fd679892ccbc7fc71",
-    "pct": 42
-   },
-   {
-    "artist": "GAMIGAMI",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab67616d0000b273e976320cfbb00cb9adcd6ca6",
-    "pct": 42
+    "artist": "詩組み",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": null,
+    "pct": 43
    }
   ],
   "top_alb": [
+   {
+    "album": "tanya",
+    "artist": "SHIKUMI",
+    "plays": 21,
+    "plays_fmt": "21",
+    "img": null
+   },
    {
     "album": "plasticpoolside",
     "artist": "plasticpoolside",
@@ -675,16 +682,15 @@
     "plays": 7,
     "plays_fmt": "7",
     "img": "https://i.scdn.co/image/ab6761610000e5eb503dcd9fd679892ccbc7fc71"
-   },
-   {
-    "album": "Rooom",
-    "artist": "AoOo",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/da74e0f56cc6364849b7ac888d3492d5.jpg"
    }
   ],
   "top_trk": [
+   {
+    "track": "tanya",
+    "artist": "SHIKUMI",
+    "plays": 21,
+    "plays_fmt": "21"
+   },
    {
     "track": "A Phone Logged Out",
     "artist": "DEARDOLL",
@@ -710,6 +716,12 @@
     "plays_fmt": "6"
    },
    {
+    "track": "短夜",
+    "artist": "詩組み",
+    "plays": 6,
+    "plays_fmt": "6"
+   },
+   {
     "track": "コニファー",
     "artist": "Regallily",
     "plays": 5,
@@ -730,18 +742,6 @@
    {
     "track": "Fuchinobe",
     "artist": "Hakbutzkans",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "Heart of Gold",
-    "artist": "ANABANTFULLS",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "How To Make It",
-    "artist": "tenbin O",
     "plays": 4,
     "plays_fmt": "4"
    }
@@ -785,9 +785,9 @@
    },
    {
     "day": "7/17",
-    "plays": 116,
-    "plays_fmt": "116",
-    "pct": 53
+    "plays": 157,
+    "plays_fmt": "157",
+    "pct": 72
    }
   ]
  }
