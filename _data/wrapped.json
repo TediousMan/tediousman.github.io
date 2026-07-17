@@ -2,12 +2,12 @@
  "generated": "2026-07-17",
  "year_label": "2026",
  "all": {
-  "total": 208758,
-  "total_fmt": "208,758",
-  "uniq_art": 7183,
-  "uniq_art_fmt": "7,183",
-  "uniq_trk": 29981,
-  "uniq_trk_fmt": "29,981",
+  "total": 208778,
+  "total_fmt": "208,778",
+  "uniq_art": 7184,
+  "uniq_art_fmt": "7,184",
+  "uniq_trk": 29995,
+  "uniq_trk_fmt": "29,995",
   "start": "2018-03-06",
   "end": "2026-07-17",
   "top_art": [
@@ -267,19 +267,19 @@
    },
    {
     "year": "2026",
-    "plays": 25671,
-    "plays_fmt": "25,671",
+    "plays": 25691,
+    "plays_fmt": "25,691",
     "pct": 48
    }
   ]
  },
  "year": {
-  "total": 25671,
-  "total_fmt": "25,671",
-  "uniq_art": 2588,
-  "uniq_art_fmt": "2,588",
-  "uniq_trk": 7108,
-  "uniq_trk_fmt": "7,108",
+  "total": 25691,
+  "total_fmt": "25,691",
+  "uniq_art": 2589,
+  "uniq_art_fmt": "2,589",
+  "uniq_trk": 7124,
+  "uniq_trk_fmt": "7,124",
   "top_art": [
    {
     "artist": "Kienai",
@@ -525,19 +525,19 @@
    },
    {
     "month": "7",
-    "plays": 2970,
-    "plays_fmt": "2,970",
-    "pct": 66
+    "plays": 2990,
+    "plays_fmt": "2,990",
+    "pct": 67
    }
   ]
  },
  "week": {
-  "total": 1194,
-  "total_fmt": "1,194",
-  "uniq_art": 579,
-  "uniq_art_fmt": "579",
-  "uniq_trk": 834,
-  "uniq_trk_fmt": "834",
+  "total": 1214,
+  "total_fmt": "1,214",
+  "uniq_art": 584,
+  "uniq_art_fmt": "584",
+  "uniq_trk": 851,
+  "uniq_trk_fmt": "851",
   "start": "7/11",
   "end": "7/17",
   "top_art": [
@@ -663,6 +663,13 @@
     "img": "https://i.scdn.co/image/ab67616d0000b273e976320cfbb00cb9adcd6ca6"
    },
    {
+    "album": "Sway",
+    "artist": "qurumaru",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebb7d0ca2df86408cd645a9d7f"
+   },
+   {
     "album": "///////",
     "artist": "Hello Sleepwalkers",
     "plays": 7,
@@ -675,13 +682,6 @@
     "plays": 7,
     "plays_fmt": "7",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/13bc104dda275aecfdc92e8231ef0b32.jpg"
-   },
-   {
-    "album": "GOLD",
-    "artist": "EverBrighteller",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb503dcd9fd679892ccbc7fc71"
    }
   ],
   "top_trk": [
@@ -700,8 +700,8 @@
    {
     "track": "Sway",
     "artist": "qurumaru",
-    "plays": 7,
-    "plays_fmt": "7"
+    "plays": 8,
+    "plays_fmt": "8"
    },
    {
     "track": "heart",
@@ -785,9 +785,9 @@
    },
    {
     "day": "7/17",
-    "plays": 157,
-    "plays_fmt": "157",
-    "pct": 72
+    "plays": 177,
+    "plays_fmt": "177",
+    "pct": 81
    }
   ]
  }
