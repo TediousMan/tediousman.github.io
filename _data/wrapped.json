@@ -2,12 +2,12 @@
  "generated": "2026-07-18",
  "year_label": "2026",
  "all": {
-  "total": 208952,
-  "total_fmt": "208,952",
-  "uniq_art": 7184,
-  "uniq_art_fmt": "7,184",
-  "uniq_trk": 29995,
-  "uniq_trk_fmt": "29,995",
+  "total": 208974,
+  "total_fmt": "208,974",
+  "uniq_art": 7186,
+  "uniq_art_fmt": "7,186",
+  "uniq_trk": 30005,
+  "uniq_trk_fmt": "30,005",
   "start": "2018-03-06",
   "end": "2026-07-18",
   "top_art": [
@@ -267,19 +267,19 @@
    },
    {
     "year": "2026",
-    "plays": 25865,
-    "plays_fmt": "25,865",
+    "plays": 25887,
+    "plays_fmt": "25,887",
     "pct": 48
    }
   ]
  },
  "year": {
-  "total": 25865,
-  "total_fmt": "25,865",
-  "uniq_art": 2589,
-  "uniq_art_fmt": "2,589",
-  "uniq_trk": 7124,
-  "uniq_trk_fmt": "7,124",
+  "total": 25887,
+  "total_fmt": "25,887",
+  "uniq_art": 2591,
+  "uniq_art_fmt": "2,591",
+  "uniq_trk": 7134,
+  "uniq_trk_fmt": "7,134",
   "top_art": [
    {
     "artist": "Kienai",
@@ -325,10 +325,10 @@
    },
    {
     "artist": "uyuu",
-    "plays": 153,
-    "plays_fmt": "153",
+    "plays": 154,
+    "plays_fmt": "154",
     "img": "https://i.scdn.co/image/ab67616d0000b27381582c0fb8f5908a6aee7f3e",
-    "pct": 65
+    "pct": 66
    },
    {
     "artist": "the Wulongs",
@@ -525,90 +525,90 @@
    },
    {
     "month": "7",
-    "plays": 3164,
-    "plays_fmt": "3,164",
-    "pct": 70
+    "plays": 3186,
+    "plays_fmt": "3,186",
+    "pct": 71
    }
   ]
  },
  "week": {
-  "total": 1205,
-  "total_fmt": "1,205",
-  "uniq_art": 573,
-  "uniq_art_fmt": "573",
-  "uniq_trk": 830,
-  "uniq_trk_fmt": "830",
+  "total": 1227,
+  "total_fmt": "1,227",
+  "uniq_art": 576,
+  "uniq_art_fmt": "576",
+  "uniq_trk": 843,
+  "uniq_trk_fmt": "843",
   "start": "7/12",
   "end": "7/18",
   "top_art": [
    {
     "artist": "SHIKUMI",
-    "plays": 36,
-    "plays_fmt": "36",
+    "plays": 37,
+    "plays_fmt": "37",
     "img": "https://i.scdn.co/image/ab67616d0000b27327673d6391b7d62fe53bae5b",
     "pct": 100
    },
    {
     "artist": "吉凶わからず、",
-    "plays": 16,
-    "plays_fmt": "16",
+    "plays": 17,
+    "plays_fmt": "17",
     "img": "https://i.scdn.co/image/ab6761610000e5eba56f1a7fa93d2ddfb43bebb4",
-    "pct": 44
+    "pct": 46
    },
    {
     "artist": "DEARDOLL",
     "plays": 15,
     "plays_fmt": "15",
     "img": "https://i.scdn.co/image/ab6761610000e5eb92aecc59912b5bf5486c8bd9",
-    "pct": 42
+    "pct": 41
    },
    {
     "artist": "睡眠船",
     "plays": 13,
     "plays_fmt": "13",
     "img": "https://i.scdn.co/image/ab6761610000e5eb27c4818c15515f82ced5d9aa",
-    "pct": 36
+    "pct": 35
    },
    {
     "artist": "RED in BLUE",
     "plays": 11,
     "plays_fmt": "11",
     "img": "https://i.scdn.co/image/ab6761610000e5ebfc7eefc842f0ea1aa305ee44",
-    "pct": 31
+    "pct": 30
    },
    {
     "artist": "Muque",
     "plays": 10,
     "plays_fmt": "10",
     "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f",
-    "pct": 28
+    "pct": 27
    },
    {
     "artist": "EverBrighteller",
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5eb503dcd9fd679892ccbc7fc71",
-    "pct": 25
+    "pct": 24
    },
    {
     "artist": "Noimage",
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5eb4bdff297db1c166423dd2d80",
-    "pct": 25
+    "pct": 24
    },
    {
     "artist": "詩組み",
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab67616d0000b2731ae493905cfbaf83e2320327",
-    "pct": 25
+    "pct": 24
    },
    {
-    "artist": "qurumaru",
+    "artist": "Home",
     "plays": 8,
     "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebb7d0ca2df86408cd645a9d7f",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
     "pct": 22
    }
   ],
@@ -616,8 +616,8 @@
    {
     "album": "tanya",
     "artist": "SHIKUMI",
-    "plays": 36,
-    "plays_fmt": "36",
+    "plays": 37,
+    "plays_fmt": "37",
     "img": "https://i.scdn.co/image/ab67616d0000b27327673d6391b7d62fe53bae5b"
    },
    {
@@ -656,6 +656,13 @@
     "img": "https://i.scdn.co/image/ab6761610000e5eb503dcd9fd679892ccbc7fc71"
    },
    {
+    "album": "HOME COLLECTION",
+    "artist": "Home",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
+   },
+   {
     "album": "Sway",
     "artist": "qurumaru",
     "plays": 8,
@@ -675,21 +682,14 @@
     "plays": 7,
     "plays_fmt": "7",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/ddcbd963409ebf5e24df22141b8c8630.jpg"
-   },
-   {
-    "album": "Chewing!!",
-    "artist": "GAMIGAMI",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab67616d0000b273e976320cfbb00cb9adcd6ca6"
    }
   ],
   "top_trk": [
    {
     "track": "tanya",
     "artist": "SHIKUMI",
-    "plays": 36,
-    "plays_fmt": "36"
+    "plays": 37,
+    "plays_fmt": "37"
    },
    {
     "track": "A Phone Logged Out",
@@ -785,9 +785,9 @@
    },
    {
     "day": "7/18",
-    "plays": 154,
-    "plays_fmt": "154",
-    "pct": 71
+    "plays": 176,
+    "plays_fmt": "176",
+    "pct": 81
    }
   ]
  }
