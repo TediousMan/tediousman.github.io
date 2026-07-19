@@ -1,13 +1,13 @@
 {
- "generated": "2026-07-19",
+ "generated": "2026-07-20",
  "year_label": "2026",
  "all": {
-  "total": 209136,
-  "total_fmt": "209,136",
-  "uniq_art": 7188,
-  "uniq_art_fmt": "7,188",
-  "uniq_trk": 30019,
-  "uniq_trk_fmt": "30,019",
+  "total": 209152,
+  "total_fmt": "209,152",
+  "uniq_art": 7189,
+  "uniq_art_fmt": "7,189",
+  "uniq_trk": 30026,
+  "uniq_trk_fmt": "30,026",
   "start": "2018-03-06",
   "end": "2026-07-19",
   "top_art": [
@@ -267,19 +267,19 @@
    },
    {
     "year": "2026",
-    "plays": 26049,
-    "plays_fmt": "26,049",
+    "plays": 26065,
+    "plays_fmt": "26,065",
     "pct": 48
    }
   ]
  },
  "year": {
-  "total": 26049,
-  "total_fmt": "26,049",
-  "uniq_art": 2593,
-  "uniq_art_fmt": "2,593",
-  "uniq_trk": 7148,
-  "uniq_trk_fmt": "7,148",
+  "total": 26065,
+  "total_fmt": "26,065",
+  "uniq_art": 2594,
+  "uniq_art_fmt": "2,594",
+  "uniq_trk": 7155,
+  "uniq_trk_fmt": "7,155",
   "top_art": [
    {
     "artist": "Kienai",
@@ -525,21 +525,21 @@
    },
    {
     "month": "7",
-    "plays": 3348,
-    "plays_fmt": "3,348",
-    "pct": 74
+    "plays": 3364,
+    "plays_fmt": "3,364",
+    "pct": 75
    }
   ]
  },
  "week": {
-  "total": 1171,
-  "total_fmt": "1,171",
-  "uniq_art": 569,
-  "uniq_art_fmt": "569",
-  "uniq_trk": 833,
-  "uniq_trk_fmt": "833",
-  "start": "7/13",
-  "end": "7/19",
+  "total": 1073,
+  "total_fmt": "1,073",
+  "uniq_art": 527,
+  "uniq_art_fmt": "527",
+  "uniq_trk": 777,
+  "uniq_trk_fmt": "777",
+  "start": "7/14",
+  "end": "7/20",
   "top_art": [
    {
     "artist": "SHIKUMI",
@@ -563,6 +563,20 @@
     "pct": 38
    },
    {
+    "artist": "Muddy Jackets",
+    "plays": 14,
+    "plays_fmt": "14",
+    "img": null,
+    "pct": 36
+   },
+   {
+    "artist": "pinfu",
+    "plays": 13,
+    "plays_fmt": "13",
+    "img": "https://i.scdn.co/image/ab67616d0000b273f4e424ad28550f7ce992dd69",
+    "pct": 33
+   },
+   {
     "artist": "睡眠船",
     "plays": 13,
     "plays_fmt": "13",
@@ -570,31 +584,10 @@
     "pct": 33
    },
    {
-    "artist": "pinfu",
-    "plays": 11,
-    "plays_fmt": "11",
-    "img": "https://i.scdn.co/image/ab67616d0000b273f4e424ad28550f7ce992dd69",
-    "pct": 28
-   },
-   {
-    "artist": "EverBrighteller",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb503dcd9fd679892ccbc7fc71",
-    "pct": 23
-   },
-   {
     "artist": "Noimage",
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5eb4bdff297db1c166423dd2d80",
-    "pct": 23
-   },
-   {
-    "artist": "tenbin O",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebb146cdd0b2be813c4b411eb2",
     "pct": 23
    },
    {
@@ -605,10 +598,17 @@
     "pct": 23
    },
    {
-    "artist": "Black Boboi",
+    "artist": "Kuzure Mochiya",
     "plays": 8,
     "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb173cb515bfb6ca8f05dc2aca",
+    "img": null,
+    "pct": 21
+   },
+   {
+    "artist": "tenbin O",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebb146cdd0b2be813c4b411eb2",
     "pct": 21
    }
   ],
@@ -628,11 +628,25 @@
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/cb4df5f65408e9b1b194748a7a9b6e8b.png"
    },
    {
+    "album": "Aha",
+    "artist": "Muddy Jackets",
+    "plays": 14,
+    "plays_fmt": "14",
+    "img": null
+   },
+   {
     "album": "A Phone Logged Out",
     "artist": "DEARDOLL",
     "plays": 13,
     "plays_fmt": "13",
     "img": "https://i.scdn.co/image/ab6761610000e5eb92aecc59912b5bf5486c8bd9"
+   },
+   {
+    "album": "TOKYO JUNPAKU",
+    "artist": "pinfu",
+    "plays": 13,
+    "plays_fmt": "13",
+    "img": "https://i.scdn.co/image/ab67616d0000b273f4e424ad28550f7ce992dd69"
    },
    {
     "album": "ベランダ紀行",
@@ -642,32 +656,11 @@
     "img": "https://i.scdn.co/image/ab6761610000e5eb27c4818c15515f82ced5d9aa"
    },
    {
-    "album": "TOKYO JUNPAKU",
-    "artist": "pinfu",
-    "plays": 11,
-    "plays_fmt": "11",
-    "img": "https://i.scdn.co/image/ab67616d0000b273f4e424ad28550f7ce992dd69"
-   },
-   {
     "album": "is Alone",
     "artist": "Noimage",
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5eb4bdff297db1c166423dd2d80"
-   },
-   {
-    "album": "GOLD",
-    "artist": "EverBrighteller",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb503dcd9fd679892ccbc7fc71"
-   },
-   {
-    "album": "Sepia",
-    "artist": "Black Boboi",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/158d6943703e6cd30388cd6dba40f635.jpg"
    },
    {
     "album": "///////",
@@ -682,6 +675,13 @@
     "plays": 7,
     "plays_fmt": "7",
     "img": "https://i.scdn.co/image/ab67616d0000b273e976320cfbb00cb9adcd6ca6"
+   },
+   {
+    "album": "EX-HUMANITY",
+    "artist": "coldrain",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/9636206466016b6f549392fcfefbce96.jpg"
    }
   ],
   "top_trk": [
@@ -698,22 +698,16 @@
     "plays_fmt": "13"
    },
    {
+    "track": "Chocolate Lily",
+    "artist": "Muddy Jackets",
+    "plays": 8,
+    "plays_fmt": "8"
+   },
+   {
     "track": "短夜",
     "artist": "詩組み",
     "plays": 6,
     "plays_fmt": "6"
-   },
-   {
-    "track": "Alien Love",
-    "artist": "Kawabe Moto",
-    "plays": 5,
-    "plays_fmt": "5"
-   },
-   {
-    "track": "wakare",
-    "artist": "hiragi no",
-    "plays": 5,
-    "plays_fmt": "5"
    },
    {
     "track": "DAYBYE",
@@ -722,14 +716,14 @@
     "plays_fmt": "4"
    },
    {
-    "track": "Heart of Gold",
-    "artist": "ANABANTFULLS",
+    "track": "Hibi",
+    "artist": "Sazanami",
     "plays": 4,
     "plays_fmt": "4"
    },
    {
-    "track": "Hibi",
-    "artist": "Sazanami",
+    "track": "In The Town",
+    "artist": "pinfu",
     "plays": 4,
     "plays_fmt": "4"
    },
@@ -744,15 +738,15 @@
     "artist": "türk bluez",
     "plays": 4,
     "plays_fmt": "4"
+   },
+   {
+    "track": "Sway",
+    "artist": "qurumaru",
+    "plays": 4,
+    "plays_fmt": "4"
    }
   ],
   "by_day": [
-   {
-    "day": "7/13",
-    "plays": 114,
-    "plays_fmt": "114",
-    "pct": 58
-   },
    {
     "day": "7/14",
     "plays": 148,
@@ -785,9 +779,15 @@
    },
    {
     "day": "7/19",
-    "plays": 144,
-    "plays_fmt": "144",
-    "pct": 73
+    "plays": 160,
+    "plays_fmt": "160",
+    "pct": 81
+   },
+   {
+    "day": "7/20",
+    "plays": 0,
+    "plays_fmt": "0",
+    "pct": 0
    }
   ]
  }
