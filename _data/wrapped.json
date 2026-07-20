@@ -2,8 +2,8 @@
  "generated": "2026-07-20",
  "year_label": "2026",
  "all": {
-  "total": 209280,
-  "total_fmt": "209,280",
+  "total": 209284,
+  "total_fmt": "209,284",
   "uniq_art": 7189,
   "uniq_art_fmt": "7,189",
   "uniq_trk": 30026,
@@ -267,15 +267,15 @@
    },
    {
     "year": "2026",
-    "plays": 26193,
-    "plays_fmt": "26,193",
+    "plays": 26197,
+    "plays_fmt": "26,197",
     "pct": 49
    }
   ]
  },
  "year": {
-  "total": 26193,
-  "total_fmt": "26,193",
+  "total": 26197,
+  "total_fmt": "26,197",
   "uniq_art": 2594,
   "uniq_art_fmt": "2,594",
   "uniq_trk": 7155,
@@ -525,19 +525,19 @@
    },
    {
     "month": "7",
-    "plays": 3492,
-    "plays_fmt": "3,492",
+    "plays": 3496,
+    "plays_fmt": "3,496",
     "pct": 78
    }
   ]
  },
  "week": {
-  "total": 1201,
-  "total_fmt": "1,201",
+  "total": 1205,
+  "total_fmt": "1,205",
   "uniq_art": 569,
   "uniq_art_fmt": "569",
-  "uniq_trk": 866,
-  "uniq_trk_fmt": "866",
+  "uniq_trk": 867,
+  "uniq_trk_fmt": "867",
   "start": "7/14",
   "end": "7/20",
   "top_art": [
@@ -556,18 +556,18 @@
     "pct": 49
    },
    {
+    "artist": "Muddy Jackets",
+    "plays": 16,
+    "plays_fmt": "16",
+    "img": null,
+    "pct": 41
+   },
+   {
     "artist": "DEARDOLL",
     "plays": 15,
     "plays_fmt": "15",
     "img": "https://i.scdn.co/image/ab6761610000e5eb92aecc59912b5bf5486c8bd9",
     "pct": 38
-   },
-   {
-    "artist": "Muddy Jackets",
-    "plays": 14,
-    "plays_fmt": "14",
-    "img": null,
-    "pct": 36
    },
    {
     "artist": "pinfu",
@@ -630,8 +630,8 @@
    {
     "album": "Aha",
     "artist": "Muddy Jackets",
-    "plays": 14,
-    "plays_fmt": "14",
+    "plays": 16,
+    "plays_fmt": "16",
     "img": null
    },
    {
@@ -700,8 +700,8 @@
    {
     "track": "Chocolate Lily",
     "artist": "Muddy Jackets",
-    "plays": 8,
-    "plays_fmt": "8"
+    "plays": 10,
+    "plays_fmt": "10"
    },
    {
     "track": "短夜",
@@ -785,9 +785,9 @@
    },
    {
     "day": "7/20",
-    "plays": 128,
-    "plays_fmt": "128",
-    "pct": 65
+    "plays": 132,
+    "plays_fmt": "132",
+    "pct": 67
    }
   ]
  }
