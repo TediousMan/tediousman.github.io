@@ -2,12 +2,12 @@
  "generated": "2026-07-21",
  "year_label": "2026",
  "all": {
-  "total": 209487,
-  "total_fmt": "209,487",
-  "uniq_art": 7189,
-  "uniq_art_fmt": "7,189",
-  "uniq_trk": 30026,
-  "uniq_trk_fmt": "30,026",
+  "total": 209520,
+  "total_fmt": "209,520",
+  "uniq_art": 7192,
+  "uniq_art_fmt": "7,192",
+  "uniq_trk": 30047,
+  "uniq_trk_fmt": "30,047",
   "start": "2018-03-06",
   "end": "2026-07-21",
   "top_art": [
@@ -267,19 +267,19 @@
    },
    {
     "year": "2026",
-    "plays": 26400,
-    "plays_fmt": "26,400",
+    "plays": 26433,
+    "plays_fmt": "26,433",
     "pct": 49
    }
   ]
  },
  "year": {
-  "total": 26400,
-  "total_fmt": "26,400",
-  "uniq_art": 2594,
-  "uniq_art_fmt": "2,594",
-  "uniq_trk": 7156,
-  "uniq_trk_fmt": "7,156",
+  "total": 26433,
+  "total_fmt": "26,433",
+  "uniq_art": 2599,
+  "uniq_art_fmt": "2,599",
+  "uniq_trk": 7178,
+  "uniq_trk_fmt": "7,178",
   "top_art": [
    {
     "artist": "Kienai",
@@ -525,19 +525,19 @@
    },
    {
     "month": "7",
-    "plays": 3699,
-    "plays_fmt": "3,699",
-    "pct": 82
+    "plays": 3732,
+    "plays_fmt": "3,732",
+    "pct": 83
    }
   ]
  },
  "week": {
-  "total": 1260,
-  "total_fmt": "1,260",
-  "uniq_art": 530,
-  "uniq_art_fmt": "530",
-  "uniq_trk": 786,
-  "uniq_trk_fmt": "786",
+  "total": 1293,
+  "total_fmt": "1,293",
+  "uniq_art": 542,
+  "uniq_art_fmt": "542",
+  "uniq_trk": 810,
+  "uniq_trk_fmt": "810",
   "start": "7/15",
   "end": "7/21",
   "top_art": [
@@ -704,6 +704,12 @@
     "plays_fmt": "10"
    },
    {
+    "track": "流星メモライザ",
+    "artist": "Me'lock Stock",
+    "plays": 7,
+    "plays_fmt": "7"
+   },
+   {
     "track": "Keep My Head Up",
     "artist": "türk bluez",
     "plays": 6,
@@ -738,12 +744,6 @@
     "artist": "吉凶わからず、",
     "plays": 4,
     "plays_fmt": "4"
-   },
-   {
-    "track": "Alien Love",
-    "artist": "Kawabe Moto",
-    "plays": 4,
-    "plays_fmt": "4"
    }
   ],
   "by_day": [
@@ -751,42 +751,42 @@
     "day": "7/15",
     "plays": 176,
     "plays_fmt": "176",
-    "pct": 87
+    "pct": 75
    },
    {
     "day": "7/16",
     "plays": 198,
     "plays_fmt": "198",
-    "pct": 98
+    "pct": 84
    },
    {
     "day": "7/17",
     "plays": 197,
     "plays_fmt": "197",
-    "pct": 98
+    "pct": 84
    },
    {
     "day": "7/18",
     "plays": 194,
     "plays_fmt": "194",
-    "pct": 96
+    "pct": 83
    },
    {
     "day": "7/19",
     "plays": 160,
     "plays_fmt": "160",
-    "pct": 79
+    "pct": 68
    },
    {
     "day": "7/20",
     "plays": 133,
     "plays_fmt": "133",
-    "pct": 66
+    "pct": 57
    },
    {
     "day": "7/21",
-    "plays": 202,
-    "plays_fmt": "202",
+    "plays": 235,
+    "plays_fmt": "235",
     "pct": 100
    }
   ]
