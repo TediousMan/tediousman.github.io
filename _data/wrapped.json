@@ -2,12 +2,12 @@
  "generated": "2026-07-23",
  "year_label": "2026",
  "all": {
-  "total": 209717,
-  "total_fmt": "209,717",
-  "uniq_art": 7193,
-  "uniq_art_fmt": "7,193",
-  "uniq_trk": 30058,
-  "uniq_trk_fmt": "30,058",
+  "total": 209779,
+  "total_fmt": "209,779",
+  "uniq_art": 7204,
+  "uniq_art_fmt": "7,204",
+  "uniq_trk": 30079,
+  "uniq_trk_fmt": "30,079",
   "start": "2018-03-06",
   "end": "2026-07-23",
   "top_art": [
@@ -41,8 +41,8 @@
    },
    {
     "artist": "クレナズム",
-    "plays": 878,
-    "plays_fmt": "878",
+    "plays": 879,
+    "plays_fmt": "879",
     "img": "https://i.scdn.co/image/ab6761610000e5ebfd833836d124624e366ed252",
     "pct": 84
    },
@@ -267,19 +267,19 @@
    },
    {
     "year": "2026",
-    "plays": 26630,
-    "plays_fmt": "26,630",
+    "plays": 26692,
+    "plays_fmt": "26,692",
     "pct": 49
    }
   ]
  },
  "year": {
-  "total": 26630,
-  "total_fmt": "26,630",
-  "uniq_art": 2600,
-  "uniq_art_fmt": "2,600",
-  "uniq_trk": 7190,
-  "uniq_trk_fmt": "7,190",
+  "total": 26692,
+  "total_fmt": "26,692",
+  "uniq_art": 2612,
+  "uniq_art_fmt": "2,612",
+  "uniq_trk": 7211,
+  "uniq_trk_fmt": "7,211",
   "top_art": [
    {
     "artist": "Kienai",
@@ -525,19 +525,19 @@
    },
    {
     "month": "7",
-    "plays": 3929,
-    "plays_fmt": "3,929",
-    "pct": 87
+    "plays": 3991,
+    "plays_fmt": "3,991",
+    "pct": 89
    }
   ]
  },
  "week": {
-  "total": 1116,
-  "total_fmt": "1,116",
-  "uniq_art": 463,
-  "uniq_art_fmt": "463",
-  "uniq_trk": 695,
-  "uniq_trk_fmt": "695",
+  "total": 1178,
+  "total_fmt": "1,178",
+  "uniq_art": 490,
+  "uniq_art_fmt": "490",
+  "uniq_trk": 739,
+  "uniq_trk_fmt": "739",
   "start": "7/17",
   "end": "7/23",
   "top_art": [
@@ -550,17 +550,17 @@
    },
    {
     "artist": "BurnQue",
-    "plays": 31,
-    "plays_fmt": "31",
+    "plays": 38,
+    "plays_fmt": "38",
     "img": "https://i.scdn.co/image/ab6761610000e5ebfb9085515b81ecc06b05b158",
-    "pct": 66
+    "pct": 81
    },
    {
     "artist": "吉凶わからず、",
-    "plays": 19,
-    "plays_fmt": "19",
+    "plays": 20,
+    "plays_fmt": "20",
     "img": "https://i.scdn.co/image/ab6761610000e5eba56f1a7fa93d2ddfb43bebb4",
-    "pct": 40
+    "pct": 43
    },
    {
     "artist": "Muddy Jackets",
@@ -571,10 +571,10 @@
    },
    {
     "artist": "pinfu",
-    "plays": 14,
-    "plays_fmt": "14",
+    "plays": 15,
+    "plays_fmt": "15",
     "img": "https://i.scdn.co/image/ab67616d0000b273f4e424ad28550f7ce992dd69",
-    "pct": 30
+    "pct": 32
    },
    {
     "artist": "Home",
@@ -623,8 +623,8 @@
    {
     "album": "N.W.O.L.",
     "artist": "BurnQue",
-    "plays": 28,
-    "plays_fmt": "28",
+    "plays": 32,
+    "plays_fmt": "32",
     "img": "https://i.scdn.co/image/ab6761610000e5ebfb9085515b81ecc06b05b158"
    },
    {
@@ -637,15 +637,15 @@
    {
     "album": "laundrynotes",
     "artist": "吉凶わからず、",
-    "plays": 15,
-    "plays_fmt": "15",
+    "plays": 16,
+    "plays_fmt": "16",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/cb4df5f65408e9b1b194748a7a9b6e8b.png"
    },
    {
     "album": "TOKYO JUNPAKU",
     "artist": "pinfu",
-    "plays": 14,
-    "plays_fmt": "14",
+    "plays": 15,
+    "plays_fmt": "15",
     "img": "https://i.scdn.co/image/ab67616d0000b273f4e424ad28550f7ce992dd69"
    },
    {
@@ -694,8 +694,8 @@
    {
     "track": "N.W.O.L.",
     "artist": "BurnQue",
-    "plays": 28,
-    "plays_fmt": "28"
+    "plays": 32,
+    "plays_fmt": "32"
    },
    {
     "track": "Chocolate Lily",
@@ -722,6 +722,12 @@
     "plays_fmt": "6"
    },
    {
+    "track": "In The Town",
+    "artist": "pinfu",
+    "plays": 5,
+    "plays_fmt": "5"
+   },
+   {
     "track": "煙のパラソル",
     "artist": "吉凶わからず、",
     "plays": 5,
@@ -736,12 +742,6 @@
    {
     "track": "Chasing Shadows",
     "artist": "coldrain",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "In The Town",
-    "artist": "pinfu",
     "plays": 4,
     "plays_fmt": "4"
    }
@@ -785,9 +785,9 @@
    },
    {
     "day": "7/23",
-    "plays": 149,
-    "plays_fmt": "149",
-    "pct": 63
+    "plays": 211,
+    "plays_fmt": "211",
+    "pct": 89
    }
   ]
  }
