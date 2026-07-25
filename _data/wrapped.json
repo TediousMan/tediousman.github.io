@@ -1,15 +1,15 @@
 {
- "generated": "2026-07-24",
+ "generated": "2026-07-25",
  "year_label": "2026",
  "all": {
-  "total": 209908,
-  "total_fmt": "209,908",
+  "total": 210030,
+  "total_fmt": "210,030",
   "uniq_art": 7206,
   "uniq_art_fmt": "7,206",
-  "uniq_trk": 30105,
-  "uniq_trk_fmt": "30,105",
+  "uniq_trk": 30112,
+  "uniq_trk_fmt": "30,112",
   "start": "2018-03-06",
-  "end": "2026-07-24",
+  "end": "2026-07-25",
   "top_art": [
    {
     "artist": "Mr.ふぉるて",
@@ -267,24 +267,24 @@
    },
    {
     "year": "2026",
-    "plays": 26821,
-    "plays_fmt": "26,821",
+    "plays": 26943,
+    "plays_fmt": "26,943",
     "pct": 50
    }
   ]
  },
  "year": {
-  "total": 26821,
-  "total_fmt": "26,821",
-  "uniq_art": 2614,
-  "uniq_art_fmt": "2,614",
-  "uniq_trk": 7237,
-  "uniq_trk_fmt": "7,237",
+  "total": 26943,
+  "total_fmt": "26,943",
+  "uniq_art": 2615,
+  "uniq_art_fmt": "2,615",
+  "uniq_trk": 7244,
+  "uniq_trk_fmt": "7,244",
   "top_art": [
    {
     "artist": "Kienai",
-    "plays": 235,
-    "plays_fmt": "235",
+    "plays": 237,
+    "plays_fmt": "237",
     "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481",
     "pct": 100
    },
@@ -300,14 +300,14 @@
     "plays": 213,
     "plays_fmt": "213",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f",
-    "pct": 91
+    "pct": 90
    },
    {
     "artist": "bedgravity",
     "plays": 201,
     "plays_fmt": "201",
     "img": "https://i.scdn.co/image/ab67616d0000b273d29467756d06ae5882d98238",
-    "pct": 86
+    "pct": 85
    },
    {
     "artist": "あたまたんさん",
@@ -321,12 +321,12 @@
     "plays": 159,
     "plays_fmt": "159",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
-    "pct": 68
+    "pct": 67
    },
    {
     "artist": "uyuu",
-    "plays": 158,
-    "plays_fmt": "158",
+    "plays": 159,
+    "plays_fmt": "159",
     "img": "https://i.scdn.co/image/ab67616d0000b27381582c0fb8f5908a6aee7f3e",
     "pct": 67
    },
@@ -335,19 +335,19 @@
     "plays": 157,
     "plays_fmt": "157",
     "img": "https://i.scdn.co/image/ab6761610000e5eb7e17378b89a11d4110d0a4c6",
-    "pct": 67
+    "pct": 66
    },
    {
     "artist": "wanbed",
     "plays": 150,
     "plays_fmt": "150",
     "img": "https://i.scdn.co/image/ab6761610000e5eb015e59262813fcf812ddf659",
-    "pct": 64
+    "pct": 63
    },
    {
     "artist": "夜標",
-    "plays": 142,
-    "plays_fmt": "142",
+    "plays": 143,
+    "plays_fmt": "143",
     "img": "https://i.scdn.co/image/ab67616d0000b27351e19785c99f993a0cfba5ce",
     "pct": 60
    }
@@ -356,8 +356,8 @@
    {
     "album": "sparkleII",
     "artist": "Kienai",
-    "plays": 232,
-    "plays_fmt": "232",
+    "plays": 234,
+    "plays_fmt": "234",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/1c6a42ba2640cb0ed267d0c9d6a5f106.jpg"
    },
    {
@@ -405,8 +405,8 @@
    {
     "album": "日々、折り返すごとに",
     "artist": "爛漫天国",
-    "plays": 136,
-    "plays_fmt": "136",
+    "plays": 137,
+    "plays_fmt": "137",
     "img": "https://i.scdn.co/image/ab6761610000e5eb59ee187da2de942d5f50e0e0"
    },
    {
@@ -419,8 +419,8 @@
    {
     "album": "2rue end",
     "artist": "Tattletale",
-    "plays": 129,
-    "plays_fmt": "129",
+    "plays": 130,
+    "plays_fmt": "130",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/9bd64b52566248afa9e86accd8c604b6.jpg"
    }
   ],
@@ -446,8 +446,8 @@
    {
     "track": "季節が",
     "artist": "夜標",
-    "plays": 75,
-    "plays_fmt": "75"
+    "plays": 76,
+    "plays_fmt": "76"
    },
    {
     "track": "Anemone",
@@ -525,70 +525,77 @@
    },
    {
     "month": "7",
-    "plays": 4120,
-    "plays_fmt": "4,120",
-    "pct": 92
+    "plays": 4242,
+    "plays_fmt": "4,242",
+    "pct": 94
    }
   ]
  },
  "week": {
-  "total": 1110,
-  "total_fmt": "1,110",
-  "uniq_art": 476,
-  "uniq_art_fmt": "476",
-  "uniq_trk": 728,
-  "uniq_trk_fmt": "728",
-  "start": "7/18",
-  "end": "7/24",
+  "total": 1038,
+  "total_fmt": "1,038",
+  "uniq_art": 518,
+  "uniq_art_fmt": "518",
+  "uniq_trk": 788,
+  "uniq_trk_fmt": "788",
+  "start": "7/19",
+  "end": "7/25",
   "top_art": [
    {
     "artist": "BurnQue",
-    "plays": 39,
-    "plays_fmt": "39",
+    "plays": 38,
+    "plays_fmt": "38",
     "img": "https://i.scdn.co/image/ab6761610000e5ebfb9085515b81ecc06b05b158",
     "pct": 100
-   },
-   {
-    "artist": "SHIKUMI",
-    "plays": 26,
-    "plays_fmt": "26",
-    "img": "https://i.scdn.co/image/ab67616d0000b27327673d6391b7d62fe53bae5b",
-    "pct": 67
    },
    {
     "artist": "Muddy Jackets",
     "plays": 18,
     "plays_fmt": "18",
     "img": null,
-    "pct": 46
+    "pct": 47
    },
    {
     "artist": "pinfu",
-    "plays": 16,
-    "plays_fmt": "16",
+    "plays": 17,
+    "plays_fmt": "17",
     "img": "https://i.scdn.co/image/ab67616d0000b273f4e424ad28550f7ce992dd69",
-    "pct": 41
-   },
-   {
-    "artist": "吉凶わからず、",
-    "plays": 13,
-    "plays_fmt": "13",
-    "img": "https://i.scdn.co/image/ab6761610000e5eba56f1a7fa93d2ddfb43bebb4",
-    "pct": 33
+    "pct": 45
    },
    {
     "artist": "Home",
-    "plays": 12,
-    "plays_fmt": "12",
+    "plays": 11,
+    "plays_fmt": "11",
     "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
-    "pct": 31
+    "pct": 29
+   },
+   {
+    "artist": "SHIKUMI",
+    "plays": 10,
+    "plays_fmt": "10",
+    "img": "https://i.scdn.co/image/ab67616d0000b27327673d6391b7d62fe53bae5b",
+    "pct": 26
    },
    {
     "artist": "Yabai T-Shirts Yasan",
+    "plays": 10,
+    "plays_fmt": "10",
+    "img": "https://i.scdn.co/image/ab6761610000e5eba4942c76d42f415e9d903ed9",
+    "pct": 26
+   },
+   {
+    "artist": "吉凶わからず、",
+    "plays": 10,
+    "plays_fmt": "10",
+    "img": "https://i.scdn.co/image/ab6761610000e5eba56f1a7fa93d2ddfb43bebb4",
+    "pct": 26
+   },
+   {
+    "artist": "うさぎファクトリー",
     "plays": 9,
     "plays_fmt": "9",
-    "img": "https://i.scdn.co/image/ab6761610000e5eba4942c76d42f415e9d903ed9",
-    "pct": 23
+    "img": null,
+    "pct": 24
    },
    {
     "artist": "AoOo",
@@ -598,17 +605,10 @@
     "pct": 21
    },
    {
-    "artist": "Black Boboi",
+    "artist": "Me'lock Stock",
     "plays": 8,
     "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb173cb515bfb6ca8f05dc2aca",
-    "pct": 21
-   },
-   {
-    "artist": "EverBrighteller",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb503dcd9fd679892ccbc7fc71",
+    "img": "https://i.scdn.co/image/ab67616d0000b27355e00cbd48b23c0c43f14cf8",
     "pct": 21
    }
   ],
@@ -621,13 +621,6 @@
     "img": "https://i.scdn.co/image/ab6761610000e5ebfb9085515b81ecc06b05b158"
    },
    {
-    "album": "tanya",
-    "artist": "SHIKUMI",
-    "plays": 26,
-    "plays_fmt": "26",
-    "img": "https://i.scdn.co/image/ab67616d0000b27327673d6391b7d62fe53bae5b"
-   },
-   {
     "album": "Aha",
     "artist": "Muddy Jackets",
     "plays": 18,
@@ -637,51 +630,58 @@
    {
     "album": "TOKYO JUNPAKU",
     "artist": "pinfu",
-    "plays": 16,
-    "plays_fmt": "16",
+    "plays": 17,
+    "plays_fmt": "17",
     "img": "https://i.scdn.co/image/ab67616d0000b273f4e424ad28550f7ce992dd69"
    },
    {
     "album": "HOME COLLECTION",
     "artist": "Home",
-    "plays": 12,
-    "plays_fmt": "12",
+    "plays": 11,
+    "plays_fmt": "11",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
    },
    {
     "album": "Magical Tank-top Parade",
     "artist": "Yabai T-Shirts Yasan",
-    "plays": 9,
-    "plays_fmt": "9",
+    "plays": 10,
+    "plays_fmt": "10",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/c4516a9b5490c706796e39a651d9b1a9.jpg"
    },
    {
-    "album": "laundrynotes",
-    "artist": "吉凶わからず、",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/cb4df5f65408e9b1b194748a7a9b6e8b.png"
-   },
-   {
-    "album": "GOLD",
-    "artist": "EverBrighteller",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb503dcd9fd679892ccbc7fc71"
-   },
-   {
-    "album": "Sepia",
-    "artist": "Black Boboi",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/158d6943703e6cd30388cd6dba40f635.jpg"
+    "album": "tanya",
+    "artist": "SHIKUMI",
+    "plays": 10,
+    "plays_fmt": "10",
+    "img": "https://i.scdn.co/image/ab67616d0000b27327673d6391b7d62fe53bae5b"
    },
    {
     "album": "さめるじかん",
     "artist": "うさぎファクトリー",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": null
+   },
+   {
+    "album": "cradle",
+    "artist": "明くる夜の羊",
     "plays": 8,
     "plays_fmt": "8",
-    "img": null
+    "img": "https://i.scdn.co/image/ab6761610000e5eb13b71cf0b4e9aca839ca6c72"
+   },
+   {
+    "album": "ソナチネ暮空模様",
+    "artist": "Me'lock Stock",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab67616d0000b27355e00cbd48b23c0c43f14cf8"
+   },
+   {
+    "album": "4songs Ⅱ",
+    "artist": "Forbear",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb1dd5e26af0ba32dc0330d5e7"
    }
   ],
   "top_trk": [
@@ -692,16 +692,16 @@
     "plays_fmt": "32"
    },
    {
-    "track": "tanya",
-    "artist": "SHIKUMI",
-    "plays": 26,
-    "plays_fmt": "26"
-   },
-   {
     "track": "Chocolate Lily",
     "artist": "Muddy Jackets",
     "plays": 11,
     "plays_fmt": "11"
+   },
+   {
+    "track": "tanya",
+    "artist": "SHIKUMI",
+    "plays": 10,
+    "plays_fmt": "10"
    },
    {
     "track": "流星メモライザ",
@@ -712,12 +712,12 @@
    {
     "track": "In The Town",
     "artist": "pinfu",
-    "plays": 5,
-    "plays_fmt": "5"
+    "plays": 6,
+    "plays_fmt": "6"
    },
    {
-    "track": "Anemone",
-    "artist": "REVEMERE",
+    "track": "CALL",
+    "artist": "AoOo",
     "plays": 4,
     "plays_fmt": "4"
    },
@@ -734,25 +734,19 @@
     "plays_fmt": "4"
    },
    {
-    "track": "Keep My Head Up",
-    "artist": "türk bluez",
+    "track": "Twilight Distance",
+    "artist": "SUKISHA",
     "plays": 4,
     "plays_fmt": "4"
    },
    {
-    "track": "Panzamast",
-    "artist": "Tattletale",
+    "track": "まわる",
+    "artist": "カラノア",
     "plays": 4,
     "plays_fmt": "4"
    }
   ],
   "by_day": [
-   {
-    "day": "7/18",
-    "plays": 194,
-    "plays_fmt": "194",
-    "pct": 82
-   },
    {
     "day": "7/19",
     "plays": 160,
@@ -785,9 +779,15 @@
    },
    {
     "day": "7/24",
-    "plays": 115,
-    "plays_fmt": "115",
+    "plays": 116,
+    "plays_fmt": "116",
     "pct": 49
+   },
+   {
+    "day": "7/25",
+    "plays": 121,
+    "plays_fmt": "121",
+    "pct": 51
    }
   ]
  }
