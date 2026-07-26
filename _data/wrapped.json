@@ -2,12 +2,12 @@
  "generated": "2026-07-26",
  "year_label": "2026",
  "all": {
-  "total": 210146,
-  "total_fmt": "210,146",
-  "uniq_art": 7206,
-  "uniq_art_fmt": "7,206",
-  "uniq_trk": 30117,
-  "uniq_trk_fmt": "30,117",
+  "total": 210214,
+  "total_fmt": "210,214",
+  "uniq_art": 7213,
+  "uniq_art_fmt": "7,213",
+  "uniq_trk": 30131,
+  "uniq_trk_fmt": "30,131",
   "start": "2018-03-06",
   "end": "2026-07-26",
   "top_art": [
@@ -267,19 +267,19 @@
    },
    {
     "year": "2026",
-    "plays": 27059,
-    "plays_fmt": "27,059",
+    "plays": 27127,
+    "plays_fmt": "27,127",
     "pct": 50
    }
   ]
  },
  "year": {
-  "total": 27059,
-  "total_fmt": "27,059",
-  "uniq_art": 2616,
-  "uniq_art_fmt": "2,616",
-  "uniq_trk": 7249,
-  "uniq_trk_fmt": "7,249",
+  "total": 27127,
+  "total_fmt": "27,127",
+  "uniq_art": 2624,
+  "uniq_art_fmt": "2,624",
+  "uniq_trk": 7263,
+  "uniq_trk_fmt": "7,263",
   "top_art": [
    {
     "artist": "Kienai",
@@ -311,8 +311,8 @@
    },
    {
     "artist": "あたまたんさん",
-    "plays": 184,
-    "plays_fmt": "184",
+    "plays": 185,
+    "plays_fmt": "185",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44",
     "pct": 78
    },
@@ -370,8 +370,8 @@
    {
     "album": "鉄の掟",
     "artist": "あたまたんさん",
-    "plays": 183,
-    "plays_fmt": "183",
+    "plays": 184,
+    "plays_fmt": "184",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44"
    },
    {
@@ -525,19 +525,19 @@
    },
    {
     "month": "7",
-    "plays": 4358,
-    "plays_fmt": "4,358",
-    "pct": 97
+    "plays": 4426,
+    "plays_fmt": "4,426",
+    "pct": 98
    }
   ]
  },
  "week": {
-  "total": 994,
-  "total_fmt": "994",
-  "uniq_art": 496,
-  "uniq_art_fmt": "496",
-  "uniq_trk": 746,
-  "uniq_trk_fmt": "746",
+  "total": 1062,
+  "total_fmt": "1,062",
+  "uniq_art": 527,
+  "uniq_art_fmt": "527",
+  "uniq_trk": 789,
+  "uniq_trk_fmt": "789",
   "start": "7/20",
   "end": "7/26",
   "top_art": [
@@ -554,6 +554,13 @@
     "plays_fmt": "14",
     "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
     "pct": 37
+   },
+   {
+    "artist": "吉凶わからず、",
+    "plays": 10,
+    "plays_fmt": "10",
+    "img": "https://i.scdn.co/image/ab6761610000e5eba56f1a7fa93d2ddfb43bebb4",
+    "pct": 26
    },
    {
     "artist": "SHIKUMI",
@@ -574,13 +581,6 @@
     "plays": 9,
     "plays_fmt": "9",
     "img": null,
-    "pct": 24
-   },
-   {
-    "artist": "吉凶わからず、",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://i.scdn.co/image/ab6761610000e5eba56f1a7fa93d2ddfb43bebb4",
     "pct": 24
    },
    {
@@ -670,18 +670,18 @@
     "img": "https://i.scdn.co/image/ab6761610000e5eb1dd5e26af0ba32dc0330d5e7"
    },
    {
-    "album": "日々、折り返すごとに",
-    "artist": "爛漫天国",
+    "album": "Sepia",
+    "artist": "Black Boboi",
     "plays": 7,
     "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb59ee187da2de942d5f50e0e0"
+    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/158d6943703e6cd30388cd6dba40f635.jpg"
    },
    {
-    "album": "部屋とガラクタと私",
-    "artist": "ミーマイナー",
+    "album": "laundrynotes",
+    "artist": "吉凶わからず、",
     "plays": 7,
     "plays_fmt": "7",
-    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/96c80d79ccbfa0ca1ebfde3c2dd0dceb.jpg"
+    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/cb4df5f65408e9b1b194748a7a9b6e8b.png"
    }
   ],
   "top_trk": [
@@ -785,9 +785,9 @@
    },
    {
     "day": "7/26",
-    "plays": 113,
-    "plays_fmt": "113",
-    "pct": 48
+    "plays": 181,
+    "plays_fmt": "181",
+    "pct": 77
    }
   ]
  }
