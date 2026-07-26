@@ -1,15 +1,15 @@
 {
- "generated": "2026-07-25",
+ "generated": "2026-07-26",
  "year_label": "2026",
  "all": {
-  "total": 210030,
-  "total_fmt": "210,030",
+  "total": 210146,
+  "total_fmt": "210,146",
   "uniq_art": 7206,
   "uniq_art_fmt": "7,206",
-  "uniq_trk": 30112,
-  "uniq_trk_fmt": "30,112",
+  "uniq_trk": 30117,
+  "uniq_trk_fmt": "30,117",
   "start": "2018-03-06",
-  "end": "2026-07-25",
+  "end": "2026-07-26",
   "top_art": [
    {
     "artist": "Mr.ふぉるて",
@@ -267,19 +267,19 @@
    },
    {
     "year": "2026",
-    "plays": 26943,
-    "plays_fmt": "26,943",
+    "plays": 27059,
+    "plays_fmt": "27,059",
     "pct": 50
    }
   ]
  },
  "year": {
-  "total": 26943,
-  "total_fmt": "26,943",
-  "uniq_art": 2615,
-  "uniq_art_fmt": "2,615",
-  "uniq_trk": 7244,
-  "uniq_trk_fmt": "7,244",
+  "total": 27059,
+  "total_fmt": "27,059",
+  "uniq_art": 2616,
+  "uniq_art_fmt": "2,616",
+  "uniq_trk": 7249,
+  "uniq_trk_fmt": "7,249",
   "top_art": [
    {
     "artist": "Kienai",
@@ -290,8 +290,8 @@
    },
    {
     "artist": "Ramblamp",
-    "plays": 229,
-    "plays_fmt": "229",
+    "plays": 230,
+    "plays_fmt": "230",
     "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf",
     "pct": 97
    },
@@ -318,17 +318,17 @@
    },
    {
     "artist": "the Wulongs",
-    "plays": 159,
-    "plays_fmt": "159",
+    "plays": 160,
+    "plays_fmt": "160",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
-    "pct": 67
+    "pct": 68
    },
    {
     "artist": "uyuu",
-    "plays": 159,
-    "plays_fmt": "159",
+    "plays": 160,
+    "plays_fmt": "160",
     "img": "https://i.scdn.co/image/ab67616d0000b27381582c0fb8f5908a6aee7f3e",
-    "pct": 67
+    "pct": 68
    },
    {
     "artist": "Youth Illustrated",
@@ -396,6 +396,13 @@
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/389d72d53aa10059db21ff4907f3ee32.jpg"
    },
    {
+    "album": "日々、折り返すごとに",
+    "artist": "爛漫天国",
+    "plays": 139,
+    "plays_fmt": "139",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb59ee187da2de942d5f50e0e0"
+   },
+   {
     "album": "135",
     "artist": "wanbed",
     "plays": 137,
@@ -403,11 +410,11 @@
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/8f67506eb69e1457aed72a3f1273f862.jpg"
    },
    {
-    "album": "日々、折り返すごとに",
-    "artist": "爛漫天国",
-    "plays": 137,
-    "plays_fmt": "137",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb59ee187da2de942d5f50e0e0"
+    "album": "HOME COLLECTION",
+    "artist": "Home",
+    "plays": 134,
+    "plays_fmt": "134",
+    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
    },
    {
     "album": "She hood",
@@ -415,13 +422,6 @@
     "plays": 132,
     "plays_fmt": "132",
     "img": "https://i.scdn.co/image/ab67616d0000b27373eadbb2eb0dfafb999dc4d4"
-   },
-   {
-    "album": "2rue end",
-    "artist": "Tattletale",
-    "plays": 130,
-    "plays_fmt": "130",
-    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/9bd64b52566248afa9e86accd8c604b6.jpg"
    }
   ],
   "top_trk": [
@@ -480,8 +480,8 @@
     "plays_fmt": "48"
    },
    {
-    "track": "ドライブ",
-    "artist": "Have a nice day!",
+    "track": "tanya",
+    "artist": "SHIKUMI",
     "plays": 48,
     "plays_fmt": "48"
    }
@@ -525,21 +525,21 @@
    },
    {
     "month": "7",
-    "plays": 4242,
-    "plays_fmt": "4,242",
-    "pct": 94
+    "plays": 4358,
+    "plays_fmt": "4,358",
+    "pct": 97
    }
   ]
  },
  "week": {
-  "total": 1038,
-  "total_fmt": "1,038",
-  "uniq_art": 518,
-  "uniq_art_fmt": "518",
-  "uniq_trk": 788,
-  "uniq_trk_fmt": "788",
-  "start": "7/19",
-  "end": "7/25",
+  "total": 994,
+  "total_fmt": "994",
+  "uniq_art": 496,
+  "uniq_art_fmt": "496",
+  "uniq_trk": 746,
+  "uniq_trk_fmt": "746",
+  "start": "7/20",
+  "end": "7/26",
   "top_art": [
    {
     "artist": "BurnQue",
@@ -549,52 +549,38 @@
     "pct": 100
    },
    {
-    "artist": "Muddy Jackets",
-    "plays": 18,
-    "plays_fmt": "18",
-    "img": null,
-    "pct": 47
-   },
-   {
-    "artist": "pinfu",
-    "plays": 17,
-    "plays_fmt": "17",
-    "img": "https://i.scdn.co/image/ab67616d0000b273f4e424ad28550f7ce992dd69",
-    "pct": 45
-   },
-   {
     "artist": "Home",
-    "plays": 11,
-    "plays_fmt": "11",
+    "plays": 14,
+    "plays_fmt": "14",
     "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
-    "pct": 29
+    "pct": 37
    },
    {
     "artist": "SHIKUMI",
-    "plays": 10,
-    "plays_fmt": "10",
+    "plays": 9,
+    "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab67616d0000b27327673d6391b7d62fe53bae5b",
-    "pct": 26
+    "pct": 24
    },
    {
     "artist": "Yabai T-Shirts Yasan",
-    "plays": 10,
-    "plays_fmt": "10",
+    "plays": 9,
+    "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5eba4942c76d42f415e9d903ed9",
-    "pct": 26
-   },
-   {
-    "artist": "吉凶わからず、",
-    "plays": 10,
-    "plays_fmt": "10",
-    "img": "https://i.scdn.co/image/ab6761610000e5eba56f1a7fa93d2ddfb43bebb4",
-    "pct": 26
+    "pct": 24
    },
    {
     "artist": "うさぎファクトリー",
     "plays": 9,
     "plays_fmt": "9",
     "img": null,
+    "pct": 24
+   },
+   {
+    "artist": "吉凶わからず、",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://i.scdn.co/image/ab6761610000e5eba56f1a7fa93d2ddfb43bebb4",
     "pct": 24
    },
    {
@@ -610,6 +596,20 @@
     "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab67616d0000b27355e00cbd48b23c0c43f14cf8",
     "pct": 21
+   },
+   {
+    "artist": "Zoo zoo sea",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5eba06a47b6cd9bc156b5cfd148",
+    "pct": 21
+   },
+   {
+    "artist": "明くる夜の羊",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb13b71cf0b4e9aca839ca6c72",
+    "pct": 21
    }
   ],
   "top_alb": [
@@ -621,38 +621,24 @@
     "img": "https://i.scdn.co/image/ab6761610000e5ebfb9085515b81ecc06b05b158"
    },
    {
-    "album": "Aha",
-    "artist": "Muddy Jackets",
-    "plays": 18,
-    "plays_fmt": "18",
-    "img": null
-   },
-   {
-    "album": "TOKYO JUNPAKU",
-    "artist": "pinfu",
-    "plays": 17,
-    "plays_fmt": "17",
-    "img": "https://i.scdn.co/image/ab67616d0000b273f4e424ad28550f7ce992dd69"
-   },
-   {
     "album": "HOME COLLECTION",
     "artist": "Home",
-    "plays": 11,
-    "plays_fmt": "11",
+    "plays": 14,
+    "plays_fmt": "14",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
    },
    {
     "album": "Magical Tank-top Parade",
     "artist": "Yabai T-Shirts Yasan",
-    "plays": 10,
-    "plays_fmt": "10",
+    "plays": 9,
+    "plays_fmt": "9",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/c4516a9b5490c706796e39a651d9b1a9.jpg"
    },
    {
     "album": "tanya",
     "artist": "SHIKUMI",
-    "plays": 10,
-    "plays_fmt": "10",
+    "plays": 9,
+    "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab67616d0000b27327673d6391b7d62fe53bae5b"
    },
    {
@@ -682,6 +668,20 @@
     "plays": 7,
     "plays_fmt": "7",
     "img": "https://i.scdn.co/image/ab6761610000e5eb1dd5e26af0ba32dc0330d5e7"
+   },
+   {
+    "album": "日々、折り返すごとに",
+    "artist": "爛漫天国",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb59ee187da2de942d5f50e0e0"
+   },
+   {
+    "album": "部屋とガラクタと私",
+    "artist": "ミーマイナー",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/96c80d79ccbfa0ca1ebfde3c2dd0dceb.jpg"
    }
   ],
   "top_trk": [
@@ -692,16 +692,10 @@
     "plays_fmt": "32"
    },
    {
-    "track": "Chocolate Lily",
-    "artist": "Muddy Jackets",
-    "plays": 11,
-    "plays_fmt": "11"
-   },
-   {
     "track": "tanya",
     "artist": "SHIKUMI",
-    "plays": 10,
-    "plays_fmt": "10"
+    "plays": 9,
+    "plays_fmt": "9"
    },
    {
     "track": "流星メモライザ",
@@ -710,14 +704,8 @@
     "plays_fmt": "7"
    },
    {
-    "track": "In The Town",
-    "artist": "pinfu",
-    "plays": 6,
-    "plays_fmt": "6"
-   },
-   {
-    "track": "CALL",
-    "artist": "AoOo",
+    "track": "Design - Demo Sketch",
+    "artist": "FujiBase",
     "plays": 4,
     "plays_fmt": "4"
    },
@@ -734,25 +722,31 @@
     "plays_fmt": "4"
    },
    {
-    "track": "Twilight Distance",
-    "artist": "SUKISHA",
+    "track": "Regret",
+    "artist": "Zoo zoo sea",
     "plays": 4,
     "plays_fmt": "4"
    },
    {
-    "track": "まわる",
-    "artist": "カラノア",
+    "track": "大空港",
+    "artist": "離婚伝説",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "永遠",
+    "artist": "ゆうらん船",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "長い夜",
+    "artist": "夜と私のこと",
     "plays": 4,
     "plays_fmt": "4"
    }
   ],
   "by_day": [
-   {
-    "day": "7/19",
-    "plays": 160,
-    "plays_fmt": "160",
-    "pct": 68
-   },
    {
     "day": "7/20",
     "plays": 133,
@@ -785,9 +779,15 @@
    },
    {
     "day": "7/25",
-    "plays": 121,
-    "plays_fmt": "121",
-    "pct": 51
+    "plays": 124,
+    "plays_fmt": "124",
+    "pct": 53
+   },
+   {
+    "day": "7/26",
+    "plays": 113,
+    "plays_fmt": "113",
+    "pct": 48
    }
   ]
  }
