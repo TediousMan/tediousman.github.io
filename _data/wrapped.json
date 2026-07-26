@@ -1,13 +1,13 @@
 {
- "generated": "2026-07-26",
+ "generated": "2026-07-27",
  "year_label": "2026",
  "all": {
-  "total": 210214,
-  "total_fmt": "210,214",
+  "total": 210218,
+  "total_fmt": "210,218",
   "uniq_art": 7213,
   "uniq_art_fmt": "7,213",
-  "uniq_trk": 30131,
-  "uniq_trk_fmt": "30,131",
+  "uniq_trk": 30132,
+  "uniq_trk_fmt": "30,132",
   "start": "2018-03-06",
   "end": "2026-07-26",
   "top_art": [
@@ -267,19 +267,19 @@
    },
    {
     "year": "2026",
-    "plays": 27127,
-    "plays_fmt": "27,127",
+    "plays": 27131,
+    "plays_fmt": "27,131",
     "pct": 50
    }
   ]
  },
  "year": {
-  "total": 27127,
-  "total_fmt": "27,127",
+  "total": 27131,
+  "total_fmt": "27,131",
   "uniq_art": 2624,
   "uniq_art_fmt": "2,624",
-  "uniq_trk": 7263,
-  "uniq_trk_fmt": "7,263",
+  "uniq_trk": 7264,
+  "uniq_trk_fmt": "7,264",
   "top_art": [
    {
     "artist": "Kienai",
@@ -525,55 +525,41 @@
    },
    {
     "month": "7",
-    "plays": 4426,
-    "plays_fmt": "4,426",
-    "pct": 98
+    "plays": 4430,
+    "plays_fmt": "4,430",
+    "pct": 99
    }
   ]
  },
  "week": {
-  "total": 1062,
-  "total_fmt": "1,062",
-  "uniq_art": 527,
-  "uniq_art_fmt": "527",
-  "uniq_trk": 789,
-  "uniq_trk_fmt": "789",
-  "start": "7/20",
-  "end": "7/26",
+  "total": 933,
+  "total_fmt": "933",
+  "uniq_art": 478,
+  "uniq_art_fmt": "478",
+  "uniq_trk": 698,
+  "uniq_trk_fmt": "698",
+  "start": "7/21",
+  "end": "7/27",
   "top_art": [
    {
     "artist": "BurnQue",
-    "plays": 38,
-    "plays_fmt": "38",
+    "plays": 37,
+    "plays_fmt": "37",
     "img": "https://i.scdn.co/image/ab6761610000e5ebfb9085515b81ecc06b05b158",
     "pct": 100
    },
    {
     "artist": "Home",
-    "plays": 14,
-    "plays_fmt": "14",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
-    "pct": 37
-   },
-   {
-    "artist": "吉凶わからず、",
     "plays": 10,
     "plays_fmt": "10",
-    "img": "https://i.scdn.co/image/ab6761610000e5eba56f1a7fa93d2ddfb43bebb4",
-    "pct": 26
+    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
+    "pct": 27
    },
    {
     "artist": "SHIKUMI",
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab67616d0000b27327673d6391b7d62fe53bae5b",
-    "pct": 24
-   },
-   {
-    "artist": "Yabai T-Shirts Yasan",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://i.scdn.co/image/ab6761610000e5eba4942c76d42f415e9d903ed9",
     "pct": 24
    },
    {
@@ -584,32 +570,46 @@
     "pct": 24
    },
    {
+    "artist": "吉凶わからず、",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://i.scdn.co/image/ab6761610000e5eba56f1a7fa93d2ddfb43bebb4",
+    "pct": 24
+   },
+   {
     "artist": "AoOo",
     "plays": 8,
     "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
-    "pct": 21
+    "pct": 22
    },
    {
     "artist": "Me'lock Stock",
     "plays": 8,
     "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab67616d0000b27355e00cbd48b23c0c43f14cf8",
-    "pct": 21
+    "pct": 22
    },
    {
     "artist": "Zoo zoo sea",
     "plays": 8,
     "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab6761610000e5eba06a47b6cd9bc156b5cfd148",
-    "pct": 21
+    "pct": 22
    },
    {
     "artist": "明くる夜の羊",
     "plays": 8,
     "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab6761610000e5eb13b71cf0b4e9aca839ca6c72",
-    "pct": 21
+    "pct": 22
+   },
+   {
+    "artist": "Black Boboi",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb173cb515bfb6ca8f05dc2aca",
+    "pct": 19
    }
   ],
   "top_alb": [
@@ -623,16 +623,9 @@
    {
     "album": "HOME COLLECTION",
     "artist": "Home",
-    "plays": 14,
-    "plays_fmt": "14",
+    "plays": 10,
+    "plays_fmt": "10",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
-   },
-   {
-    "album": "Magical Tank-top Parade",
-    "artist": "Yabai T-Shirts Yasan",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/c4516a9b5490c706796e39a651d9b1a9.jpg"
    },
    {
     "album": "tanya",
@@ -670,6 +663,13 @@
     "img": "https://i.scdn.co/image/ab6761610000e5eb1dd5e26af0ba32dc0330d5e7"
    },
    {
+    "album": "Light",
+    "artist": "Bone Us",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebd41eef9e5ce022087a8356da"
+   },
+   {
     "album": "Sepia",
     "artist": "Black Boboi",
     "plays": 7,
@@ -677,11 +677,11 @@
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/158d6943703e6cd30388cd6dba40f635.jpg"
    },
    {
-    "album": "laundrynotes",
-    "artist": "吉凶わからず、",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/cb4df5f65408e9b1b194748a7a9b6e8b.png"
+    "album": "Rooom",
+    "artist": "AoOo",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/da74e0f56cc6364849b7ac888d3492d5.jpg"
    }
   ],
   "top_trk": [
@@ -706,6 +706,12 @@
    {
     "track": "Design - Demo Sketch",
     "artist": "FujiBase",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "Domas",
+    "artist": "Bone Us",
     "plays": 4,
     "plays_fmt": "4"
    },
@@ -738,21 +744,9 @@
     "artist": "ゆうらん船",
     "plays": 4,
     "plays_fmt": "4"
-   },
-   {
-    "track": "長い夜",
-    "artist": "夜と私のこと",
-    "plays": 4,
-    "plays_fmt": "4"
    }
   ],
   "by_day": [
-   {
-    "day": "7/20",
-    "plays": 133,
-    "plays_fmt": "133",
-    "pct": 56
-   },
    {
     "day": "7/21",
     "plays": 236,
@@ -785,9 +779,15 @@
    },
    {
     "day": "7/26",
-    "plays": 181,
-    "plays_fmt": "181",
-    "pct": 77
+    "plays": 185,
+    "plays_fmt": "185",
+    "pct": 78
+   },
+   {
+    "day": "7/27",
+    "plays": 0,
+    "plays_fmt": "0",
+    "pct": 0
    }
   ]
  }
