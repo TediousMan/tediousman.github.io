@@ -1,15 +1,15 @@
 {
- "generated": "2026-07-27",
+ "generated": "2026-07-28",
  "year_label": "2026",
  "all": {
-  "total": 210488,
-  "total_fmt": "210,488",
+  "total": 210597,
+  "total_fmt": "210,597",
   "uniq_art": 7217,
   "uniq_art_fmt": "7,217",
   "uniq_trk": 30139,
   "uniq_trk_fmt": "30,139",
   "start": "2018-03-06",
-  "end": "2026-07-27",
+  "end": "2026-07-28",
   "top_art": [
    {
     "artist": "Mr.ふぉるて",
@@ -267,15 +267,15 @@
    },
    {
     "year": "2026",
-    "plays": 27401,
-    "plays_fmt": "27,401",
+    "plays": 27510,
+    "plays_fmt": "27,510",
     "pct": 51
    }
   ]
  },
  "year": {
-  "total": 27401,
-  "total_fmt": "27,401",
+  "total": 27510,
+  "total_fmt": "27,510",
   "uniq_art": 2628,
   "uniq_art_fmt": "2,628",
   "uniq_trk": 7271,
@@ -290,8 +290,8 @@
    },
    {
     "artist": "Ramblamp",
-    "plays": 231,
-    "plays_fmt": "231",
+    "plays": 232,
+    "plays_fmt": "232",
     "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf",
     "pct": 97
    },
@@ -311,10 +311,10 @@
    },
    {
     "artist": "あたまたんさん",
-    "plays": 189,
-    "plays_fmt": "189",
+    "plays": 191,
+    "plays_fmt": "191",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44",
-    "pct": 79
+    "pct": 80
    },
    {
     "artist": "the Wulongs",
@@ -339,10 +339,10 @@
    },
    {
     "artist": "wanbed",
-    "plays": 151,
-    "plays_fmt": "151",
+    "plays": 152,
+    "plays_fmt": "152",
     "img": "https://i.scdn.co/image/ab6761610000e5eb015e59262813fcf812ddf659",
-    "pct": 63
+    "pct": 64
    },
    {
     "artist": "夜標",
@@ -370,8 +370,8 @@
    {
     "album": "鉄の掟",
     "artist": "あたまたんさん",
-    "plays": 188,
-    "plays_fmt": "188",
+    "plays": 190,
+    "plays_fmt": "190",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44"
    },
    {
@@ -384,8 +384,8 @@
    {
     "album": "Nichijogamatakodamasuru",
     "artist": "Ramblamp",
-    "plays": 165,
-    "plays_fmt": "165",
+    "plays": 166,
+    "plays_fmt": "166",
     "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
    },
    {
@@ -491,55 +491,55 @@
     "month": "1",
     "plays": 2405,
     "plays_fmt": "2,405",
-    "pct": 51
+    "pct": 50
    },
    {
     "month": "2",
     "plays": 2986,
     "plays_fmt": "2,986",
-    "pct": 64
+    "pct": 62
    },
    {
     "month": "3",
     "plays": 4494,
     "plays_fmt": "4,494",
-    "pct": 96
+    "pct": 93
    },
    {
     "month": "4",
     "plays": 4027,
     "plays_fmt": "4,027",
-    "pct": 86
+    "pct": 84
    },
    {
     "month": "5",
     "plays": 4394,
     "plays_fmt": "4,394",
-    "pct": 93
+    "pct": 91
    },
    {
     "month": "6",
     "plays": 4395,
     "plays_fmt": "4,395",
-    "pct": 94
+    "pct": 91
    },
    {
     "month": "7",
-    "plays": 4700,
-    "plays_fmt": "4,700",
+    "plays": 4809,
+    "plays_fmt": "4,809",
     "pct": 100
    }
   ]
  },
  "week": {
-  "total": 1203,
-  "total_fmt": "1,203",
-  "uniq_art": 559,
-  "uniq_art_fmt": "559",
-  "uniq_trk": 837,
-  "uniq_trk_fmt": "837",
-  "start": "7/21",
-  "end": "7/27",
+  "total": 1076,
+  "total_fmt": "1,076",
+  "uniq_art": 499,
+  "uniq_art_fmt": "499",
+  "uniq_trk": 706,
+  "uniq_trk_fmt": "706",
+  "start": "7/22",
+  "end": "7/28",
   "top_art": [
    {
     "artist": "BurnQue",
@@ -549,10 +549,10 @@
     "pct": 100
    },
    {
-    "artist": "Home",
+    "artist": "Forbear",
     "plays": 11,
     "plays_fmt": "11",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb1dd5e26af0ba32dc0330d5e7",
     "pct": 28
    },
    {
@@ -563,25 +563,18 @@
     "pct": 28
    },
    {
-    "artist": "吉凶わからず、",
-    "plays": 11,
-    "plays_fmt": "11",
-    "img": "https://i.scdn.co/image/ab6761610000e5eba56f1a7fa93d2ddfb43bebb4",
-    "pct": 28
-   },
-   {
-    "artist": "AoOo",
+    "artist": "Cheche",
     "plays": 10,
     "plays_fmt": "10",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb14295c025afeac9fea39f0f2",
     "pct": 26
    },
    {
-    "artist": "Forbear",
-    "plays": 10,
-    "plays_fmt": "10",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb1dd5e26af0ba32dc0330d5e7",
-    "pct": 26
+    "artist": "Home",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
+    "pct": 23
    },
    {
     "artist": "あたまたんさん",
@@ -598,10 +591,10 @@
     "pct": 23
    },
    {
-    "artist": "Black Boboi",
+    "artist": "AoOo",
     "plays": 8,
     "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb173cb515bfb6ca8f05dc2aca",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
     "pct": 21
    },
    {
@@ -609,6 +602,13 @@
     "plays": 8,
     "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd41eef9e5ce022087a8356da",
+    "pct": 21
+   },
+   {
+    "artist": "Ludens",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb39f16ed2969825cee8ee66f3",
     "pct": 21
    }
   ],
@@ -621,11 +621,11 @@
     "img": "https://i.scdn.co/image/ab6761610000e5ebfb9085515b81ecc06b05b158"
    },
    {
-    "album": "HOME COLLECTION",
-    "artist": "Home",
+    "album": "4songs Ⅱ",
+    "artist": "Forbear",
     "plays": 11,
     "plays_fmt": "11",
-    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
+    "img": "https://i.scdn.co/image/ab6761610000e5eb1dd5e26af0ba32dc0330d5e7"
    },
    {
     "album": "tanya",
@@ -635,11 +635,11 @@
     "img": "https://i.scdn.co/image/ab67616d0000b27327673d6391b7d62fe53bae5b"
    },
    {
-    "album": "4songs Ⅱ",
-    "artist": "Forbear",
-    "plays": 10,
-    "plays_fmt": "10",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb1dd5e26af0ba32dc0330d5e7"
+    "album": "HOME COLLECTION",
+    "artist": "Home",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
    },
    {
     "album": "さめるじかん",
@@ -656,25 +656,25 @@
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44"
    },
    {
+    "album": "Flight '26",
+    "artist": "Ludens",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb39f16ed2969825cee8ee66f3"
+   },
+   {
+    "album": "I'm Busy",
+    "artist": "Cheche",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb14295c025afeac9fea39f0f2"
+   },
+   {
     "album": "Light",
     "artist": "Bone Us",
     "plays": 8,
     "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd41eef9e5ce022087a8356da"
-   },
-   {
-    "album": "Rooom",
-    "artist": "AoOo",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/da74e0f56cc6364849b7ac888d3492d5.jpg"
-   },
-   {
-    "album": "Sepia",
-    "artist": "Black Boboi",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/158d6943703e6cd30388cd6dba40f635.jpg"
    },
    {
     "album": "cradle",
@@ -698,12 +698,6 @@
     "plays_fmt": "11"
    },
    {
-    "track": "流星メモライザ",
-    "artist": "Me'lock Stock",
-    "plays": 7,
-    "plays_fmt": "7"
-   },
-   {
     "track": "Head To",
     "artist": "Forbear",
     "plays": 5,
@@ -716,26 +710,14 @@
     "plays_fmt": "4"
    },
    {
-    "track": "Bokura Futarikiri",
-    "artist": "Hammer Head Shark",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "CALL",
-    "artist": "AoOo",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "Design - Demo Sketch",
-    "artist": "FujiBase",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
     "track": "Domas",
     "artist": "Bone Us",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "GetBack",
+    "artist": "MUNO NO MOSES",
     "plays": 4,
     "plays_fmt": "4"
    },
@@ -744,50 +726,68 @@
     "artist": "newtn",
     "plays": 4,
     "plays_fmt": "4"
+   },
+   {
+    "track": "Hikari",
+    "artist": "Mushi Furuu Yoru Ni",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "sapphire",
+    "artist": "ANZU",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "四季(春夏秋冬)",
+    "artist": "ティンペッツ",
+    "plays": 4,
+    "plays_fmt": "4"
    }
   ],
   "by_day": [
    {
-    "day": "7/21",
-    "plays": 236,
-    "plays_fmt": "236",
-    "pct": 87
-   },
-   {
     "day": "7/22",
     "plays": 47,
     "plays_fmt": "47",
-    "pct": 17
+    "pct": 16
    },
    {
     "day": "7/23",
     "plays": 225,
     "plays_fmt": "225",
-    "pct": 83
+    "pct": 79
    },
    {
     "day": "7/24",
     "plays": 116,
     "plays_fmt": "116",
-    "pct": 43
+    "pct": 41
    },
    {
     "day": "7/25",
     "plays": 124,
     "plays_fmt": "124",
-    "pct": 46
+    "pct": 44
    },
    {
     "day": "7/26",
     "plays": 185,
     "plays_fmt": "185",
-    "pct": 69
+    "pct": 65
    },
    {
     "day": "7/27",
-    "plays": 270,
-    "plays_fmt": "270",
+    "plays": 285,
+    "plays_fmt": "285",
     "pct": 100
+   },
+   {
+    "day": "7/28",
+    "plays": 94,
+    "plays_fmt": "94",
+    "pct": 33
    }
   ]
  }
