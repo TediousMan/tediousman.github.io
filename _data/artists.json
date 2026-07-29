@@ -1,0 +1,908 @@
+{
+ "count": 150,
+ "total_artists": 7217,
+ "total_artists_fmt": "7,217",
+ "missing_img": 9,
+ "artists": [
+  {
+   "name": "Mr.ふぉるて",
+   "plays": 1044,
+   "plays_fmt": "1,044",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebdeb5dcdb155743929e7448e8"
+  },
+  {
+   "name": "Candygirl",
+   "plays": 1043,
+   "plays_fmt": "1,043",
+   "img": null
+  },
+  {
+   "name": "chilldspot",
+   "plays": 1026,
+   "plays_fmt": "1,026",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebfffcd64678af9f7b7bab7832"
+  },
+  {
+   "name": "No Buses",
+   "plays": 1005,
+   "plays_fmt": "1,005",
+   "img": "https://i.scdn.co/image/ab6761610000e5eba1ab78242c288873882867d7"
+  },
+  {
+   "name": "クレナズム",
+   "plays": 879,
+   "plays_fmt": "879",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebfd833836d124624e366ed252"
+  },
+  {
+   "name": "KROI",
+   "plays": 863,
+   "plays_fmt": "863",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb3891ccf48bd7eb050237f789"
+  },
+  {
+   "name": "nee",
+   "plays": 786,
+   "plays_fmt": "786",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb729b6da509b5b0fb63c1515d"
+  },
+  {
+   "name": "Mississippi Khaki Hair",
+   "plays": 782,
+   "plays_fmt": "782",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb1e7aca440d70e04fe82d50ee"
+  },
+  {
+   "name": "Cody・Lee(李)",
+   "plays": 760,
+   "plays_fmt": "760",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb5ab731a2080334504454b0c1"
+  },
+  {
+   "name": "POP ART TOWN",
+   "plays": 747,
+   "plays_fmt": "747",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebfbae2db36e47006dba304a05"
+  },
+  {
+   "name": "Dannie May",
+   "plays": 719,
+   "plays_fmt": "719",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb9629e866cc65376368fe66a8"
+  },
+  {
+   "name": "FINLANDS",
+   "plays": 693,
+   "plays_fmt": "693",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebcf8988fc2f6375e25eb7a350"
+  },
+  {
+   "name": "羊文学",
+   "plays": 683,
+   "plays_fmt": "683",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb1833f4534ed3dd88d9e12c8b"
+  },
+  {
+   "name": "Snooty",
+   "plays": 682,
+   "plays_fmt": "682",
+   "img": "https://i.scdn.co/image/ab67616d0000b273456598aae249bfcb86a3badc"
+  },
+  {
+   "name": "kuyuru",
+   "plays": 634,
+   "plays_fmt": "634",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb2a08d0189b80a87ff7dc63fc"
+  },
+  {
+   "name": "eill",
+   "plays": 630,
+   "plays_fmt": "630",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebf3f6ea218e12317560e84a58"
+  },
+  {
+   "name": "For Tracy Hyde",
+   "plays": 629,
+   "plays_fmt": "629",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebb9973cb3e9a7645db81c7e9a"
+  },
+  {
+   "name": "kobore",
+   "plays": 625,
+   "plays_fmt": "625",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24"
+  },
+  {
+   "name": "kurayamisaka",
+   "plays": 618,
+   "plays_fmt": "618",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb549929e59e9a3da7b41f0939"
+  },
+  {
+   "name": "にしな",
+   "plays": 609,
+   "plays_fmt": "609",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb9c703e5ffc35530b42a70a8e"
+  },
+  {
+   "name": "Newspeak",
+   "plays": 599,
+   "plays_fmt": "599",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb369573c911c27e225b5e37c5"
+  },
+  {
+   "name": "Organic Call",
+   "plays": 598,
+   "plays_fmt": "598",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb4e349f1ad15dd5c2b9723386"
+  },
+  {
+   "name": "reGretGirl",
+   "plays": 588,
+   "plays_fmt": "588",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb003605944411f68127e75169"
+  },
+  {
+   "name": "Hakubi",
+   "plays": 580,
+   "plays_fmt": "580",
+   "img": "https://i.scdn.co/image/ab6761610000e5eba205df6c2dd898c3f39b35ec"
+  },
+  {
+   "name": "Maharajan",
+   "plays": 571,
+   "plays_fmt": "571",
+   "img": null
+  },
+  {
+   "name": "softsurf",
+   "plays": 562,
+   "plays_fmt": "562",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb92da714ece35430b9155771c"
+  },
+  {
+   "name": "A子",
+   "plays": 556,
+   "plays_fmt": "556",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebf0ba97c426926eefb55b82be"
+  },
+  {
+   "name": "緑黄色社会",
+   "plays": 553,
+   "plays_fmt": "553",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebd9a48d00ce7cf4d66abc76b6"
+  },
+  {
+   "name": "WOLVEs GROOVY",
+   "plays": 552,
+   "plays_fmt": "552",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb072f226440f065b9396dad04"
+  },
+  {
+   "name": "KANEYORIMASARU",
+   "plays": 548,
+   "plays_fmt": "548",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb4a044f7e38167e6ad55d41cd"
+  },
+  {
+   "name": "The Otals",
+   "plays": 543,
+   "plays_fmt": "543",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebe880728367d115f0c7dfceb6"
+  },
+  {
+   "name": "Ayutthaya",
+   "plays": 542,
+   "plays_fmt": "542",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb0389567240d2b2d9dbb289d8"
+  },
+  {
+   "name": "BRADIO",
+   "plays": 536,
+   "plays_fmt": "536",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb1b468ea5308efde05767f7f3"
+  },
+  {
+   "name": "黒子首",
+   "plays": 517,
+   "plays_fmt": "517",
+   "img": null
+  },
+  {
+   "name": "GAMBS",
+   "plays": 516,
+   "plays_fmt": "516",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb9ca20d2d693e08cd1d33bf32"
+  },
+  {
+   "name": "PLUE",
+   "plays": 494,
+   "plays_fmt": "494",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb85209c8cac40615200957a58"
+  },
+  {
+   "name": "She Her Her Hers",
+   "plays": 493,
+   "plays_fmt": "493",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb5fe5ee6bd8fd6210eb70004b"
+  },
+  {
+   "name": "YuToRi",
+   "plays": 493,
+   "plays_fmt": "493",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb887bf742501f2c0f583c3258"
+  },
+  {
+   "name": "sayonarablue",
+   "plays": 479,
+   "plays_fmt": "479",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebfb23ff17a481e5acdf40b64d"
+  },
+  {
+   "name": "Genie High",
+   "plays": 478,
+   "plays_fmt": "478",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebc132f343ecf73edaebe50e72"
+  },
+  {
+   "name": "MAN WITH A MISSION",
+   "plays": 473,
+   "plays_fmt": "473",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebe30959e15d3719dc8d9ffe65"
+  },
+  {
+   "name": "XieXie",
+   "plays": 470,
+   "plays_fmt": "470",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb4a67d97b439553fdc8cab333"
+  },
+  {
+   "name": "Doll Parts",
+   "plays": 469,
+   "plays_fmt": "469",
+   "img": "https://i.scdn.co/image/ab67616d0000b273b35a708fb4c4e9ccdbcc897c"
+  },
+  {
+   "name": "My Lucky Day",
+   "plays": 467,
+   "plays_fmt": "467",
+   "img": "https://i.scdn.co/image/ab67616d0000b2737b651335a1ff0dbb8055f1d8"
+  },
+  {
+   "name": "Village Man's Store",
+   "plays": 450,
+   "plays_fmt": "450",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb23b7dc7381cb8ed0d433ff12"
+  },
+  {
+   "name": "WANIMA",
+   "plays": 440,
+   "plays_fmt": "440",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb37c85e7d09ce8668eab4a480"
+  },
+  {
+   "name": "レイラ",
+   "plays": 440,
+   "plays_fmt": "440",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb5a7ae7ae77a6230eb4107638"
+  },
+  {
+   "name": "さよならポエジー",
+   "plays": 438,
+   "plays_fmt": "438",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb11b9ad412afbcc0c3aa4fa48"
+  },
+  {
+   "name": "the cibo",
+   "plays": 437,
+   "plays_fmt": "437",
+   "img": "https://i.scdn.co/image/ab67616d0000b273c845208c60073f8ed525f946"
+  },
+  {
+   "name": "CLAN QUEEN",
+   "plays": 430,
+   "plays_fmt": "430",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb19ac44359f592f21110fa31c"
+  },
+  {
+   "name": "Tokimeki Records",
+   "plays": 427,
+   "plays_fmt": "427",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb42c23eeeaedfb6c466f8b3e9"
+  },
+  {
+   "name": "Blurred City Lights",
+   "plays": 423,
+   "plays_fmt": "423",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb2e883a5a8f9cb639a233051e"
+  },
+  {
+   "name": "アルコサイト",
+   "plays": 416,
+   "plays_fmt": "416",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebaf76a42adf1e3c3297ad0d9b"
+  },
+  {
+   "name": "Moshimo",
+   "plays": 415,
+   "plays_fmt": "415",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb1ae047357a3fad0858406431"
+  },
+  {
+   "name": "Dansa Med Dig",
+   "plays": 402,
+   "plays_fmt": "402",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb590cfa1ad794bf2697150167"
+  },
+  {
+   "name": "Sazanami",
+   "plays": 396,
+   "plays_fmt": "396",
+   "img": "https://i.scdn.co/image/ab6761610000e5eba3f038b0d76a49de0bd33221"
+  },
+  {
+   "name": "Ivy to Fraudulent Game",
+   "plays": 384,
+   "plays_fmt": "384",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb7f8973aeb4176e61b0cec158"
+  },
+  {
+   "name": "vivid undress",
+   "plays": 382,
+   "plays_fmt": "382",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebcf49972f661dc903f73c1b0a"
+  },
+  {
+   "name": "拍謝少年",
+   "plays": 382,
+   "plays_fmt": "382",
+   "img": "https://i.scdn.co/image/ab6761610000e5eba388e0bb3eec78261dec8233"
+  },
+  {
+   "name": "GOHOBI",
+   "plays": 380,
+   "plays_fmt": "380",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb93311cae2f611f16a5d84e43"
+  },
+  {
+   "name": "ego apartment",
+   "plays": 378,
+   "plays_fmt": "378",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebfc5a54b5a68edefd85793554"
+  },
+  {
+   "name": "sucola",
+   "plays": 378,
+   "plays_fmt": "378",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb7fdd8f90022d1fb6f09ce3c9"
+  },
+  {
+   "name": "Asmi",
+   "plays": 377,
+   "plays_fmt": "377",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb3ac8e8114680356ca222ffa9"
+  },
+  {
+   "name": "easycome",
+   "plays": 376,
+   "plays_fmt": "376",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb5e779ac5990c92ad5b423c3f"
+  },
+  {
+   "name": "Sugar House",
+   "plays": 375,
+   "plays_fmt": "375",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb1e3c4dbc4b5744a9ddf331ff"
+  },
+  {
+   "name": "Chilli Beans.",
+   "plays": 372,
+   "plays_fmt": "372",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb3f7ea5d6336f02de0539f2be"
+  },
+  {
+   "name": "akuruyo-sheep",
+   "plays": 370,
+   "plays_fmt": "370",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb13b71cf0b4e9aca839ca6c72"
+  },
+  {
+   "name": "えんぷてい",
+   "plays": 368,
+   "plays_fmt": "368",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb11b3475e61b812fbe2327bd0"
+  },
+  {
+   "name": "Vaundy",
+   "plays": 366,
+   "plays_fmt": "366",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebb718d2d3988005d3a72f22c9"
+  },
+  {
+   "name": "life crown",
+   "plays": 363,
+   "plays_fmt": "363",
+   "img": "https://i.scdn.co/image/ab6761610000e5eba28745b1de7f1ad1d41514f6"
+  },
+  {
+   "name": "sancrib",
+   "plays": 358,
+   "plays_fmt": "358",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb4a8c57a013ac825eef0fb401"
+  },
+  {
+   "name": "Heavenstamp",
+   "plays": 355,
+   "plays_fmt": "355",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb74d551d6dbd3e14c7de78ab2"
+  },
+  {
+   "name": "Muque",
+   "plays": 350,
+   "plays_fmt": "350",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
+  },
+  {
+   "name": "Furui Riho",
+   "plays": 348,
+   "plays_fmt": "348",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebff647d0f64da73922aad0cd5"
+  },
+  {
+   "name": "miida",
+   "plays": 347,
+   "plays_fmt": "347",
+   "img": "https://i.scdn.co/image/ab67616d0000b273a10aefa900ad4a60773bd28e"
+  },
+  {
+   "name": "Peanut Butters",
+   "plays": 345,
+   "plays_fmt": "345",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb015682d84efd18a8d00e8268"
+  },
+  {
+   "name": "RAN",
+   "plays": 343,
+   "plays_fmt": "343",
+   "img": null
+  },
+  {
+   "name": "Yuinishio",
+   "plays": 341,
+   "plays_fmt": "341",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebb80e31243a11fbc080f93153"
+  },
+  {
+   "name": "kiki vivi lily",
+   "plays": 339,
+   "plays_fmt": "339",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebfe3b6188abc328838969e7c5"
+  },
+  {
+   "name": "アマイワナ",
+   "plays": 337,
+   "plays_fmt": "337",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb9fb815c98bc985868e689806"
+  },
+  {
+   "name": "Home",
+   "plays": 335,
+   "plays_fmt": "335",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
+  },
+  {
+   "name": "灰色ロジック",
+   "plays": 335,
+   "plays_fmt": "335",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb8b1593a9b28a0e6ccd588521"
+  },
+  {
+   "name": "fish in water project",
+   "plays": 334,
+   "plays_fmt": "334",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebf94b46744d45492ee41d5047"
+  },
+  {
+   "name": "Akaiko-en",
+   "plays": 329,
+   "plays_fmt": "329",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb12c0882bf65989e9bd0edc67"
+  },
+  {
+   "name": "星期三的康帕內拉",
+   "plays": 326,
+   "plays_fmt": "326",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebdc38271ddea2dff37a837427"
+  },
+  {
+   "name": "shukatsuclub",
+   "plays": 325,
+   "plays_fmt": "325",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb3052db8ddeaeb2ce3a7eb450"
+  },
+  {
+   "name": "Homecomings",
+   "plays": 322,
+   "plays_fmt": "322",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebd37a306d89030f0fe900b7e3"
+  },
+  {
+   "name": "Polkadot Stingray",
+   "plays": 322,
+   "plays_fmt": "322",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb24dd03d4f0a965b78a0bf2f9"
+  },
+  {
+   "name": "Aivy",
+   "plays": 321,
+   "plays_fmt": "321",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb0cf9b730ba1e4da175a3485b"
+  },
+  {
+   "name": "Nagakumo",
+   "plays": 320,
+   "plays_fmt": "320",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb9247cd4ef50307e4425b4bf8"
+  },
+  {
+   "name": "yahyel",
+   "plays": 319,
+   "plays_fmt": "319",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb9ff08ad4abc242feaf105f11"
+  },
+  {
+   "name": "Pavilion",
+   "plays": 318,
+   "plays_fmt": "318",
+   "img": "https://i.scdn.co/image/ab67616d0000b273da67bfdd172efa62a5d3470c"
+  },
+  {
+   "name": "Youmentbay",
+   "plays": 318,
+   "plays_fmt": "318",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb51d099e01631361e50ce714d"
+  },
+  {
+   "name": "Miu Mau",
+   "plays": 317,
+   "plays_fmt": "317",
+   "img": "https://i.scdn.co/image/ab67616d0000b273f7450eb7f1ad638f0665d298"
+  },
+  {
+   "name": "Chisa",
+   "plays": 316,
+   "plays_fmt": "316",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebcc959cd12f18b2c2a2baa2c7"
+  },
+  {
+   "name": "Cephalo",
+   "plays": 315,
+   "plays_fmt": "315",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebeadedb0cf2a489ca33090611"
+  },
+  {
+   "name": "sawamay",
+   "plays": 315,
+   "plays_fmt": "315",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb400868142f0cb858d015c76d"
+  },
+  {
+   "name": "DurdN",
+   "plays": 314,
+   "plays_fmt": "314",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb999c4e64ec6180a0810393f3"
+  },
+  {
+   "name": "Reol",
+   "plays": 313,
+   "plays_fmt": "313",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebdf2dbfb158e48df25bd49477"
+  },
+  {
+   "name": "Bane",
+   "plays": 312,
+   "plays_fmt": "312",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebb37eb231f1029926a95f7cab"
+  },
+  {
+   "name": "Glasgow",
+   "plays": 311,
+   "plays_fmt": "311",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb681001831f86d9af5a1dba96"
+  },
+  {
+   "name": "シトナユイ",
+   "plays": 311,
+   "plays_fmt": "311",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb5d945f1eb86c81e98e97d715"
+  },
+  {
+   "name": "coldrain",
+   "plays": 308,
+   "plays_fmt": "308",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb790734bdee501b47713b4afe"
+  },
+  {
+   "name": "Stereogirl",
+   "plays": 307,
+   "plays_fmt": "307",
+   "img": "https://i.scdn.co/image/ab67616d0000b27372bbe0606a583b1d66ddd16f"
+  },
+  {
+   "name": "Longman",
+   "plays": 306,
+   "plays_fmt": "306",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb6bb8a0465f0ec9b427da4300"
+  },
+  {
+   "name": "Haruy",
+   "plays": 304,
+   "plays_fmt": "304",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb2c25588070d843e68a41d6f4"
+  },
+  {
+   "name": "the tiva",
+   "plays": 304,
+   "plays_fmt": "304",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb050878df1cfe6e93ca961c7c"
+  },
+  {
+   "name": "Doul",
+   "plays": 303,
+   "plays_fmt": "303",
+   "img": "https://i.scdn.co/image/ab6761610000e5eba1c51edef1575cb474ffdb9a"
+  },
+  {
+   "name": "Nigami 17th birthday!!",
+   "plays": 303,
+   "plays_fmt": "303",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebad1458fe213f198f7b11d1d4"
+  },
+  {
+   "name": "hitorie",
+   "plays": 303,
+   "plays_fmt": "303",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb05b9d43914da5620207492de"
+  },
+  {
+   "name": "BAND-MAID",
+   "plays": 299,
+   "plays_fmt": "299",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebe6274dae98c66d06ae7382c9"
+  },
+  {
+   "name": "Kenichiro Nishihara",
+   "plays": 291,
+   "plays_fmt": "291",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb2b99a62df8934c2ee58eeaa5"
+  },
+  {
+   "name": "Luby Sparks",
+   "plays": 290,
+   "plays_fmt": "290",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb99833843219af1cdc66223fc"
+  },
+  {
+   "name": "WANG GUNG BAND",
+   "plays": 290,
+   "plays_fmt": "290",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb94b818ce361beb89199170c8"
+  },
+  {
+   "name": "omeme tenten",
+   "plays": 287,
+   "plays_fmt": "287",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb3b770c187b6a716a2eb91f1b"
+  },
+  {
+   "name": "EASTOKLAB",
+   "plays": 284,
+   "plays_fmt": "284",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb48ac1b5769473be74c75e052"
+  },
+  {
+   "name": "PanoramaMellow",
+   "plays": 284,
+   "plays_fmt": "284",
+   "img": "https://i.scdn.co/image/ab67616d0000b2739522d7fafd953bddbddea2c9"
+  },
+  {
+   "name": "YONA YONA WEEKENDERS",
+   "plays": 284,
+   "plays_fmt": "284",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb6b91739a5b0e997957fff733"
+  },
+  {
+   "name": "魚韻",
+   "plays": 283,
+   "plays_fmt": "283",
+   "img": null
+  },
+  {
+   "name": "Blumepopo",
+   "plays": 282,
+   "plays_fmt": "282",
+   "img": null
+  },
+  {
+   "name": "Nelko",
+   "plays": 282,
+   "plays_fmt": "282",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb55300c7fa7dffdc1abd1fd39"
+  },
+  {
+   "name": "Regal Lily",
+   "plays": 280,
+   "plays_fmt": "280",
+   "img": null
+  },
+  {
+   "name": "(yoru to)SAMPO",
+   "plays": 279,
+   "plays_fmt": "279",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebab458bf73950d79c2afe1249"
+  },
+  {
+   "name": "mukeikaku",
+   "plays": 279,
+   "plays_fmt": "279",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb1c7ce3df2cce3afef74566cb"
+  },
+  {
+   "name": "POOL",
+   "plays": 278,
+   "plays_fmt": "278",
+   "img": null
+  },
+  {
+   "name": "Summer Whales",
+   "plays": 277,
+   "plays_fmt": "277",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb35e11f5ad4a252b96a658376"
+  },
+  {
+   "name": "ASOBOiSM",
+   "plays": 275,
+   "plays_fmt": "275",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb80403b4ec22b76d2eb4f8931"
+  },
+  {
+   "name": "Laura day romance",
+   "plays": 275,
+   "plays_fmt": "275",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebf27e76aad8ec44d8e0b38be2"
+  },
+  {
+   "name": "E.scene",
+   "plays": 273,
+   "plays_fmt": "273",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebf6411427caa1a8d278ebacf0"
+  },
+  {
+   "name": "アロワナレコード",
+   "plays": 273,
+   "plays_fmt": "273",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb00e06631e438aa05cbd62f09"
+  },
+  {
+   "name": "Haruno",
+   "plays": 269,
+   "plays_fmt": "269",
+   "img": "https://i.scdn.co/image/ab67616d0000b2731494a1e1507f8dbfbce8f2df"
+  },
+  {
+   "name": "I Saw You Yesterday",
+   "plays": 267,
+   "plays_fmt": "267",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebf32519dab1f0daa82898fe82"
+  },
+  {
+   "name": "36km/h",
+   "plays": 266,
+   "plays_fmt": "266",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb8ffe1b4304fc8e392b97c2b7"
+  },
+  {
+   "name": "illiomote",
+   "plays": 266,
+   "plays_fmt": "266",
+   "img": "https://i.scdn.co/image/ab6761610000e5eba9a5143d6eb3917fbe03ad9b"
+  },
+  {
+   "name": "Have a nice day!",
+   "plays": 265,
+   "plays_fmt": "265",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
+  },
+  {
+   "name": "レルエ",
+   "plays": 264,
+   "plays_fmt": "264",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebd8cf2692aebe6fc3a8bc498e"
+  },
+  {
+   "name": "FENNEC FENNEC",
+   "plays": 263,
+   "plays_fmt": "263",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebc2d331e929ed1d1649a8af9f"
+  },
+  {
+   "name": "Iri",
+   "plays": 263,
+   "plays_fmt": "263",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebd9ac40494bf7ddbcc5c2c692"
+  },
+  {
+   "name": "Living Rita",
+   "plays": 263,
+   "plays_fmt": "263",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebd88c7b32093b5add57bdfb97"
+  },
+  {
+   "name": "The Pullovers",
+   "plays": 263,
+   "plays_fmt": "263",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb812dd2720efdf5f4cb343358"
+  },
+  {
+   "name": "ホピーハイボ",
+   "plays": 263,
+   "plays_fmt": "263",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb0eef43e8d0a6ef8f2fe0cae6"
+  },
+  {
+   "name": "Jam Fuzz Kid",
+   "plays": 262,
+   "plays_fmt": "262",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb521dd8791d85d8b317200133"
+  },
+  {
+   "name": "shallm",
+   "plays": 262,
+   "plays_fmt": "262",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebae40b992ffa53731ab3e62bf"
+  },
+  {
+   "name": "Kankaku Piero",
+   "plays": 261,
+   "plays_fmt": "261",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebbefd0bad2068f6eb4fe23df0"
+  },
+  {
+   "name": "SLOTHREAT",
+   "plays": 261,
+   "plays_fmt": "261",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb93cd81967ea2a33ad6fa53f6"
+  },
+  {
+   "name": "Yoake",
+   "plays": 259,
+   "plays_fmt": "259",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebf1bccfddcfc9fba86e5b177f"
+  },
+  {
+   "name": "Gas and Burner",
+   "plays": 258,
+   "plays_fmt": "258",
+   "img": "https://i.scdn.co/image/ab67616d0000b27391607922cbc9e2b89f3e4e1a"
+  },
+  {
+   "name": "Split End",
+   "plays": 258,
+   "plays_fmt": "258",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb383cd23df5ecd17993a9d341"
+  },
+  {
+   "name": "大比良瑞希",
+   "plays": 258,
+   "plays_fmt": "258",
+   "img": null
+  },
+  {
+   "name": "Hammer Head Shark",
+   "plays": 256,
+   "plays_fmt": "256",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851"
+  }
+ ]
+}

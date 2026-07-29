@@ -1,0 +1,119 @@
+---
+layout: default
+title: 藝人畫廊（版面示意）
+permalink: /artists-sample/
+wide: true
+sitemap: false
+---
+
+<meta name="robots" content="noindex, nofollow">
+
+{% assign a = site.data.artists %}
+
+<style>
+  .ag { --ag-accent:#7c93b0; --ag-head:#f0f0f0; --ag-muted:#8a8a8a; --ag-dim:#858590; --ag-border:#333; }
+  .ag *{ box-sizing:border-box; }
+
+  .ag-intro{ text-align:center; padding:8px 0 26px; border-bottom:1px solid var(--ag-border); margin-bottom:26px; }
+  .ag-intro h1{ font-size:clamp(1.6rem,4.5vw,2.2rem); color:var(--ag-head); margin:0 0 10px; }
+  .ag-intro p{ color:var(--ag-dim); font-size:.88rem; margin:0; line-height:1.7; }
+
+  /* 版面切換 */
+  .ag-toggle{ display:flex; justify-content:center; gap:6px; margin:0 auto 30px;
+    background:#202020; border:1px solid var(--ag-border); border-radius:999px; padding:5px; width:fit-content; }
+  .ag-tab{ border:none; background:transparent; color:var(--ag-muted); font:inherit; font-size:.88rem; font-weight:600;
+    padding:8px 18px; border-radius:999px; cursor:pointer; transition:background .15s,color .15s; }
+  .ag-tab:hover{ color:var(--ag-head); }
+  .ag-tab.active{ background:var(--ag-accent); color:#10171f; }
+
+  .ag-desc{ text-align:center; color:var(--ag-dim); font-size:.84rem; margin:-18px 0 26px; min-height:1.4em; }
+
+  /* ---- 共用 ---- */
+  .ag-grid{ display:grid; }
+  .ag-item{ position:relative; min-width:0; }
+  .ag-ph{ width:100%; height:100%; display:flex; align-items:center; justify-content:center;
+    background:linear-gradient(145deg,#2b2b2b,#1f1f1f); color:#555; }
+  .ag-item img{ width:100%; height:100%; object-fit:cover; display:block; background:#222; }
+
+  /* ---- A. 圓形頭像牆 ---- */
+  .ag-grid.mode-a{ grid-template-columns:repeat(auto-fill,minmax(96px,1fr)); gap:20px 14px; }
+  .mode-a .ag-pic{ aspect-ratio:1; border-radius:50%; overflow:hidden; box-shadow:0 3px 10px rgba(0,0,0,.4); }
+  .mode-a .ag-ph{ font-size:1.4rem; }
+  .mode-a .ag-name{ display:block; margin-top:8px; text-align:center; color:var(--ag-head);
+    font-size:.74rem; line-height:1.3; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .mode-a .ag-plays{ display:block; text-align:center; color:var(--ag-dim); font-size:.68rem;
+    font-variant-numeric:tabular-nums; }
+
+  /* ---- B. 方形卡片 ---- */
+  .ag-grid.mode-b{ grid-template-columns:repeat(auto-fill,minmax(128px,1fr)); gap:16px; }
+  .mode-b .ag-pic{ aspect-ratio:1; border-radius:8px; overflow:hidden; box-shadow:0 3px 12px rgba(0,0,0,.45); }
+  .mode-b .ag-ph{ font-size:1.8rem; }
+  .mode-b .ag-name{ display:block; margin-top:8px; color:var(--ag-head); font-size:.8rem; font-weight:600;
+    line-height:1.35; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .mode-b .ag-plays{ display:block; color:var(--ag-dim); font-size:.73rem; font-variant-numeric:tabular-nums; }
+
+  /* ---- C. 無縫馬賽克 ---- */
+  .ag-grid.mode-c{ grid-template-columns:repeat(auto-fill,minmax(84px,1fr)); gap:0; border-radius:10px; overflow:hidden; }
+  .mode-c .ag-pic{ aspect-ratio:1; overflow:hidden; }
+  .mode-c .ag-ph{ font-size:1.2rem; }
+  .mode-c .ag-name, .mode-c .ag-plays{ display:none; }
+  .mode-c .ag-item::after{
+    content:attr(data-name); position:absolute; inset:0; display:flex; align-items:center; justify-content:center;
+    text-align:center; padding:6px; background:rgba(16,23,31,.88); color:#f0f0f0; font-size:.7rem; line-height:1.3;
+    opacity:0; transition:opacity .18s; pointer-events:none; }
+  @media (hover:hover){ .mode-c .ag-item:hover::after{ opacity:1; } }
+
+  .ag-foot{ margin-top:40px; padding-top:20px; border-top:1px solid var(--ag-border);
+    text-align:center; color:var(--ag-dim); font-size:.82rem; line-height:1.8; }
+</style>
+
+<div class="ag">
+  <div class="ag-intro">
+    <h1>藝人畫廊（版面示意）</h1>
+    <p>這是給你挑版面用的暫時頁面，不會被搜尋引擎收錄。<br>
+       目前放前 {{ a.count }} 位（總共聽過 {{ a.total_artists_fmt }} 位藝人），其中 {{ a.missing_img }} 位沒有照片。</p>
+  </div>
+
+  <div class="ag-toggle" role="tablist">
+    <button id="ag-tab-a" class="ag-tab active" onclick="agShow('a')">A 圓形頭像牆</button>
+    <button id="ag-tab-b" class="ag-tab" onclick="agShow('b')">B 方形卡片</button>
+    <button id="ag-tab-c" class="ag-tab" onclick="agShow('c')">C 無縫馬賽克</button>
+  </div>
+
+  <div class="ag-desc" id="ag-desc"></div>
+
+  <div class="ag-grid mode-a" id="ag-grid">
+    {% for ar in a.artists %}
+    <div class="ag-item" data-name="{{ ar.name | escape }}">
+      <div class="ag-pic">
+        {% if ar.img %}<img src="{{ ar.img }}" alt="{{ ar.name | escape }}" loading="lazy">
+        {% else %}<div class="ag-ph">&#9834;</div>{% endif %}
+      </div>
+      <span class="ag-name">{{ ar.name }}</span>
+      <span class="ag-plays">{{ ar.plays_fmt }} 次</span>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="ag-foot">
+    三種都看過之後，跟我說你要哪一個（或哪裡想調整）。<br>
+    可以再決定的細節：要放幾位、要不要顯示播放次數、點下去要不要連到 Last.fm 或 Spotify。
+  </div>
+</div>
+
+<script>
+  var AG_DESC = {
+    a: '小圓頭像整齊排列，名字與次數在下方。最接近音樂 App 的藝人列表，乾淨好認。',
+    b: '方形卡片較大張，資訊清楚。跟你文章列表的縮圖、聽歌回顧的專輯牆是同一套語言。',
+    c: '照片緊貼成一整面牆，沒有文字干擾，滑鼠移上去才顯示名字。視覺衝擊最強，但認不出是誰。'
+  };
+  function agShow(m) {
+    var grid = document.getElementById('ag-grid');
+    grid.className = 'ag-grid mode-' + m;
+    ['a','b','c'].forEach(function(k) {
+      document.getElementById('ag-tab-' + k).classList.toggle('active', k === m);
+    });
+    document.getElementById('ag-desc').textContent = AG_DESC[m];
+  }
+  agShow('a');
+</script>
