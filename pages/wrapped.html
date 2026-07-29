@@ -88,6 +88,13 @@ description: 我的 Last.fm 聽歌回顧 — 最常聽的藝人、專輯、歌�
   .wr-yb-bar2{ background:linear-gradient(180deg,#c8b48a,#9c8759); }
   .wr-note{ margin:-12px 0 18px; color:var(--wr-dim); font-size:.8rem; }
 
+  .wr-gallery-link{ display:block; margin-top:52px; padding:20px; text-align:center; text-decoration:none;
+    background:var(--wr-soft); border:1px solid var(--wr-border); border-radius:10px;
+    transition:border-color .18s, transform .18s; }
+  .wr-gallery-link:hover{ border-color:var(--wr-accent); transform:translateY(-2px); }
+  .wr-gl-main{ display:block; color:var(--wr-accent2); font-size:1rem; font-weight:600; }
+  .wr-gl-sub{ display:block; margin-top:5px; color:var(--wr-dim); font-size:.8rem; }
+
   .wr-foot{ margin-top:52px; padding-top:22px; border-top:1px solid var(--wr-border); text-align:center; color:var(--wr-dim); font-size:.82rem; }
 
   @media (max-width:560px){ .wr-albs{ grid-template-columns:repeat(2,1fr); } .wr-tab{ padding:8px 16px; } }
@@ -161,6 +168,11 @@ description: 我的 Last.fm 聽歌回顧 — 最常聽的藝人、專輯、歌�
       </div>
     </section>
   </div>
+
+  <a class="wr-gallery-link" href="{{ '/artists/' | relative_url }}">
+    <span class="wr-gl-main">看整面藝人照片牆 →</span>
+    <span class="wr-gl-sub">這些年聽最多的 150 位藝人</span>
+  </a>
 
   <div class="wr-foot">資料來源：Last.fm · 更新於 {{ w.generated }}</div>
 </div>

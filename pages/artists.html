@@ -1,0 +1,76 @@
+---
+layout: default
+title: 藝人牆
+permalink: /artists/
+wide: true
+description: 這些年聽過最多的藝人 — 一整面照片牆
+---
+
+{% assign a = site.data.artists %}
+
+<style>
+  /* 照片牆比文章頁需要更多橫向空間，一行十個才不會太小 */
+  .wide-content { max-width: 960px; margin: 0 auto; width: 100%; }
+
+  .ag { --ag-accent:#7c93b0; --ag-head:#f0f0f0; --ag-dim:#858590; --ag-border:#333; }
+  .ag *{ box-sizing:border-box; }
+
+  .ag-hero{ text-align:center; padding:10px 0 30px; border-bottom:1px solid var(--ag-border); margin-bottom:30px; }
+  .ag-eyebrow{ font-size:.8rem; letter-spacing:.26em; text-transform:uppercase; color:var(--ag-accent); margin-bottom:12px; }
+  .ag-hero h1{ font-size:clamp(1.7rem,5vw,2.4rem); color:var(--ag-head); margin:0 0 12px; line-height:1.2; }
+  .ag-hero p{ color:var(--ag-dim); font-size:.88rem; margin:0; line-height:1.7; }
+
+  .ag-grid{ display:grid; grid-template-columns:repeat(10,1fr); gap:18px 12px; }
+  .ag-item{ min-width:0; }
+  .ag-link{ display:block; text-decoration:none; }
+  .ag-pic{ aspect-ratio:1; border-radius:50%; overflow:hidden; background:#222;
+    box-shadow:0 3px 10px rgba(0,0,0,.4); transition:transform .18s, box-shadow .18s; }
+  .ag-link:hover .ag-pic{ transform:translateY(-3px); box-shadow:0 6px 16px rgba(0,0,0,.55); }
+  .ag-item img{ width:100%; height:100%; object-fit:cover; display:block; }
+  .ag-ph{ width:100%; height:100%; display:flex; align-items:center; justify-content:center;
+    background:linear-gradient(145deg,#2b2b2b,#1f1f1f); color:#555; font-size:1.4rem; }
+  .ag-name{ display:block; margin-top:8px; text-align:center; color:var(--ag-head);
+    font-size:.74rem; line-height:1.3; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .ag-link:hover .ag-name{ color:var(--ag-accent); }
+  .ag-plays{ display:block; text-align:center; color:var(--ag-dim); font-size:.68rem;
+    font-variant-numeric:tabular-nums; }
+
+  .ag-foot{ margin-top:44px; padding-top:20px; border-top:1px solid var(--ag-border);
+    text-align:center; color:var(--ag-dim); font-size:.82rem; line-height:1.8; }
+  .ag-foot a{ color:var(--ag-accent); }
+
+  /* 螢幕變窄時逐段減少每行數量，避免頭像小到認不出來 */
+  @media (max-width:900px){ .ag-grid{ grid-template-columns:repeat(8,1fr); } }
+  @media (max-width:700px){ .ag-grid{ grid-template-columns:repeat(6,1fr); } }
+  @media (max-width:520px){ .ag-grid{ grid-template-columns:repeat(4,1fr); } }
+</style>
+
+<div class="ag">
+  <div class="ag-hero">
+    <div class="ag-eyebrow">Artists</div>
+    <h1>藝人牆</h1>
+    <p>這些年聽最多的 {{ a.count }} 位，按播放次數排序。<br>
+       總共聽過 {{ a.total_artists_fmt }} 位藝人。</p>
+  </div>
+
+  <div class="ag-grid">
+    {% for ar in a.artists %}
+    <div class="ag-item">
+      <a class="ag-link" href="https://www.last.fm/music/{{ ar.name | uri_escape }}"
+         target="_blank" rel="noopener" title="{{ ar.name | escape }}　{{ ar.plays_fmt }} 次">
+        <div class="ag-pic">
+          {% if ar.img %}<img src="{{ ar.img }}" alt="{{ ar.name | escape }}" loading="lazy">
+          {% else %}<div class="ag-ph">&#9834;</div>{% endif %}
+        </div>
+        <span class="ag-name">{{ ar.name }}</span>
+        <span class="ag-plays">{{ ar.plays_fmt }} 次</span>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="ag-foot">
+    資料來源：Last.fm · 藝人照片來自 Spotify<br>
+    想看排行榜與聽歌量統計，請到 <a href="{{ '/wrapped/' | relative_url }}">聽歌回顧</a>
+  </div>
+</div>
