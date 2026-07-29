@@ -85,6 +85,8 @@ description: 我的 Last.fm 聽歌回顧 — 最常聽的藝人、專輯、歌�
   .wr-yb-bar{ width:100%; max-width:42px; background:linear-gradient(180deg,var(--wr-accent2),var(--wr-accent));
     border-radius:5px 5px 0 0; min-height:5px; }
   .wr-yb-year{ font-size:.72rem; color:var(--wr-dim); font-variant-numeric:tabular-nums; }
+  .wr-yb-bar2{ background:linear-gradient(180deg,#c8b48a,#9c8759); }
+  .wr-note{ margin:-12px 0 18px; color:var(--wr-dim); font-size:.8rem; }
 
   .wr-foot{ margin-top:52px; padding-top:22px; border-top:1px solid var(--wr-border); text-align:center; color:var(--wr-dim); font-size:.82rem; }
 
@@ -140,6 +142,20 @@ description: 我的 Last.fm 聽歌回顧 — 最常聽的藝人、專輯、歌�
           <span class="wr-yb-val">{{ y.plays_fmt }}</span>
           <div class="wr-yb-bar" style="height:{{ y.pct }}%"></div>
           <span class="wr-yb-year">{{ y.year }}</span>
+        </div>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section>
+      <div class="wr-h"><h2>每年挖到的新藝人</h2><span class="en">New Artists Discovered</span></div>
+      <p class="wr-note">同一位藝人只算進第一次聽到他的那一年。</p>
+      <div class="wr-years">
+        {% for n in w.all.new_art_by_year %}
+        <div class="wr-yb">
+          <span class="wr-yb-val">{{ n.count_fmt }}</span>
+          <div class="wr-yb-bar wr-yb-bar2" style="height:{{ n.pct }}%"></div>
+          <span class="wr-yb-year">{{ n.year }}</span>
         </div>
         {% endfor %}
       </div>

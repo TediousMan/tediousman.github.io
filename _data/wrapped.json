@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-28",
+ "generated": "2026-07-29",
  "year_label": "2026",
  "all": {
   "total": 210673,
@@ -271,6 +271,62 @@
     "plays_fmt": "27,586",
     "pct": 51
    }
+  ],
+  "new_art_by_year": [
+   {
+    "year": "2018",
+    "count": 63,
+    "count_fmt": "63",
+    "pct": 5
+   },
+   {
+    "year": "2019",
+    "count": 158,
+    "count_fmt": "158",
+    "pct": 7
+   },
+   {
+    "year": "2020",
+    "count": 386,
+    "count_fmt": "386",
+    "pct": 16
+   },
+   {
+    "year": "2021",
+    "count": 2417,
+    "count_fmt": "2,417",
+    "pct": 100
+   },
+   {
+    "year": "2022",
+    "count": 1470,
+    "count_fmt": "1,470",
+    "pct": 61
+   },
+   {
+    "year": "2023",
+    "count": 649,
+    "count_fmt": "649",
+    "pct": 27
+   },
+   {
+    "year": "2024",
+    "count": 608,
+    "count_fmt": "608",
+    "pct": 25
+   },
+   {
+    "year": "2025",
+    "count": 618,
+    "count_fmt": "618",
+    "pct": 26
+   },
+   {
+    "year": "2026",
+    "count": 848,
+    "count_fmt": "848",
+    "pct": 35
+   }
   ]
  },
  "year": {
@@ -532,19 +588,19 @@
   ]
  },
  "week": {
-  "total": 1152,
-  "total_fmt": "1,152",
-  "uniq_art": 500,
-  "uniq_art_fmt": "500",
-  "uniq_trk": 707,
-  "uniq_trk_fmt": "707",
-  "start": "7/22",
-  "end": "7/28",
+  "total": 1105,
+  "total_fmt": "1,105",
+  "uniq_art": 493,
+  "uniq_art_fmt": "493",
+  "uniq_trk": 689,
+  "uniq_trk_fmt": "689",
+  "start": "7/23",
+  "end": "7/29",
   "top_art": [
    {
     "artist": "BurnQue",
-    "plays": 39,
-    "plays_fmt": "39",
+    "plays": 33,
+    "plays_fmt": "33",
     "img": "https://i.scdn.co/image/ab6761610000e5ebfb9085515b81ecc06b05b158",
     "pct": 100
    },
@@ -553,71 +609,71 @@
     "plays": 11,
     "plays_fmt": "11",
     "img": "https://i.scdn.co/image/ab6761610000e5eb14295c025afeac9fea39f0f2",
-    "pct": 28
+    "pct": 33
    },
    {
     "artist": "Forbear",
     "plays": 11,
     "plays_fmt": "11",
     "img": "https://i.scdn.co/image/ab6761610000e5eb1dd5e26af0ba32dc0330d5e7",
-    "pct": 28
-   },
-   {
-    "artist": "SHIKUMI",
-    "plays": 11,
-    "plays_fmt": "11",
-    "img": "https://i.scdn.co/image/ab67616d0000b27327673d6391b7d62fe53bae5b",
-    "pct": 28
+    "pct": 33
    },
    {
     "artist": "あたまたんさん",
     "plays": 10,
     "plays_fmt": "10",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44",
-    "pct": 26
+    "pct": 30
    },
    {
     "artist": "AoOo",
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
-    "pct": 23
+    "pct": 27
    },
    {
     "artist": "Home",
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
-    "pct": 23
+    "pct": 27
    },
    {
     "artist": "うさぎファクトリー",
     "plays": 9,
     "plays_fmt": "9",
     "img": null,
-    "pct": 23
+    "pct": 27
    },
    {
     "artist": "Bone Us",
     "plays": 8,
     "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd41eef9e5ce022087a8356da",
-    "pct": 21
+    "pct": 24
    },
    {
     "artist": "Ludens",
     "plays": 8,
     "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab6761610000e5eb39f16ed2969825cee8ee66f3",
-    "pct": 21
+    "pct": 24
+   },
+   {
+    "artist": "tamanaramen",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb131f08ba2e73c1a33403af61",
+    "pct": 24
    }
   ],
   "top_alb": [
    {
     "album": "N.W.O.L.",
     "artist": "BurnQue",
-    "plays": 33,
-    "plays_fmt": "33",
+    "plays": 27,
+    "plays_fmt": "27",
     "img": "https://i.scdn.co/image/ab6761610000e5ebfb9085515b81ecc06b05b158"
    },
    {
@@ -626,13 +682,6 @@
     "plays": 11,
     "plays_fmt": "11",
     "img": "https://i.scdn.co/image/ab6761610000e5eb1dd5e26af0ba32dc0330d5e7"
-   },
-   {
-    "album": "tanya",
-    "artist": "SHIKUMI",
-    "plays": 11,
-    "plays_fmt": "11",
-    "img": "https://i.scdn.co/image/ab67616d0000b27327673d6391b7d62fe53bae5b"
    },
    {
     "album": "鉄の掟",
@@ -682,20 +731,21 @@
     "plays": 8,
     "plays_fmt": "8",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/da74e0f56cc6364849b7ac888d3492d5.jpg"
+   },
+   {
+    "album": "Limehouse",
+    "artist": "tamanaramen",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/a3ae9be1125ead0f274b140280e645a2.jpg"
    }
   ],
   "top_trk": [
    {
     "track": "N.W.O.L.",
     "artist": "BurnQue",
-    "plays": 33,
-    "plays_fmt": "33"
-   },
-   {
-    "track": "tanya",
-    "artist": "SHIKUMI",
-    "plays": 11,
-    "plays_fmt": "11"
+    "plays": 27,
+    "plays_fmt": "27"
    },
    {
     "track": "Head To",
@@ -708,12 +758,6 @@
     "artist": "Müde",
     "plays": 5,
     "plays_fmt": "5"
-   },
-   {
-    "track": "Anfang",
-    "artist": "hardnuts",
-    "plays": 4,
-    "plays_fmt": "4"
    },
    {
     "track": "Bokura Futarikiri",
@@ -744,15 +788,21 @@
     "artist": "newtn",
     "plays": 4,
     "plays_fmt": "4"
+   },
+   {
+    "track": "Hikari",
+    "artist": "Mushi Furuu Yoru Ni",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "I'm Down",
+    "artist": "Good Food",
+    "plays": 4,
+    "plays_fmt": "4"
    }
   ],
   "by_day": [
-   {
-    "day": "7/22",
-    "plays": 47,
-    "plays_fmt": "47",
-    "pct": 16
-   },
    {
     "day": "7/23",
     "plays": 225,
@@ -788,6 +838,12 @@
     "plays": 170,
     "plays_fmt": "170",
     "pct": 60
+   },
+   {
+    "day": "7/29",
+    "plays": 0,
+    "plays_fmt": "0",
+    "pct": 0
    }
   ]
  }
