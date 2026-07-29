@@ -11,6 +11,9 @@ sitemap: false
 {% assign a = site.data.artists %}
 
 <style>
+  /* 照片牆比文章頁需要更多橫向空間，一行十個才不會太小 */
+  .wide-content { max-width: 960px; margin: 0 auto; width: 100%; }
+
   .ag { --ag-accent:#7c93b0; --ag-head:#f0f0f0; --ag-muted:#8a8a8a; --ag-dim:#858590; --ag-border:#333; }
   .ag *{ box-sizing:border-box; }
 
@@ -36,7 +39,7 @@ sitemap: false
   .ag-item img{ width:100%; height:100%; object-fit:cover; display:block; background:#222; }
 
   /* ---- A. 圓形頭像牆 ---- */
-  .ag-grid.mode-a{ grid-template-columns:repeat(auto-fill,minmax(96px,1fr)); gap:20px 14px; }
+  .ag-grid.mode-a{ grid-template-columns:repeat(10,1fr); gap:18px 12px; }
   .mode-a .ag-pic{ aspect-ratio:1; border-radius:50%; overflow:hidden; box-shadow:0 3px 10px rgba(0,0,0,.4); }
   .mode-a .ag-ph{ font-size:1.4rem; }
   .mode-a .ag-name{ display:block; margin-top:8px; text-align:center; color:var(--ag-head);
@@ -45,7 +48,7 @@ sitemap: false
     font-variant-numeric:tabular-nums; }
 
   /* ---- B. 方形卡片 ---- */
-  .ag-grid.mode-b{ grid-template-columns:repeat(auto-fill,minmax(128px,1fr)); gap:16px; }
+  .ag-grid.mode-b{ grid-template-columns:repeat(10,1fr); gap:14px; }
   .mode-b .ag-pic{ aspect-ratio:1; border-radius:8px; overflow:hidden; box-shadow:0 3px 12px rgba(0,0,0,.45); }
   .mode-b .ag-ph{ font-size:1.8rem; }
   .mode-b .ag-name{ display:block; margin-top:8px; color:var(--ag-head); font-size:.8rem; font-weight:600;
@@ -53,7 +56,7 @@ sitemap: false
   .mode-b .ag-plays{ display:block; color:var(--ag-dim); font-size:.73rem; font-variant-numeric:tabular-nums; }
 
   /* ---- C. 無縫馬賽克 ---- */
-  .ag-grid.mode-c{ grid-template-columns:repeat(auto-fill,minmax(84px,1fr)); gap:0; border-radius:10px; overflow:hidden; }
+  .ag-grid.mode-c{ grid-template-columns:repeat(10,1fr); gap:0; border-radius:10px; overflow:hidden; }
   .mode-c .ag-pic{ aspect-ratio:1; overflow:hidden; }
   .mode-c .ag-ph{ font-size:1.2rem; }
   .mode-c .ag-name, .mode-c .ag-plays{ display:none; }
@@ -65,6 +68,13 @@ sitemap: false
 
   .ag-foot{ margin-top:40px; padding-top:20px; border-top:1px solid var(--ag-border);
     text-align:center; color:var(--ag-dim); font-size:.82rem; line-height:1.8; }
+
+  /* 螢幕變窄時逐段減少每行數量，避免頭像小到認不出來 */
+  @media (max-width:900px){ .ag-grid.mode-a,.ag-grid.mode-b,.ag-grid.mode-c{ grid-template-columns:repeat(8,1fr); } }
+  @media (max-width:700px){ .ag-grid.mode-a,.ag-grid.mode-b,.ag-grid.mode-c{ grid-template-columns:repeat(6,1fr); } }
+  @media (max-width:520px){ .ag-grid.mode-a,.ag-grid.mode-b{ grid-template-columns:repeat(4,1fr); }
+                            .ag-grid.mode-c{ grid-template-columns:repeat(5,1fr); }
+                            .ag-tab{ padding:8px 12px; font-size:.8rem; } }
 </style>
 
 <div class="ag">
