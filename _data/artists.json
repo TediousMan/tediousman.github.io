@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7217,
- "total_artists_fmt": "7,217",
+ "total_artists": 7225,
+ "total_artists_fmt": "7,225",
  "missing_img": 9,
  "artists": [
   {
@@ -78,8 +78,8 @@
   },
   {
    "name": "羊文学",
-   "plays": 683,
-   "plays_fmt": "683",
+   "plays": 684,
+   "plays_fmt": "684",
    "img": "https://i.scdn.co/image/ab6761610000e5eb1833f4534ed3dd88d9e12c8b"
   },
   {
@@ -276,8 +276,8 @@
   },
   {
    "name": "WANIMA",
-   "plays": 440,
-   "plays_fmt": "440",
+   "plays": 441,
+   "plays_fmt": "441",
    "img": "https://i.scdn.co/image/ab6761610000e5eb37c85e7d09ce8668eab4a480"
   },
   {
@@ -347,6 +347,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb7f8973aeb4176e61b0cec158"
   },
   {
+   "name": "GOHOBI",
+   "plays": 382,
+   "plays_fmt": "382",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb93311cae2f611f16a5d84e43"
+  },
+  {
    "name": "vivid undress",
    "plays": 382,
    "plays_fmt": "382",
@@ -357,12 +363,6 @@
    "plays": 382,
    "plays_fmt": "382",
    "img": "https://i.scdn.co/image/ab6761610000e5eba388e0bb3eec78261dec8233"
-  },
-  {
-   "name": "GOHOBI",
-   "plays": 380,
-   "plays_fmt": "380",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb93311cae2f611f16a5d84e43"
   },
   {
    "name": "ego apartment",
@@ -690,8 +690,8 @@
   },
   {
    "name": "omeme tenten",
-   "plays": 287,
-   "plays_fmt": "287",
+   "plays": 288,
+   "plays_fmt": "288",
    "img": "https://i.scdn.co/image/ab6761610000e5eb3b770c187b6a716a2eb91f1b"
   },
   {

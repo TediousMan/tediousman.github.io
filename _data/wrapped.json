@@ -2,14 +2,14 @@
  "generated": "2026-07-29",
  "year_label": "2026",
  "all": {
-  "total": 210673,
-  "total_fmt": "210,673",
-  "uniq_art": 7217,
-  "uniq_art_fmt": "7,217",
-  "uniq_trk": 30140,
-  "uniq_trk_fmt": "30,140",
+  "total": 210821,
+  "total_fmt": "210,821",
+  "uniq_art": 7225,
+  "uniq_art_fmt": "7,225",
+  "uniq_trk": 30201,
+  "uniq_trk_fmt": "30,201",
   "start": "2018-03-06",
-  "end": "2026-07-28",
+  "end": "2026-07-29",
   "top_art": [
    {
     "artist": "Mr.ふぉるて",
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 27586,
-    "plays_fmt": "27,586",
+    "plays": 27734,
+    "plays_fmt": "27,734",
     "pct": 51
    }
   ],
@@ -323,19 +323,19 @@
    },
    {
     "year": "2026",
-    "count": 848,
-    "count_fmt": "848",
+    "count": 856,
+    "count_fmt": "856",
     "pct": 35
    }
   ]
  },
  "year": {
-  "total": 27586,
-  "total_fmt": "27,586",
-  "uniq_art": 2628,
-  "uniq_art_fmt": "2,628",
-  "uniq_trk": 7272,
-  "uniq_trk_fmt": "7,272",
+  "total": 27734,
+  "total_fmt": "27,734",
+  "uniq_art": 2641,
+  "uniq_art_fmt": "2,641",
+  "uniq_trk": 7334,
+  "uniq_trk_fmt": "7,334",
   "top_art": [
    {
     "artist": "Kienai",
@@ -367,15 +367,15 @@
    },
    {
     "artist": "あたまたんさん",
-    "plays": 192,
-    "plays_fmt": "192",
+    "plays": 193,
+    "plays_fmt": "193",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44",
     "pct": 80
    },
    {
     "artist": "the Wulongs",
-    "plays": 163,
-    "plays_fmt": "163",
+    "plays": 164,
+    "plays_fmt": "164",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
     "pct": 68
    },
@@ -426,8 +426,8 @@
    {
     "album": "鉄の掟",
     "artist": "あたまたんさん",
-    "plays": 191,
-    "plays_fmt": "191",
+    "plays": 192,
+    "plays_fmt": "192",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44"
    },
    {
@@ -454,8 +454,8 @@
    {
     "album": "日々、折り返すごとに",
     "artist": "爛漫天国",
-    "plays": 139,
-    "plays_fmt": "139",
+    "plays": 140,
+    "plays_fmt": "140",
     "img": "https://i.scdn.co/image/ab6761610000e5eb59ee187da2de942d5f50e0e0"
    },
    {
@@ -547,53 +547,53 @@
     "month": "1",
     "plays": 2405,
     "plays_fmt": "2,405",
-    "pct": 49
+    "pct": 48
    },
    {
     "month": "2",
     "plays": 2986,
     "plays_fmt": "2,986",
-    "pct": 61
+    "pct": 59
    },
    {
     "month": "3",
     "plays": 4494,
     "plays_fmt": "4,494",
-    "pct": 92
+    "pct": 89
    },
    {
     "month": "4",
     "plays": 4027,
     "plays_fmt": "4,027",
-    "pct": 82
+    "pct": 80
    },
    {
     "month": "5",
     "plays": 4394,
     "plays_fmt": "4,394",
-    "pct": 90
+    "pct": 87
    },
    {
     "month": "6",
     "plays": 4395,
     "plays_fmt": "4,395",
-    "pct": 90
+    "pct": 87
    },
    {
     "month": "7",
-    "plays": 4885,
-    "plays_fmt": "4,885",
+    "plays": 5033,
+    "plays_fmt": "5,033",
     "pct": 100
    }
   ]
  },
  "week": {
-  "total": 1105,
-  "total_fmt": "1,105",
-  "uniq_art": 493,
-  "uniq_art_fmt": "493",
-  "uniq_trk": 689,
-  "uniq_trk_fmt": "689",
+  "total": 1253,
+  "total_fmt": "1,253",
+  "uniq_art": 551,
+  "uniq_art_fmt": "551",
+  "uniq_trk": 775,
+  "uniq_trk_fmt": "775",
   "start": "7/23",
   "end": "7/29",
   "top_art": [
@@ -603,6 +603,20 @@
     "plays_fmt": "33",
     "img": "https://i.scdn.co/image/ab6761610000e5ebfb9085515b81ecc06b05b158",
     "pct": 100
+   },
+   {
+    "artist": "CASANOVA FISH",
+    "plays": 23,
+    "plays_fmt": "23",
+    "img": "https://i.scdn.co/image/ab67616d0000b273f880798b449db358050e7ad4",
+    "pct": 70
+   },
+   {
+    "artist": "Pixie Monster",
+    "plays": 12,
+    "plays_fmt": "12",
+    "img": "https://i.scdn.co/image/ab67616d0000b2735e978b98cee7de8932289c5e",
+    "pct": 36
    },
    {
     "artist": "Cheche",
@@ -620,9 +634,16 @@
    },
    {
     "artist": "あたまたんさん",
+    "plays": 11,
+    "plays_fmt": "11",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44",
+    "pct": 33
+   },
+   {
+    "artist": "She Side Ship",
     "plays": 10,
     "plays_fmt": "10",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb756217ae200dd2fed5daaa65",
     "pct": 30
    },
    {
@@ -645,27 +666,6 @@
     "plays_fmt": "9",
     "img": null,
     "pct": 27
-   },
-   {
-    "artist": "Bone Us",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebd41eef9e5ce022087a8356da",
-    "pct": 24
-   },
-   {
-    "artist": "Ludens",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb39f16ed2969825cee8ee66f3",
-    "pct": 24
-   },
-   {
-    "artist": "tamanaramen",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb131f08ba2e73c1a33403af61",
-    "pct": 24
    }
   ],
   "top_alb": [
@@ -677,6 +677,13 @@
     "img": "https://i.scdn.co/image/ab6761610000e5ebfb9085515b81ecc06b05b158"
    },
    {
+    "album": "Casanova Fish",
+    "artist": "CASANOVA FISH",
+    "plays": 23,
+    "plays_fmt": "23",
+    "img": "https://i.scdn.co/image/ab67616d0000b273f880798b449db358050e7ad4"
+   },
+   {
     "album": "4songs Ⅱ",
     "artist": "Forbear",
     "plays": 11,
@@ -686,9 +693,16 @@
    {
     "album": "鉄の掟",
     "artist": "あたまたんさん",
+    "plays": 11,
+    "plays_fmt": "11",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44"
+   },
+   {
+    "album": "taikutsu wo ande",
+    "artist": "Pixie Monster",
     "plays": 10,
     "plays_fmt": "10",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44"
+    "img": "https://i.scdn.co/image/ab67616d0000b2735e978b98cee7de8932289c5e"
    },
    {
     "album": "HOME COLLECTION",
@@ -724,20 +738,6 @@
     "plays": 8,
     "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd41eef9e5ce022087a8356da"
-   },
-   {
-    "album": "Rooom",
-    "artist": "AoOo",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/da74e0f56cc6364849b7ac888d3492d5.jpg"
-   },
-   {
-    "album": "Limehouse",
-    "artist": "tamanaramen",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/a3ae9be1125ead0f274b140280e645a2.jpg"
    }
   ],
   "top_trk": [
@@ -748,8 +748,20 @@
     "plays_fmt": "27"
    },
    {
+    "track": "陽のあたる場所へ",
+    "artist": "She Side Ship",
+    "plays": 10,
+    "plays_fmt": "10"
+   },
+   {
     "track": "Head To",
     "artist": "Forbear",
+    "plays": 5,
+    "plays_fmt": "5"
+   },
+   {
+    "track": "Non-REM Love",
+    "artist": "slump girl",
     "plays": 5,
     "plays_fmt": "5"
    },
@@ -778,26 +790,14 @@
     "plays_fmt": "4"
    },
    {
+    "track": "Fool",
+    "artist": "Zoo zoo sea",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
     "track": "GetBack",
     "artist": "MUNO NO MOSES",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "GiriGirl",
-    "artist": "newtn",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "Hikari",
-    "artist": "Mushi Furuu Yoru Ni",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "I'm Down",
-    "artist": "Good Food",
     "plays": 4,
     "plays_fmt": "4"
    }
@@ -835,15 +835,15 @@
    },
    {
     "day": "7/28",
-    "plays": 170,
-    "plays_fmt": "170",
-    "pct": 60
+    "plays": 179,
+    "plays_fmt": "179",
+    "pct": 63
    },
    {
     "day": "7/29",
-    "plays": 0,
-    "plays_fmt": "0",
-    "pct": 0
+    "plays": 139,
+    "plays_fmt": "139",
+    "pct": 49
    }
   ]
  }
