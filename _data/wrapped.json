@@ -2,12 +2,12 @@
  "generated": "2026-07-30",
  "year_label": "2026",
  "all": {
-  "total": 210925,
-  "total_fmt": "210,925",
-  "uniq_art": 7228,
-  "uniq_art_fmt": "7,228",
-  "uniq_trk": 30215,
-  "uniq_trk_fmt": "30,215",
+  "total": 210997,
+  "total_fmt": "210,997",
+  "uniq_art": 7230,
+  "uniq_art_fmt": "7,230",
+  "uniq_trk": 30222,
+  "uniq_trk_fmt": "30,222",
   "start": "2018-03-06",
   "end": "2026-07-30",
   "top_art": [
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 27838,
-    "plays_fmt": "27,838",
+    "plays": 27910,
+    "plays_fmt": "27,910",
     "pct": 52
    }
   ],
@@ -323,24 +323,24 @@
    },
    {
     "year": "2026",
-    "count": 859,
-    "count_fmt": "859",
+    "count": 861,
+    "count_fmt": "861",
     "pct": 36
    }
   ]
  },
  "year": {
-  "total": 27838,
-  "total_fmt": "27,838",
-  "uniq_art": 2646,
-  "uniq_art_fmt": "2,646",
-  "uniq_trk": 7349,
-  "uniq_trk_fmt": "7,349",
+  "total": 27910,
+  "total_fmt": "27,910",
+  "uniq_art": 2648,
+  "uniq_art_fmt": "2,648",
+  "uniq_trk": 7356,
+  "uniq_trk_fmt": "7,356",
   "top_art": [
    {
     "artist": "Kienai",
-    "plays": 240,
-    "plays_fmt": "240",
+    "plays": 241,
+    "plays_fmt": "241",
     "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481",
     "pct": 100
    },
@@ -349,21 +349,21 @@
     "plays": 232,
     "plays_fmt": "232",
     "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf",
-    "pct": 97
+    "pct": 96
    },
    {
     "artist": "BUDOU JUICE",
     "plays": 213,
     "plays_fmt": "213",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f",
-    "pct": 89
+    "pct": 88
    },
    {
     "artist": "bedgravity",
     "plays": 201,
     "plays_fmt": "201",
     "img": "https://i.scdn.co/image/ab67616d0000b273d29467756d06ae5882d98238",
-    "pct": 84
+    "pct": 83
    },
    {
     "artist": "あたまたんさん",
@@ -384,7 +384,7 @@
     "plays": 162,
     "plays_fmt": "162",
     "img": "https://i.scdn.co/image/ab67616d0000b27381582c0fb8f5908a6aee7f3e",
-    "pct": 68
+    "pct": 67
    },
    {
     "artist": "Youth Illustrated",
@@ -398,22 +398,22 @@
     "plays": 153,
     "plays_fmt": "153",
     "img": "https://i.scdn.co/image/ab6761610000e5eb015e59262813fcf812ddf659",
-    "pct": 64
+    "pct": 63
    },
    {
     "artist": "tenbin O",
     "plays": 143,
     "plays_fmt": "143",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb146cdd0b2be813c4b411eb2",
-    "pct": 60
+    "pct": 59
    }
   ],
   "top_alb": [
    {
     "album": "sparkleII",
     "artist": "Kienai",
-    "plays": 237,
-    "plays_fmt": "237",
+    "plays": 238,
+    "plays_fmt": "238",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/1c6a42ba2640cb0ed267d0c9d6a5f106.jpg"
    },
    {
@@ -547,140 +547,147 @@
     "month": "1",
     "plays": 2405,
     "plays_fmt": "2,405",
-    "pct": 47
+    "pct": 46
    },
    {
     "month": "2",
     "plays": 2986,
     "plays_fmt": "2,986",
-    "pct": 58
+    "pct": 57
    },
    {
     "month": "3",
     "plays": 4494,
     "plays_fmt": "4,494",
-    "pct": 87
+    "pct": 86
    },
    {
     "month": "4",
     "plays": 4027,
     "plays_fmt": "4,027",
-    "pct": 78
+    "pct": 77
    },
    {
     "month": "5",
     "plays": 4394,
     "plays_fmt": "4,394",
-    "pct": 86
+    "pct": 84
    },
    {
     "month": "6",
     "plays": 4395,
     "plays_fmt": "4,395",
-    "pct": 86
+    "pct": 84
    },
    {
     "month": "7",
-    "plays": 5137,
-    "plays_fmt": "5,137",
+    "plays": 5209,
+    "plays_fmt": "5,209",
     "pct": 100
    }
   ]
  },
  "week": {
-  "total": 1132,
-  "total_fmt": "1,132",
-  "uniq_art": 515,
-  "uniq_art_fmt": "515",
-  "uniq_trk": 705,
-  "uniq_trk_fmt": "705",
+  "total": 1204,
+  "total_fmt": "1,204",
+  "uniq_art": 530,
+  "uniq_art_fmt": "530",
+  "uniq_trk": 734,
+  "uniq_trk_fmt": "734",
   "start": "7/24",
   "end": "7/30",
   "top_art": [
    {
     "artist": "CASANOVA FISH",
-    "plays": 23,
-    "plays_fmt": "23",
+    "plays": 24,
+    "plays_fmt": "24",
     "img": "https://i.scdn.co/image/ab67616d0000b273f880798b449db358050e7ad4",
     "pct": 100
    },
    {
+    "artist": "slump girl",
+    "plays": 23,
+    "plays_fmt": "23",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb75b38095f491a1268ca1a058",
+    "pct": 96
+   },
+   {
     "artist": "Pixie Monster",
-    "plays": 13,
-    "plays_fmt": "13",
+    "plays": 14,
+    "plays_fmt": "14",
     "img": "https://i.scdn.co/image/ab67616d0000b2735e978b98cee7de8932289c5e",
-    "pct": 57
+    "pct": 58
    },
    {
     "artist": "あたまたんさん",
     "plays": 11,
     "plays_fmt": "11",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44",
-    "pct": 48
+    "pct": 46
    },
    {
     "artist": "Cheche",
     "plays": 10,
     "plays_fmt": "10",
     "img": "https://i.scdn.co/image/ab6761610000e5eb14295c025afeac9fea39f0f2",
-    "pct": 43
+    "pct": 42
    },
    {
     "artist": "She Side Ship",
     "plays": 10,
     "plays_fmt": "10",
     "img": "https://i.scdn.co/image/ab6761610000e5eb756217ae200dd2fed5daaa65",
-    "pct": 43
+    "pct": 42
+   },
+   {
+    "artist": "Anemoir",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb62ef5c0e63bf38252b5682f8",
+    "pct": 33
    },
    {
     "artist": "AoOo",
     "plays": 8,
     "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
-    "pct": 35
+    "pct": 33
    },
    {
     "artist": "Bone Us",
     "plays": 8,
     "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd41eef9e5ce022087a8356da",
-    "pct": 35
-   },
-   {
-    "artist": "Zoo zoo sea",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5eba06a47b6cd9bc156b5cfd148",
-    "pct": 35
-   },
-   {
-    "artist": "Forbear",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb1dd5e26af0ba32dc0330d5e7",
-    "pct": 30
+    "pct": 33
    },
    {
     "artist": "Ludens",
-    "plays": 7,
-    "plays_fmt": "7",
+    "plays": 8,
+    "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab6761610000e5eb39f16ed2969825cee8ee66f3",
-    "pct": 30
+    "pct": 33
    }
   ],
   "top_alb": [
    {
     "album": "Casanova Fish",
     "artist": "CASANOVA FISH",
-    "plays": 23,
-    "plays_fmt": "23",
+    "plays": 24,
+    "plays_fmt": "24",
     "img": "https://i.scdn.co/image/ab67616d0000b273f880798b449db358050e7ad4"
+   },
+   {
+    "album": "Non-REM Love",
+    "artist": "slump girl",
+    "plays": 21,
+    "plays_fmt": "21",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb75b38095f491a1268ca1a058"
    },
    {
     "album": "taikutsu wo ande",
     "artist": "Pixie Monster",
-    "plays": 11,
-    "plays_fmt": "11",
+    "plays": 12,
+    "plays_fmt": "12",
     "img": "https://i.scdn.co/image/ab67616d0000b2735e978b98cee7de8932289c5e"
    },
    {
@@ -689,6 +696,20 @@
     "plays": 11,
     "plays_fmt": "11",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44"
+   },
+   {
+    "album": "Chlorine - EP",
+    "artist": "Anemoir",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb62ef5c0e63bf38252b5682f8"
+   },
+   {
+    "album": "Flight '26",
+    "artist": "Ludens",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb39f16ed2969825cee8ee66f3"
    },
    {
     "album": "Light",
@@ -705,13 +726,6 @@
     "img": "https://i.scdn.co/image/ab6761610000e5eb1dd5e26af0ba32dc0330d5e7"
    },
    {
-    "album": "Flight '26",
-    "artist": "Ludens",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb39f16ed2969825cee8ee66f3"
-   },
-   {
     "album": "I'm Busy",
     "artist": "Cheche",
     "plays": 7,
@@ -724,23 +738,15 @@
     "plays": 7,
     "plays_fmt": "7",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/da74e0f56cc6364849b7ac888d3492d5.jpg"
-   },
-   {
-    "album": "ひねくれた僕のきもち",
-    "artist": "はとば",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb54f831823e12fe3e19bad3d0"
-   },
-   {
-    "album": "日々、折り返すごとに",
-    "artist": "爛漫天国",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb59ee187da2de942d5f50e0e0"
    }
   ],
   "top_trk": [
+   {
+    "track": "Non-REM Love",
+    "artist": "slump girl",
+    "plays": 22,
+    "plays_fmt": "22"
+   },
    {
     "track": "陽のあたる場所へ",
     "artist": "She Side Ship",
@@ -748,10 +754,10 @@
     "plays_fmt": "10"
    },
    {
-    "track": "Non-REM Love",
-    "artist": "slump girl",
-    "plays": 6,
-    "plays_fmt": "6"
+    "track": "OMOIAI",
+    "artist": "Pixie Monster",
+    "plays": 5,
+    "plays_fmt": "5"
    },
    {
     "track": "朝",
@@ -792,12 +798,6 @@
    {
     "track": "Hikari",
     "artist": "Mushi Furuu Yoru Ni",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "OMOIAI",
-    "artist": "Pixie Monster",
     "plays": 4,
     "plays_fmt": "4"
    }
@@ -841,9 +841,9 @@
    },
    {
     "day": "7/30",
-    "plays": 104,
-    "plays_fmt": "104",
-    "pct": 36
+    "plays": 176,
+    "plays_fmt": "176",
+    "pct": 62
    }
   ]
  }
