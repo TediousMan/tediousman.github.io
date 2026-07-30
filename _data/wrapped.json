@@ -1,15 +1,15 @@
 {
- "generated": "2026-07-30",
+ "generated": "2026-07-31",
  "year_label": "2026",
  "all": {
-  "total": 210997,
-  "total_fmt": "210,997",
-  "uniq_art": 7230,
-  "uniq_art_fmt": "7,230",
-  "uniq_trk": 30222,
-  "uniq_trk_fmt": "30,222",
+  "total": 211026,
+  "total_fmt": "211,026",
+  "uniq_art": 7231,
+  "uniq_art_fmt": "7,231",
+  "uniq_trk": 30223,
+  "uniq_trk_fmt": "30,223",
   "start": "2018-03-06",
-  "end": "2026-07-30",
+  "end": "2026-07-31",
   "top_art": [
    {
     "artist": "Mr.ふぉるて",
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 27910,
-    "plays_fmt": "27,910",
+    "plays": 27939,
+    "plays_fmt": "27,939",
     "pct": 52
    }
   ],
@@ -323,19 +323,19 @@
    },
    {
     "year": "2026",
-    "count": 861,
-    "count_fmt": "861",
+    "count": 862,
+    "count_fmt": "862",
     "pct": 36
    }
   ]
  },
  "year": {
-  "total": 27910,
-  "total_fmt": "27,910",
-  "uniq_art": 2648,
-  "uniq_art_fmt": "2,648",
-  "uniq_trk": 7356,
-  "uniq_trk_fmt": "7,356",
+  "total": 27939,
+  "total_fmt": "27,939",
+  "uniq_art": 2649,
+  "uniq_art_fmt": "2,649",
+  "uniq_trk": 7357,
+  "uniq_trk_fmt": "7,357",
   "top_art": [
    {
     "artist": "Kienai",
@@ -581,21 +581,21 @@
    },
    {
     "month": "7",
-    "plays": 5209,
-    "plays_fmt": "5,209",
+    "plays": 5238,
+    "plays_fmt": "5,238",
     "pct": 100
    }
   ]
  },
  "week": {
-  "total": 1204,
-  "total_fmt": "1,204",
-  "uniq_art": 530,
-  "uniq_art_fmt": "530",
-  "uniq_trk": 734,
-  "uniq_trk_fmt": "734",
-  "start": "7/24",
-  "end": "7/30",
+  "total": 1117,
+  "total_fmt": "1,117",
+  "uniq_art": 498,
+  "uniq_art_fmt": "498",
+  "uniq_trk": 677,
+  "uniq_trk_fmt": "677",
+  "start": "7/25",
+  "end": "7/31",
   "top_art": [
    {
     "artist": "CASANOVA FISH",
@@ -619,13 +619,6 @@
     "pct": 58
    },
    {
-    "artist": "あたまたんさん",
-    "plays": 11,
-    "plays_fmt": "11",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44",
-    "pct": 46
-   },
-   {
     "artist": "Cheche",
     "plays": 10,
     "plays_fmt": "10",
@@ -640,17 +633,17 @@
     "pct": 42
    },
    {
+    "artist": "あたまたんさん",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44",
+    "pct": 38
+   },
+   {
     "artist": "Anemoir",
     "plays": 8,
     "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab6761610000e5eb62ef5c0e63bf38252b5682f8",
-    "pct": 33
-   },
-   {
-    "artist": "AoOo",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
     "pct": 33
    },
    {
@@ -665,6 +658,13 @@
     "plays": 8,
     "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab6761610000e5eb39f16ed2969825cee8ee66f3",
+    "pct": 33
+   },
+   {
+    "artist": "Zoo zoo sea",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5eba06a47b6cd9bc156b5cfd148",
     "pct": 33
    }
   ],
@@ -693,8 +693,8 @@
    {
     "album": "鉄の掟",
     "artist": "あたまたんさん",
-    "plays": 11,
-    "plays_fmt": "11",
+    "plays": 9,
+    "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44"
    },
    {
@@ -719,13 +719,6 @@
     "img": "https://i.scdn.co/image/ab6761610000e5ebd41eef9e5ce022087a8356da"
    },
    {
-    "album": "4songs Ⅱ",
-    "artist": "Forbear",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb1dd5e26af0ba32dc0330d5e7"
-   },
-   {
     "album": "I'm Busy",
     "artist": "Cheche",
     "plays": 7,
@@ -733,11 +726,18 @@
     "img": "https://i.scdn.co/image/ab6761610000e5eb14295c025afeac9fea39f0f2"
    },
    {
-    "album": "Rooom",
-    "artist": "AoOo",
+    "album": "ひねくれた僕のきもち",
+    "artist": "はとば",
     "plays": 7,
     "plays_fmt": "7",
-    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/da74e0f56cc6364849b7ac888d3492d5.jpg"
+    "img": "https://i.scdn.co/image/ab6761610000e5eb54f831823e12fe3e19bad3d0"
+   },
+   {
+    "album": "Colors",
+    "artist": "evolving from N/A",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://i.scdn.co/image/ab67616d0000b2736bc5c3b03b34d992cef805a8"
    }
   ],
   "top_trk": [
@@ -760,26 +760,8 @@
     "plays_fmt": "5"
    },
    {
-    "track": "朝",
-    "artist": "Müde",
-    "plays": 5,
-    "plays_fmt": "5"
-   },
-   {
     "track": "Bokura Futarikiri",
     "artist": "Hammer Head Shark",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "Burning Orange",
-    "artist": "Sunsunsun",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "CALL",
-    "artist": "AoOo",
     "plays": 4,
     "plays_fmt": "4"
    },
@@ -800,15 +782,27 @@
     "artist": "Mushi Furuu Yoru Ni",
     "plays": 4,
     "plays_fmt": "4"
+   },
+   {
+    "track": "Lullaby - Kan Sano Remix",
+    "artist": "I'm",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "SUMMER SEASON",
+    "artist": "Cosmic Mauve",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "Stairs",
+    "artist": "Hello Crowd",
+    "plays": 4,
+    "plays_fmt": "4"
    }
   ],
   "by_day": [
-   {
-    "day": "7/24",
-    "plays": 116,
-    "plays_fmt": "116",
-    "pct": 41
-   },
    {
     "day": "7/25",
     "plays": 124,
@@ -841,9 +835,15 @@
    },
    {
     "day": "7/30",
-    "plays": 176,
-    "plays_fmt": "176",
-    "pct": 62
+    "plays": 192,
+    "plays_fmt": "192",
+    "pct": 67
+   },
+   {
+    "day": "7/31",
+    "plays": 13,
+    "plays_fmt": "13",
+    "pct": 5
    }
   ]
  }

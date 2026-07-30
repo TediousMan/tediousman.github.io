@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7230,
- "total_artists_fmt": "7,230",
+ "total_artists": 7231,
+ "total_artists_fmt": "7,231",
  "missing_img": 9,
  "artists": [
   {
@@ -678,8 +678,8 @@
   },
   {
    "name": "Luby Sparks",
-   "plays": 290,
-   "plays_fmt": "290",
+   "plays": 291,
+   "plays_fmt": "291",
    "img": "https://i.scdn.co/image/ab6761610000e5eb99833843219af1cdc66223fc"
   },
   {
@@ -695,6 +695,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb3b770c187b6a716a2eb91f1b"
   },
   {
+   "name": "YONA YONA WEEKENDERS",
+   "plays": 285,
+   "plays_fmt": "285",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb6b91739a5b0e997957fff733"
+  },
+  {
    "name": "EASTOKLAB",
    "plays": 284,
    "plays_fmt": "284",
@@ -705,12 +711,6 @@
    "plays": 284,
    "plays_fmt": "284",
    "img": "https://i.scdn.co/image/ab67616d0000b2739522d7fafd953bddbddea2c9"
-  },
-  {
-   "name": "YONA YONA WEEKENDERS",
-   "plays": 284,
-   "plays_fmt": "284",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb6b91739a5b0e997957fff733"
   },
   {
    "name": "魚韻",
