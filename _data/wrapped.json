@@ -1,15 +1,15 @@
 {
- "generated": "2026-07-29",
+ "generated": "2026-07-30",
  "year_label": "2026",
  "all": {
-  "total": 210821,
-  "total_fmt": "210,821",
-  "uniq_art": 7225,
-  "uniq_art_fmt": "7,225",
-  "uniq_trk": 30201,
-  "uniq_trk_fmt": "30,201",
+  "total": 210925,
+  "total_fmt": "210,925",
+  "uniq_art": 7228,
+  "uniq_art_fmt": "7,228",
+  "uniq_trk": 30215,
+  "uniq_trk_fmt": "30,215",
   "start": "2018-03-06",
-  "end": "2026-07-29",
+  "end": "2026-07-30",
   "top_art": [
    {
     "artist": "Mr.ふぉるて",
@@ -267,9 +267,9 @@
    },
    {
     "year": "2026",
-    "plays": 27734,
-    "plays_fmt": "27,734",
-    "pct": 51
+    "plays": 27838,
+    "plays_fmt": "27,838",
+    "pct": 52
    }
   ],
   "new_art_by_year": [
@@ -323,19 +323,19 @@
    },
    {
     "year": "2026",
-    "count": 856,
-    "count_fmt": "856",
-    "pct": 35
+    "count": 859,
+    "count_fmt": "859",
+    "pct": 36
    }
   ]
  },
  "year": {
-  "total": 27734,
-  "total_fmt": "27,734",
-  "uniq_art": 2641,
-  "uniq_art_fmt": "2,641",
-  "uniq_trk": 7334,
-  "uniq_trk_fmt": "7,334",
+  "total": 27838,
+  "total_fmt": "27,838",
+  "uniq_art": 2646,
+  "uniq_art_fmt": "2,646",
+  "uniq_trk": 7349,
+  "uniq_trk_fmt": "7,349",
   "top_art": [
    {
     "artist": "Kienai",
@@ -395,16 +395,16 @@
    },
    {
     "artist": "wanbed",
-    "plays": 152,
-    "plays_fmt": "152",
+    "plays": 153,
+    "plays_fmt": "153",
     "img": "https://i.scdn.co/image/ab6761610000e5eb015e59262813fcf812ddf659",
-    "pct": 63
+    "pct": 64
    },
    {
-    "artist": "夜標",
+    "artist": "tenbin O",
     "plays": 143,
     "plays_fmt": "143",
-    "img": "https://i.scdn.co/image/ab67616d0000b27351e19785c99f993a0cfba5ce",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebb146cdd0b2be813c4b411eb2",
     "pct": 60
    }
   ],
@@ -445,6 +445,13 @@
     "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
    },
    {
+    "album": "日々、折り返すごとに",
+    "artist": "爛漫天国",
+    "plays": 142,
+    "plays_fmt": "142",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb59ee187da2de942d5f50e0e0"
+   },
+   {
     "album": "INNER SYNC",
     "artist": "Avyss",
     "plays": 141,
@@ -452,17 +459,10 @@
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/389d72d53aa10059db21ff4907f3ee32.jpg"
    },
    {
-    "album": "日々、折り返すごとに",
-    "artist": "爛漫天国",
-    "plays": 140,
-    "plays_fmt": "140",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb59ee187da2de942d5f50e0e0"
-   },
-   {
     "album": "135",
     "artist": "wanbed",
-    "plays": 137,
-    "plays_fmt": "137",
+    "plays": 138,
+    "plays_fmt": "138",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/8f67506eb69e1457aed72a3f1273f862.jpg"
    },
    {
@@ -547,135 +547,128 @@
     "month": "1",
     "plays": 2405,
     "plays_fmt": "2,405",
-    "pct": 48
+    "pct": 47
    },
    {
     "month": "2",
     "plays": 2986,
     "plays_fmt": "2,986",
-    "pct": 59
+    "pct": 58
    },
    {
     "month": "3",
     "plays": 4494,
     "plays_fmt": "4,494",
-    "pct": 89
+    "pct": 87
    },
    {
     "month": "4",
     "plays": 4027,
     "plays_fmt": "4,027",
-    "pct": 80
+    "pct": 78
    },
    {
     "month": "5",
     "plays": 4394,
     "plays_fmt": "4,394",
-    "pct": 87
+    "pct": 86
    },
    {
     "month": "6",
     "plays": 4395,
     "plays_fmt": "4,395",
-    "pct": 87
+    "pct": 86
    },
    {
     "month": "7",
-    "plays": 5033,
-    "plays_fmt": "5,033",
+    "plays": 5137,
+    "plays_fmt": "5,137",
     "pct": 100
    }
   ]
  },
  "week": {
-  "total": 1253,
-  "total_fmt": "1,253",
-  "uniq_art": 551,
-  "uniq_art_fmt": "551",
-  "uniq_trk": 775,
-  "uniq_trk_fmt": "775",
-  "start": "7/23",
-  "end": "7/29",
+  "total": 1132,
+  "total_fmt": "1,132",
+  "uniq_art": 515,
+  "uniq_art_fmt": "515",
+  "uniq_trk": 705,
+  "uniq_trk_fmt": "705",
+  "start": "7/24",
+  "end": "7/30",
   "top_art": [
-   {
-    "artist": "BurnQue",
-    "plays": 33,
-    "plays_fmt": "33",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebfb9085515b81ecc06b05b158",
-    "pct": 100
-   },
    {
     "artist": "CASANOVA FISH",
     "plays": 23,
     "plays_fmt": "23",
     "img": "https://i.scdn.co/image/ab67616d0000b273f880798b449db358050e7ad4",
-    "pct": 70
+    "pct": 100
    },
    {
     "artist": "Pixie Monster",
-    "plays": 12,
-    "plays_fmt": "12",
+    "plays": 13,
+    "plays_fmt": "13",
     "img": "https://i.scdn.co/image/ab67616d0000b2735e978b98cee7de8932289c5e",
-    "pct": 36
-   },
-   {
-    "artist": "Cheche",
-    "plays": 11,
-    "plays_fmt": "11",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb14295c025afeac9fea39f0f2",
-    "pct": 33
-   },
-   {
-    "artist": "Forbear",
-    "plays": 11,
-    "plays_fmt": "11",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb1dd5e26af0ba32dc0330d5e7",
-    "pct": 33
+    "pct": 57
    },
    {
     "artist": "あたまたんさん",
     "plays": 11,
     "plays_fmt": "11",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44",
-    "pct": 33
+    "pct": 48
+   },
+   {
+    "artist": "Cheche",
+    "plays": 10,
+    "plays_fmt": "10",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb14295c025afeac9fea39f0f2",
+    "pct": 43
    },
    {
     "artist": "She Side Ship",
     "plays": 10,
     "plays_fmt": "10",
     "img": "https://i.scdn.co/image/ab6761610000e5eb756217ae200dd2fed5daaa65",
-    "pct": 30
+    "pct": 43
    },
    {
     "artist": "AoOo",
-    "plays": 9,
-    "plays_fmt": "9",
+    "plays": 8,
+    "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
-    "pct": 27
+    "pct": 35
    },
    {
-    "artist": "Home",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
-    "pct": 27
+    "artist": "Bone Us",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebd41eef9e5ce022087a8356da",
+    "pct": 35
    },
    {
-    "artist": "うさぎファクトリー",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": null,
-    "pct": 27
+    "artist": "Zoo zoo sea",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5eba06a47b6cd9bc156b5cfd148",
+    "pct": 35
+   },
+   {
+    "artist": "Forbear",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb1dd5e26af0ba32dc0330d5e7",
+    "pct": 30
+   },
+   {
+    "artist": "Ludens",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb39f16ed2969825cee8ee66f3",
+    "pct": 30
    }
   ],
   "top_alb": [
-   {
-    "album": "N.W.O.L.",
-    "artist": "BurnQue",
-    "plays": 27,
-    "plays_fmt": "27",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebfb9085515b81ecc06b05b158"
-   },
    {
     "album": "Casanova Fish",
     "artist": "CASANOVA FISH",
@@ -684,11 +677,11 @@
     "img": "https://i.scdn.co/image/ab67616d0000b273f880798b449db358050e7ad4"
    },
    {
-    "album": "4songs Ⅱ",
-    "artist": "Forbear",
+    "album": "taikutsu wo ande",
+    "artist": "Pixie Monster",
     "plays": 11,
     "plays_fmt": "11",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb1dd5e26af0ba32dc0330d5e7"
+    "img": "https://i.scdn.co/image/ab67616d0000b2735e978b98cee7de8932289c5e"
    },
    {
     "album": "鉄の掟",
@@ -698,55 +691,56 @@
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44"
    },
    {
-    "album": "taikutsu wo ande",
-    "artist": "Pixie Monster",
-    "plays": 10,
-    "plays_fmt": "10",
-    "img": "https://i.scdn.co/image/ab67616d0000b2735e978b98cee7de8932289c5e"
-   },
-   {
-    "album": "HOME COLLECTION",
-    "artist": "Home",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
-   },
-   {
-    "album": "さめるじかん",
-    "artist": "うさぎファクトリー",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": null
-   },
-   {
-    "album": "Flight '26",
-    "artist": "Ludens",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb39f16ed2969825cee8ee66f3"
-   },
-   {
-    "album": "I'm Busy",
-    "artist": "Cheche",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb14295c025afeac9fea39f0f2"
-   },
-   {
     "album": "Light",
     "artist": "Bone Us",
     "plays": 8,
     "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd41eef9e5ce022087a8356da"
+   },
+   {
+    "album": "4songs Ⅱ",
+    "artist": "Forbear",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb1dd5e26af0ba32dc0330d5e7"
+   },
+   {
+    "album": "Flight '26",
+    "artist": "Ludens",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb39f16ed2969825cee8ee66f3"
+   },
+   {
+    "album": "I'm Busy",
+    "artist": "Cheche",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb14295c025afeac9fea39f0f2"
+   },
+   {
+    "album": "Rooom",
+    "artist": "AoOo",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/da74e0f56cc6364849b7ac888d3492d5.jpg"
+   },
+   {
+    "album": "ひねくれた僕のきもち",
+    "artist": "はとば",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb54f831823e12fe3e19bad3d0"
+   },
+   {
+    "album": "日々、折り返すごとに",
+    "artist": "爛漫天国",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb59ee187da2de942d5f50e0e0"
    }
   ],
   "top_trk": [
-   {
-    "track": "N.W.O.L.",
-    "artist": "BurnQue",
-    "plays": 27,
-    "plays_fmt": "27"
-   },
    {
     "track": "陽のあたる場所へ",
     "artist": "She Side Ship",
@@ -754,16 +748,10 @@
     "plays_fmt": "10"
    },
    {
-    "track": "Head To",
-    "artist": "Forbear",
-    "plays": 5,
-    "plays_fmt": "5"
-   },
-   {
     "track": "Non-REM Love",
     "artist": "slump girl",
-    "plays": 5,
-    "plays_fmt": "5"
+    "plays": 6,
+    "plays_fmt": "6"
    },
    {
     "track": "朝",
@@ -774,6 +762,12 @@
    {
     "track": "Bokura Futarikiri",
     "artist": "Hammer Head Shark",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "Burning Orange",
+    "artist": "Sunsunsun",
     "plays": 4,
     "plays_fmt": "4"
    },
@@ -796,19 +790,19 @@
     "plays_fmt": "4"
    },
    {
-    "track": "GetBack",
-    "artist": "MUNO NO MOSES",
+    "track": "Hikari",
+    "artist": "Mushi Furuu Yoru Ni",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "OMOIAI",
+    "artist": "Pixie Monster",
     "plays": 4,
     "plays_fmt": "4"
    }
   ],
   "by_day": [
-   {
-    "day": "7/23",
-    "plays": 225,
-    "plays_fmt": "225",
-    "pct": 79
-   },
    {
     "day": "7/24",
     "plays": 116,
@@ -844,6 +838,12 @@
     "plays": 139,
     "plays_fmt": "139",
     "pct": 49
+   },
+   {
+    "day": "7/30",
+    "plays": 104,
+    "plays_fmt": "104",
+    "pct": 36
    }
   ]
  }

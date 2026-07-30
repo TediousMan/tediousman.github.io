@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7225,
- "total_artists_fmt": "7,225",
+ "total_artists": 7228,
+ "total_artists_fmt": "7,228",
  "missing_img": 9,
  "artists": [
   {
@@ -78,8 +78,8 @@
   },
   {
    "name": "羊文学",
-   "plays": 684,
-   "plays_fmt": "684",
+   "plays": 685,
+   "plays_fmt": "685",
    "img": "https://i.scdn.co/image/ab6761610000e5eb1833f4534ed3dd88d9e12c8b"
   },
   {
@@ -108,8 +108,8 @@
   },
   {
    "name": "kobore",
-   "plays": 625,
-   "plays_fmt": "625",
+   "plays": 626,
+   "plays_fmt": "626",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24"
   },
   {
@@ -185,16 +185,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb4a044f7e38167e6ad55d41cd"
   },
   {
+   "name": "Ayutthaya",
+   "plays": 543,
+   "plays_fmt": "543",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb0389567240d2b2d9dbb289d8"
+  },
+  {
    "name": "The Otals",
    "plays": 543,
    "plays_fmt": "543",
    "img": "https://i.scdn.co/image/ab6761610000e5ebe880728367d115f0c7dfceb6"
-  },
-  {
-   "name": "Ayutthaya",
-   "plays": 542,
-   "plays_fmt": "542",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb0389567240d2b2d9dbb289d8"
   },
   {
    "name": "BRADIO",
@@ -641,6 +641,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb2c25588070d843e68a41d6f4"
   },
   {
+   "name": "Nigami 17th birthday!!",
+   "plays": 304,
+   "plays_fmt": "304",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebad1458fe213f198f7b11d1d4"
+  },
+  {
    "name": "the tiva",
    "plays": 304,
    "plays_fmt": "304",
@@ -651,12 +657,6 @@
    "plays": 303,
    "plays_fmt": "303",
    "img": "https://i.scdn.co/image/ab6761610000e5eba1c51edef1575cb474ffdb9a"
-  },
-  {
-   "name": "Nigami 17th birthday!!",
-   "plays": 303,
-   "plays_fmt": "303",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebad1458fe213f198f7b11d1d4"
   },
   {
    "name": "hitorie",
@@ -803,16 +803,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb8ffe1b4304fc8e392b97c2b7"
   },
   {
+   "name": "Have a nice day!",
+   "plays": 266,
+   "plays_fmt": "266",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
+  },
+  {
    "name": "illiomote",
    "plays": 266,
    "plays_fmt": "266",
    "img": "https://i.scdn.co/image/ab6761610000e5eba9a5143d6eb3917fbe03ad9b"
-  },
-  {
-   "name": "Have a nice day!",
-   "plays": 265,
-   "plays_fmt": "265",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
   },
   {
    "name": "レルエ",
