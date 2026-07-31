@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7252,
- "total_artists_fmt": "7,252",
+ "total_artists": 7257,
+ "total_artists_fmt": "7,257",
  "missing_img": 9,
  "artists": [
   {
@@ -168,8 +168,8 @@
   },
   {
    "name": "緑黄色社会",
-   "plays": 553,
-   "plays_fmt": "553",
+   "plays": 554,
+   "plays_fmt": "554",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd9a48d00ce7cf4d66abc76b6"
   },
   {

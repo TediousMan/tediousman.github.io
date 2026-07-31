@@ -2,12 +2,12 @@
  "generated": "2026-07-31",
  "year_label": "2026",
  "all": {
-  "total": 211173,
-  "total_fmt": "211,173",
-  "uniq_art": 7252,
-  "uniq_art_fmt": "7,252",
-  "uniq_trk": 30253,
-  "uniq_trk_fmt": "30,253",
+  "total": 211214,
+  "total_fmt": "211,214",
+  "uniq_art": 7257,
+  "uniq_art_fmt": "7,257",
+  "uniq_trk": 30283,
+  "uniq_trk_fmt": "30,283",
   "start": "2018-03-06",
   "end": "2026-07-31",
   "top_art": [
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 28086,
-    "plays_fmt": "28,086",
+    "plays": 28127,
+    "plays_fmt": "28,127",
     "pct": 52
    }
   ],
@@ -323,19 +323,19 @@
    },
    {
     "year": "2026",
-    "count": 883,
-    "count_fmt": "883",
+    "count": 888,
+    "count_fmt": "888",
     "pct": 37
    }
   ]
  },
  "year": {
-  "total": 28086,
-  "total_fmt": "28,086",
-  "uniq_art": 2672,
-  "uniq_art_fmt": "2,672",
-  "uniq_trk": 7387,
-  "uniq_trk_fmt": "7,387",
+  "total": 28127,
+  "total_fmt": "28,127",
+  "uniq_art": 2679,
+  "uniq_art_fmt": "2,679",
+  "uniq_trk": 7418,
+  "uniq_trk_fmt": "7,418",
   "top_art": [
    {
     "artist": "Kienai",
@@ -547,7 +547,7 @@
     "month": "1",
     "plays": 2405,
     "plays_fmt": "2,405",
-    "pct": 45
+    "pct": 44
    },
    {
     "month": "2",
@@ -565,35 +565,35 @@
     "month": "4",
     "plays": 4027,
     "plays_fmt": "4,027",
-    "pct": 75
+    "pct": 74
    },
    {
     "month": "5",
     "plays": 4394,
     "plays_fmt": "4,394",
-    "pct": 82
+    "pct": 81
    },
    {
     "month": "6",
     "plays": 4395,
     "plays_fmt": "4,395",
-    "pct": 82
+    "pct": 81
    },
    {
     "month": "7",
-    "plays": 5385,
-    "plays_fmt": "5,385",
+    "plays": 5426,
+    "plays_fmt": "5,426",
     "pct": 100
    }
   ]
  },
  "week": {
-  "total": 1264,
-  "total_fmt": "1,264",
-  "uniq_art": 563,
-  "uniq_art_fmt": "563",
-  "uniq_trk": 767,
-  "uniq_trk_fmt": "767",
+  "total": 1305,
+  "total_fmt": "1,305",
+  "uniq_art": 578,
+  "uniq_art_fmt": "578",
+  "uniq_trk": 798,
+  "uniq_trk_fmt": "798",
   "start": "7/25",
   "end": "7/31",
   "top_art": [
@@ -619,11 +619,25 @@
     "pct": 56
    },
    {
+    "artist": "Anemoir",
+    "plays": 12,
+    "plays_fmt": "12",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb62ef5c0e63bf38252b5682f8",
+    "pct": 48
+   },
+   {
     "artist": "ヨルノアト",
     "plays": 12,
     "plays_fmt": "12",
     "img": null,
     "pct": 48
+   },
+   {
+    "artist": "jasui vision",
+    "plays": 11,
+    "plays_fmt": "11",
+    "img": null,
+    "pct": 44
    },
    {
     "artist": "Cheche",
@@ -652,20 +666,6 @@
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44",
     "pct": 36
-   },
-   {
-    "artist": "Anemoir",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb62ef5c0e63bf38252b5682f8",
-    "pct": 32
-   },
-   {
-    "artist": "Bone Us",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebd41eef9e5ce022087a8356da",
-    "pct": 32
    }
   ],
   "top_alb": [
@@ -695,6 +695,13 @@
     "artist": "ヨルノアト",
     "plays": 12,
     "plays_fmt": "12",
+    "img": null
+   },
+   {
+    "album": "mitsume",
+    "artist": "jasui vision",
+    "plays": 9,
+    "plays_fmt": "9",
     "img": null
    },
    {
@@ -731,13 +738,6 @@
     "plays": 7,
     "plays_fmt": "7",
     "img": "https://i.scdn.co/image/ab6761610000e5eb14295c025afeac9fea39f0f2"
-   },
-   {
-    "album": "ひねくれた僕のきもち",
-    "artist": "はとば",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb54f831823e12fe3e19bad3d0"
    }
   ],
   "top_trk": [
@@ -841,9 +841,9 @@
    },
    {
     "day": "7/31",
-    "plays": 160,
-    "plays_fmt": "160",
-    "pct": 56
+    "plays": 201,
+    "plays_fmt": "201",
+    "pct": 71
    }
   ]
  }
