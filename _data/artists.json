@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7231,
- "total_artists_fmt": "7,231",
+ "total_artists": 7252,
+ "total_artists_fmt": "7,252",
  "missing_img": 9,
  "artists": [
   {
@@ -185,21 +185,21 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb4a044f7e38167e6ad55d41cd"
   },
   {
+   "name": "The Otals",
+   "plays": 544,
+   "plays_fmt": "544",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebe880728367d115f0c7dfceb6"
+  },
+  {
    "name": "Ayutthaya",
    "plays": 543,
    "plays_fmt": "543",
    "img": "https://i.scdn.co/image/ab6761610000e5eb0389567240d2b2d9dbb289d8"
   },
   {
-   "name": "The Otals",
-   "plays": 543,
-   "plays_fmt": "543",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebe880728367d115f0c7dfceb6"
-  },
-  {
    "name": "BRADIO",
-   "plays": 537,
-   "plays_fmt": "537",
+   "plays": 538,
+   "plays_fmt": "538",
    "img": "https://i.scdn.co/image/ab6761610000e5eb1b468ea5308efde05767f7f3"
   },
   {
@@ -306,8 +306,8 @@
   },
   {
    "name": "Tokimeki Records",
-   "plays": 427,
-   "plays_fmt": "427",
+   "plays": 428,
+   "plays_fmt": "428",
    "img": "https://i.scdn.co/image/ab6761610000e5eb42c23eeeaedfb6c466f8b3e9"
   },
   {
@@ -671,16 +671,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebe6274dae98c66d06ae7382c9"
   },
   {
+   "name": "Luby Sparks",
+   "plays": 292,
+   "plays_fmt": "292",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb99833843219af1cdc66223fc"
+  },
+  {
    "name": "Kenichiro Nishihara",
    "plays": 291,
    "plays_fmt": "291",
    "img": "https://i.scdn.co/image/ab6761610000e5eb2b99a62df8934c2ee58eeaa5"
-  },
-  {
-   "name": "Luby Sparks",
-   "plays": 291,
-   "plays_fmt": "291",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb99833843219af1cdc66223fc"
   },
   {
    "name": "WANG GUNG BAND",
@@ -791,16 +791,16 @@
    "img": "https://i.scdn.co/image/ab67616d0000b2731494a1e1507f8dbfbce8f2df"
   },
   {
+   "name": "36km/h",
+   "plays": 267,
+   "plays_fmt": "267",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb8ffe1b4304fc8e392b97c2b7"
+  },
+  {
    "name": "I Saw You Yesterday",
    "plays": 267,
    "plays_fmt": "267",
    "img": "https://i.scdn.co/image/ab6761610000e5ebf32519dab1f0daa82898fe82"
-  },
-  {
-   "name": "36km/h",
-   "plays": 266,
-   "plays_fmt": "266",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb8ffe1b4304fc8e392b97c2b7"
   },
   {
    "name": "Have a nice day!",
@@ -813,6 +813,12 @@
    "plays": 266,
    "plays_fmt": "266",
    "img": "https://i.scdn.co/image/ab6761610000e5eba9a5143d6eb3917fbe03ad9b"
+  },
+  {
+   "name": "ホピーハイボ",
+   "plays": 264,
+   "plays_fmt": "264",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb0eef43e8d0a6ef8f2fe0cae6"
   },
   {
    "name": "レルエ",
@@ -843,12 +849,6 @@
    "plays": 263,
    "plays_fmt": "263",
    "img": "https://i.scdn.co/image/ab6761610000e5eb812dd2720efdf5f4cb343358"
-  },
-  {
-   "name": "ホピーハイボ",
-   "plays": 263,
-   "plays_fmt": "263",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb0eef43e8d0a6ef8f2fe0cae6"
   },
   {
    "name": "Jam Fuzz Kid",
@@ -900,8 +900,8 @@
   },
   {
    "name": "Hammer Head Shark",
-   "plays": 256,
-   "plays_fmt": "256",
+   "plays": 257,
+   "plays_fmt": "257",
    "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851"
   }
  ]
