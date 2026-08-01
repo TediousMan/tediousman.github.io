@@ -2,12 +2,12 @@
  "generated": "2026-08-01",
  "year_label": "2026",
  "all": {
-  "total": 211355,
-  "total_fmt": "211,355",
+  "total": 211401,
+  "total_fmt": "211,401",
   "uniq_art": 7258,
   "uniq_art_fmt": "7,258",
-  "uniq_trk": 30285,
-  "uniq_trk_fmt": "30,285",
+  "uniq_trk": 30298,
+  "uniq_trk_fmt": "30,298",
   "start": "2018-03-06",
   "end": "2026-08-01",
   "top_art": [
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 28268,
-    "plays_fmt": "28,268",
+    "plays": 28314,
+    "plays_fmt": "28,314",
     "pct": 52
    }
   ],
@@ -330,12 +330,12 @@
   ]
  },
  "year": {
-  "total": 28268,
-  "total_fmt": "28,268",
-  "uniq_art": 2680,
-  "uniq_art_fmt": "2,680",
-  "uniq_trk": 7420,
-  "uniq_trk_fmt": "7,420",
+  "total": 28314,
+  "total_fmt": "28,314",
+  "uniq_art": 2682,
+  "uniq_art_fmt": "2,682",
+  "uniq_trk": 7433,
+  "uniq_trk_fmt": "7,433",
   "top_art": [
    {
     "artist": "Kienai",
@@ -367,8 +367,8 @@
    },
    {
     "artist": "あたまたんさん",
-    "plays": 195,
-    "plays_fmt": "195",
+    "plays": 196,
+    "plays_fmt": "196",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44",
     "pct": 81
    },
@@ -402,10 +402,10 @@
    },
    {
     "artist": "tenbin O",
-    "plays": 145,
-    "plays_fmt": "145",
+    "plays": 146,
+    "plays_fmt": "146",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb146cdd0b2be813c4b411eb2",
-    "pct": 60
+    "pct": 61
    }
   ],
   "top_alb": [
@@ -426,8 +426,8 @@
    {
     "album": "鉄の掟",
     "artist": "あたまたんさん",
-    "plays": 194,
-    "plays_fmt": "194",
+    "plays": 195,
+    "plays_fmt": "195",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44"
    },
    {
@@ -587,19 +587,19 @@
    },
    {
     "month": "8",
-    "plays": 120,
-    "plays_fmt": "120",
+    "plays": 166,
+    "plays_fmt": "166",
     "pct": 5
    }
   ]
  },
  "week": {
-  "total": 1322,
-  "total_fmt": "1,322",
-  "uniq_art": 582,
-  "uniq_art_fmt": "582",
-  "uniq_trk": 814,
-  "uniq_trk_fmt": "814",
+  "total": 1368,
+  "total_fmt": "1,368",
+  "uniq_art": 589,
+  "uniq_art_fmt": "589",
+  "uniq_trk": 833,
+  "uniq_trk_fmt": "833",
   "start": "7/26",
   "end": "8/1",
   "top_art": [
@@ -618,6 +618,13 @@
     "pct": 92
    },
    {
+    "artist": "nib.archive",
+    "plays": 15,
+    "plays_fmt": "15",
+    "img": null,
+    "pct": 60
+   },
+   {
     "artist": "Pixie Monster",
     "plays": 14,
     "plays_fmt": "14",
@@ -625,10 +632,24 @@
     "pct": 56
    },
    {
+    "artist": "吉凶わからず、",
+    "plays": 13,
+    "plays_fmt": "13",
+    "img": "https://i.scdn.co/image/ab6761610000e5eba56f1a7fa93d2ddfb43bebb4",
+    "pct": 52
+   },
+   {
     "artist": "Anemoir",
     "plays": 12,
     "plays_fmt": "12",
     "img": "https://i.scdn.co/image/ab6761610000e5eb62ef5c0e63bf38252b5682f8",
+    "pct": 48
+   },
+   {
+    "artist": "あたまたんさん",
+    "plays": 12,
+    "plays_fmt": "12",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44",
     "pct": 48
    },
    {
@@ -639,24 +660,10 @@
     "pct": 48
    },
    {
-    "artist": "吉凶わからず、",
-    "plays": 12,
-    "plays_fmt": "12",
-    "img": "https://i.scdn.co/image/ab6761610000e5eba56f1a7fa93d2ddfb43bebb4",
-    "pct": 48
-   },
-   {
     "artist": "jasui vision",
     "plays": 11,
     "plays_fmt": "11",
     "img": null,
-    "pct": 44
-   },
-   {
-    "artist": "あたまたんさん",
-    "plays": 11,
-    "plays_fmt": "11",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44",
     "pct": 44
    },
    {
@@ -665,13 +672,6 @@
     "plays_fmt": "10",
     "img": "https://i.scdn.co/image/ab6761610000e5eb756217ae200dd2fed5daaa65",
     "pct": 40
-   },
-   {
-    "artist": "Cheche",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb14295c025afeac9fea39f0f2",
-    "pct": 36
    }
   ],
   "top_alb": [
@@ -690,6 +690,13 @@
     "img": "https://i.scdn.co/image/ab6761610000e5eb75b38095f491a1268ca1a058"
    },
    {
+    "album": "If, in the End, We",
+    "artist": "nib.archive",
+    "plays": 15,
+    "plays_fmt": "15",
+    "img": null
+   },
+   {
     "album": "taikutsu wo ande",
     "artist": "Pixie Monster",
     "plays": 12,
@@ -706,8 +713,8 @@
    {
     "album": "鉄の掟",
     "artist": "あたまたんさん",
-    "plays": 11,
-    "plays_fmt": "11",
+    "plays": 12,
+    "plays_fmt": "12",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44"
    },
    {
@@ -732,18 +739,11 @@
     "img": "https://i.scdn.co/image/ab6761610000e5eb62ef5c0e63bf38252b5682f8"
    },
    {
-    "album": "HOME COLLECTION",
-    "artist": "Home",
+    "album": "4songs Ⅱ",
+    "artist": "Forbear",
     "plays": 7,
     "plays_fmt": "7",
-    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
-   },
-   {
-    "album": "Rooom",
-    "artist": "AoOo",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/da74e0f56cc6364849b7ac888d3492d5.jpg"
+    "img": "https://i.scdn.co/image/ab6761610000e5eb1dd5e26af0ba32dc0330d5e7"
    }
   ],
   "top_trk": [
@@ -766,8 +766,20 @@
     "plays_fmt": "10"
    },
    {
+    "track": "tsubomi",
+    "artist": "Nous",
+    "plays": 6,
+    "plays_fmt": "6"
+   },
+   {
     "track": "Bokura Futarikiri",
     "artist": "Hammer Head Shark",
+    "plays": 5,
+    "plays_fmt": "5"
+   },
+   {
+    "track": "Lucky Song",
+    "artist": "Muddy Jackets",
     "plays": 5,
     "plays_fmt": "5"
    },
@@ -784,12 +796,6 @@
     "plays_fmt": "5"
    },
    {
-    "track": "tsubomi",
-    "artist": "Nous",
-    "plays": 5,
-    "plays_fmt": "5"
-   },
-   {
     "track": "Burning Orange",
     "artist": "Sunsunsun",
     "plays": 4,
@@ -798,12 +804,6 @@
    {
     "track": "Fool",
     "artist": "Zoo zoo sea",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "GetBack",
-    "artist": "MUNO NO MOSES",
     "plays": 4,
     "plays_fmt": "4"
    }
@@ -847,9 +847,9 @@
    },
    {
     "day": "8/1",
-    "plays": 139,
-    "plays_fmt": "139",
-    "pct": 49
+    "plays": 185,
+    "plays_fmt": "185",
+    "pct": 65
    }
   ]
  }
