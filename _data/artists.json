@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7257,
- "total_artists_fmt": "7,257",
+ "total_artists": 7258,
+ "total_artists_fmt": "7,258",
  "missing_img": 9,
  "artists": [
   {
@@ -18,8 +18,8 @@
   },
   {
    "name": "chilldspot",
-   "plays": 1026,
-   "plays_fmt": "1,026",
+   "plays": 1027,
+   "plays_fmt": "1,027",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfffcd64678af9f7b7bab7832"
   },
   {
@@ -108,8 +108,8 @@
   },
   {
    "name": "kobore",
-   "plays": 626,
-   "plays_fmt": "626",
+   "plays": 627,
+   "plays_fmt": "627",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24"
   },
   {
@@ -186,8 +186,8 @@
   },
   {
    "name": "The Otals",
-   "plays": 544,
-   "plays_fmt": "544",
+   "plays": 545,
+   "plays_fmt": "545",
    "img": "https://i.scdn.co/image/ab6761610000e5ebe880728367d115f0c7dfceb6"
   },
   {
@@ -198,8 +198,8 @@
   },
   {
    "name": "BRADIO",
-   "plays": 538,
-   "plays_fmt": "538",
+   "plays": 539,
+   "plays_fmt": "539",
    "img": "https://i.scdn.co/image/ab6761610000e5eb1b468ea5308efde05767f7f3"
   },
   {
@@ -276,14 +276,14 @@
   },
   {
    "name": "WANIMA",
-   "plays": 441,
-   "plays_fmt": "441",
+   "plays": 442,
+   "plays_fmt": "442",
    "img": "https://i.scdn.co/image/ab6761610000e5eb37c85e7d09ce8668eab4a480"
   },
   {
    "name": "レイラ",
-   "plays": 440,
-   "plays_fmt": "440",
+   "plays": 441,
+   "plays_fmt": "441",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5a7ae7ae77a6230eb4107638"
   },
   {
@@ -365,16 +365,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eba388e0bb3eec78261dec8233"
   },
   {
+   "name": "sucola",
+   "plays": 379,
+   "plays_fmt": "379",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb7fdd8f90022d1fb6f09ce3c9"
+  },
+  {
    "name": "ego apartment",
    "plays": 378,
    "plays_fmt": "378",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfc5a54b5a68edefd85793554"
-  },
-  {
-   "name": "sucola",
-   "plays": 378,
-   "plays_fmt": "378",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb7fdd8f90022d1fb6f09ce3c9"
   },
   {
    "name": "Asmi",
@@ -438,14 +438,14 @@
   },
   {
    "name": "Muque",
-   "plays": 350,
-   "plays_fmt": "350",
+   "plays": 351,
+   "plays_fmt": "351",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
   },
   {
    "name": "Furui Riho",
-   "plays": 348,
-   "plays_fmt": "348",
+   "plays": 349,
+   "plays_fmt": "349",
    "img": "https://i.scdn.co/image/ab6761610000e5ebff647d0f64da73922aad0cd5"
   },
   {
@@ -486,14 +486,14 @@
   },
   {
    "name": "Home",
-   "plays": 335,
-   "plays_fmt": "335",
+   "plays": 336,
+   "plays_fmt": "336",
    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
    "name": "灰色ロジック",
-   "plays": 335,
-   "plays_fmt": "335",
+   "plays": 336,
+   "plays_fmt": "336",
    "img": "https://i.scdn.co/image/ab6761610000e5eb8b1593a9b28a0e6ccd588521"
   },
   {
@@ -797,16 +797,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb8ffe1b4304fc8e392b97c2b7"
   },
   {
+   "name": "Have a nice day!",
+   "plays": 267,
+   "plays_fmt": "267",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
+  },
+  {
    "name": "I Saw You Yesterday",
    "plays": 267,
    "plays_fmt": "267",
    "img": "https://i.scdn.co/image/ab6761610000e5ebf32519dab1f0daa82898fe82"
-  },
-  {
-   "name": "Have a nice day!",
-   "plays": 266,
-   "plays_fmt": "266",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
   },
   {
    "name": "illiomote",

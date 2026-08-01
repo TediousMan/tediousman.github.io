@@ -1,15 +1,15 @@
 {
- "generated": "2026-07-31",
+ "generated": "2026-08-01",
  "year_label": "2026",
  "all": {
-  "total": 211214,
-  "total_fmt": "211,214",
-  "uniq_art": 7257,
-  "uniq_art_fmt": "7,257",
-  "uniq_trk": 30283,
-  "uniq_trk_fmt": "30,283",
+  "total": 211355,
+  "total_fmt": "211,355",
+  "uniq_art": 7258,
+  "uniq_art_fmt": "7,258",
+  "uniq_trk": 30285,
+  "uniq_trk_fmt": "30,285",
   "start": "2018-03-06",
-  "end": "2026-07-31",
+  "end": "2026-08-01",
   "top_art": [
    {
     "artist": "Mr.ふぉるて",
@@ -27,8 +27,8 @@
    },
    {
     "artist": "chilldspot",
-    "plays": 1026,
-    "plays_fmt": "1,026",
+    "plays": 1027,
+    "plays_fmt": "1,027",
     "img": "https://i.scdn.co/image/ab6761610000e5ebfffcd64678af9f7b7bab7832",
     "pct": 98
    },
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 28127,
-    "plays_fmt": "28,127",
+    "plays": 28268,
+    "plays_fmt": "28,268",
     "pct": 52
    }
   ],
@@ -323,19 +323,19 @@
    },
    {
     "year": "2026",
-    "count": 888,
-    "count_fmt": "888",
+    "count": 889,
+    "count_fmt": "889",
     "pct": 37
    }
   ]
  },
  "year": {
-  "total": 28127,
-  "total_fmt": "28,127",
-  "uniq_art": 2679,
-  "uniq_art_fmt": "2,679",
-  "uniq_trk": 7418,
-  "uniq_trk_fmt": "7,418",
+  "total": 28268,
+  "total_fmt": "28,268",
+  "uniq_art": 2680,
+  "uniq_art_fmt": "2,680",
+  "uniq_trk": 7420,
+  "uniq_trk_fmt": "7,420",
   "top_art": [
    {
     "artist": "Kienai",
@@ -360,22 +360,22 @@
    },
    {
     "artist": "bedgravity",
-    "plays": 202,
-    "plays_fmt": "202",
+    "plays": 203,
+    "plays_fmt": "203",
     "img": "https://i.scdn.co/image/ab67616d0000b273d29467756d06ae5882d98238",
     "pct": 84
    },
    {
     "artist": "あたまたんさん",
-    "plays": 193,
-    "plays_fmt": "193",
+    "plays": 195,
+    "plays_fmt": "195",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44",
-    "pct": 80
+    "pct": 81
    },
    {
     "artist": "the Wulongs",
-    "plays": 164,
-    "plays_fmt": "164",
+    "plays": 165,
+    "plays_fmt": "165",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
     "pct": 68
    },
@@ -402,8 +402,8 @@
    },
    {
     "artist": "tenbin O",
-    "plays": 144,
-    "plays_fmt": "144",
+    "plays": 145,
+    "plays_fmt": "145",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb146cdd0b2be813c4b411eb2",
     "pct": 60
    }
@@ -419,15 +419,15 @@
    {
     "album": "Unmet Needs",
     "artist": "bedgravity",
-    "plays": 202,
-    "plays_fmt": "202",
+    "plays": 203,
+    "plays_fmt": "203",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/d49e1932df6d076c99051c1c7fe957a4.jpg"
    },
    {
     "album": "鉄の掟",
     "artist": "あたまたんさん",
-    "plays": 192,
-    "plays_fmt": "192",
+    "plays": 194,
+    "plays_fmt": "194",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44"
    },
    {
@@ -468,8 +468,8 @@
    {
     "album": "HOME COLLECTION",
     "artist": "Home",
-    "plays": 135,
-    "plays_fmt": "135",
+    "plays": 136,
+    "plays_fmt": "136",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
    },
    {
@@ -581,21 +581,27 @@
    },
    {
     "month": "7",
-    "plays": 5426,
-    "plays_fmt": "5,426",
+    "plays": 5447,
+    "plays_fmt": "5,447",
     "pct": 100
+   },
+   {
+    "month": "8",
+    "plays": 120,
+    "plays_fmt": "120",
+    "pct": 5
    }
   ]
  },
  "week": {
-  "total": 1305,
-  "total_fmt": "1,305",
-  "uniq_art": 578,
-  "uniq_art_fmt": "578",
-  "uniq_trk": 798,
-  "uniq_trk_fmt": "798",
-  "start": "7/25",
-  "end": "7/31",
+  "total": 1322,
+  "total_fmt": "1,322",
+  "uniq_art": 582,
+  "uniq_art_fmt": "582",
+  "uniq_trk": 814,
+  "uniq_trk_fmt": "814",
+  "start": "7/26",
+  "end": "8/1",
   "top_art": [
    {
     "artist": "CASANOVA FISH",
@@ -633,6 +639,13 @@
     "pct": 48
    },
    {
+    "artist": "吉凶わからず、",
+    "plays": 12,
+    "plays_fmt": "12",
+    "img": "https://i.scdn.co/image/ab6761610000e5eba56f1a7fa93d2ddfb43bebb4",
+    "pct": 48
+   },
+   {
     "artist": "jasui vision",
     "plays": 11,
     "plays_fmt": "11",
@@ -640,11 +653,11 @@
     "pct": 44
    },
    {
-    "artist": "Cheche",
-    "plays": 10,
-    "plays_fmt": "10",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb14295c025afeac9fea39f0f2",
-    "pct": 40
+    "artist": "あたまたんさん",
+    "plays": 11,
+    "plays_fmt": "11",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44",
+    "pct": 44
    },
    {
     "artist": "She Side Ship",
@@ -654,17 +667,10 @@
     "pct": 40
    },
    {
-    "artist": "吉凶わからず、",
-    "plays": 10,
-    "plays_fmt": "10",
-    "img": "https://i.scdn.co/image/ab6761610000e5eba56f1a7fa93d2ddfb43bebb4",
-    "pct": 40
-   },
-   {
-    "artist": "あたまたんさん",
+    "artist": "Cheche",
     "plays": 9,
     "plays_fmt": "9",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb14295c025afeac9fea39f0f2",
     "pct": 36
    }
   ],
@@ -698,18 +704,25 @@
     "img": null
    },
    {
+    "album": "鉄の掟",
+    "artist": "あたまたんさん",
+    "plays": 11,
+    "plays_fmt": "11",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44"
+   },
+   {
+    "album": "Flight '26",
+    "artist": "Ludens",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb39f16ed2969825cee8ee66f3"
+   },
+   {
     "album": "mitsume",
     "artist": "jasui vision",
     "plays": 9,
     "plays_fmt": "9",
     "img": null
-   },
-   {
-    "album": "鉄の掟",
-    "artist": "あたまたんさん",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44"
    },
    {
     "album": "Chlorine - EP",
@@ -719,25 +732,18 @@
     "img": "https://i.scdn.co/image/ab6761610000e5eb62ef5c0e63bf38252b5682f8"
    },
    {
-    "album": "Flight '26",
-    "artist": "Ludens",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb39f16ed2969825cee8ee66f3"
-   },
-   {
-    "album": "Light",
-    "artist": "Bone Us",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebd41eef9e5ce022087a8356da"
-   },
-   {
-    "album": "I'm Busy",
-    "artist": "Cheche",
+    "album": "HOME COLLECTION",
+    "artist": "Home",
     "plays": 7,
     "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb14295c025afeac9fea39f0f2"
+    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
+   },
+   {
+    "album": "Rooom",
+    "artist": "AoOo",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/da74e0f56cc6364849b7ac888d3492d5.jpg"
    }
   ],
   "top_trk": [
@@ -778,14 +784,14 @@
     "plays_fmt": "5"
    },
    {
-    "track": "Burning Orange",
-    "artist": "Sunsunsun",
-    "plays": 4,
-    "plays_fmt": "4"
+    "track": "tsubomi",
+    "artist": "Nous",
+    "plays": 5,
+    "plays_fmt": "5"
    },
    {
-    "track": "Domas",
-    "artist": "Bone Us",
+    "track": "Burning Orange",
+    "artist": "Sunsunsun",
     "plays": 4,
     "plays_fmt": "4"
    },
@@ -796,19 +802,13 @@
     "plays_fmt": "4"
    },
    {
-    "track": "Forever Never Forever",
-    "artist": "HaRhA",
+    "track": "GetBack",
+    "artist": "MUNO NO MOSES",
     "plays": 4,
     "plays_fmt": "4"
    }
   ],
   "by_day": [
-   {
-    "day": "7/25",
-    "plays": 124,
-    "plays_fmt": "124",
-    "pct": 44
-   },
    {
     "day": "7/26",
     "plays": 185,
@@ -841,9 +841,15 @@
    },
    {
     "day": "7/31",
-    "plays": 201,
-    "plays_fmt": "201",
+    "plays": 203,
+    "plays_fmt": "203",
     "pct": 71
+   },
+   {
+    "day": "8/1",
+    "plays": 139,
+    "plays_fmt": "139",
+    "pct": 49
    }
   ]
  }
