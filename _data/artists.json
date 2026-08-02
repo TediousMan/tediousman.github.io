@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7258,
- "total_artists_fmt": "7,258",
+ "total_artists": 7260,
+ "total_artists_fmt": "7,260",
  "missing_img": 9,
  "artists": [
   {
@@ -18,8 +18,8 @@
   },
   {
    "name": "chilldspot",
-   "plays": 1027,
-   "plays_fmt": "1,027",
+   "plays": 1028,
+   "plays_fmt": "1,028",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfffcd64678af9f7b7bab7832"
   },
   {
@@ -108,8 +108,8 @@
   },
   {
    "name": "kobore",
-   "plays": 628,
-   "plays_fmt": "628",
+   "plays": 629,
+   "plays_fmt": "629",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24"
   },
   {
@@ -198,8 +198,8 @@
   },
   {
    "name": "BRADIO",
-   "plays": 539,
-   "plays_fmt": "539",
+   "plays": 540,
+   "plays_fmt": "540",
    "img": "https://i.scdn.co/image/ab6761610000e5eb1b468ea5308efde05767f7f3"
   },
   {
@@ -438,8 +438,8 @@
   },
   {
    "name": "Muque",
-   "plays": 351,
-   "plays_fmt": "351",
+   "plays": 352,
+   "plays_fmt": "352",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
   },
   {
@@ -479,16 +479,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebfe3b6188abc328838969e7c5"
   },
   {
+   "name": "Home",
+   "plays": 337,
+   "plays_fmt": "337",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
+  },
+  {
    "name": "アマイワナ",
    "plays": 337,
    "plays_fmt": "337",
    "img": "https://i.scdn.co/image/ab6761610000e5eb9fb815c98bc985868e689806"
-  },
-  {
-   "name": "Home",
-   "plays": 336,
-   "plays_fmt": "336",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
    "name": "灰色ロジック",
@@ -540,8 +540,8 @@
   },
   {
    "name": "Nagakumo",
-   "plays": 320,
-   "plays_fmt": "320",
+   "plays": 321,
+   "plays_fmt": "321",
    "img": "https://i.scdn.co/image/ab6761610000e5eb9247cd4ef50307e4425b4bf8"
   },
   {
@@ -575,16 +575,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebcc959cd12f18b2c2a2baa2c7"
   },
   {
+   "name": "sawamay",
+   "plays": 316,
+   "plays_fmt": "316",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb400868142f0cb858d015c76d"
+  },
+  {
    "name": "Cephalo",
    "plays": 315,
    "plays_fmt": "315",
    "img": "https://i.scdn.co/image/ab6761610000e5ebeadedb0cf2a489ca33090611"
-  },
-  {
-   "name": "sawamay",
-   "plays": 315,
-   "plays_fmt": "315",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb400868142f0cb858d015c76d"
   },
   {
    "name": "DurdN",
@@ -792,8 +792,8 @@
   },
   {
    "name": "36km/h",
-   "plays": 267,
-   "plays_fmt": "267",
+   "plays": 268,
+   "plays_fmt": "268",
    "img": "https://i.scdn.co/image/ab6761610000e5eb8ffe1b4304fc8e392b97c2b7"
   },
   {
@@ -816,8 +816,8 @@
   },
   {
    "name": "ホピーハイボ",
-   "plays": 264,
-   "plays_fmt": "264",
+   "plays": 265,
+   "plays_fmt": "265",
    "img": "https://i.scdn.co/image/ab6761610000e5eb0eef43e8d0a6ef8f2fe0cae6"
   },
   {

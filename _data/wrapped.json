@@ -1,15 +1,15 @@
 {
- "generated": "2026-08-01",
+ "generated": "2026-08-02",
  "year_label": "2026",
  "all": {
-  "total": 211401,
-  "total_fmt": "211,401",
-  "uniq_art": 7258,
-  "uniq_art_fmt": "7,258",
-  "uniq_trk": 30298,
-  "uniq_trk_fmt": "30,298",
+  "total": 211501,
+  "total_fmt": "211,501",
+  "uniq_art": 7260,
+  "uniq_art_fmt": "7,260",
+  "uniq_trk": 30301,
+  "uniq_trk_fmt": "30,301",
   "start": "2018-03-06",
-  "end": "2026-08-01",
+  "end": "2026-08-02",
   "top_art": [
    {
     "artist": "Mr.ふぉるて",
@@ -27,8 +27,8 @@
    },
    {
     "artist": "chilldspot",
-    "plays": 1027,
-    "plays_fmt": "1,027",
+    "plays": 1028,
+    "plays_fmt": "1,028",
     "img": "https://i.scdn.co/image/ab6761610000e5ebfffcd64678af9f7b7bab7832",
     "pct": 98
    },
@@ -267,9 +267,9 @@
    },
    {
     "year": "2026",
-    "plays": 28314,
-    "plays_fmt": "28,314",
-    "pct": 52
+    "plays": 28414,
+    "plays_fmt": "28,414",
+    "pct": 53
    }
   ],
   "new_art_by_year": [
@@ -323,19 +323,19 @@
    },
    {
     "year": "2026",
-    "count": 889,
-    "count_fmt": "889",
+    "count": 891,
+    "count_fmt": "891",
     "pct": 37
    }
   ]
  },
  "year": {
-  "total": 28314,
-  "total_fmt": "28,314",
-  "uniq_art": 2682,
-  "uniq_art_fmt": "2,682",
-  "uniq_trk": 7433,
-  "uniq_trk_fmt": "7,433",
+  "total": 28414,
+  "total_fmt": "28,414",
+  "uniq_art": 2684,
+  "uniq_art_fmt": "2,684",
+  "uniq_trk": 7436,
+  "uniq_trk_fmt": "7,436",
   "top_art": [
    {
     "artist": "Kienai",
@@ -367,10 +367,10 @@
    },
    {
     "artist": "あたまたんさん",
-    "plays": 196,
-    "plays_fmt": "196",
+    "plays": 197,
+    "plays_fmt": "197",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44",
-    "pct": 81
+    "pct": 82
    },
    {
     "artist": "the Wulongs",
@@ -402,8 +402,8 @@
    },
    {
     "artist": "tenbin O",
-    "plays": 146,
-    "plays_fmt": "146",
+    "plays": 148,
+    "plays_fmt": "148",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb146cdd0b2be813c4b411eb2",
     "pct": 61
    }
@@ -426,8 +426,8 @@
    {
     "album": "鉄の掟",
     "artist": "あたまたんさん",
-    "plays": 195,
-    "plays_fmt": "195",
+    "plays": 196,
+    "plays_fmt": "196",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44"
    },
    {
@@ -447,8 +447,8 @@
    {
     "album": "日々、折り返すごとに",
     "artist": "爛漫天国",
-    "plays": 142,
-    "plays_fmt": "142",
+    "plays": 143,
+    "plays_fmt": "143",
     "img": "https://i.scdn.co/image/ab6761610000e5eb59ee187da2de942d5f50e0e0"
    },
    {
@@ -468,8 +468,8 @@
    {
     "album": "HOME COLLECTION",
     "artist": "Home",
-    "plays": 136,
-    "plays_fmt": "136",
+    "plays": 137,
+    "plays_fmt": "137",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
    },
    {
@@ -502,8 +502,8 @@
    {
     "track": "季節が",
     "artist": "夜標",
-    "plays": 76,
-    "plays_fmt": "76"
+    "plays": 77,
+    "plays_fmt": "77"
    },
    {
     "track": "Anemone",
@@ -587,21 +587,21 @@
    },
    {
     "month": "8",
-    "plays": 166,
-    "plays_fmt": "166",
+    "plays": 266,
+    "plays_fmt": "266",
     "pct": 5
    }
   ]
  },
  "week": {
-  "total": 1368,
-  "total_fmt": "1,368",
-  "uniq_art": 589,
-  "uniq_art_fmt": "589",
-  "uniq_trk": 833,
-  "uniq_trk_fmt": "833",
-  "start": "7/26",
-  "end": "8/1",
+  "total": 1283,
+  "total_fmt": "1,283",
+  "uniq_art": 584,
+  "uniq_art_fmt": "584",
+  "uniq_trk": 818,
+  "uniq_trk_fmt": "818",
+  "start": "7/27",
+  "end": "8/2",
   "top_art": [
    {
     "artist": "CASANOVA FISH",
@@ -612,10 +612,10 @@
    },
    {
     "artist": "slump girl",
-    "plays": 23,
-    "plays_fmt": "23",
+    "plays": 25,
+    "plays_fmt": "25",
     "img": "https://i.scdn.co/image/ab6761610000e5eb75b38095f491a1268ca1a058",
-    "pct": 92
+    "pct": 100
    },
    {
     "artist": "nib.archive",
@@ -626,16 +626,9 @@
    },
    {
     "artist": "Pixie Monster",
-    "plays": 14,
-    "plays_fmt": "14",
-    "img": "https://i.scdn.co/image/ab67616d0000b2735e978b98cee7de8932289c5e",
-    "pct": 56
-   },
-   {
-    "artist": "吉凶わからず、",
     "plays": 13,
     "plays_fmt": "13",
-    "img": "https://i.scdn.co/image/ab6761610000e5eba56f1a7fa93d2ddfb43bebb4",
+    "img": "https://i.scdn.co/image/ab67616d0000b2735e978b98cee7de8932289c5e",
     "pct": 52
    },
    {
@@ -667,10 +660,17 @@
     "pct": 44
    },
    {
-    "artist": "She Side Ship",
+    "artist": "吉凶わからず、",
+    "plays": 11,
+    "plays_fmt": "11",
+    "img": "https://i.scdn.co/image/ab6761610000e5eba56f1a7fa93d2ddfb43bebb4",
+    "pct": 44
+   },
+   {
+    "artist": "Muddy Jackets",
     "plays": 10,
     "plays_fmt": "10",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb756217ae200dd2fed5daaa65",
+    "img": null,
     "pct": 40
    }
   ],
@@ -685,8 +685,8 @@
    {
     "album": "Non-REM Love",
     "artist": "slump girl",
-    "plays": 21,
-    "plays_fmt": "21",
+    "plays": 22,
+    "plays_fmt": "22",
     "img": "https://i.scdn.co/image/ab6761610000e5eb75b38095f491a1268ca1a058"
    },
    {
@@ -750,8 +750,8 @@
    {
     "track": "Non-REM Love",
     "artist": "slump girl",
-    "plays": 22,
-    "plays_fmt": "22"
+    "plays": 24,
+    "plays_fmt": "24"
    },
    {
     "track": "いつものこと",
@@ -766,26 +766,8 @@
     "plays_fmt": "10"
    },
    {
-    "track": "tsubomi",
-    "artist": "Nous",
-    "plays": 6,
-    "plays_fmt": "6"
-   },
-   {
-    "track": "Bokura Futarikiri",
-    "artist": "Hammer Head Shark",
-    "plays": 5,
-    "plays_fmt": "5"
-   },
-   {
     "track": "Lucky Song",
     "artist": "Muddy Jackets",
-    "plays": 5,
-    "plays_fmt": "5"
-   },
-   {
-    "track": "OMOIAI",
-    "artist": "Pixie Monster",
     "plays": 5,
     "plays_fmt": "5"
    },
@@ -796,25 +778,37 @@
     "plays_fmt": "5"
    },
    {
+    "track": "tsubomi",
+    "artist": "Nous",
+    "plays": 5,
+    "plays_fmt": "5"
+   },
+   {
+    "track": "Anfang",
+    "artist": "hardnuts",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
     "track": "Burning Orange",
     "artist": "Sunsunsun",
     "plays": 4,
     "plays_fmt": "4"
    },
    {
-    "track": "Fool",
-    "artist": "Zoo zoo sea",
+    "track": "Howling",
+    "artist": "CASANOVA FISH",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "OMOIAI",
+    "artist": "Pixie Monster",
     "plays": 4,
     "plays_fmt": "4"
    }
   ],
   "by_day": [
-   {
-    "day": "7/26",
-    "plays": 185,
-    "plays_fmt": "185",
-    "pct": 65
-   },
    {
     "day": "7/27",
     "plays": 285,
@@ -847,9 +841,15 @@
    },
    {
     "day": "8/1",
-    "plays": 185,
-    "plays_fmt": "185",
-    "pct": 65
+    "plays": 202,
+    "plays_fmt": "202",
+    "pct": 71
+   },
+   {
+    "day": "8/2",
+    "plays": 83,
+    "plays_fmt": "83",
+    "pct": 29
    }
   ]
  }
