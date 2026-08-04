@@ -1,15 +1,15 @@
 {
- "generated": "2026-08-03",
+ "generated": "2026-08-04",
  "year_label": "2026",
  "all": {
-  "total": 211548,
-  "total_fmt": "211,548",
+  "total": 211656,
+  "total_fmt": "211,656",
   "uniq_art": 7260,
   "uniq_art_fmt": "7,260",
-  "uniq_trk": 30301,
-  "uniq_trk_fmt": "30,301",
+  "uniq_trk": 30302,
+  "uniq_trk_fmt": "30,302",
   "start": "2018-03-06",
-  "end": "2026-08-03",
+  "end": "2026-08-04",
   "top_art": [
    {
     "artist": "Mr.ふぉるて",
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 28461,
-    "plays_fmt": "28,461",
+    "plays": 28569,
+    "plays_fmt": "28,569",
     "pct": 53
    }
   ],
@@ -330,17 +330,17 @@
   ]
  },
  "year": {
-  "total": 28461,
-  "total_fmt": "28,461",
+  "total": 28569,
+  "total_fmt": "28,569",
   "uniq_art": 2684,
   "uniq_art_fmt": "2,684",
-  "uniq_trk": 7436,
-  "uniq_trk_fmt": "7,436",
+  "uniq_trk": 7437,
+  "uniq_trk_fmt": "7,437",
   "top_art": [
    {
     "artist": "Kienai",
-    "plays": 243,
-    "plays_fmt": "243",
+    "plays": 244,
+    "plays_fmt": "244",
     "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481",
     "pct": 100
    },
@@ -353,8 +353,8 @@
    },
    {
     "artist": "BUDOU JUICE",
-    "plays": 213,
-    "plays_fmt": "213",
+    "plays": 214,
+    "plays_fmt": "214",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f",
     "pct": 88
    },
@@ -374,15 +374,15 @@
    },
    {
     "artist": "the Wulongs",
-    "plays": 165,
-    "plays_fmt": "165",
+    "plays": 166,
+    "plays_fmt": "166",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
     "pct": 68
    },
    {
     "artist": "uyuu",
-    "plays": 162,
-    "plays_fmt": "162",
+    "plays": 163,
+    "plays_fmt": "163",
     "img": "https://i.scdn.co/image/ab67616d0000b27381582c0fb8f5908a6aee7f3e",
     "pct": 67
    },
@@ -391,19 +391,19 @@
     "plays": 157,
     "plays_fmt": "157",
     "img": "https://i.scdn.co/image/ab6761610000e5eb7e17378b89a11d4110d0a4c6",
-    "pct": 65
+    "pct": 64
    },
    {
     "artist": "wanbed",
-    "plays": 153,
-    "plays_fmt": "153",
+    "plays": 154,
+    "plays_fmt": "154",
     "img": "https://i.scdn.co/image/ab6761610000e5eb015e59262813fcf812ddf659",
     "pct": 63
    },
    {
     "artist": "tenbin O",
-    "plays": 148,
-    "plays_fmt": "148",
+    "plays": 150,
+    "plays_fmt": "150",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb146cdd0b2be813c4b411eb2",
     "pct": 61
    }
@@ -412,8 +412,8 @@
    {
     "album": "sparkleII",
     "artist": "Kienai",
-    "plays": 240,
-    "plays_fmt": "240",
+    "plays": 241,
+    "plays_fmt": "241",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/1c6a42ba2640cb0ed267d0c9d6a5f106.jpg"
    },
    {
@@ -433,8 +433,8 @@
    {
     "album": "BUDOU JUICE",
     "artist": "BUDOU JUICE",
-    "plays": 167,
-    "plays_fmt": "167",
+    "plays": 168,
+    "plays_fmt": "168",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f"
    },
    {
@@ -459,18 +459,18 @@
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/389d72d53aa10059db21ff4907f3ee32.jpg"
    },
    {
-    "album": "135",
-    "artist": "wanbed",
-    "plays": 138,
-    "plays_fmt": "138",
-    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/8f67506eb69e1457aed72a3f1273f862.jpg"
-   },
-   {
     "album": "HOME COLLECTION",
     "artist": "Home",
-    "plays": 138,
-    "plays_fmt": "138",
+    "plays": 140,
+    "plays_fmt": "140",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
+   },
+   {
+    "album": "135",
+    "artist": "wanbed",
+    "plays": 139,
+    "plays_fmt": "139",
+    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/8f67506eb69e1457aed72a3f1273f862.jpg"
    },
    {
     "album": "She hood",
@@ -587,21 +587,21 @@
    },
    {
     "month": "8",
-    "plays": 313,
-    "plays_fmt": "313",
-    "pct": 6
+    "plays": 421,
+    "plays_fmt": "421",
+    "pct": 8
    }
   ]
  },
  "week": {
-  "total": 1045,
-  "total_fmt": "1,045",
-  "uniq_art": 555,
-  "uniq_art_fmt": "555",
-  "uniq_trk": 772,
-  "uniq_trk_fmt": "772",
-  "start": "7/28",
-  "end": "8/3",
+  "total": 974,
+  "total_fmt": "974",
+  "uniq_art": 525,
+  "uniq_art_fmt": "525",
+  "uniq_trk": 723,
+  "uniq_trk_fmt": "723",
+  "start": "7/29",
+  "end": "8/4",
   "top_art": [
    {
     "artist": "CASANOVA FISH",
@@ -653,25 +653,25 @@
     "pct": 44
    },
    {
-    "artist": "She Side Ship",
-    "plays": 10,
-    "plays_fmt": "10",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb756217ae200dd2fed5daaa65",
-    "pct": 40
-   },
-   {
-    "artist": "Muddy Jackets",
+    "artist": "吉凶わからず、",
     "plays": 9,
     "plays_fmt": "9",
-    "img": null,
+    "img": "https://i.scdn.co/image/ab6761610000e5eba56f1a7fa93d2ddfb43bebb4",
     "pct": 36
    },
    {
-    "artist": "あたまたんさん",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44",
-    "pct": 36
+    "artist": "BurnQue",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebfb9085515b81ecc06b05b158",
+    "pct": 32
+   },
+   {
+    "artist": "tenbin O",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebb146cdd0b2be813c4b411eb2",
+    "pct": 32
    }
   ],
   "top_alb": [
@@ -718,13 +718,6 @@
     "img": null
    },
    {
-    "album": "鉄の掟",
-    "artist": "あたまたんさん",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44"
-   },
-   {
     "album": "Chlorine - EP",
     "artist": "Anemoir",
     "plays": 8,
@@ -734,16 +727,23 @@
    {
     "album": "N.W.O.L.",
     "artist": "BurnQue",
-    "plays": 7,
-    "plays_fmt": "7",
+    "plays": 8,
+    "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab6761610000e5ebfb9085515b81ecc06b05b158"
    },
    {
-    "album": "Flight '26",
-    "artist": "Ludens",
+    "album": "Fushigi na Binsen",
+    "artist": "tenbin O",
     "plays": 6,
     "plays_fmt": "6",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb39f16ed2969825cee8ee66f3"
+    "img": "https://i.scdn.co/image/ab6761610000e5ebb146cdd0b2be813c4b411eb2"
+   },
+   {
+    "album": "Lucky Song",
+    "artist": "Muddy Jackets",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": null
    }
   ],
   "top_trk": [
@@ -760,20 +760,20 @@
     "plays_fmt": "12"
    },
    {
-    "track": "陽のあたる場所へ",
-    "artist": "She Side Ship",
-    "plays": 10,
-    "plays_fmt": "10"
-   },
-   {
     "track": "N.W.O.L.",
     "artist": "BurnQue",
-    "plays": 7,
-    "plays_fmt": "7"
+    "plays": 8,
+    "plays_fmt": "8"
    },
    {
     "track": "Lucky Song",
     "artist": "Muddy Jackets",
+    "plays": 6,
+    "plays_fmt": "6"
+   },
+   {
+    "track": "陽のあたる場所へ",
+    "artist": "She Side Ship",
     "plays": 6,
     "plays_fmt": "6"
    },
@@ -790,12 +790,6 @@
     "plays_fmt": "5"
    },
    {
-    "track": "Burning Orange",
-    "artist": "Sunsunsun",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
     "track": "Howling",
     "artist": "CASANOVA FISH",
     "plays": 4,
@@ -806,15 +800,15 @@
     "artist": "CASANOVA FISH",
     "plays": 4,
     "plays_fmt": "4"
+   },
+   {
+    "track": "Therru's Song",
+    "artist": "優河",
+    "plays": 4,
+    "plays_fmt": "4"
    }
   ],
   "by_day": [
-   {
-    "day": "7/28",
-    "plays": 179,
-    "plays_fmt": "179",
-    "pct": 88
-   },
    {
     "day": "7/29",
     "plays": 139,
@@ -847,9 +841,15 @@
    },
    {
     "day": "8/3",
-    "plays": 13,
-    "plays_fmt": "13",
-    "pct": 6
+    "plays": 14,
+    "plays_fmt": "14",
+    "pct": 7
+   },
+   {
+    "day": "8/4",
+    "plays": 107,
+    "plays_fmt": "107",
+    "pct": 53
    }
   ]
  }

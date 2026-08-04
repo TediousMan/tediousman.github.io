@@ -192,14 +192,14 @@
   },
   {
    "name": "Ayutthaya",
-   "plays": 543,
-   "plays_fmt": "543",
+   "plays": 544,
+   "plays_fmt": "544",
    "img": "https://i.scdn.co/image/ab6761610000e5eb0389567240d2b2d9dbb289d8"
   },
   {
    "name": "BRADIO",
-   "plays": 540,
-   "plays_fmt": "540",
+   "plays": 541,
+   "plays_fmt": "541",
    "img": "https://i.scdn.co/image/ab6761610000e5eb1b468ea5308efde05767f7f3"
   },
   {
@@ -366,8 +366,8 @@
   },
   {
    "name": "sucola",
-   "plays": 379,
-   "plays_fmt": "379",
+   "plays": 380,
+   "plays_fmt": "380",
    "img": "https://i.scdn.co/image/ab6761610000e5eb7fdd8f90022d1fb6f09ce3c9"
   },
   {
@@ -473,16 +473,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebb80e31243a11fbc080f93153"
   },
   {
+   "name": "Home",
+   "plays": 340,
+   "plays_fmt": "340",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
+  },
+  {
    "name": "kiki vivi lily",
    "plays": 339,
    "plays_fmt": "339",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfe3b6188abc328838969e7c5"
-  },
-  {
-   "name": "Home",
-   "plays": 338,
-   "plays_fmt": "338",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
    "name": "アマイワナ",
@@ -594,8 +594,8 @@
   },
   {
    "name": "Reol",
-   "plays": 313,
-   "plays_fmt": "313",
+   "plays": 314,
+   "plays_fmt": "314",
    "img": "https://i.scdn.co/image/ab6761610000e5ebdf2dbfb158e48df25bd49477"
   },
   {
@@ -798,8 +798,8 @@
   },
   {
    "name": "Have a nice day!",
-   "plays": 267,
-   "plays_fmt": "267",
+   "plays": 268,
+   "plays_fmt": "268",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
   },
   {
