@@ -36,8 +36,8 @@
   },
   {
    "name": "KROI",
-   "plays": 863,
-   "plays_fmt": "863",
+   "plays": 864,
+   "plays_fmt": "864",
    "img": "https://i.scdn.co/image/ab6761610000e5eb3891ccf48bd7eb050237f789"
   },
   {
@@ -186,8 +186,8 @@
   },
   {
    "name": "The Otals",
-   "plays": 545,
-   "plays_fmt": "545",
+   "plays": 546,
+   "plays_fmt": "546",
    "img": "https://i.scdn.co/image/ab6761610000e5ebe880728367d115f0c7dfceb6"
   },
   {
@@ -198,8 +198,8 @@
   },
   {
    "name": "BRADIO",
-   "plays": 542,
-   "plays_fmt": "542",
+   "plays": 543,
+   "plays_fmt": "543",
    "img": "https://i.scdn.co/image/ab6761610000e5eb1b468ea5308efde05767f7f3"
   },
   {
@@ -371,16 +371,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb7fdd8f90022d1fb6f09ce3c9"
   },
   {
+   "name": "Asmi",
+   "plays": 379,
+   "plays_fmt": "379",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb3ac8e8114680356ca222ffa9"
+  },
+  {
    "name": "ego apartment",
    "plays": 378,
    "plays_fmt": "378",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfc5a54b5a68edefd85793554"
-  },
-  {
-   "name": "Asmi",
-   "plays": 377,
-   "plays_fmt": "377",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb3ac8e8114680356ca222ffa9"
   },
   {
    "name": "easycome",
@@ -420,8 +420,8 @@
   },
   {
    "name": "life crown",
-   "plays": 363,
-   "plays_fmt": "363",
+   "plays": 366,
+   "plays_fmt": "366",
    "img": "https://i.scdn.co/image/ab6761610000e5eba28745b1de7f1ad1d41514f6"
   },
   {
@@ -569,16 +569,16 @@
    "img": "https://i.scdn.co/image/ab67616d0000b273f7450eb7f1ad638f0665d298"
   },
   {
+   "name": "sawamay",
+   "plays": 317,
+   "plays_fmt": "317",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb400868142f0cb858d015c76d"
+  },
+  {
    "name": "Chisa",
    "plays": 316,
    "plays_fmt": "316",
    "img": "https://i.scdn.co/image/ab6761610000e5ebcc959cd12f18b2c2a2baa2c7"
-  },
-  {
-   "name": "sawamay",
-   "plays": 316,
-   "plays_fmt": "316",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb400868142f0cb858d015c76d"
   },
   {
    "name": "Cephalo",

@@ -2,12 +2,12 @@
  "generated": "2026-08-05",
  "year_label": "2026",
  "all": {
-  "total": 211765,
-  "total_fmt": "211,765",
+  "total": 211845,
+  "total_fmt": "211,845",
   "uniq_art": 7260,
   "uniq_art_fmt": "7,260",
-  "uniq_trk": 30305,
-  "uniq_trk_fmt": "30,305",
+  "uniq_trk": 30308,
+  "uniq_trk_fmt": "30,308",
   "start": "2018-03-06",
   "end": "2026-08-05",
   "top_art": [
@@ -48,8 +48,8 @@
    },
    {
     "artist": "KROI",
-    "plays": 863,
-    "plays_fmt": "863",
+    "plays": 864,
+    "plays_fmt": "864",
     "img": "https://i.scdn.co/image/ab6761610000e5eb3891ccf48bd7eb050237f789",
     "pct": 83
    },
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 28678,
-    "plays_fmt": "28,678",
+    "plays": 28758,
+    "plays_fmt": "28,758",
     "pct": 53
    }
   ],
@@ -330,12 +330,12 @@
   ]
  },
  "year": {
-  "total": 28678,
-  "total_fmt": "28,678",
-  "uniq_art": 2684,
-  "uniq_art_fmt": "2,684",
-  "uniq_trk": 7440,
-  "uniq_trk_fmt": "7,440",
+  "total": 28758,
+  "total_fmt": "28,758",
+  "uniq_art": 2685,
+  "uniq_art_fmt": "2,685",
+  "uniq_trk": 7443,
+  "uniq_trk_fmt": "7,443",
   "top_art": [
    {
     "artist": "Kienai",
@@ -353,10 +353,10 @@
    },
    {
     "artist": "BUDOU JUICE",
-    "plays": 215,
-    "plays_fmt": "215",
+    "plays": 217,
+    "plays_fmt": "217",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f",
-    "pct": 88
+    "pct": 89
    },
    {
     "artist": "bedgravity",
@@ -374,17 +374,17 @@
    },
    {
     "artist": "the Wulongs",
-    "plays": 167,
-    "plays_fmt": "167",
+    "plays": 169,
+    "plays_fmt": "169",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
-    "pct": 68
+    "pct": 69
    },
    {
     "artist": "uyuu",
-    "plays": 164,
-    "plays_fmt": "164",
+    "plays": 165,
+    "plays_fmt": "165",
     "img": "https://i.scdn.co/image/ab67616d0000b27381582c0fb8f5908a6aee7f3e",
-    "pct": 67
+    "pct": 68
    },
    {
     "artist": "Youth Illustrated",
@@ -433,8 +433,8 @@
    {
     "album": "BUDOU JUICE",
     "artist": "BUDOU JUICE",
-    "plays": 169,
-    "plays_fmt": "169",
+    "plays": 170,
+    "plays_fmt": "170",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f"
    },
    {
@@ -587,19 +587,19 @@
    },
    {
     "month": "8",
-    "plays": 530,
-    "plays_fmt": "530",
-    "pct": 10
+    "plays": 610,
+    "plays_fmt": "610",
+    "pct": 11
    }
   ]
  },
  "week": {
-  "total": 944,
-  "total_fmt": "944",
-  "uniq_art": 530,
-  "uniq_art_fmt": "530",
-  "uniq_trk": 731,
-  "uniq_trk_fmt": "731",
+  "total": 1024,
+  "total_fmt": "1,024",
+  "uniq_art": 554,
+  "uniq_art_fmt": "554",
+  "uniq_trk": 769,
+  "uniq_trk_fmt": "769",
   "start": "7/30",
   "end": "8/5",
   "top_art": [
@@ -639,6 +639,13 @@
     "pct": 55
    },
    {
+    "artist": "BurnQue",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebfb9085515b81ecc06b05b158",
+    "pct": 45
+   },
+   {
     "artist": "吉凶わからず、",
     "plays": 9,
     "plays_fmt": "9",
@@ -646,10 +653,10 @@
     "pct": 45
    },
    {
-    "artist": "BurnQue",
+    "artist": "Jonagold",
     "plays": 8,
     "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebfb9085515b81ecc06b05b158",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb729a54685f19434ef9c4f1f1",
     "pct": 40
    },
    {
@@ -660,18 +667,11 @@
     "pct": 40
    },
    {
-    "artist": "tenbin O",
+    "artist": "Yabai T-Shirts Yasan",
     "plays": 8,
     "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebb146cdd0b2be813c4b411eb2",
+    "img": "https://i.scdn.co/image/ab6761610000e5eba4942c76d42f415e9d903ed9",
     "pct": 40
-   },
-   {
-    "artist": "Black Boboi",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb173cb515bfb6ca8f05dc2aca",
-    "pct": 35
    }
   ],
   "top_alb": [
@@ -697,6 +697,13 @@
     "img": null
    },
    {
+    "album": "N.W.O.L.",
+    "artist": "BurnQue",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebfb9085515b81ecc06b05b158"
+   },
+   {
     "album": "mitsume",
     "artist": "jasui vision",
     "plays": 9,
@@ -711,11 +718,18 @@
     "img": "https://i.scdn.co/image/ab6761610000e5eb62ef5c0e63bf38252b5682f8"
    },
    {
-    "album": "N.W.O.L.",
-    "artist": "BurnQue",
+    "album": "Magical Tank-top Parade",
+    "artist": "Yabai T-Shirts Yasan",
     "plays": 8,
     "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebfb9085515b81ecc06b05b158"
+    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/c4516a9b5490c706796e39a651d9b1a9.jpg"
+   },
+   {
+    "album": "Gold Fashion",
+    "artist": "BRADIO",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/bdcf461a42515a1f33a369c657656b3d.jpg"
    },
    {
     "album": "Sepia",
@@ -730,20 +744,6 @@
     "plays": 6,
     "plays_fmt": "6",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb146cdd0b2be813c4b411eb2"
-   },
-   {
-    "album": "Gold Fashion",
-    "artist": "BRADIO",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/bdcf461a42515a1f33a369c657656b3d.jpg"
-   },
-   {
-    "album": "HOME COLLECTION",
-    "artist": "Home",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
    }
   ],
   "top_trk": [
@@ -762,8 +762,8 @@
    {
     "track": "N.W.O.L.",
     "artist": "BurnQue",
-    "plays": 8,
-    "plays_fmt": "8"
+    "plays": 9,
+    "plays_fmt": "9"
    },
    {
     "track": "Lucky Song",
@@ -790,6 +790,12 @@
     "plays_fmt": "4"
    },
    {
+    "track": "OMOIAI",
+    "artist": "Pixie Monster",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
     "track": "eternalsnowangel",
     "artist": "yawn club",
     "plays": 4,
@@ -798,12 +804,6 @@
    {
     "track": "All I want is your heart",
     "artist": "おどるアナグマ",
-    "plays": 3,
-    "plays_fmt": "3"
-   },
-   {
-    "track": "Burning Orange",
-    "artist": "Sunsunsun",
     "plays": 3,
     "plays_fmt": "3"
    }
@@ -847,9 +847,9 @@
    },
    {
     "day": "8/5",
-    "plays": 36,
-    "plays_fmt": "36",
-    "pct": 18
+    "plays": 116,
+    "plays_fmt": "116",
+    "pct": 57
    }
   ]
  }
