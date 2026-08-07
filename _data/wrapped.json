@@ -1,15 +1,15 @@
 {
- "generated": "2026-08-06",
+ "generated": "2026-08-07",
  "year_label": "2026",
  "all": {
-  "total": 211942,
-  "total_fmt": "211,942",
+  "total": 212063,
+  "total_fmt": "212,063",
   "uniq_art": 7263,
   "uniq_art_fmt": "7,263",
   "uniq_trk": 30312,
   "uniq_trk_fmt": "30,312",
   "start": "2018-03-06",
-  "end": "2026-08-06",
+  "end": "2026-08-07",
   "top_art": [
    {
     "artist": "Mr.ふぉるて",
@@ -267,9 +267,9 @@
    },
    {
     "year": "2026",
-    "plays": 28855,
-    "plays_fmt": "28,855",
-    "pct": 53
+    "plays": 28976,
+    "plays_fmt": "28,976",
+    "pct": 54
    }
   ],
   "new_art_by_year": [
@@ -330,8 +330,8 @@
   ]
  },
  "year": {
-  "total": 28855,
-  "total_fmt": "28,855",
+  "total": 28976,
+  "total_fmt": "28,976",
   "uniq_art": 2688,
   "uniq_art_fmt": "2,688",
   "uniq_trk": 7447,
@@ -353,8 +353,8 @@
    },
    {
     "artist": "BUDOU JUICE",
-    "plays": 218,
-    "plays_fmt": "218",
+    "plays": 219,
+    "plays_fmt": "219",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f",
     "pct": 89
    },
@@ -367,17 +367,17 @@
    },
    {
     "artist": "あたまたんさん",
-    "plays": 198,
-    "plays_fmt": "198",
+    "plays": 200,
+    "plays_fmt": "200",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44",
-    "pct": 81
+    "pct": 82
    },
    {
     "artist": "the Wulongs",
-    "plays": 172,
-    "plays_fmt": "172",
+    "plays": 173,
+    "plays_fmt": "173",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
-    "pct": 70
+    "pct": 71
    },
    {
     "artist": "uyuu",
@@ -426,8 +426,8 @@
    {
     "album": "鉄の掟",
     "artist": "あたまたんさん",
-    "plays": 197,
-    "plays_fmt": "197",
+    "plays": 199,
+    "plays_fmt": "199",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44"
    },
    {
@@ -454,8 +454,8 @@
    {
     "album": "HOME COLLECTION",
     "artist": "Home",
-    "plays": 142,
-    "plays_fmt": "142",
+    "plays": 143,
+    "plays_fmt": "143",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
    },
    {
@@ -587,106 +587,99 @@
    },
    {
     "month": "8",
-    "plays": 707,
-    "plays_fmt": "707",
-    "pct": 13
+    "plays": 828,
+    "plays_fmt": "828",
+    "pct": 15
    }
   ]
  },
  "week": {
-  "total": 929,
-  "total_fmt": "929",
-  "uniq_art": 521,
-  "uniq_art_fmt": "521",
-  "uniq_trk": 711,
-  "uniq_trk_fmt": "711",
-  "start": "7/31",
-  "end": "8/6",
+  "total": 847,
+  "total_fmt": "847",
+  "uniq_art": 484,
+  "uniq_art_fmt": "484",
+  "uniq_trk": 655,
+  "uniq_trk_fmt": "655",
+  "start": "8/1",
+  "end": "8/7",
   "top_art": [
    {
     "artist": "nib.archive",
-    "plays": 15,
-    "plays_fmt": "15",
+    "plays": 14,
+    "plays_fmt": "14",
     "img": null,
     "pct": 100
-   },
-   {
-    "artist": "ヨルノアト",
-    "plays": 12,
-    "plays_fmt": "12",
-    "img": null,
-    "pct": 80
-   },
-   {
-    "artist": "jasui vision",
-    "plays": 11,
-    "plays_fmt": "11",
-    "img": null,
-    "pct": 73
    },
    {
     "artist": "BurnQue",
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5ebfb9085515b81ecc06b05b158",
-    "pct": 60
+    "pct": 64
+   },
+   {
+    "artist": "the Wulongs",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
+    "pct": 64
+   },
+   {
+    "artist": "Home",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
+    "pct": 57
    },
    {
     "artist": "Muddy Jackets",
     "plays": 8,
     "plays_fmt": "8",
     "img": null,
-    "pct": 53
+    "pct": 57
+   },
+   {
+    "artist": "Aonowa",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb83e8fdf933b8b52d934bc28f",
+    "pct": 50
+   },
+   {
+    "artist": "kobore",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24",
+    "pct": 50
    },
    {
     "artist": "tenbin O",
-    "plays": 8,
-    "plays_fmt": "8",
+    "plays": 7,
+    "plays_fmt": "7",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb146cdd0b2be813c4b411eb2",
-    "pct": 53
+    "pct": 50
    },
    {
-    "artist": "the Wulongs",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
-    "pct": 53
-   },
-   {
-    "artist": "Home",
+    "artist": "あたまたんさん",
     "plays": 7,
     "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
-    "pct": 47
+    "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44",
+    "pct": 50
    },
    {
-    "artist": "Yabai T-Shirts Yasan",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eba4942c76d42f415e9d903ed9",
-    "pct": 47
-   },
-   {
-    "artist": "吉凶わからず、",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eba56f1a7fa93d2ddfb43bebb4",
-    "pct": 47
+    "artist": "BUDOU JUICE",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f",
+    "pct": 43
    }
   ],
   "top_alb": [
    {
     "album": "If, in the End, We",
     "artist": "nib.archive",
-    "plays": 15,
-    "plays_fmt": "15",
-    "img": null
-   },
-   {
-    "album": "いつものこと",
-    "artist": "ヨルノアト",
-    "plays": 12,
-    "plays_fmt": "12",
+    "plays": 14,
+    "plays_fmt": "14",
     "img": null
    },
    {
@@ -697,46 +690,25 @@
     "img": "https://i.scdn.co/image/ab6761610000e5ebfb9085515b81ecc06b05b158"
    },
    {
-    "album": "mitsume",
-    "artist": "jasui vision",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": null
-   },
-   {
     "album": "FACH",
     "artist": "the Wulongs",
-    "plays": 7,
-    "plays_fmt": "7",
+    "plays": 8,
+    "plays_fmt": "8",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/98f2e6391df7025c381117edd5682cb7.jpg"
    },
    {
     "album": "HOME COLLECTION",
     "artist": "Home",
-    "plays": 7,
-    "plays_fmt": "7",
+    "plays": 8,
+    "plays_fmt": "8",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
    },
    {
-    "album": "Magical Tank-top Parade",
-    "artist": "Yabai T-Shirts Yasan",
+    "album": "鉄の掟",
+    "artist": "あたまたんさん",
     "plays": 7,
     "plays_fmt": "7",
-    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/c4516a9b5490c706796e39a651d9b1a9.jpg"
-   },
-   {
-    "album": "Fushigi na Binsen",
-    "artist": "tenbin O",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebb146cdd0b2be813c4b411eb2"
-   },
-   {
-    "album": "Gold Fashion",
-    "artist": "BRADIO",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/bdcf461a42515a1f33a369c657656b3d.jpg"
+    "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44"
    },
    {
     "album": "Lucky Song",
@@ -744,15 +716,37 @@
     "plays": 6,
     "plays_fmt": "6",
     "img": null
+   },
+   {
+    "album": "Magical Tank-top Parade",
+    "artist": "Yabai T-Shirts Yasan",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/c4516a9b5490c706796e39a651d9b1a9.jpg"
+   },
+   {
+    "album": "Omokage",
+    "artist": "Aonowa",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb83e8fdf933b8b52d934bc28f"
+   },
+   {
+    "album": "Sepia",
+    "artist": "Black Boboi",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/158d6943703e6cd30388cd6dba40f635.jpg"
+   },
+   {
+    "album": "拝啓、作家へ",
+    "artist": "NikoläschkA",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://i.scdn.co/image/ab67616d0000b2732354fee2f7bc65f7f86a06a8"
    }
   ],
   "top_trk": [
-   {
-    "track": "いつものこと",
-    "artist": "ヨルノアト",
-    "plays": 12,
-    "plays_fmt": "12"
-   },
    {
     "track": "N.W.O.L.",
     "artist": "BurnQue",
@@ -766,28 +760,10 @@
     "plays_fmt": "6"
    },
    {
-    "track": "The great escape from a bad day",
-    "artist": "ゆっくりな光",
-    "plays": 5,
-    "plays_fmt": "5"
-   },
-   {
     "track": "拝啓、作家へ",
     "artist": "NikoläschkA",
-    "plays": 5,
-    "plays_fmt": "5"
-   },
-   {
-    "track": "All I want is your heart",
-    "artist": "おどるアナグマ",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "Blades",
-    "artist": "RAINBOW BELTZ",
-    "plays": 4,
-    "plays_fmt": "4"
+    "plays": 6,
+    "plays_fmt": "6"
    },
    {
     "track": "Comets + Gold",
@@ -796,25 +772,43 @@
     "plays_fmt": "4"
    },
    {
-    "track": "eternalsnowangel",
-    "artist": "yawn club",
+    "track": "Keep My Head Up",
+    "artist": "türk bluez",
     "plays": 4,
     "plays_fmt": "4"
    },
    {
-    "track": "Boys will be…",
-    "artist": "DuFDuF",
+    "track": "Soil samples",
+    "artist": "Black Boboi",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "gosenfu",
+    "artist": "Aonowa",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "All I want is your heart",
+    "artist": "おどるアナグマ",
+    "plays": 3,
+    "plays_fmt": "3"
+   },
+   {
+    "track": "All in it",
+    "artist": "RIEHATA",
+    "plays": 3,
+    "plays_fmt": "3"
+   },
+   {
+    "track": "Anfang",
+    "artist": "hardnuts",
     "plays": 3,
     "plays_fmt": "3"
    }
   ],
   "by_day": [
-   {
-    "day": "7/31",
-    "plays": 203,
-    "plays_fmt": "203",
-    "pct": 100
-   },
    {
     "day": "8/1",
     "plays": 202,
@@ -847,9 +841,15 @@
    },
    {
     "day": "8/6",
-    "plays": 94,
-    "plays_fmt": "94",
-    "pct": 46
+    "plays": 109,
+    "plays_fmt": "109",
+    "pct": 54
+   },
+   {
+    "day": "8/7",
+    "plays": 106,
+    "plays_fmt": "106",
+    "pct": 52
    }
   ]
  }
