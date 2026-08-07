@@ -2,12 +2,12 @@
  "generated": "2026-08-07",
  "year_label": "2026",
  "all": {
-  "total": 212063,
-  "total_fmt": "212,063",
-  "uniq_art": 7263,
-  "uniq_art_fmt": "7,263",
-  "uniq_trk": 30312,
-  "uniq_trk_fmt": "30,312",
+  "total": 212089,
+  "total_fmt": "212,089",
+  "uniq_art": 7265,
+  "uniq_art_fmt": "7,265",
+  "uniq_trk": 30324,
+  "uniq_trk_fmt": "30,324",
   "start": "2018-03-06",
   "end": "2026-08-07",
   "top_art": [
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 28976,
-    "plays_fmt": "28,976",
+    "plays": 29002,
+    "plays_fmt": "29,002",
     "pct": 54
    }
   ],
@@ -323,19 +323,19 @@
    },
    {
     "year": "2026",
-    "count": 894,
-    "count_fmt": "894",
+    "count": 896,
+    "count_fmt": "896",
     "pct": 37
    }
   ]
  },
  "year": {
-  "total": 28976,
-  "total_fmt": "28,976",
-  "uniq_art": 2688,
-  "uniq_art_fmt": "2,688",
-  "uniq_trk": 7447,
-  "uniq_trk_fmt": "7,447",
+  "total": 29002,
+  "total_fmt": "29,002",
+  "uniq_art": 2691,
+  "uniq_art_fmt": "2,691",
+  "uniq_trk": 7459,
+  "uniq_trk_fmt": "7,459",
   "top_art": [
    {
     "artist": "Kienai",
@@ -587,19 +587,19 @@
    },
    {
     "month": "8",
-    "plays": 828,
-    "plays_fmt": "828",
-    "pct": 15
+    "plays": 854,
+    "plays_fmt": "854",
+    "pct": 16
    }
   ]
  },
  "week": {
-  "total": 847,
-  "total_fmt": "847",
-  "uniq_art": 484,
-  "uniq_art_fmt": "484",
-  "uniq_trk": 655,
-  "uniq_trk_fmt": "655",
+  "total": 873,
+  "total_fmt": "873",
+  "uniq_art": 492,
+  "uniq_art_fmt": "492",
+  "uniq_trk": 671,
+  "uniq_trk_fmt": "671",
   "start": "8/1",
   "end": "8/7",
   "top_art": [
@@ -625,6 +625,13 @@
     "pct": 64
    },
    {
+    "artist": "700度の火を持って、 私は人とすれちがっている",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb1272482edecc688e3d186f96",
+    "pct": 57
+   },
+   {
     "artist": "Home",
     "plays": 8,
     "plays_fmt": "8",
@@ -636,6 +643,13 @@
     "plays": 8,
     "plays_fmt": "8",
     "img": null,
+    "pct": 57
+   },
+   {
+    "artist": "THE RAPTOLS",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb5e209ce7745d126d3a3104a6",
     "pct": 57
    },
    {
@@ -658,20 +672,6 @@
     "plays_fmt": "7",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb146cdd0b2be813c4b411eb2",
     "pct": 50
-   },
-   {
-    "artist": "あたまたんさん",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44",
-    "pct": 50
-   },
-   {
-    "artist": "BUDOU JUICE",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f",
-    "pct": 43
    }
   ],
   "top_alb": [
@@ -704,11 +704,25 @@
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
    },
    {
+    "album": "baby please バグらないで",
+    "artist": "700度の火を持って、 私は人とすれちがっている",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb1272482edecc688e3d186f96"
+   },
+   {
     "album": "鉄の掟",
     "artist": "あたまたんさん",
     "plays": 7,
     "plays_fmt": "7",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44"
+   },
+   {
+    "album": "Daisy",
+    "artist": "THE RAPTOLS",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb5e209ce7745d126d3a3104a6"
    },
    {
     "album": "Lucky Song",
@@ -730,20 +744,6 @@
     "plays": 6,
     "plays_fmt": "6",
     "img": "https://i.scdn.co/image/ab6761610000e5eb83e8fdf933b8b52d934bc28f"
-   },
-   {
-    "album": "Sepia",
-    "artist": "Black Boboi",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/158d6943703e6cd30388cd6dba40f635.jpg"
-   },
-   {
-    "album": "拝啓、作家へ",
-    "artist": "NikoläschkA",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": "https://i.scdn.co/image/ab67616d0000b2732354fee2f7bc65f7f86a06a8"
    }
   ],
   "top_trk": [
@@ -766,6 +766,12 @@
     "plays_fmt": "6"
    },
    {
+    "track": "baby please バグらないで",
+    "artist": "700度の火を持って、 私は人とすれちがっている",
+    "plays": 5,
+    "plays_fmt": "5"
+   },
+   {
     "track": "Comets + Gold",
     "artist": "Elmiene",
     "plays": 4,
@@ -774,6 +780,12 @@
    {
     "track": "Keep My Head Up",
     "artist": "türk bluez",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "Nastu wa Yoru",
+    "artist": "Sanghee",
     "plays": 4,
     "plays_fmt": "4"
    },
@@ -792,18 +804,6 @@
    {
     "track": "All I want is your heart",
     "artist": "おどるアナグマ",
-    "plays": 3,
-    "plays_fmt": "3"
-   },
-   {
-    "track": "All in it",
-    "artist": "RIEHATA",
-    "plays": 3,
-    "plays_fmt": "3"
-   },
-   {
-    "track": "Anfang",
-    "artist": "hardnuts",
     "plays": 3,
     "plays_fmt": "3"
    }
@@ -847,9 +847,9 @@
    },
    {
     "day": "8/7",
-    "plays": 106,
-    "plays_fmt": "106",
-    "pct": 52
+    "plays": 132,
+    "plays_fmt": "132",
+    "pct": 65
    }
   ]
  }
