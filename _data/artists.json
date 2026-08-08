@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7266,
- "total_artists_fmt": "7,266",
+ "total_artists": 7267,
+ "total_artists_fmt": "7,267",
  "missing_img": 9,
  "artists": [
   {
@@ -276,8 +276,8 @@
   },
   {
    "name": "レイラ",
-   "plays": 444,
-   "plays_fmt": "444",
+   "plays": 445,
+   "plays_fmt": "445",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5a7ae7ae77a6230eb4107638"
   },
   {
@@ -431,16 +431,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb4a8c57a013ac825eef0fb401"
   },
   {
+   "name": "Muque",
+   "plays": 356,
+   "plays_fmt": "356",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
+  },
+  {
    "name": "Heavenstamp",
    "plays": 355,
    "plays_fmt": "355",
    "img": "https://i.scdn.co/image/ab6761610000e5eb74d551d6dbd3e14c7de78ab2"
-  },
-  {
-   "name": "Muque",
-   "plays": 354,
-   "plays_fmt": "354",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
   },
   {
    "name": "Furui Riho",
@@ -791,16 +791,16 @@
    "img": "https://i.scdn.co/image/ab67616d0000b2731494a1e1507f8dbfbce8f2df"
   },
   {
+   "name": "Have a nice day!",
+   "plays": 270,
+   "plays_fmt": "270",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
+  },
+  {
    "name": "36km/h",
    "plays": 269,
    "plays_fmt": "269",
    "img": "https://i.scdn.co/image/ab6761610000e5eb8ffe1b4304fc8e392b97c2b7"
-  },
-  {
-   "name": "Have a nice day!",
-   "plays": 269,
-   "plays_fmt": "269",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
   },
   {
    "name": "I Saw You Yesterday",
