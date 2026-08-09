@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7267,
- "total_artists_fmt": "7,267",
+ "total_artists": 7274,
+ "total_artists_fmt": "7,274",
  "missing_img": 9,
  "artists": [
   {
@@ -18,8 +18,8 @@
   },
   {
    "name": "chilldspot",
-   "plays": 1028,
-   "plays_fmt": "1,028",
+   "plays": 1029,
+   "plays_fmt": "1,029",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfffcd64678af9f7b7bab7832"
   },
   {
@@ -66,8 +66,8 @@
   },
   {
    "name": "Dannie May",
-   "plays": 720,
-   "plays_fmt": "720",
+   "plays": 721,
+   "plays_fmt": "721",
    "img": "https://i.scdn.co/image/ab6761610000e5eb9629e866cc65376368fe66a8"
   },
   {
@@ -78,8 +78,8 @@
   },
   {
    "name": "羊文学",
-   "plays": 685,
-   "plays_fmt": "685",
+   "plays": 686,
+   "plays_fmt": "686",
    "img": "https://i.scdn.co/image/ab6761610000e5eb1833f4534ed3dd88d9e12c8b"
   },
   {
@@ -96,8 +96,8 @@
   },
   {
    "name": "kobore",
-   "plays": 633,
-   "plays_fmt": "633",
+   "plays": 634,
+   "plays_fmt": "634",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24"
   },
   {
@@ -276,8 +276,8 @@
   },
   {
    "name": "レイラ",
-   "plays": 445,
-   "plays_fmt": "445",
+   "plays": 446,
+   "plays_fmt": "446",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5a7ae7ae77a6230eb4107638"
   },
   {
@@ -341,16 +341,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eba3f038b0d76a49de0bd33221"
   },
   {
+   "name": "GOHOBI",
+   "plays": 384,
+   "plays_fmt": "384",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb93311cae2f611f16a5d84e43"
+  },
+  {
    "name": "Ivy to Fraudulent Game",
    "plays": 384,
    "plays_fmt": "384",
    "img": "https://i.scdn.co/image/ab6761610000e5eb7f8973aeb4176e61b0cec158"
-  },
-  {
-   "name": "GOHOBI",
-   "plays": 383,
-   "plays_fmt": "383",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb93311cae2f611f16a5d84e43"
   },
   {
    "name": "vivid undress",
@@ -366,8 +366,8 @@
   },
   {
    "name": "sucola",
-   "plays": 380,
-   "plays_fmt": "380",
+   "plays": 381,
+   "plays_fmt": "381",
    "img": "https://i.scdn.co/image/ab6761610000e5eb7fdd8f90022d1fb6f09ce3c9"
   },
   {
@@ -450,21 +450,21 @@
   },
   {
    "name": "miida",
-   "plays": 347,
-   "plays_fmt": "347",
+   "plays": 348,
+   "plays_fmt": "348",
    "img": "https://i.scdn.co/image/ab67616d0000b273a10aefa900ad4a60773bd28e"
+  },
+  {
+   "name": "Home",
+   "plays": 345,
+   "plays_fmt": "345",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
    "name": "Peanut Butters",
    "plays": 345,
    "plays_fmt": "345",
    "img": "https://i.scdn.co/image/ab6761610000e5eb015682d84efd18a8d00e8268"
-  },
-  {
-   "name": "Home",
-   "plays": 343,
-   "plays_fmt": "343",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
    "name": "RAN",
@@ -672,8 +672,8 @@
   },
   {
    "name": "Luby Sparks",
-   "plays": 292,
-   "plays_fmt": "292",
+   "plays": 293,
+   "plays_fmt": "293",
    "img": "https://i.scdn.co/image/ab6761610000e5eb99833843219af1cdc66223fc"
   },
   {
@@ -887,6 +887,12 @@
    "img": "https://i.scdn.co/image/ab67616d0000b27391607922cbc9e2b89f3e4e1a"
   },
   {
+   "name": "Hammer Head Shark",
+   "plays": 258,
+   "plays_fmt": "258",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851"
+  },
+  {
    "name": "Split End",
    "plays": 258,
    "plays_fmt": "258",
@@ -897,12 +903,6 @@
    "plays": 258,
    "plays_fmt": "258",
    "img": null
-  },
-  {
-   "name": "Hammer Head Shark",
-   "plays": 257,
-   "plays_fmt": "257",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851"
   }
  ]
 }
