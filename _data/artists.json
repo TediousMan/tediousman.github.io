@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7274,
- "total_artists_fmt": "7,274",
+ "total_artists": 7276,
+ "total_artists_fmt": "7,276",
  "missing_img": 9,
  "artists": [
   {
@@ -18,8 +18,8 @@
   },
   {
    "name": "chilldspot",
-   "plays": 1029,
-   "plays_fmt": "1,029",
+   "plays": 1030,
+   "plays_fmt": "1,030",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfffcd64678af9f7b7bab7832"
   },
   {
@@ -36,8 +36,8 @@
   },
   {
    "name": "KROI",
-   "plays": 864,
-   "plays_fmt": "864",
+   "plays": 865,
+   "plays_fmt": "865",
    "img": "https://i.scdn.co/image/ab6761610000e5eb3891ccf48bd7eb050237f789"
   },
   {
@@ -90,8 +90,8 @@
   },
   {
    "name": "kobore",
-   "plays": 635,
-   "plays_fmt": "635",
+   "plays": 638,
+   "plays_fmt": "638",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24"
   },
   {
@@ -168,8 +168,8 @@
   },
   {
    "name": "緑黄色社会",
-   "plays": 555,
-   "plays_fmt": "555",
+   "plays": 556,
+   "plays_fmt": "556",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd9a48d00ce7cf4d66abc76b6"
   },
   {
@@ -342,8 +342,8 @@
   },
   {
    "name": "GOHOBI",
-   "plays": 384,
-   "plays_fmt": "384",
+   "plays": 385,
+   "plays_fmt": "385",
    "img": "https://i.scdn.co/image/ab6761610000e5eb93311cae2f611f16a5d84e43"
   },
   {
@@ -414,8 +414,8 @@
   },
   {
    "name": "Vaundy",
-   "plays": 366,
-   "plays_fmt": "366",
+   "plays": 367,
+   "plays_fmt": "367",
    "img": "https://i.scdn.co/image/ab6761610000e5ebb718d2d3988005d3a72f22c9"
   },
   {
@@ -425,16 +425,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eba28745b1de7f1ad1d41514f6"
   },
   {
+   "name": "Muque",
+   "plays": 359,
+   "plays_fmt": "359",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
+  },
+  {
    "name": "sancrib",
    "plays": 358,
    "plays_fmt": "358",
    "img": "https://i.scdn.co/image/ab6761610000e5eb4a8c57a013ac825eef0fb401"
-  },
-  {
-   "name": "Muque",
-   "plays": 357,
-   "plays_fmt": "357",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
   },
   {
    "name": "Heavenstamp",
@@ -456,8 +456,8 @@
   },
   {
    "name": "Home",
-   "plays": 345,
-   "plays_fmt": "345",
+   "plays": 346,
+   "plays_fmt": "346",
    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
@@ -581,16 +581,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebcc959cd12f18b2c2a2baa2c7"
   },
   {
+   "name": "Reol",
+   "plays": 316,
+   "plays_fmt": "316",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebdf2dbfb158e48df25bd49477"
+  },
+  {
    "name": "Cephalo",
    "plays": 315,
    "plays_fmt": "315",
    "img": "https://i.scdn.co/image/ab6761610000e5ebeadedb0cf2a489ca33090611"
-  },
-  {
-   "name": "Reol",
-   "plays": 315,
-   "plays_fmt": "315",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebdf2dbfb158e48df25bd49477"
   },
   {
    "name": "DurdN",
@@ -696,8 +696,8 @@
   },
   {
    "name": "YONA YONA WEEKENDERS",
-   "plays": 285,
-   "plays_fmt": "285",
+   "plays": 286,
+   "plays_fmt": "286",
    "img": "https://i.scdn.co/image/ab6761610000e5eb6b91739a5b0e997957fff733"
   },
   {
@@ -875,6 +875,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb93cd81967ea2a33ad6fa53f6"
   },
   {
+   "name": "Hammer Head Shark",
+   "plays": 259,
+   "plays_fmt": "259",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851"
+  },
+  {
    "name": "Yoake",
    "plays": 259,
    "plays_fmt": "259",
@@ -885,12 +891,6 @@
    "plays": 258,
    "plays_fmt": "258",
    "img": "https://i.scdn.co/image/ab67616d0000b27391607922cbc9e2b89f3e4e1a"
-  },
-  {
-   "name": "Hammer Head Shark",
-   "plays": 258,
-   "plays_fmt": "258",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851"
   },
   {
    "name": "Split End",
