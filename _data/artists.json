@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7276,
- "total_artists_fmt": "7,276",
+ "total_artists": 7278,
+ "total_artists_fmt": "7,278",
  "missing_img": 9,
  "artists": [
   {
@@ -30,8 +30,8 @@
   },
   {
    "name": "クレナズム",
-   "plays": 879,
-   "plays_fmt": "879",
+   "plays": 880,
+   "plays_fmt": "880",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfd833836d124624e366ed252"
   },
   {
@@ -144,8 +144,8 @@
   },
   {
    "name": "Hakubi",
-   "plays": 580,
-   "plays_fmt": "580",
+   "plays": 581,
+   "plays_fmt": "581",
    "img": "https://i.scdn.co/image/ab6761610000e5eba205df6c2dd898c3f39b35ec"
   },
   {
@@ -186,21 +186,21 @@
   },
   {
    "name": "The Otals",
+   "plays": 547,
+   "plays_fmt": "547",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebe880728367d115f0c7dfceb6"
+  },
+  {
+   "name": "BRADIO",
    "plays": 546,
    "plays_fmt": "546",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebe880728367d115f0c7dfceb6"
+   "img": "https://i.scdn.co/image/ab6761610000e5eb1b468ea5308efde05767f7f3"
   },
   {
    "name": "Ayutthaya",
    "plays": 544,
    "plays_fmt": "544",
    "img": "https://i.scdn.co/image/ab6761610000e5eb0389567240d2b2d9dbb289d8"
-  },
-  {
-   "name": "BRADIO",
-   "plays": 544,
-   "plays_fmt": "544",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb1b468ea5308efde05767f7f3"
   },
   {
    "name": "黒子首",
@@ -216,8 +216,8 @@
   },
   {
    "name": "PLUE",
-   "plays": 495,
-   "plays_fmt": "495",
+   "plays": 496,
+   "plays_fmt": "496",
    "img": "https://i.scdn.co/image/ab6761610000e5eb85209c8cac40615200957a58"
   },
   {
@@ -276,8 +276,8 @@
   },
   {
    "name": "レイラ",
-   "plays": 446,
-   "plays_fmt": "446",
+   "plays": 447,
+   "plays_fmt": "447",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5a7ae7ae77a6230eb4107638"
   },
   {
@@ -306,8 +306,8 @@
   },
   {
    "name": "Tokimeki Records",
-   "plays": 429,
-   "plays_fmt": "429",
+   "plays": 430,
+   "plays_fmt": "430",
    "img": "https://i.scdn.co/image/ab6761610000e5eb42c23eeeaedfb6c466f8b3e9"
   },
   {
@@ -426,8 +426,8 @@
   },
   {
    "name": "Muque",
-   "plays": 359,
-   "plays_fmt": "359",
+   "plays": 360,
+   "plays_fmt": "360",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
   },
   {
@@ -456,8 +456,8 @@
   },
   {
    "name": "Home",
-   "plays": 346,
-   "plays_fmt": "346",
+   "plays": 347,
+   "plays_fmt": "347",
    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
@@ -672,8 +672,8 @@
   },
   {
    "name": "Luby Sparks",
-   "plays": 293,
-   "plays_fmt": "293",
+   "plays": 294,
+   "plays_fmt": "294",
    "img": "https://i.scdn.co/image/ab6761610000e5eb99833843219af1cdc66223fc"
   },
   {
@@ -683,16 +683,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb2b99a62df8934c2ee58eeaa5"
   },
   {
+   "name": "omeme tenten",
+   "plays": 291,
+   "plays_fmt": "291",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb3b770c187b6a716a2eb91f1b"
+  },
+  {
    "name": "WANG GUNG BAND",
    "plays": 290,
    "plays_fmt": "290",
    "img": "https://i.scdn.co/image/ab6761610000e5eb94b818ce361beb89199170c8"
-  },
-  {
-   "name": "omeme tenten",
-   "plays": 290,
-   "plays_fmt": "290",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb3b770c187b6a716a2eb91f1b"
   },
   {
    "name": "YONA YONA WEEKENDERS",
@@ -786,14 +786,14 @@
   },
   {
    "name": "Haruno",
-   "plays": 270,
-   "plays_fmt": "270",
+   "plays": 271,
+   "plays_fmt": "271",
    "img": "https://i.scdn.co/image/ab67616d0000b2731494a1e1507f8dbfbce8f2df"
   },
   {
    "name": "Have a nice day!",
-   "plays": 270,
-   "plays_fmt": "270",
+   "plays": 271,
+   "plays_fmt": "271",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
   },
   {
