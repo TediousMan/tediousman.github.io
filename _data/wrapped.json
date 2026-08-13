@@ -1,15 +1,15 @@
 {
- "generated": "2026-08-12",
+ "generated": "2026-08-13",
  "year_label": "2026",
  "all": {
-  "total": 212742,
-  "total_fmt": "212,742",
+  "total": 212888,
+  "total_fmt": "212,888",
   "uniq_art": 7278,
   "uniq_art_fmt": "7,278",
-  "uniq_trk": 30363,
-  "uniq_trk_fmt": "30,363",
+  "uniq_trk": 30367,
+  "uniq_trk_fmt": "30,367",
   "start": "2018-03-06",
-  "end": "2026-08-12",
+  "end": "2026-08-13",
   "top_art": [
    {
     "artist": "Mr.ふぉるて",
@@ -27,8 +27,8 @@
    },
    {
     "artist": "chilldspot",
-    "plays": 1030,
-    "plays_fmt": "1,030",
+    "plays": 1031,
+    "plays_fmt": "1,031",
     "img": "https://i.scdn.co/image/ab6761610000e5ebfffcd64678af9f7b7bab7832",
     "pct": 99
    },
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 29655,
-    "plays_fmt": "29,655",
+    "plays": 29801,
+    "plays_fmt": "29,801",
     "pct": 55
    }
   ],
@@ -330,12 +330,12 @@
   ]
  },
  "year": {
-  "total": 29655,
-  "total_fmt": "29,655",
+  "total": 29801,
+  "total_fmt": "29,801",
   "uniq_art": 2708,
   "uniq_art_fmt": "2,708",
-  "uniq_trk": 7499,
-  "uniq_trk_fmt": "7,499",
+  "uniq_trk": 7503,
+  "uniq_trk_fmt": "7,503",
   "top_art": [
    {
     "artist": "Kienai",
@@ -346,10 +346,10 @@
    },
    {
     "artist": "Ramblamp",
-    "plays": 240,
-    "plays_fmt": "240",
+    "plays": 241,
+    "plays_fmt": "241",
     "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf",
-    "pct": 97
+    "pct": 98
    },
    {
     "artist": "BUDOU JUICE",
@@ -360,36 +360,36 @@
    },
    {
     "artist": "bedgravity",
-    "plays": 207,
-    "plays_fmt": "207",
+    "plays": 208,
+    "plays_fmt": "208",
     "img": "https://i.scdn.co/image/ab67616d0000b273d29467756d06ae5882d98238",
     "pct": 84
    },
    {
     "artist": "あたまたんさん",
-    "plays": 205,
-    "plays_fmt": "205",
+    "plays": 206,
+    "plays_fmt": "206",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44",
     "pct": 83
    },
    {
     "artist": "the Wulongs",
-    "plays": 178,
-    "plays_fmt": "178",
+    "plays": 180,
+    "plays_fmt": "180",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
-    "pct": 72
+    "pct": 73
    },
    {
     "artist": "uyuu",
-    "plays": 168,
-    "plays_fmt": "168",
+    "plays": 169,
+    "plays_fmt": "169",
     "img": "https://i.scdn.co/image/ab67616d0000b27381582c0fb8f5908a6aee7f3e",
     "pct": 68
    },
    {
     "artist": "wanbed",
-    "plays": 158,
-    "plays_fmt": "158",
+    "plays": 159,
+    "plays_fmt": "159",
     "img": "https://i.scdn.co/image/ab6761610000e5eb015e59262813fcf812ddf659",
     "pct": 64
    },
@@ -419,15 +419,15 @@
    {
     "album": "Unmet Needs",
     "artist": "bedgravity",
-    "plays": 207,
-    "plays_fmt": "207",
+    "plays": 208,
+    "plays_fmt": "208",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/d49e1932df6d076c99051c1c7fe957a4.jpg"
    },
    {
     "album": "鉄の掟",
     "artist": "あたまたんさん",
-    "plays": 204,
-    "plays_fmt": "204",
+    "plays": 205,
+    "plays_fmt": "205",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44"
    },
    {
@@ -447,8 +447,8 @@
    {
     "album": "HOME COLLECTION",
     "artist": "Home",
-    "plays": 147,
-    "plays_fmt": "147",
+    "plays": 149,
+    "plays_fmt": "149",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
    },
    {
@@ -461,8 +461,8 @@
    {
     "album": "135",
     "artist": "wanbed",
-    "plays": 143,
-    "plays_fmt": "143",
+    "plays": 144,
+    "plays_fmt": "144",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/8f67506eb69e1457aed72a3f1273f862.jpg"
    },
    {
@@ -587,21 +587,21 @@
    },
    {
     "month": "8",
-    "plays": 1507,
-    "plays_fmt": "1,507",
-    "pct": 28
+    "plays": 1653,
+    "plays_fmt": "1,653",
+    "pct": 30
    }
   ]
  },
  "week": {
-  "total": 894,
-  "total_fmt": "894",
-  "uniq_art": 470,
-  "uniq_art_fmt": "470",
-  "uniq_trk": 648,
-  "uniq_trk_fmt": "648",
-  "start": "8/6",
-  "end": "8/12",
+  "total": 931,
+  "total_fmt": "931",
+  "uniq_art": 497,
+  "uniq_art_fmt": "497",
+  "uniq_trk": 696,
+  "uniq_trk_fmt": "696",
+  "start": "8/7",
+  "end": "8/13",
   "top_art": [
    {
     "artist": "700度の火を持って、 私は人とすれちがっている",
@@ -609,6 +609,13 @@
     "plays_fmt": "10",
     "img": "https://i.scdn.co/image/ab6761610000e5eb1272482edecc688e3d186f96",
     "pct": 100
+   },
+   {
+    "artist": "AoOo",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
+    "pct": 90
    },
    {
     "artist": "THE RAPTOLS",
@@ -625,52 +632,45 @@
     "pct": 90
    },
    {
+    "artist": "Cyan",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb10edce23f433e82fbe5cf41b",
+    "pct": 80
+   },
+   {
     "artist": "the Wulongs",
-    "plays": 9,
-    "plays_fmt": "9",
+    "plays": 8,
+    "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
-    "pct": 90
+    "pct": 80
+   },
+   {
+    "artist": "ue",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": null,
+    "pct": 80
+   },
+   {
+    "artist": "あたまたんさん",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44",
+    "pct": 80
    },
    {
     "artist": "夜標",
-    "plays": 9,
-    "plays_fmt": "9",
+    "plays": 8,
+    "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab67616d0000b27351e19785c99f993a0cfba5ce",
-    "pct": 90
-   },
-   {
-    "artist": "AoOo",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
     "pct": 80
-   },
-   {
-    "artist": "Muque",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f",
-    "pct": 80
-   },
-   {
-    "artist": "Aonowa",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb83e8fdf933b8b52d934bc28f",
-    "pct": 70
    },
    {
     "artist": "Black Boboi",
     "plays": 7,
     "plays_fmt": "7",
     "img": "https://i.scdn.co/image/ab6761610000e5eb173cb515bfb6ca8f05dc2aca",
-    "pct": 70
-   },
-   {
-    "artist": "Cheche",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb14295c025afeac9fea39f0f2",
     "pct": 70
    }
   ],
@@ -683,13 +683,6 @@
     "img": "https://i.scdn.co/image/ab6761610000e5eb1272482edecc688e3d186f96"
    },
    {
-    "album": "FACH",
-    "artist": "the Wulongs",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/98f2e6391df7025c381117edd5682cb7.jpg"
-   },
-   {
     "album": "Daisy",
     "artist": "THE RAPTOLS",
     "plays": 8,
@@ -697,11 +690,46 @@
     "img": "https://i.scdn.co/image/ab6761610000e5eb5e209ce7745d126d3a3104a6"
    },
    {
-    "album": "I'm Busy",
-    "artist": "Cheche",
+    "album": "FACH",
+    "artist": "the Wulongs",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/98f2e6391df7025c381117edd5682cb7.jpg"
+   },
+   {
+    "album": "Landscapes Entwined",
+    "artist": "ue",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/f2b935a3f4b57eaa918ebd81e5490650.jpg"
+   },
+   {
+    "album": "鉄の掟",
+    "artist": "あたまたんさん",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44"
+   },
+   {
+    "album": "EMBERS",
+    "artist": "kobore",
     "plays": 7,
     "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb14295c025afeac9fea39f0f2"
+    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24"
+   },
+   {
+    "album": "HOME COLLECTION",
+    "artist": "Home",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
+   },
+   {
+    "album": "Rooom",
+    "artist": "AoOo",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/da74e0f56cc6364849b7ac888d3492d5.jpg"
    },
    {
     "album": "Sepia",
@@ -711,39 +739,11 @@
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/158d6943703e6cd30388cd6dba40f635.jpg"
    },
    {
-    "album": "鉄の掟",
-    "artist": "あたまたんさん",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44"
-   },
-   {
-    "album": "2rue end",
-    "artist": "Tattletale",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/9bd64b52566248afa9e86accd8c604b6.jpg"
-   },
-   {
-    "album": "EMBERS",
-    "artist": "kobore",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24"
-   },
-   {
     "album": "Fading",
     "artist": "夜標",
     "plays": 6,
     "plays_fmt": "6",
     "img": "https://i.scdn.co/image/ab67616d0000b27351e19785c99f993a0cfba5ce"
-   },
-   {
-    "album": "Flight '26",
-    "artist": "Ludens",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb39f16ed2969825cee8ee66f3"
    }
   ],
   "top_trk": [
@@ -752,6 +752,12 @@
     "artist": "700度の火を持って、 私は人とすれちがっている",
     "plays": 6,
     "plays_fmt": "6"
+   },
+   {
+    "track": "だめだめ",
+    "artist": "Cyan",
+    "plays": 5,
+    "plays_fmt": "5"
    },
    {
     "track": "August 40th",
@@ -766,14 +772,14 @@
     "plays_fmt": "4"
    },
    {
-    "track": "Laugh",
-    "artist": "THE RAPTOLS",
+    "track": "Heartland Green",
+    "artist": "enmacorekiyo",
     "plays": 4,
     "plays_fmt": "4"
    },
    {
-    "track": "Paper",
-    "artist": "Cheche",
+    "track": "Laugh",
+    "artist": "THE RAPTOLS",
     "plays": 4,
     "plays_fmt": "4"
    },
@@ -790,31 +796,19 @@
     "plays_fmt": "4"
    },
    {
-    "track": "だめだめ",
-    "artist": "Cyan",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
     "track": "北抜",
     "artist": "あたまたんさん",
     "plays": 4,
     "plays_fmt": "4"
    },
    {
-    "track": "All I want is your heart",
-    "artist": "おどるアナグマ",
+    "track": "April Showers",
+    "artist": "the Wulongs",
     "plays": 3,
     "plays_fmt": "3"
    }
   ],
   "by_day": [
-   {
-    "day": "8/6",
-    "plays": 109,
-    "plays_fmt": "109",
-    "pct": 66
-   },
    {
     "day": "8/7",
     "plays": 132,
@@ -847,9 +841,15 @@
    },
    {
     "day": "8/12",
-    "plays": 143,
-    "plays_fmt": "143",
+    "plays": 144,
+    "plays_fmt": "144",
     "pct": 87
+   },
+   {
+    "day": "8/13",
+    "plays": 145,
+    "plays_fmt": "145",
+    "pct": 88
    }
   ]
  }
