@@ -2,12 +2,12 @@
  "generated": "2026-08-14",
  "year_label": "2026",
  "all": {
-  "total": 212920,
-  "total_fmt": "212,920",
-  "uniq_art": 7280,
-  "uniq_art_fmt": "7,280",
-  "uniq_trk": 30385,
-  "uniq_trk_fmt": "30,385",
+  "total": 213000,
+  "total_fmt": "213,000",
+  "uniq_art": 7290,
+  "uniq_art_fmt": "7,290",
+  "uniq_trk": 30415,
+  "uniq_trk_fmt": "30,415",
   "start": "2018-03-06",
   "end": "2026-08-14",
   "top_art": [
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 29833,
-    "plays_fmt": "29,833",
+    "plays": 29913,
+    "plays_fmt": "29,913",
     "pct": 55
    }
   ],
@@ -323,24 +323,24 @@
    },
    {
     "year": "2026",
-    "count": 911,
-    "count_fmt": "911",
+    "count": 921,
+    "count_fmt": "921",
     "pct": 38
    }
   ]
  },
  "year": {
-  "total": 29833,
-  "total_fmt": "29,833",
-  "uniq_art": 2712,
-  "uniq_art_fmt": "2,712",
-  "uniq_trk": 7521,
-  "uniq_trk_fmt": "7,521",
+  "total": 29913,
+  "total_fmt": "29,913",
+  "uniq_art": 2727,
+  "uniq_art_fmt": "2,727",
+  "uniq_trk": 7551,
+  "uniq_trk_fmt": "7,551",
   "top_art": [
    {
     "artist": "Kienai",
-    "plays": 247,
-    "plays_fmt": "247",
+    "plays": 248,
+    "plays_fmt": "248",
     "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481",
     "pct": 100
    },
@@ -349,7 +349,7 @@
     "plays": 241,
     "plays_fmt": "241",
     "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf",
-    "pct": 98
+    "pct": 97
    },
    {
     "artist": "BUDOU JUICE",
@@ -398,7 +398,7 @@
     "plays": 157,
     "plays_fmt": "157",
     "img": "https://i.scdn.co/image/ab6761610000e5eb7e17378b89a11d4110d0a4c6",
-    "pct": 64
+    "pct": 63
    },
    {
     "artist": "tenbin O",
@@ -412,8 +412,8 @@
    {
     "album": "sparkleII",
     "artist": "Kienai",
-    "plays": 244,
-    "plays_fmt": "244",
+    "plays": 245,
+    "plays_fmt": "245",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/1c6a42ba2640cb0ed267d0c9d6a5f106.jpg"
    },
    {
@@ -526,8 +526,8 @@
    {
     "track": "way back",
     "artist": "Kienai",
-    "plays": 55,
-    "plays_fmt": "55"
+    "plays": 56,
+    "plays_fmt": "56"
    },
    {
     "track": "tanya",
@@ -587,100 +587,121 @@
    },
    {
     "month": "8",
-    "plays": 1685,
-    "plays_fmt": "1,685",
-    "pct": 31
+    "plays": 1765,
+    "plays_fmt": "1,765",
+    "pct": 32
    }
   ]
  },
  "week": {
-  "total": 831,
-  "total_fmt": "831",
-  "uniq_art": 465,
-  "uniq_art_fmt": "465",
-  "uniq_trk": 643,
-  "uniq_trk_fmt": "643",
+  "total": 911,
+  "total_fmt": "911",
+  "uniq_art": 495,
+  "uniq_art_fmt": "495",
+  "uniq_trk": 691,
+  "uniq_trk_fmt": "691",
   "start": "8/8",
   "end": "8/14",
   "top_art": [
+   {
+    "artist": "googoosuu",
+    "plays": 19,
+    "plays_fmt": "19",
+    "img": null,
+    "pct": 100
+   },
    {
     "artist": "MASS OF THE FERMENTING DREGS",
     "plays": 15,
     "plays_fmt": "15",
     "img": "https://i.scdn.co/image/ab6761610000e5eb53a61972ed2f11fb3e690dfe",
-    "pct": 100
+    "pct": 79
+   },
+   {
+    "artist": "エスキベル",
+    "plays": 11,
+    "plays_fmt": "11",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb1f73b0e1d212e3740ab97b9b",
+    "pct": 58
+   },
+   {
+    "artist": "Fennel",
+    "plays": 10,
+    "plays_fmt": "10",
+    "img": "https://i.scdn.co/image/ab67616d0000b273a8e29c5477044b5cd876110a",
+    "pct": 53
    },
    {
     "artist": "AoOo",
     "plays": 8,
     "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
-    "pct": 53
+    "pct": 42
    },
    {
     "artist": "夜標",
     "plays": 8,
     "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab67616d0000b27351e19785c99f993a0cfba5ce",
-    "pct": 53
+    "pct": 42
    },
    {
     "artist": "Black Boboi",
     "plays": 7,
     "plays_fmt": "7",
     "img": "https://i.scdn.co/image/ab6761610000e5eb173cb515bfb6ca8f05dc2aca",
-    "pct": 47
+    "pct": 37
    },
    {
     "artist": "the Wulongs",
     "plays": 7,
     "plays_fmt": "7",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
-    "pct": 47
+    "pct": 37
    },
    {
     "artist": "DJ Okawari",
     "plays": 6,
     "plays_fmt": "6",
     "img": "https://i.scdn.co/image/ab6761610000e5eb6a2ebe53d2b1bf565ae437b9",
-    "pct": 40
+    "pct": 32
    },
    {
-    "artist": "Fennel",
+    "artist": "Fall of Tears",
     "plays": 6,
     "plays_fmt": "6",
-    "img": "https://i.scdn.co/image/ab67616d0000b273a8e29c5477044b5cd876110a",
-    "pct": 40
-   },
-   {
-    "artist": "Home",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
-    "pct": 40
-   },
-   {
-    "artist": "Muque",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f",
-    "pct": 40
-   },
-   {
-    "artist": "Yabai T-Shirts Yasan",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": "https://i.scdn.co/image/ab6761610000e5eba4942c76d42f415e9d903ed9",
-    "pct": 40
+    "img": "https://i.scdn.co/image/ab6761610000e5ebb1b34784a7410e5bd15edd80",
+    "pct": 32
    }
   ],
   "top_alb": [
+   {
+    "album": "taiongaagaru",
+    "artist": "googoosuu",
+    "plays": 17,
+    "plays_fmt": "17",
+    "img": null
+   },
    {
     "album": "IWAOU",
     "artist": "MASS OF THE FERMENTING DREGS",
     "plays": 15,
     "plays_fmt": "15",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/287d2f91bc7309cb9d73b671d6992d89.jpg"
+   },
+   {
+    "album": "Overthere",
+    "artist": "エスキベル",
+    "plays": 11,
+    "plays_fmt": "11",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/3afa2592370c3feea0ae29ad9875c2c9.jpg"
+   },
+   {
+    "album": "Love and Haze",
+    "artist": "Fennel",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/1e8c3c5058810db126c330b7ad0d5ad4.jpg"
    },
    {
     "album": "FACH",
@@ -723,30 +744,21 @@
     "plays": 6,
     "plays_fmt": "6",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/f2b935a3f4b57eaa918ebd81e5490650.jpg"
-   },
-   {
-    "album": "Magical Tank-top Parade",
-    "artist": "Yabai T-Shirts Yasan",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/c4516a9b5490c706796e39a651d9b1a9.jpg"
-   },
-   {
-    "album": "鉄の掟",
-    "artist": "あたまたんさん",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44"
-   },
-   {
-    "album": "135",
-    "artist": "wanbed",
-    "plays": 5,
-    "plays_fmt": "5",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/8f67506eb69e1457aed72a3f1273f862.jpg"
    }
   ],
   "top_trk": [
+   {
+    "track": "frontline",
+    "artist": "googoosuu",
+    "plays": 9,
+    "plays_fmt": "9"
+   },
+   {
+    "track": "STORY",
+    "artist": "googoosuu",
+    "plays": 5,
+    "plays_fmt": "5"
+   },
    {
     "track": "Doppelgänger",
     "artist": "FRIDAY CATS",
@@ -790,20 +802,8 @@
     "plays_fmt": "3"
    },
    {
-    "track": "ECHO",
-    "artist": "Name the Night",
-    "plays": 3,
-    "plays_fmt": "3"
-   },
-   {
-    "track": "GHOST",
-    "artist": "MASS OF THE FERMENTING DREGS",
-    "plays": 3,
-    "plays_fmt": "3"
-   },
-   {
-    "track": "Homecoming",
-    "artist": "eskamila",
+    "track": "By the moon's edge",
+    "artist": "0.2lx",
     "plays": 3,
     "plays_fmt": "3"
    }
@@ -847,9 +847,9 @@
    },
    {
     "day": "8/14",
-    "plays": 31,
-    "plays_fmt": "31",
-    "pct": 19
+    "plays": 111,
+    "plays_fmt": "111",
+    "pct": 67
    }
   ]
  }

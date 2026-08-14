@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7280,
- "total_artists_fmt": "7,280",
+ "total_artists": 7290,
+ "total_artists_fmt": "7,290",
  "missing_img": 9,
  "artists": [
   {
@@ -66,8 +66,8 @@
   },
   {
    "name": "Dannie May",
-   "plays": 721,
-   "plays_fmt": "721",
+   "plays": 722,
+   "plays_fmt": "722",
    "img": "https://i.scdn.co/image/ab6761610000e5eb9629e866cc65376368fe66a8"
   },
   {
@@ -138,8 +138,8 @@
   },
   {
    "name": "reGretGirl",
-   "plays": 588,
-   "plays_fmt": "588",
+   "plays": 589,
+   "plays_fmt": "589",
    "img": "https://i.scdn.co/image/ab6761610000e5eb003605944411f68127e75169"
   },
   {
@@ -282,8 +282,8 @@
   },
   {
    "name": "WANIMA",
-   "plays": 442,
-   "plays_fmt": "442",
+   "plays": 443,
+   "plays_fmt": "443",
    "img": "https://i.scdn.co/image/ab6761610000e5eb37c85e7d09ce8668eab4a480"
   },
   {
