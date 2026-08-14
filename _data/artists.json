@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7278,
- "total_artists_fmt": "7,278",
+ "total_artists": 7280,
+ "total_artists_fmt": "7,280",
  "missing_img": 9,
  "artists": [
   {
@@ -563,6 +563,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb51d099e01631361e50ce714d"
   },
   {
+   "name": "Cephalo",
+   "plays": 317,
+   "plays_fmt": "317",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebeadedb0cf2a489ca33090611"
+  },
+  {
    "name": "Miu Mau",
    "plays": 317,
    "plays_fmt": "317",
@@ -585,12 +591,6 @@
    "plays": 316,
    "plays_fmt": "316",
    "img": "https://i.scdn.co/image/ab6761610000e5ebdf2dbfb158e48df25bd49477"
-  },
-  {
-   "name": "Cephalo",
-   "plays": 315,
-   "plays_fmt": "315",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebeadedb0cf2a489ca33090611"
   },
   {
    "name": "DurdN",
