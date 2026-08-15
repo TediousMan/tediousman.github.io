@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7290,
- "total_artists_fmt": "7,290",
+ "total_artists": 7292,
+ "total_artists_fmt": "7,292",
  "missing_img": 9,
  "artists": [
   {
@@ -90,8 +90,8 @@
   },
   {
    "name": "kobore",
-   "plays": 639,
-   "plays_fmt": "639",
+   "plays": 640,
+   "plays_fmt": "640",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24"
   },
   {
@@ -426,8 +426,8 @@
   },
   {
    "name": "Muque",
-   "plays": 360,
-   "plays_fmt": "360",
+   "plays": 361,
+   "plays_fmt": "361",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
   },
   {
@@ -443,16 +443,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb74d551d6dbd3e14c7de78ab2"
   },
   {
+   "name": "Home",
+   "plays": 352,
+   "plays_fmt": "352",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
+  },
+  {
    "name": "Furui Riho",
    "plays": 349,
    "plays_fmt": "349",
    "img": "https://i.scdn.co/image/ab6761610000e5ebff647d0f64da73922aad0cd5"
-  },
-  {
-   "name": "Home",
-   "plays": 349,
-   "plays_fmt": "349",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
    "name": "miida",
@@ -618,8 +618,8 @@
   },
   {
    "name": "coldrain",
-   "plays": 308,
-   "plays_fmt": "308",
+   "plays": 309,
+   "plays_fmt": "309",
    "img": "https://i.scdn.co/image/ab6761610000e5eb790734bdee501b47713b4afe"
   },
   {
@@ -785,16 +785,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb00e06631e438aa05cbd62f09"
   },
   {
+   "name": "Have a nice day!",
+   "plays": 272,
+   "plays_fmt": "272",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
+  },
+  {
    "name": "Haruno",
    "plays": 271,
    "plays_fmt": "271",
    "img": "https://i.scdn.co/image/ab67616d0000b2731494a1e1507f8dbfbce8f2df"
-  },
-  {
-   "name": "Have a nice day!",
-   "plays": 271,
-   "plays_fmt": "271",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
   },
   {
    "name": "36km/h",
@@ -816,8 +816,8 @@
   },
   {
    "name": "ホピーハイボ",
-   "plays": 265,
-   "plays_fmt": "265",
+   "plays": 266,
+   "plays_fmt": "266",
    "img": "https://i.scdn.co/image/ab6761610000e5eb0eef43e8d0a6ef8f2fe0cae6"
   },
   {
