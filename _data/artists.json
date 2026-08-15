@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7292,
- "total_artists_fmt": "7,292",
+ "total_artists": 7294,
+ "total_artists_fmt": "7,294",
  "missing_img": 9,
  "artists": [
   {
@@ -18,8 +18,8 @@
   },
   {
    "name": "chilldspot",
-   "plays": 1031,
-   "plays_fmt": "1,031",
+   "plays": 1032,
+   "plays_fmt": "1,032",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfffcd64678af9f7b7bab7832"
   },
   {
@@ -36,8 +36,8 @@
   },
   {
    "name": "KROI",
-   "plays": 865,
-   "plays_fmt": "865",
+   "plays": 866,
+   "plays_fmt": "866",
    "img": "https://i.scdn.co/image/ab6761610000e5eb3891ccf48bd7eb050237f789"
   },
   {
@@ -90,8 +90,8 @@
   },
   {
    "name": "kobore",
-   "plays": 640,
-   "plays_fmt": "640",
+   "plays": 642,
+   "plays_fmt": "642",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24"
   },
   {
@@ -161,16 +161,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb92da714ece35430b9155771c"
   },
   {
+   "name": "緑黄色社会",
+   "plays": 557,
+   "plays_fmt": "557",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebd9a48d00ce7cf4d66abc76b6"
+  },
+  {
    "name": "A子",
    "plays": 556,
    "plays_fmt": "556",
    "img": "https://i.scdn.co/image/ab6761610000e5ebf0ba97c426926eefb55b82be"
-  },
-  {
-   "name": "緑黄色社会",
-   "plays": 556,
-   "plays_fmt": "556",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebd9a48d00ce7cf4d66abc76b6"
   },
   {
    "name": "WOLVEs GROOVY",
@@ -342,8 +342,8 @@
   },
   {
    "name": "GOHOBI",
-   "plays": 386,
-   "plays_fmt": "386",
+   "plays": 387,
+   "plays_fmt": "387",
    "img": "https://i.scdn.co/image/ab6761610000e5eb93311cae2f611f16a5d84e43"
   },
   {
@@ -407,16 +407,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb13b71cf0b4e9aca839ca6c72"
   },
   {
+   "name": "Vaundy",
+   "plays": 368,
+   "plays_fmt": "368",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebb718d2d3988005d3a72f22c9"
+  },
+  {
    "name": "えんぷてい",
    "plays": 368,
    "plays_fmt": "368",
    "img": "https://i.scdn.co/image/ab6761610000e5eb11b3475e61b812fbe2327bd0"
-  },
-  {
-   "name": "Vaundy",
-   "plays": 367,
-   "plays_fmt": "367",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebb718d2d3988005d3a72f22c9"
   },
   {
    "name": "life crown",
@@ -426,8 +426,8 @@
   },
   {
    "name": "Muque",
-   "plays": 361,
-   "plays_fmt": "361",
+   "plays": 363,
+   "plays_fmt": "363",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
   },
   {
@@ -575,6 +575,12 @@
    "img": "https://i.scdn.co/image/ab67616d0000b273f7450eb7f1ad638f0665d298"
   },
   {
+   "name": "Reol",
+   "plays": 317,
+   "plays_fmt": "317",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebdf2dbfb158e48df25bd49477"
+  },
+  {
    "name": "sawamay",
    "plays": 317,
    "plays_fmt": "317",
@@ -585,12 +591,6 @@
    "plays": 316,
    "plays_fmt": "316",
    "img": "https://i.scdn.co/image/ab6761610000e5ebcc959cd12f18b2c2a2baa2c7"
-  },
-  {
-   "name": "Reol",
-   "plays": 316,
-   "plays_fmt": "316",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebdf2dbfb158e48df25bd49477"
   },
   {
    "name": "DurdN",
@@ -696,8 +696,8 @@
   },
   {
    "name": "YONA YONA WEEKENDERS",
-   "plays": 286,
-   "plays_fmt": "286",
+   "plays": 287,
+   "plays_fmt": "287",
    "img": "https://i.scdn.co/image/ab6761610000e5eb6b91739a5b0e997957fff733"
   },
   {

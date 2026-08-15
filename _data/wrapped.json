@@ -2,12 +2,12 @@
  "generated": "2026-08-15",
  "year_label": "2026",
  "all": {
-  "total": 213054,
-  "total_fmt": "213,054",
-  "uniq_art": 7292,
-  "uniq_art_fmt": "7,292",
-  "uniq_trk": 30420,
-  "uniq_trk_fmt": "30,420",
+  "total": 213151,
+  "total_fmt": "213,151",
+  "uniq_art": 7294,
+  "uniq_art_fmt": "7,294",
+  "uniq_trk": 30423,
+  "uniq_trk_fmt": "30,423",
   "start": "2018-03-06",
   "end": "2026-08-15",
   "top_art": [
@@ -27,8 +27,8 @@
    },
    {
     "artist": "chilldspot",
-    "plays": 1031,
-    "plays_fmt": "1,031",
+    "plays": 1032,
+    "plays_fmt": "1,032",
     "img": "https://i.scdn.co/image/ab6761610000e5ebfffcd64678af9f7b7bab7832",
     "pct": 99
    },
@@ -48,8 +48,8 @@
    },
    {
     "artist": "KROI",
-    "plays": 865,
-    "plays_fmt": "865",
+    "plays": 866,
+    "plays_fmt": "866",
     "img": "https://i.scdn.co/image/ab6761610000e5eb3891ccf48bd7eb050237f789",
     "pct": 83
    },
@@ -267,9 +267,9 @@
    },
    {
     "year": "2026",
-    "plays": 29967,
-    "plays_fmt": "29,967",
-    "pct": 55
+    "plays": 30064,
+    "plays_fmt": "30,064",
+    "pct": 56
    }
   ],
   "new_art_by_year": [
@@ -323,19 +323,19 @@
    },
    {
     "year": "2026",
-    "count": 923,
-    "count_fmt": "923",
+    "count": 925,
+    "count_fmt": "925",
     "pct": 38
    }
   ]
  },
  "year": {
-  "total": 29967,
-  "total_fmt": "29,967",
-  "uniq_art": 2729,
-  "uniq_art_fmt": "2,729",
-  "uniq_trk": 7556,
-  "uniq_trk_fmt": "7,556",
+  "total": 30064,
+  "total_fmt": "30,064",
+  "uniq_art": 2731,
+  "uniq_art_fmt": "2,731",
+  "uniq_trk": 7559,
+  "uniq_trk_fmt": "7,559",
   "top_art": [
    {
     "artist": "Kienai",
@@ -353,8 +353,8 @@
    },
    {
     "artist": "BUDOU JUICE",
-    "plays": 223,
-    "plays_fmt": "223",
+    "plays": 224,
+    "plays_fmt": "224",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f",
     "pct": 90
    },
@@ -381,10 +381,10 @@
    },
    {
     "artist": "uyuu",
-    "plays": 169,
-    "plays_fmt": "169",
+    "plays": 170,
+    "plays_fmt": "170",
     "img": "https://i.scdn.co/image/ab67616d0000b27381582c0fb8f5908a6aee7f3e",
-    "pct": 68
+    "pct": 69
    },
    {
     "artist": "wanbed",
@@ -514,8 +514,8 @@
    {
     "track": "浴槽",
     "artist": "夜標",
-    "plays": 69,
-    "plays_fmt": "69"
+    "plays": 70,
+    "plays_fmt": "70"
    },
    {
     "track": "Panzamast",
@@ -530,14 +530,14 @@
     "plays_fmt": "56"
    },
    {
-    "track": "tanya",
-    "artist": "SHIKUMI",
+    "track": "banka",
+    "artist": "Quw",
     "plays": 50,
     "plays_fmt": "50"
    },
    {
-    "track": "ドライブ",
-    "artist": "Have a nice day!",
+    "track": "tanya",
+    "artist": "SHIKUMI",
     "plays": 50,
     "plays_fmt": "50"
    }
@@ -587,19 +587,19 @@
    },
    {
     "month": "8",
-    "plays": 1819,
-    "plays_fmt": "1,819",
-    "pct": 33
+    "plays": 1916,
+    "plays_fmt": "1,916",
+    "pct": 35
    }
   ]
  },
  "week": {
-  "total": 894,
-  "total_fmt": "894",
-  "uniq_art": 495,
-  "uniq_art_fmt": "495",
-  "uniq_trk": 691,
-  "uniq_trk_fmt": "691",
+  "total": 991,
+  "total_fmt": "991",
+  "uniq_art": 497,
+  "uniq_art_fmt": "497",
+  "uniq_trk": 694,
+  "uniq_trk_fmt": "694",
   "start": "8/9",
   "end": "8/15",
   "top_art": [
@@ -612,17 +612,17 @@
    },
    {
     "artist": "MASS OF THE FERMENTING DREGS",
-    "plays": 15,
-    "plays_fmt": "15",
+    "plays": 16,
+    "plays_fmt": "16",
     "img": "https://i.scdn.co/image/ab6761610000e5eb53a61972ed2f11fb3e690dfe",
-    "pct": 79
+    "pct": 84
    },
    {
     "artist": "エスキベル",
-    "plays": 12,
-    "plays_fmt": "12",
+    "plays": 13,
+    "plays_fmt": "13",
     "img": "https://i.scdn.co/image/ab6761610000e5eb1f73b0e1d212e3740ab97b9b",
-    "pct": 63
+    "pct": 68
    },
    {
     "artist": "Fennel",
@@ -639,6 +639,27 @@
     "pct": 47
    },
    {
+    "artist": "kobore",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24",
+    "pct": 47
+   },
+   {
+    "artist": "Pitch Blue",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": null,
+    "pct": 42
+   },
+   {
+    "artist": "Yabai T-Shirts Yasan",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5eba4942c76d42f415e9d903ed9",
+    "pct": 42
+   },
+   {
     "artist": "AoOo",
     "plays": 7,
     "plays_fmt": "7",
@@ -650,27 +671,6 @@
     "plays": 7,
     "plays_fmt": "7",
     "img": "https://i.scdn.co/image/ab6761610000e5eb173cb515bfb6ca8f05dc2aca",
-    "pct": 37
-   },
-   {
-    "artist": "Fall of Tears",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebb1b34784a7410e5bd15edd80",
-    "pct": 37
-   },
-   {
-    "artist": "Yabai T-Shirts Yasan",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eba4942c76d42f415e9d903ed9",
-    "pct": 37
-   },
-   {
-    "artist": "kobore",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24",
     "pct": 37
    }
   ],
@@ -685,15 +685,15 @@
    {
     "album": "IWAOU",
     "artist": "MASS OF THE FERMENTING DREGS",
-    "plays": 15,
-    "plays_fmt": "15",
+    "plays": 16,
+    "plays_fmt": "16",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/287d2f91bc7309cb9d73b671d6992d89.jpg"
    },
    {
     "album": "Overthere",
     "artist": "エスキベル",
-    "plays": 12,
-    "plays_fmt": "12",
+    "plays": 13,
+    "plays_fmt": "13",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/3afa2592370c3feea0ae29ad9875c2c9.jpg"
    },
    {
@@ -713,9 +713,16 @@
    {
     "album": "Magical Tank-top Parade",
     "artist": "Yabai T-Shirts Yasan",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/c4516a9b5490c706796e39a651d9b1a9.jpg"
+   },
+   {
+    "album": "Landscapes Entwined",
+    "artist": "ue",
     "plays": 7,
     "plays_fmt": "7",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/c4516a9b5490c706796e39a651d9b1a9.jpg"
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/f2b935a3f4b57eaa918ebd81e5490650.jpg"
    },
    {
     "album": "Sepia",
@@ -725,25 +732,18 @@
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/158d6943703e6cd30388cd6dba40f635.jpg"
    },
    {
-    "album": "FACH",
-    "artist": "the Wulongs",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/98f2e6391df7025c381117edd5682cb7.jpg"
+    "album": "rasen",
+    "artist": "Pitch Blue",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": null
    },
    {
-    "album": "Landscapes Entwined",
-    "artist": "ue",
+    "album": "Cabin",
+    "artist": "wAlm",
     "plays": 6,
     "plays_fmt": "6",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/f2b935a3f4b57eaa918ebd81e5490650.jpg"
-   },
-   {
-    "album": "Rooom",
-    "artist": "AoOo",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/da74e0f56cc6364849b7ac888d3492d5.jpg"
+    "img": "https://i.scdn.co/image/ab6761610000e5eb113b23baf1b1ac291f601005"
    }
   ],
   "top_trk": [
@@ -752,6 +752,12 @@
     "artist": "googoosuu",
     "plays": 9,
     "plays_fmt": "9"
+   },
+   {
+    "track": "rasen",
+    "artist": "Pitch Blue",
+    "plays": 8,
+    "plays_fmt": "8"
    },
    {
     "track": "STORY",
@@ -766,6 +772,30 @@
     "plays_fmt": "4"
    },
    {
+    "track": "demo8",
+    "artist": "Don't Trust Freshmen!!",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "日照り",
+    "artist": "エスキベル",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "246",
+    "artist": "RAINBOW BELTZ",
+    "plays": 3,
+    "plays_fmt": "3"
+   },
+   {
+    "track": "Angel's Egg",
+    "artist": "Ute",
+    "plays": 3,
+    "plays_fmt": "3"
+   },
+   {
     "track": "April Showers",
     "artist": "the Wulongs",
     "plays": 3,
@@ -774,36 +804,6 @@
    {
     "track": "Blind",
     "artist": "wanbed",
-    "plays": 3,
-    "plays_fmt": "3"
-   },
-   {
-    "track": "Bokura Futarikiri",
-    "artist": "Hammer Head Shark",
-    "plays": 3,
-    "plays_fmt": "3"
-   },
-   {
-    "track": "Bookshelf",
-    "artist": "Forbear",
-    "plays": 3,
-    "plays_fmt": "3"
-   },
-   {
-    "track": "By the moon's edge",
-    "artist": "0.2lx",
-    "plays": 3,
-    "plays_fmt": "3"
-   },
-   {
-    "track": "Crush me",
-    "artist": "Sympathy",
-    "plays": 3,
-    "plays_fmt": "3"
-   },
-   {
-    "track": "Crystalheads.",
-    "artist": "TOKYO EAST TAPES CLUB",
     "plays": 3,
     "plays_fmt": "3"
    }
@@ -847,9 +847,9 @@
    },
    {
     "day": "8/15",
-    "plays": 37,
-    "plays_fmt": "37",
-    "pct": 22
+    "plays": 134,
+    "plays_fmt": "134",
+    "pct": 81
    }
   ]
  }
