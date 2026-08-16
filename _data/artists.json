@@ -30,14 +30,14 @@
   },
   {
    "name": "クレナズム",
-   "plays": 880,
-   "plays_fmt": "880",
+   "plays": 881,
+   "plays_fmt": "881",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfd833836d124624e366ed252"
   },
   {
    "name": "KROI",
-   "plays": 866,
-   "plays_fmt": "866",
+   "plays": 867,
+   "plays_fmt": "867",
    "img": "https://i.scdn.co/image/ab6761610000e5eb3891ccf48bd7eb050237f789"
   },
   {
@@ -90,8 +90,8 @@
   },
   {
    "name": "kobore",
-   "plays": 642,
-   "plays_fmt": "642",
+   "plays": 643,
+   "plays_fmt": "643",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24"
   },
   {
@@ -144,8 +144,8 @@
   },
   {
    "name": "Hakubi",
-   "plays": 581,
-   "plays_fmt": "581",
+   "plays": 582,
+   "plays_fmt": "582",
    "img": "https://i.scdn.co/image/ab6761610000e5eba205df6c2dd898c3f39b35ec"
   },
   {
@@ -179,21 +179,21 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb072f226440f065b9396dad04"
   },
   {
+   "name": "The Otals",
+   "plays": 549,
+   "plays_fmt": "549",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebe880728367d115f0c7dfceb6"
+  },
+  {
    "name": "KANEYORIMASARU",
    "plays": 548,
    "plays_fmt": "548",
    "img": "https://i.scdn.co/image/ab6761610000e5eb4a044f7e38167e6ad55d41cd"
   },
   {
-   "name": "The Otals",
-   "plays": 548,
-   "plays_fmt": "548",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebe880728367d115f0c7dfceb6"
-  },
-  {
    "name": "BRADIO",
-   "plays": 546,
-   "plays_fmt": "546",
+   "plays": 547,
+   "plays_fmt": "547",
    "img": "https://i.scdn.co/image/ab6761610000e5eb1b468ea5308efde05767f7f3"
   },
   {
@@ -216,8 +216,8 @@
   },
   {
    "name": "PLUE",
-   "plays": 496,
-   "plays_fmt": "496",
+   "plays": 497,
+   "plays_fmt": "497",
    "img": "https://i.scdn.co/image/ab6761610000e5eb85209c8cac40615200957a58"
   },
   {
@@ -299,16 +299,16 @@
    "img": "https://i.scdn.co/image/ab67616d0000b273c845208c60073f8ed525f946"
   },
   {
+   "name": "Tokimeki Records",
+   "plays": 431,
+   "plays_fmt": "431",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb42c23eeeaedfb6c466f8b3e9"
+  },
+  {
    "name": "CLAN QUEEN",
    "plays": 430,
    "plays_fmt": "430",
    "img": "https://i.scdn.co/image/ab6761610000e5eb19ac44359f592f21110fa31c"
-  },
-  {
-   "name": "Tokimeki Records",
-   "plays": 430,
-   "plays_fmt": "430",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb42c23eeeaedfb6c466f8b3e9"
   },
   {
    "name": "Blurred City Lights",
@@ -408,8 +408,8 @@
   },
   {
    "name": "Vaundy",
-   "plays": 368,
-   "plays_fmt": "368",
+   "plays": 369,
+   "plays_fmt": "369",
    "img": "https://i.scdn.co/image/ab6761610000e5ebb718d2d3988005d3a72f22c9"
   },
   {
@@ -426,8 +426,8 @@
   },
   {
    "name": "Muque",
-   "plays": 363,
-   "plays_fmt": "363",
+   "plays": 364,
+   "plays_fmt": "364",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
   },
   {
@@ -444,8 +444,8 @@
   },
   {
    "name": "Home",
-   "plays": 352,
-   "plays_fmt": "352",
+   "plays": 354,
+   "plays_fmt": "354",
    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
@@ -557,6 +557,12 @@
    "img": "https://i.scdn.co/image/ab67616d0000b273da67bfdd172efa62a5d3470c"
   },
   {
+   "name": "Reol",
+   "plays": 318,
+   "plays_fmt": "318",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebdf2dbfb158e48df25bd49477"
+  },
+  {
    "name": "Youmentbay",
    "plays": 318,
    "plays_fmt": "318",
@@ -573,12 +579,6 @@
    "plays": 317,
    "plays_fmt": "317",
    "img": "https://i.scdn.co/image/ab67616d0000b273f7450eb7f1ad638f0665d298"
-  },
-  {
-   "name": "Reol",
-   "plays": 317,
-   "plays_fmt": "317",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebdf2dbfb158e48df25bd49477"
   },
   {
    "name": "sawamay",
@@ -672,8 +672,8 @@
   },
   {
    "name": "Luby Sparks",
-   "plays": 294,
-   "plays_fmt": "294",
+   "plays": 295,
+   "plays_fmt": "295",
    "img": "https://i.scdn.co/image/ab6761610000e5eb99833843219af1cdc66223fc"
   },
   {
@@ -779,21 +779,21 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebf6411427caa1a8d278ebacf0"
   },
   {
+   "name": "Have a nice day!",
+   "plays": 273,
+   "plays_fmt": "273",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
+  },
+  {
    "name": "アロワナレコード",
    "plays": 273,
    "plays_fmt": "273",
    "img": "https://i.scdn.co/image/ab6761610000e5eb00e06631e438aa05cbd62f09"
   },
   {
-   "name": "Have a nice day!",
+   "name": "Haruno",
    "plays": 272,
    "plays_fmt": "272",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
-  },
-  {
-   "name": "Haruno",
-   "plays": 271,
-   "plays_fmt": "271",
    "img": "https://i.scdn.co/image/ab67616d0000b2731494a1e1507f8dbfbce8f2df"
   },
   {
@@ -863,6 +863,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebae40b992ffa53731ab3e62bf"
   },
   {
+   "name": "Hammer Head Shark",
+   "plays": 261,
+   "plays_fmt": "261",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851"
+  },
+  {
    "name": "Kankaku Piero",
    "plays": 261,
    "plays_fmt": "261",
@@ -873,12 +879,6 @@
    "plays": 261,
    "plays_fmt": "261",
    "img": "https://i.scdn.co/image/ab6761610000e5eb93cd81967ea2a33ad6fa53f6"
-  },
-  {
-   "name": "Hammer Head Shark",
-   "plays": 260,
-   "plays_fmt": "260",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851"
   },
   {
    "name": "Yoake",
