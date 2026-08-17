@@ -1,15 +1,15 @@
 {
- "generated": "2026-08-16",
+ "generated": "2026-08-17",
  "year_label": "2026",
  "all": {
-  "total": 213350,
-  "total_fmt": "213,350",
+  "total": 213461,
+  "total_fmt": "213,461",
   "uniq_art": 7294,
   "uniq_art_fmt": "7,294",
   "uniq_trk": 30423,
   "uniq_trk_fmt": "30,423",
   "start": "2018-03-06",
-  "end": "2026-08-16",
+  "end": "2026-08-17",
   "top_art": [
    {
     "artist": "Mr.ふぉるて",
@@ -27,8 +27,8 @@
    },
    {
     "artist": "chilldspot",
-    "plays": 1032,
-    "plays_fmt": "1,032",
+    "plays": 1033,
+    "plays_fmt": "1,033",
     "img": "https://i.scdn.co/image/ab6761610000e5ebfffcd64678af9f7b7bab7832",
     "pct": 99
    },
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 30263,
-    "plays_fmt": "30,263",
+    "plays": 30374,
+    "plays_fmt": "30,374",
     "pct": 56
    }
   ],
@@ -330,8 +330,8 @@
   ]
  },
  "year": {
-  "total": 30263,
-  "total_fmt": "30,263",
+  "total": 30374,
+  "total_fmt": "30,374",
   "uniq_art": 2731,
   "uniq_art_fmt": "2,731",
   "uniq_trk": 7559,
@@ -353,8 +353,8 @@
    },
    {
     "artist": "BUDOU JUICE",
-    "plays": 224,
-    "plays_fmt": "224",
+    "plays": 225,
+    "plays_fmt": "225",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f",
     "pct": 90
    },
@@ -381,8 +381,8 @@
    },
    {
     "artist": "uyuu",
-    "plays": 171,
-    "plays_fmt": "171",
+    "plays": 172,
+    "plays_fmt": "172",
     "img": "https://i.scdn.co/image/ab67616d0000b27381582c0fb8f5908a6aee7f3e",
     "pct": 69
    },
@@ -454,8 +454,8 @@
    {
     "album": "日々、折り返すごとに",
     "artist": "爛漫天国",
-    "plays": 148,
-    "plays_fmt": "148",
+    "plays": 149,
+    "plays_fmt": "149",
     "img": "https://i.scdn.co/image/ab6761610000e5eb59ee187da2de942d5f50e0e0"
    },
    {
@@ -587,26 +587,26 @@
    },
    {
     "month": "8",
-    "plays": 2115,
-    "plays_fmt": "2,115",
-    "pct": 39
+    "plays": 2226,
+    "plays_fmt": "2,226",
+    "pct": 41
    }
   ]
  },
  "week": {
-  "total": 1028,
-  "total_fmt": "1,028",
-  "uniq_art": 434,
-  "uniq_art_fmt": "434",
-  "uniq_trk": 583,
-  "uniq_trk_fmt": "583",
-  "start": "8/10",
-  "end": "8/16",
+  "total": 1027,
+  "total_fmt": "1,027",
+  "uniq_art": 376,
+  "uniq_art_fmt": "376",
+  "uniq_trk": 497,
+  "uniq_trk_fmt": "497",
+  "start": "8/11",
+  "end": "8/17",
   "top_art": [
    {
     "artist": "googoosuu",
-    "plays": 22,
-    "plays_fmt": "22",
+    "plays": 23,
+    "plays_fmt": "23",
     "img": null,
     "pct": 100
    },
@@ -615,71 +615,71 @@
     "plays": 17,
     "plays_fmt": "17",
     "img": "https://i.scdn.co/image/ab6761610000e5eb53a61972ed2f11fb3e690dfe",
-    "pct": 77
+    "pct": 74
    },
    {
     "artist": "エスキベル",
-    "plays": 13,
-    "plays_fmt": "13",
+    "plays": 14,
+    "plays_fmt": "14",
     "img": "https://i.scdn.co/image/ab6761610000e5eb1f73b0e1d212e3740ab97b9b",
-    "pct": 59
+    "pct": 61
    },
    {
     "artist": "AoOo",
-    "plays": 11,
-    "plays_fmt": "11",
+    "plays": 12,
+    "plays_fmt": "12",
     "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
-    "pct": 50
+    "pct": 52
    },
    {
     "artist": "Fennel",
     "plays": 10,
     "plays_fmt": "10",
     "img": "https://i.scdn.co/image/ab67616d0000b273a8e29c5477044b5cd876110a",
-    "pct": 45
+    "pct": 43
+   },
+   {
+    "artist": "Forbear",
+    "plays": 10,
+    "plays_fmt": "10",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb1dd5e26af0ba32dc0330d5e7",
+    "pct": 43
    },
    {
     "artist": "Pitch Blue",
     "plays": 10,
     "plays_fmt": "10",
     "img": null,
-    "pct": 45
+    "pct": 43
    },
    {
-    "artist": "Fall of Tears",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebb1b34784a7410e5bd15edd80",
-    "pct": 41
+    "artist": "kobore",
+    "plays": 10,
+    "plays_fmt": "10",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24",
+    "pct": 43
    },
    {
     "artist": "Home",
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
-    "pct": 41
+    "pct": 39
    },
    {
-    "artist": "Yabai T-Shirts Yasan",
+    "artist": "Muque",
     "plays": 9,
     "plays_fmt": "9",
-    "img": "https://i.scdn.co/image/ab6761610000e5eba4942c76d42f415e9d903ed9",
-    "pct": 41
-   },
-   {
-    "artist": "kobore",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24",
-    "pct": 41
+    "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f",
+    "pct": 39
    }
   ],
   "top_alb": [
    {
     "album": "taiongaagaru",
     "artist": "googoosuu",
-    "plays": 20,
-    "plays_fmt": "20",
+    "plays": 21,
+    "plays_fmt": "21",
     "img": null
    },
    {
@@ -692,9 +692,16 @@
    {
     "album": "Overthere",
     "artist": "エスキベル",
-    "plays": 13,
-    "plays_fmt": "13",
+    "plays": 14,
+    "plays_fmt": "14",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/3afa2592370c3feea0ae29ad9875c2c9.jpg"
+   },
+   {
+    "album": "4songs Ⅱ",
+    "artist": "Forbear",
+    "plays": 10,
+    "plays_fmt": "10",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fa31be3a71cc8be0c802b47621bcf196.jpg"
    },
    {
     "album": "Love and Haze",
@@ -709,13 +716,6 @@
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
-   },
-   {
-    "album": "Landscapes Entwined",
-    "artist": "ue",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/f2b935a3f4b57eaa918ebd81e5490650.jpg"
    },
    {
     "album": "Magical Tank-top Parade",
@@ -739,19 +739,19 @@
     "img": null
    },
    {
-    "album": "4songs Ⅱ",
-    "artist": "Forbear",
+    "album": "Landscapes Entwined",
+    "artist": "ue",
     "plays": 8,
     "plays_fmt": "8",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fa31be3a71cc8be0c802b47621bcf196.jpg"
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/f2b935a3f4b57eaa918ebd81e5490650.jpg"
    }
   ],
   "top_trk": [
    {
     "track": "frontline",
     "artist": "googoosuu",
-    "plays": 11,
-    "plays_fmt": "11"
+    "plays": 12,
+    "plays_fmt": "12"
    },
    {
     "track": "rasen",
@@ -762,6 +762,12 @@
    {
     "track": "Bookshelf",
     "artist": "Forbear",
+    "plays": 6,
+    "plays_fmt": "6"
+   },
+   {
+    "track": "BLOOM",
+    "artist": "Urei",
     "plays": 5,
     "plays_fmt": "5"
    },
@@ -772,14 +778,14 @@
     "plays_fmt": "5"
    },
    {
-    "track": "utsukushiki-mono",
-    "artist": "回春李",
+    "track": "demo8",
+    "artist": "Don't Trust Freshmen!!",
     "plays": 5,
     "plays_fmt": "5"
    },
    {
-    "track": "だめだめ",
-    "artist": "Cyan",
+    "track": "utsukushiki-mono",
+    "artist": "回春李",
     "plays": 5,
     "plays_fmt": "5"
    },
@@ -790,31 +796,19 @@
     "plays_fmt": "5"
    },
    {
-    "track": "April Showers",
-    "artist": "the Wulongs",
-    "plays": 4,
-    "plays_fmt": "4"
+    "track": "予感",
+    "artist": "Paralanda",
+    "plays": 5,
+    "plays_fmt": "5"
    },
    {
-    "track": "BLOOM",
-    "artist": "Urei",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "Blind",
-    "artist": "wanbed",
-    "plays": 4,
-    "plays_fmt": "4"
+    "track": "埒",
+    "artist": "Trooper Salute",
+    "plays": 5,
+    "plays_fmt": "5"
    }
   ],
   "by_day": [
-   {
-    "day": "8/10",
-    "plays": 112,
-    "plays_fmt": "112",
-    "pct": 57
-   },
    {
     "day": "8/11",
     "plays": 165,
@@ -850,6 +844,12 @@
     "plays": 198,
     "plays_fmt": "198",
     "pct": 100
+   },
+   {
+    "day": "8/17",
+    "plays": 111,
+    "plays_fmt": "111",
+    "pct": 56
    }
   ]
  }
