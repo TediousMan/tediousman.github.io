@@ -18,8 +18,8 @@
   },
   {
    "name": "chilldspot",
-   "plays": 1033,
-   "plays_fmt": "1,033",
+   "plays": 1034,
+   "plays_fmt": "1,034",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfffcd64678af9f7b7bab7832"
   },
   {
@@ -30,14 +30,14 @@
   },
   {
    "name": "クレナズム",
-   "plays": 881,
-   "plays_fmt": "881",
+   "plays": 882,
+   "plays_fmt": "882",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfd833836d124624e366ed252"
   },
   {
    "name": "KROI",
-   "plays": 867,
-   "plays_fmt": "867",
+   "plays": 868,
+   "plays_fmt": "868",
    "img": "https://i.scdn.co/image/ab6761610000e5eb3891ccf48bd7eb050237f789"
   },
   {
@@ -90,8 +90,8 @@
   },
   {
    "name": "kobore",
-   "plays": 645,
-   "plays_fmt": "645",
+   "plays": 647,
+   "plays_fmt": "647",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24"
   },
   {
@@ -144,8 +144,8 @@
   },
   {
    "name": "Hakubi",
-   "plays": 582,
-   "plays_fmt": "582",
+   "plays": 583,
+   "plays_fmt": "583",
    "img": "https://i.scdn.co/image/ab6761610000e5eba205df6c2dd898c3f39b35ec"
   },
   {
@@ -185,16 +185,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebe880728367d115f0c7dfceb6"
   },
   {
+   "name": "BRADIO",
+   "plays": 548,
+   "plays_fmt": "548",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb1b468ea5308efde05767f7f3"
+  },
+  {
    "name": "KANEYORIMASARU",
    "plays": 548,
    "plays_fmt": "548",
    "img": "https://i.scdn.co/image/ab6761610000e5eb4a044f7e38167e6ad55d41cd"
-  },
-  {
-   "name": "BRADIO",
-   "plays": 547,
-   "plays_fmt": "547",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb1b468ea5308efde05767f7f3"
   },
   {
    "name": "Ayutthaya",
@@ -300,8 +300,8 @@
   },
   {
    "name": "Tokimeki Records",
-   "plays": 431,
-   "plays_fmt": "431",
+   "plays": 432,
+   "plays_fmt": "432",
    "img": "https://i.scdn.co/image/ab6761610000e5eb42c23eeeaedfb6c466f8b3e9"
   },
   {
@@ -342,8 +342,8 @@
   },
   {
    "name": "GOHOBI",
-   "plays": 388,
-   "plays_fmt": "388",
+   "plays": 389,
+   "plays_fmt": "389",
    "img": "https://i.scdn.co/image/ab6761610000e5eb93311cae2f611f16a5d84e43"
   },
   {
@@ -401,28 +401,28 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb3f7ea5d6336f02de0539f2be"
   },
   {
+   "name": "Vaundy",
+   "plays": 370,
+   "plays_fmt": "370",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebb718d2d3988005d3a72f22c9"
+  },
+  {
    "name": "akuruyo-sheep",
    "plays": 370,
    "plays_fmt": "370",
    "img": "https://i.scdn.co/image/ab6761610000e5eb13b71cf0b4e9aca839ca6c72"
   },
   {
-   "name": "Vaundy",
-   "plays": 369,
-   "plays_fmt": "369",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebb718d2d3988005d3a72f22c9"
+   "name": "Muque",
+   "plays": 368,
+   "plays_fmt": "368",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
   },
   {
    "name": "えんぷてい",
    "plays": 368,
    "plays_fmt": "368",
    "img": "https://i.scdn.co/image/ab6761610000e5eb11b3475e61b812fbe2327bd0"
-  },
-  {
-   "name": "Muque",
-   "plays": 366,
-   "plays_fmt": "366",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
   },
   {
    "name": "life crown",
@@ -437,16 +437,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb4a8c57a013ac825eef0fb401"
   },
   {
+   "name": "Home",
+   "plays": 356,
+   "plays_fmt": "356",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
+  },
+  {
    "name": "Heavenstamp",
    "plays": 355,
    "plays_fmt": "355",
    "img": "https://i.scdn.co/image/ab6761610000e5eb74d551d6dbd3e14c7de78ab2"
-  },
-  {
-   "name": "Home",
-   "plays": 354,
-   "plays_fmt": "354",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
    "name": "Furui Riho",
@@ -545,6 +545,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb0cf9b730ba1e4da175a3485b"
   },
   {
+   "name": "Reol",
+   "plays": 319,
+   "plays_fmt": "319",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebdf2dbfb158e48df25bd49477"
+  },
+  {
    "name": "yahyel",
    "plays": 319,
    "plays_fmt": "319",
@@ -555,12 +561,6 @@
    "plays": 318,
    "plays_fmt": "318",
    "img": "https://i.scdn.co/image/ab67616d0000b273da67bfdd172efa62a5d3470c"
-  },
-  {
-   "name": "Reol",
-   "plays": 318,
-   "plays_fmt": "318",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebdf2dbfb158e48df25bd49477"
   },
   {
    "name": "Youmentbay",
@@ -696,8 +696,8 @@
   },
   {
    "name": "YONA YONA WEEKENDERS",
-   "plays": 288,
-   "plays_fmt": "288",
+   "plays": 289,
+   "plays_fmt": "289",
    "img": "https://i.scdn.co/image/ab6761610000e5eb6b91739a5b0e997957fff733"
   },
   {
@@ -785,16 +785,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebf6411427caa1a8d278ebacf0"
   },
   {
+   "name": "Haruno",
+   "plays": 273,
+   "plays_fmt": "273",
+   "img": "https://i.scdn.co/image/ab67616d0000b2731494a1e1507f8dbfbce8f2df"
+  },
+  {
    "name": "アロワナレコード",
    "plays": 273,
    "plays_fmt": "273",
    "img": "https://i.scdn.co/image/ab6761610000e5eb00e06631e438aa05cbd62f09"
-  },
-  {
-   "name": "Haruno",
-   "plays": 272,
-   "plays_fmt": "272",
-   "img": "https://i.scdn.co/image/ab67616d0000b2731494a1e1507f8dbfbce8f2df"
   },
   {
    "name": "36km/h",
@@ -833,6 +833,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebc2d331e929ed1d1649a8af9f"
   },
   {
+   "name": "Hammer Head Shark",
+   "plays": 263,
+   "plays_fmt": "263",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851"
+  },
+  {
    "name": "Iri",
    "plays": 263,
    "plays_fmt": "263",
@@ -861,12 +867,6 @@
    "plays": 262,
    "plays_fmt": "262",
    "img": "https://i.scdn.co/image/ab6761610000e5ebae40b992ffa53731ab3e62bf"
-  },
-  {
-   "name": "Hammer Head Shark",
-   "plays": 261,
-   "plays_fmt": "261",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851"
   },
   {
    "name": "Kankaku Piero",
