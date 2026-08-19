@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-19",
+ "generated": "2026-08-20",
  "year_label": "2026",
  "all": {
   "total": 213811,
@@ -594,14 +594,14 @@
   ]
  },
  "week": {
-  "total": 1068,
-  "total_fmt": "1,068",
-  "uniq_art": 361,
-  "uniq_art_fmt": "361",
-  "uniq_trk": 479,
-  "uniq_trk_fmt": "479",
-  "start": "8/13",
-  "end": "8/19",
+  "total": 922,
+  "total_fmt": "922",
+  "uniq_art": 313,
+  "uniq_art_fmt": "313",
+  "uniq_trk": 411,
+  "uniq_trk_fmt": "411",
+  "start": "8/14",
+  "end": "8/20",
   "top_art": [
    {
     "artist": "googoosuu",
@@ -625,13 +625,6 @@
     "pct": 56
    },
    {
-    "artist": "AoOo",
-    "plays": 13,
-    "plays_fmt": "13",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
-    "pct": 52
-   },
-   {
     "artist": "Trooper Salute",
     "plays": 12,
     "plays_fmt": "12",
@@ -639,39 +632,46 @@
     "pct": 48
    },
    {
-    "artist": "DJ Okawari",
+    "artist": "AoOo",
     "plays": 11,
     "plays_fmt": "11",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb6a2ebe53d2b1bf565ae437b9",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
     "pct": 44
+   },
+   {
+    "artist": "Pitch Blue",
+    "plays": 10,
+    "plays_fmt": "10",
+    "img": null,
+    "pct": 40
    },
    {
     "artist": "kobore",
-    "plays": 11,
-    "plays_fmt": "11",
+    "plays": 10,
+    "plays_fmt": "10",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24",
-    "pct": 44
+    "pct": 40
    },
    {
     "artist": "CQ",
-    "plays": 10,
-    "plays_fmt": "10",
+    "plays": 9,
+    "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab67616d0000b273d5df30b611ba46931c2b1d93",
-    "pct": 40
+    "pct": 36
    },
    {
-    "artist": "Fennel",
-    "plays": 10,
-    "plays_fmt": "10",
-    "img": "https://i.scdn.co/image/ab67616d0000b273a8e29c5477044b5cd876110a",
-    "pct": 40
+    "artist": "Muque",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f",
+    "pct": 36
    },
    {
-    "artist": "Forbear",
-    "plays": 10,
-    "plays_fmt": "10",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb1dd5e26af0ba32dc0330d5e7",
-    "pct": 40
+    "artist": "DJ Okawari",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb6a2ebe53d2b1bf565ae437b9",
+    "pct": 32
    }
   ],
   "top_alb": [
@@ -697,53 +697,53 @@
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/3afa2592370c3feea0ae29ad9875c2c9.jpg"
    },
    {
+    "album": "rasen",
+    "artist": "Pitch Blue",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": null
+   },
+   {
+    "album": "what a Wonderful World's end～2024 Remastered～",
+    "artist": "CQ",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6c7091ca47c7e6fbb47659f8a9f0b8d0.jpg"
+   },
+   {
     "album": "4songs Ⅱ",
     "artist": "Forbear",
-    "plays": 10,
-    "plays_fmt": "10",
+    "plays": 8,
+    "plays_fmt": "8",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fa31be3a71cc8be0c802b47621bcf196.jpg"
    },
    {
     "album": "HOME COLLECTION",
     "artist": "Home",
-    "plays": 10,
-    "plays_fmt": "10",
+    "plays": 8,
+    "plays_fmt": "8",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
-   },
-   {
-    "album": "Love and Haze",
-    "artist": "Fennel",
-    "plays": 10,
-    "plays_fmt": "10",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/1e8c3c5058810db126c330b7ad0d5ad4.jpg"
    },
    {
     "album": "Magical Tank-top Parade",
     "artist": "Yabai T-Shirts Yasan",
-    "plays": 10,
-    "plays_fmt": "10",
+    "plays": 8,
+    "plays_fmt": "8",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/c4516a9b5490c706796e39a651d9b1a9.jpg"
    },
    {
     "album": "Rooom",
     "artist": "AoOo",
-    "plays": 10,
-    "plays_fmt": "10",
+    "plays": 8,
+    "plays_fmt": "8",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/da74e0f56cc6364849b7ac888d3492d5.jpg"
    },
    {
-    "album": "what a Wonderful World's end～2024 Remastered～",
-    "artist": "CQ",
-    "plays": 10,
-    "plays_fmt": "10",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6c7091ca47c7e6fbb47659f8a9f0b8d0.jpg"
-   },
-   {
-    "album": "Landscapes Entwined",
-    "artist": "ue",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/f2b935a3f4b57eaa918ebd81e5490650.jpg"
+    "album": "SAD MUSIC",
+    "artist": "Yorikiri Club",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab67616d0000b27310c1c58501c1102b971c7a6b"
    }
   ],
   "top_trk": [
@@ -760,44 +760,8 @@
     "plays_fmt": "10"
    },
    {
-    "track": "Bookshelf",
-    "artist": "Forbear",
-    "plays": 6,
-    "plays_fmt": "6"
-   },
-   {
     "track": "Hers",
     "artist": "MASS OF THE FERMENTING DREGS",
-    "plays": 6,
-    "plays_fmt": "6"
-   },
-   {
-    "track": "Leos",
-    "artist": "CQ",
-    "plays": 6,
-    "plays_fmt": "6"
-   },
-   {
-    "track": "Silent Prayers",
-    "artist": "DJ Okawari",
-    "plays": 6,
-    "plays_fmt": "6"
-   },
-   {
-    "track": "fathers",
-    "artist": "そよ風1万発",
-    "plays": 6,
-    "plays_fmt": "6"
-   },
-   {
-    "track": "utsukushiki-mono",
-    "artist": "回春李",
-    "plays": 6,
-    "plays_fmt": "6"
-   },
-   {
-    "track": "ジレンマ",
-    "artist": "アユリモト",
     "plays": 6,
     "plays_fmt": "6"
    },
@@ -806,15 +770,45 @@
     "artist": "Trooper Salute",
     "plays": 6,
     "plays_fmt": "6"
+   },
+   {
+    "track": "Leos",
+    "artist": "CQ",
+    "plays": 5,
+    "plays_fmt": "5"
+   },
+   {
+    "track": "STORY",
+    "artist": "googoosuu",
+    "plays": 5,
+    "plays_fmt": "5"
+   },
+   {
+    "track": "Silent Prayers",
+    "artist": "DJ Okawari",
+    "plays": 5,
+    "plays_fmt": "5"
+   },
+   {
+    "track": "fathers",
+    "artist": "そよ風1万発",
+    "plays": 5,
+    "plays_fmt": "5"
+   },
+   {
+    "track": "日照り",
+    "artist": "エスキベル",
+    "plays": 5,
+    "plays_fmt": "5"
+   },
+   {
+    "track": "BLOOM",
+    "artist": "Urei",
+    "plays": 4,
+    "plays_fmt": "4"
    }
   ],
   "by_day": [
-   {
-    "day": "8/13",
-    "plays": 146,
-    "plays_fmt": "146",
-    "pct": 73
-   },
    {
     "day": "8/14",
     "plays": 128,
@@ -850,6 +844,12 @@
     "plays": 149,
     "plays_fmt": "149",
     "pct": 74
+   },
+   {
+    "day": "8/20",
+    "plays": 0,
+    "plays_fmt": "0",
+    "pct": 0
    }
   ]
  }
