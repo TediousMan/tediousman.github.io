@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7294,
- "total_artists_fmt": "7,294",
+ "total_artists": 7295,
+ "total_artists_fmt": "7,295",
  "missing_img": 9,
  "artists": [
   {
@@ -90,8 +90,8 @@
   },
   {
    "name": "kobore",
-   "plays": 647,
-   "plays_fmt": "647",
+   "plays": 649,
+   "plays_fmt": "649",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24"
   },
   {
@@ -162,8 +162,8 @@
   },
   {
    "name": "緑黄色社会",
-   "plays": 558,
-   "plays_fmt": "558",
+   "plays": 559,
+   "plays_fmt": "559",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd9a48d00ce7cf4d66abc76b6"
   },
   {
@@ -180,14 +180,14 @@
   },
   {
    "name": "The Otals",
-   "plays": 550,
-   "plays_fmt": "550",
+   "plays": 551,
+   "plays_fmt": "551",
    "img": "https://i.scdn.co/image/ab6761610000e5ebe880728367d115f0c7dfceb6"
   },
   {
    "name": "BRADIO",
-   "plays": 548,
-   "plays_fmt": "548",
+   "plays": 549,
+   "plays_fmt": "549",
    "img": "https://i.scdn.co/image/ab6761610000e5eb1b468ea5308efde05767f7f3"
   },
   {
@@ -216,14 +216,14 @@
   },
   {
    "name": "PLUE",
-   "plays": 498,
-   "plays_fmt": "498",
+   "plays": 499,
+   "plays_fmt": "499",
    "img": "https://i.scdn.co/image/ab6761610000e5eb85209c8cac40615200957a58"
   },
   {
    "name": "She Her Her Hers",
-   "plays": 493,
-   "plays_fmt": "493",
+   "plays": 494,
+   "plays_fmt": "494",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5fe5ee6bd8fd6210eb70004b"
   },
   {
@@ -414,8 +414,8 @@
   },
   {
    "name": "Muque",
-   "plays": 368,
-   "plays_fmt": "368",
+   "plays": 369,
+   "plays_fmt": "369",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
   },
   {
@@ -438,8 +438,8 @@
   },
   {
    "name": "Home",
-   "plays": 356,
-   "plays_fmt": "356",
+   "plays": 357,
+   "plays_fmt": "357",
    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
@@ -672,8 +672,8 @@
   },
   {
    "name": "Luby Sparks",
-   "plays": 296,
-   "plays_fmt": "296",
+   "plays": 297,
+   "plays_fmt": "297",
    "img": "https://i.scdn.co/image/ab6761610000e5eb99833843219af1cdc66223fc"
   },
   {
@@ -767,16 +767,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb80403b4ec22b76d2eb4f8931"
   },
   {
+   "name": "Have a nice day!",
+   "plays": 275,
+   "plays_fmt": "275",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
+  },
+  {
    "name": "Laura day romance",
    "plays": 275,
    "plays_fmt": "275",
    "img": "https://i.scdn.co/image/ab6761610000e5ebf27e76aad8ec44d8e0b38be2"
-  },
-  {
-   "name": "Have a nice day!",
-   "plays": 274,
-   "plays_fmt": "274",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
   },
   {
    "name": "E.scene",
