@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7295,
- "total_artists_fmt": "7,295",
+ "total_artists": 7304,
+ "total_artists_fmt": "7,304",
  "missing_img": 9,
  "artists": [
   {
@@ -18,8 +18,8 @@
   },
   {
    "name": "chilldspot",
-   "plays": 1034,
-   "plays_fmt": "1,034",
+   "plays": 1036,
+   "plays_fmt": "1,036",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfffcd64678af9f7b7bab7832"
   },
   {
@@ -78,8 +78,8 @@
   },
   {
    "name": "羊文学",
-   "plays": 686,
-   "plays_fmt": "686",
+   "plays": 688,
+   "plays_fmt": "688",
    "img": "https://i.scdn.co/image/ab6761610000e5eb1833f4534ed3dd88d9e12c8b"
   },
   {
@@ -101,21 +101,21 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb2a08d0189b80a87ff7dc63fc"
   },
   {
+   "name": "For Tracy Hyde",
+   "plays": 630,
+   "plays_fmt": "630",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebb9973cb3e9a7645db81c7e9a"
+  },
+  {
    "name": "eill",
    "plays": 630,
    "plays_fmt": "630",
    "img": "https://i.scdn.co/image/ab6761610000e5ebf3f6ea218e12317560e84a58"
   },
   {
-   "name": "For Tracy Hyde",
-   "plays": 629,
-   "plays_fmt": "629",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebb9973cb3e9a7645db81c7e9a"
-  },
-  {
    "name": "kurayamisaka",
-   "plays": 621,
-   "plays_fmt": "621",
+   "plays": 623,
+   "plays_fmt": "623",
    "img": "https://i.scdn.co/image/ab6761610000e5eb549929e59e9a3da7b41f0939"
   },
   {
@@ -174,8 +174,8 @@
   },
   {
    "name": "WOLVEs GROOVY",
-   "plays": 552,
-   "plays_fmt": "552",
+   "plays": 553,
+   "plays_fmt": "553",
    "img": "https://i.scdn.co/image/ab6761610000e5eb072f226440f065b9396dad04"
   },
   {
@@ -222,8 +222,8 @@
   },
   {
    "name": "She Her Her Hers",
-   "plays": 494,
-   "plays_fmt": "494",
+   "plays": 495,
+   "plays_fmt": "495",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5fe5ee6bd8fd6210eb70004b"
   },
   {
@@ -312,8 +312,8 @@
   },
   {
    "name": "Blurred City Lights",
-   "plays": 423,
-   "plays_fmt": "423",
+   "plays": 424,
+   "plays_fmt": "424",
    "img": "https://i.scdn.co/image/ab6761610000e5eb2e883a5a8f9cb639a233051e"
   },
   {
@@ -330,8 +330,8 @@
   },
   {
    "name": "Dansa Med Dig",
-   "plays": 402,
-   "plays_fmt": "402",
+   "plays": 407,
+   "plays_fmt": "407",
    "img": "https://i.scdn.co/image/ab6761610000e5eb590cfa1ad794bf2697150167"
   },
   {
@@ -383,16 +383,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebfc5a54b5a68edefd85793554"
   },
   {
+   "name": "Sugar House",
+   "plays": 376,
+   "plays_fmt": "376",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb1e3c4dbc4b5744a9ddf331ff"
+  },
+  {
    "name": "easycome",
    "plays": 376,
    "plays_fmt": "376",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5e779ac5990c92ad5b423c3f"
-  },
-  {
-   "name": "Sugar House",
-   "plays": 375,
-   "plays_fmt": "375",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb1e3c4dbc4b5744a9ddf331ff"
   },
   {
    "name": "Chilli Beans.",
@@ -402,8 +402,8 @@
   },
   {
    "name": "Vaundy",
-   "plays": 370,
-   "plays_fmt": "370",
+   "plays": 371,
+   "plays_fmt": "371",
    "img": "https://i.scdn.co/image/ab6761610000e5ebb718d2d3988005d3a72f22c9"
   },
   {
@@ -522,8 +522,8 @@
   },
   {
    "name": "Homecomings",
-   "plays": 322,
-   "plays_fmt": "322",
+   "plays": 323,
+   "plays_fmt": "323",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd37a306d89030f0fe900b7e3"
   },
   {
@@ -557,6 +557,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb9ff08ad4abc242feaf105f11"
   },
   {
+   "name": "Cephalo",
+   "plays": 318,
+   "plays_fmt": "318",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebeadedb0cf2a489ca33090611"
+  },
+  {
    "name": "Pavilion",
    "plays": 318,
    "plays_fmt": "318",
@@ -567,12 +573,6 @@
    "plays": 318,
    "plays_fmt": "318",
    "img": "https://i.scdn.co/image/ab6761610000e5eb51d099e01631361e50ce714d"
-  },
-  {
-   "name": "Cephalo",
-   "plays": 317,
-   "plays_fmt": "317",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebeadedb0cf2a489ca33090611"
   },
   {
    "name": "Miu Mau",
@@ -600,8 +600,8 @@
   },
   {
    "name": "Bane",
-   "plays": 312,
-   "plays_fmt": "312",
+   "plays": 313,
+   "plays_fmt": "313",
    "img": "https://i.scdn.co/image/ab6761610000e5ebb37eb231f1029926a95f7cab"
   },
   {
@@ -756,9 +756,15 @@
   },
   {
    "name": "Summer Whales",
-   "plays": 277,
-   "plays_fmt": "277",
+   "plays": 278,
+   "plays_fmt": "278",
    "img": "https://i.scdn.co/image/ab6761610000e5eb35e11f5ad4a252b96a658376"
+  },
+  {
+   "name": "Laura day romance",
+   "plays": 276,
+   "plays_fmt": "276",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebf27e76aad8ec44d8e0b38be2"
   },
   {
    "name": "ASOBOiSM",
@@ -771,12 +777,6 @@
    "plays": 275,
    "plays_fmt": "275",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
-  },
-  {
-   "name": "Laura day romance",
-   "plays": 275,
-   "plays_fmt": "275",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebf27e76aad8ec44d8e0b38be2"
   },
   {
    "name": "E.scene",
@@ -821,6 +821,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb0eef43e8d0a6ef8f2fe0cae6"
   },
   {
+   "name": "Hammer Head Shark",
+   "plays": 264,
+   "plays_fmt": "264",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851"
+  },
+  {
    "name": "レルエ",
    "plays": 264,
    "plays_fmt": "264",
@@ -831,12 +837,6 @@
    "plays": 263,
    "plays_fmt": "263",
    "img": "https://i.scdn.co/image/ab6761610000e5ebc2d331e929ed1d1649a8af9f"
-  },
-  {
-   "name": "Hammer Head Shark",
-   "plays": 263,
-   "plays_fmt": "263",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851"
   },
   {
    "name": "Iri",

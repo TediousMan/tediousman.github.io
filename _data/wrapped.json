@@ -2,14 +2,14 @@
  "generated": "2026-08-20",
  "year_label": "2026",
  "all": {
-  "total": 213811,
-  "total_fmt": "213,811",
-  "uniq_art": 7295,
-  "uniq_art_fmt": "7,295",
-  "uniq_trk": 30445,
-  "uniq_trk_fmt": "30,445",
+  "total": 213932,
+  "total_fmt": "213,932",
+  "uniq_art": 7304,
+  "uniq_art_fmt": "7,304",
+  "uniq_trk": 30496,
+  "uniq_trk_fmt": "30,496",
   "start": "2018-03-06",
-  "end": "2026-08-19",
+  "end": "2026-08-20",
   "top_art": [
    {
     "artist": "Mr.ふぉるて",
@@ -27,8 +27,8 @@
    },
    {
     "artist": "chilldspot",
-    "plays": 1034,
-    "plays_fmt": "1,034",
+    "plays": 1036,
+    "plays_fmt": "1,036",
     "img": "https://i.scdn.co/image/ab6761610000e5ebfffcd64678af9f7b7bab7832",
     "pct": 99
    },
@@ -86,8 +86,8 @@
    {
     "album": "WOLVEs1",
     "artist": "WOLVEs GROOVY",
-    "plays": 535,
-    "plays_fmt": "535",
+    "plays": 536,
+    "plays_fmt": "536",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/7e7bd8b2962aa80fbf7858366d01832b.jpg"
    },
    {
@@ -188,8 +188,8 @@
    {
     "track": "BUG",
     "artist": "WOLVEs GROOVY",
-    "plays": 184,
-    "plays_fmt": "184"
+    "plays": 185,
+    "plays_fmt": "185"
    },
    {
     "track": "juvenile",
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 30724,
-    "plays_fmt": "30,724",
+    "plays": 30845,
+    "plays_fmt": "30,845",
     "pct": 57
    }
   ],
@@ -323,19 +323,19 @@
    },
    {
     "year": "2026",
-    "count": 926,
-    "count_fmt": "926",
-    "pct": 38
+    "count": 935,
+    "count_fmt": "935",
+    "pct": 39
    }
   ]
  },
  "year": {
-  "total": 30724,
-  "total_fmt": "30,724",
-  "uniq_art": 2733,
-  "uniq_art_fmt": "2,733",
-  "uniq_trk": 7581,
-  "uniq_trk_fmt": "7,581",
+  "total": 30845,
+  "total_fmt": "30,845",
+  "uniq_art": 2758,
+  "uniq_art_fmt": "2,758",
+  "uniq_trk": 7652,
+  "uniq_trk_fmt": "7,652",
   "top_art": [
    {
     "artist": "Kienai",
@@ -346,8 +346,8 @@
    },
    {
     "artist": "Ramblamp",
-    "plays": 245,
-    "plays_fmt": "245",
+    "plays": 246,
+    "plays_fmt": "246",
     "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf",
     "pct": 98
    },
@@ -587,26 +587,26 @@
    },
    {
     "month": "8",
-    "plays": 2576,
-    "plays_fmt": "2,576",
-    "pct": 47
+    "plays": 2697,
+    "plays_fmt": "2,697",
+    "pct": 50
    }
   ]
  },
  "week": {
-  "total": 922,
-  "total_fmt": "922",
-  "uniq_art": 313,
-  "uniq_art_fmt": "313",
-  "uniq_trk": 411,
-  "uniq_trk_fmt": "411",
+  "total": 1043,
+  "total_fmt": "1,043",
+  "uniq_art": 388,
+  "uniq_art_fmt": "388",
+  "uniq_trk": 520,
+  "uniq_trk_fmt": "520",
   "start": "8/14",
   "end": "8/20",
   "top_art": [
    {
     "artist": "googoosuu",
-    "plays": 25,
-    "plays_fmt": "25",
+    "plays": 26,
+    "plays_fmt": "26",
     "img": null,
     "pct": 100
    },
@@ -615,71 +615,71 @@
     "plays": 19,
     "plays_fmt": "19",
     "img": "https://i.scdn.co/image/ab6761610000e5eb53a61972ed2f11fb3e690dfe",
-    "pct": 76
+    "pct": 73
    },
    {
     "artist": "エスキベル",
     "plays": 14,
     "plays_fmt": "14",
     "img": "https://i.scdn.co/image/ab6761610000e5eb1f73b0e1d212e3740ab97b9b",
-    "pct": 56
+    "pct": 54
    },
    {
     "artist": "Trooper Salute",
-    "plays": 12,
-    "plays_fmt": "12",
+    "plays": 13,
+    "plays_fmt": "13",
     "img": "https://i.scdn.co/image/ab6761610000e5eb97cd03d0a41316350c7679ae",
-    "pct": 48
+    "pct": 50
    },
    {
     "artist": "AoOo",
     "plays": 11,
     "plays_fmt": "11",
     "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
-    "pct": 44
+    "pct": 42
+   },
+   {
+    "artist": "CQ",
+    "plays": 11,
+    "plays_fmt": "11",
+    "img": "https://i.scdn.co/image/ab67616d0000b273d5df30b611ba46931c2b1d93",
+    "pct": 42
    },
    {
     "artist": "Pitch Blue",
-    "plays": 10,
-    "plays_fmt": "10",
+    "plays": 11,
+    "plays_fmt": "11",
     "img": null,
-    "pct": 40
+    "pct": 42
    },
    {
     "artist": "kobore",
     "plays": 10,
     "plays_fmt": "10",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24",
-    "pct": 40
-   },
-   {
-    "artist": "CQ",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://i.scdn.co/image/ab67616d0000b273d5df30b611ba46931c2b1d93",
-    "pct": 36
+    "pct": 38
    },
    {
     "artist": "Muque",
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f",
-    "pct": 36
+    "pct": 35
    },
    {
     "artist": "DJ Okawari",
     "plays": 8,
     "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab6761610000e5eb6a2ebe53d2b1bf565ae437b9",
-    "pct": 32
+    "pct": 31
    }
   ],
   "top_alb": [
    {
     "album": "taiongaagaru",
     "artist": "googoosuu",
-    "plays": 23,
-    "plays_fmt": "23",
+    "plays": 24,
+    "plays_fmt": "24",
     "img": null
    },
    {
@@ -699,15 +699,15 @@
    {
     "album": "rasen",
     "artist": "Pitch Blue",
-    "plays": 9,
-    "plays_fmt": "9",
+    "plays": 10,
+    "plays_fmt": "10",
     "img": null
    },
    {
     "album": "what a Wonderful World's end～2024 Remastered～",
     "artist": "CQ",
-    "plays": 9,
-    "plays_fmt": "9",
+    "plays": 10,
+    "plays_fmt": "10",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6c7091ca47c7e6fbb47659f8a9f0b8d0.jpg"
    },
    {
@@ -756,12 +756,18 @@
    {
     "track": "rasen",
     "artist": "Pitch Blue",
-    "plays": 10,
-    "plays_fmt": "10"
+    "plays": 11,
+    "plays_fmt": "11"
    },
    {
     "track": "Hers",
     "artist": "MASS OF THE FERMENTING DREGS",
+    "plays": 6,
+    "plays_fmt": "6"
+   },
+   {
+    "track": "STORY",
+    "artist": "googoosuu",
     "plays": 6,
     "plays_fmt": "6"
    },
@@ -774,12 +780,6 @@
    {
     "track": "Leos",
     "artist": "CQ",
-    "plays": 5,
-    "plays_fmt": "5"
-   },
-   {
-    "track": "STORY",
-    "artist": "googoosuu",
     "plays": 5,
     "plays_fmt": "5"
    },
@@ -841,15 +841,15 @@
    },
    {
     "day": "8/19",
-    "plays": 149,
-    "plays_fmt": "149",
-    "pct": 74
+    "plays": 150,
+    "plays_fmt": "150",
+    "pct": 75
    },
    {
     "day": "8/20",
-    "plays": 0,
-    "plays_fmt": "0",
-    "pct": 0
+    "plays": 120,
+    "plays_fmt": "120",
+    "pct": 60
    }
   ]
  }
