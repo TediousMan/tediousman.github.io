@@ -2,8 +2,8 @@
  "generated": "2026-08-21",
  "year_label": "2026",
  "all": {
-  "total": 214045,
-  "total_fmt": "214,045",
+  "total": 214169,
+  "total_fmt": "214,169",
   "uniq_art": 7304,
   "uniq_art_fmt": "7,304",
   "uniq_trk": 30496,
@@ -27,8 +27,8 @@
    },
    {
     "artist": "chilldspot",
-    "plays": 1036,
-    "plays_fmt": "1,036",
+    "plays": 1037,
+    "plays_fmt": "1,037",
     "img": "https://i.scdn.co/image/ab6761610000e5ebfffcd64678af9f7b7bab7832",
     "pct": 99
    },
@@ -267,9 +267,9 @@
    },
    {
     "year": "2026",
-    "plays": 30958,
-    "plays_fmt": "30,958",
-    "pct": 57
+    "plays": 31082,
+    "plays_fmt": "31,082",
+    "pct": 58
    }
   ],
   "new_art_by_year": [
@@ -330,8 +330,8 @@
   ]
  },
  "year": {
-  "total": 30958,
-  "total_fmt": "30,958",
+  "total": 31082,
+  "total_fmt": "31,082",
   "uniq_art": 2758,
   "uniq_art_fmt": "2,758",
   "uniq_trk": 7652,
@@ -339,8 +339,8 @@
   "top_art": [
    {
     "artist": "Kienai",
-    "plays": 251,
-    "plays_fmt": "251",
+    "plays": 252,
+    "plays_fmt": "252",
     "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481",
     "pct": 100
    },
@@ -367,22 +367,22 @@
    },
    {
     "artist": "あたまたんさん",
-    "plays": 211,
-    "plays_fmt": "211",
+    "plays": 212,
+    "plays_fmt": "212",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44",
     "pct": 84
    },
    {
     "artist": "the Wulongs",
-    "plays": 186,
-    "plays_fmt": "186",
+    "plays": 187,
+    "plays_fmt": "187",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
     "pct": 74
    },
    {
     "artist": "uyuu",
-    "plays": 176,
-    "plays_fmt": "176",
+    "plays": 177,
+    "plays_fmt": "177",
     "img": "https://i.scdn.co/image/ab67616d0000b27381582c0fb8f5908a6aee7f3e",
     "pct": 70
    },
@@ -405,15 +405,15 @@
     "plays": 157,
     "plays_fmt": "157",
     "img": "https://i.scdn.co/image/ab6761610000e5eb7e17378b89a11d4110d0a4c6",
-    "pct": 63
+    "pct": 62
    }
   ],
   "top_alb": [
    {
     "album": "sparkleII",
     "artist": "Kienai",
-    "plays": 248,
-    "plays_fmt": "248",
+    "plays": 249,
+    "plays_fmt": "249",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/1c6a42ba2640cb0ed267d0c9d6a5f106.jpg"
    },
    {
@@ -426,8 +426,8 @@
    {
     "album": "鉄の掟",
     "artist": "あたまたんさん",
-    "plays": 210,
-    "plays_fmt": "210",
+    "plays": 211,
+    "plays_fmt": "211",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44"
    },
    {
@@ -454,8 +454,8 @@
    {
     "album": "日々、折り返すごとに",
     "artist": "爛漫天国",
-    "plays": 151,
-    "plays_fmt": "151",
+    "plays": 152,
+    "plays_fmt": "152",
     "img": "https://i.scdn.co/image/ab6761610000e5eb59ee187da2de942d5f50e0e0"
    },
    {
@@ -475,8 +475,8 @@
    {
     "album": "2rue end",
     "artist": "Tattletale",
-    "plays": 137,
-    "plays_fmt": "137",
+    "plays": 138,
+    "plays_fmt": "138",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/9bd64b52566248afa9e86accd8c604b6.jpg"
    }
   ],
@@ -508,8 +508,8 @@
    {
     "track": "Anemone",
     "artist": "REVEMERE",
-    "plays": 72,
-    "plays_fmt": "72"
+    "plays": 73,
+    "plays_fmt": "73"
    },
    {
     "track": "浴槽",
@@ -520,8 +520,8 @@
    {
     "track": "way back",
     "artist": "Kienai",
-    "plays": 58,
-    "plays_fmt": "58"
+    "plays": 59,
+    "plays_fmt": "59"
    },
    {
     "track": "Panzamast",
@@ -587,99 +587,99 @@
    },
    {
     "month": "8",
-    "plays": 2810,
-    "plays_fmt": "2,810",
-    "pct": 52
+    "plays": 2934,
+    "plays_fmt": "2,934",
+    "pct": 54
    }
   ]
  },
  "week": {
-  "total": 1028,
-  "total_fmt": "1,028",
-  "uniq_art": 395,
-  "uniq_art_fmt": "395",
-  "uniq_trk": 521,
-  "uniq_trk_fmt": "521",
+  "total": 1152,
+  "total_fmt": "1,152",
+  "uniq_art": 451,
+  "uniq_art_fmt": "451",
+  "uniq_trk": 617,
+  "uniq_trk_fmt": "617",
   "start": "8/15",
   "end": "8/21",
   "top_art": [
    {
     "artist": "CQ",
-    "plays": 12,
-    "plays_fmt": "12",
+    "plays": 13,
+    "plays_fmt": "13",
     "img": "https://i.scdn.co/image/ab67616d0000b273d5df30b611ba46931c2b1d93",
     "pct": 100
+   },
+   {
+    "artist": "AoOo",
+    "plays": 12,
+    "plays_fmt": "12",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
+    "pct": 92
    },
    {
     "artist": "Trooper Salute",
     "plays": 12,
     "plays_fmt": "12",
     "img": "https://i.scdn.co/image/ab6761610000e5eb97cd03d0a41316350c7679ae",
-    "pct": 100
+    "pct": 92
    },
    {
-    "artist": "AoOo",
+    "artist": "kobore",
+    "plays": 12,
+    "plays_fmt": "12",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24",
+    "pct": 92
+   },
+   {
+    "artist": "Muque",
     "plays": 11,
     "plays_fmt": "11",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
-    "pct": 92
+    "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f",
+    "pct": 85
    },
    {
     "artist": "Pitch Blue",
     "plays": 11,
     "plays_fmt": "11",
     "img": null,
-    "pct": 92
+    "pct": 85
    },
    {
-    "artist": "Muque",
+    "artist": "googoosuu",
     "plays": 10,
     "plays_fmt": "10",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f",
-    "pct": 83
-   },
-   {
-    "artist": "kobore",
-    "plays": 10,
-    "plays_fmt": "10",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24",
-    "pct": 83
+    "img": null,
+    "pct": 77
    },
    {
     "artist": "DJ Okawari",
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5eb6a2ebe53d2b1bf565ae437b9",
-    "pct": 75
+    "pct": 69
    },
    {
-    "artist": "googoosuu",
+    "artist": "pinfu",
     "plays": 9,
     "plays_fmt": "9",
-    "img": null,
-    "pct": 75
+    "img": "https://i.scdn.co/image/ab67616d0000b273f4e424ad28550f7ce992dd69",
+    "pct": 69
    },
    {
     "artist": "Yorikiri Club",
     "plays": 8,
     "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab67616d0000b27310c1c58501c1102b971c7a6b",
-    "pct": 67
-   },
-   {
-    "artist": "bedgravity",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab67616d0000b273d29467756d06ae5882d98238",
-    "pct": 67
+    "pct": 62
    }
   ],
   "top_alb": [
    {
     "album": "what a Wonderful World's end～2024 Remastered～",
     "artist": "CQ",
-    "plays": 11,
-    "plays_fmt": "11",
+    "plays": 12,
+    "plays_fmt": "12",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6c7091ca47c7e6fbb47659f8a9f0b8d0.jpg"
    },
    {
@@ -692,16 +692,37 @@
    {
     "album": "taiongaagaru",
     "artist": "googoosuu",
+    "plays": 10,
+    "plays_fmt": "10",
+    "img": null
+   },
+   {
+    "album": "EMBERS",
+    "artist": "kobore",
     "plays": 9,
     "plays_fmt": "9",
-    "img": null
+    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24"
    },
    {
     "album": "Rooom",
     "artist": "AoOo",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/da74e0f56cc6364849b7ac888d3492d5.jpg"
+   },
+   {
+    "album": "TOKYO JUNPAKU",
+    "artist": "pinfu",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://i.scdn.co/image/ab67616d0000b273f4e424ad28550f7ce992dd69"
+   },
+   {
+    "album": "GLHF",
+    "artist": "Muque",
     "plays": 8,
     "plays_fmt": "8",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/da74e0f56cc6364849b7ac888d3492d5.jpg"
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/13bc104dda275aecfdc92e8231ef0b32.jpg"
    },
    {
     "album": "SAD MUSIC",
@@ -709,13 +730,6 @@
     "plays": 8,
     "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab67616d0000b27310c1c58501c1102b971c7a6b"
-   },
-   {
-    "album": "TOKYO JUNPAKU",
-    "artist": "pinfu",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab67616d0000b273f4e424ad28550f7ce992dd69"
    },
    {
     "album": "Unmet Needs",
@@ -730,20 +744,6 @@
     "plays": 8,
     "plays_fmt": "8",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/f41863c4c9146f2e2158cda8db761dbf.jpg"
-   },
-   {
-    "album": "4songs Ⅱ",
-    "artist": "Forbear",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fa31be3a71cc8be0c802b47621bcf196.jpg"
-   },
-   {
-    "album": "Cabin",
-    "artist": "wAlm",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb113b23baf1b1ac291f601005"
    }
   ],
   "top_trk": [
@@ -790,22 +790,22 @@
     "plays_fmt": "5"
    },
    {
-    "track": "埒",
-    "artist": "Trooper Salute",
+    "track": "アップル",
+    "artist": "yobai suspects",
     "plays": 5,
     "plays_fmt": "5"
    },
    {
-    "track": "246",
-    "artist": "RAINBOW BELTZ",
-    "plays": 4,
-    "plays_fmt": "4"
+    "track": "ジレンマ",
+    "artist": "アユリモト",
+    "plays": 5,
+    "plays_fmt": "5"
    },
    {
-    "track": "Another Me feat. Kaori Sawada",
-    "artist": "DJ Okawari",
-    "plays": 4,
-    "plays_fmt": "4"
+    "track": "埒",
+    "artist": "Trooper Salute",
+    "plays": 5,
+    "plays_fmt": "5"
    }
   ],
   "by_day": [
@@ -813,43 +813,43 @@
     "day": "8/15",
     "plays": 135,
     "plays_fmt": "135",
-    "pct": 68
+    "pct": 57
    },
    {
     "day": "8/16",
     "plays": 198,
     "plays_fmt": "198",
-    "pct": 99
+    "pct": 84
    },
    {
     "day": "8/17",
     "plays": 112,
     "plays_fmt": "112",
-    "pct": 56
+    "pct": 47
    },
    {
     "day": "8/18",
     "plays": 200,
     "plays_fmt": "200",
-    "pct": 100
+    "pct": 85
    },
    {
     "day": "8/19",
     "plays": 150,
     "plays_fmt": "150",
-    "pct": 75
+    "pct": 64
    },
    {
     "day": "8/20",
     "plays": 121,
     "plays_fmt": "121",
-    "pct": 60
+    "pct": 51
    },
    {
     "day": "8/21",
-    "plays": 112,
-    "plays_fmt": "112",
-    "pct": 56
+    "plays": 236,
+    "plays_fmt": "236",
+    "pct": 100
    }
   ]
  }
