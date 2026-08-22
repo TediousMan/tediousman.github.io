@@ -1,9 +1,9 @@
 {
- "generated": "2026-08-21",
+ "generated": "2026-08-22",
  "year_label": "2026",
  "all": {
-  "total": 214169,
-  "total_fmt": "214,169",
+  "total": 214171,
+  "total_fmt": "214,171",
   "uniq_art": 7304,
   "uniq_art_fmt": "7,304",
   "uniq_trk": 30496,
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 31082,
-    "plays_fmt": "31,082",
+    "plays": 31084,
+    "plays_fmt": "31,084",
     "pct": 58
    }
   ],
@@ -330,8 +330,8 @@
   ]
  },
  "year": {
-  "total": 31082,
-  "total_fmt": "31,082",
+  "total": 31084,
+  "total_fmt": "31,084",
   "uniq_art": 2758,
   "uniq_art_fmt": "2,758",
   "uniq_trk": 7652,
@@ -587,107 +587,100 @@
    },
    {
     "month": "8",
-    "plays": 2934,
-    "plays_fmt": "2,934",
+    "plays": 2936,
+    "plays_fmt": "2,936",
     "pct": 54
    }
   ]
  },
  "week": {
-  "total": 1152,
-  "total_fmt": "1,152",
-  "uniq_art": 451,
-  "uniq_art_fmt": "451",
-  "uniq_trk": 617,
-  "uniq_trk_fmt": "617",
-  "start": "8/15",
-  "end": "8/21",
+  "total": 1019,
+  "total_fmt": "1,019",
+  "uniq_art": 433,
+  "uniq_art_fmt": "433",
+  "uniq_trk": 586,
+  "uniq_trk_fmt": "586",
+  "start": "8/16",
+  "end": "8/22",
   "top_art": [
    {
     "artist": "CQ",
-    "plays": 13,
-    "plays_fmt": "13",
+    "plays": 12,
+    "plays_fmt": "12",
     "img": "https://i.scdn.co/image/ab67616d0000b273d5df30b611ba46931c2b1d93",
     "pct": 100
    },
    {
     "artist": "AoOo",
-    "plays": 12,
-    "plays_fmt": "12",
+    "plays": 11,
+    "plays_fmt": "11",
     "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
     "pct": 92
    },
    {
     "artist": "Trooper Salute",
-    "plays": 12,
-    "plays_fmt": "12",
+    "plays": 10,
+    "plays_fmt": "10",
     "img": "https://i.scdn.co/image/ab6761610000e5eb97cd03d0a41316350c7679ae",
-    "pct": 92
-   },
-   {
-    "artist": "kobore",
-    "plays": 12,
-    "plays_fmt": "12",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24",
-    "pct": 92
-   },
-   {
-    "artist": "Muque",
-    "plays": 11,
-    "plays_fmt": "11",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f",
-    "pct": 85
-   },
-   {
-    "artist": "Pitch Blue",
-    "plays": 11,
-    "plays_fmt": "11",
-    "img": null,
-    "pct": 85
+    "pct": 83
    },
    {
     "artist": "googoosuu",
     "plays": 10,
     "plays_fmt": "10",
     "img": null,
-    "pct": 77
+    "pct": 83
    },
    {
     "artist": "DJ Okawari",
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5eb6a2ebe53d2b1bf565ae437b9",
-    "pct": 69
+    "pct": 75
    },
    {
-    "artist": "pinfu",
+    "artist": "kobore",
     "plays": 9,
     "plays_fmt": "9",
-    "img": "https://i.scdn.co/image/ab67616d0000b273f4e424ad28550f7ce992dd69",
-    "pct": 69
+    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24",
+    "pct": 75
+   },
+   {
+    "artist": "Muque",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f",
+    "pct": 67
    },
    {
     "artist": "Yorikiri Club",
     "plays": 8,
     "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab67616d0000b27310c1c58501c1102b971c7a6b",
-    "pct": 62
+    "pct": 67
+   },
+   {
+    "artist": "pinfu",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab67616d0000b273f4e424ad28550f7ce992dd69",
+    "pct": 67
+   },
+   {
+    "artist": "Forbear",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb1dd5e26af0ba32dc0330d5e7",
+    "pct": 58
    }
   ],
   "top_alb": [
    {
     "album": "what a Wonderful World's end～2024 Remastered～",
     "artist": "CQ",
-    "plays": 12,
-    "plays_fmt": "12",
+    "plays": 11,
+    "plays_fmt": "11",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6c7091ca47c7e6fbb47659f8a9f0b8d0.jpg"
-   },
-   {
-    "album": "rasen",
-    "artist": "Pitch Blue",
-    "plays": 10,
-    "plays_fmt": "10",
-    "img": null
    },
    {
     "album": "taiongaagaru",
@@ -697,32 +690,11 @@
     "img": null
    },
    {
-    "album": "EMBERS",
-    "artist": "kobore",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24"
-   },
-   {
     "album": "Rooom",
     "artist": "AoOo",
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/da74e0f56cc6364849b7ac888d3492d5.jpg"
-   },
-   {
-    "album": "TOKYO JUNPAKU",
-    "artist": "pinfu",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://i.scdn.co/image/ab67616d0000b273f4e424ad28550f7ce992dd69"
-   },
-   {
-    "album": "GLHF",
-    "artist": "Muque",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/13bc104dda275aecfdc92e8231ef0b32.jpg"
    },
    {
     "album": "SAD MUSIC",
@@ -732,27 +704,49 @@
     "img": "https://i.scdn.co/image/ab67616d0000b27310c1c58501c1102b971c7a6b"
    },
    {
-    "album": "Unmet Needs",
-    "artist": "bedgravity",
+    "album": "TOKYO JUNPAKU",
+    "artist": "pinfu",
     "plays": 8,
     "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab67616d0000b273f4e424ad28550f7ce992dd69"
+   },
+   {
+    "album": "4songs Ⅱ",
+    "artist": "Forbear",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fa31be3a71cc8be0c802b47621bcf196.jpg"
+   },
+   {
+    "album": "EMBERS",
+    "artist": "kobore",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24"
+   },
+   {
+    "album": "Unmet Needs",
+    "artist": "bedgravity",
+    "plays": 7,
+    "plays_fmt": "7",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d49e1932df6d076c99051c1c7fe957a4.jpg"
+   },
+   {
+    "album": "ロックミュージックは死なない",
+    "artist": "PrizzM DoLL",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/5af97c1502222eb3708da847e7c09112.jpg"
    },
    {
     "album": "友達がいました",
     "artist": "Trooper Salute",
-    "plays": 8,
-    "plays_fmt": "8",
+    "plays": 7,
+    "plays_fmt": "7",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/f41863c4c9146f2e2158cda8db761dbf.jpg"
    }
   ],
   "top_trk": [
-   {
-    "track": "rasen",
-    "artist": "Pitch Blue",
-    "plays": 11,
-    "plays_fmt": "11"
-   },
    {
     "track": "DISCO",
     "artist": "やさしいみらい",
@@ -790,36 +784,36 @@
     "plays_fmt": "5"
    },
    {
-    "track": "アップル",
-    "artist": "yobai suspects",
-    "plays": 5,
-    "plays_fmt": "5"
-   },
-   {
     "track": "ジレンマ",
     "artist": "アユリモト",
     "plays": 5,
     "plays_fmt": "5"
    },
    {
-    "track": "埒",
-    "artist": "Trooper Salute",
-    "plays": 5,
-    "plays_fmt": "5"
+    "track": "Another Me feat. Kaori Sawada",
+    "artist": "DJ Okawari",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "BLOOM",
+    "artist": "Urei",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "Bookshelf",
+    "artist": "Forbear",
+    "plays": 4,
+    "plays_fmt": "4"
    }
   ],
   "by_day": [
    {
-    "day": "8/15",
-    "plays": 135,
-    "plays_fmt": "135",
-    "pct": 57
-   },
-   {
     "day": "8/16",
     "plays": 198,
     "plays_fmt": "198",
-    "pct": 84
+    "pct": 83
    },
    {
     "day": "8/17",
@@ -831,13 +825,13 @@
     "day": "8/18",
     "plays": 200,
     "plays_fmt": "200",
-    "pct": 85
+    "pct": 84
    },
    {
     "day": "8/19",
     "plays": 150,
     "plays_fmt": "150",
-    "pct": 64
+    "pct": 63
    },
    {
     "day": "8/20",
@@ -847,9 +841,15 @@
    },
    {
     "day": "8/21",
-    "plays": 236,
-    "plays_fmt": "236",
+    "plays": 238,
+    "plays_fmt": "238",
     "pct": 100
+   },
+   {
+    "day": "8/22",
+    "plays": 0,
+    "plays_fmt": "0",
+    "pct": 0
    }
   ]
  }
