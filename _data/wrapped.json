@@ -2,14 +2,14 @@
  "generated": "2026-08-22",
  "year_label": "2026",
  "all": {
-  "total": 214171,
-  "total_fmt": "214,171",
+  "total": 214280,
+  "total_fmt": "214,280",
   "uniq_art": 7304,
   "uniq_art_fmt": "7,304",
   "uniq_trk": 30496,
   "uniq_trk_fmt": "30,496",
   "start": "2018-03-06",
-  "end": "2026-08-21",
+  "end": "2026-08-22",
   "top_art": [
    {
     "artist": "Mr.ふぉるて",
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 31084,
-    "plays_fmt": "31,084",
+    "plays": 31193,
+    "plays_fmt": "31,193",
     "pct": 58
    }
   ],
@@ -330,8 +330,8 @@
   ]
  },
  "year": {
-  "total": 31084,
-  "total_fmt": "31,084",
+  "total": 31193,
+  "total_fmt": "31,193",
   "uniq_art": 2758,
   "uniq_art_fmt": "2,758",
   "uniq_trk": 7652,
@@ -339,15 +339,15 @@
   "top_art": [
    {
     "artist": "Kienai",
-    "plays": 252,
-    "plays_fmt": "252",
+    "plays": 253,
+    "plays_fmt": "253",
     "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481",
     "pct": 100
    },
    {
     "artist": "Ramblamp",
-    "plays": 247,
-    "plays_fmt": "247",
+    "plays": 248,
+    "plays_fmt": "248",
     "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf",
     "pct": 98
    },
@@ -360,22 +360,22 @@
    },
    {
     "artist": "bedgravity",
-    "plays": 216,
-    "plays_fmt": "216",
+    "plays": 217,
+    "plays_fmt": "217",
     "img": "https://i.scdn.co/image/ab67616d0000b273d29467756d06ae5882d98238",
     "pct": 86
    },
    {
     "artist": "あたまたんさん",
-    "plays": 212,
-    "plays_fmt": "212",
+    "plays": 213,
+    "plays_fmt": "213",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44",
     "pct": 84
    },
    {
     "artist": "the Wulongs",
-    "plays": 187,
-    "plays_fmt": "187",
+    "plays": 188,
+    "plays_fmt": "188",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
     "pct": 74
    },
@@ -388,10 +388,10 @@
    },
    {
     "artist": "wanbed",
-    "plays": 164,
-    "plays_fmt": "164",
+    "plays": 166,
+    "plays_fmt": "166",
     "img": "https://i.scdn.co/image/ab6761610000e5eb015e59262813fcf812ddf659",
-    "pct": 65
+    "pct": 66
    },
    {
     "artist": "Home",
@@ -412,22 +412,22 @@
    {
     "album": "sparkleII",
     "artist": "Kienai",
-    "plays": 249,
-    "plays_fmt": "249",
+    "plays": 250,
+    "plays_fmt": "250",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/1c6a42ba2640cb0ed267d0c9d6a5f106.jpg"
    },
    {
     "album": "Unmet Needs",
     "artist": "bedgravity",
-    "plays": 216,
-    "plays_fmt": "216",
+    "plays": 217,
+    "plays_fmt": "217",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/d49e1932df6d076c99051c1c7fe957a4.jpg"
    },
    {
     "album": "鉄の掟",
     "artist": "あたまたんさん",
-    "plays": 211,
-    "plays_fmt": "211",
+    "plays": 212,
+    "plays_fmt": "212",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44"
    },
    {
@@ -461,8 +461,8 @@
    {
     "album": "135",
     "artist": "wanbed",
-    "plays": 148,
-    "plays_fmt": "148",
+    "plays": 149,
+    "plays_fmt": "149",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/8f67506eb69e1457aed72a3f1273f862.jpg"
    },
    {
@@ -587,26 +587,26 @@
    },
    {
     "month": "8",
-    "plays": 2936,
-    "plays_fmt": "2,936",
-    "pct": 54
+    "plays": 3045,
+    "plays_fmt": "3,045",
+    "pct": 56
    }
   ]
  },
  "week": {
-  "total": 1019,
-  "total_fmt": "1,019",
-  "uniq_art": 433,
-  "uniq_art_fmt": "433",
-  "uniq_trk": 586,
-  "uniq_trk_fmt": "586",
+  "total": 1128,
+  "total_fmt": "1,128",
+  "uniq_art": 441,
+  "uniq_art_fmt": "441",
+  "uniq_trk": 600,
+  "uniq_trk_fmt": "600",
   "start": "8/16",
   "end": "8/22",
   "top_art": [
    {
     "artist": "CQ",
-    "plays": 12,
-    "plays_fmt": "12",
+    "plays": 14,
+    "plays_fmt": "14",
     "img": "https://i.scdn.co/image/ab67616d0000b273d5df30b611ba46931c2b1d93",
     "pct": 100
    },
@@ -615,71 +615,71 @@
     "plays": 11,
     "plays_fmt": "11",
     "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
-    "pct": 92
+    "pct": 79
    },
    {
     "artist": "Trooper Salute",
+    "plays": 11,
+    "plays_fmt": "11",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb97cd03d0a41316350c7679ae",
+    "pct": 79
+   },
+   {
+    "artist": "DJ Okawari",
     "plays": 10,
     "plays_fmt": "10",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb97cd03d0a41316350c7679ae",
-    "pct": 83
+    "img": "https://i.scdn.co/image/ab6761610000e5eb6a2ebe53d2b1bf565ae437b9",
+    "pct": 71
    },
    {
     "artist": "googoosuu",
     "plays": 10,
     "plays_fmt": "10",
     "img": null,
-    "pct": 83
+    "pct": 71
    },
    {
-    "artist": "DJ Okawari",
+    "artist": "Muque",
     "plays": 9,
     "plays_fmt": "9",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb6a2ebe53d2b1bf565ae437b9",
-    "pct": 75
+    "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f",
+    "pct": 64
    },
    {
     "artist": "kobore",
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24",
-    "pct": 75
-   },
-   {
-    "artist": "Muque",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f",
-    "pct": 67
+    "pct": 64
    },
    {
     "artist": "Yorikiri Club",
     "plays": 8,
     "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab67616d0000b27310c1c58501c1102b971c7a6b",
-    "pct": 67
+    "pct": 57
+   },
+   {
+    "artist": "bedgravity",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab67616d0000b273d29467756d06ae5882d98238",
+    "pct": 57
    },
    {
     "artist": "pinfu",
     "plays": 8,
     "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab67616d0000b273f4e424ad28550f7ce992dd69",
-    "pct": 67
-   },
-   {
-    "artist": "Forbear",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb1dd5e26af0ba32dc0330d5e7",
-    "pct": 58
+    "pct": 57
    }
   ],
   "top_alb": [
    {
     "album": "what a Wonderful World's end～2024 Remastered～",
     "artist": "CQ",
-    "plays": 11,
-    "plays_fmt": "11",
+    "plays": 12,
+    "plays_fmt": "12",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6c7091ca47c7e6fbb47659f8a9f0b8d0.jpg"
    },
    {
@@ -711,6 +711,20 @@
     "img": "https://i.scdn.co/image/ab67616d0000b273f4e424ad28550f7ce992dd69"
    },
    {
+    "album": "Unmet Needs",
+    "artist": "bedgravity",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d49e1932df6d076c99051c1c7fe957a4.jpg"
+   },
+   {
+    "album": "忘れたいこと",
+    "artist": "ささくれ",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/c9840cacb0f7e847b59fae6bc1112ccf.jpg"
+   },
+   {
     "album": "4songs Ⅱ",
     "artist": "Forbear",
     "plays": 7,
@@ -725,31 +739,35 @@
     "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24"
    },
    {
-    "album": "Unmet Needs",
-    "artist": "bedgravity",
+    "album": "Flight '26",
+    "artist": "Ludens",
     "plays": 7,
     "plays_fmt": "7",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d49e1932df6d076c99051c1c7fe957a4.jpg"
-   },
-   {
-    "album": "ロックミュージックは死なない",
-    "artist": "PrizzM DoLL",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/5af97c1502222eb3708da847e7c09112.jpg"
-   },
-   {
-    "album": "友達がいました",
-    "artist": "Trooper Salute",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/f41863c4c9146f2e2158cda8db761dbf.jpg"
+    "img": "https://i.scdn.co/image/ab6761610000e5eb39f16ed2969825cee8ee66f3"
    }
   ],
   "top_trk": [
    {
     "track": "DISCO",
     "artist": "やさしいみらい",
+    "plays": 6,
+    "plays_fmt": "6"
+   },
+   {
+    "track": "hannah",
+    "artist": "dins",
+    "plays": 6,
+    "plays_fmt": "6"
+   },
+   {
+    "track": "Another Me feat. Kaori Sawada",
+    "artist": "DJ Okawari",
+    "plays": 5,
+    "plays_fmt": "5"
+   },
+   {
+    "track": "Imasara Tesla",
+    "artist": "Guys in the quiet neighborhood",
     "plays": 5,
     "plays_fmt": "5"
    },
@@ -760,8 +778,20 @@
     "plays_fmt": "5"
    },
    {
+    "track": "Rubber",
+    "artist": "The Sandboxief",
+    "plays": 5,
+    "plays_fmt": "5"
+   },
+   {
     "track": "Silent Prayers",
     "artist": "DJ Okawari",
+    "plays": 5,
+    "plays_fmt": "5"
+   },
+   {
+    "track": "buses",
+    "artist": "シラズナノイズ",
     "plays": 5,
     "plays_fmt": "5"
    },
@@ -776,36 +806,6 @@
     "artist": "googoosuu",
     "plays": 5,
     "plays_fmt": "5"
-   },
-   {
-    "track": "hannah",
-    "artist": "dins",
-    "plays": 5,
-    "plays_fmt": "5"
-   },
-   {
-    "track": "ジレンマ",
-    "artist": "アユリモト",
-    "plays": 5,
-    "plays_fmt": "5"
-   },
-   {
-    "track": "Another Me feat. Kaori Sawada",
-    "artist": "DJ Okawari",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "BLOOM",
-    "artist": "Urei",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "Bookshelf",
-    "artist": "Forbear",
-    "plays": 4,
-    "plays_fmt": "4"
    }
   ],
   "by_day": [
@@ -841,15 +841,15 @@
    },
    {
     "day": "8/21",
-    "plays": 238,
-    "plays_fmt": "238",
+    "plays": 239,
+    "plays_fmt": "239",
     "pct": 100
    },
    {
     "day": "8/22",
-    "plays": 0,
-    "plays_fmt": "0",
-    "pct": 0
+    "plays": 108,
+    "plays_fmt": "108",
+    "pct": 45
    }
   ]
  }
