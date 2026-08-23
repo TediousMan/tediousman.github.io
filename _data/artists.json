@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7304,
- "total_artists_fmt": "7,304",
+ "total_artists": 7310,
+ "total_artists_fmt": "7,310",
  "missing_img": 9,
  "artists": [
   {
@@ -173,22 +173,22 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebf0ba97c426926eefb55b82be"
   },
   {
-   "name": "WOLVEs GROOVY",
-   "plays": 553,
-   "plays_fmt": "553",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb072f226440f065b9396dad04"
-  },
-  {
    "name": "The Otals",
-   "plays": 552,
-   "plays_fmt": "552",
+   "plays": 554,
+   "plays_fmt": "554",
    "img": "https://i.scdn.co/image/ab6761610000e5ebe880728367d115f0c7dfceb6"
   },
   {
    "name": "BRADIO",
-   "plays": 551,
-   "plays_fmt": "551",
+   "plays": 553,
+   "plays_fmt": "553",
    "img": "https://i.scdn.co/image/ab6761610000e5eb1b468ea5308efde05767f7f3"
+  },
+  {
+   "name": "WOLVEs GROOVY",
+   "plays": 553,
+   "plays_fmt": "553",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb072f226440f065b9396dad04"
   },
   {
    "name": "KANEYORIMASARU",
@@ -348,8 +348,8 @@
   },
   {
    "name": "Ivy to Fraudulent Game",
-   "plays": 384,
-   "plays_fmt": "384",
+   "plays": 385,
+   "plays_fmt": "385",
    "img": "https://i.scdn.co/image/ab6761610000e5eb7f8973aeb4176e61b0cec158"
   },
   {
@@ -395,16 +395,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb5e779ac5990c92ad5b423c3f"
   },
   {
+   "name": "Muque",
+   "plays": 373,
+   "plays_fmt": "373",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
+  },
+  {
    "name": "Chilli Beans.",
    "plays": 372,
    "plays_fmt": "372",
    "img": "https://i.scdn.co/image/ab6761610000e5eb3f7ea5d6336f02de0539f2be"
-  },
-  {
-   "name": "Muque",
-   "plays": 372,
-   "plays_fmt": "372",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
   },
   {
    "name": "Vaundy",
@@ -431,16 +431,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eba28745b1de7f1ad1d41514f6"
   },
   {
+   "name": "Home",
+   "plays": 358,
+   "plays_fmt": "358",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
+  },
+  {
    "name": "sancrib",
    "plays": 358,
    "plays_fmt": "358",
    "img": "https://i.scdn.co/image/ab6761610000e5eb4a8c57a013ac825eef0fb401"
-  },
-  {
-   "name": "Home",
-   "plays": 357,
-   "plays_fmt": "357",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
    "name": "Heavenstamp",
@@ -611,16 +611,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb681001831f86d9af5a1dba96"
   },
   {
+   "name": "coldrain",
+   "plays": 311,
+   "plays_fmt": "311",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb790734bdee501b47713b4afe"
+  },
+  {
    "name": "シトナユイ",
    "plays": 311,
    "plays_fmt": "311",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5d945f1eb86c81e98e97d715"
-  },
-  {
-   "name": "coldrain",
-   "plays": 310,
-   "plays_fmt": "310",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb790734bdee501b47713b4afe"
   },
   {
    "name": "Stereogirl",
@@ -635,16 +635,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb6bb8a0465f0ec9b427da4300"
   },
   {
+   "name": "Nigami 17th birthday!!",
+   "plays": 305,
+   "plays_fmt": "305",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebad1458fe213f198f7b11d1d4"
+  },
+  {
    "name": "Haruy",
    "plays": 304,
    "plays_fmt": "304",
    "img": "https://i.scdn.co/image/ab6761610000e5eb2c25588070d843e68a41d6f4"
-  },
-  {
-   "name": "Nigami 17th birthday!!",
-   "plays": 304,
-   "plays_fmt": "304",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebad1458fe213f198f7b11d1d4"
   },
   {
    "name": "the tiva",
@@ -761,6 +761,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb35e11f5ad4a252b96a658376"
   },
   {
+   "name": "Have a nice day!",
+   "plays": 276,
+   "plays_fmt": "276",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
+  },
+  {
    "name": "Laura day romance",
    "plays": 276,
    "plays_fmt": "276",
@@ -771,12 +777,6 @@
    "plays": 275,
    "plays_fmt": "275",
    "img": "https://i.scdn.co/image/ab6761610000e5eb80403b4ec22b76d2eb4f8931"
-  },
-  {
-   "name": "Have a nice day!",
-   "plays": 275,
-   "plays_fmt": "275",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
   },
   {
    "name": "E.scene",
