@@ -1,15 +1,15 @@
 {
- "generated": "2026-08-23",
+ "generated": "2026-08-24",
  "year_label": "2026",
  "all": {
-  "total": 214405,
-  "total_fmt": "214,405",
+  "total": 214436,
+  "total_fmt": "214,436",
   "uniq_art": 7310,
   "uniq_art_fmt": "7,310",
   "uniq_trk": 30506,
   "uniq_trk_fmt": "30,506",
   "start": "2018-03-06",
-  "end": "2026-08-23",
+  "end": "2026-08-24",
   "top_art": [
    {
     "artist": "Mr.ふぉるて",
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 31318,
-    "plays_fmt": "31,318",
+    "plays": 31349,
+    "plays_fmt": "31,349",
     "pct": 58
    }
   ],
@@ -330,8 +330,8 @@
   ]
  },
  "year": {
-  "total": 31318,
-  "total_fmt": "31,318",
+  "total": 31349,
+  "total_fmt": "31,349",
   "uniq_art": 2764,
   "uniq_art_fmt": "2,764",
   "uniq_trk": 7666,
@@ -381,10 +381,10 @@
    },
    {
     "artist": "uyuu",
-    "plays": 178,
-    "plays_fmt": "178",
+    "plays": 179,
+    "plays_fmt": "179",
     "img": "https://i.scdn.co/image/ab67616d0000b27381582c0fb8f5908a6aee7f3e",
-    "pct": 70
+    "pct": 71
    },
    {
     "artist": "wanbed",
@@ -508,8 +508,8 @@
    {
     "track": "Anemone",
     "artist": "REVEMERE",
-    "plays": 73,
-    "plays_fmt": "73"
+    "plays": 74,
+    "plays_fmt": "74"
    },
    {
     "track": "浴槽",
@@ -587,114 +587,107 @@
    },
    {
     "month": "8",
-    "plays": 3170,
-    "plays_fmt": "3,170",
-    "pct": 58
+    "plays": 3201,
+    "plays_fmt": "3,201",
+    "pct": 59
    }
   ]
  },
  "week": {
-  "total": 1055,
-  "total_fmt": "1,055",
-  "uniq_art": 487,
-  "uniq_art_fmt": "487",
-  "uniq_trk": 690,
-  "uniq_trk_fmt": "690",
-  "start": "8/17",
-  "end": "8/23",
+  "total": 974,
+  "total_fmt": "974",
+  "uniq_art": 498,
+  "uniq_art_fmt": "498",
+  "uniq_trk": 714,
+  "uniq_trk_fmt": "714",
+  "start": "8/18",
+  "end": "8/24",
   "top_art": [
    {
     "artist": "CQ",
-    "plays": 12,
-    "plays_fmt": "12",
+    "plays": 11,
+    "plays_fmt": "11",
     "img": "https://i.scdn.co/image/ab67616d0000b273d5df30b611ba46931c2b1d93",
     "pct": 100
    },
    {
     "artist": "Trooper Salute",
-    "plays": 10,
-    "plays_fmt": "10",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb97cd03d0a41316350c7679ae",
-    "pct": 83
-   },
-   {
-    "artist": "Muque",
     "plays": 9,
     "plays_fmt": "9",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f",
-    "pct": 75
-   },
-   {
-    "artist": "AoOo",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
-    "pct": 67
+    "img": "https://i.scdn.co/image/ab6761610000e5eb97cd03d0a41316350c7679ae",
+    "pct": 82
    },
    {
     "artist": "Yorikiri Club",
-    "plays": 8,
-    "plays_fmt": "8",
+    "plays": 9,
+    "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab67616d0000b27310c1c58501c1102b971c7a6b",
-    "pct": 67
+    "pct": 82
    },
    {
-    "artist": "googoosuu",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": null,
-    "pct": 67
-   },
-   {
-    "artist": "kobore",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24",
-    "pct": 67
+    "artist": "AoOo",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
+    "pct": 64
    },
    {
     "artist": "DJ Okawari",
     "plays": 7,
     "plays_fmt": "7",
     "img": "https://i.scdn.co/image/ab6761610000e5eb6a2ebe53d2b1bf565ae437b9",
-    "pct": 58
+    "pct": 64
    },
    {
     "artist": "Loulou Parasom",
     "plays": 7,
     "plays_fmt": "7",
     "img": "https://i.scdn.co/image/ab6761610000e5eb0066578313be1dd93b2043f9",
-    "pct": 58
+    "pct": 64
    },
    {
-    "artist": "Pixie Monster",
+    "artist": "Muque",
     "plays": 7,
     "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab67616d0000b2735e978b98cee7de8932289c5e",
-    "pct": 58
+    "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f",
+    "pct": 64
+   },
+   {
+    "artist": "PrizzM DoLL",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": null,
+    "pct": 64
+   },
+   {
+    "artist": "googoosuu",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": null,
+    "pct": 64
+   },
+   {
+    "artist": "the Wulongs",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
+    "pct": 64
    }
   ],
   "top_alb": [
    {
-    "album": "what a Wonderful World's end～2024 Remastered～",
-    "artist": "CQ",
-    "plays": 10,
-    "plays_fmt": "10",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6c7091ca47c7e6fbb47659f8a9f0b8d0.jpg"
-   },
-   {
     "album": "SAD MUSIC",
     "artist": "Yorikiri Club",
-    "plays": 8,
-    "plays_fmt": "8",
+    "plays": 9,
+    "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab67616d0000b27310c1c58501c1102b971c7a6b"
    },
    {
-    "album": "taiongaagaru",
-    "artist": "googoosuu",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": null
+    "album": "what a Wonderful World's end～2024 Remastered～",
+    "artist": "CQ",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6c7091ca47c7e6fbb47659f8a9f0b8d0.jpg"
    },
    {
     "album": "A Boy with No Name",
@@ -704,25 +697,11 @@
     "img": "https://i.scdn.co/image/ab6761610000e5eb0066578313be1dd93b2043f9"
    },
    {
-    "album": "GLHF",
-    "artist": "Muque",
+    "album": "taiongaagaru",
+    "artist": "googoosuu",
     "plays": 7,
     "plays_fmt": "7",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/13bc104dda275aecfdc92e8231ef0b32.jpg"
-   },
-   {
-    "album": "TOKYO JUNPAKU",
-    "artist": "pinfu",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab67616d0000b273f4e424ad28550f7ce992dd69"
-   },
-   {
-    "album": "taikutsu wo ande",
-    "artist": "Pixie Monster",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab67616d0000b2735e978b98cee7de8932289c5e"
+    "img": null
    },
    {
     "album": "ロックミュージックは死なない",
@@ -739,11 +718,32 @@
     "img": "https://i.scdn.co/image/ab6761610000e5ebcd4eb66126f775a1d9cb1064"
    },
    {
-    "album": "EMBERS",
-    "artist": "kobore",
+    "album": "GLHF",
+    "artist": "Muque",
     "plays": 6,
     "plays_fmt": "6",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24"
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/13bc104dda275aecfdc92e8231ef0b32.jpg"
+   },
+   {
+    "album": "Gold Fashion",
+    "artist": "BRADIO",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/bdcf461a42515a1f33a369c657656b3d.jpg"
+   },
+   {
+    "album": "Neo Retro Pops",
+    "artist": "Rip van cats",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/832fafb3bba9f2ef0159f6691a760685.jpg"
+   },
+   {
+    "album": "Rooom",
+    "artist": "AoOo",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/da74e0f56cc6364849b7ac888d3492d5.jpg"
    }
   ],
   "top_trk": [
@@ -754,12 +754,6 @@
     "plays_fmt": "6"
    },
    {
-    "track": "246",
-    "artist": "RAINBOW BELTZ",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
     "track": "Another Me feat. Kaori Sawada",
     "artist": "DJ Okawari",
     "plays": 4,
@@ -768,18 +762,6 @@
    {
     "track": "I Surrender",
     "artist": "UEBO",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "Imasara Tesla",
-    "artist": "Guys in the quiet neighborhood",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "Rubber",
-    "artist": "The Sandboxief",
     "plays": 4,
     "plays_fmt": "4"
    },
@@ -806,15 +788,27 @@
     "artist": "Pug",
     "plays": 4,
     "plays_fmt": "4"
+   },
+   {
+    "track": "無くしたピックを重ねて月に行こう",
+    "artist": "オレンジスパイニクラブ",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "246",
+    "artist": "RAINBOW BELTZ",
+    "plays": 3,
+    "plays_fmt": "3"
+   },
+   {
+    "track": "DARK GAME",
+    "artist": "Muque",
+    "plays": 3,
+    "plays_fmt": "3"
    }
   ],
   "by_day": [
-   {
-    "day": "8/17",
-    "plays": 112,
-    "plays_fmt": "112",
-    "pct": 47
-   },
    {
     "day": "8/18",
     "plays": 200,
@@ -847,9 +841,15 @@
    },
    {
     "day": "8/23",
-    "plays": 124,
-    "plays_fmt": "124",
-    "pct": 52
+    "plays": 139,
+    "plays_fmt": "139",
+    "pct": 58
+   },
+   {
+    "day": "8/24",
+    "plays": 16,
+    "plays_fmt": "16",
+    "pct": 7
    }
   ]
  }
