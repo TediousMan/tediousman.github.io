@@ -1,15 +1,15 @@
 {
- "generated": "2026-08-24",
+ "generated": "2026-08-25",
  "year_label": "2026",
  "all": {
-  "total": 214436,
-  "total_fmt": "214,436",
+  "total": 214517,
+  "total_fmt": "214,517",
   "uniq_art": 7310,
   "uniq_art_fmt": "7,310",
-  "uniq_trk": 30506,
-  "uniq_trk_fmt": "30,506",
+  "uniq_trk": 30510,
+  "uniq_trk_fmt": "30,510",
   "start": "2018-03-06",
-  "end": "2026-08-24",
+  "end": "2026-08-25",
   "top_art": [
    {
     "artist": "Mr.ふぉるて",
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 31349,
-    "plays_fmt": "31,349",
+    "plays": 31430,
+    "plays_fmt": "31,430",
     "pct": 58
    }
   ],
@@ -330,17 +330,17 @@
   ]
  },
  "year": {
-  "total": 31349,
-  "total_fmt": "31,349",
+  "total": 31430,
+  "total_fmt": "31,430",
   "uniq_art": 2764,
   "uniq_art_fmt": "2,764",
-  "uniq_trk": 7666,
-  "uniq_trk_fmt": "7,666",
+  "uniq_trk": 7670,
+  "uniq_trk_fmt": "7,670",
   "top_art": [
    {
     "artist": "Kienai",
-    "plays": 253,
-    "plays_fmt": "253",
+    "plays": 254,
+    "plays_fmt": "254",
     "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481",
     "pct": 100
    },
@@ -353,8 +353,8 @@
    },
    {
     "artist": "BUDOU JUICE",
-    "plays": 227,
-    "plays_fmt": "227",
+    "plays": 228,
+    "plays_fmt": "228",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f",
     "pct": 90
    },
@@ -363,7 +363,7 @@
     "plays": 217,
     "plays_fmt": "217",
     "img": "https://i.scdn.co/image/ab67616d0000b273d29467756d06ae5882d98238",
-    "pct": 86
+    "pct": 85
    },
    {
     "artist": "あたまたんさん",
@@ -374,8 +374,8 @@
    },
    {
     "artist": "the Wulongs",
-    "plays": 189,
-    "plays_fmt": "189",
+    "plays": 190,
+    "plays_fmt": "190",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
     "pct": 75
    },
@@ -384,7 +384,7 @@
     "plays": 179,
     "plays_fmt": "179",
     "img": "https://i.scdn.co/image/ab67616d0000b27381582c0fb8f5908a6aee7f3e",
-    "pct": 71
+    "pct": 70
    },
    {
     "artist": "wanbed",
@@ -412,8 +412,8 @@
    {
     "album": "sparkleII",
     "artist": "Kienai",
-    "plays": 250,
-    "plays_fmt": "250",
+    "plays": 251,
+    "plays_fmt": "251",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/1c6a42ba2640cb0ed267d0c9d6a5f106.jpg"
    },
    {
@@ -587,107 +587,107 @@
    },
    {
     "month": "8",
-    "plays": 3201,
-    "plays_fmt": "3,201",
-    "pct": 59
+    "plays": 3282,
+    "plays_fmt": "3,282",
+    "pct": 60
    }
   ]
  },
  "week": {
-  "total": 974,
-  "total_fmt": "974",
-  "uniq_art": 498,
-  "uniq_art_fmt": "498",
-  "uniq_trk": 714,
-  "uniq_trk_fmt": "714",
-  "start": "8/18",
-  "end": "8/24",
+  "total": 855,
+  "total_fmt": "855",
+  "uniq_art": 442,
+  "uniq_art_fmt": "442",
+  "uniq_trk": 626,
+  "uniq_trk_fmt": "626",
+  "start": "8/19",
+  "end": "8/25",
   "top_art": [
    {
-    "artist": "CQ",
-    "plays": 11,
-    "plays_fmt": "11",
-    "img": "https://i.scdn.co/image/ab67616d0000b273d5df30b611ba46931c2b1d93",
+    "artist": "Gaze Back",
+    "plays": 13,
+    "plays_fmt": "13",
+    "img": null,
     "pct": 100
-   },
-   {
-    "artist": "Trooper Salute",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb97cd03d0a41316350c7679ae",
-    "pct": 82
    },
    {
     "artist": "Yorikiri Club",
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab67616d0000b27310c1c58501c1102b971c7a6b",
-    "pct": 82
+    "pct": 69
    },
    {
-    "artist": "AoOo",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
-    "pct": 64
-   },
-   {
-    "artist": "DJ Okawari",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb6a2ebe53d2b1bf565ae437b9",
-    "pct": 64
+    "artist": "CQ",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab67616d0000b273d5df30b611ba46931c2b1d93",
+    "pct": 62
    },
    {
     "artist": "Loulou Parasom",
     "plays": 7,
     "plays_fmt": "7",
     "img": "https://i.scdn.co/image/ab6761610000e5eb0066578313be1dd93b2043f9",
-    "pct": 64
+    "pct": 54
    },
    {
-    "artist": "Muque",
+    "artist": "Pixie Monster",
     "plays": 7,
     "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f",
-    "pct": 64
+    "img": "https://i.scdn.co/image/ab67616d0000b2735e978b98cee7de8932289c5e",
+    "pct": 54
    },
    {
-    "artist": "PrizzM DoLL",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": null,
-    "pct": 64
+    "artist": "Nao Yoshioka",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebd186fd363e4e3038b4a203e9",
+    "pct": 46
+   },
+   {
+    "artist": "Rip van cats",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebf8cc910d3f2822e9f3441beb",
+    "pct": 46
+   },
+   {
+    "artist": "Trooper Salute",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb97cd03d0a41316350c7679ae",
+    "pct": 46
    },
    {
     "artist": "googoosuu",
-    "plays": 7,
-    "plays_fmt": "7",
+    "plays": 6,
+    "plays_fmt": "6",
     "img": null,
-    "pct": 64
+    "pct": 46
    },
    {
     "artist": "the Wulongs",
-    "plays": 7,
-    "plays_fmt": "7",
+    "plays": 6,
+    "plays_fmt": "6",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
-    "pct": 64
+    "pct": 46
    }
   ],
   "top_alb": [
+   {
+    "album": "Homeostasis/Ribbon",
+    "artist": "Gaze Back",
+    "plays": 12,
+    "plays_fmt": "12",
+    "img": null
+   },
    {
     "album": "SAD MUSIC",
     "artist": "Yorikiri Club",
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab67616d0000b27310c1c58501c1102b971c7a6b"
-   },
-   {
-    "album": "what a Wonderful World's end～2024 Remastered～",
-    "artist": "CQ",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6c7091ca47c7e6fbb47659f8a9f0b8d0.jpg"
    },
    {
     "album": "A Boy with No Name",
@@ -697,18 +697,11 @@
     "img": "https://i.scdn.co/image/ab6761610000e5eb0066578313be1dd93b2043f9"
    },
    {
-    "album": "taiongaagaru",
-    "artist": "googoosuu",
+    "album": "taikutsu wo ande",
+    "artist": "Pixie Monster",
     "plays": 7,
     "plays_fmt": "7",
-    "img": null
-   },
-   {
-    "album": "ロックミュージックは死なない",
-    "artist": "PrizzM DoLL",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/5af97c1502222eb3708da847e7c09112.jpg"
+    "img": "https://i.scdn.co/image/ab67616d0000b2735e978b98cee7de8932289c5e"
    },
    {
     "album": "DISCO",
@@ -718,20 +711,6 @@
     "img": "https://i.scdn.co/image/ab6761610000e5ebcd4eb66126f775a1d9cb1064"
    },
    {
-    "album": "GLHF",
-    "artist": "Muque",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/13bc104dda275aecfdc92e8231ef0b32.jpg"
-   },
-   {
-    "album": "Gold Fashion",
-    "artist": "BRADIO",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/bdcf461a42515a1f33a369c657656b3d.jpg"
-   },
-   {
     "album": "Neo Retro Pops",
     "artist": "Rip van cats",
     "plays": 6,
@@ -739,14 +718,41 @@
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/832fafb3bba9f2ef0159f6691a760685.jpg"
    },
    {
-    "album": "Rooom",
-    "artist": "AoOo",
+    "album": "taiongaagaru",
+    "artist": "googoosuu",
     "plays": 6,
     "plays_fmt": "6",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/da74e0f56cc6364849b7ac888d3492d5.jpg"
+    "img": null
+   },
+   {
+    "album": "what a Wonderful World's end～2024 Remastered～",
+    "artist": "CQ",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6c7091ca47c7e6fbb47659f8a9f0b8d0.jpg"
+   },
+   {
+    "album": "Colors",
+    "artist": "evolving from N/A",
+    "plays": 5,
+    "plays_fmt": "5",
+    "img": "https://i.scdn.co/image/ab67616d0000b2736bc5c3b03b34d992cef805a8"
+   },
+   {
+    "album": "EMBERS",
+    "artist": "kobore",
+    "plays": 5,
+    "plays_fmt": "5",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24"
    }
   ],
   "top_trk": [
+   {
+    "track": "Homeostasis",
+    "artist": "Gaze Back",
+    "plays": 7,
+    "plays_fmt": "7"
+   },
    {
     "track": "DISCO",
     "artist": "やさしいみらい",
@@ -754,10 +760,10 @@
     "plays_fmt": "6"
    },
    {
-    "track": "Another Me feat. Kaori Sawada",
-    "artist": "DJ Okawari",
-    "plays": 4,
-    "plays_fmt": "4"
+    "track": "Ribbon",
+    "artist": "Gaze Back",
+    "plays": 6,
+    "plays_fmt": "6"
    },
    {
     "track": "I Surrender",
@@ -772,26 +778,8 @@
     "plays_fmt": "4"
    },
    {
-    "track": "buses",
-    "artist": "シラズナノイズ",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "hannah",
-    "artist": "dins",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "sakura",
-    "artist": "Pug",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "無くしたピックを重ねて月に行こう",
-    "artist": "オレンジスパイニクラブ",
+    "track": "さよならマクガフィン",
+    "artist": "The Otals",
     "plays": 4,
     "plays_fmt": "4"
    },
@@ -802,19 +790,25 @@
     "plays_fmt": "3"
    },
    {
-    "track": "DARK GAME",
-    "artist": "Muque",
+    "track": "Another Me feat. Kaori Sawada",
+    "artist": "DJ Okawari",
+    "plays": 3,
+    "plays_fmt": "3"
+   },
+   {
+    "track": "GLOW",
+    "artist": "空きっ腹に酒",
+    "plays": 3,
+    "plays_fmt": "3"
+   },
+   {
+    "track": "Imasara Tesla",
+    "artist": "Guys in the quiet neighborhood",
     "plays": 3,
     "plays_fmt": "3"
    }
   ],
   "by_day": [
-   {
-    "day": "8/18",
-    "plays": 200,
-    "plays_fmt": "200",
-    "pct": 84
-   },
    {
     "day": "8/19",
     "plays": 150,
@@ -847,9 +841,15 @@
    },
    {
     "day": "8/24",
-    "plays": 16,
-    "plays_fmt": "16",
-    "pct": 7
+    "plays": 21,
+    "plays_fmt": "21",
+    "pct": 9
+   },
+   {
+    "day": "8/25",
+    "plays": 76,
+    "plays_fmt": "76",
+    "pct": 32
    }
   ]
  }
