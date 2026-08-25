@@ -2,12 +2,12 @@
  "generated": "2026-08-25",
  "year_label": "2026",
  "all": {
-  "total": 214517,
-  "total_fmt": "214,517",
-  "uniq_art": 7310,
-  "uniq_art_fmt": "7,310",
-  "uniq_trk": 30510,
-  "uniq_trk_fmt": "30,510",
+  "total": 214534,
+  "total_fmt": "214,534",
+  "uniq_art": 7314,
+  "uniq_art_fmt": "7,314",
+  "uniq_trk": 30521,
+  "uniq_trk_fmt": "30,521",
   "start": "2018-03-06",
   "end": "2026-08-25",
   "top_art": [
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 31430,
-    "plays_fmt": "31,430",
+    "plays": 31447,
+    "plays_fmt": "31,447",
     "pct": 58
    }
   ],
@@ -323,19 +323,19 @@
    },
    {
     "year": "2026",
-    "count": 941,
-    "count_fmt": "941",
+    "count": 945,
+    "count_fmt": "945",
     "pct": 39
    }
   ]
  },
  "year": {
-  "total": 31430,
-  "total_fmt": "31,430",
-  "uniq_art": 2764,
-  "uniq_art_fmt": "2,764",
-  "uniq_trk": 7670,
-  "uniq_trk_fmt": "7,670",
+  "total": 31447,
+  "total_fmt": "31,447",
+  "uniq_art": 2768,
+  "uniq_art_fmt": "2,768",
+  "uniq_trk": 7681,
+  "uniq_trk_fmt": "7,681",
   "top_art": [
    {
     "artist": "Kienai",
@@ -587,19 +587,19 @@
    },
    {
     "month": "8",
-    "plays": 3282,
-    "plays_fmt": "3,282",
-    "pct": 60
+    "plays": 3299,
+    "plays_fmt": "3,299",
+    "pct": 61
    }
   ]
  },
  "week": {
-  "total": 855,
-  "total_fmt": "855",
-  "uniq_art": 442,
-  "uniq_art_fmt": "442",
-  "uniq_trk": 626,
-  "uniq_trk_fmt": "626",
+  "total": 872,
+  "total_fmt": "872",
+  "uniq_art": 450,
+  "uniq_art_fmt": "450",
+  "uniq_trk": 640,
+  "uniq_trk_fmt": "640",
   "start": "8/19",
   "end": "8/25",
   "top_art": [
@@ -639,6 +639,13 @@
     "pct": 54
    },
    {
+    "artist": "googoosuu",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": null,
+    "pct": 54
+   },
+   {
     "artist": "Nao Yoshioka",
     "plays": 6,
     "plays_fmt": "6",
@@ -660,17 +667,10 @@
     "pct": 46
    },
    {
-    "artist": "googoosuu",
+    "artist": "ghost girl in my bed",
     "plays": 6,
     "plays_fmt": "6",
-    "img": null,
-    "pct": 46
-   },
-   {
-    "artist": "the Wulongs",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb583524b411226acef107f1b6",
     "pct": 46
    }
   ],
@@ -718,6 +718,13 @@
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/832fafb3bba9f2ef0159f6691a760685.jpg"
    },
    {
+    "album": "ghost girl in my bed",
+    "artist": "ghost girl in my bed",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb583524b411226acef107f1b6"
+   },
+   {
     "album": "taiongaagaru",
     "artist": "googoosuu",
     "plays": 6,
@@ -737,13 +744,6 @@
     "plays": 5,
     "plays_fmt": "5",
     "img": "https://i.scdn.co/image/ab67616d0000b2736bc5c3b03b34d992cef805a8"
-   },
-   {
-    "album": "EMBERS",
-    "artist": "kobore",
-    "plays": 5,
-    "plays_fmt": "5",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24"
    }
   ],
   "top_trk": [
@@ -847,9 +847,9 @@
    },
    {
     "day": "8/25",
-    "plays": 76,
-    "plays_fmt": "76",
-    "pct": 32
+    "plays": 93,
+    "plays_fmt": "93",
+    "pct": 39
    }
   ]
  }
