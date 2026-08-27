@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7316,
- "total_artists_fmt": "7,316",
+ "total_artists": 7334,
+ "total_artists_fmt": "7,334",
  "missing_img": 8,
  "artists": [
   {
@@ -120,8 +120,8 @@
   },
   {
    "name": "にしな",
-   "plays": 611,
-   "plays_fmt": "611",
+   "plays": 612,
+   "plays_fmt": "612",
    "img": "https://i.scdn.co/image/ab6761610000e5eb9c703e5ffc35530b42a70a8e"
   },
   {
@@ -396,8 +396,8 @@
   },
   {
    "name": "Muque",
-   "plays": 373,
-   "plays_fmt": "373",
+   "plays": 374,
+   "plays_fmt": "374",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
   },
   {
@@ -528,8 +528,8 @@
   },
   {
    "name": "Nagakumo",
-   "plays": 322,
-   "plays_fmt": "322",
+   "plays": 323,
+   "plays_fmt": "323",
    "img": "https://i.scdn.co/image/ab6761610000e5eb9247cd4ef50307e4425b4bf8"
   },
   {
@@ -809,16 +809,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebf32519dab1f0daa82898fe82"
   },
   {
+   "name": "ホピーハイボ",
+   "plays": 267,
+   "plays_fmt": "267",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb0eef43e8d0a6ef8f2fe0cae6"
+  },
+  {
    "name": "illiomote",
    "plays": 266,
    "plays_fmt": "266",
    "img": "https://i.scdn.co/image/ab6761610000e5eba9a5143d6eb3917fbe03ad9b"
-  },
-  {
-   "name": "ホピーハイボ",
-   "plays": 266,
-   "plays_fmt": "266",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb0eef43e8d0a6ef8f2fe0cae6"
   },
   {
    "name": "Hammer Head Shark",

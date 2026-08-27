@@ -1,15 +1,15 @@
 {
- "generated": "2026-08-26",
+ "generated": "2026-08-27",
  "year_label": "2026",
  "all": {
-  "total": 214782,
-  "total_fmt": "214,782",
-  "uniq_art": 7316,
-  "uniq_art_fmt": "7,316",
-  "uniq_trk": 30530,
-  "uniq_trk_fmt": "30,530",
+  "total": 214880,
+  "total_fmt": "214,880",
+  "uniq_art": 7334,
+  "uniq_art_fmt": "7,334",
+  "uniq_trk": 30563,
+  "uniq_trk_fmt": "30,563",
   "start": "2018-03-06",
-  "end": "2026-08-26",
+  "end": "2026-08-27",
   "top_art": [
    {
     "artist": "Mr.ふぉるて",
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 31695,
-    "plays_fmt": "31,695",
+    "plays": 31793,
+    "plays_fmt": "31,793",
     "pct": 59
    }
   ],
@@ -323,19 +323,19 @@
    },
    {
     "year": "2026",
-    "count": 947,
-    "count_fmt": "947",
-    "pct": 39
+    "count": 965,
+    "count_fmt": "965",
+    "pct": 40
    }
   ]
  },
  "year": {
-  "total": 31695,
-  "total_fmt": "31,695",
-  "uniq_art": 2770,
-  "uniq_art_fmt": "2,770",
-  "uniq_trk": 7690,
-  "uniq_trk_fmt": "7,690",
+  "total": 31793,
+  "total_fmt": "31,793",
+  "uniq_art": 2790,
+  "uniq_art_fmt": "2,790",
+  "uniq_trk": 7723,
+  "uniq_trk_fmt": "7,723",
   "top_art": [
    {
     "artist": "Kienai",
@@ -346,8 +346,8 @@
    },
    {
     "artist": "Ramblamp",
-    "plays": 249,
-    "plays_fmt": "249",
+    "plays": 250,
+    "plays_fmt": "250",
     "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf",
     "pct": 98
    },
@@ -360,8 +360,8 @@
    },
    {
     "artist": "bedgravity",
-    "plays": 217,
-    "plays_fmt": "217",
+    "plays": 218,
+    "plays_fmt": "218",
     "img": "https://i.scdn.co/image/ab67616d0000b273d29467756d06ae5882d98238",
     "pct": 85
    },
@@ -381,8 +381,8 @@
    },
    {
     "artist": "uyuu",
-    "plays": 181,
-    "plays_fmt": "181",
+    "plays": 182,
+    "plays_fmt": "182",
     "img": "https://i.scdn.co/image/ab67616d0000b27381582c0fb8f5908a6aee7f3e",
     "pct": 71
    },
@@ -419,8 +419,8 @@
    {
     "album": "Unmet Needs",
     "artist": "bedgravity",
-    "plays": 217,
-    "plays_fmt": "217",
+    "plays": 218,
+    "plays_fmt": "218",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/d49e1932df6d076c99051c1c7fe957a4.jpg"
    },
    {
@@ -440,8 +440,8 @@
    {
     "album": "Nichijogamatakodamasuru",
     "artist": "Ramblamp",
-    "plays": 170,
-    "plays_fmt": "170",
+    "plays": 171,
+    "plays_fmt": "171",
     "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
    },
    {
@@ -508,8 +508,8 @@
    {
     "track": "Anemone",
     "artist": "REVEMERE",
-    "plays": 74,
-    "plays_fmt": "74"
+    "plays": 75,
+    "plays_fmt": "75"
    },
    {
     "track": "浴槽",
@@ -587,21 +587,21 @@
    },
    {
     "month": "8",
-    "plays": 3547,
-    "plays_fmt": "3,547",
-    "pct": 65
+    "plays": 3645,
+    "plays_fmt": "3,645",
+    "pct": 67
    }
   ]
  },
  "week": {
-  "total": 970,
-  "total_fmt": "970",
-  "uniq_art": 466,
-  "uniq_art_fmt": "466",
-  "uniq_trk": 655,
-  "uniq_trk_fmt": "655",
-  "start": "8/20",
-  "end": "8/26",
+  "total": 947,
+  "total_fmt": "947",
+  "uniq_art": 455,
+  "uniq_art_fmt": "455",
+  "uniq_trk": 625,
+  "uniq_trk_fmt": "625",
+  "start": "8/21",
+  "end": "8/27",
   "top_art": [
    {
     "artist": "Gaze Back",
@@ -611,11 +611,11 @@
     "pct": 100
    },
    {
-    "artist": "CQ",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab67616d0000b273d5df30b611ba46931c2b1d93",
-    "pct": 57
+    "artist": "はとば",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb54f831823e12fe3e19bad3d0",
+    "pct": 64
    },
    {
     "artist": "Pixie Monster",
@@ -636,13 +636,6 @@
     "plays": 8,
     "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab6761610000e5eb1abc3315846cb6ec2cf8eeb8",
-    "pct": 57
-   },
-   {
-    "artist": "はとば",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb54f831823e12fe3e19bad3d0",
     "pct": 57
    },
    {
@@ -672,6 +665,13 @@
     "plays_fmt": "7",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd186fd363e4e3038b4a203e9",
     "pct": 50
+   },
+   {
+    "artist": "Ah ieba koh-iu.",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://i.scdn.co/image/ab67616d0000b273bed3c5a483e8b20c6333ff29",
+    "pct": 43
    }
   ],
   "top_alb": [
@@ -681,6 +681,13 @@
     "plays": 13,
     "plays_fmt": "13",
     "img": null
+   },
+   {
+    "album": "ひねくれた僕のきもち",
+    "artist": "はとば",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb54f831823e12fe3e19bad3d0"
    },
    {
     "album": "Neo Retro Pops",
@@ -695,13 +702,6 @@
     "plays": 8,
     "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab67616d0000b2735e978b98cee7de8932289c5e"
-   },
-   {
-    "album": "ひねくれた僕のきもち",
-    "artist": "はとば",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb54f831823e12fe3e19bad3d0"
    },
    {
     "album": "A Boy with No Name",
@@ -725,18 +725,18 @@
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/bdcf461a42515a1f33a369c657656b3d.jpg"
    },
    {
+    "album": "I'm Busy",
+    "artist": "Cheche",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb14295c025afeac9fea39f0f2"
+   },
+   {
     "album": "ghost girl in my bed",
     "artist": "ghost girl in my bed",
     "plays": 6,
     "plays_fmt": "6",
     "img": "https://i.scdn.co/image/ab6761610000e5eb583524b411226acef107f1b6"
-   },
-   {
-    "album": "what a Wonderful World's end～2024 Remastered～",
-    "artist": "CQ",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6c7091ca47c7e6fbb47659f8a9f0b8d0.jpg"
    },
    {
     "album": "傷の愛漬け",
@@ -760,6 +760,12 @@
     "plays_fmt": "7"
    },
    {
+    "track": "退屈のせい",
+    "artist": "Ultra",
+    "plays": 6,
+    "plays_fmt": "6"
+   },
+   {
     "track": "KOREKKIRI",
     "artist": "Pixie Monster",
     "plays": 4,
@@ -774,12 +780,6 @@
    {
     "track": "PAIN PAINT",
     "artist": "VEŁŁY",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "Yomigaeri",
-    "artist": "OddRe:",
     "plays": 4,
     "plays_fmt": "4"
    },
@@ -810,28 +810,22 @@
   ],
   "by_day": [
    {
-    "day": "8/20",
-    "plays": 121,
-    "plays_fmt": "121",
-    "pct": 49
-   },
-   {
     "day": "8/21",
     "plays": 239,
     "plays_fmt": "239",
-    "pct": 96
+    "pct": 90
    },
    {
     "day": "8/22",
     "plays": 109,
     "plays_fmt": "109",
-    "pct": 44
+    "pct": 41
    },
    {
     "day": "8/23",
     "plays": 139,
     "plays_fmt": "139",
-    "pct": 56
+    "pct": 52
    },
    {
     "day": "8/24",
@@ -843,13 +837,19 @@
     "day": "8/25",
     "plays": 93,
     "plays_fmt": "93",
-    "pct": 38
+    "pct": 35
    },
    {
     "day": "8/26",
-    "plays": 248,
-    "plays_fmt": "248",
+    "plays": 265,
+    "plays_fmt": "265",
     "pct": 100
+   },
+   {
+    "day": "8/27",
+    "plays": 81,
+    "plays_fmt": "81",
+    "pct": 31
    }
   ]
  }
