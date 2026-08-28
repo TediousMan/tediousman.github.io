@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7334,
- "total_artists_fmt": "7,334",
+ "total_artists": 7335,
+ "total_artists_fmt": "7,335",
  "missing_img": 8,
  "artists": [
   {
@@ -18,8 +18,8 @@
   },
   {
    "name": "chilldspot",
-   "plays": 1037,
-   "plays_fmt": "1,037",
+   "plays": 1038,
+   "plays_fmt": "1,038",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfffcd64678af9f7b7bab7832"
   },
   {
@@ -66,8 +66,8 @@
   },
   {
    "name": "Dannie May",
-   "plays": 722,
-   "plays_fmt": "722",
+   "plays": 723,
+   "plays_fmt": "723",
    "img": "https://i.scdn.co/image/ab6761610000e5eb9629e866cc65376368fe66a8"
   },
   {
@@ -174,14 +174,14 @@
   },
   {
    "name": "BRADIO",
-   "plays": 555,
-   "plays_fmt": "555",
+   "plays": 556,
+   "plays_fmt": "556",
    "img": "https://i.scdn.co/image/ab6761610000e5eb1b468ea5308efde05767f7f3"
   },
   {
    "name": "The Otals",
-   "plays": 555,
-   "plays_fmt": "555",
+   "plays": 556,
+   "plays_fmt": "556",
    "img": "https://i.scdn.co/image/ab6761610000e5ebe880728367d115f0c7dfceb6"
   },
   {
@@ -329,16 +329,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb1ae047357a3fad0858406431"
   },
   {
+   "name": "Sazanami",
+   "plays": 409,
+   "plays_fmt": "409",
+   "img": "https://i.scdn.co/image/ab6761610000e5eba3f038b0d76a49de0bd33221"
+  },
+  {
    "name": "Dansa Med Dig",
    "plays": 407,
    "plays_fmt": "407",
    "img": "https://i.scdn.co/image/ab6761610000e5eb590cfa1ad794bf2697150167"
-  },
-  {
-   "name": "Sazanami",
-   "plays": 397,
-   "plays_fmt": "397",
-   "img": "https://i.scdn.co/image/ab6761610000e5eba3f038b0d76a49de0bd33221"
   },
   {
    "name": "GOHOBI",
@@ -383,6 +383,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebfc5a54b5a68edefd85793554"
   },
   {
+   "name": "Muque",
+   "plays": 376,
+   "plays_fmt": "376",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
+  },
+  {
    "name": "Sugar House",
    "plays": 376,
    "plays_fmt": "376",
@@ -393,12 +399,6 @@
    "plays": 376,
    "plays_fmt": "376",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5e779ac5990c92ad5b423c3f"
-  },
-  {
-   "name": "Muque",
-   "plays": 374,
-   "plays_fmt": "374",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
   },
   {
    "name": "Vaundy",
@@ -432,8 +432,8 @@
   },
   {
    "name": "Home",
-   "plays": 360,
-   "plays_fmt": "360",
+   "plays": 361,
+   "plays_fmt": "361",
    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
@@ -593,16 +593,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebcc959cd12f18b2c2a2baa2c7"
   },
   {
+   "name": "coldrain",
+   "plays": 315,
+   "plays_fmt": "315",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb790734bdee501b47713b4afe"
+  },
+  {
    "name": "DurdN",
    "plays": 314,
    "plays_fmt": "314",
    "img": "https://i.scdn.co/image/ab6761610000e5eb999c4e64ec6180a0810393f3"
-  },
-  {
-   "name": "coldrain",
-   "plays": 314,
-   "plays_fmt": "314",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb790734bdee501b47713b4afe"
   },
   {
    "name": "Bane",
@@ -690,8 +690,8 @@
   },
   {
    "name": "WANG GUNG BAND",
-   "plays": 290,
-   "plays_fmt": "290",
+   "plays": 291,
+   "plays_fmt": "291",
    "img": "https://i.scdn.co/image/ab6761610000e5eb94b818ce361beb89199170c8"
   },
   {
