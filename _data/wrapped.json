@@ -1,15 +1,15 @@
 {
- "generated": "2026-08-28",
+ "generated": "2026-08-29",
  "year_label": "2026",
  "all": {
-  "total": 214979,
-  "total_fmt": "214,979",
-  "uniq_art": 7335,
-  "uniq_art_fmt": "7,335",
-  "uniq_trk": 30571,
-  "uniq_trk_fmt": "30,571",
+  "total": 215058,
+  "total_fmt": "215,058",
+  "uniq_art": 7337,
+  "uniq_art_fmt": "7,337",
+  "uniq_trk": 30580,
+  "uniq_trk_fmt": "30,580",
   "start": "2018-03-06",
-  "end": "2026-08-28",
+  "end": "2026-08-29",
   "top_art": [
    {
     "artist": "Mr.ふぉるて",
@@ -164,8 +164,8 @@
    {
     "track": "銃声への応答",
     "artist": "Sazanami",
-    "plays": 255,
-    "plays_fmt": "255"
+    "plays": 256,
+    "plays_fmt": "256"
    },
    {
     "track": "Violet",
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 31892,
-    "plays_fmt": "31,892",
+    "plays": 31971,
+    "plays_fmt": "31,971",
     "pct": 59
    }
   ],
@@ -323,19 +323,19 @@
    },
    {
     "year": "2026",
-    "count": 966,
-    "count_fmt": "966",
+    "count": 968,
+    "count_fmt": "968",
     "pct": 40
    }
   ]
  },
  "year": {
-  "total": 31892,
-  "total_fmt": "31,892",
-  "uniq_art": 2791,
-  "uniq_art_fmt": "2,791",
-  "uniq_trk": 7736,
-  "uniq_trk_fmt": "7,736",
+  "total": 31971,
+  "total_fmt": "31,971",
+  "uniq_art": 2793,
+  "uniq_art_fmt": "2,793",
+  "uniq_trk": 7747,
+  "uniq_trk_fmt": "7,747",
   "top_art": [
    {
     "artist": "Kienai",
@@ -360,10 +360,10 @@
    },
    {
     "artist": "bedgravity",
-    "plays": 218,
-    "plays_fmt": "218",
+    "plays": 219,
+    "plays_fmt": "219",
     "img": "https://i.scdn.co/image/ab67616d0000b273d29467756d06ae5882d98238",
-    "pct": 85
+    "pct": 86
    },
    {
     "artist": "あたまたんさん",
@@ -419,8 +419,8 @@
    {
     "album": "Unmet Needs",
     "artist": "bedgravity",
-    "plays": 218,
-    "plays_fmt": "218",
+    "plays": 219,
+    "plays_fmt": "219",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/d49e1932df6d076c99051c1c7fe957a4.jpg"
    },
    {
@@ -587,94 +587,108 @@
    },
    {
     "month": "8",
-    "plays": 3744,
-    "plays_fmt": "3,744",
-    "pct": 69
+    "plays": 3823,
+    "plays_fmt": "3,823",
+    "pct": 70
    }
   ]
  },
  "week": {
-  "total": 807,
-  "total_fmt": "807",
-  "uniq_art": 444,
-  "uniq_art_fmt": "444",
-  "uniq_trk": 609,
-  "uniq_trk_fmt": "609",
-  "start": "8/22",
-  "end": "8/28",
+  "total": 777,
+  "total_fmt": "777",
+  "uniq_art": 430,
+  "uniq_art_fmt": "430",
+  "uniq_trk": 574,
+  "uniq_trk_fmt": "574",
+  "start": "8/23",
+  "end": "8/29",
   "top_art": [
+   {
+    "artist": "Sazanami",
+    "plays": 43,
+    "plays_fmt": "43",
+    "img": "https://i.scdn.co/image/ab6761610000e5eba3f038b0d76a49de0bd33221",
+    "pct": 100
+   },
    {
     "artist": "Gaze Back",
     "plays": 15,
     "plays_fmt": "15",
     "img": null,
-    "pct": 100
-   },
-   {
-    "artist": "Sazanami",
-    "plays": 12,
-    "plays_fmt": "12",
-    "img": "https://i.scdn.co/image/ab6761610000e5eba3f038b0d76a49de0bd33221",
-    "pct": 80
+    "pct": 35
    },
    {
     "artist": "SUKISHA",
-    "plays": 8,
-    "plays_fmt": "8",
+    "plays": 9,
+    "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5eb1abc3315846cb6ec2cf8eeb8",
-    "pct": 53
+    "pct": 21
    },
    {
     "artist": "Loulou Parasom",
     "plays": 7,
     "plays_fmt": "7",
     "img": "https://i.scdn.co/image/ab6761610000e5eb0066578313be1dd93b2043f9",
-    "pct": 47
-   },
-   {
-    "artist": "はとば",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb54f831823e12fe3e19bad3d0",
-    "pct": 47
-   },
-   {
-    "artist": "BRADIO",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb1b468ea5308efde05767f7f3",
-    "pct": 40
+    "pct": 16
    },
    {
     "artist": "Botan",
     "plays": 6,
     "plays_fmt": "6",
     "img": "https://i.scdn.co/image/ab67616d0000b27347f89a0bdd93fa49aba38a70",
-    "pct": 40
-   },
-   {
-    "artist": "BurnQue",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebfb9085515b81ecc06b05b158",
-    "pct": 40
+    "pct": 14
    },
    {
     "artist": "Cindr",
     "plays": 6,
     "plays_fmt": "6",
     "img": null,
-    "pct": 40
+    "pct": 14
    },
    {
     "artist": "Koresawa",
     "plays": 6,
     "plays_fmt": "6",
     "img": "https://i.scdn.co/image/ab6761610000e5eb1864c79ab1ec0da907d8d88f",
-    "pct": 40
+    "pct": 14
+   },
+   {
+    "artist": "Ultra",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": null,
+    "pct": 14
+   },
+   {
+    "artist": "YUI",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb8f1a9645d31010a8f81b7e89",
+    "pct": 14
+   },
+   {
+    "artist": "ghost girl in my bed",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb583524b411226acef107f1b6",
+    "pct": 14
    }
   ],
   "top_alb": [
+   {
+    "album": "漣",
+    "artist": "Sazanami",
+    "plays": 25,
+    "plays_fmt": "25",
+    "img": "https://i.scdn.co/image/ab6761610000e5eba3f038b0d76a49de0bd33221"
+   },
+   {
+    "album": "Sazanami",
+    "artist": "Sazanami",
+    "plays": 18,
+    "plays_fmt": "18",
+    "img": "https://i.scdn.co/image/ab6761610000e5eba3f038b0d76a49de0bd33221"
+   },
    {
     "album": "Homeostasis/Ribbon",
     "artist": "Gaze Back",
@@ -683,32 +697,11 @@
     "img": null
    },
    {
-    "album": "漣",
-    "artist": "Sazanami",
-    "plays": 12,
-    "plays_fmt": "12",
-    "img": "https://i.scdn.co/image/ab6761610000e5eba3f038b0d76a49de0bd33221"
-   },
-   {
     "album": "A Boy with No Name",
     "artist": "Loulou Parasom",
     "plays": 7,
     "plays_fmt": "7",
     "img": "https://i.scdn.co/image/ab6761610000e5eb0066578313be1dd93b2043f9"
-   },
-   {
-    "album": "ひねくれた僕のきもち",
-    "artist": "はとば",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb54f831823e12fe3e19bad3d0"
-   },
-   {
-    "album": "Gold Fashion",
-    "artist": "BRADIO",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/bdcf461a42515a1f33a369c657656b3d.jpg"
    },
    {
     "album": "Hana Chochin",
@@ -725,6 +718,13 @@
     "img": "https://i.scdn.co/image/ab6761610000e5eb583524b411226acef107f1b6"
    },
    {
+    "album": "ひねくれた僕のきもち",
+    "artist": "はとば",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb54f831823e12fe3e19bad3d0"
+   },
+   {
     "album": "退屈のせい",
     "artist": "Ultra",
     "plays": 6,
@@ -739,11 +739,11 @@
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/9636206466016b6f549392fcfefbce96.jpg"
    },
    {
-    "album": "GLHF",
-    "artist": "Muque",
+    "album": "Gold Fashion",
+    "artist": "BRADIO",
     "plays": 5,
     "plays_fmt": "5",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/13bc104dda275aecfdc92e8231ef0b32.jpg"
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/bdcf461a42515a1f33a369c657656b3d.jpg"
    }
   ],
   "top_trk": [
@@ -766,8 +766,26 @@
     "plays_fmt": "6"
    },
    {
+    "track": "serein",
+    "artist": "Sazanami",
+    "plays": 5,
+    "plays_fmt": "5"
+   },
+   {
+    "track": "天泣",
+    "artist": "Sazanami",
+    "plays": 5,
+    "plays_fmt": "5"
+   },
+   {
     "track": "In Veil",
     "artist": "Cindr",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "intro",
+    "artist": "Sazanami",
     "plays": 4,
     "plays_fmt": "4"
    },
@@ -778,43 +796,19 @@
     "plays_fmt": "4"
    },
    {
+    "track": "絶筆",
+    "artist": "Souvenir",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
     "track": "Aisan",
     "artist": "Mume!syoujyo",
-    "plays": 3,
-    "plays_fmt": "3"
-   },
-   {
-    "track": "In The Forest",
-    "artist": "tenbin O",
-    "plays": 3,
-    "plays_fmt": "3"
-   },
-   {
-    "track": "KOREKKIRI",
-    "artist": "Pixie Monster",
-    "plays": 3,
-    "plays_fmt": "3"
-   },
-   {
-    "track": "Katto",
-    "artist": "evolving from N/A",
-    "plays": 3,
-    "plays_fmt": "3"
-   },
-   {
-    "track": "Keep My Head Up",
-    "artist": "türk bluez",
     "plays": 3,
     "plays_fmt": "3"
    }
   ],
   "by_day": [
-   {
-    "day": "8/22",
-    "plays": 109,
-    "plays_fmt": "109",
-    "pct": 41
-   },
    {
     "day": "8/23",
     "plays": 139,
@@ -847,9 +841,15 @@
    },
    {
     "day": "8/28",
-    "plays": 98,
-    "plays_fmt": "98",
+    "plays": 99,
+    "plays_fmt": "99",
     "pct": 37
+   },
+   {
+    "day": "8/29",
+    "plays": 78,
+    "plays_fmt": "78",
+    "pct": 29
    }
   ]
  }

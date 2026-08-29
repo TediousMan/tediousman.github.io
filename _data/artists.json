@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7335,
- "total_artists_fmt": "7,335",
+ "total_artists": 7337,
+ "total_artists_fmt": "7,337",
  "missing_img": 8,
  "artists": [
   {
@@ -287,6 +287,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb37c85e7d09ce8668eab4a480"
   },
   {
+   "name": "Sazanami",
+   "plays": 440,
+   "plays_fmt": "440",
+   "img": "https://i.scdn.co/image/ab6761610000e5eba3f038b0d76a49de0bd33221"
+  },
+  {
    "name": "さよならポエジー",
    "plays": 438,
    "plays_fmt": "438",
@@ -329,15 +335,9 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb1ae047357a3fad0858406431"
   },
   {
-   "name": "Sazanami",
-   "plays": 409,
-   "plays_fmt": "409",
-   "img": "https://i.scdn.co/image/ab6761610000e5eba3f038b0d76a49de0bd33221"
-  },
-  {
    "name": "Dansa Med Dig",
-   "plays": 407,
-   "plays_fmt": "407",
+   "plays": 408,
+   "plays_fmt": "408",
    "img": "https://i.scdn.co/image/ab6761610000e5eb590cfa1ad794bf2697150167"
   },
   {
@@ -714,8 +714,8 @@
   },
   {
    "name": "魚韻",
-   "plays": 283,
-   "plays_fmt": "283",
+   "plays": 284,
+   "plays_fmt": "284",
    "img": null
   },
   {
@@ -803,16 +803,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb8ffe1b4304fc8e392b97c2b7"
   },
   {
+   "name": "ホピーハイボ",
+   "plays": 268,
+   "plays_fmt": "268",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb0eef43e8d0a6ef8f2fe0cae6"
+  },
+  {
    "name": "I Saw You Yesterday",
    "plays": 267,
    "plays_fmt": "267",
    "img": "https://i.scdn.co/image/ab6761610000e5ebf32519dab1f0daa82898fe82"
-  },
-  {
-   "name": "ホピーハイボ",
-   "plays": 267,
-   "plays_fmt": "267",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb0eef43e8d0a6ef8f2fe0cae6"
   },
   {
    "name": "illiomote",
