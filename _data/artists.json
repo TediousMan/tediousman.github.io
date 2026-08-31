@@ -36,8 +36,8 @@
   },
   {
    "name": "KROI",
-   "plays": 868,
-   "plays_fmt": "868",
+   "plays": 869,
+   "plays_fmt": "869",
    "img": "https://i.scdn.co/image/ab6761610000e5eb3891ccf48bd7eb050237f789"
   },
   {
@@ -114,8 +114,8 @@
   },
   {
    "name": "kurayamisaka",
-   "plays": 627,
-   "plays_fmt": "627",
+   "plays": 628,
+   "plays_fmt": "628",
    "img": "https://i.scdn.co/image/ab6761610000e5eb549929e59e9a3da7b41f0939"
   },
   {
@@ -162,8 +162,8 @@
   },
   {
    "name": "緑黄色社会",
-   "plays": 560,
-   "plays_fmt": "560",
+   "plays": 561,
+   "plays_fmt": "561",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd9a48d00ce7cf4d66abc76b6"
   },
   {
@@ -270,8 +270,8 @@
   },
   {
    "name": "レイラ",
-   "plays": 451,
-   "plays_fmt": "451",
+   "plays": 452,
+   "plays_fmt": "452",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5a7ae7ae77a6230eb4107638"
   },
   {
@@ -342,8 +342,8 @@
   },
   {
    "name": "GOHOBI",
-   "plays": 389,
-   "plays_fmt": "389",
+   "plays": 390,
+   "plays_fmt": "390",
    "img": "https://i.scdn.co/image/ab6761610000e5eb93311cae2f611f16a5d84e43"
   },
   {
@@ -377,16 +377,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb3ac8e8114680356ca222ffa9"
   },
   {
+   "name": "Muque",
+   "plays": 379,
+   "plays_fmt": "379",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
+  },
+  {
    "name": "ego apartment",
    "plays": 378,
    "plays_fmt": "378",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfc5a54b5a68edefd85793554"
-  },
-  {
-   "name": "Muque",
-   "plays": 376,
-   "plays_fmt": "376",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
   },
   {
    "name": "Sugar House",
@@ -402,8 +402,8 @@
   },
   {
    "name": "Vaundy",
-   "plays": 373,
-   "plays_fmt": "373",
+   "plays": 374,
+   "plays_fmt": "374",
    "img": "https://i.scdn.co/image/ab6761610000e5ebb718d2d3988005d3a72f22c9"
   },
   {
@@ -432,8 +432,8 @@
   },
   {
    "name": "Home",
-   "plays": 362,
-   "plays_fmt": "362",
+   "plays": 365,
+   "plays_fmt": "365",
    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
@@ -533,16 +533,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb9247cd4ef50307e4425b4bf8"
   },
   {
+   "name": "Reol",
+   "plays": 323,
+   "plays_fmt": "323",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebdf2dbfb158e48df25bd49477"
+  },
+  {
    "name": "Polkadot Stingray",
    "plays": 322,
    "plays_fmt": "322",
    "img": "https://i.scdn.co/image/ab6761610000e5eb24dd03d4f0a965b78a0bf2f9"
-  },
-  {
-   "name": "Reol",
-   "plays": 322,
-   "plays_fmt": "322",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebdf2dbfb158e48df25bd49477"
   },
   {
    "name": "Aivy",
@@ -581,6 +581,12 @@
    "img": "https://i.scdn.co/image/ab67616d0000b273f7450eb7f1ad638f0665d298"
   },
   {
+   "name": "coldrain",
+   "plays": 317,
+   "plays_fmt": "317",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb790734bdee501b47713b4afe"
+  },
+  {
    "name": "sawamay",
    "plays": 317,
    "plays_fmt": "317",
@@ -591,12 +597,6 @@
    "plays": 316,
    "plays_fmt": "316",
    "img": "https://i.scdn.co/image/ab6761610000e5ebcc959cd12f18b2c2a2baa2c7"
-  },
-  {
-   "name": "coldrain",
-   "plays": 316,
-   "plays_fmt": "316",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb790734bdee501b47713b4afe"
   },
   {
    "name": "DurdN",
@@ -678,9 +678,15 @@
   },
   {
    "name": "omeme tenten",
-   "plays": 293,
-   "plays_fmt": "293",
+   "plays": 294,
+   "plays_fmt": "294",
    "img": "https://i.scdn.co/image/ab6761610000e5eb3b770c187b6a716a2eb91f1b"
+  },
+  {
+   "name": "YONA YONA WEEKENDERS",
+   "plays": 292,
+   "plays_fmt": "292",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb6b91739a5b0e997957fff733"
   },
   {
    "name": "Kenichiro Nishihara",
@@ -695,10 +701,10 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb94b818ce361beb89199170c8"
   },
   {
-   "name": "YONA YONA WEEKENDERS",
-   "plays": 291,
-   "plays_fmt": "291",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb6b91739a5b0e997957fff733"
+   "name": "魚韻",
+   "plays": 285,
+   "plays_fmt": "285",
+   "img": null
   },
   {
    "name": "EASTOKLAB",
@@ -711,12 +717,6 @@
    "plays": 284,
    "plays_fmt": "284",
    "img": "https://i.scdn.co/image/ab67616d0000b2739522d7fafd953bddbddea2c9"
-  },
-  {
-   "name": "魚韻",
-   "plays": 284,
-   "plays_fmt": "284",
-   "img": null
   },
   {
    "name": "Blumepopo",
