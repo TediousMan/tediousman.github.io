@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7337,
- "total_artists_fmt": "7,337",
+ "total_artists": 7342,
+ "total_artists_fmt": "7,342",
  "missing_img": 8,
  "artists": [
   {
@@ -102,8 +102,8 @@
   },
   {
    "name": "For Tracy Hyde",
-   "plays": 630,
-   "plays_fmt": "630",
+   "plays": 632,
+   "plays_fmt": "632",
    "img": "https://i.scdn.co/image/ab6761610000e5ebb9973cb3e9a7645db81c7e9a"
   },
   {
@@ -281,16 +281,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb23b7dc7381cb8ed0d433ff12"
   },
   {
+   "name": "Sazanami",
+   "plays": 443,
+   "plays_fmt": "443",
+   "img": "https://i.scdn.co/image/ab6761610000e5eba3f038b0d76a49de0bd33221"
+  },
+  {
    "name": "WANIMA",
    "plays": 443,
    "plays_fmt": "443",
    "img": "https://i.scdn.co/image/ab6761610000e5eb37c85e7d09ce8668eab4a480"
-  },
-  {
-   "name": "Sazanami",
-   "plays": 442,
-   "plays_fmt": "442",
-   "img": "https://i.scdn.co/image/ab6761610000e5eba3f038b0d76a49de0bd33221"
   },
   {
    "name": "さよならポエジー",
@@ -395,16 +395,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb1e3c4dbc4b5744a9ddf331ff"
   },
   {
+   "name": "Vaundy",
+   "plays": 376,
+   "plays_fmt": "376",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebb718d2d3988005d3a72f22c9"
+  },
+  {
    "name": "easycome",
    "plays": 376,
    "plays_fmt": "376",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5e779ac5990c92ad5b423c3f"
-  },
-  {
-   "name": "Vaundy",
-   "plays": 374,
-   "plays_fmt": "374",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebb718d2d3988005d3a72f22c9"
   },
   {
    "name": "Chilli Beans.",
@@ -666,8 +666,8 @@
   },
   {
    "name": "BAND-MAID",
-   "plays": 299,
-   "plays_fmt": "299",
+   "plays": 300,
+   "plays_fmt": "300",
    "img": "https://i.scdn.co/image/ab6761610000e5ebe6274dae98c66d06ae7382c9"
   },
   {
@@ -881,9 +881,15 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb93cd81967ea2a33ad6fa53f6"
   },
   {
+   "name": "Ramblamp",
+   "plays": 260,
+   "plays_fmt": "260",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
+  },
+  {
    "name": "Yoake",
-   "plays": 259,
-   "plays_fmt": "259",
+   "plays": 260,
+   "plays_fmt": "260",
    "img": "https://i.scdn.co/image/ab6761610000e5ebf1bccfddcfc9fba86e5b177f"
   },
   {
@@ -897,12 +903,6 @@
    "plays": 258,
    "plays_fmt": "258",
    "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481"
-  },
-  {
-   "name": "Split End",
-   "plays": 258,
-   "plays_fmt": "258",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb383cd23df5ecd17993a9d341"
   }
  ]
 }

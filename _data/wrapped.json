@@ -1,15 +1,15 @@
 {
- "generated": "2026-08-31",
+ "generated": "2026-09-01",
  "year_label": "2026",
  "all": {
-  "total": 215448,
-  "total_fmt": "215,448",
-  "uniq_art": 7337,
-  "uniq_art_fmt": "7,337",
-  "uniq_trk": 30585,
-  "uniq_trk_fmt": "30,585",
+  "total": 215503,
+  "total_fmt": "215,503",
+  "uniq_art": 7342,
+  "uniq_art_fmt": "7,342",
+  "uniq_trk": 30609,
+  "uniq_trk_fmt": "30,609",
   "start": "2018-03-06",
-  "end": "2026-08-31",
+  "end": "2026-09-01",
   "top_art": [
    {
     "artist": "Mr.ふぉるて",
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 32361,
-    "plays_fmt": "32,361",
+    "plays": 32416,
+    "plays_fmt": "32,416",
     "pct": 60
    }
   ],
@@ -323,32 +323,32 @@
    },
    {
     "year": "2026",
-    "count": 968,
-    "count_fmt": "968",
+    "count": 973,
+    "count_fmt": "973",
     "pct": 40
    }
   ]
  },
  "year": {
-  "total": 32361,
-  "total_fmt": "32,361",
-  "uniq_art": 2793,
-  "uniq_art_fmt": "2,793",
-  "uniq_trk": 7755,
-  "uniq_trk_fmt": "7,755",
+  "total": 32416,
+  "total_fmt": "32,416",
+  "uniq_art": 2800,
+  "uniq_art_fmt": "2,800",
+  "uniq_trk": 7788,
+  "uniq_trk_fmt": "7,788",
   "top_art": [
+   {
+    "artist": "Ramblamp",
+    "plays": 260,
+    "plays_fmt": "260",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf",
+    "pct": 100
+   },
    {
     "artist": "Kienai",
     "plays": 255,
     "plays_fmt": "255",
     "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481",
-    "pct": 100
-   },
-   {
-    "artist": "Ramblamp",
-    "plays": 251,
-    "plays_fmt": "251",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf",
     "pct": 98
    },
    {
@@ -356,56 +356,56 @@
     "plays": 231,
     "plays_fmt": "231",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f",
-    "pct": 91
+    "pct": 89
    },
    {
     "artist": "bedgravity",
     "plays": 222,
     "plays_fmt": "222",
     "img": "https://i.scdn.co/image/ab67616d0000b273d29467756d06ae5882d98238",
-    "pct": 87
+    "pct": 85
    },
    {
     "artist": "あたまたんさん",
     "plays": 216,
     "plays_fmt": "216",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44",
-    "pct": 85
+    "pct": 83
    },
    {
     "artist": "the Wulongs",
     "plays": 192,
     "plays_fmt": "192",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
-    "pct": 75
+    "pct": 74
    },
    {
     "artist": "uyuu",
     "plays": 183,
     "plays_fmt": "183",
     "img": "https://i.scdn.co/image/ab67616d0000b27381582c0fb8f5908a6aee7f3e",
-    "pct": 72
+    "pct": 70
    },
    {
     "artist": "Home",
     "plays": 169,
     "plays_fmt": "169",
     "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
-    "pct": 66
+    "pct": 65
    },
    {
     "artist": "wanbed",
     "plays": 169,
     "plays_fmt": "169",
     "img": "https://i.scdn.co/image/ab6761610000e5eb015e59262813fcf812ddf659",
-    "pct": 66
+    "pct": 65
    },
    {
     "artist": "夜標",
     "plays": 160,
     "plays_fmt": "160",
     "img": "https://i.scdn.co/image/ab67616d0000b27351e19785c99f993a0cfba5ce",
-    "pct": 63
+    "pct": 62
    }
   ],
   "top_alb": [
@@ -587,42 +587,48 @@
    },
    {
     "month": "8",
-    "plays": 4213,
-    "plays_fmt": "4,213",
+    "plays": 4215,
+    "plays_fmt": "4,215",
     "pct": 77
+   },
+   {
+    "month": "9",
+    "plays": 53,
+    "plays_fmt": "53",
+    "pct": 5
    }
   ]
  },
  "week": {
-  "total": 1007,
-  "total_fmt": "1,007",
-  "uniq_art": 503,
-  "uniq_art_fmt": "503",
-  "uniq_trk": 706,
-  "uniq_trk_fmt": "706",
-  "start": "8/25",
-  "end": "8/31",
+  "total": 969,
+  "total_fmt": "969",
+  "uniq_art": 515,
+  "uniq_art_fmt": "515",
+  "uniq_trk": 717,
+  "uniq_trk_fmt": "717",
+  "start": "8/26",
+  "end": "9/1",
   "top_art": [
    {
     "artist": "Sazanami",
-    "plays": 45,
-    "plays_fmt": "45",
+    "plays": 46,
+    "plays_fmt": "46",
     "img": "https://i.scdn.co/image/ab6761610000e5eba3f038b0d76a49de0bd33221",
     "pct": 100
    },
    {
     "artist": "いとわず",
-    "plays": 22,
-    "plays_fmt": "22",
+    "plays": 26,
+    "plays_fmt": "26",
     "img": "https://i.scdn.co/image/ab67616d0000b273105818e1f982f6e3fea875d6",
-    "pct": 49
+    "pct": 57
    },
    {
-    "artist": "Gaze Back",
-    "plays": 16,
-    "plays_fmt": "16",
-    "img": null,
-    "pct": 36
+    "artist": "Ramblamp",
+    "plays": 12,
+    "plays_fmt": "12",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf",
+    "pct": 26
    },
    {
     "artist": "Yabai T-Shirts Yasan",
@@ -647,34 +653,41 @@
    },
    {
     "artist": "AoOo",
-    "plays": 9,
-    "plays_fmt": "9",
+    "plays": 8,
+    "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
-    "pct": 20
+    "pct": 17
    },
    {
     "artist": "BurnQue",
     "plays": 8,
     "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab6761610000e5ebfb9085515b81ecc06b05b158",
-    "pct": 18
+    "pct": 17
    },
    {
-    "artist": "Cindr",
-    "plays": 7,
-    "plays_fmt": "7",
+    "artist": "Gaze Back",
+    "plays": 8,
+    "plays_fmt": "8",
     "img": null,
-    "pct": 16
+    "pct": 17
    },
    {
-    "artist": "Home",
+    "artist": "Appi",
     "plays": 7,
     "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
-    "pct": 16
+    "img": "https://i.scdn.co/image/ab6761610000e5eb81c4c98ebe33b4d67a2497e3",
+    "pct": 15
    }
   ],
   "top_alb": [
+   {
+    "album": "shummin",
+    "artist": "いとわず",
+    "plays": 26,
+    "plays_fmt": "26",
+    "img": "https://i.scdn.co/image/ab67616d0000b273105818e1f982f6e3fea875d6"
+   },
    {
     "album": "漣",
     "artist": "Sazanami",
@@ -683,25 +696,11 @@
     "img": "https://i.scdn.co/image/ab6761610000e5eba3f038b0d76a49de0bd33221"
    },
    {
-    "album": "shummin",
-    "artist": "いとわず",
-    "plays": 22,
-    "plays_fmt": "22",
-    "img": "https://i.scdn.co/image/ab67616d0000b273105818e1f982f6e3fea875d6"
-   },
-   {
     "album": "Sazanami",
     "artist": "Sazanami",
-    "plays": 20,
-    "plays_fmt": "20",
+    "plays": 21,
+    "plays_fmt": "21",
     "img": "https://i.scdn.co/image/ab6761610000e5eba3f038b0d76a49de0bd33221"
-   },
-   {
-    "album": "Homeostasis/Ribbon",
-    "artist": "Gaze Back",
-    "plays": 15,
-    "plays_fmt": "15",
-    "img": null
    },
    {
     "album": "Magical Tank-top Parade",
@@ -709,6 +708,13 @@
     "plays": 11,
     "plays_fmt": "11",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/c4516a9b5490c706796e39a651d9b1a9.jpg"
+   },
+   {
+    "album": "各駅をさかのぼる",
+    "artist": "Ramblamp",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
    },
    {
     "album": "命名",
@@ -725,18 +731,11 @@
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
    },
    {
-    "album": "Rooom",
-    "artist": "AoOo",
+    "album": "Homeostasis/Ribbon",
+    "artist": "Gaze Back",
     "plays": 7,
     "plays_fmt": "7",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/da74e0f56cc6364849b7ac888d3492d5.jpg"
-   },
-   {
-    "album": "ひねくれた僕のきもち",
-    "artist": "はとば",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb54f831823e12fe3e19bad3d0"
+    "img": null
    },
    {
     "album": "退屈のせい",
@@ -744,26 +743,27 @@
     "plays": 7,
     "plays_fmt": "7",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/dc28fa86921a3692ce94d4aec5edc871.png"
+   },
+   {
+    "album": "GLHF",
+    "artist": "Muque",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/13bc104dda275aecfdc92e8231ef0b32.jpg"
    }
   ],
   "top_trk": [
    {
     "track": "shummin",
     "artist": "いとわず",
-    "plays": 22,
-    "plays_fmt": "22"
-   },
-   {
-    "track": "Ribbon",
-    "artist": "Gaze Back",
-    "plays": 11,
-    "plays_fmt": "11"
+    "plays": 26,
+    "plays_fmt": "26"
    },
    {
     "track": "serein",
     "artist": "Sazanami",
-    "plays": 7,
-    "plays_fmt": "7"
+    "plays": 8,
+    "plays_fmt": "8"
    },
    {
     "track": "退屈のせい",
@@ -772,16 +772,10 @@
     "plays_fmt": "7"
    },
    {
-    "track": "Homeostasis",
+    "track": "Ribbon",
     "artist": "Gaze Back",
-    "plays": 5,
-    "plays_fmt": "5"
-   },
-   {
-    "track": "In Veil",
-    "artist": "Cindr",
-    "plays": 5,
-    "plays_fmt": "5"
+    "plays": 6,
+    "plays_fmt": "6"
    },
    {
     "track": "N.W.O.L.",
@@ -806,15 +800,21 @@
     "artist": "Sazanami",
     "plays": 4,
     "plays_fmt": "4"
+   },
+   {
+    "track": "Aisan",
+    "artist": "Mume!syoujyo",
+    "plays": 3,
+    "plays_fmt": "3"
+   },
+   {
+    "track": "Diary",
+    "artist": "Super Size Me",
+    "plays": 3,
+    "plays_fmt": "3"
    }
   ],
   "by_day": [
-   {
-    "day": "8/25",
-    "plays": 93,
-    "plays_fmt": "93",
-    "pct": 35
-   },
    {
     "day": "8/26",
     "plays": 265,
@@ -847,9 +847,15 @@
    },
    {
     "day": "8/31",
-    "plays": 190,
-    "plays_fmt": "190",
+    "plays": 191,
+    "plays_fmt": "191",
     "pct": 72
+   },
+   {
+    "day": "9/1",
+    "plays": 54,
+    "plays_fmt": "54",
+    "pct": 20
    }
   ]
  }
