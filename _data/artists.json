@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7342,
- "total_artists_fmt": "7,342",
+ "total_artists": 7351,
+ "total_artists_fmt": "7,351",
  "missing_img": 8,
  "artists": [
   {
@@ -114,8 +114,8 @@
   },
   {
    "name": "kurayamisaka",
-   "plays": 628,
-   "plays_fmt": "628",
+   "plays": 629,
+   "plays_fmt": "629",
    "img": "https://i.scdn.co/image/ab6761610000e5eb549929e59e9a3da7b41f0939"
   },
   {
@@ -216,8 +216,8 @@
   },
   {
    "name": "PLUE",
-   "plays": 499,
-   "plays_fmt": "499",
+   "plays": 500,
+   "plays_fmt": "500",
    "img": "https://i.scdn.co/image/ab6761610000e5eb85209c8cac40615200957a58"
   },
   {
@@ -336,8 +336,8 @@
   },
   {
    "name": "Dansa Med Dig",
-   "plays": 408,
-   "plays_fmt": "408",
+   "plays": 409,
+   "plays_fmt": "409",
    "img": "https://i.scdn.co/image/ab6761610000e5eb590cfa1ad794bf2697150167"
   },
   {
@@ -365,16 +365,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eba388e0bb3eec78261dec8233"
   },
   {
+   "name": "Muque",
+   "plays": 381,
+   "plays_fmt": "381",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
+  },
+  {
    "name": "sucola",
    "plays": 381,
    "plays_fmt": "381",
    "img": "https://i.scdn.co/image/ab6761610000e5eb7fdd8f90022d1fb6f09ce3c9"
-  },
-  {
-   "name": "Muque",
-   "plays": 380,
-   "plays_fmt": "380",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
   },
   {
    "name": "Asmi",
@@ -389,16 +389,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebfc5a54b5a68edefd85793554"
   },
   {
+   "name": "Vaundy",
+   "plays": 377,
+   "plays_fmt": "377",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebb718d2d3988005d3a72f22c9"
+  },
+  {
    "name": "Sugar House",
    "plays": 376,
    "plays_fmt": "376",
    "img": "https://i.scdn.co/image/ab6761610000e5eb1e3c4dbc4b5744a9ddf331ff"
-  },
-  {
-   "name": "Vaundy",
-   "plays": 376,
-   "plays_fmt": "376",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebb718d2d3988005d3a72f22c9"
   },
   {
    "name": "easycome",
@@ -449,16 +449,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb74d551d6dbd3e14c7de78ab2"
   },
   {
+   "name": "miida",
+   "plays": 350,
+   "plays_fmt": "350",
+   "img": "https://i.scdn.co/image/ab67616d0000b273a10aefa900ad4a60773bd28e"
+  },
+  {
    "name": "Furui Riho",
    "plays": 349,
    "plays_fmt": "349",
    "img": "https://i.scdn.co/image/ab6761610000e5ebff647d0f64da73922aad0cd5"
-  },
-  {
-   "name": "miida",
-   "plays": 349,
-   "plays_fmt": "349",
-   "img": "https://i.scdn.co/image/ab67616d0000b273a10aefa900ad4a60773bd28e"
   },
   {
    "name": "Peanut Butters",
@@ -480,8 +480,8 @@
   },
   {
    "name": "灰色ロジック",
-   "plays": 340,
-   "plays_fmt": "340",
+   "plays": 341,
+   "plays_fmt": "341",
    "img": "https://i.scdn.co/image/ab6761610000e5eb8b1593a9b28a0e6ccd588521"
   },
   {
@@ -521,6 +521,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebdc38271ddea2dff37a837427"
   },
   {
+   "name": "Reol",
+   "plays": 324,
+   "plays_fmt": "324",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebdf2dbfb158e48df25bd49477"
+  },
+  {
    "name": "Homecomings",
    "plays": 323,
    "plays_fmt": "323",
@@ -533,12 +539,6 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb9247cd4ef50307e4425b4bf8"
   },
   {
-   "name": "Reol",
-   "plays": 323,
-   "plays_fmt": "323",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebdf2dbfb158e48df25bd49477"
-  },
-  {
    "name": "Polkadot Stingray",
    "plays": 322,
    "plays_fmt": "322",
@@ -549,6 +549,12 @@
    "plays": 321,
    "plays_fmt": "321",
    "img": "https://i.scdn.co/image/ab6761610000e5eb0cf9b730ba1e4da175a3485b"
+  },
+  {
+   "name": "coldrain",
+   "plays": 319,
+   "plays_fmt": "319",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb790734bdee501b47713b4afe"
   },
   {
    "name": "yahyel",
@@ -573,12 +579,6 @@
    "plays": 318,
    "plays_fmt": "318",
    "img": "https://i.scdn.co/image/ab6761610000e5eb51d099e01631361e50ce714d"
-  },
-  {
-   "name": "coldrain",
-   "plays": 318,
-   "plays_fmt": "318",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb790734bdee501b47713b4afe"
   },
   {
    "name": "Miu Mau",
@@ -762,8 +762,8 @@
   },
   {
    "name": "Have a nice day!",
-   "plays": 276,
-   "plays_fmt": "276",
+   "plays": 277,
+   "plays_fmt": "277",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
   },
   {
@@ -779,16 +779,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb80403b4ec22b76d2eb4f8931"
   },
   {
+   "name": "Haruno",
+   "plays": 274,
+   "plays_fmt": "274",
+   "img": "https://i.scdn.co/image/ab67616d0000b2731494a1e1507f8dbfbce8f2df"
+  },
+  {
    "name": "E.scene",
    "plays": 273,
    "plays_fmt": "273",
    "img": "https://i.scdn.co/image/ab6761610000e5ebf6411427caa1a8d278ebacf0"
-  },
-  {
-   "name": "Haruno",
-   "plays": 273,
-   "plays_fmt": "273",
-   "img": "https://i.scdn.co/image/ab67616d0000b2731494a1e1507f8dbfbce8f2df"
   },
   {
    "name": "アロワナレコード",
@@ -798,8 +798,8 @@
   },
   {
    "name": "36km/h",
-   "plays": 269,
-   "plays_fmt": "269",
+   "plays": 270,
+   "plays_fmt": "270",
    "img": "https://i.scdn.co/image/ab6761610000e5eb8ffe1b4304fc8e392b97c2b7"
   },
   {
@@ -822,8 +822,8 @@
   },
   {
    "name": "Hammer Head Shark",
-   "plays": 264,
-   "plays_fmt": "264",
+   "plays": 265,
+   "plays_fmt": "265",
    "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851"
   },
   {
@@ -881,6 +881,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb93cd81967ea2a33ad6fa53f6"
   },
   {
+   "name": "Kienai",
+   "plays": 260,
+   "plays_fmt": "260",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481"
+  },
+  {
    "name": "Ramblamp",
    "plays": 260,
    "plays_fmt": "260",
@@ -897,12 +903,6 @@
    "plays": 258,
    "plays_fmt": "258",
    "img": "https://i.scdn.co/image/ab67616d0000b27391607922cbc9e2b89f3e4e1a"
-  },
-  {
-   "name": "Kienai",
-   "plays": 258,
-   "plays_fmt": "258",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481"
   }
  ]
 }
