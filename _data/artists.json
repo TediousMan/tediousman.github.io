@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7351,
- "total_artists_fmt": "7,351",
+ "total_artists": 7352,
+ "total_artists_fmt": "7,352",
  "missing_img": 8,
  "artists": [
   {
@@ -270,8 +270,8 @@
   },
   {
    "name": "レイラ",
-   "plays": 452,
-   "plays_fmt": "452",
+   "plays": 453,
+   "plays_fmt": "453",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5a7ae7ae77a6230eb4107638"
   },
   {
@@ -282,8 +282,8 @@
   },
   {
    "name": "Sazanami",
-   "plays": 443,
-   "plays_fmt": "443",
+   "plays": 444,
+   "plays_fmt": "444",
    "img": "https://i.scdn.co/image/ab6761610000e5eba3f038b0d76a49de0bd33221"
   },
   {
@@ -353,6 +353,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb7f8973aeb4176e61b0cec158"
   },
   {
+   "name": "Muque",
+   "plays": 382,
+   "plays_fmt": "382",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
+  },
+  {
    "name": "vivid undress",
    "plays": 382,
    "plays_fmt": "382",
@@ -365,12 +371,6 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eba388e0bb3eec78261dec8233"
   },
   {
-   "name": "Muque",
-   "plays": 381,
-   "plays_fmt": "381",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
-  },
-  {
    "name": "sucola",
    "plays": 381,
    "plays_fmt": "381",
@@ -378,21 +378,21 @@
   },
   {
    "name": "Asmi",
+   "plays": 380,
+   "plays_fmt": "380",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb3ac8e8114680356ca222ffa9"
+  },
+  {
+   "name": "Vaundy",
    "plays": 379,
    "plays_fmt": "379",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb3ac8e8114680356ca222ffa9"
+   "img": "https://i.scdn.co/image/ab6761610000e5ebb718d2d3988005d3a72f22c9"
   },
   {
    "name": "ego apartment",
    "plays": 378,
    "plays_fmt": "378",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfc5a54b5a68edefd85793554"
-  },
-  {
-   "name": "Vaundy",
-   "plays": 377,
-   "plays_fmt": "377",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebb718d2d3988005d3a72f22c9"
   },
   {
    "name": "Sugar House",
@@ -425,16 +425,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb11b3475e61b812fbe2327bd0"
   },
   {
+   "name": "Home",
+   "plays": 367,
+   "plays_fmt": "367",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
+  },
+  {
    "name": "life crown",
    "plays": 367,
    "plays_fmt": "367",
    "img": "https://i.scdn.co/image/ab6761610000e5eba28745b1de7f1ad1d41514f6"
-  },
-  {
-   "name": "Home",
-   "plays": 365,
-   "plays_fmt": "365",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
    "name": "sancrib",
@@ -672,8 +672,8 @@
   },
   {
    "name": "Luby Sparks",
-   "plays": 299,
-   "plays_fmt": "299",
+   "plays": 300,
+   "plays_fmt": "300",
    "img": "https://i.scdn.co/image/ab6761610000e5eb99833843219af1cdc66223fc"
   },
   {
@@ -798,8 +798,8 @@
   },
   {
    "name": "36km/h",
-   "plays": 270,
-   "plays_fmt": "270",
+   "plays": 271,
+   "plays_fmt": "271",
    "img": "https://i.scdn.co/image/ab6761610000e5eb8ffe1b4304fc8e392b97c2b7"
   },
   {
@@ -875,16 +875,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebbefd0bad2068f6eb4fe23df0"
   },
   {
+   "name": "Kienai",
+   "plays": 261,
+   "plays_fmt": "261",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481"
+  },
+  {
    "name": "SLOTHREAT",
    "plays": 261,
    "plays_fmt": "261",
    "img": "https://i.scdn.co/image/ab6761610000e5eb93cd81967ea2a33ad6fa53f6"
-  },
-  {
-   "name": "Kienai",
-   "plays": 260,
-   "plays_fmt": "260",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481"
   },
   {
    "name": "Ramblamp",
