@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7352,
- "total_artists_fmt": "7,352",
+ "total_artists": 7358,
+ "total_artists_fmt": "7,358",
  "missing_img": 8,
  "artists": [
   {
@@ -120,8 +120,8 @@
   },
   {
    "name": "にしな",
-   "plays": 613,
-   "plays_fmt": "613",
+   "plays": 614,
+   "plays_fmt": "614",
    "img": "https://i.scdn.co/image/ab6761610000e5eb9c703e5ffc35530b42a70a8e"
   },
   {
@@ -173,16 +173,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb1b468ea5308efde05767f7f3"
   },
   {
+   "name": "The Otals",
+   "plays": 557,
+   "plays_fmt": "557",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebe880728367d115f0c7dfceb6"
+  },
+  {
    "name": "A子",
    "plays": 556,
    "plays_fmt": "556",
    "img": "https://i.scdn.co/image/ab6761610000e5ebf0ba97c426926eefb55b82be"
-  },
-  {
-   "name": "The Otals",
-   "plays": 556,
-   "plays_fmt": "556",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebe880728367d115f0c7dfceb6"
   },
   {
    "name": "WOLVEs GROOVY",
@@ -282,8 +282,8 @@
   },
   {
    "name": "Sazanami",
-   "plays": 444,
-   "plays_fmt": "444",
+   "plays": 446,
+   "plays_fmt": "446",
    "img": "https://i.scdn.co/image/ab6761610000e5eba3f038b0d76a49de0bd33221"
   },
   {
@@ -306,8 +306,8 @@
   },
   {
    "name": "Tokimeki Records",
-   "plays": 432,
-   "plays_fmt": "432",
+   "plays": 433,
+   "plays_fmt": "433",
    "img": "https://i.scdn.co/image/ab6761610000e5eb42c23eeeaedfb6c466f8b3e9"
   },
   {
@@ -342,8 +342,8 @@
   },
   {
    "name": "GOHOBI",
-   "plays": 390,
-   "plays_fmt": "390",
+   "plays": 391,
+   "plays_fmt": "391",
    "img": "https://i.scdn.co/image/ab6761610000e5eb93311cae2f611f16a5d84e43"
   },
   {
@@ -354,8 +354,8 @@
   },
   {
    "name": "Muque",
-   "plays": 382,
-   "plays_fmt": "382",
+   "plays": 383,
+   "plays_fmt": "383",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
   },
   {
@@ -419,22 +419,22 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb13b71cf0b4e9aca839ca6c72"
   },
   {
-   "name": "えんぷてい",
-   "plays": 368,
-   "plays_fmt": "368",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb11b3475e61b812fbe2327bd0"
-  },
-  {
    "name": "Home",
-   "plays": 367,
-   "plays_fmt": "367",
+   "plays": 369,
+   "plays_fmt": "369",
    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
    "name": "life crown",
-   "plays": 367,
-   "plays_fmt": "367",
+   "plays": 368,
+   "plays_fmt": "368",
    "img": "https://i.scdn.co/image/ab6761610000e5eba28745b1de7f1ad1d41514f6"
+  },
+  {
+   "name": "えんぷてい",
+   "plays": 368,
+   "plays_fmt": "368",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb11b3475e61b812fbe2327bd0"
   },
   {
    "name": "sancrib",
@@ -450,8 +450,8 @@
   },
   {
    "name": "miida",
-   "plays": 350,
-   "plays_fmt": "350",
+   "plays": 351,
+   "plays_fmt": "351",
    "img": "https://i.scdn.co/image/ab67616d0000b273a10aefa900ad4a60773bd28e"
   },
   {
@@ -473,16 +473,16 @@
    "img": null
   },
   {
+   "name": "灰色ロジック",
+   "plays": 343,
+   "plays_fmt": "343",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb8b1593a9b28a0e6ccd588521"
+  },
+  {
    "name": "Yuinishio",
    "plays": 341,
    "plays_fmt": "341",
    "img": "https://i.scdn.co/image/ab6761610000e5ebb80e31243a11fbc080f93153"
-  },
-  {
-   "name": "灰色ロジック",
-   "plays": 341,
-   "plays_fmt": "341",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb8b1593a9b28a0e6ccd588521"
   },
   {
    "name": "kiki vivi lily",
@@ -552,8 +552,8 @@
   },
   {
    "name": "coldrain",
-   "plays": 319,
-   "plays_fmt": "319",
+   "plays": 321,
+   "plays_fmt": "321",
    "img": "https://i.scdn.co/image/ab6761610000e5eb790734bdee501b47713b4afe"
   },
   {
@@ -749,6 +749,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb1c7ce3df2cce3afef74566cb"
   },
   {
+   "name": "Have a nice day!",
+   "plays": 278,
+   "plays_fmt": "278",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
+  },
+  {
    "name": "POOL",
    "plays": 278,
    "plays_fmt": "278",
@@ -759,12 +765,6 @@
    "plays": 278,
    "plays_fmt": "278",
    "img": "https://i.scdn.co/image/ab6761610000e5eb35e11f5ad4a252b96a658376"
-  },
-  {
-   "name": "Have a nice day!",
-   "plays": 277,
-   "plays_fmt": "277",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
   },
   {
    "name": "Laura day romance",
@@ -780,8 +780,8 @@
   },
   {
    "name": "Haruno",
-   "plays": 274,
-   "plays_fmt": "274",
+   "plays": 275,
+   "plays_fmt": "275",
    "img": "https://i.scdn.co/image/ab67616d0000b2731494a1e1507f8dbfbce8f2df"
   },
   {
@@ -863,6 +863,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb521dd8791d85d8b317200133"
   },
   {
+   "name": "Kienai",
+   "plays": 262,
+   "plays_fmt": "262",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481"
+  },
+  {
    "name": "shallm",
    "plays": 262,
    "plays_fmt": "262",
@@ -873,12 +879,6 @@
    "plays": 261,
    "plays_fmt": "261",
    "img": "https://i.scdn.co/image/ab6761610000e5ebbefd0bad2068f6eb4fe23df0"
-  },
-  {
-   "name": "Kienai",
-   "plays": 261,
-   "plays_fmt": "261",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481"
   },
   {
    "name": "SLOTHREAT",
