@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-06",
+ "generated": "2026-09-07",
  "year_label": "2026",
  "all": {
-  "total": 216215,
-  "total_fmt": "216,215",
-  "uniq_art": 7358,
-  "uniq_art_fmt": "7,358",
-  "uniq_trk": 30660,
-  "uniq_trk_fmt": "30,660",
+  "total": 216277,
+  "total_fmt": "216,277",
+  "uniq_art": 7359,
+  "uniq_art_fmt": "7,359",
+  "uniq_trk": 30663,
+  "uniq_trk_fmt": "30,663",
   "start": "2018-03-06",
-  "end": "2026-09-06",
+  "end": "2026-09-07",
   "top_art": [
    {
     "artist": "Mr.ふぉるて",
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 33128,
-    "plays_fmt": "33,128",
+    "plays": 33190,
+    "plays_fmt": "33,190",
     "pct": 61
    }
   ],
@@ -323,19 +323,19 @@
    },
    {
     "year": "2026",
-    "count": 989,
-    "count_fmt": "989",
+    "count": 990,
+    "count_fmt": "990",
     "pct": 41
    }
   ]
  },
  "year": {
-  "total": 33128,
-  "total_fmt": "33,128",
-  "uniq_art": 2818,
-  "uniq_art_fmt": "2,818",
-  "uniq_trk": 7839,
-  "uniq_trk_fmt": "7,839",
+  "total": 33190,
+  "total_fmt": "33,190",
+  "uniq_art": 2819,
+  "uniq_art_fmt": "2,819",
+  "uniq_trk": 7842,
+  "uniq_trk_fmt": "7,842",
   "top_art": [
    {
     "artist": "Ramblamp",
@@ -466,26 +466,26 @@
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/8f67506eb69e1457aed72a3f1273f862.jpg"
    },
    {
+    "album": "INNER SYNC",
+    "artist": "Avyss",
+    "plays": 144,
+    "plays_fmt": "144",
+    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/389d72d53aa10059db21ff4907f3ee32.jpg"
+   },
+   {
     "album": "She hood",
     "artist": "cat h∞d",
     "plays": 143,
     "plays_fmt": "143",
     "img": "https://i.scdn.co/image/ab67616d0000b27373eadbb2eb0dfafb999dc4d4"
-   },
-   {
-    "album": "FACH",
-    "artist": "the Wulongs",
-    "plays": 142,
-    "plays_fmt": "142",
-    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/98f2e6391df7025c381117edd5682cb7.jpg"
    }
   ],
   "top_trk": [
    {
     "track": "Soul",
     "artist": "Avyss",
-    "plays": 141,
-    "plays_fmt": "141"
+    "plays": 143,
+    "plays_fmt": "143"
    },
    {
     "track": "UTSUROIHAMA",
@@ -536,8 +536,8 @@
     "plays_fmt": "54"
    },
    {
-    "track": "tanya",
-    "artist": "SHIKUMI",
+    "track": "N.W.O.L.",
+    "artist": "BurnQue",
     "plays": 53,
     "plays_fmt": "53"
    }
@@ -593,114 +593,114 @@
    },
    {
     "month": "9",
-    "plays": 765,
-    "plays_fmt": "765",
-    "pct": 14
+    "plays": 827,
+    "plays_fmt": "827",
+    "pct": 15
    }
   ]
  },
  "week": {
-  "total": 957,
-  "total_fmt": "957",
-  "uniq_art": 506,
-  "uniq_art_fmt": "506",
-  "uniq_trk": 670,
-  "uniq_trk_fmt": "670",
-  "start": "8/31",
-  "end": "9/6",
+  "total": 828,
+  "total_fmt": "828",
+  "uniq_art": 433,
+  "uniq_art_fmt": "433",
+  "uniq_trk": 550,
+  "uniq_trk_fmt": "550",
+  "start": "9/1",
+  "end": "9/7",
   "top_art": [
    {
     "artist": "SophT",
-    "plays": 16,
-    "plays_fmt": "16",
+    "plays": 19,
+    "plays_fmt": "19",
     "img": "https://i.scdn.co/image/ab6761610000e5eb6060716b2da66257b059b38d",
     "pct": 100
    },
    {
     "artist": "braNdrop",
-    "plays": 12,
-    "plays_fmt": "12",
+    "plays": 15,
+    "plays_fmt": "15",
     "img": "https://i.scdn.co/image/ab67616d0000b2735f4bf1988efa4cb910b7e07e",
-    "pct": 75
+    "pct": 79
    },
    {
-    "artist": "いとわず",
-    "plays": 12,
-    "plays_fmt": "12",
-    "img": "https://i.scdn.co/image/ab67616d0000b273105818e1f982f6e3fea875d6",
-    "pct": 75
-   },
-   {
-    "artist": "Aonowa",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb83e8fdf933b8b52d934bc28f",
-    "pct": 56
+    "artist": "The Boring Tapes",
+    "plays": 10,
+    "plays_fmt": "10",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb453cae76249491ffcfc8f78a",
+    "pct": 53
    },
    {
     "artist": "Cyan",
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5eb10edce23f433e82fbe5cf41b",
-    "pct": 56
+    "pct": 47
    },
    {
     "artist": "Ramblamp",
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf",
-    "pct": 56
+    "pct": 47
    },
    {
     "artist": "Birch",
     "plays": 8,
     "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab67616d0000b273b3137409319aafe61621efd6",
-    "pct": 50
+    "pct": 42
    },
    {
-    "artist": "Home",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
-    "pct": 44
+    "artist": "Forbear",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb1dd5e26af0ba32dc0330d5e7",
+    "pct": 42
    },
    {
-    "artist": "Rip van cats",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebf8cc910d3f2822e9f3441beb",
-    "pct": 44
+    "artist": "OddRe:",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb251682abdc5de9fb9f402fd4",
+    "pct": 42
    },
    {
-    "artist": "The Boring Tapes",
+    "artist": "いとわず",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab67616d0000b273105818e1f982f6e3fea875d6",
+    "pct": 42
+   },
+   {
+    "artist": "Aonowa",
     "plays": 7,
     "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb453cae76249491ffcfc8f78a",
-    "pct": 44
+    "img": "https://i.scdn.co/image/ab6761610000e5eb83e8fdf933b8b52d934bc28f",
+    "pct": 37
    }
   ],
   "top_alb": [
    {
     "album": "Vega",
     "artist": "braNdrop",
-    "plays": 12,
-    "plays_fmt": "12",
+    "plays": 15,
+    "plays_fmt": "15",
     "img": "https://i.scdn.co/image/ab67616d0000b2735f4bf1988efa4cb910b7e07e"
-   },
-   {
-    "album": "shummin",
-    "artist": "いとわず",
-    "plays": 12,
-    "plays_fmt": "12",
-    "img": "https://i.scdn.co/image/ab67616d0000b273105818e1f982f6e3fea875d6"
    },
    {
     "album": "Jump the fence",
     "artist": "SophT",
-    "plays": 9,
-    "plays_fmt": "9",
+    "plays": 12,
+    "plays_fmt": "12",
     "img": "https://i.scdn.co/image/ab6761610000e5eb6060716b2da66257b059b38d"
+   },
+   {
+    "album": "Voicemail",
+    "artist": "The Boring Tapes",
+    "plays": 10,
+    "plays_fmt": "10",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb453cae76249491ffcfc8f78a"
    },
    {
     "album": "各駅をさかのぼる",
@@ -710,6 +710,13 @@
     "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
    },
    {
+    "album": "4songs Ⅱ",
+    "artist": "Forbear",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fa31be3a71cc8be0c802b47621bcf196.jpg"
+   },
+   {
     "album": "Blue of Distance",
     "artist": "Birch",
     "plays": 8,
@@ -717,53 +724,52 @@
     "img": "https://i.scdn.co/image/ab67616d0000b273b3137409319aafe61621efd6"
    },
    {
-    "album": "Omokage",
-    "artist": "Aonowa",
+    "album": "shummin",
+    "artist": "いとわず",
     "plays": 8,
     "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab67616d0000b273105818e1f982f6e3fea875d6"
+   },
+   {
+    "album": "what a Wonderful World's end～2024 Remastered～",
+    "artist": "CQ",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6c7091ca47c7e6fbb47659f8a9f0b8d0.jpg"
+   },
+   {
+    "album": "Omokage",
+    "artist": "Aonowa",
+    "plays": 6,
+    "plays_fmt": "6",
     "img": "https://i.scdn.co/image/ab6761610000e5eb83e8fdf933b8b52d934bc28f"
    },
    {
-    "album": "HOME COLLECTION",
-    "artist": "Home",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
-   },
-   {
-    "album": "Voicemail",
-    "artist": "The Boring Tapes",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb453cae76249491ffcfc8f78a"
-   },
-   {
-    "album": "4songs Ⅱ",
-    "artist": "Forbear",
+    "album": "Sazanami",
+    "artist": "Sazanami",
     "plays": 6,
     "plays_fmt": "6",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fa31be3a71cc8be0c802b47621bcf196.jpg"
-   },
-   {
-    "album": "Neo Retro Pops",
-    "artist": "Rip van cats",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/832fafb3bba9f2ef0159f6691a760685.jpg"
+    "img": "https://i.scdn.co/image/ab6761610000e5eba3f038b0d76a49de0bd33221"
    }
   ],
   "top_trk": [
    {
-    "track": "shummin",
-    "artist": "いとわず",
+    "track": "Jump the fence",
+    "artist": "SophT",
     "plays": 12,
     "plays_fmt": "12"
    },
    {
-    "track": "Jump the fence",
-    "artist": "SophT",
-    "plays": 9,
-    "plays_fmt": "9"
+    "track": "Voicemail",
+    "artist": "The Boring Tapes",
+    "plays": 10,
+    "plays_fmt": "10"
+   },
+   {
+    "track": "shummin",
+    "artist": "いとわず",
+    "plays": 8,
+    "plays_fmt": "8"
    },
    {
     "track": "Kouro",
@@ -772,55 +778,43 @@
     "plays_fmt": "7"
    },
    {
-    "track": "Voicemail",
-    "artist": "The Boring Tapes",
+    "track": "Vega",
+    "artist": "braNdrop",
     "plays": 7,
     "plays_fmt": "7"
    },
    {
-    "track": "Endroit",
-    "artist": "SAMOEDO",
+    "track": "Leos",
+    "artist": "CQ",
+    "plays": 6,
+    "plays_fmt": "6"
+   },
+   {
+    "track": "Bookshelf",
+    "artist": "Forbear",
     "plays": 5,
     "plays_fmt": "5"
    },
    {
-    "track": "Leos",
-    "artist": "CQ",
-    "plays": 4,
-    "plays_fmt": "4"
+    "track": "Time Traveler of Comet (demo)",
+    "artist": "Suichuyuhiko",
+    "plays": 5,
+    "plays_fmt": "5"
    },
    {
-    "track": "Ribbon",
-    "artist": "Gaze Back",
-    "plays": 4,
-    "plays_fmt": "4"
+    "track": "eternalsnowangel",
+    "artist": "yawn club",
+    "plays": 5,
+    "plays_fmt": "5"
    },
    {
-    "track": "See You There",
-    "artist": "Neppa",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "Teenage",
-    "artist": "Looisbos",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "To Ashes",
-    "artist": "SophT",
-    "plays": 4,
-    "plays_fmt": "4"
+    "track": "serein",
+    "artist": "Sazanami",
+    "plays": 5,
+    "plays_fmt": "5"
    }
   ],
   "by_day": [
-   {
-    "day": "8/31",
-    "plays": 191,
-    "plays_fmt": "191",
-    "pct": 90
-   },
    {
     "day": "9/1",
     "plays": 54,
@@ -837,25 +831,31 @@
     "day": "9/3",
     "plays": 180,
     "plays_fmt": "180",
-    "pct": 85
+    "pct": 83
    },
    {
     "day": "9/4",
     "plays": 61,
     "plays_fmt": "61",
-    "pct": 29
+    "pct": 28
    },
    {
     "day": "9/5",
     "plays": 207,
     "plays_fmt": "207",
-    "pct": 97
+    "pct": 95
    },
    {
     "day": "9/6",
-    "plays": 213,
-    "plays_fmt": "213",
+    "plays": 217,
+    "plays_fmt": "217",
     "pct": 100
+   },
+   {
+    "day": "9/7",
+    "plays": 58,
+    "plays_fmt": "58",
+    "pct": 27
    }
   ]
  }

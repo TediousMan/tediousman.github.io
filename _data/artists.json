@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7358,
- "total_artists_fmt": "7,358",
+ "total_artists": 7359,
+ "total_artists_fmt": "7,359",
  "missing_img": 8,
  "artists": [
   {
@@ -282,8 +282,8 @@
   },
   {
    "name": "Sazanami",
-   "plays": 446,
-   "plays_fmt": "446",
+   "plays": 448,
+   "plays_fmt": "448",
    "img": "https://i.scdn.co/image/ab6761610000e5eba3f038b0d76a49de0bd33221"
   },
   {
