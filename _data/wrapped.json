@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-07",
+ "generated": "2026-09-08",
  "year_label": "2026",
  "all": {
-  "total": 216277,
-  "total_fmt": "216,277",
-  "uniq_art": 7359,
-  "uniq_art_fmt": "7,359",
-  "uniq_trk": 30663,
-  "uniq_trk_fmt": "30,663",
+  "total": 216494,
+  "total_fmt": "216,494",
+  "uniq_art": 7360,
+  "uniq_art_fmt": "7,360",
+  "uniq_trk": 30669,
+  "uniq_trk_fmt": "30,669",
   "start": "2018-03-06",
-  "end": "2026-09-07",
+  "end": "2026-09-08",
   "top_art": [
    {
     "artist": "Mr.ふぉるて",
@@ -267,9 +267,9 @@
    },
    {
     "year": "2026",
-    "plays": 33190,
-    "plays_fmt": "33,190",
-    "pct": 61
+    "plays": 33407,
+    "plays_fmt": "33,407",
+    "pct": 62
    }
   ],
   "new_art_by_year": [
@@ -323,19 +323,19 @@
    },
    {
     "year": "2026",
-    "count": 990,
-    "count_fmt": "990",
+    "count": 991,
+    "count_fmt": "991",
     "pct": 41
    }
   ]
  },
  "year": {
-  "total": 33190,
-  "total_fmt": "33,190",
-  "uniq_art": 2819,
-  "uniq_art_fmt": "2,819",
-  "uniq_trk": 7842,
-  "uniq_trk_fmt": "7,842",
+  "total": 33407,
+  "total_fmt": "33,407",
+  "uniq_art": 2823,
+  "uniq_art_fmt": "2,823",
+  "uniq_trk": 7849,
+  "uniq_trk_fmt": "7,849",
   "top_art": [
    {
     "artist": "Ramblamp",
@@ -468,8 +468,8 @@
    {
     "album": "INNER SYNC",
     "artist": "Avyss",
-    "plays": 144,
-    "plays_fmt": "144",
+    "plays": 152,
+    "plays_fmt": "152",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/389d72d53aa10059db21ff4907f3ee32.jpg"
    },
    {
@@ -484,8 +484,8 @@
    {
     "track": "Soul",
     "artist": "Avyss",
-    "plays": 143,
-    "plays_fmt": "143"
+    "plays": 151,
+    "plays_fmt": "151"
    },
    {
     "track": "UTSUROIHAMA",
@@ -518,6 +518,18 @@
     "plays_fmt": "72"
    },
    {
+    "track": "shummin",
+    "artist": "いとわず",
+    "plays": 67,
+    "plays_fmt": "67"
+   },
+   {
+    "track": "N.W.O.L.",
+    "artist": "BurnQue",
+    "plays": 61,
+    "plays_fmt": "61"
+   },
+   {
     "track": "way back",
     "artist": "Kienai",
     "plays": 59,
@@ -528,18 +540,6 @@
     "artist": "Tattletale",
     "plays": 57,
     "plays_fmt": "57"
-   },
-   {
-    "track": "banka",
-    "artist": "Quw",
-    "plays": 54,
-    "plays_fmt": "54"
-   },
-   {
-    "track": "N.W.O.L.",
-    "artist": "BurnQue",
-    "plays": 53,
-    "plays_fmt": "53"
    }
   ],
   "by_month": [
@@ -593,234 +593,228 @@
    },
    {
     "month": "9",
-    "plays": 827,
-    "plays_fmt": "827",
-    "pct": 15
+    "plays": 1044,
+    "plays_fmt": "1,044",
+    "pct": 19
    }
   ]
  },
  "week": {
-  "total": 828,
-  "total_fmt": "828",
-  "uniq_art": 433,
-  "uniq_art_fmt": "433",
-  "uniq_trk": 550,
-  "uniq_trk_fmt": "550",
-  "start": "9/1",
-  "end": "9/7",
+  "total": 991,
+  "total_fmt": "991",
+  "uniq_art": 414,
+  "uniq_art_fmt": "414",
+  "uniq_trk": 518,
+  "uniq_trk_fmt": "518",
+  "start": "9/2",
+  "end": "9/8",
   "top_art": [
    {
     "artist": "SophT",
-    "plays": 19,
-    "plays_fmt": "19",
+    "plays": 28,
+    "plays_fmt": "28",
     "img": "https://i.scdn.co/image/ab6761610000e5eb6060716b2da66257b059b38d",
     "pct": 100
    },
    {
     "artist": "braNdrop",
-    "plays": 15,
-    "plays_fmt": "15",
+    "plays": 24,
+    "plays_fmt": "24",
     "img": "https://i.scdn.co/image/ab67616d0000b2735f4bf1988efa4cb910b7e07e",
-    "pct": 79
+    "pct": 86
    },
    {
     "artist": "The Boring Tapes",
-    "plays": 10,
-    "plays_fmt": "10",
+    "plays": 19,
+    "plays_fmt": "19",
     "img": "https://i.scdn.co/image/ab6761610000e5eb453cae76249491ffcfc8f78a",
-    "pct": 53
-   },
-   {
-    "artist": "Cyan",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb10edce23f433e82fbe5cf41b",
-    "pct": 47
-   },
-   {
-    "artist": "Ramblamp",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf",
-    "pct": 47
-   },
-   {
-    "artist": "Birch",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab67616d0000b273b3137409319aafe61621efd6",
-    "pct": 42
-   },
-   {
-    "artist": "Forbear",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb1dd5e26af0ba32dc0330d5e7",
-    "pct": 42
-   },
-   {
-    "artist": "OddRe:",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb251682abdc5de9fb9f402fd4",
-    "pct": 42
+    "pct": 68
    },
    {
     "artist": "いとわず",
-    "plays": 8,
-    "plays_fmt": "8",
+    "plays": 19,
+    "plays_fmt": "19",
     "img": "https://i.scdn.co/image/ab67616d0000b273105818e1f982f6e3fea875d6",
-    "pct": 42
+    "pct": 68
    },
    {
-    "artist": "Aonowa",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb83e8fdf933b8b52d934bc28f",
-    "pct": 37
+    "artist": "OddRe:",
+    "plays": 16,
+    "plays_fmt": "16",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb251682abdc5de9fb9f402fd4",
+    "pct": 57
+   },
+   {
+    "artist": "Birch",
+    "plays": 15,
+    "plays_fmt": "15",
+    "img": "https://i.scdn.co/image/ab67616d0000b273b3137409319aafe61621efd6",
+    "pct": 54
+   },
+   {
+    "artist": "Forbear",
+    "plays": 14,
+    "plays_fmt": "14",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb1dd5e26af0ba32dc0330d5e7",
+    "pct": 50
+   },
+   {
+    "artist": "CQ",
+    "plays": 13,
+    "plays_fmt": "13",
+    "img": "https://i.scdn.co/image/ab67616d0000b273d5df30b611ba46931c2b1d93",
+    "pct": 46
+   },
+   {
+    "artist": "yawn club",
+    "plays": 13,
+    "plays_fmt": "13",
+    "img": "https://i.scdn.co/image/ab67616d0000b27381eddf17cc3048678c271fc7",
+    "pct": 46
+   },
+   {
+    "artist": "BurnQue",
+    "plays": 12,
+    "plays_fmt": "12",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebfb9085515b81ecc06b05b158",
+    "pct": 43
    }
   ],
   "top_alb": [
    {
     "album": "Vega",
     "artist": "braNdrop",
-    "plays": 15,
-    "plays_fmt": "15",
+    "plays": 24,
+    "plays_fmt": "24",
     "img": "https://i.scdn.co/image/ab67616d0000b2735f4bf1988efa4cb910b7e07e"
    },
    {
     "album": "Jump the fence",
     "artist": "SophT",
-    "plays": 12,
-    "plays_fmt": "12",
+    "plays": 21,
+    "plays_fmt": "21",
     "img": "https://i.scdn.co/image/ab6761610000e5eb6060716b2da66257b059b38d"
    },
    {
     "album": "Voicemail",
     "artist": "The Boring Tapes",
-    "plays": 10,
-    "plays_fmt": "10",
+    "plays": 19,
+    "plays_fmt": "19",
     "img": "https://i.scdn.co/image/ab6761610000e5eb453cae76249491ffcfc8f78a"
-   },
-   {
-    "album": "各駅をさかのぼる",
-    "artist": "Ramblamp",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
-   },
-   {
-    "album": "4songs Ⅱ",
-    "artist": "Forbear",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fa31be3a71cc8be0c802b47621bcf196.jpg"
-   },
-   {
-    "album": "Blue of Distance",
-    "artist": "Birch",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab67616d0000b273b3137409319aafe61621efd6"
    },
    {
     "album": "shummin",
     "artist": "いとわず",
-    "plays": 8,
-    "plays_fmt": "8",
+    "plays": 19,
+    "plays_fmt": "19",
     "img": "https://i.scdn.co/image/ab67616d0000b273105818e1f982f6e3fea875d6"
+   },
+   {
+    "album": "Blue of Distance",
+    "artist": "Birch",
+    "plays": 15,
+    "plays_fmt": "15",
+    "img": "https://i.scdn.co/image/ab67616d0000b273b3137409319aafe61621efd6"
+   },
+   {
+    "album": "4songs Ⅱ",
+    "artist": "Forbear",
+    "plays": 14,
+    "plays_fmt": "14",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fa31be3a71cc8be0c802b47621bcf196.jpg"
+   },
+   {
+    "album": "eternalsnowangel",
+    "artist": "yawn club",
+    "plays": 13,
+    "plays_fmt": "13",
+    "img": "https://i.scdn.co/image/ab67616d0000b27381eddf17cc3048678c271fc7"
    },
    {
     "album": "what a Wonderful World's end～2024 Remastered～",
     "artist": "CQ",
-    "plays": 7,
-    "plays_fmt": "7",
+    "plays": 13,
+    "plays_fmt": "13",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6c7091ca47c7e6fbb47659f8a9f0b8d0.jpg"
    },
    {
-    "album": "Omokage",
-    "artist": "Aonowa",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb83e8fdf933b8b52d934bc28f"
+    "album": "EX Shiawaseni nareruto iine",
+    "artist": "aubrei",
+    "plays": 12,
+    "plays_fmt": "12",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2b78812d20f49930a80bdd35620c338b.png"
    },
    {
-    "album": "Sazanami",
-    "artist": "Sazanami",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": "https://i.scdn.co/image/ab6761610000e5eba3f038b0d76a49de0bd33221"
+    "album": "LastWords",
+    "artist": "Minami Satsuki Band Set",
+    "plays": 12,
+    "plays_fmt": "12",
+    "img": null
    }
   ],
   "top_trk": [
    {
     "track": "Jump the fence",
     "artist": "SophT",
-    "plays": 12,
-    "plays_fmt": "12"
+    "plays": 21,
+    "plays_fmt": "21"
    },
    {
     "track": "Voicemail",
     "artist": "The Boring Tapes",
-    "plays": 10,
-    "plays_fmt": "10"
+    "plays": 19,
+    "plays_fmt": "19"
    },
    {
     "track": "shummin",
     "artist": "いとわず",
-    "plays": 8,
-    "plays_fmt": "8"
-   },
-   {
-    "track": "Kouro",
-    "artist": "Birch",
-    "plays": 7,
-    "plays_fmt": "7"
+    "plays": 19,
+    "plays_fmt": "19"
    },
    {
     "track": "Vega",
     "artist": "braNdrop",
-    "plays": 7,
-    "plays_fmt": "7"
+    "plays": 16,
+    "plays_fmt": "16"
    },
    {
-    "track": "Leos",
-    "artist": "CQ",
-    "plays": 6,
-    "plays_fmt": "6"
-   },
-   {
-    "track": "Bookshelf",
-    "artist": "Forbear",
-    "plays": 5,
-    "plays_fmt": "5"
-   },
-   {
-    "track": "Time Traveler of Comet (demo)",
-    "artist": "Suichuyuhiko",
-    "plays": 5,
-    "plays_fmt": "5"
+    "track": "Kouro",
+    "artist": "Birch",
+    "plays": 14,
+    "plays_fmt": "14"
    },
    {
     "track": "eternalsnowangel",
     "artist": "yawn club",
-    "plays": 5,
-    "plays_fmt": "5"
+    "plays": 13,
+    "plays_fmt": "13"
    },
    {
-    "track": "serein",
-    "artist": "Sazanami",
-    "plays": 5,
-    "plays_fmt": "5"
+    "track": "Bookshelf",
+    "artist": "Forbear",
+    "plays": 12,
+    "plays_fmt": "12"
+   },
+   {
+    "track": "Gomi",
+    "artist": "Minami Satsuki Band Set",
+    "plays": 12,
+    "plays_fmt": "12"
+   },
+   {
+    "track": "Leos",
+    "artist": "CQ",
+    "plays": 12,
+    "plays_fmt": "12"
+   },
+   {
+    "track": "Time Traveler of Comet (demo)",
+    "artist": "Suichuyuhiko",
+    "plays": 12,
+    "plays_fmt": "12"
    }
   ],
   "by_day": [
-   {
-    "day": "9/1",
-    "plays": 54,
-    "plays_fmt": "54",
-    "pct": 25
-   },
    {
     "day": "9/2",
     "plays": 51,
@@ -853,9 +847,15 @@
    },
    {
     "day": "9/7",
-    "plays": 58,
-    "plays_fmt": "58",
-    "pct": 27
+    "plays": 73,
+    "plays_fmt": "73",
+    "pct": 34
+   },
+   {
+    "day": "9/8",
+    "plays": 202,
+    "plays_fmt": "202",
+    "pct": 93
    }
   ]
  }

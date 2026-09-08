@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7359,
- "total_artists_fmt": "7,359",
+ "total_artists": 7360,
+ "total_artists_fmt": "7,360",
  "missing_img": 8,
  "artists": [
   {
@@ -269,6 +269,12 @@
    "img": "https://i.scdn.co/image/ab67616d0000b2737b651335a1ff0dbb8055f1d8"
   },
   {
+   "name": "Sazanami",
+   "plays": 453,
+   "plays_fmt": "453",
+   "img": "https://i.scdn.co/image/ab6761610000e5eba3f038b0d76a49de0bd33221"
+  },
+  {
    "name": "レイラ",
    "plays": 453,
    "plays_fmt": "453",
@@ -279,12 +285,6 @@
    "plays": 450,
    "plays_fmt": "450",
    "img": "https://i.scdn.co/image/ab6761610000e5eb23b7dc7381cb8ed0d433ff12"
-  },
-  {
-   "name": "Sazanami",
-   "plays": 448,
-   "plays_fmt": "448",
-   "img": "https://i.scdn.co/image/ab6761610000e5eba3f038b0d76a49de0bd33221"
   },
   {
    "name": "WANIMA",
