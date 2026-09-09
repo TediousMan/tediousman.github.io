@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-08",
+ "generated": "2026-09-09",
  "year_label": "2026",
  "all": {
-  "total": 216494,
-  "total_fmt": "216,494",
-  "uniq_art": 7360,
-  "uniq_art_fmt": "7,360",
-  "uniq_trk": 30669,
-  "uniq_trk_fmt": "30,669",
+  "total": 216725,
+  "total_fmt": "216,725",
+  "uniq_art": 7366,
+  "uniq_art_fmt": "7,366",
+  "uniq_trk": 30730,
+  "uniq_trk_fmt": "30,730",
   "start": "2018-03-06",
-  "end": "2026-09-08",
+  "end": "2026-09-09",
   "top_art": [
    {
     "artist": "Mr.ふぉるて",
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 33407,
-    "plays_fmt": "33,407",
+    "plays": 33638,
+    "plays_fmt": "33,638",
     "pct": 62
    }
   ],
@@ -323,19 +323,19 @@
    },
    {
     "year": "2026",
-    "count": 991,
-    "count_fmt": "991",
+    "count": 997,
+    "count_fmt": "997",
     "pct": 41
    }
   ]
  },
  "year": {
-  "total": 33407,
-  "total_fmt": "33,407",
-  "uniq_art": 2823,
-  "uniq_art_fmt": "2,823",
-  "uniq_trk": 7849,
-  "uniq_trk_fmt": "7,849",
+  "total": 33638,
+  "total_fmt": "33,638",
+  "uniq_art": 2830,
+  "uniq_art_fmt": "2,830",
+  "uniq_trk": 7911,
+  "uniq_trk_fmt": "7,911",
   "top_art": [
    {
     "artist": "Ramblamp",
@@ -360,10 +360,10 @@
    },
    {
     "artist": "bedgravity",
-    "plays": 222,
-    "plays_fmt": "222",
+    "plays": 223,
+    "plays_fmt": "223",
     "img": "https://i.scdn.co/image/ab67616d0000b273d29467756d06ae5882d98238",
-    "pct": 85
+    "pct": 86
    },
    {
     "artist": "あたまたんさん",
@@ -374,17 +374,17 @@
    },
    {
     "artist": "the Wulongs",
-    "plays": 197,
-    "plays_fmt": "197",
+    "plays": 198,
+    "plays_fmt": "198",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
     "pct": 76
    },
    {
     "artist": "uyuu",
-    "plays": 185,
-    "plays_fmt": "185",
+    "plays": 186,
+    "plays_fmt": "186",
     "img": "https://i.scdn.co/image/ab67616d0000b27381582c0fb8f5908a6aee7f3e",
-    "pct": 71
+    "pct": 72
    },
    {
     "artist": "wanbed",
@@ -395,17 +395,17 @@
    },
    {
     "artist": "Home",
-    "plays": 173,
-    "plays_fmt": "173",
+    "plays": 174,
+    "plays_fmt": "174",
     "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
     "pct": 67
    },
    {
     "artist": "tenbin O",
-    "plays": 162,
-    "plays_fmt": "162",
+    "plays": 164,
+    "plays_fmt": "164",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb146cdd0b2be813c4b411eb2",
-    "pct": 62
+    "pct": 63
    }
   ],
   "top_alb": [
@@ -419,8 +419,8 @@
    {
     "album": "Unmet Needs",
     "artist": "bedgravity",
-    "plays": 222,
-    "plays_fmt": "222",
+    "plays": 223,
+    "plays_fmt": "223",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/d49e1932df6d076c99051c1c7fe957a4.jpg"
    },
    {
@@ -447,8 +447,8 @@
    {
     "album": "HOME COLLECTION",
     "artist": "Home",
-    "plays": 169,
-    "plays_fmt": "169",
+    "plays": 170,
+    "plays_fmt": "170",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
    },
    {
@@ -473,11 +473,11 @@
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/389d72d53aa10059db21ff4907f3ee32.jpg"
    },
    {
-    "album": "She hood",
-    "artist": "cat h∞d",
+    "album": "FACH",
+    "artist": "the Wulongs",
     "plays": 143,
     "plays_fmt": "143",
-    "img": "https://i.scdn.co/image/ab67616d0000b27373eadbb2eb0dfafb999dc4d4"
+    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/98f2e6391df7025c381117edd5682cb7.jpg"
    }
   ],
   "top_trk": [
@@ -593,21 +593,21 @@
    },
    {
     "month": "9",
-    "plays": 1044,
-    "plays_fmt": "1,044",
-    "pct": 19
+    "plays": 1275,
+    "plays_fmt": "1,275",
+    "pct": 23
    }
   ]
  },
  "week": {
-  "total": 991,
-  "total_fmt": "991",
-  "uniq_art": 414,
-  "uniq_art_fmt": "414",
-  "uniq_trk": 518,
-  "uniq_trk_fmt": "518",
-  "start": "9/2",
-  "end": "9/8",
+  "total": 1171,
+  "total_fmt": "1,171",
+  "uniq_art": 502,
+  "uniq_art_fmt": "502",
+  "uniq_trk": 702,
+  "uniq_trk_fmt": "702",
+  "start": "9/3",
+  "end": "9/9",
   "top_art": [
    {
     "artist": "SophT",
@@ -622,13 +622,6 @@
     "plays_fmt": "24",
     "img": "https://i.scdn.co/image/ab67616d0000b2735f4bf1988efa4cb910b7e07e",
     "pct": 86
-   },
-   {
-    "artist": "The Boring Tapes",
-    "plays": 19,
-    "plays_fmt": "19",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb453cae76249491ffcfc8f78a",
-    "pct": 68
    },
    {
     "artist": "いとわず",
@@ -646,10 +639,10 @@
    },
    {
     "artist": "Birch",
-    "plays": 15,
-    "plays_fmt": "15",
+    "plays": 14,
+    "plays_fmt": "14",
     "img": "https://i.scdn.co/image/ab67616d0000b273b3137409319aafe61621efd6",
-    "pct": 54
+    "pct": 50
    },
    {
     "artist": "Forbear",
@@ -666,18 +659,25 @@
     "pct": 46
    },
    {
+    "artist": "The Boring Tapes",
+    "plays": 13,
+    "plays_fmt": "13",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb453cae76249491ffcfc8f78a",
+    "pct": 46
+   },
+   {
+    "artist": "googoosuu",
+    "plays": 13,
+    "plays_fmt": "13",
+    "img": null,
+    "pct": 46
+   },
+   {
     "artist": "yawn club",
     "plays": 13,
     "plays_fmt": "13",
     "img": "https://i.scdn.co/image/ab67616d0000b27381eddf17cc3048678c271fc7",
     "pct": 46
-   },
-   {
-    "artist": "BurnQue",
-    "plays": 12,
-    "plays_fmt": "12",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebfb9085515b81ecc06b05b158",
-    "pct": 43
    }
   ],
   "top_alb": [
@@ -696,13 +696,6 @@
     "img": "https://i.scdn.co/image/ab6761610000e5eb6060716b2da66257b059b38d"
    },
    {
-    "album": "Voicemail",
-    "artist": "The Boring Tapes",
-    "plays": 19,
-    "plays_fmt": "19",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb453cae76249491ffcfc8f78a"
-   },
-   {
     "album": "shummin",
     "artist": "いとわず",
     "plays": 19,
@@ -710,18 +703,25 @@
     "img": "https://i.scdn.co/image/ab67616d0000b273105818e1f982f6e3fea875d6"
    },
    {
-    "album": "Blue of Distance",
-    "artist": "Birch",
-    "plays": 15,
-    "plays_fmt": "15",
-    "img": "https://i.scdn.co/image/ab67616d0000b273b3137409319aafe61621efd6"
-   },
-   {
     "album": "4songs Ⅱ",
     "artist": "Forbear",
     "plays": 14,
     "plays_fmt": "14",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fa31be3a71cc8be0c802b47621bcf196.jpg"
+   },
+   {
+    "album": "Blue of Distance",
+    "artist": "Birch",
+    "plays": 14,
+    "plays_fmt": "14",
+    "img": "https://i.scdn.co/image/ab67616d0000b273b3137409319aafe61621efd6"
+   },
+   {
+    "album": "Voicemail",
+    "artist": "The Boring Tapes",
+    "plays": 13,
+    "plays_fmt": "13",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb453cae76249491ffcfc8f78a"
    },
    {
     "album": "eternalsnowangel",
@@ -760,12 +760,6 @@
     "plays_fmt": "21"
    },
    {
-    "track": "Voicemail",
-    "artist": "The Boring Tapes",
-    "plays": 19,
-    "plays_fmt": "19"
-   },
-   {
     "track": "shummin",
     "artist": "いとわず",
     "plays": 19,
@@ -780,8 +774,14 @@
    {
     "track": "Kouro",
     "artist": "Birch",
-    "plays": 14,
-    "plays_fmt": "14"
+    "plays": 13,
+    "plays_fmt": "13"
+   },
+   {
+    "track": "Voicemail",
+    "artist": "The Boring Tapes",
+    "plays": 13,
+    "plays_fmt": "13"
    },
    {
     "track": "eternalsnowangel",
@@ -808,24 +808,18 @@
     "plays_fmt": "12"
    },
    {
-    "track": "Time Traveler of Comet (demo)",
-    "artist": "Suichuyuhiko",
+    "track": "colored sprinkles",
+    "artist": "aubrei",
     "plays": 12,
     "plays_fmt": "12"
    }
   ],
   "by_day": [
    {
-    "day": "9/2",
-    "plays": 51,
-    "plays_fmt": "51",
-    "pct": 24
-   },
-   {
     "day": "9/3",
     "plays": 180,
     "plays_fmt": "180",
-    "pct": 83
+    "pct": 82
    },
    {
     "day": "9/4",
@@ -837,25 +831,31 @@
     "day": "9/5",
     "plays": 207,
     "plays_fmt": "207",
-    "pct": 95
+    "pct": 94
    },
    {
     "day": "9/6",
     "plays": 217,
     "plays_fmt": "217",
-    "pct": 100
+    "pct": 99
    },
    {
     "day": "9/7",
     "plays": 73,
     "plays_fmt": "73",
-    "pct": 34
+    "pct": 33
    },
    {
     "day": "9/8",
-    "plays": 202,
-    "plays_fmt": "202",
-    "pct": 93
+    "plays": 213,
+    "plays_fmt": "213",
+    "pct": 97
+   },
+   {
+    "day": "9/9",
+    "plays": 220,
+    "plays_fmt": "220",
+    "pct": 100
    }
   ]
  }

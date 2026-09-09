@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7360,
- "total_artists_fmt": "7,360",
+ "total_artists": 7366,
+ "total_artists_fmt": "7,366",
  "missing_img": 8,
  "artists": [
   {
@@ -162,14 +162,14 @@
   },
   {
    "name": "緑黄色社会",
-   "plays": 561,
-   "plays_fmt": "561",
+   "plays": 562,
+   "plays_fmt": "562",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd9a48d00ce7cf4d66abc76b6"
   },
   {
    "name": "BRADIO",
-   "plays": 557,
-   "plays_fmt": "557",
+   "plays": 558,
+   "plays_fmt": "558",
    "img": "https://i.scdn.co/image/ab6761610000e5eb1b468ea5308efde05767f7f3"
   },
   {
@@ -216,8 +216,8 @@
   },
   {
    "name": "PLUE",
-   "plays": 500,
-   "plays_fmt": "500",
+   "plays": 501,
+   "plays_fmt": "501",
    "img": "https://i.scdn.co/image/ab6761610000e5eb85209c8cac40615200957a58"
   },
   {
@@ -269,16 +269,16 @@
    "img": "https://i.scdn.co/image/ab67616d0000b2737b651335a1ff0dbb8055f1d8"
   },
   {
+   "name": "レイラ",
+   "plays": 455,
+   "plays_fmt": "455",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb5a7ae7ae77a6230eb4107638"
+  },
+  {
    "name": "Sazanami",
    "plays": 453,
    "plays_fmt": "453",
    "img": "https://i.scdn.co/image/ab6761610000e5eba3f038b0d76a49de0bd33221"
-  },
-  {
-   "name": "レイラ",
-   "plays": 453,
-   "plays_fmt": "453",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb5a7ae7ae77a6230eb4107638"
   },
   {
    "name": "Village Man's Store",
@@ -354,9 +354,15 @@
   },
   {
    "name": "Muque",
-   "plays": 383,
-   "plays_fmt": "383",
+   "plays": 384,
+   "plays_fmt": "384",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
+  },
+  {
+   "name": "Asmi",
+   "plays": 382,
+   "plays_fmt": "382",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb3ac8e8114680356ca222ffa9"
   },
   {
    "name": "vivid undress",
@@ -375,12 +381,6 @@
    "plays": 381,
    "plays_fmt": "381",
    "img": "https://i.scdn.co/image/ab6761610000e5eb7fdd8f90022d1fb6f09ce3c9"
-  },
-  {
-   "name": "Asmi",
-   "plays": 380,
-   "plays_fmt": "380",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb3ac8e8114680356ca222ffa9"
   },
   {
    "name": "Vaundy",
@@ -413,16 +413,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb3f7ea5d6336f02de0539f2be"
   },
   {
+   "name": "Home",
+   "plays": 370,
+   "plays_fmt": "370",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
+  },
+  {
    "name": "akuruyo-sheep",
    "plays": 370,
    "plays_fmt": "370",
    "img": "https://i.scdn.co/image/ab6761610000e5eb13b71cf0b4e9aca839ca6c72"
-  },
-  {
-   "name": "Home",
-   "plays": 369,
-   "plays_fmt": "369",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
    "name": "life crown",
@@ -545,16 +545,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb24dd03d4f0a965b78a0bf2f9"
   },
   {
+   "name": "coldrain",
+   "plays": 322,
+   "plays_fmt": "322",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb790734bdee501b47713b4afe"
+  },
+  {
    "name": "Aivy",
    "plays": 321,
    "plays_fmt": "321",
    "img": "https://i.scdn.co/image/ab6761610000e5eb0cf9b730ba1e4da175a3485b"
-  },
-  {
-   "name": "coldrain",
-   "plays": 321,
-   "plays_fmt": "321",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb790734bdee501b47713b4afe"
   },
   {
    "name": "yahyel",
@@ -581,16 +581,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb51d099e01631361e50ce714d"
   },
   {
+   "name": "sawamay",
+   "plays": 318,
+   "plays_fmt": "318",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb400868142f0cb858d015c76d"
+  },
+  {
    "name": "Miu Mau",
    "plays": 317,
    "plays_fmt": "317",
    "img": "https://i.scdn.co/image/ab67616d0000b273f7450eb7f1ad638f0665d298"
-  },
-  {
-   "name": "sawamay",
-   "plays": 317,
-   "plays_fmt": "317",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb400868142f0cb858d015c76d"
   },
   {
    "name": "Chisa",
@@ -743,16 +743,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebab458bf73950d79c2afe1249"
   },
   {
+   "name": "Have a nice day!",
+   "plays": 279,
+   "plays_fmt": "279",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
+  },
+  {
    "name": "mukeikaku",
    "plays": 279,
    "plays_fmt": "279",
    "img": "https://i.scdn.co/image/ab6761610000e5eb1c7ce3df2cce3afef74566cb"
-  },
-  {
-   "name": "Have a nice day!",
-   "plays": 278,
-   "plays_fmt": "278",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
   },
   {
    "name": "POOL",
@@ -798,14 +798,14 @@
   },
   {
    "name": "36km/h",
-   "plays": 271,
-   "plays_fmt": "271",
+   "plays": 272,
+   "plays_fmt": "272",
    "img": "https://i.scdn.co/image/ab6761610000e5eb8ffe1b4304fc8e392b97c2b7"
   },
   {
    "name": "ホピーハイボ",
-   "plays": 268,
-   "plays_fmt": "268",
+   "plays": 269,
+   "plays_fmt": "269",
    "img": "https://i.scdn.co/image/ab6761610000e5eb0eef43e8d0a6ef8f2fe0cae6"
   },
   {
