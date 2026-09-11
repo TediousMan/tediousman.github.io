@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-10",
+ "generated": "2026-09-11",
  "year_label": "2026",
  "all": {
-  "total": 216838,
-  "total_fmt": "216,838",
-  "uniq_art": 7366,
-  "uniq_art_fmt": "7,366",
-  "uniq_trk": 30740,
-  "uniq_trk_fmt": "30,740",
+  "total": 216936,
+  "total_fmt": "216,936",
+  "uniq_art": 7373,
+  "uniq_art_fmt": "7,373",
+  "uniq_trk": 30754,
+  "uniq_trk_fmt": "30,754",
   "start": "2018-03-06",
-  "end": "2026-09-10",
+  "end": "2026-09-11",
   "top_art": [
    {
     "artist": "Mr.ふぉるて",
@@ -267,9 +267,9 @@
    },
    {
     "year": "2026",
-    "plays": 33751,
-    "plays_fmt": "33,751",
-    "pct": 62
+    "plays": 33849,
+    "plays_fmt": "33,849",
+    "pct": 63
    }
   ],
   "new_art_by_year": [
@@ -323,19 +323,19 @@
    },
    {
     "year": "2026",
-    "count": 997,
-    "count_fmt": "997",
-    "pct": 41
+    "count": 1004,
+    "count_fmt": "1,004",
+    "pct": 42
    }
   ]
  },
  "year": {
-  "total": 33751,
-  "total_fmt": "33,751",
-  "uniq_art": 2831,
-  "uniq_art_fmt": "2,831",
-  "uniq_trk": 7921,
-  "uniq_trk_fmt": "7,921",
+  "total": 33849,
+  "total_fmt": "33,849",
+  "uniq_art": 2838,
+  "uniq_art_fmt": "2,838",
+  "uniq_trk": 7935,
+  "uniq_trk_fmt": "7,935",
   "top_art": [
    {
     "artist": "Ramblamp",
@@ -353,17 +353,17 @@
    },
    {
     "artist": "BUDOU JUICE",
-    "plays": 233,
-    "plays_fmt": "233",
+    "plays": 234,
+    "plays_fmt": "234",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f",
     "pct": 90
    },
    {
     "artist": "bedgravity",
-    "plays": 223,
-    "plays_fmt": "223",
+    "plays": 225,
+    "plays_fmt": "225",
     "img": "https://i.scdn.co/image/ab67616d0000b273d29467756d06ae5882d98238",
-    "pct": 86
+    "pct": 87
    },
    {
     "artist": "あたまたんさん",
@@ -374,8 +374,8 @@
    },
    {
     "artist": "the Wulongs",
-    "plays": 199,
-    "plays_fmt": "199",
+    "plays": 200,
+    "plays_fmt": "200",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
     "pct": 77
    },
@@ -388,8 +388,8 @@
    },
    {
     "artist": "Home",
-    "plays": 176,
-    "plays_fmt": "176",
+    "plays": 178,
+    "plays_fmt": "178",
     "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
     "pct": 68
    },
@@ -419,8 +419,8 @@
    {
     "album": "Unmet Needs",
     "artist": "bedgravity",
-    "plays": 223,
-    "plays_fmt": "223",
+    "plays": 225,
+    "plays_fmt": "225",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/d49e1932df6d076c99051c1c7fe957a4.jpg"
    },
    {
@@ -440,8 +440,8 @@
    {
     "album": "HOME COLLECTION",
     "artist": "Home",
-    "plays": 172,
-    "plays_fmt": "172",
+    "plays": 174,
+    "plays_fmt": "174",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
    },
    {
@@ -475,8 +475,8 @@
    {
     "album": "FACH",
     "artist": "the Wulongs",
-    "plays": 144,
-    "plays_fmt": "144",
+    "plays": 145,
+    "plays_fmt": "145",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/98f2e6391df7025c381117edd5682cb7.jpg"
    }
   ],
@@ -593,21 +593,21 @@
    },
    {
     "month": "9",
-    "plays": 1388,
-    "plays_fmt": "1,388",
-    "pct": 25
+    "plays": 1486,
+    "plays_fmt": "1,486",
+    "pct": 27
    }
   ]
  },
  "week": {
-  "total": 1104,
-  "total_fmt": "1,104",
-  "uniq_art": 492,
-  "uniq_art_fmt": "492",
-  "uniq_trk": 699,
-  "uniq_trk_fmt": "699",
-  "start": "9/4",
-  "end": "9/10",
+  "total": 1141,
+  "total_fmt": "1,141",
+  "uniq_art": 506,
+  "uniq_art_fmt": "506",
+  "uniq_trk": 728,
+  "uniq_trk_fmt": "728",
+  "start": "9/5",
+  "end": "9/11",
   "top_art": [
    {
     "artist": "SophT",
@@ -615,13 +615,6 @@
     "plays_fmt": "29",
     "img": "https://i.scdn.co/image/ab6761610000e5eb6060716b2da66257b059b38d",
     "pct": 100
-   },
-   {
-    "artist": "braNdrop",
-    "plays": 25,
-    "plays_fmt": "25",
-    "img": "https://i.scdn.co/image/ab67616d0000b2735f4bf1988efa4cb910b7e07e",
-    "pct": 86
    },
    {
     "artist": "いとわず",
@@ -638,17 +631,24 @@
     "pct": 52
    },
    {
-    "artist": "Birch",
-    "plays": 14,
-    "plays_fmt": "14",
-    "img": "https://i.scdn.co/image/ab67616d0000b273b3137409319aafe61621efd6",
-    "pct": 48
+    "artist": "braNdrop",
+    "plays": 15,
+    "plays_fmt": "15",
+    "img": "https://i.scdn.co/image/ab67616d0000b2735f4bf1988efa4cb910b7e07e",
+    "pct": 52
    },
    {
     "artist": "Forbear",
     "plays": 14,
     "plays_fmt": "14",
     "img": "https://i.scdn.co/image/ab6761610000e5eb1dd5e26af0ba32dc0330d5e7",
+    "pct": 48
+   },
+   {
+    "artist": "Minami Satsuki Band Set",
+    "plays": 14,
+    "plays_fmt": "14",
+    "img": null,
     "pct": 48
    },
    {
@@ -659,10 +659,10 @@
     "pct": 48
    },
    {
-    "artist": "Minami Satsuki Band Set",
+    "artist": "Birch",
     "plays": 13,
     "plays_fmt": "13",
-    "img": null,
+    "img": "https://i.scdn.co/image/ab67616d0000b273b3137409319aafe61621efd6",
     "pct": 45
    },
    {
@@ -682,13 +682,6 @@
   ],
   "top_alb": [
    {
-    "album": "Vega",
-    "artist": "braNdrop",
-    "plays": 25,
-    "plays_fmt": "25",
-    "img": "https://i.scdn.co/image/ab67616d0000b2735f4bf1988efa4cb910b7e07e"
-   },
-   {
     "album": "Jump the fence",
     "artist": "SophT",
     "plays": 22,
@@ -703,6 +696,13 @@
     "img": "https://i.scdn.co/image/ab67616d0000b273105818e1f982f6e3fea875d6"
    },
    {
+    "album": "Vega",
+    "artist": "braNdrop",
+    "plays": 15,
+    "plays_fmt": "15",
+    "img": "https://i.scdn.co/image/ab67616d0000b2735f4bf1988efa4cb910b7e07e"
+   },
+   {
     "album": "4songs Ⅱ",
     "artist": "Forbear",
     "plays": 14,
@@ -710,18 +710,18 @@
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fa31be3a71cc8be0c802b47621bcf196.jpg"
    },
    {
-    "album": "Blue of Distance",
-    "artist": "Birch",
-    "plays": 14,
-    "plays_fmt": "14",
-    "img": "https://i.scdn.co/image/ab67616d0000b273b3137409319aafe61621efd6"
-   },
-   {
     "album": "LastWords",
     "artist": "Minami Satsuki Band Set",
+    "plays": 14,
+    "plays_fmt": "14",
+    "img": null
+   },
+   {
+    "album": "Blue of Distance",
+    "artist": "Birch",
     "plays": 13,
     "plays_fmt": "13",
-    "img": null
+    "img": "https://i.scdn.co/image/ab67616d0000b273b3137409319aafe61621efd6"
    },
    {
     "album": "EX Shiawaseni nareruto iine",
@@ -738,18 +738,18 @@
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/f67742a0ddd91a92fd3d813251c82786.jpg"
    },
    {
+    "album": "Trip in Theater",
+    "artist": "hanare",
+    "plays": 12,
+    "plays_fmt": "12",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb6b73c84f396c62823b9fe7ab"
+   },
+   {
     "album": "Voicemail",
     "artist": "The Boring Tapes",
     "plays": 12,
     "plays_fmt": "12",
     "img": "https://i.scdn.co/image/ab6761610000e5eb453cae76249491ffcfc8f78a"
-   },
-   {
-    "album": "eternalsnowangel",
-    "artist": "yawn club",
-    "plays": 12,
-    "plays_fmt": "12",
-    "img": "https://i.scdn.co/image/ab67616d0000b27381eddf17cc3048678c271fc7"
    }
   ],
   "top_trk": [
@@ -768,12 +768,6 @@
    {
     "track": "Vega",
     "artist": "braNdrop",
-    "plays": 17,
-    "plays_fmt": "17"
-   },
-   {
-    "track": "Kouro",
-    "artist": "Birch",
     "plays": 14,
     "plays_fmt": "14"
    },
@@ -786,6 +780,12 @@
    {
     "track": "Gomi",
     "artist": "Minami Satsuki Band Set",
+    "plays": 13,
+    "plays_fmt": "13"
+   },
+   {
+    "track": "Kouro",
+    "artist": "Birch",
     "plays": 13,
     "plays_fmt": "13"
    },
@@ -815,12 +815,6 @@
    }
   ],
   "by_day": [
-   {
-    "day": "9/4",
-    "plays": 61,
-    "plays_fmt": "61",
-    "pct": 27
-   },
    {
     "day": "9/5",
     "plays": 207,
@@ -853,9 +847,15 @@
    },
    {
     "day": "9/10",
-    "plays": 111,
-    "plays_fmt": "111",
-    "pct": 50
+    "plays": 113,
+    "plays_fmt": "113",
+    "pct": 51
+   },
+   {
+    "day": "9/11",
+    "plays": 96,
+    "plays_fmt": "96",
+    "pct": 43
    }
   ]
  }

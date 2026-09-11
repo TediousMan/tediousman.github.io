@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7366,
- "total_artists_fmt": "7,366",
+ "total_artists": 7373,
+ "total_artists_fmt": "7,373",
  "missing_img": 8,
  "artists": [
   {
@@ -90,8 +90,8 @@
   },
   {
    "name": "kobore",
-   "plays": 653,
-   "plays_fmt": "653",
+   "plays": 654,
+   "plays_fmt": "654",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24"
   },
   {
@@ -108,8 +108,8 @@
   },
   {
    "name": "eill",
-   "plays": 630,
-   "plays_fmt": "630",
+   "plays": 631,
+   "plays_fmt": "631",
    "img": "https://i.scdn.co/image/ab6761610000e5ebf3f6ea218e12317560e84a58"
   },
   {
@@ -174,8 +174,8 @@
   },
   {
    "name": "The Otals",
-   "plays": 557,
-   "plays_fmt": "557",
+   "plays": 558,
+   "plays_fmt": "558",
    "img": "https://i.scdn.co/image/ab6761610000e5ebe880728367d115f0c7dfceb6"
   },
   {
@@ -407,16 +407,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb5e779ac5990c92ad5b423c3f"
   },
   {
+   "name": "Home",
+   "plays": 374,
+   "plays_fmt": "374",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
+  },
+  {
    "name": "Chilli Beans.",
    "plays": 372,
    "plays_fmt": "372",
    "img": "https://i.scdn.co/image/ab6761610000e5eb3f7ea5d6336f02de0539f2be"
-  },
-  {
-   "name": "Home",
-   "plays": 372,
-   "plays_fmt": "372",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
    "name": "akuruyo-sheep",
@@ -527,6 +527,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebdf2dbfb158e48df25bd49477"
   },
   {
+   "name": "coldrain",
+   "plays": 324,
+   "plays_fmt": "324",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb790734bdee501b47713b4afe"
+  },
+  {
    "name": "Homecomings",
    "plays": 323,
    "plays_fmt": "323",
@@ -537,12 +543,6 @@
    "plays": 323,
    "plays_fmt": "323",
    "img": "https://i.scdn.co/image/ab6761610000e5eb9247cd4ef50307e4425b4bf8"
-  },
-  {
-   "name": "coldrain",
-   "plays": 323,
-   "plays_fmt": "323",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb790734bdee501b47713b4afe"
   },
   {
    "name": "Polkadot Stingray",
@@ -815,16 +815,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebf32519dab1f0daa82898fe82"
   },
   {
+   "name": "Hammer Head Shark",
+   "plays": 266,
+   "plays_fmt": "266",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851"
+  },
+  {
    "name": "illiomote",
    "plays": 266,
    "plays_fmt": "266",
    "img": "https://i.scdn.co/image/ab6761610000e5eba9a5143d6eb3917fbe03ad9b"
-  },
-  {
-   "name": "Hammer Head Shark",
-   "plays": 265,
-   "plays_fmt": "265",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851"
   },
   {
    "name": "レルエ",
