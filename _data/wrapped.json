@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-11",
+ "generated": "2026-09-12",
  "year_label": "2026",
  "all": {
-  "total": 216936,
-  "total_fmt": "216,936",
-  "uniq_art": 7373,
-  "uniq_art_fmt": "7,373",
-  "uniq_trk": 30754,
-  "uniq_trk_fmt": "30,754",
+  "total": 217103,
+  "total_fmt": "217,103",
+  "uniq_art": 7375,
+  "uniq_art_fmt": "7,375",
+  "uniq_trk": 30760,
+  "uniq_trk_fmt": "30,760",
   "start": "2018-03-06",
-  "end": "2026-09-11",
+  "end": "2026-09-12",
   "top_art": [
    {
     "artist": "Mr.ふぉるて",
@@ -27,8 +27,8 @@
    },
    {
     "artist": "chilldspot",
-    "plays": 1040,
-    "plays_fmt": "1,040",
+    "plays": 1041,
+    "plays_fmt": "1,041",
     "img": "https://i.scdn.co/image/ab6761610000e5ebfffcd64678af9f7b7bab7832",
     "pct": 100
    },
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 33849,
-    "plays_fmt": "33,849",
+    "plays": 34016,
+    "plays_fmt": "34,016",
     "pct": 63
    }
   ],
@@ -323,20 +323,27 @@
    },
    {
     "year": "2026",
-    "count": 1004,
-    "count_fmt": "1,004",
+    "count": 1006,
+    "count_fmt": "1,006",
     "pct": 42
    }
   ]
  },
  "year": {
-  "total": 33849,
-  "total_fmt": "33,849",
-  "uniq_art": 2838,
-  "uniq_art_fmt": "2,838",
-  "uniq_trk": 7935,
-  "uniq_trk_fmt": "7,935",
+  "total": 34016,
+  "total_fmt": "34,016",
+  "uniq_art": 2841,
+  "uniq_art_fmt": "2,841",
+  "uniq_trk": 7941,
+  "uniq_trk_fmt": "7,941",
   "top_art": [
+   {
+    "artist": "Kienai",
+    "plays": 260,
+    "plays_fmt": "260",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481",
+    "pct": 100
+   },
    {
     "artist": "Ramblamp",
     "plays": 260,
@@ -345,16 +352,9 @@
     "pct": 100
    },
    {
-    "artist": "Kienai",
-    "plays": 259,
-    "plays_fmt": "259",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481",
-    "pct": 100
-   },
-   {
     "artist": "BUDOU JUICE",
-    "plays": 234,
-    "plays_fmt": "234",
+    "plays": 235,
+    "plays_fmt": "235",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f",
     "pct": 90
    },
@@ -367,10 +367,10 @@
    },
    {
     "artist": "あたまたんさん",
-    "plays": 219,
-    "plays_fmt": "219",
+    "plays": 221,
+    "plays_fmt": "221",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44",
-    "pct": 84
+    "pct": 85
    },
    {
     "artist": "the Wulongs",
@@ -381,17 +381,17 @@
    },
    {
     "artist": "uyuu",
-    "plays": 187,
-    "plays_fmt": "187",
+    "plays": 188,
+    "plays_fmt": "188",
     "img": "https://i.scdn.co/image/ab67616d0000b27381582c0fb8f5908a6aee7f3e",
     "pct": 72
    },
    {
     "artist": "Home",
-    "plays": 178,
-    "plays_fmt": "178",
+    "plays": 179,
+    "plays_fmt": "179",
     "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
-    "pct": 68
+    "pct": 69
    },
    {
     "artist": "wanbed",
@@ -402,8 +402,8 @@
    },
    {
     "artist": "tenbin O",
-    "plays": 164,
-    "plays_fmt": "164",
+    "plays": 165,
+    "plays_fmt": "165",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb146cdd0b2be813c4b411eb2",
     "pct": 63
    }
@@ -412,8 +412,8 @@
    {
     "album": "sparkleII",
     "artist": "Kienai",
-    "plays": 256,
-    "plays_fmt": "256",
+    "plays": 257,
+    "plays_fmt": "257",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/1c6a42ba2640cb0ed267d0c9d6a5f106.jpg"
    },
    {
@@ -426,22 +426,22 @@
    {
     "album": "鉄の掟",
     "artist": "あたまたんさん",
-    "plays": 218,
-    "plays_fmt": "218",
+    "plays": 220,
+    "plays_fmt": "220",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44"
    },
    {
     "album": "BUDOU JUICE",
     "artist": "BUDOU JUICE",
-    "plays": 176,
-    "plays_fmt": "176",
+    "plays": 177,
+    "plays_fmt": "177",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f"
    },
    {
     "album": "HOME COLLECTION",
     "artist": "Home",
-    "plays": 174,
-    "plays_fmt": "174",
+    "plays": 175,
+    "plays_fmt": "175",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
    },
    {
@@ -468,8 +468,8 @@
    {
     "album": "INNER SYNC",
     "artist": "Avyss",
-    "plays": 152,
-    "plays_fmt": "152",
+    "plays": 153,
+    "plays_fmt": "153",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/389d72d53aa10059db21ff4907f3ee32.jpg"
    },
    {
@@ -484,8 +484,8 @@
    {
     "track": "Soul",
     "artist": "Avyss",
-    "plays": 151,
-    "plays_fmt": "151"
+    "plays": 152,
+    "plays_fmt": "152"
    },
    {
     "track": "UTSUROIHAMA",
@@ -508,8 +508,8 @@
    {
     "track": "Anemone",
     "artist": "REVEMERE",
-    "plays": 75,
-    "plays_fmt": "75"
+    "plays": 76,
+    "plays_fmt": "76"
    },
    {
     "track": "浴槽",
@@ -520,20 +520,20 @@
    {
     "track": "shummin",
     "artist": "いとわず",
-    "plays": 68,
-    "plays_fmt": "68"
+    "plays": 69,
+    "plays_fmt": "69"
    },
    {
     "track": "N.W.O.L.",
     "artist": "BurnQue",
-    "plays": 61,
-    "plays_fmt": "61"
+    "plays": 62,
+    "plays_fmt": "62"
    },
    {
     "track": "way back",
     "artist": "Kienai",
-    "plays": 59,
-    "plays_fmt": "59"
+    "plays": 60,
+    "plays_fmt": "60"
    },
    {
     "track": "Panzamast",
@@ -593,107 +593,107 @@
    },
    {
     "month": "9",
-    "plays": 1486,
-    "plays_fmt": "1,486",
-    "pct": 27
+    "plays": 1653,
+    "plays_fmt": "1,653",
+    "pct": 30
    }
   ]
  },
  "week": {
-  "total": 1141,
-  "total_fmt": "1,141",
-  "uniq_art": 506,
-  "uniq_art_fmt": "506",
-  "uniq_trk": 728,
-  "uniq_trk_fmt": "728",
-  "start": "9/5",
-  "end": "9/11",
+  "total": 1101,
+  "total_fmt": "1,101",
+  "uniq_art": 481,
+  "uniq_art_fmt": "481",
+  "uniq_trk": 687,
+  "uniq_trk_fmt": "687",
+  "start": "9/6",
+  "end": "9/12",
   "top_art": [
    {
-    "artist": "SophT",
-    "plays": 29,
-    "plays_fmt": "29",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb6060716b2da66257b059b38d",
+    "artist": "いとわず",
+    "plays": 21,
+    "plays_fmt": "21",
+    "img": "https://i.scdn.co/image/ab67616d0000b273105818e1f982f6e3fea875d6",
     "pct": 100
    },
    {
-    "artist": "いとわず",
-    "plays": 20,
-    "plays_fmt": "20",
-    "img": "https://i.scdn.co/image/ab67616d0000b273105818e1f982f6e3fea875d6",
-    "pct": 69
+    "artist": "Paparazzi Panic",
+    "plays": 17,
+    "plays_fmt": "17",
+    "img": null,
+    "pct": 81
    },
    {
-    "artist": "OddRe:",
-    "plays": 15,
-    "plays_fmt": "15",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb251682abdc5de9fb9f402fd4",
-    "pct": 52
+    "artist": "SophT",
+    "plays": 17,
+    "plays_fmt": "17",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb6060716b2da66257b059b38d",
+    "pct": 81
    },
    {
     "artist": "braNdrop",
     "plays": 15,
     "plays_fmt": "15",
     "img": "https://i.scdn.co/image/ab67616d0000b2735f4bf1988efa4cb910b7e07e",
-    "pct": 52
-   },
-   {
-    "artist": "Forbear",
-    "plays": 14,
-    "plays_fmt": "14",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb1dd5e26af0ba32dc0330d5e7",
-    "pct": 48
+    "pct": 71
    },
    {
     "artist": "Minami Satsuki Band Set",
     "plays": 14,
     "plays_fmt": "14",
     "img": null,
-    "pct": 48
+    "pct": 67
+   },
+   {
+    "artist": "OddRe:",
+    "plays": 14,
+    "plays_fmt": "14",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb251682abdc5de9fb9f402fd4",
+    "pct": 67
    },
    {
     "artist": "googoosuu",
     "plays": 14,
     "plays_fmt": "14",
     "img": null,
-    "pct": 48
+    "pct": 67
+   },
+   {
+    "artist": "700度の火を持って、 私は人とすれちがっている",
+    "plays": 13,
+    "plays_fmt": "13",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb1272482edecc688e3d186f96",
+    "pct": 62
+   },
+   {
+    "artist": "Appi",
+    "plays": 13,
+    "plays_fmt": "13",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb81c4c98ebe33b4d67a2497e3",
+    "pct": 62
    },
    {
     "artist": "Birch",
     "plays": 13,
     "plays_fmt": "13",
     "img": "https://i.scdn.co/image/ab67616d0000b273b3137409319aafe61621efd6",
-    "pct": 45
-   },
-   {
-    "artist": "Appi",
-    "plays": 12,
-    "plays_fmt": "12",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb81c4c98ebe33b4d67a2497e3",
-    "pct": 41
-   },
-   {
-    "artist": "BurnQue",
-    "plays": 12,
-    "plays_fmt": "12",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebfb9085515b81ecc06b05b158",
-    "pct": 41
+    "pct": 62
    }
   ],
   "top_alb": [
    {
-    "album": "Jump the fence",
-    "artist": "SophT",
-    "plays": 22,
-    "plays_fmt": "22",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb6060716b2da66257b059b38d"
-   },
-   {
     "album": "shummin",
     "artist": "いとわず",
-    "plays": 20,
-    "plays_fmt": "20",
+    "plays": 21,
+    "plays_fmt": "21",
     "img": "https://i.scdn.co/image/ab67616d0000b273105818e1f982f6e3fea875d6"
+   },
+   {
+    "album": "Jump the fence",
+    "artist": "SophT",
+    "plays": 16,
+    "plays_fmt": "16",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb6060716b2da66257b059b38d"
    },
    {
     "album": "Vega",
@@ -703,18 +703,18 @@
     "img": "https://i.scdn.co/image/ab67616d0000b2735f4bf1988efa4cb910b7e07e"
    },
    {
-    "album": "4songs Ⅱ",
-    "artist": "Forbear",
-    "plays": 14,
-    "plays_fmt": "14",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fa31be3a71cc8be0c802b47621bcf196.jpg"
-   },
-   {
     "album": "LastWords",
     "artist": "Minami Satsuki Band Set",
     "plays": 14,
     "plays_fmt": "14",
     "img": null
+   },
+   {
+    "album": "4songs Ⅱ",
+    "artist": "Forbear",
+    "plays": 13,
+    "plays_fmt": "13",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fa31be3a71cc8be0c802b47621bcf196.jpg"
    },
    {
     "album": "Blue of Distance",
@@ -726,44 +726,44 @@
    {
     "album": "EX Shiawaseni nareruto iine",
     "artist": "aubrei",
-    "plays": 12,
-    "plays_fmt": "12",
+    "plays": 13,
+    "plays_fmt": "13",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2b78812d20f49930a80bdd35620c338b.png"
+   },
+   {
+    "album": "In Veil",
+    "artist": "Cindr",
+    "plays": 13,
+    "plays_fmt": "13",
+    "img": null
    },
    {
     "album": "Red comb",
     "artist": "Appi",
-    "plays": 12,
-    "plays_fmt": "12",
+    "plays": 13,
+    "plays_fmt": "13",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/f67742a0ddd91a92fd3d813251c82786.jpg"
-   },
-   {
-    "album": "Trip in Theater",
-    "artist": "hanare",
-    "plays": 12,
-    "plays_fmt": "12",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb6b73c84f396c62823b9fe7ab"
    },
    {
     "album": "Voicemail",
     "artist": "The Boring Tapes",
-    "plays": 12,
-    "plays_fmt": "12",
+    "plays": 13,
+    "plays_fmt": "13",
     "img": "https://i.scdn.co/image/ab6761610000e5eb453cae76249491ffcfc8f78a"
    }
   ],
   "top_trk": [
    {
-    "track": "Jump the fence",
-    "artist": "SophT",
-    "plays": 22,
-    "plays_fmt": "22"
-   },
-   {
     "track": "shummin",
     "artist": "いとわず",
-    "plays": 20,
-    "plays_fmt": "20"
+    "plays": 21,
+    "plays_fmt": "21"
+   },
+   {
+    "track": "Jump the fence",
+    "artist": "SophT",
+    "plays": 16,
+    "plays_fmt": "16"
    },
    {
     "track": "Vega",
@@ -772,14 +772,14 @@
     "plays_fmt": "14"
    },
    {
-    "track": "Bookshelf",
-    "artist": "Forbear",
+    "track": "Gomi",
+    "artist": "Minami Satsuki Band Set",
     "plays": 13,
     "plays_fmt": "13"
    },
    {
-    "track": "Gomi",
-    "artist": "Minami Satsuki Band Set",
+    "track": "In Veil",
+    "artist": "Cindr",
     "plays": 13,
     "plays_fmt": "13"
    },
@@ -792,35 +792,29 @@
    {
     "track": "Voicemail",
     "artist": "The Boring Tapes",
-    "plays": 12,
-    "plays_fmt": "12"
+    "plays": 13,
+    "plays_fmt": "13"
    },
    {
     "track": "colored sprinkles",
     "artist": "aubrei",
-    "plays": 12,
-    "plays_fmt": "12"
+    "plays": 13,
+    "plays_fmt": "13"
    },
    {
     "track": "eternalsnowangel",
     "artist": "yawn club",
-    "plays": 12,
-    "plays_fmt": "12"
+    "plays": 13,
+    "plays_fmt": "13"
    },
    {
-    "track": "In Veil",
-    "artist": "Cindr",
-    "plays": 11,
-    "plays_fmt": "11"
+    "track": "Bookshelf",
+    "artist": "Forbear",
+    "plays": 12,
+    "plays_fmt": "12"
    }
   ],
   "by_day": [
-   {
-    "day": "9/5",
-    "plays": 207,
-    "plays_fmt": "207",
-    "pct": 93
-   },
    {
     "day": "9/6",
     "plays": 217,
@@ -853,9 +847,15 @@
    },
    {
     "day": "9/11",
-    "plays": 96,
-    "plays_fmt": "96",
-    "pct": 43
+    "plays": 107,
+    "plays_fmt": "107",
+    "pct": 48
+   },
+   {
+    "day": "9/12",
+    "plays": 156,
+    "plays_fmt": "156",
+    "pct": 70
    }
   ]
  }

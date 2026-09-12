@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7373,
- "total_artists_fmt": "7,373",
+ "total_artists": 7375,
+ "total_artists_fmt": "7,375",
  "missing_img": 8,
  "artists": [
   {
@@ -18,8 +18,8 @@
   },
   {
    "name": "chilldspot",
-   "plays": 1040,
-   "plays_fmt": "1,040",
+   "plays": 1041,
+   "plays_fmt": "1,041",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfffcd64678af9f7b7bab7832"
   },
   {
@@ -120,8 +120,8 @@
   },
   {
    "name": "にしな",
-   "plays": 614,
-   "plays_fmt": "614",
+   "plays": 615,
+   "plays_fmt": "615",
    "img": "https://i.scdn.co/image/ab6761610000e5eb9c703e5ffc35530b42a70a8e"
   },
   {
@@ -168,8 +168,8 @@
   },
   {
    "name": "BRADIO",
-   "plays": 558,
-   "plays_fmt": "558",
+   "plays": 559,
+   "plays_fmt": "559",
    "img": "https://i.scdn.co/image/ab6761610000e5eb1b468ea5308efde05767f7f3"
   },
   {
@@ -360,8 +360,8 @@
   },
   {
    "name": "Asmi",
-   "plays": 382,
-   "plays_fmt": "382",
+   "plays": 383,
+   "plays_fmt": "383",
    "img": "https://i.scdn.co/image/ab6761610000e5eb3ac8e8114680356ca222ffa9"
   },
   {
@@ -408,8 +408,8 @@
   },
   {
    "name": "Home",
-   "plays": 374,
-   "plays_fmt": "374",
+   "plays": 375,
+   "plays_fmt": "375",
    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
@@ -521,16 +521,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebdc38271ddea2dff37a837427"
   },
   {
+   "name": "coldrain",
+   "plays": 325,
+   "plays_fmt": "325",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb790734bdee501b47713b4afe"
+  },
+  {
    "name": "Reol",
    "plays": 324,
    "plays_fmt": "324",
    "img": "https://i.scdn.co/image/ab6761610000e5ebdf2dbfb158e48df25bd49477"
-  },
-  {
-   "name": "coldrain",
-   "plays": 324,
-   "plays_fmt": "324",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb790734bdee501b47713b4afe"
   },
   {
    "name": "Homecomings",
@@ -804,8 +804,8 @@
   },
   {
    "name": "ホピーハイボ",
-   "plays": 269,
-   "plays_fmt": "269",
+   "plays": 270,
+   "plays_fmt": "270",
    "img": "https://i.scdn.co/image/ab6761610000e5eb0eef43e8d0a6ef8f2fe0cae6"
   },
   {
@@ -845,6 +845,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebd9ac40494bf7ddbcc5c2c692"
   },
   {
+   "name": "Kienai",
+   "plays": 263,
+   "plays_fmt": "263",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481"
+  },
+  {
    "name": "Living Rita",
    "plays": 263,
    "plays_fmt": "263",
@@ -861,12 +867,6 @@
    "plays": 262,
    "plays_fmt": "262",
    "img": "https://i.scdn.co/image/ab6761610000e5eb521dd8791d85d8b317200133"
-  },
-  {
-   "name": "Kienai",
-   "plays": 262,
-   "plays_fmt": "262",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481"
   },
   {
    "name": "shallm",
