@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-12",
+ "generated": "2026-09-13",
  "year_label": "2026",
  "all": {
-  "total": 217103,
-  "total_fmt": "217,103",
+  "total": 217247,
+  "total_fmt": "217,247",
   "uniq_art": 7375,
   "uniq_art_fmt": "7,375",
-  "uniq_trk": 30760,
-  "uniq_trk_fmt": "30,760",
+  "uniq_trk": 30762,
+  "uniq_trk_fmt": "30,762",
   "start": "2018-03-06",
-  "end": "2026-09-12",
+  "end": "2026-09-13",
   "top_art": [
    {
     "artist": "Mr.ふぉるて",
@@ -27,8 +27,8 @@
    },
    {
     "artist": "chilldspot",
-    "plays": 1041,
-    "plays_fmt": "1,041",
+    "plays": 1042,
+    "plays_fmt": "1,042",
     "img": "https://i.scdn.co/image/ab6761610000e5ebfffcd64678af9f7b7bab7832",
     "pct": 100
    },
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 34016,
-    "plays_fmt": "34,016",
+    "plays": 34160,
+    "plays_fmt": "34,160",
     "pct": 63
    }
   ],
@@ -330,25 +330,25 @@
   ]
  },
  "year": {
-  "total": 34016,
-  "total_fmt": "34,016",
+  "total": 34160,
+  "total_fmt": "34,160",
   "uniq_art": 2841,
   "uniq_art_fmt": "2,841",
-  "uniq_trk": 7941,
-  "uniq_trk_fmt": "7,941",
+  "uniq_trk": 7943,
+  "uniq_trk_fmt": "7,943",
   "top_art": [
+   {
+    "artist": "Ramblamp",
+    "plays": 261,
+    "plays_fmt": "261",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf",
+    "pct": 100
+   },
    {
     "artist": "Kienai",
     "plays": 260,
     "plays_fmt": "260",
     "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481",
-    "pct": 100
-   },
-   {
-    "artist": "Ramblamp",
-    "plays": 260,
-    "plays_fmt": "260",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf",
     "pct": 100
    },
    {
@@ -363,19 +363,19 @@
     "plays": 225,
     "plays_fmt": "225",
     "img": "https://i.scdn.co/image/ab67616d0000b273d29467756d06ae5882d98238",
-    "pct": 87
+    "pct": 86
    },
    {
     "artist": "あたまたんさん",
-    "plays": 221,
-    "plays_fmt": "221",
+    "plays": 222,
+    "plays_fmt": "222",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44",
     "pct": 85
    },
    {
     "artist": "the Wulongs",
-    "plays": 200,
-    "plays_fmt": "200",
+    "plays": 201,
+    "plays_fmt": "201",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
     "pct": 77
    },
@@ -426,8 +426,8 @@
    {
     "album": "鉄の掟",
     "artist": "あたまたんさん",
-    "plays": 220,
-    "plays_fmt": "220",
+    "plays": 221,
+    "plays_fmt": "221",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44"
    },
    {
@@ -447,15 +447,15 @@
    {
     "album": "Nichijogamatakodamasuru",
     "artist": "Ramblamp",
-    "plays": 172,
-    "plays_fmt": "172",
+    "plays": 173,
+    "plays_fmt": "173",
     "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
    },
    {
     "album": "日々、折り返すごとに",
     "artist": "爛漫天国",
-    "plays": 157,
-    "plays_fmt": "157",
+    "plays": 158,
+    "plays_fmt": "158",
     "img": "https://i.scdn.co/image/ab6761610000e5eb59ee187da2de942d5f50e0e0"
    },
    {
@@ -475,8 +475,8 @@
    {
     "album": "FACH",
     "artist": "the Wulongs",
-    "plays": 145,
-    "plays_fmt": "145",
+    "plays": 146,
+    "plays_fmt": "146",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/98f2e6391df7025c381117edd5682cb7.jpg"
    }
   ],
@@ -526,8 +526,8 @@
    {
     "track": "N.W.O.L.",
     "artist": "BurnQue",
-    "plays": 62,
-    "plays_fmt": "62"
+    "plays": 63,
+    "plays_fmt": "63"
    },
    {
     "track": "way back",
@@ -593,26 +593,26 @@
    },
    {
     "month": "9",
-    "plays": 1653,
-    "plays_fmt": "1,653",
-    "pct": 30
+    "plays": 1797,
+    "plays_fmt": "1,797",
+    "pct": 33
    }
   ]
  },
  "week": {
-  "total": 1101,
-  "total_fmt": "1,101",
-  "uniq_art": 481,
-  "uniq_art_fmt": "481",
-  "uniq_trk": 687,
-  "uniq_trk_fmt": "687",
-  "start": "9/6",
-  "end": "9/12",
+  "total": 1028,
+  "total_fmt": "1,028",
+  "uniq_art": 447,
+  "uniq_art_fmt": "447",
+  "uniq_trk": 629,
+  "uniq_trk_fmt": "629",
+  "start": "9/7",
+  "end": "9/13",
   "top_art": [
    {
     "artist": "いとわず",
-    "plays": 21,
-    "plays_fmt": "21",
+    "plays": 19,
+    "plays_fmt": "19",
     "img": "https://i.scdn.co/image/ab67616d0000b273105818e1f982f6e3fea875d6",
     "pct": 100
    },
@@ -621,86 +621,72 @@
     "plays": 17,
     "plays_fmt": "17",
     "img": null,
-    "pct": 81
+    "pct": 89
    },
    {
-    "artist": "SophT",
-    "plays": 17,
-    "plays_fmt": "17",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb6060716b2da66257b059b38d",
-    "pct": 81
-   },
-   {
-    "artist": "braNdrop",
-    "plays": 15,
-    "plays_fmt": "15",
-    "img": "https://i.scdn.co/image/ab67616d0000b2735f4bf1988efa4cb910b7e07e",
-    "pct": 71
+    "artist": "Appi",
+    "plays": 14,
+    "plays_fmt": "14",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb81c4c98ebe33b4d67a2497e3",
+    "pct": 74
    },
    {
     "artist": "Minami Satsuki Band Set",
     "plays": 14,
     "plays_fmt": "14",
     "img": null,
-    "pct": 67
+    "pct": 74
    },
    {
-    "artist": "OddRe:",
+    "artist": "The Boring Tapes",
     "plays": 14,
     "plays_fmt": "14",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb251682abdc5de9fb9f402fd4",
-    "pct": 67
+    "img": "https://i.scdn.co/image/ab6761610000e5eb453cae76249491ffcfc8f78a",
+    "pct": 74
    },
    {
-    "artist": "googoosuu",
+    "artist": "braNdrop",
     "plays": 14,
     "plays_fmt": "14",
-    "img": null,
-    "pct": 67
+    "img": "https://i.scdn.co/image/ab67616d0000b2735f4bf1988efa4cb910b7e07e",
+    "pct": 74
    },
    {
     "artist": "700度の火を持って、 私は人とすれちがっている",
     "plays": 13,
     "plays_fmt": "13",
     "img": "https://i.scdn.co/image/ab6761610000e5eb1272482edecc688e3d186f96",
-    "pct": 62
+    "pct": 68
    },
    {
-    "artist": "Appi",
+    "artist": "OddRe:",
     "plays": 13,
     "plays_fmt": "13",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb81c4c98ebe33b4d67a2497e3",
-    "pct": 62
+    "img": "https://i.scdn.co/image/ab6761610000e5eb251682abdc5de9fb9f402fd4",
+    "pct": 68
    },
    {
-    "artist": "Birch",
+    "artist": "SophT",
     "plays": 13,
     "plays_fmt": "13",
-    "img": "https://i.scdn.co/image/ab67616d0000b273b3137409319aafe61621efd6",
-    "pct": 62
+    "img": "https://i.scdn.co/image/ab6761610000e5eb6060716b2da66257b059b38d",
+    "pct": 68
+   },
+   {
+    "artist": "Tyrell",
+    "plays": 13,
+    "plays_fmt": "13",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb19263294cbb08e5c17ea59f0",
+    "pct": 68
    }
   ],
   "top_alb": [
    {
     "album": "shummin",
     "artist": "いとわず",
-    "plays": 21,
-    "plays_fmt": "21",
+    "plays": 19,
+    "plays_fmt": "19",
     "img": "https://i.scdn.co/image/ab67616d0000b273105818e1f982f6e3fea875d6"
-   },
-   {
-    "album": "Jump the fence",
-    "artist": "SophT",
-    "plays": 16,
-    "plays_fmt": "16",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb6060716b2da66257b059b38d"
-   },
-   {
-    "album": "Vega",
-    "artist": "braNdrop",
-    "plays": 15,
-    "plays_fmt": "15",
-    "img": "https://i.scdn.co/image/ab67616d0000b2735f4bf1988efa4cb910b7e07e"
    },
    {
     "album": "LastWords",
@@ -710,64 +696,72 @@
     "img": null
    },
    {
-    "album": "4songs Ⅱ",
-    "artist": "Forbear",
-    "plays": 13,
-    "plays_fmt": "13",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fa31be3a71cc8be0c802b47621bcf196.jpg"
-   },
-   {
-    "album": "Blue of Distance",
-    "artist": "Birch",
-    "plays": 13,
-    "plays_fmt": "13",
-    "img": "https://i.scdn.co/image/ab67616d0000b273b3137409319aafe61621efd6"
-   },
-   {
-    "album": "EX Shiawaseni nareruto iine",
-    "artist": "aubrei",
-    "plays": 13,
-    "plays_fmt": "13",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2b78812d20f49930a80bdd35620c338b.png"
-   },
-   {
-    "album": "In Veil",
-    "artist": "Cindr",
-    "plays": 13,
-    "plays_fmt": "13",
-    "img": null
-   },
-   {
     "album": "Red comb",
     "artist": "Appi",
-    "plays": 13,
-    "plays_fmt": "13",
+    "plays": 14,
+    "plays_fmt": "14",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/f67742a0ddd91a92fd3d813251c82786.jpg"
+   },
+   {
+    "album": "Vega",
+    "artist": "braNdrop",
+    "plays": 14,
+    "plays_fmt": "14",
+    "img": "https://i.scdn.co/image/ab67616d0000b2735f4bf1988efa4cb910b7e07e"
    },
    {
     "album": "Voicemail",
     "artist": "The Boring Tapes",
+    "plays": 14,
+    "plays_fmt": "14",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb453cae76249491ffcfc8f78a"
+   },
+   {
+    "album": "Jump the fence",
+    "artist": "SophT",
     "plays": 13,
     "plays_fmt": "13",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb453cae76249491ffcfc8f78a"
+    "img": "https://i.scdn.co/image/ab6761610000e5eb6060716b2da66257b059b38d"
+   },
+   {
+    "album": "Trip in Theater",
+    "artist": "hanare",
+    "plays": 13,
+    "plays_fmt": "13",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb6b73c84f396c62823b9fe7ab"
+   },
+   {
+    "album": "baby please バグらないで",
+    "artist": "700度の火を持って、 私は人とすれちがっている",
+    "plays": 13,
+    "plays_fmt": "13",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb1272482edecc688e3d186f96"
+   },
+   {
+    "album": "Akiaki",
+    "artist": "ROUHOU",
+    "plays": 12,
+    "plays_fmt": "12",
+    "img": null
+   },
+   {
+    "album": "EX Shiawaseni nareruto iine",
+    "artist": "aubrei",
+    "plays": 12,
+    "plays_fmt": "12",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2b78812d20f49930a80bdd35620c338b.png"
    }
   ],
   "top_trk": [
    {
     "track": "shummin",
     "artist": "いとわず",
-    "plays": 21,
-    "plays_fmt": "21"
+    "plays": 19,
+    "plays_fmt": "19"
    },
    {
-    "track": "Jump the fence",
-    "artist": "SophT",
-    "plays": 16,
-    "plays_fmt": "16"
-   },
-   {
-    "track": "Vega",
-    "artist": "braNdrop",
+    "track": "Voicemail",
+    "artist": "The Boring Tapes",
     "plays": 14,
     "plays_fmt": "14"
    },
@@ -778,49 +772,49 @@
     "plays_fmt": "13"
    },
    {
+    "track": "Jump the fence",
+    "artist": "SophT",
+    "plays": 13,
+    "plays_fmt": "13"
+   },
+   {
+    "track": "Unsweetened (album ver)",
+    "artist": "Appi",
+    "plays": 13,
+    "plays_fmt": "13"
+   },
+   {
+    "track": "Vega",
+    "artist": "braNdrop",
+    "plays": 13,
+    "plays_fmt": "13"
+   },
+   {
+    "track": "baby please バグらないで",
+    "artist": "700度の火を持って、 私は人とすれちがっている",
+    "plays": 13,
+    "plays_fmt": "13"
+   },
+   {
     "track": "In Veil",
     "artist": "Cindr",
-    "plays": 13,
-    "plays_fmt": "13"
+    "plays": 12,
+    "plays_fmt": "12"
    },
    {
-    "track": "Kouro",
-    "artist": "Birch",
-    "plays": 13,
-    "plays_fmt": "13"
+    "track": "Kyokou No Kakera",
+    "artist": "Paparazzi Panic",
+    "plays": 12,
+    "plays_fmt": "12"
    },
    {
-    "track": "Voicemail",
-    "artist": "The Boring Tapes",
-    "plays": 13,
-    "plays_fmt": "13"
-   },
-   {
-    "track": "colored sprinkles",
-    "artist": "aubrei",
-    "plays": 13,
-    "plays_fmt": "13"
-   },
-   {
-    "track": "eternalsnowangel",
-    "artist": "yawn club",
-    "plays": 13,
-    "plays_fmt": "13"
-   },
-   {
-    "track": "Bookshelf",
-    "artist": "Forbear",
+    "track": "N.W.O.L.",
+    "artist": "BurnQue",
     "plays": 12,
     "plays_fmt": "12"
    }
   ],
   "by_day": [
-   {
-    "day": "9/6",
-    "plays": 217,
-    "plays_fmt": "217",
-    "pct": 98
-   },
    {
     "day": "9/7",
     "plays": 73,
@@ -853,9 +847,15 @@
    },
    {
     "day": "9/12",
-    "plays": 156,
-    "plays_fmt": "156",
-    "pct": 70
+    "plays": 157,
+    "plays_fmt": "157",
+    "pct": 71
+   },
+   {
+    "day": "9/13",
+    "plays": 143,
+    "plays_fmt": "143",
+    "pct": 64
    }
   ]
  }
