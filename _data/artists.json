@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7375,
- "total_artists_fmt": "7,375",
+ "total_artists": 7376,
+ "total_artists_fmt": "7,376",
  "missing_img": 8,
  "artists": [
   {
@@ -30,8 +30,8 @@
   },
   {
    "name": "クレナズム",
-   "plays": 882,
-   "plays_fmt": "882",
+   "plays": 883,
+   "plays_fmt": "883",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfd833836d124624e366ed252"
   },
   {
@@ -90,8 +90,8 @@
   },
   {
    "name": "kobore",
-   "plays": 655,
-   "plays_fmt": "655",
+   "plays": 656,
+   "plays_fmt": "656",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24"
   },
   {
@@ -144,8 +144,8 @@
   },
   {
    "name": "Hakubi",
-   "plays": 584,
-   "plays_fmt": "584",
+   "plays": 585,
+   "plays_fmt": "585",
    "img": "https://i.scdn.co/image/ab6761610000e5eba205df6c2dd898c3f39b35ec"
   },
   {
@@ -354,14 +354,14 @@
   },
   {
    "name": "Muque",
-   "plays": 384,
-   "plays_fmt": "384",
+   "plays": 386,
+   "plays_fmt": "386",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
   },
   {
    "name": "Asmi",
-   "plays": 383,
-   "plays_fmt": "383",
+   "plays": 384,
+   "plays_fmt": "384",
    "img": "https://i.scdn.co/image/ab6761610000e5eb3ac8e8114680356ca222ffa9"
   },
   {
@@ -389,6 +389,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebb718d2d3988005d3a72f22c9"
   },
   {
+   "name": "Home",
+   "plays": 378,
+   "plays_fmt": "378",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
+  },
+  {
    "name": "ego apartment",
    "plays": 378,
    "plays_fmt": "378",
@@ -405,12 +411,6 @@
    "plays": 376,
    "plays_fmt": "376",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5e779ac5990c92ad5b423c3f"
-  },
-  {
-   "name": "Home",
-   "plays": 375,
-   "plays_fmt": "375",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
    "name": "Chilli Beans.",
@@ -467,16 +467,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb015682d84efd18a8d00e8268"
   },
   {
+   "name": "灰色ロジック",
+   "plays": 344,
+   "plays_fmt": "344",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb8b1593a9b28a0e6ccd588521"
+  },
+  {
    "name": "RAN",
    "plays": 343,
    "plays_fmt": "343",
    "img": null
-  },
-  {
-   "name": "灰色ロジック",
-   "plays": 343,
-   "plays_fmt": "343",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb8b1593a9b28a0e6ccd588521"
   },
   {
    "name": "Yuinishio",
@@ -509,6 +509,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb12c0882bf65989e9bd0edc67"
   },
   {
+   "name": "coldrain",
+   "plays": 327,
+   "plays_fmt": "327",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb790734bdee501b47713b4afe"
+  },
+  {
    "name": "shukatsuclub",
    "plays": 326,
    "plays_fmt": "326",
@@ -519,12 +525,6 @@
    "plays": 326,
    "plays_fmt": "326",
    "img": "https://i.scdn.co/image/ab6761610000e5ebdc38271ddea2dff37a837427"
-  },
-  {
-   "name": "coldrain",
-   "plays": 325,
-   "plays_fmt": "325",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb790734bdee501b47713b4afe"
   },
   {
    "name": "Reol",
@@ -665,16 +665,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb05b9d43914da5620207492de"
   },
   {
+   "name": "Luby Sparks",
+   "plays": 301,
+   "plays_fmt": "301",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb99833843219af1cdc66223fc"
+  },
+  {
    "name": "BAND-MAID",
    "plays": 300,
    "plays_fmt": "300",
    "img": "https://i.scdn.co/image/ab6761610000e5ebe6274dae98c66d06ae7382c9"
-  },
-  {
-   "name": "Luby Sparks",
-   "plays": 300,
-   "plays_fmt": "300",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb99833843219af1cdc66223fc"
   },
   {
    "name": "omeme tenten",
@@ -785,6 +785,12 @@
    "img": "https://i.scdn.co/image/ab67616d0000b2731494a1e1507f8dbfbce8f2df"
   },
   {
+   "name": "36km/h",
+   "plays": 273,
+   "plays_fmt": "273",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb8ffe1b4304fc8e392b97c2b7"
+  },
+  {
    "name": "E.scene",
    "plays": 273,
    "plays_fmt": "273",
@@ -795,12 +801,6 @@
    "plays": 273,
    "plays_fmt": "273",
    "img": "https://i.scdn.co/image/ab6761610000e5eb00e06631e438aa05cbd62f09"
-  },
-  {
-   "name": "36km/h",
-   "plays": 272,
-   "plays_fmt": "272",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb8ffe1b4304fc8e392b97c2b7"
   },
   {
    "name": "ホピーハイボ",
