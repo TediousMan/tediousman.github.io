@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7376,
- "total_artists_fmt": "7,376",
+ "total_artists": 7377,
+ "total_artists_fmt": "7,377",
  "missing_img": 8,
  "artists": [
   {
@@ -90,8 +90,8 @@
   },
   {
    "name": "kobore",
-   "plays": 656,
-   "plays_fmt": "656",
+   "plays": 657,
+   "plays_fmt": "657",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24"
   },
   {
@@ -270,8 +270,8 @@
   },
   {
    "name": "Sazanami",
-   "plays": 455,
-   "plays_fmt": "455",
+   "plays": 456,
+   "plays_fmt": "456",
    "img": "https://i.scdn.co/image/ab6761610000e5eba3f038b0d76a49de0bd33221"
   },
   {
@@ -288,8 +288,8 @@
   },
   {
    "name": "WANIMA",
-   "plays": 444,
-   "plays_fmt": "444",
+   "plays": 445,
+   "plays_fmt": "445",
    "img": "https://i.scdn.co/image/ab6761610000e5eb37c85e7d09ce8668eab4a480"
   },
   {
@@ -467,16 +467,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb015682d84efd18a8d00e8268"
   },
   {
+   "name": "RAN",
+   "plays": 344,
+   "plays_fmt": "344",
+   "img": null
+  },
+  {
    "name": "灰色ロジック",
    "plays": 344,
    "plays_fmt": "344",
    "img": "https://i.scdn.co/image/ab6761610000e5eb8b1593a9b28a0e6ccd588521"
-  },
-  {
-   "name": "RAN",
-   "plays": 343,
-   "plays_fmt": "343",
-   "img": null
   },
   {
    "name": "Yuinishio",
@@ -827,6 +827,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eba9a5143d6eb3917fbe03ad9b"
   },
   {
+   "name": "Kienai",
+   "plays": 264,
+   "plays_fmt": "264",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481"
+  },
+  {
    "name": "レルエ",
    "plays": 264,
    "plays_fmt": "264",
@@ -843,12 +849,6 @@
    "plays": 263,
    "plays_fmt": "263",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd9ac40494bf7ddbcc5c2c692"
-  },
-  {
-   "name": "Kienai",
-   "plays": 263,
-   "plays_fmt": "263",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481"
   },
   {
    "name": "Living Rita",
