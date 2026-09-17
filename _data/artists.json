@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7377,
- "total_artists_fmt": "7,377",
+ "total_artists": 7388,
+ "total_artists_fmt": "7,388",
  "missing_img": 8,
  "artists": [
   {
@@ -168,8 +168,8 @@
   },
   {
    "name": "BRADIO",
-   "plays": 559,
-   "plays_fmt": "559",
+   "plays": 560,
+   "plays_fmt": "560",
    "img": "https://i.scdn.co/image/ab6761610000e5eb1b468ea5308efde05767f7f3"
   },
   {
@@ -270,14 +270,14 @@
   },
   {
    "name": "Sazanami",
-   "plays": 456,
-   "plays_fmt": "456",
+   "plays": 457,
+   "plays_fmt": "457",
    "img": "https://i.scdn.co/image/ab6761610000e5eba3f038b0d76a49de0bd33221"
   },
   {
    "name": "レイラ",
-   "plays": 455,
-   "plays_fmt": "455",
+   "plays": 456,
+   "plays_fmt": "456",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5a7ae7ae77a6230eb4107638"
   },
   {
@@ -347,16 +347,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb93311cae2f611f16a5d84e43"
   },
   {
+   "name": "Muque",
+   "plays": 387,
+   "plays_fmt": "387",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
+  },
+  {
    "name": "Ivy to Fraudulent Game",
    "plays": 386,
    "plays_fmt": "386",
    "img": "https://i.scdn.co/image/ab6761610000e5eb7f8973aeb4176e61b0cec158"
-  },
-  {
-   "name": "Muque",
-   "plays": 386,
-   "plays_fmt": "386",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
   },
   {
    "name": "Asmi",
@@ -527,6 +527,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebdc38271ddea2dff37a837427"
   },
   {
+   "name": "Nagakumo",
+   "plays": 324,
+   "plays_fmt": "324",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb9247cd4ef50307e4425b4bf8"
+  },
+  {
    "name": "Reol",
    "plays": 324,
    "plays_fmt": "324",
@@ -537,12 +543,6 @@
    "plays": 323,
    "plays_fmt": "323",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd37a306d89030f0fe900b7e3"
-  },
-  {
-   "name": "Nagakumo",
-   "plays": 323,
-   "plays_fmt": "323",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb9247cd4ef50307e4425b4bf8"
   },
   {
    "name": "Polkadot Stingray",
@@ -743,16 +743,16 @@
    "img": null
   },
   {
+   "name": "mukeikaku",
+   "plays": 280,
+   "plays_fmt": "280",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb1c7ce3df2cce3afef74566cb"
+  },
+  {
    "name": "(yoru to)SAMPO",
    "plays": 279,
    "plays_fmt": "279",
    "img": "https://i.scdn.co/image/ab6761610000e5ebab458bf73950d79c2afe1249"
-  },
-  {
-   "name": "mukeikaku",
-   "plays": 279,
-   "plays_fmt": "279",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb1c7ce3df2cce3afef74566cb"
   },
   {
    "name": "POOL",
