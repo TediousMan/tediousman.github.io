@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7388,
- "total_artists_fmt": "7,388",
+ "total_artists": 7391,
+ "total_artists_fmt": "7,391",
  "missing_img": 8,
  "artists": [
   {
@@ -66,8 +66,8 @@
   },
   {
    "name": "Dannie May",
-   "plays": 723,
-   "plays_fmt": "723",
+   "plays": 724,
+   "plays_fmt": "724",
    "img": "https://i.scdn.co/image/ab6761610000e5eb9629e866cc65376368fe66a8"
   },
   {
@@ -90,8 +90,8 @@
   },
   {
    "name": "kobore",
-   "plays": 657,
-   "plays_fmt": "657",
+   "plays": 658,
+   "plays_fmt": "658",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24"
   },
   {
@@ -216,14 +216,14 @@
   },
   {
    "name": "PLUE",
-   "plays": 501,
-   "plays_fmt": "501",
+   "plays": 502,
+   "plays_fmt": "502",
    "img": "https://i.scdn.co/image/ab6761610000e5eb85209c8cac40615200957a58"
   },
   {
    "name": "She Her Her Hers",
-   "plays": 496,
-   "plays_fmt": "496",
+   "plays": 497,
+   "plays_fmt": "497",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5fe5ee6bd8fd6210eb70004b"
   },
   {
@@ -342,8 +342,8 @@
   },
   {
    "name": "GOHOBI",
-   "plays": 391,
-   "plays_fmt": "391",
+   "plays": 392,
+   "plays_fmt": "392",
    "img": "https://i.scdn.co/image/ab6761610000e5eb93311cae2f611f16a5d84e43"
   },
   {
@@ -383,16 +383,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb7fdd8f90022d1fb6f09ce3c9"
   },
   {
+   "name": "Home",
+   "plays": 380,
+   "plays_fmt": "380",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
+  },
+  {
    "name": "Vaundy",
    "plays": 380,
    "plays_fmt": "380",
    "img": "https://i.scdn.co/image/ab6761610000e5ebb718d2d3988005d3a72f22c9"
-  },
-  {
-   "name": "Home",
-   "plays": 379,
-   "plays_fmt": "379",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
    "name": "ego apartment",
@@ -732,8 +732,8 @@
   },
   {
    "name": "Have a nice day!",
-   "plays": 280,
-   "plays_fmt": "280",
+   "plays": 281,
+   "plays_fmt": "281",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
   },
   {
@@ -828,8 +828,8 @@
   },
   {
    "name": "Kienai",
-   "plays": 264,
-   "plays_fmt": "264",
+   "plays": 265,
+   "plays_fmt": "265",
    "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481"
   },
   {
