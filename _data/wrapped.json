@@ -2,8 +2,8 @@
  "generated": "2026-09-18",
  "year_label": "2026",
  "all": {
-  "total": 217887,
-  "total_fmt": "217,887",
+  "total": 217903,
+  "total_fmt": "217,903",
   "uniq_art": 7391,
   "uniq_art_fmt": "7,391",
   "uniq_trk": 30831,
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 34800,
-    "plays_fmt": "34,800",
+    "plays": 34816,
+    "plays_fmt": "34,816",
     "pct": 64
    }
   ],
@@ -330,8 +330,8 @@
   ]
  },
  "year": {
-  "total": 34800,
-  "total_fmt": "34,800",
+  "total": 34816,
+  "total_fmt": "34,816",
   "uniq_art": 2861,
   "uniq_art_fmt": "2,861",
   "uniq_trk": 8014,
@@ -388,10 +388,10 @@
    },
    {
     "artist": "Home",
-    "plays": 184,
-    "plays_fmt": "184",
+    "plays": 185,
+    "plays_fmt": "185",
     "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
-    "pct": 70
+    "pct": 71
    },
    {
     "artist": "wanbed",
@@ -433,8 +433,8 @@
    {
     "album": "HOME COLLECTION",
     "artist": "Home",
-    "plays": 180,
-    "plays_fmt": "180",
+    "plays": 181,
+    "plays_fmt": "181",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
    },
    {
@@ -593,19 +593,19 @@
    },
    {
     "month": "9",
-    "plays": 2437,
-    "plays_fmt": "2,437",
+    "plays": 2453,
+    "plays_fmt": "2,453",
     "pct": 45
    }
   ]
  },
  "week": {
-  "total": 940,
-  "total_fmt": "940",
-  "uniq_art": 513,
-  "uniq_art_fmt": "513",
-  "uniq_trk": 721,
-  "uniq_trk_fmt": "721",
+  "total": 956,
+  "total_fmt": "956",
+  "uniq_art": 518,
+  "uniq_art_fmt": "518",
+  "uniq_trk": 729,
+  "uniq_trk_fmt": "729",
   "start": "9/12",
   "end": "9/18",
   "top_art": [
@@ -624,6 +624,13 @@
     "pct": 76
    },
    {
+    "artist": "VantiQue",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": null,
+    "pct": 32
+   },
+   {
     "artist": "kiki vivi lily",
     "plays": 8,
     "plays_fmt": "8",
@@ -631,24 +638,24 @@
     "pct": 32
    },
    {
+    "artist": "laments",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab67616d0000b273be20ab88cb112617a177a5bc",
+    "pct": 32
+   },
+   {
+    "artist": "Home",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
+    "pct": 28
+   },
+   {
     "artist": "Sar mo waits",
     "plays": 7,
     "plays_fmt": "7",
     "img": null,
-    "pct": 28
-   },
-   {
-    "artist": "VantiQue",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": null,
-    "pct": 28
-   },
-   {
-    "artist": "laments",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab67616d0000b273be20ab88cb112617a177a5bc",
     "pct": 28
    },
    {
@@ -663,13 +670,6 @@
     "plays": 6,
     "plays_fmt": "6",
     "img": null,
-    "pct": 24
-   },
-   {
-    "artist": "Home",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
     "pct": 24
    },
    {
@@ -698,16 +698,23 @@
    {
     "album": "BUBBLE",
     "artist": "VantiQue",
-    "plays": 7,
-    "plays_fmt": "7",
+    "plays": 8,
+    "plays_fmt": "8",
     "img": null
    },
    {
     "album": "Sokousuru",
     "artist": "laments",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab67616d0000b273be20ab88cb112617a177a5bc"
+   },
+   {
+    "album": "HOME COLLECTION",
+    "artist": "Home",
     "plays": 7,
     "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab67616d0000b273be20ab88cb112617a177a5bc"
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
    },
    {
     "album": "TOU.",
@@ -731,13 +738,6 @@
     "img": null
    },
    {
-    "album": "HOME COLLECTION",
-    "artist": "Home",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
-   },
-   {
     "album": "Overthere",
     "artist": "エスキベル",
     "plays": 6,
@@ -756,8 +756,8 @@
    {
     "track": "BUBBLE",
     "artist": "VantiQue",
-    "plays": 7,
-    "plays_fmt": "7"
+    "plays": 8,
+    "plays_fmt": "8"
    },
    {
     "track": "港に応じて",
@@ -770,6 +770,12 @@
     "artist": "オレンジスパイニクラブ",
     "plays": 5,
     "plays_fmt": "5"
+   },
+   {
+    "track": "Ecumene",
+    "artist": "laments",
+    "plays": 4,
+    "plays_fmt": "4"
    },
    {
     "track": "Odyssey",
@@ -804,12 +810,6 @@
    {
     "track": "Anemone",
     "artist": "REVEMERE",
-    "plays": 3,
-    "plays_fmt": "3"
-   },
-   {
-    "track": "Blue Train",
-    "artist": "Cattle",
     "plays": 3,
     "plays_fmt": "3"
    }
@@ -853,9 +853,9 @@
    },
    {
     "day": "9/18",
-    "plays": 112,
-    "plays_fmt": "112",
-    "pct": 63
+    "plays": 128,
+    "plays_fmt": "128",
+    "pct": 72
    }
   ]
  }
