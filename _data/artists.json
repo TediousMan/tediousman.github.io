@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7391,
- "total_artists_fmt": "7,391",
+ "total_artists": 7396,
+ "total_artists_fmt": "7,396",
  "missing_img": 8,
  "artists": [
   {
@@ -246,8 +246,8 @@
   },
   {
    "name": "MAN WITH A MISSION",
-   "plays": 473,
-   "plays_fmt": "473",
+   "plays": 475,
+   "plays_fmt": "475",
    "img": "https://i.scdn.co/image/ab6761610000e5ebe30959e15d3719dc8d9ffe65"
   },
   {
@@ -365,6 +365,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb3ac8e8114680356ca222ffa9"
   },
   {
+   "name": "Home",
+   "plays": 382,
+   "plays_fmt": "382",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
+  },
+  {
    "name": "vivid undress",
    "plays": 382,
    "plays_fmt": "382",
@@ -375,12 +381,6 @@
    "plays": 382,
    "plays_fmt": "382",
    "img": "https://i.scdn.co/image/ab6761610000e5eba388e0bb3eec78261dec8233"
-  },
-  {
-   "name": "Home",
-   "plays": 381,
-   "plays_fmt": "381",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
    "name": "sucola",
@@ -473,16 +473,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb015682d84efd18a8d00e8268"
   },
   {
+   "name": "灰色ロジック",
+   "plays": 345,
+   "plays_fmt": "345",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb8b1593a9b28a0e6ccd588521"
+  },
+  {
    "name": "RAN",
    "plays": 344,
    "plays_fmt": "344",
    "img": null
-  },
-  {
-   "name": "灰色ロジック",
-   "plays": 344,
-   "plays_fmt": "344",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb8b1593a9b28a0e6ccd588521"
   },
   {
    "name": "Yuinishio",
@@ -516,8 +516,8 @@
   },
   {
    "name": "shukatsuclub",
-   "plays": 326,
-   "plays_fmt": "326",
+   "plays": 327,
+   "plays_fmt": "327",
    "img": "https://i.scdn.co/image/ab6761610000e5eb3052db8ddeaeb2ce3a7eb450"
   },
   {
@@ -527,16 +527,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebdc38271ddea2dff37a837427"
   },
   {
+   "name": "Reol",
+   "plays": 325,
+   "plays_fmt": "325",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebdf2dbfb158e48df25bd49477"
+  },
+  {
    "name": "Nagakumo",
    "plays": 324,
    "plays_fmt": "324",
    "img": "https://i.scdn.co/image/ab6761610000e5eb9247cd4ef50307e4425b4bf8"
-  },
-  {
-   "name": "Reol",
-   "plays": 324,
-   "plays_fmt": "324",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebdf2dbfb158e48df25bd49477"
   },
   {
    "name": "Homecomings",
@@ -557,16 +557,22 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb0cf9b730ba1e4da175a3485b"
   },
   {
+   "name": "Cephalo",
+   "plays": 319,
+   "plays_fmt": "319",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebeadedb0cf2a489ca33090611"
+  },
+  {
+   "name": "sawamay",
+   "plays": 319,
+   "plays_fmt": "319",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb400868142f0cb858d015c76d"
+  },
+  {
    "name": "yahyel",
    "plays": 319,
    "plays_fmt": "319",
    "img": "https://i.scdn.co/image/ab6761610000e5eb9ff08ad4abc242feaf105f11"
-  },
-  {
-   "name": "Cephalo",
-   "plays": 318,
-   "plays_fmt": "318",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebeadedb0cf2a489ca33090611"
   },
   {
    "name": "Pavilion",
@@ -579,12 +585,6 @@
    "plays": 318,
    "plays_fmt": "318",
    "img": "https://i.scdn.co/image/ab6761610000e5eb51d099e01631361e50ce714d"
-  },
-  {
-   "name": "sawamay",
-   "plays": 318,
-   "plays_fmt": "318",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb400868142f0cb858d015c76d"
   },
   {
    "name": "Miu Mau",
@@ -666,8 +666,8 @@
   },
   {
    "name": "Luby Sparks",
-   "plays": 301,
-   "plays_fmt": "301",
+   "plays": 302,
+   "plays_fmt": "302",
    "img": "https://i.scdn.co/image/ab6761610000e5eb99833843219af1cdc66223fc"
   },
   {
@@ -755,6 +755,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebab458bf73950d79c2afe1249"
   },
   {
+   "name": "Haruno",
+   "plays": 278,
+   "plays_fmt": "278",
+   "img": "https://i.scdn.co/image/ab67616d0000b2731494a1e1507f8dbfbce8f2df"
+  },
+  {
    "name": "POOL",
    "plays": 278,
    "plays_fmt": "278",
@@ -765,12 +771,6 @@
    "plays": 278,
    "plays_fmt": "278",
    "img": "https://i.scdn.co/image/ab6761610000e5eb35e11f5ad4a252b96a658376"
-  },
-  {
-   "name": "Haruno",
-   "plays": 277,
-   "plays_fmt": "277",
-   "img": "https://i.scdn.co/image/ab67616d0000b2731494a1e1507f8dbfbce8f2df"
   },
   {
    "name": "Laura day romance",
@@ -821,16 +821,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851"
   },
   {
+   "name": "Kienai",
+   "plays": 266,
+   "plays_fmt": "266",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481"
+  },
+  {
    "name": "illiomote",
    "plays": 266,
    "plays_fmt": "266",
    "img": "https://i.scdn.co/image/ab6761610000e5eba9a5143d6eb3917fbe03ad9b"
-  },
-  {
-   "name": "Kienai",
-   "plays": 265,
-   "plays_fmt": "265",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481"
   },
   {
    "name": "レルエ",
@@ -857,6 +857,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebd88c7b32093b5add57bdfb97"
   },
   {
+   "name": "Ramblamp",
+   "plays": 263,
+   "plays_fmt": "263",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
+  },
+  {
    "name": "The Pullovers",
    "plays": 263,
    "plays_fmt": "263",
@@ -867,12 +873,6 @@
    "plays": 262,
    "plays_fmt": "262",
    "img": "https://i.scdn.co/image/ab6761610000e5eb521dd8791d85d8b317200133"
-  },
-  {
-   "name": "Ramblamp",
-   "plays": 262,
-   "plays_fmt": "262",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
   },
   {
    "name": "shallm",
