@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-19",
+ "generated": "2026-09-20",
  "year_label": "2026",
  "all": {
-  "total": 218066,
-  "total_fmt": "218,066",
+  "total": 218191,
+  "total_fmt": "218,191",
   "uniq_art": 7396,
   "uniq_art_fmt": "7,396",
-  "uniq_trk": 30889,
-  "uniq_trk_fmt": "30,889",
+  "uniq_trk": 30891,
+  "uniq_trk_fmt": "30,891",
   "start": "2018-03-06",
-  "end": "2026-09-19",
+  "end": "2026-09-20",
   "top_art": [
    {
     "artist": "Mr.ふぉるて",
@@ -48,8 +48,8 @@
    },
    {
     "artist": "KROI",
-    "plays": 869,
-    "plays_fmt": "869",
+    "plays": 870,
+    "plays_fmt": "870",
     "img": "https://i.scdn.co/image/ab6761610000e5eb3891ccf48bd7eb050237f789",
     "pct": 83
    },
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 34979,
-    "plays_fmt": "34,979",
+    "plays": 35104,
+    "plays_fmt": "35,104",
     "pct": 65
    }
   ],
@@ -330,12 +330,12 @@
   ]
  },
  "year": {
-  "total": 34979,
-  "total_fmt": "34,979",
+  "total": 35104,
+  "total_fmt": "35,104",
   "uniq_art": 2867,
   "uniq_art_fmt": "2,867",
-  "uniq_trk": 8072,
-  "uniq_trk_fmt": "8,072",
+  "uniq_trk": 8074,
+  "uniq_trk_fmt": "8,074",
   "top_art": [
    {
     "artist": "Kienai",
@@ -353,22 +353,22 @@
    },
    {
     "artist": "BUDOU JUICE",
-    "plays": 236,
-    "plays_fmt": "236",
+    "plays": 237,
+    "plays_fmt": "237",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f",
     "pct": 90
    },
    {
     "artist": "bedgravity",
-    "plays": 227,
-    "plays_fmt": "227",
+    "plays": 228,
+    "plays_fmt": "228",
     "img": "https://i.scdn.co/image/ab67616d0000b273d29467756d06ae5882d98238",
-    "pct": 86
+    "pct": 87
    },
    {
     "artist": "あたまたんさん",
-    "plays": 225,
-    "plays_fmt": "225",
+    "plays": 226,
+    "plays_fmt": "226",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44",
     "pct": 86
    },
@@ -381,24 +381,24 @@
    },
    {
     "artist": "uyuu",
-    "plays": 192,
-    "plays_fmt": "192",
+    "plays": 193,
+    "plays_fmt": "193",
     "img": "https://i.scdn.co/image/ab67616d0000b27381582c0fb8f5908a6aee7f3e",
     "pct": 73
    },
    {
     "artist": "Home",
-    "plays": 186,
-    "plays_fmt": "186",
+    "plays": 188,
+    "plays_fmt": "188",
     "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
     "pct": 71
    },
    {
     "artist": "wanbed",
-    "plays": 177,
-    "plays_fmt": "177",
+    "plays": 178,
+    "plays_fmt": "178",
     "img": "https://i.scdn.co/image/ab6761610000e5eb015e59262813fcf812ddf659",
-    "pct": 67
+    "pct": 68
    },
    {
     "artist": "tenbin O",
@@ -419,29 +419,29 @@
    {
     "album": "Unmet Needs",
     "artist": "bedgravity",
-    "plays": 227,
-    "plays_fmt": "227",
+    "plays": 228,
+    "plays_fmt": "228",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/d49e1932df6d076c99051c1c7fe957a4.jpg"
    },
    {
     "album": "鉄の掟",
     "artist": "あたまたんさん",
-    "plays": 224,
-    "plays_fmt": "224",
+    "plays": 225,
+    "plays_fmt": "225",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44"
    },
    {
     "album": "HOME COLLECTION",
     "artist": "Home",
-    "plays": 182,
-    "plays_fmt": "182",
+    "plays": 184,
+    "plays_fmt": "184",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
    },
    {
     "album": "BUDOU JUICE",
     "artist": "BUDOU JUICE",
-    "plays": 178,
-    "plays_fmt": "178",
+    "plays": 179,
+    "plays_fmt": "179",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f"
    },
    {
@@ -461,8 +461,8 @@
    {
     "album": "135",
     "artist": "wanbed",
-    "plays": 157,
-    "plays_fmt": "157",
+    "plays": 158,
+    "plays_fmt": "158",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/8f67506eb69e1457aed72a3f1273f862.jpg"
    },
    {
@@ -593,99 +593,99 @@
    },
    {
     "month": "9",
-    "plays": 2616,
-    "plays_fmt": "2,616",
-    "pct": 48
+    "plays": 2741,
+    "plays_fmt": "2,741",
+    "pct": 50
    }
   ]
  },
  "week": {
-  "total": 962,
-  "total_fmt": "962",
-  "uniq_art": 523,
-  "uniq_art_fmt": "523",
-  "uniq_trk": 760,
-  "uniq_trk_fmt": "760",
-  "start": "9/13",
-  "end": "9/19",
+  "total": 927,
+  "total_fmt": "927",
+  "uniq_art": 512,
+  "uniq_art_fmt": "512",
+  "uniq_trk": 740,
+  "uniq_trk_fmt": "740",
+  "start": "9/14",
+  "end": "9/20",
   "top_art": [
    {
     "artist": "Acle",
-    "plays": 27,
-    "plays_fmt": "27",
+    "plays": 28,
+    "plays_fmt": "28",
     "img": "https://i.scdn.co/image/ab67616d0000b273da3b2891301695c345c56bb8",
     "pct": 100
    },
    {
     "artist": "オレンジスパイニクラブ",
-    "plays": 24,
-    "plays_fmt": "24",
+    "plays": 23,
+    "plays_fmt": "23",
     "img": "https://i.scdn.co/image/ab6761610000e5eb79131b6dd6a2b6e9c4df4fb4",
-    "pct": 89
+    "pct": 82
    },
    {
     "artist": "Dizzy Sunfist",
     "plays": 12,
     "plays_fmt": "12",
     "img": "https://i.scdn.co/image/ab6761610000e5eb24a8714fef57a900f95f56bc",
-    "pct": 44
+    "pct": 43
+   },
+   {
+    "artist": "Home",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
+    "pct": 32
    },
    {
     "artist": "VantiQue",
     "plays": 8,
     "plays_fmt": "8",
     "img": null,
-    "pct": 30
-   },
-   {
-    "artist": "kiki vivi lily",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebfe3b6188abc328838969e7c5",
-    "pct": 30
+    "pct": 29
    },
    {
     "artist": "laments",
     "plays": 8,
     "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab67616d0000b273be20ab88cb112617a177a5bc",
-    "pct": 30
+    "pct": 29
    },
    {
-    "artist": "Home",
+    "artist": "Black Boboi",
     "plays": 7,
     "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
-    "pct": 26
+    "img": "https://i.scdn.co/image/ab6761610000e5eb173cb515bfb6ca8f05dc2aca",
+    "pct": 25
+   },
+   {
+    "artist": "PALMAT!CA",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": null,
+    "pct": 25
    },
    {
     "artist": "Sar mo waits",
     "plays": 7,
     "plays_fmt": "7",
     "img": null,
-    "pct": 26
+    "pct": 25
    },
    {
     "artist": "Trooper Salute",
     "plays": 7,
     "plays_fmt": "7",
     "img": "https://i.scdn.co/image/ab6761610000e5eb97cd03d0a41316350c7679ae",
-    "pct": 26
-   },
-   {
-    "artist": "吉凶わからず、",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eba56f1a7fa93d2ddfb43bebb4",
-    "pct": 26
+    "pct": 25
    }
   ],
   "top_alb": [
    {
     "album": "Town in Mind",
     "artist": "Acle",
-    "plays": 25,
-    "plays_fmt": "25",
+    "plays": 26,
+    "plays_fmt": "26",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/7ce9707bcbff63303d56c4348ae4d809.jpg"
    },
    {
@@ -703,6 +703,13 @@
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/65d40b7c8881ff31245e1efdbca3d487.jpg"
    },
    {
+    "album": "HOME COLLECTION",
+    "artist": "Home",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
+   },
+   {
     "album": "BUBBLE",
     "artist": "VantiQue",
     "plays": 8,
@@ -717,11 +724,25 @@
     "img": "https://i.scdn.co/image/ab67616d0000b273be20ab88cb112617a177a5bc"
    },
    {
-    "album": "HOME COLLECTION",
-    "artist": "Home",
+    "album": "Landscapes Entwined",
+    "artist": "ue",
     "plays": 7,
     "plays_fmt": "7",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/f2b935a3f4b57eaa918ebd81e5490650.jpg"
+   },
+   {
+    "album": "New Journey",
+    "artist": "PALMAT!CA",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": null
+   },
+   {
+    "album": "Sepia",
+    "artist": "Black Boboi",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/158d6943703e6cd30388cd6dba40f635.jpg"
    },
    {
     "album": "TOU.",
@@ -729,27 +750,6 @@
     "plays": 7,
     "plays_fmt": "7",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/a6ec0c87ee060eb1c1e12d25b6a41074.jpg"
-   },
-   {
-    "album": "港に応じて",
-    "artist": "Sar mo waits",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e9676e7f2661d3e0a494abdcd5a9fffc.jpg"
-   },
-   {
-    "album": "Biography 02",
-    "artist": "Americ",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": null
-   },
-   {
-    "album": "New Journey",
-    "artist": "PALMAT!CA",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": null
    }
   ],
   "top_trk": [
@@ -772,38 +772,8 @@
     "plays_fmt": "4"
    },
    {
-    "track": "Odyssey",
-    "artist": "Tyrell",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "serein",
-    "artist": "Sazanami",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "無くしたピックを重ねて月に行こう",
-    "artist": "オレンジスパイニクラブ",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
     "track": "117",
     "artist": "Acle",
-    "plays": 3,
-    "plays_fmt": "3"
-   },
-   {
-    "track": "Blue Train",
-    "artist": "Cattle",
-    "plays": 3,
-    "plays_fmt": "3"
-   },
-   {
-    "track": "Electric Dreams",
-    "artist": "Oeil",
     "plays": 3,
     "plays_fmt": "3"
    },
@@ -812,15 +782,39 @@
     "artist": "Acle",
     "plays": 3,
     "plays_fmt": "3"
+   },
+   {
+    "track": "Hariko",
+    "artist": "Acle",
+    "plays": 3,
+    "plays_fmt": "3"
+   },
+   {
+    "track": "High-Light",
+    "artist": "EverBrighteller",
+    "plays": 3,
+    "plays_fmt": "3"
+   },
+   {
+    "track": "INBLUE",
+    "artist": "Ante",
+    "plays": 3,
+    "plays_fmt": "3"
+   },
+   {
+    "track": "Kind Heart",
+    "artist": "Acle",
+    "plays": 3,
+    "plays_fmt": "3"
+   },
+   {
+    "track": "Landmark",
+    "artist": "Inter Lude",
+    "plays": 3,
+    "plays_fmt": "3"
    }
   ],
   "by_day": [
-   {
-    "day": "9/13",
-    "plays": 160,
-    "plays_fmt": "160",
-    "pct": 90
-   },
    {
     "day": "9/14",
     "plays": 177,
@@ -856,6 +850,12 @@
     "plays": 162,
     "plays_fmt": "162",
     "pct": 92
+   },
+   {
+    "day": "9/20",
+    "plays": 125,
+    "plays_fmt": "125",
+    "pct": 71
    }
   ]
  }
