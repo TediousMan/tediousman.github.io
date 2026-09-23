@@ -1,13 +1,13 @@
 {
  "count": 150,
- "total_artists": 7398,
- "total_artists_fmt": "7,398",
+ "total_artists": 7402,
+ "total_artists_fmt": "7,402",
  "missing_img": 8,
  "artists": [
   {
    "name": "Mr.ふぉるて",
-   "plays": 1044,
-   "plays_fmt": "1,044",
+   "plays": 1045,
+   "plays_fmt": "1,045",
    "img": "https://i.scdn.co/image/ab6761610000e5ebdeb5dcdb155743929e7448e8"
   },
   {
@@ -30,8 +30,8 @@
   },
   {
    "name": "クレナズム",
-   "plays": 883,
-   "plays_fmt": "883",
+   "plays": 884,
+   "plays_fmt": "884",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfd833836d124624e366ed252"
   },
   {
@@ -54,8 +54,8 @@
   },
   {
    "name": "Cody・Lee(李)",
-   "plays": 760,
-   "plays_fmt": "760",
+   "plays": 761,
+   "plays_fmt": "761",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5ab731a2080334504454b0c1"
   },
   {
@@ -90,8 +90,8 @@
   },
   {
    "name": "kobore",
-   "plays": 660,
-   "plays_fmt": "660",
+   "plays": 662,
+   "plays_fmt": "662",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24"
   },
   {
@@ -144,8 +144,8 @@
   },
   {
    "name": "Hakubi",
-   "plays": 586,
-   "plays_fmt": "586",
+   "plays": 587,
+   "plays_fmt": "587",
    "img": "https://i.scdn.co/image/ab6761610000e5eba205df6c2dd898c3f39b35ec"
   },
   {
@@ -153,6 +153,12 @@
    "plays": 571,
    "plays_fmt": "571",
    "img": null
+  },
+  {
+   "name": "BRADIO",
+   "plays": 562,
+   "plays_fmt": "562",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb1b468ea5308efde05767f7f3"
   },
   {
    "name": "softsurf",
@@ -167,15 +173,9 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebd9a48d00ce7cf4d66abc76b6"
   },
   {
-   "name": "BRADIO",
-   "plays": 561,
-   "plays_fmt": "561",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb1b468ea5308efde05767f7f3"
-  },
-  {
    "name": "The Otals",
-   "plays": 559,
-   "plays_fmt": "559",
+   "plays": 560,
+   "plays_fmt": "560",
    "img": "https://i.scdn.co/image/ab6761610000e5ebe880728367d115f0c7dfceb6"
   },
   {
@@ -228,8 +228,8 @@
   },
   {
    "name": "YuToRi",
-   "plays": 493,
-   "plays_fmt": "493",
+   "plays": 494,
+   "plays_fmt": "494",
    "img": "https://i.scdn.co/image/ab6761610000e5eb887bf742501f2c0f583c3258"
   },
   {
@@ -282,8 +282,8 @@
   },
   {
    "name": "Village Man's Store",
-   "plays": 450,
-   "plays_fmt": "450",
+   "plays": 451,
+   "plays_fmt": "451",
    "img": "https://i.scdn.co/image/ab6761610000e5eb23b7dc7381cb8ed0d433ff12"
   },
   {
@@ -354,8 +354,8 @@
   },
   {
    "name": "Home",
-   "plays": 388,
-   "plays_fmt": "388",
+   "plays": 389,
+   "plays_fmt": "389",
    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
@@ -365,16 +365,22 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb7f8973aeb4176e61b0cec158"
   },
   {
+   "name": "Vaundy",
+   "plays": 386,
+   "plays_fmt": "386",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebb718d2d3988005d3a72f22c9"
+  },
+  {
    "name": "Asmi",
    "plays": 385,
    "plays_fmt": "385",
    "img": "https://i.scdn.co/image/ab6761610000e5eb3ac8e8114680356ca222ffa9"
   },
   {
-   "name": "Vaundy",
-   "plays": 384,
-   "plays_fmt": "384",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebb718d2d3988005d3a72f22c9"
+   "name": "sucola",
+   "plays": 382,
+   "plays_fmt": "382",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb7fdd8f90022d1fb6f09ce3c9"
   },
   {
    "name": "vivid undress",
@@ -389,15 +395,9 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eba388e0bb3eec78261dec8233"
   },
   {
-   "name": "sucola",
-   "plays": 381,
-   "plays_fmt": "381",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb7fdd8f90022d1fb6f09ce3c9"
-  },
-  {
    "name": "ego apartment",
-   "plays": 378,
-   "plays_fmt": "378",
+   "plays": 379,
+   "plays_fmt": "379",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfc5a54b5a68edefd85793554"
   },
   {
@@ -449,6 +449,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb74d551d6dbd3e14c7de78ab2"
   },
   {
+   "name": "kiki vivi lily",
+   "plays": 351,
+   "plays_fmt": "351",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebfe3b6188abc328838969e7c5"
+  },
+  {
    "name": "miida",
    "plays": 351,
    "plays_fmt": "351",
@@ -459,12 +465,6 @@
    "plays": 349,
    "plays_fmt": "349",
    "img": "https://i.scdn.co/image/ab6761610000e5ebff647d0f64da73922aad0cd5"
-  },
-  {
-   "name": "kiki vivi lily",
-   "plays": 349,
-   "plays_fmt": "349",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebfe3b6188abc328838969e7c5"
   },
   {
    "name": "Peanut Butters",
@@ -527,6 +527,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebdc38271ddea2dff37a837427"
   },
   {
+   "name": "Homecomings",
+   "plays": 325,
+   "plays_fmt": "325",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebd37a306d89030f0fe900b7e3"
+  },
+  {
    "name": "Reol",
    "plays": 325,
    "plays_fmt": "325",
@@ -539,15 +545,9 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb9247cd4ef50307e4425b4bf8"
   },
   {
-   "name": "Homecomings",
+   "name": "Polkadot Stingray",
    "plays": 323,
    "plays_fmt": "323",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebd37a306d89030f0fe900b7e3"
-  },
-  {
-   "name": "Polkadot Stingray",
-   "plays": 322,
-   "plays_fmt": "322",
    "img": "https://i.scdn.co/image/ab6761610000e5eb24dd03d4f0a965b78a0bf2f9"
   },
   {
@@ -624,14 +624,14 @@
   },
   {
    "name": "Stereogirl",
-   "plays": 307,
-   "plays_fmt": "307",
+   "plays": 308,
+   "plays_fmt": "308",
    "img": "https://i.scdn.co/image/ab67616d0000b27372bbe0606a583b1d66ddd16f"
   },
   {
    "name": "Longman",
-   "plays": 306,
-   "plays_fmt": "306",
+   "plays": 307,
+   "plays_fmt": "307",
    "img": "https://i.scdn.co/image/ab6761610000e5eb6bb8a0465f0ec9b427da4300"
   },
   {
@@ -647,6 +647,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb2c25588070d843e68a41d6f4"
   },
   {
+   "name": "Luby Sparks",
+   "plays": 304,
+   "plays_fmt": "304",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb99833843219af1cdc66223fc"
+  },
+  {
    "name": "the tiva",
    "plays": 304,
    "plays_fmt": "304",
@@ -657,12 +663,6 @@
    "plays": 303,
    "plays_fmt": "303",
    "img": "https://i.scdn.co/image/ab6761610000e5eba1c51edef1575cb474ffdb9a"
-  },
-  {
-   "name": "Luby Sparks",
-   "plays": 303,
-   "plays_fmt": "303",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb99833843219af1cdc66223fc"
   },
   {
    "name": "hitorie",
@@ -719,16 +719,16 @@
    "img": "https://i.scdn.co/image/ab67616d0000b2739522d7fafd953bddbddea2c9"
   },
   {
+   "name": "Have a nice day!",
+   "plays": 283,
+   "plays_fmt": "283",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
+  },
+  {
    "name": "Blumepopo",
    "plays": 282,
    "plays_fmt": "282",
    "img": null
-  },
-  {
-   "name": "Have a nice day!",
-   "plays": 282,
-   "plays_fmt": "282",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
   },
   {
    "name": "Nelko",
@@ -773,16 +773,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb35e11f5ad4a252b96a658376"
   },
   {
+   "name": "36km/h",
+   "plays": 276,
+   "plays_fmt": "276",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb8ffe1b4304fc8e392b97c2b7"
+  },
+  {
    "name": "Laura day romance",
    "plays": 276,
    "plays_fmt": "276",
    "img": "https://i.scdn.co/image/ab6761610000e5ebf27e76aad8ec44d8e0b38be2"
-  },
-  {
-   "name": "36km/h",
-   "plays": 275,
-   "plays_fmt": "275",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb8ffe1b4304fc8e392b97c2b7"
   },
   {
    "name": "ASOBOiSM",
@@ -810,8 +810,8 @@
   },
   {
    "name": "I Saw You Yesterday",
-   "plays": 267,
-   "plays_fmt": "267",
+   "plays": 268,
+   "plays_fmt": "268",
    "img": "https://i.scdn.co/image/ab6761610000e5ebf32519dab1f0daa82898fe82"
   },
   {
@@ -821,16 +821,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481"
   },
   {
+   "name": "illiomote",
+   "plays": 267,
+   "plays_fmt": "267",
+   "img": "https://i.scdn.co/image/ab6761610000e5eba9a5143d6eb3917fbe03ad9b"
+  },
+  {
    "name": "Hammer Head Shark",
    "plays": 266,
    "plays_fmt": "266",
    "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851"
-  },
-  {
-   "name": "illiomote",
-   "plays": 266,
-   "plays_fmt": "266",
-   "img": "https://i.scdn.co/image/ab6761610000e5eba9a5143d6eb3917fbe03ad9b"
   },
   {
    "name": "Ramblamp",
@@ -869,16 +869,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb812dd2720efdf5f4cb343358"
   },
   {
+   "name": "shallm",
+   "plays": 263,
+   "plays_fmt": "263",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebae40b992ffa53731ab3e62bf"
+  },
+  {
    "name": "Jam Fuzz Kid",
    "plays": 262,
    "plays_fmt": "262",
    "img": "https://i.scdn.co/image/ab6761610000e5eb521dd8791d85d8b317200133"
-  },
-  {
-   "name": "shallm",
-   "plays": 262,
-   "plays_fmt": "262",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebae40b992ffa53731ab3e62bf"
   },
   {
    "name": "Kankaku Piero",
