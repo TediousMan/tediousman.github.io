@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-23",
+ "generated": "2026-09-24",
  "year_label": "2026",
  "all": {
-  "total": 218916,
-  "total_fmt": "218,916",
+  "total": 219018,
+  "total_fmt": "219,018",
   "uniq_art": 7402,
   "uniq_art_fmt": "7,402",
   "uniq_trk": 30934,
   "uniq_trk_fmt": "30,934",
   "start": "2018-03-06",
-  "end": "2026-09-23",
+  "end": "2026-09-24",
   "top_art": [
    {
     "artist": "Mr.ふぉるて",
@@ -20,8 +20,8 @@
    },
    {
     "artist": "chilldspot",
-    "plays": 1044,
-    "plays_fmt": "1,044",
+    "plays": 1045,
+    "plays_fmt": "1,045",
     "img": "https://i.scdn.co/image/ab6761610000e5ebfffcd64678af9f7b7bab7832",
     "pct": 100
    },
@@ -267,9 +267,9 @@
    },
    {
     "year": "2026",
-    "plays": 35829,
-    "plays_fmt": "35,829",
-    "pct": 66
+    "plays": 35931,
+    "plays_fmt": "35,931",
+    "pct": 67
    }
   ],
   "new_art_by_year": [
@@ -330,8 +330,8 @@
   ]
  },
  "year": {
-  "total": 35829,
-  "total_fmt": "35,829",
+  "total": 35931,
+  "total_fmt": "35,931",
   "uniq_art": 2881,
   "uniq_art_fmt": "2,881",
   "uniq_trk": 8147,
@@ -353,15 +353,15 @@
    },
    {
     "artist": "BUDOU JUICE",
-    "plays": 242,
-    "plays_fmt": "242",
+    "plays": 243,
+    "plays_fmt": "243",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f",
     "pct": 92
    },
    {
     "artist": "bedgravity",
-    "plays": 229,
-    "plays_fmt": "229",
+    "plays": 230,
+    "plays_fmt": "230",
     "img": "https://i.scdn.co/image/ab67616d0000b273d29467756d06ae5882d98238",
     "pct": 87
    },
@@ -374,10 +374,10 @@
    },
    {
     "artist": "the Wulongs",
-    "plays": 207,
-    "plays_fmt": "207",
+    "plays": 208,
+    "plays_fmt": "208",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
-    "pct": 78
+    "pct": 79
    },
    {
     "artist": "uyuu",
@@ -402,8 +402,8 @@
    },
    {
     "artist": "tenbin O",
-    "plays": 168,
-    "plays_fmt": "168",
+    "plays": 170,
+    "plays_fmt": "170",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb146cdd0b2be813c4b411eb2",
     "pct": 64
    }
@@ -419,8 +419,8 @@
    {
     "album": "Unmet Needs",
     "artist": "bedgravity",
-    "plays": 229,
-    "plays_fmt": "229",
+    "plays": 230,
+    "plays_fmt": "230",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/d49e1932df6d076c99051c1c7fe957a4.jpg"
    },
    {
@@ -440,8 +440,8 @@
    {
     "album": "BUDOU JUICE",
     "artist": "BUDOU JUICE",
-    "plays": 182,
-    "plays_fmt": "182",
+    "plays": 183,
+    "plays_fmt": "183",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f"
    },
    {
@@ -538,8 +538,8 @@
    {
     "track": "Panzamast",
     "artist": "Tattletale",
-    "plays": 57,
-    "plays_fmt": "57"
+    "plays": 58,
+    "plays_fmt": "58"
    }
   ],
   "by_month": [
@@ -593,100 +593,114 @@
    },
    {
     "month": "9",
-    "plays": 3466,
-    "plays_fmt": "3,466",
-    "pct": 64
+    "plays": 3568,
+    "plays_fmt": "3,568",
+    "pct": 66
    }
   ]
  },
  "week": {
-  "total": 1279,
-  "total_fmt": "1,279",
-  "uniq_art": 587,
-  "uniq_art_fmt": "587",
-  "uniq_trk": 862,
-  "uniq_trk_fmt": "862",
-  "start": "9/17",
-  "end": "9/23",
+  "total": 1243,
+  "total_fmt": "1,243",
+  "uniq_art": 563,
+  "uniq_art_fmt": "563",
+  "uniq_trk": 839,
+  "uniq_trk_fmt": "839",
+  "start": "9/18",
+  "end": "9/24",
   "top_art": [
    {
     "artist": "Acle",
-    "plays": 21,
-    "plays_fmt": "21",
+    "plays": 18,
+    "plays_fmt": "18",
     "img": "https://i.scdn.co/image/ab67616d0000b273da3b2891301695c345c56bb8",
     "pct": 100
    },
    {
-    "artist": "AoOo",
-    "plays": 13,
-    "plays_fmt": "13",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
-    "pct": 62
+    "artist": "eskamila",
+    "plays": 14,
+    "plays_fmt": "14",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebd3ffb7ac1a7bc844a61b19de",
+    "pct": 78
    },
    {
     "artist": "Dizzy Sunfist",
     "plays": 13,
     "plays_fmt": "13",
     "img": "https://i.scdn.co/image/ab6761610000e5eb24a8714fef57a900f95f56bc",
-    "pct": 62
+    "pct": 72
+   },
+   {
+    "artist": "ue",
+    "plays": 13,
+    "plays_fmt": "13",
+    "img": null,
+    "pct": 72
+   },
+   {
+    "artist": "AoOo",
+    "plays": 12,
+    "plays_fmt": "12",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
+    "pct": 67
    },
    {
     "artist": "deddecay",
     "plays": 11,
     "plays_fmt": "11",
     "img": "https://i.scdn.co/image/ab6761610000e5ebcb49764d4560b5c430591de5",
-    "pct": 52
-   },
-   {
-    "artist": "eskamila",
-    "plays": 11,
-    "plays_fmt": "11",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebd3ffb7ac1a7bc844a61b19de",
-    "pct": 52
-   },
-   {
-    "artist": "ue",
-    "plays": 11,
-    "plays_fmt": "11",
-    "img": null,
-    "pct": 52
+    "pct": 61
    },
    {
     "artist": "Home",
     "plays": 10,
     "plays_fmt": "10",
     "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
-    "pct": 48
+    "pct": 56
    },
    {
     "artist": "PALMAT!CA",
     "plays": 10,
     "plays_fmt": "10",
     "img": null,
-    "pct": 48
+    "pct": 56
    },
    {
     "artist": "gnacchi",
     "plays": 10,
     "plays_fmt": "10",
     "img": null,
-    "pct": 48
+    "pct": 56
    },
    {
-    "artist": "laments",
-    "plays": 10,
-    "plays_fmt": "10",
-    "img": "https://i.scdn.co/image/ab67616d0000b273be20ab88cb112617a177a5bc",
-    "pct": 48
+    "artist": "Black Boboi",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb173cb515bfb6ca8f05dc2aca",
+    "pct": 50
    }
   ],
   "top_alb": [
    {
     "album": "Town in Mind",
     "artist": "Acle",
-    "plays": 18,
-    "plays_fmt": "18",
+    "plays": 15,
+    "plays_fmt": "15",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/7ce9707bcbff63303d56c4348ae4d809.jpg"
+   },
+   {
+    "album": "HomeComing",
+    "artist": "eskamila",
+    "plays": 14,
+    "plays_fmt": "14",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebd3ffb7ac1a7bc844a61b19de"
+   },
+   {
+    "album": "Landscapes Entwined",
+    "artist": "ue",
+    "plays": 13,
+    "plays_fmt": "13",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/f2b935a3f4b57eaa918ebd81e5490650.jpg"
    },
    {
     "album": "Our Dream Is Not Dead",
@@ -698,23 +712,9 @@
    {
     "album": "Rooom",
     "artist": "AoOo",
-    "plays": 13,
-    "plays_fmt": "13",
+    "plays": 12,
+    "plays_fmt": "12",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/da74e0f56cc6364849b7ac888d3492d5.jpg"
-   },
-   {
-    "album": "HomeComing",
-    "artist": "eskamila",
-    "plays": 11,
-    "plays_fmt": "11",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebd3ffb7ac1a7bc844a61b19de"
-   },
-   {
-    "album": "Landscapes Entwined",
-    "artist": "ue",
-    "plays": 11,
-    "plays_fmt": "11",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/f2b935a3f4b57eaa918ebd81e5490650.jpg"
    },
    {
     "album": "HOME COLLECTION",
@@ -731,13 +731,6 @@
     "img": null
    },
    {
-    "album": "Sokousuru",
-    "artist": "laments",
-    "plays": 10,
-    "plays_fmt": "10",
-    "img": "https://i.scdn.co/image/ab67616d0000b273be20ab88cb112617a177a5bc"
-   },
-   {
     "album": "gnacchi",
     "artist": "gnacchi",
     "plays": 10,
@@ -750,27 +743,16 @@
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/158d6943703e6cd30388cd6dba40f635.jpg"
+   },
+   {
+    "album": "Sokousuru",
+    "artist": "laments",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://i.scdn.co/image/ab67616d0000b273be20ab88cb112617a177a5bc"
    }
   ],
   "top_trk": [
-   {
-    "track": "BUBBLE",
-    "artist": "VantiQue",
-    "plays": 8,
-    "plays_fmt": "8"
-   },
-   {
-    "track": "港に応じて",
-    "artist": "Sar mo waits",
-    "plays": 7,
-    "plays_fmt": "7"
-   },
-   {
-    "track": "Still linger in the city",
-    "artist": "Acle",
-    "plays": 5,
-    "plays_fmt": "5"
-   },
    {
     "track": "Summer Town",
     "artist": "otomegikyo",
@@ -790,8 +772,8 @@
     "plays_fmt": "5"
    },
    {
-    "track": "wakare",
-    "artist": "hiragi no",
+    "track": "kokoro",
+    "artist": "Aonowa",
     "plays": 5,
     "plays_fmt": "5"
    },
@@ -808,19 +790,31 @@
     "plays_fmt": "5"
    },
    {
-    "track": "AI WO KOMETE",
-    "artist": "浪漫革命",
+    "track": "Aoi Haru",
+    "artist": "ミナトロジカ",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "Dawn",
+    "artist": "eskamila",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "Makira",
+    "artist": "PALMAT!CA",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "Makura",
+    "artist": "gnacchi",
     "plays": 4,
     "plays_fmt": "4"
    }
   ],
   "by_day": [
-   {
-    "day": "9/17",
-    "plays": 138,
-    "plays_fmt": "138",
-    "pct": 52
-   },
    {
     "day": "9/18",
     "plays": 129,
@@ -853,9 +847,15 @@
    },
    {
     "day": "9/23",
-    "plays": 200,
-    "plays_fmt": "200",
+    "plays": 201,
+    "plays_fmt": "201",
     "pct": 76
+   },
+   {
+    "day": "9/24",
+    "plays": 101,
+    "plays_fmt": "101",
+    "pct": 38
    }
   ]
  }
