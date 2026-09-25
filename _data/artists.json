@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7402,
- "total_artists_fmt": "7,402",
+ "total_artists": 7406,
+ "total_artists_fmt": "7,406",
  "missing_img": 8,
  "artists": [
   {
@@ -72,8 +72,8 @@
   },
   {
    "name": "FINLANDS",
-   "plays": 699,
-   "plays_fmt": "699",
+   "plays": 700,
+   "plays_fmt": "700",
    "img": "https://i.scdn.co/image/ab6761610000e5ebcf8988fc2f6375e25eb7a350"
   },
   {
@@ -156,8 +156,8 @@
   },
   {
    "name": "BRADIO",
-   "plays": 562,
-   "plays_fmt": "562",
+   "plays": 563,
+   "plays_fmt": "563",
    "img": "https://i.scdn.co/image/ab6761610000e5eb1b468ea5308efde05767f7f3"
   },
   {
@@ -521,6 +521,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb3052db8ddeaeb2ce3a7eb450"
   },
   {
+   "name": "Reol",
+   "plays": 326,
+   "plays_fmt": "326",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebdf2dbfb158e48df25bd49477"
+  },
+  {
    "name": "星期三的康帕內拉",
    "plays": 326,
    "plays_fmt": "326",
@@ -531,12 +537,6 @@
    "plays": 325,
    "plays_fmt": "325",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd37a306d89030f0fe900b7e3"
-  },
-  {
-   "name": "Reol",
-   "plays": 325,
-   "plays_fmt": "325",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebdf2dbfb158e48df25bd49477"
   },
   {
    "name": "Nagakumo",
@@ -677,16 +677,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebe6274dae98c66d06ae7382c9"
   },
   {
+   "name": "omeme tenten",
+   "plays": 295,
+   "plays_fmt": "295",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb3b770c187b6a716a2eb91f1b"
+  },
+  {
    "name": "YONA YONA WEEKENDERS",
    "plays": 294,
    "plays_fmt": "294",
    "img": "https://i.scdn.co/image/ab6761610000e5eb6b91739a5b0e997957fff733"
-  },
-  {
-   "name": "omeme tenten",
-   "plays": 294,
-   "plays_fmt": "294",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb3b770c187b6a716a2eb91f1b"
   },
   {
    "name": "Kenichiro Nishihara",
@@ -713,16 +713,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb48ac1b5769473be74c75e052"
   },
   {
+   "name": "Have a nice day!",
+   "plays": 284,
+   "plays_fmt": "284",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
+  },
+  {
    "name": "PanoramaMellow",
    "plays": 284,
    "plays_fmt": "284",
    "img": "https://i.scdn.co/image/ab67616d0000b2739522d7fafd953bddbddea2c9"
-  },
-  {
-   "name": "Have a nice day!",
-   "plays": 283,
-   "plays_fmt": "283",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
   },
   {
    "name": "Blumepopo",
@@ -834,8 +834,8 @@
   },
   {
    "name": "Ramblamp",
-   "plays": 264,
-   "plays_fmt": "264",
+   "plays": 265,
+   "plays_fmt": "265",
    "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
   },
   {
