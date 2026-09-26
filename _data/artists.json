@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7406,
- "total_artists_fmt": "7,406",
+ "total_artists": 7407,
+ "total_artists_fmt": "7,407",
  "missing_img": 8,
  "artists": [
   {
@@ -66,8 +66,8 @@
   },
   {
    "name": "Dannie May",
-   "plays": 724,
-   "plays_fmt": "724",
+   "plays": 725,
+   "plays_fmt": "725",
    "img": "https://i.scdn.co/image/ab6761610000e5eb9629e866cc65376368fe66a8"
   },
   {
@@ -90,8 +90,8 @@
   },
   {
    "name": "kobore",
-   "plays": 662,
-   "plays_fmt": "662",
+   "plays": 663,
+   "plays_fmt": "663",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24"
   },
   {
@@ -156,9 +156,15 @@
   },
   {
    "name": "BRADIO",
+   "plays": 564,
+   "plays_fmt": "564",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb1b468ea5308efde05767f7f3"
+  },
+  {
+   "name": "緑黄色社会",
    "plays": 563,
    "plays_fmt": "563",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb1b468ea5308efde05767f7f3"
+   "img": "https://i.scdn.co/image/ab6761610000e5ebd9a48d00ce7cf4d66abc76b6"
   },
   {
    "name": "softsurf",
@@ -167,15 +173,9 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb92da714ece35430b9155771c"
   },
   {
-   "name": "緑黄色社会",
-   "plays": 562,
-   "plays_fmt": "562",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebd9a48d00ce7cf4d66abc76b6"
-  },
-  {
    "name": "The Otals",
-   "plays": 560,
-   "plays_fmt": "560",
+   "plays": 561,
+   "plays_fmt": "561",
    "img": "https://i.scdn.co/image/ab6761610000e5ebe880728367d115f0c7dfceb6"
   },
   {
@@ -354,8 +354,8 @@
   },
   {
    "name": "Home",
-   "plays": 389,
-   "plays_fmt": "389",
+   "plays": 390,
+   "plays_fmt": "390",
    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
@@ -701,6 +701,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb94b818ce361beb89199170c8"
   },
   {
+   "name": "Have a nice day!",
+   "plays": 285,
+   "plays_fmt": "285",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
+  },
+  {
    "name": "魚韻",
    "plays": 285,
    "plays_fmt": "285",
@@ -711,12 +717,6 @@
    "plays": 284,
    "plays_fmt": "284",
    "img": "https://i.scdn.co/image/ab6761610000e5eb48ac1b5769473be74c75e052"
-  },
-  {
-   "name": "Have a nice day!",
-   "plays": 284,
-   "plays_fmt": "284",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
   },
   {
    "name": "PanoramaMellow",
@@ -743,6 +743,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb1c7ce3df2cce3afef74566cb"
   },
   {
+   "name": "Haruno",
+   "plays": 280,
+   "plays_fmt": "280",
+   "img": "https://i.scdn.co/image/ab67616d0000b2731494a1e1507f8dbfbce8f2df"
+  },
+  {
    "name": "Regal Lily",
    "plays": 280,
    "plays_fmt": "280",
@@ -753,12 +759,6 @@
    "plays": 279,
    "plays_fmt": "279",
    "img": "https://i.scdn.co/image/ab6761610000e5ebab458bf73950d79c2afe1249"
-  },
-  {
-   "name": "Haruno",
-   "plays": 279,
-   "plays_fmt": "279",
-   "img": "https://i.scdn.co/image/ab67616d0000b2731494a1e1507f8dbfbce8f2df"
   },
   {
    "name": "POOL",
@@ -804,8 +804,8 @@
   },
   {
    "name": "ホピーハイボ",
-   "plays": 270,
-   "plays_fmt": "270",
+   "plays": 271,
+   "plays_fmt": "271",
    "img": "https://i.scdn.co/image/ab6761610000e5eb0eef43e8d0a6ef8f2fe0cae6"
   },
   {
@@ -816,8 +816,8 @@
   },
   {
    "name": "Kienai",
-   "plays": 267,
-   "plays_fmt": "267",
+   "plays": 268,
+   "plays_fmt": "268",
    "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481"
   },
   {
