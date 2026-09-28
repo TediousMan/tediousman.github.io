@@ -1,20 +1,20 @@
 {
- "generated": "2026-09-27",
+ "generated": "2026-09-28",
  "year_label": "2026",
  "all": {
-  "total": 219319,
-  "total_fmt": "219,319",
+  "total": 219543,
+  "total_fmt": "219,543",
   "uniq_art": 7407,
   "uniq_art_fmt": "7,407",
   "uniq_trk": 30948,
   "uniq_trk_fmt": "30,948",
   "start": "2018-03-06",
-  "end": "2026-09-27",
+  "end": "2026-09-28",
   "top_art": [
    {
     "artist": "chilldspot",
-    "plays": 1046,
-    "plays_fmt": "1,046",
+    "plays": 1047,
+    "plays_fmt": "1,047",
     "img": "https://i.scdn.co/image/ab6761610000e5ebfffcd64678af9f7b7bab7832",
     "pct": 100
    },
@@ -44,12 +44,12 @@
     "plays": 884,
     "plays_fmt": "884",
     "img": "https://i.scdn.co/image/ab6761610000e5ebfd833836d124624e366ed252",
-    "pct": 85
+    "pct": 84
    },
    {
     "artist": "KROI",
-    "plays": 871,
-    "plays_fmt": "871",
+    "plays": 872,
+    "plays_fmt": "872",
     "img": "https://i.scdn.co/image/ab6761610000e5eb3891ccf48bd7eb050237f789",
     "pct": 83
    },
@@ -267,9 +267,9 @@
    },
    {
     "year": "2026",
-    "plays": 36232,
-    "plays_fmt": "36,232",
-    "pct": 67
+    "plays": 36456,
+    "plays_fmt": "36,456",
+    "pct": 68
    }
   ],
   "new_art_by_year": [
@@ -330,8 +330,8 @@
   ]
  },
  "year": {
-  "total": 36232,
-  "total_fmt": "36,232",
+  "total": 36456,
+  "total_fmt": "36,456",
   "uniq_art": 2886,
   "uniq_art_fmt": "2,886",
   "uniq_trk": 8161,
@@ -339,8 +339,8 @@
   "top_art": [
    {
     "artist": "Kienai",
-    "plays": 266,
-    "plays_fmt": "266",
+    "plays": 267,
+    "plays_fmt": "267",
     "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481",
     "pct": 100
    },
@@ -349,61 +349,61 @@
     "plays": 265,
     "plays_fmt": "265",
     "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf",
-    "pct": 100
+    "pct": 99
    },
    {
     "artist": "BUDOU JUICE",
-    "plays": 244,
-    "plays_fmt": "244",
+    "plays": 245,
+    "plays_fmt": "245",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f",
     "pct": 92
    },
    {
-    "artist": "bedgravity",
-    "plays": 230,
-    "plays_fmt": "230",
-    "img": "https://i.scdn.co/image/ab67616d0000b273d29467756d06ae5882d98238",
-    "pct": 86
+    "artist": "あたまたんさん",
+    "plays": 232,
+    "plays_fmt": "232",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44",
+    "pct": 87
    },
    {
-    "artist": "あたまたんさん",
-    "plays": 230,
-    "plays_fmt": "230",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44",
-    "pct": 86
+    "artist": "bedgravity",
+    "plays": 231,
+    "plays_fmt": "231",
+    "img": "https://i.scdn.co/image/ab67616d0000b273d29467756d06ae5882d98238",
+    "pct": 87
    },
    {
     "artist": "the Wulongs",
     "plays": 209,
     "plays_fmt": "209",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
-    "pct": 79
+    "pct": 78
+   },
+   {
+    "artist": "Home",
+    "plays": 198,
+    "plays_fmt": "198",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
+    "pct": 74
    },
    {
     "artist": "uyuu",
-    "plays": 197,
-    "plays_fmt": "197",
+    "plays": 198,
+    "plays_fmt": "198",
     "img": "https://i.scdn.co/image/ab67616d0000b27381582c0fb8f5908a6aee7f3e",
     "pct": 74
    },
    {
-    "artist": "Home",
-    "plays": 195,
-    "plays_fmt": "195",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
-    "pct": 73
-   },
-   {
     "artist": "wanbed",
-    "plays": 179,
-    "plays_fmt": "179",
+    "plays": 180,
+    "plays_fmt": "180",
     "img": "https://i.scdn.co/image/ab6761610000e5eb015e59262813fcf812ddf659",
     "pct": 67
    },
    {
     "artist": "tenbin O",
-    "plays": 171,
-    "plays_fmt": "171",
+    "plays": 172,
+    "plays_fmt": "172",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb146cdd0b2be813c4b411eb2",
     "pct": 64
    }
@@ -412,36 +412,36 @@
    {
     "album": "sparkleII",
     "artist": "Kienai",
-    "plays": 263,
-    "plays_fmt": "263",
+    "plays": 264,
+    "plays_fmt": "264",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/1c6a42ba2640cb0ed267d0c9d6a5f106.jpg"
    },
    {
     "album": "Unmet Needs",
     "artist": "bedgravity",
-    "plays": 230,
-    "plays_fmt": "230",
+    "plays": 231,
+    "plays_fmt": "231",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/d49e1932df6d076c99051c1c7fe957a4.jpg"
    },
    {
     "album": "鉄の掟",
     "artist": "あたまたんさん",
-    "plays": 229,
-    "plays_fmt": "229",
+    "plays": 231,
+    "plays_fmt": "231",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44"
    },
    {
     "album": "HOME COLLECTION",
     "artist": "Home",
-    "plays": 191,
-    "plays_fmt": "191",
+    "plays": 194,
+    "plays_fmt": "194",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
    },
    {
     "album": "BUDOU JUICE",
     "artist": "BUDOU JUICE",
-    "plays": 184,
-    "plays_fmt": "184",
+    "plays": 185,
+    "plays_fmt": "185",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f"
    },
    {
@@ -461,9 +461,16 @@
    {
     "album": "135",
     "artist": "wanbed",
-    "plays": 159,
-    "plays_fmt": "159",
+    "plays": 160,
+    "plays_fmt": "160",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/8f67506eb69e1457aed72a3f1273f862.jpg"
+   },
+   {
+    "album": "Landscapes Entwined",
+    "artist": "ue",
+    "plays": 154,
+    "plays_fmt": "154",
+    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/f2b935a3f4b57eaa918ebd81e5490650.jpg"
    },
    {
     "album": "INNER SYNC",
@@ -471,13 +478,6 @@
     "plays": 153,
     "plays_fmt": "153",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/389d72d53aa10059db21ff4907f3ee32.jpg"
-   },
-   {
-    "album": "Landscapes Entwined",
-    "artist": "ue",
-    "plays": 149,
-    "plays_fmt": "149",
-    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/f2b935a3f4b57eaa918ebd81e5490650.jpg"
    }
   ],
   "top_trk": [
@@ -593,29 +593,22 @@
    },
    {
     "month": "9",
-    "plays": 3869,
-    "plays_fmt": "3,869",
-    "pct": 71
+    "plays": 4093,
+    "plays_fmt": "4,093",
+    "pct": 75
    }
   ]
  },
  "week": {
-  "total": 1113,
-  "total_fmt": "1,113",
+  "total": 1090,
+  "total_fmt": "1,090",
   "uniq_art": 541,
   "uniq_art_fmt": "541",
-  "uniq_trk": 764,
-  "uniq_trk_fmt": "764",
-  "start": "9/21",
-  "end": "9/27",
+  "uniq_trk": 758,
+  "uniq_trk_fmt": "758",
+  "start": "9/22",
+  "end": "9/28",
   "top_art": [
-   {
-    "artist": "deddecay",
-    "plays": 12,
-    "plays_fmt": "12",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebcb49764d4560b5c430591de5",
-    "pct": 100
-   },
    {
     "artist": "eskamila",
     "plays": 12,
@@ -631,13 +624,6 @@
     "pct": 100
    },
    {
-    "artist": "AoOo",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
-    "pct": 75
-   },
-   {
     "artist": "Yosuga",
     "plays": 9,
     "plays_fmt": "9",
@@ -645,17 +631,10 @@
     "pct": 75
    },
    {
-    "artist": "Acle",
+    "artist": "AoOo",
     "plays": 8,
     "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab67616d0000b273da3b2891301695c345c56bb8",
-    "pct": 67
-   },
-   {
-    "artist": "ArTwins",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb79cd07f02fae305cfb044a33",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
     "pct": 67
    },
    {
@@ -673,11 +652,32 @@
     "pct": 67
    },
    {
-    "artist": "Vaundy",
+    "artist": "Yabai T-Shirts Yasan",
     "plays": 8,
     "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebb718d2d3988005d3a72f22c9",
+    "img": "https://i.scdn.co/image/ab6761610000e5eba4942c76d42f415e9d903ed9",
     "pct": 67
+   },
+   {
+    "artist": "hiragi no",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb8bd4fd626890268f5717744a",
+    "pct": 67
+   },
+   {
+    "artist": "Acle",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://i.scdn.co/image/ab67616d0000b273da3b2891301695c345c56bb8",
+    "pct": 58
+   },
+   {
+    "artist": "BUDOU JUICE",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f",
+    "pct": 58
    }
   ],
   "top_alb": [
@@ -696,20 +696,6 @@
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/f2b935a3f4b57eaa918ebd81e5490650.jpg"
    },
    {
-    "album": "CASCADE",
-    "artist": "deddecay",
-    "plays": 10,
-    "plays_fmt": "10",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebcb49764d4560b5c430591de5"
-   },
-   {
-    "album": "Rooom",
-    "artist": "AoOo",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/da74e0f56cc6364849b7ac888d3492d5.jpg"
-   },
-   {
     "album": "yoridokoro",
     "artist": "Yosuga",
     "plays": 9,
@@ -724,18 +710,18 @@
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/c4516a9b5490c706796e39a651d9b1a9.jpg"
    },
    {
+    "album": "Rooom",
+    "artist": "AoOo",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/da74e0f56cc6364849b7ac888d3492d5.jpg"
+   },
+   {
     "album": "Sepia",
     "artist": "Black Boboi",
     "plays": 8,
     "plays_fmt": "8",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/158d6943703e6cd30388cd6dba40f635.jpg"
-   },
-   {
-    "album": "ArTwins",
-    "artist": "ArTwins",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb79cd07f02fae305cfb044a33"
    },
    {
     "album": "GOLD",
@@ -750,6 +736,20 @@
     "plays": 7,
     "plays_fmt": "7",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
+   },
+   {
+    "album": "PIERROT",
+    "artist": "カライドスコープ",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://i.scdn.co/image/ab67616d0000b27360ded8a2f127bf628e6e81e4"
+   },
+   {
+    "album": "TOKYO JUNPAKU",
+    "artist": "pinfu",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://i.scdn.co/image/ab67616d0000b273f4e424ad28550f7ce992dd69"
    }
   ],
   "top_trk": [
@@ -766,32 +766,14 @@
     "plays_fmt": "4"
    },
    {
-    "track": "Lv.1 職業：人間",
-    "artist": "ReoNa",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
     "track": "Stay or Play? (with SOMAOTA)",
     "artist": "QOOPIE",
     "plays": 4,
     "plays_fmt": "4"
    },
    {
-    "track": "Still linger in the city",
-    "artist": "Acle",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
     "track": "Summer Town",
     "artist": "otomegikyo",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "Time Traveler of Comet (demo)",
-    "artist": "Suichuyuhiko",
     "plays": 4,
     "plays_fmt": "4"
    },
@@ -808,19 +790,31 @@
     "plays_fmt": "4"
    },
    {
-    "track": "serotonin",
-    "artist": "deddecay",
+    "track": "tukininegatte",
+    "artist": "Inter Lude",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "wakare",
+    "artist": "hiragi no",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "wall",
+    "artist": "hiragi no",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "アップル",
+    "artist": "yobai suspects",
     "plays": 4,
     "plays_fmt": "4"
    }
   ],
   "by_day": [
-   {
-    "day": "9/21",
-    "plays": 247,
-    "plays_fmt": "247",
-    "pct": 94
-   },
    {
     "day": "9/22",
     "plays": 263,
@@ -853,9 +847,15 @@
    },
    {
     "day": "9/27",
-    "plays": 121,
-    "plays_fmt": "121",
+    "plays": 122,
+    "plays_fmt": "122",
     "pct": 46
+   },
+   {
+    "day": "9/28",
+    "plays": 223,
+    "plays_fmt": "223",
+    "pct": 85
    }
   ]
  }

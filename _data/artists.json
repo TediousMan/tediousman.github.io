@@ -6,8 +6,8 @@
  "artists": [
   {
    "name": "chilldspot",
-   "plays": 1046,
-   "plays_fmt": "1,046",
+   "plays": 1047,
+   "plays_fmt": "1,047",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfffcd64678af9f7b7bab7832"
   },
   {
@@ -36,8 +36,8 @@
   },
   {
    "name": "KROI",
-   "plays": 871,
-   "plays_fmt": "871",
+   "plays": 872,
+   "plays_fmt": "872",
    "img": "https://i.scdn.co/image/ab6761610000e5eb3891ccf48bd7eb050237f789"
   },
   {
@@ -72,8 +72,8 @@
   },
   {
    "name": "FINLANDS",
-   "plays": 700,
-   "plays_fmt": "700",
+   "plays": 701,
+   "plays_fmt": "701",
    "img": "https://i.scdn.co/image/ab6761610000e5ebcf8988fc2f6375e25eb7a350"
   },
   {
@@ -90,8 +90,8 @@
   },
   {
    "name": "kobore",
-   "plays": 664,
-   "plays_fmt": "664",
+   "plays": 665,
+   "plays_fmt": "665",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24"
   },
   {
@@ -138,8 +138,8 @@
   },
   {
    "name": "reGretGirl",
-   "plays": 591,
-   "plays_fmt": "591",
+   "plays": 592,
+   "plays_fmt": "592",
    "img": "https://i.scdn.co/image/ab6761610000e5eb003605944411f68127e75169"
   },
   {
@@ -270,8 +270,8 @@
   },
   {
    "name": "レイラ",
-   "plays": 458,
-   "plays_fmt": "458",
+   "plays": 459,
+   "plays_fmt": "459",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5a7ae7ae77a6230eb4107638"
   },
   {
@@ -323,6 +323,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb2e883a5a8f9cb639a233051e"
   },
   {
+   "name": "Dansa Med Dig",
+   "plays": 416,
+   "plays_fmt": "416",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb590cfa1ad794bf2697150167"
+  },
+  {
    "name": "アルコサイト",
    "plays": 416,
    "plays_fmt": "416",
@@ -335,12 +341,6 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb1ae047357a3fad0858406431"
   },
   {
-   "name": "Dansa Med Dig",
-   "plays": 414,
-   "plays_fmt": "414",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb590cfa1ad794bf2697150167"
-  },
-  {
    "name": "GOHOBI",
    "plays": 394,
    "plays_fmt": "394",
@@ -348,14 +348,14 @@
   },
   {
    "name": "Home",
-   "plays": 391,
-   "plays_fmt": "391",
+   "plays": 394,
+   "plays_fmt": "394",
    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
    "name": "Muque",
-   "plays": 391,
-   "plays_fmt": "391",
+   "plays": 392,
+   "plays_fmt": "392",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
   },
   {
@@ -731,16 +731,16 @@
    "img": null
   },
   {
+   "name": "Haruno",
+   "plays": 282,
+   "plays_fmt": "282",
+   "img": "https://i.scdn.co/image/ab67616d0000b2731494a1e1507f8dbfbce8f2df"
+  },
+  {
    "name": "Nelko",
    "plays": 282,
    "plays_fmt": "282",
    "img": "https://i.scdn.co/image/ab6761610000e5eb55300c7fa7dffdc1abd1fd39"
-  },
-  {
-   "name": "Haruno",
-   "plays": 281,
-   "plays_fmt": "281",
-   "img": "https://i.scdn.co/image/ab67616d0000b2731494a1e1507f8dbfbce8f2df"
   },
   {
    "name": "mukeikaku",
@@ -774,8 +774,8 @@
   },
   {
    "name": "36km/h",
-   "plays": 276,
-   "plays_fmt": "276",
+   "plays": 277,
+   "plays_fmt": "277",
    "img": "https://i.scdn.co/image/ab6761610000e5eb8ffe1b4304fc8e392b97c2b7"
   },
   {
@@ -810,8 +810,8 @@
   },
   {
    "name": "Kienai",
-   "plays": 269,
-   "plays_fmt": "269",
+   "plays": 270,
+   "plays_fmt": "270",
    "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481"
   },
   {
@@ -899,10 +899,10 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebf1bccfddcfc9fba86e5b177f"
   },
   {
-   "name": "Gas and Burner",
+   "name": "Black Boboi",
    "plays": 258,
    "plays_fmt": "258",
-   "img": "https://i.scdn.co/image/ab67616d0000b27391607922cbc9e2b89f3e4e1a"
+   "img": "https://i.scdn.co/image/ab6761610000e5eb173cb515bfb6ca8f05dc2aca"
   }
  ]
 }
