@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-29",
+ "generated": "2026-09-30",
  "year_label": "2026",
  "all": {
-  "total": 219629,
-  "total_fmt": "219,629",
+  "total": 219717,
+  "total_fmt": "219,717",
   "uniq_art": 7408,
   "uniq_art_fmt": "7,408",
-  "uniq_trk": 30950,
-  "uniq_trk_fmt": "30,950",
+  "uniq_trk": 30969,
+  "uniq_trk_fmt": "30,969",
   "start": "2018-03-06",
-  "end": "2026-09-29",
+  "end": "2026-09-30",
   "top_art": [
    {
     "artist": "chilldspot",
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 36542,
-    "plays_fmt": "36,542",
+    "plays": 36630,
+    "plays_fmt": "36,630",
     "pct": 68
    }
   ],
@@ -330,12 +330,12 @@
   ]
  },
  "year": {
-  "total": 36542,
-  "total_fmt": "36,542",
-  "uniq_art": 2888,
-  "uniq_art_fmt": "2,888",
-  "uniq_trk": 8163,
-  "uniq_trk_fmt": "8,163",
+  "total": 36630,
+  "total_fmt": "36,630",
+  "uniq_art": 2889,
+  "uniq_art_fmt": "2,889",
+  "uniq_trk": 8182,
+  "uniq_trk_fmt": "8,182",
   "top_art": [
    {
     "artist": "Kienai",
@@ -367,24 +367,24 @@
    },
    {
     "artist": "bedgravity",
-    "plays": 231,
-    "plays_fmt": "231",
+    "plays": 232,
+    "plays_fmt": "232",
     "img": "https://i.scdn.co/image/ab67616d0000b273d29467756d06ae5882d98238",
     "pct": 87
    },
    {
     "artist": "the Wulongs",
-    "plays": 209,
-    "plays_fmt": "209",
+    "plays": 210,
+    "plays_fmt": "210",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
-    "pct": 78
+    "pct": 79
    },
    {
     "artist": "Home",
-    "plays": 198,
-    "plays_fmt": "198",
+    "plays": 200,
+    "plays_fmt": "200",
     "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
-    "pct": 74
+    "pct": 75
    },
    {
     "artist": "uyuu",
@@ -417,6 +417,13 @@
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/1c6a42ba2640cb0ed267d0c9d6a5f106.jpg"
    },
    {
+    "album": "Unmet Needs",
+    "artist": "bedgravity",
+    "plays": 232,
+    "plays_fmt": "232",
+    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/d49e1932df6d076c99051c1c7fe957a4.jpg"
+   },
+   {
     "album": "鉄の掟",
     "artist": "あたまたんさん",
     "plays": 232,
@@ -424,17 +431,10 @@
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44"
    },
    {
-    "album": "Unmet Needs",
-    "artist": "bedgravity",
-    "plays": 231,
-    "plays_fmt": "231",
-    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/d49e1932df6d076c99051c1c7fe957a4.jpg"
-   },
-   {
     "album": "HOME COLLECTION",
     "artist": "Home",
-    "plays": 194,
-    "plays_fmt": "194",
+    "plays": 196,
+    "plays_fmt": "196",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
    },
    {
@@ -593,128 +593,128 @@
    },
    {
     "month": "9",
-    "plays": 4179,
-    "plays_fmt": "4,179",
-    "pct": 77
+    "plays": 4267,
+    "plays_fmt": "4,267",
+    "pct": 78
    }
   ]
  },
  "week": {
-  "total": 913,
-  "total_fmt": "913",
-  "uniq_art": 479,
-  "uniq_art_fmt": "479",
-  "uniq_trk": 653,
-  "uniq_trk_fmt": "653",
-  "start": "9/23",
-  "end": "9/29",
+  "total": 800,
+  "total_fmt": "800",
+  "uniq_art": 398,
+  "uniq_art_fmt": "398",
+  "uniq_trk": 533,
+  "uniq_trk_fmt": "533",
+  "start": "9/24",
+  "end": "9/30",
   "top_art": [
    {
     "artist": "ue",
-    "plays": 12,
-    "plays_fmt": "12",
+    "plays": 11,
+    "plays_fmt": "11",
     "img": null,
     "pct": 100
    },
    {
-    "artist": "Yosuga",
+    "artist": "The Boring Tapes",
+    "plays": 10,
+    "plays_fmt": "10",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb453cae76249491ffcfc8f78a",
+    "pct": 91
+   },
+   {
+    "artist": "deddecay",
     "plays": 9,
     "plays_fmt": "9",
-    "img": null,
-    "pct": 75
+    "img": "https://i.scdn.co/image/ab6761610000e5ebcb49764d4560b5c430591de5",
+    "pct": 82
    },
    {
     "artist": "eskamila",
-    "plays": 9,
-    "plays_fmt": "9",
+    "plays": 8,
+    "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd3ffb7ac1a7bc844a61b19de",
-    "pct": 75
-   },
-   {
-    "artist": "Acle",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab67616d0000b273da3b2891301695c345c56bb8",
-    "pct": 58
-   },
-   {
-    "artist": "AoOo",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
-    "pct": 58
+    "pct": 73
    },
    {
     "artist": "Black Boboi",
     "plays": 7,
     "plays_fmt": "7",
     "img": "https://i.scdn.co/image/ab6761610000e5eb173cb515bfb6ca8f05dc2aca",
-    "pct": 58
-   },
-   {
-    "artist": "Yabai T-Shirts Yasan",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eba4942c76d42f415e9d903ed9",
-    "pct": 58
-   },
-   {
-    "artist": "Zanjitsu",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab67616d0000b2736b3922710747840de25763a5",
-    "pct": 58
-   },
-   {
-    "artist": "deddecay",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebcb49764d4560b5c430591de5",
-    "pct": 58
+    "pct": 64
    },
    {
     "artist": "EverBrighteller",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb503dcd9fd679892ccbc7fc71",
+    "pct": 64
+   },
+   {
+    "artist": "Home",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
+    "pct": 64
+   },
+   {
+    "artist": "Acle",
     "plays": 6,
     "plays_fmt": "6",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb503dcd9fd679892ccbc7fc71",
-    "pct": 50
+    "img": "https://i.scdn.co/image/ab67616d0000b273da3b2891301695c345c56bb8",
+    "pct": 55
+   },
+   {
+    "artist": "AoOo",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
+    "pct": 55
+   },
+   {
+    "artist": "Aonowa",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb83e8fdf933b8b52d934bc28f",
+    "pct": 55
    }
   ],
   "top_alb": [
    {
     "album": "Landscapes Entwined",
     "artist": "ue",
-    "plays": 12,
-    "plays_fmt": "12",
+    "plays": 11,
+    "plays_fmt": "11",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/f2b935a3f4b57eaa918ebd81e5490650.jpg"
+   },
+   {
+    "album": "All Live Under Some Sort of Curse",
+    "artist": "The Boring Tapes",
+    "plays": 10,
+    "plays_fmt": "10",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb453cae76249491ffcfc8f78a"
    },
    {
     "album": "HomeComing",
     "artist": "eskamila",
-    "plays": 9,
-    "plays_fmt": "9",
+    "plays": 8,
+    "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd3ffb7ac1a7bc844a61b19de"
    },
    {
-    "album": "yoridokoro",
-    "artist": "Yosuga",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/74e60ca4afaa889d37fb05edf3594427.jpg"
-   },
-   {
-    "album": "Magical Tank-top Parade",
-    "artist": "Yabai T-Shirts Yasan",
+    "album": "GOLD",
+    "artist": "EverBrighteller",
     "plays": 7,
     "plays_fmt": "7",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/c4516a9b5490c706796e39a651d9b1a9.jpg"
+    "img": "https://i.scdn.co/image/ab6761610000e5eb503dcd9fd679892ccbc7fc71"
    },
    {
-    "album": "Rooom",
-    "artist": "AoOo",
+    "album": "HOME COLLECTION",
+    "artist": "Home",
     "plays": 7,
     "plays_fmt": "7",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/da74e0f56cc6364849b7ac888d3492d5.jpg"
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
    },
    {
     "album": "Sepia",
@@ -724,50 +724,50 @@
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/158d6943703e6cd30388cd6dba40f635.jpg"
    },
    {
-    "album": "随分と長い間おれたちは",
-    "artist": "Zanjitsu",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/64da1c014fffe0fc520c1028bccb08ac.jpg"
-   },
-   {
-    "album": "GOLD",
-    "artist": "EverBrighteller",
+    "album": "CASCADE",
+    "artist": "deddecay",
     "plays": 6,
     "plays_fmt": "6",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb503dcd9fd679892ccbc7fc71"
+    "img": "https://i.scdn.co/image/ab6761610000e5ebcb49764d4560b5c430591de5"
    },
    {
-    "album": "HOME COLLECTION",
-    "artist": "Home",
+    "album": "Magical Tank-top Parade",
+    "artist": "Yabai T-Shirts Yasan",
     "plays": 6,
     "plays_fmt": "6",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/c4516a9b5490c706796e39a651d9b1a9.jpg"
    },
    {
-    "album": "Town in Mind",
-    "artist": "Acle",
+    "album": "REWILD",
+    "artist": "ochunism",
     "plays": 6,
     "plays_fmt": "6",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/7ce9707bcbff63303d56c4348ae4d809.jpg"
+    "img": "https://i.scdn.co/image/ab6761610000e5eb62c9b61afc21d04d0b23aec8"
+   },
+   {
+    "album": "Rooom",
+    "artist": "AoOo",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/da74e0f56cc6364849b7ac888d3492d5.jpg"
    }
   ],
   "top_trk": [
    {
     "track": "kokoro",
     "artist": "Aonowa",
-    "plays": 5,
-    "plays_fmt": "5"
-   },
-   {
-    "track": "Aoi Haru",
-    "artist": "ミナトロジカ",
-    "plays": 4,
-    "plays_fmt": "4"
+    "plays": 6,
+    "plays_fmt": "6"
    },
    {
     "track": "Keep My Head Up",
     "artist": "türk bluez",
+    "plays": 5,
+    "plays_fmt": "5"
+   },
+   {
+    "track": "Kokusho",
+    "artist": "yusraume",
     "plays": 4,
     "plays_fmt": "4"
    },
@@ -784,14 +784,20 @@
     "plays_fmt": "4"
    },
    {
-    "track": "アップル",
-    "artist": "yobai suspects",
+    "track": "talk to me",
+    "artist": "deddecay",
     "plays": 4,
     "plays_fmt": "4"
    },
    {
     "track": "1998",
     "artist": "ue",
+    "plays": 3,
+    "plays_fmt": "3"
+   },
+   {
+    "track": "Aoi Haru",
+    "artist": "ミナトロジカ",
     "plays": 3,
     "plays_fmt": "3"
    },
@@ -806,21 +812,9 @@
     "artist": "Black Boboi",
     "plays": 3,
     "plays_fmt": "3"
-   },
-   {
-    "track": "ENDLESS ROWS",
-    "artist": "nothing out the window",
-    "plays": 3,
-    "plays_fmt": "3"
    }
   ],
   "by_day": [
-   {
-    "day": "9/23",
-    "plays": 201,
-    "plays_fmt": "201",
-    "pct": 90
-   },
    {
     "day": "9/24",
     "plays": 102,
@@ -853,9 +847,15 @@
    },
    {
     "day": "9/29",
-    "plays": 85,
-    "plays_fmt": "85",
-    "pct": 38
+    "plays": 101,
+    "plays_fmt": "101",
+    "pct": 45
+   },
+   {
+    "day": "9/30",
+    "plays": 72,
+    "plays_fmt": "72",
+    "pct": 32
    }
   ]
  }

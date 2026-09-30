@@ -270,8 +270,8 @@
   },
   {
    "name": "レイラ",
-   "plays": 459,
-   "plays_fmt": "459",
+   "plays": 460,
+   "plays_fmt": "460",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5a7ae7ae77a6230eb4107638"
   },
   {
@@ -324,8 +324,8 @@
   },
   {
    "name": "Dansa Med Dig",
-   "plays": 416,
-   "plays_fmt": "416",
+   "plays": 417,
+   "plays_fmt": "417",
    "img": "https://i.scdn.co/image/ab6761610000e5eb590cfa1ad794bf2697150167"
   },
   {
@@ -341,16 +341,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb1ae047357a3fad0858406431"
   },
   {
+   "name": "Home",
+   "plays": 396,
+   "plays_fmt": "396",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
+  },
+  {
    "name": "GOHOBI",
    "plays": 394,
    "plays_fmt": "394",
    "img": "https://i.scdn.co/image/ab6761610000e5eb93311cae2f611f16a5d84e43"
-  },
-  {
-   "name": "Home",
-   "plays": 394,
-   "plays_fmt": "394",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
    "name": "Muque",
@@ -426,14 +426,14 @@
   },
   {
    "name": "life crown",
-   "plays": 368,
-   "plays_fmt": "368",
+   "plays": 369,
+   "plays_fmt": "369",
    "img": "https://i.scdn.co/image/ab6761610000e5eba28745b1de7f1ad1d41514f6"
   },
   {
    "name": "えんぷてい",
-   "plays": 368,
-   "plays_fmt": "368",
+   "plays": 369,
+   "plays_fmt": "369",
    "img": "https://i.scdn.co/image/ab6761610000e5eb11b3475e61b812fbe2327bd0"
   },
   {
