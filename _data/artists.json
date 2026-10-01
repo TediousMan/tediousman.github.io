@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7408,
- "total_artists_fmt": "7,408",
+ "total_artists": 7409,
+ "total_artists_fmt": "7,409",
  "missing_img": 8,
  "artists": [
   {
@@ -276,8 +276,8 @@
   },
   {
    "name": "Sazanami",
-   "plays": 457,
-   "plays_fmt": "457",
+   "plays": 458,
+   "plays_fmt": "458",
    "img": "https://i.scdn.co/image/ab6761610000e5eba3f038b0d76a49de0bd33221"
   },
   {
@@ -348,8 +348,8 @@
   },
   {
    "name": "GOHOBI",
-   "plays": 394,
-   "plays_fmt": "394",
+   "plays": 395,
+   "plays_fmt": "395",
    "img": "https://i.scdn.co/image/ab6761610000e5eb93311cae2f611f16a5d84e43"
   },
   {
@@ -636,8 +636,8 @@
   },
   {
    "name": "Nigami 17th birthday!!",
-   "plays": 306,
-   "plays_fmt": "306",
+   "plays": 307,
+   "plays_fmt": "307",
    "img": "https://i.scdn.co/image/ab6761610000e5ebad1458fe213f198f7b11d1d4"
   },
   {
@@ -677,16 +677,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebe6274dae98c66d06ae7382c9"
   },
   {
+   "name": "YONA YONA WEEKENDERS",
+   "plays": 295,
+   "plays_fmt": "295",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb6b91739a5b0e997957fff733"
+  },
+  {
    "name": "omeme tenten",
    "plays": 295,
    "plays_fmt": "295",
    "img": "https://i.scdn.co/image/ab6761610000e5eb3b770c187b6a716a2eb91f1b"
-  },
-  {
-   "name": "YONA YONA WEEKENDERS",
-   "plays": 294,
-   "plays_fmt": "294",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb6b91739a5b0e997957fff733"
   },
   {
    "name": "Kenichiro Nishihara",
@@ -725,16 +725,16 @@
    "img": "https://i.scdn.co/image/ab67616d0000b2739522d7fafd953bddbddea2c9"
   },
   {
+   "name": "Haruno",
+   "plays": 283,
+   "plays_fmt": "283",
+   "img": "https://i.scdn.co/image/ab67616d0000b2731494a1e1507f8dbfbce8f2df"
+  },
+  {
    "name": "Blumepopo",
    "plays": 282,
    "plays_fmt": "282",
    "img": null
-  },
-  {
-   "name": "Haruno",
-   "plays": 282,
-   "plays_fmt": "282",
-   "img": "https://i.scdn.co/image/ab67616d0000b2731494a1e1507f8dbfbce8f2df"
   },
   {
    "name": "Nelko",
@@ -834,8 +834,8 @@
   },
   {
    "name": "Ramblamp",
-   "plays": 265,
-   "plays_fmt": "265",
+   "plays": 266,
+   "plays_fmt": "266",
    "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
   },
   {
@@ -899,10 +899,10 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebf1bccfddcfc9fba86e5b177f"
   },
   {
-   "name": "Black Boboi",
-   "plays": 258,
-   "plays_fmt": "258",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb173cb515bfb6ca8f05dc2aca"
+   "name": "the Wulongs",
+   "plays": 260,
+   "plays_fmt": "260",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc"
   }
  ]
 }
