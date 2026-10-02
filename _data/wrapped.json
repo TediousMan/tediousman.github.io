@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-01",
+ "generated": "2026-10-02",
  "year_label": "2026",
  "all": {
-  "total": 219861,
-  "total_fmt": "219,861",
-  "uniq_art": 7409,
-  "uniq_art_fmt": "7,409",
-  "uniq_trk": 30970,
-  "uniq_trk_fmt": "30,970",
+  "total": 219989,
+  "total_fmt": "219,989",
+  "uniq_art": 7410,
+  "uniq_art_fmt": "7,410",
+  "uniq_trk": 30975,
+  "uniq_trk_fmt": "30,975",
   "start": "2018-03-06",
-  "end": "2026-10-01",
+  "end": "2026-10-02",
   "top_art": [
    {
     "artist": "chilldspot",
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 36774,
-    "plays_fmt": "36,774",
+    "plays": 36902,
+    "plays_fmt": "36,902",
     "pct": 68
    }
   ],
@@ -323,19 +323,19 @@
    },
    {
     "year": "2026",
-    "count": 1040,
-    "count_fmt": "1,040",
+    "count": 1041,
+    "count_fmt": "1,041",
     "pct": 43
    }
   ]
  },
  "year": {
-  "total": 36774,
-  "total_fmt": "36,774",
-  "uniq_art": 2890,
-  "uniq_art_fmt": "2,890",
-  "uniq_trk": 8183,
-  "uniq_trk_fmt": "8,183",
+  "total": 36902,
+  "total_fmt": "36,902",
+  "uniq_art": 2891,
+  "uniq_art_fmt": "2,891",
+  "uniq_trk": 8188,
+  "uniq_trk_fmt": "8,188",
   "top_art": [
    {
     "artist": "Kienai",
@@ -599,94 +599,101 @@
    },
    {
     "month": "10",
-    "plays": 143,
-    "plays_fmt": "143",
+    "plays": 271,
+    "plays_fmt": "271",
     "pct": 5
    }
   ]
  },
  "week": {
-  "total": 842,
-  "total_fmt": "842",
-  "uniq_art": 428,
-  "uniq_art_fmt": "428",
-  "uniq_trk": 561,
-  "uniq_trk_fmt": "561",
-  "start": "9/25",
-  "end": "10/1",
+  "total": 908,
+  "total_fmt": "908",
+  "uniq_art": 398,
+  "uniq_art_fmt": "398",
+  "uniq_trk": 517,
+  "uniq_trk_fmt": "517",
+  "start": "9/26",
+  "end": "10/2",
   "top_art": [
+   {
+    "artist": "Nankyokuten",
+    "plays": 127,
+    "plays_fmt": "127",
+    "img": null,
+    "pct": 100
+   },
    {
     "artist": "The Boring Tapes",
     "plays": 10,
     "plays_fmt": "10",
     "img": "https://i.scdn.co/image/ab6761610000e5eb453cae76249491ffcfc8f78a",
-    "pct": 100
+    "pct": 8
    },
    {
     "artist": "ue",
     "plays": 10,
     "plays_fmt": "10",
     "img": null,
-    "pct": 100
+    "pct": 8
    },
    {
     "artist": "deddecay",
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5ebcb49764d4560b5c430591de5",
-    "pct": 90
+    "pct": 7
    },
    {
     "artist": "Acle",
     "plays": 7,
     "plays_fmt": "7",
     "img": "https://i.scdn.co/image/ab67616d0000b273da3b2891301695c345c56bb8",
-    "pct": 70
+    "pct": 6
    },
    {
     "artist": "Aonowa",
     "plays": 7,
     "plays_fmt": "7",
     "img": "https://i.scdn.co/image/ab6761610000e5eb83e8fdf933b8b52d934bc28f",
-    "pct": 70
+    "pct": 6
    },
    {
     "artist": "Home",
     "plays": 7,
     "plays_fmt": "7",
     "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
-    "pct": 70
-   },
-   {
-    "artist": "Trooper Salute",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb97cd03d0a41316350c7679ae",
-    "pct": 70
-   },
-   {
-    "artist": "Yabai T-Shirts Yasan",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eba4942c76d42f415e9d903ed9",
-    "pct": 70
+    "pct": 6
    },
    {
     "artist": "ochunism",
     "plays": 7,
     "plays_fmt": "7",
     "img": "https://i.scdn.co/image/ab6761610000e5eb62c9b61afc21d04d0b23aec8",
-    "pct": 70
+    "pct": 6
    },
    {
     "artist": "AoOo",
     "plays": 6,
     "plays_fmt": "6",
     "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
-    "pct": 60
+    "pct": 6
+   },
+   {
+    "artist": "Black Boboi",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb173cb515bfb6ca8f05dc2aca",
+    "pct": 6
    }
   ],
   "top_alb": [
+   {
+    "album": "bipolar",
+    "artist": "Nankyokuten",
+    "plays": 127,
+    "plays_fmt": "127",
+    "img": null
+   },
    {
     "album": "All Live Under Some Sort of Curse",
     "artist": "The Boring Tapes",
@@ -707,13 +714,6 @@
     "plays": 7,
     "plays_fmt": "7",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
-   },
-   {
-    "album": "Magical Tank-top Parade",
-    "artist": "Yabai T-Shirts Yasan",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/c4516a9b5490c706796e39a651d9b1a9.jpg"
    },
    {
     "album": "REWILD",
@@ -760,6 +760,36 @@
   ],
   "top_trk": [
    {
+    "track": "little bird",
+    "artist": "Nankyokuten",
+    "plays": 29,
+    "plays_fmt": "29"
+   },
+   {
+    "track": "sol",
+    "artist": "Nankyokuten",
+    "plays": 28,
+    "plays_fmt": "28"
+   },
+   {
+    "track": "Gaze at the calm",
+    "artist": "Nankyokuten",
+    "plays": 27,
+    "plays_fmt": "27"
+   },
+   {
+    "track": "Ark",
+    "artist": "Nankyokuten",
+    "plays": 24,
+    "plays_fmt": "24"
+   },
+   {
+    "track": "hane",
+    "artist": "Nankyokuten",
+    "plays": 19,
+    "plays_fmt": "19"
+   },
+   {
     "track": "kokoro",
     "artist": "Aonowa",
     "plays": 6,
@@ -778,12 +808,6 @@
     "plays_fmt": "5"
    },
    {
-    "track": "Kokusho",
-    "artist": "yusraume",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
     "track": "Kyokou No Kakera",
     "artist": "Paparazzi Panic",
     "plays": 4,
@@ -794,39 +818,9 @@
     "artist": "otomegikyo",
     "plays": 4,
     "plays_fmt": "4"
-   },
-   {
-    "track": "Yokan",
-    "artist": "Shiroiinu",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "talk to me",
-    "artist": "deddecay",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "Aoi Haru",
-    "artist": "ミナトロジカ",
-    "plays": 3,
-    "plays_fmt": "3"
-   },
-   {
-    "track": "Bando shi-you",
-    "artist": "Botan",
-    "plays": 3,
-    "plays_fmt": "3"
    }
   ],
   "by_day": [
-   {
-    "day": "9/25",
-    "plays": 62,
-    "plays_fmt": "62",
-    "pct": 28
-   },
    {
     "day": "9/26",
     "plays": 117,
@@ -859,9 +853,15 @@
    },
    {
     "day": "10/1",
-    "plays": 143,
-    "plays_fmt": "143",
+    "plays": 144,
+    "plays_fmt": "144",
     "pct": 64
+   },
+   {
+    "day": "10/2",
+    "plays": 127,
+    "plays_fmt": "127",
+    "pct": 57
    }
   ]
  }
