@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-02",
+ "generated": "2026-10-03",
  "year_label": "2026",
  "all": {
-  "total": 219989,
-  "total_fmt": "219,989",
-  "uniq_art": 7410,
-  "uniq_art_fmt": "7,410",
-  "uniq_trk": 30975,
-  "uniq_trk_fmt": "30,975",
+  "total": 220167,
+  "total_fmt": "220,167",
+  "uniq_art": 7414,
+  "uniq_art_fmt": "7,414",
+  "uniq_trk": 30988,
+  "uniq_trk_fmt": "30,988",
   "start": "2018-03-06",
-  "end": "2026-10-02",
+  "end": "2026-10-03",
   "top_art": [
    {
     "artist": "chilldspot",
@@ -267,9 +267,9 @@
    },
    {
     "year": "2026",
-    "plays": 36902,
-    "plays_fmt": "36,902",
-    "pct": 68
+    "plays": 37080,
+    "plays_fmt": "37,080",
+    "pct": 69
    }
   ],
   "new_art_by_year": [
@@ -323,31 +323,31 @@
    },
    {
     "year": "2026",
-    "count": 1041,
-    "count_fmt": "1,041",
+    "count": 1045,
+    "count_fmt": "1,045",
     "pct": 43
    }
   ]
  },
  "year": {
-  "total": 36902,
-  "total_fmt": "36,902",
-  "uniq_art": 2891,
-  "uniq_art_fmt": "2,891",
-  "uniq_trk": 8188,
-  "uniq_trk_fmt": "8,188",
+  "total": 37080,
+  "total_fmt": "37,080",
+  "uniq_art": 2896,
+  "uniq_art_fmt": "2,896",
+  "uniq_trk": 8201,
+  "uniq_trk_fmt": "8,201",
   "top_art": [
    {
     "artist": "Kienai",
-    "plays": 267,
-    "plays_fmt": "267",
+    "plays": 268,
+    "plays_fmt": "268",
     "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481",
     "pct": 100
    },
    {
     "artist": "Ramblamp",
-    "plays": 266,
-    "plays_fmt": "266",
+    "plays": 267,
+    "plays_fmt": "267",
     "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf",
     "pct": 100
    },
@@ -356,7 +356,7 @@
     "plays": 247,
     "plays_fmt": "247",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f",
-    "pct": 93
+    "pct": 92
    },
    {
     "artist": "bedgravity",
@@ -381,15 +381,15 @@
    },
    {
     "artist": "Home",
-    "plays": 200,
-    "plays_fmt": "200",
+    "plays": 202,
+    "plays_fmt": "202",
     "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
     "pct": 75
    },
    {
     "artist": "uyuu",
-    "plays": 198,
-    "plays_fmt": "198",
+    "plays": 199,
+    "plays_fmt": "199",
     "img": "https://i.scdn.co/image/ab67616d0000b27381582c0fb8f5908a6aee7f3e",
     "pct": 74
    },
@@ -412,8 +412,8 @@
    {
     "album": "sparkleII",
     "artist": "Kienai",
-    "plays": 264,
-    "plays_fmt": "264",
+    "plays": 265,
+    "plays_fmt": "265",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/1c6a42ba2640cb0ed267d0c9d6a5f106.jpg"
    },
    {
@@ -433,8 +433,8 @@
    {
     "album": "HOME COLLECTION",
     "artist": "Home",
-    "plays": 196,
-    "plays_fmt": "196",
+    "plays": 198,
+    "plays_fmt": "198",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
    },
    {
@@ -447,9 +447,16 @@
    {
     "album": "Nichijogamatakodamasuru",
     "artist": "Ramblamp",
-    "plays": 177,
-    "plays_fmt": "177",
+    "plays": 178,
+    "plays_fmt": "178",
     "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
+   },
+   {
+    "album": "bipolar",
+    "artist": "Nankyokuten",
+    "plays": 169,
+    "plays_fmt": "169",
+    "img": null
    },
    {
     "album": "日々、折り返すごとに",
@@ -471,13 +478,6 @@
     "plays": 156,
     "plays_fmt": "156",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/f2b935a3f4b57eaa918ebd81e5490650.jpg"
-   },
-   {
-    "album": "INNER SYNC",
-    "artist": "Avyss",
-    "plays": 153,
-    "plays_fmt": "153",
-    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/389d72d53aa10059db21ff4907f3ee32.jpg"
    }
   ],
   "top_trk": [
@@ -532,8 +532,8 @@
    {
     "track": "way back",
     "artist": "Kienai",
-    "plays": 62,
-    "plays_fmt": "62"
+    "plays": 63,
+    "plays_fmt": "63"
    },
    {
     "track": "Panzamast",
@@ -599,69 +599,83 @@
    },
    {
     "month": "10",
-    "plays": 271,
-    "plays_fmt": "271",
-    "pct": 5
+    "plays": 449,
+    "plays_fmt": "449",
+    "pct": 8
    }
   ]
  },
  "week": {
-  "total": 908,
-  "total_fmt": "908",
-  "uniq_art": 398,
-  "uniq_art_fmt": "398",
-  "uniq_trk": 517,
-  "uniq_trk_fmt": "517",
-  "start": "9/26",
-  "end": "10/2",
+  "total": 969,
+  "total_fmt": "969",
+  "uniq_art": 388,
+  "uniq_art_fmt": "388",
+  "uniq_trk": 513,
+  "uniq_trk_fmt": "513",
+  "start": "9/27",
+  "end": "10/3",
   "top_art": [
    {
     "artist": "Nankyokuten",
-    "plays": 127,
-    "plays_fmt": "127",
+    "plays": 169,
+    "plays_fmt": "169",
     "img": null,
     "pct": 100
+   },
+   {
+    "artist": "700度の火を持って、 私は人とすれちがっている",
+    "plays": 15,
+    "plays_fmt": "15",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb1272482edecc688e3d186f96",
+    "pct": 9
    },
    {
     "artist": "The Boring Tapes",
     "plays": 10,
     "plays_fmt": "10",
     "img": "https://i.scdn.co/image/ab6761610000e5eb453cae76249491ffcfc8f78a",
-    "pct": 8
+    "pct": 6
    },
    {
     "artist": "ue",
     "plays": 10,
     "plays_fmt": "10",
     "img": null,
-    "pct": 8
-   },
-   {
-    "artist": "deddecay",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebcb49764d4560b5c430591de5",
-    "pct": 7
+    "pct": 6
    },
    {
     "artist": "Acle",
-    "plays": 7,
-    "plays_fmt": "7",
+    "plays": 8,
+    "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab67616d0000b273da3b2891301695c345c56bb8",
     "pct": 6
    },
    {
-    "artist": "Aonowa",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb83e8fdf933b8b52d934bc28f",
+    "artist": "Home",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
     "pct": 6
    },
    {
-    "artist": "Home",
+    "artist": "deddecay",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebcb49764d4560b5c430591de5",
+    "pct": 6
+   },
+   {
+    "artist": "AoOo",
     "plays": 7,
     "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
+    "pct": 6
+   },
+   {
+    "artist": "Trooper Salute",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb97cd03d0a41316350c7679ae",
     "pct": 6
    },
    {
@@ -670,29 +684,22 @@
     "plays_fmt": "7",
     "img": "https://i.scdn.co/image/ab6761610000e5eb62c9b61afc21d04d0b23aec8",
     "pct": 6
-   },
-   {
-    "artist": "AoOo",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
-    "pct": 6
-   },
-   {
-    "artist": "Black Boboi",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb173cb515bfb6ca8f05dc2aca",
-    "pct": 6
    }
   ],
   "top_alb": [
    {
     "album": "bipolar",
     "artist": "Nankyokuten",
-    "plays": 127,
-    "plays_fmt": "127",
+    "plays": 169,
+    "plays_fmt": "169",
     "img": null
+   },
+   {
+    "album": "I carry a 700°C fire in my hand with people walking all around me",
+    "artist": "700度の火を持って、 私は人とすれちがっている",
+    "plays": 13,
+    "plays_fmt": "13",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb1272482edecc688e3d186f96"
    },
    {
     "album": "All Live Under Some Sort of Curse",
@@ -711,8 +718,8 @@
    {
     "album": "HOME COLLECTION",
     "artist": "Home",
-    "plays": 7,
-    "plays_fmt": "7",
+    "plays": 8,
+    "plays_fmt": "8",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
    },
    {
@@ -723,81 +730,74 @@
     "img": "https://i.scdn.co/image/ab6761610000e5eb62c9b61afc21d04d0b23aec8"
    },
    {
-    "album": "CASCADE",
-    "artist": "deddecay",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebcb49764d4560b5c430591de5"
-   },
-   {
     "album": "Rooom",
     "artist": "AoOo",
-    "plays": 6,
-    "plays_fmt": "6",
+    "plays": 7,
+    "plays_fmt": "7",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/da74e0f56cc6364849b7ac888d3492d5.jpg"
-   },
-   {
-    "album": "Sepia",
-    "artist": "Black Boboi",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/158d6943703e6cd30388cd6dba40f635.jpg"
    },
    {
     "album": "Town in Mind",
     "artist": "Acle",
-    "plays": 6,
-    "plays_fmt": "6",
+    "plays": 7,
+    "plays_fmt": "7",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/7ce9707bcbff63303d56c4348ae4d809.jpg"
    },
    {
-    "album": "GOLD",
-    "artist": "EverBrighteller",
+    "album": "Magical Tank-top Parade",
+    "artist": "Yabai T-Shirts Yasan",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/c4516a9b5490c706796e39a651d9b1a9.jpg"
+   },
+   {
+    "album": "CASCADE",
+    "artist": "deddecay",
     "plays": 5,
     "plays_fmt": "5",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb503dcd9fd679892ccbc7fc71"
+    "img": "https://i.scdn.co/image/ab6761610000e5ebcb49764d4560b5c430591de5"
    }
   ],
   "top_trk": [
    {
     "track": "little bird",
     "artist": "Nankyokuten",
-    "plays": 29,
-    "plays_fmt": "29"
+    "plays": 40,
+    "plays_fmt": "40"
    },
    {
     "track": "sol",
     "artist": "Nankyokuten",
-    "plays": 28,
-    "plays_fmt": "28"
+    "plays": 38,
+    "plays_fmt": "38"
    },
    {
     "track": "Gaze at the calm",
     "artist": "Nankyokuten",
-    "plays": 27,
-    "plays_fmt": "27"
+    "plays": 37,
+    "plays_fmt": "37"
    },
    {
     "track": "Ark",
     "artist": "Nankyokuten",
-    "plays": 24,
-    "plays_fmt": "24"
+    "plays": 34,
+    "plays_fmt": "34"
    },
    {
     "track": "hane",
     "artist": "Nankyokuten",
-    "plays": 19,
-    "plays_fmt": "19"
-   },
-   {
-    "track": "kokoro",
-    "artist": "Aonowa",
-    "plays": 6,
-    "plays_fmt": "6"
+    "plays": 20,
+    "plays_fmt": "20"
    },
    {
     "track": "Keep My Head Up",
     "artist": "türk bluez",
+    "plays": 5,
+    "plays_fmt": "5"
+   },
+   {
+    "track": "kokoro",
+    "artist": "Aonowa",
     "plays": 5,
     "plays_fmt": "5"
    },
@@ -814,19 +814,13 @@
     "plays_fmt": "4"
    },
    {
-    "track": "Summer Town",
-    "artist": "otomegikyo",
+    "track": "MIDDLE",
+    "artist": "JUANAFAN CLUB",
     "plays": 4,
     "plays_fmt": "4"
    }
   ],
   "by_day": [
-   {
-    "day": "9/26",
-    "plays": 117,
-    "plays_fmt": "117",
-    "pct": 52
-   },
    {
     "day": "9/27",
     "plays": 122,
@@ -859,9 +853,15 @@
    },
    {
     "day": "10/2",
-    "plays": 127,
-    "plays_fmt": "127",
-    "pct": 57
+    "plays": 168,
+    "plays_fmt": "168",
+    "pct": 75
+   },
+   {
+    "day": "10/3",
+    "plays": 137,
+    "plays_fmt": "137",
+    "pct": 61
    }
   ]
  }

@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7410,
- "total_artists_fmt": "7,410",
+ "total_artists": 7414,
+ "total_artists_fmt": "7,414",
  "missing_img": 8,
  "artists": [
   {
@@ -72,14 +72,14 @@
   },
   {
    "name": "FINLANDS",
-   "plays": 702,
-   "plays_fmt": "702",
+   "plays": 703,
+   "plays_fmt": "703",
    "img": "https://i.scdn.co/image/ab6761610000e5ebcf8988fc2f6375e25eb7a350"
   },
   {
    "name": "羊文学",
-   "plays": 689,
-   "plays_fmt": "689",
+   "plays": 690,
+   "plays_fmt": "690",
    "img": "https://i.scdn.co/image/ab6761610000e5eb1833f4534ed3dd88d9e12c8b"
   },
   {
@@ -144,8 +144,8 @@
   },
   {
    "name": "Hakubi",
-   "plays": 587,
-   "plays_fmt": "587",
+   "plays": 588,
+   "plays_fmt": "588",
    "img": "https://i.scdn.co/image/ab6761610000e5eba205df6c2dd898c3f39b35ec"
   },
   {
@@ -342,8 +342,8 @@
   },
   {
    "name": "Home",
-   "plays": 396,
-   "plays_fmt": "396",
+   "plays": 398,
+   "plays_fmt": "398",
    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
@@ -354,8 +354,8 @@
   },
   {
    "name": "Muque",
-   "plays": 393,
-   "plays_fmt": "393",
+   "plays": 394,
+   "plays_fmt": "394",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
   },
   {
@@ -426,8 +426,8 @@
   },
   {
    "name": "life crown",
-   "plays": 369,
-   "plays_fmt": "369",
+   "plays": 370,
+   "plays_fmt": "370",
    "img": "https://i.scdn.co/image/ab6761610000e5eba28745b1de7f1ad1d41514f6"
   },
   {
@@ -702,8 +702,8 @@
   },
   {
    "name": "Have a nice day!",
-   "plays": 286,
-   "plays_fmt": "286",
+   "plays": 287,
+   "plays_fmt": "287",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
   },
   {
@@ -803,22 +803,28 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb00e06631e438aa05cbd62f09"
   },
   {
+   "name": "Kienai",
+   "plays": 271,
+   "plays_fmt": "271",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481"
+  },
+  {
    "name": "ホピーハイボ",
    "plays": 271,
    "plays_fmt": "271",
    "img": "https://i.scdn.co/image/ab6761610000e5eb0eef43e8d0a6ef8f2fe0cae6"
   },
   {
-   "name": "Kienai",
-   "plays": 270,
-   "plays_fmt": "270",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481"
-  },
-  {
    "name": "I Saw You Yesterday",
    "plays": 268,
    "plays_fmt": "268",
    "img": "https://i.scdn.co/image/ab6761610000e5ebf32519dab1f0daa82898fe82"
+  },
+  {
+   "name": "Ramblamp",
+   "plays": 267,
+   "plays_fmt": "267",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
   },
   {
    "name": "illiomote",
@@ -831,12 +837,6 @@
    "plays": 266,
    "plays_fmt": "266",
    "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851"
-  },
-  {
-   "name": "Ramblamp",
-   "plays": 266,
-   "plays_fmt": "266",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
   },
   {
    "name": "レルエ",
