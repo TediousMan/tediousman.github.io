@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-03",
+ "generated": "2026-10-04",
  "year_label": "2026",
  "all": {
-  "total": 220167,
-  "total_fmt": "220,167",
-  "uniq_art": 7414,
-  "uniq_art_fmt": "7,414",
-  "uniq_trk": 30988,
-  "uniq_trk_fmt": "30,988",
+  "total": 220349,
+  "total_fmt": "220,349",
+  "uniq_art": 7423,
+  "uniq_art_fmt": "7,423",
+  "uniq_trk": 31032,
+  "uniq_trk_fmt": "31,032",
   "start": "2018-03-06",
-  "end": "2026-10-03",
+  "end": "2026-10-04",
   "top_art": [
    {
     "artist": "chilldspot",
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 37080,
-    "plays_fmt": "37,080",
+    "plays": 37262,
+    "plays_fmt": "37,262",
     "pct": 69
    }
   ],
@@ -323,19 +323,19 @@
    },
    {
     "year": "2026",
-    "count": 1045,
-    "count_fmt": "1,045",
-    "pct": 43
+    "count": 1054,
+    "count_fmt": "1,054",
+    "pct": 44
    }
   ]
  },
  "year": {
-  "total": 37080,
-  "total_fmt": "37,080",
-  "uniq_art": 2896,
-  "uniq_art_fmt": "2,896",
-  "uniq_trk": 8201,
-  "uniq_trk_fmt": "8,201",
+  "total": 37262,
+  "total_fmt": "37,262",
+  "uniq_art": 2905,
+  "uniq_art_fmt": "2,905",
+  "uniq_trk": 8245,
+  "uniq_trk_fmt": "8,245",
   "top_art": [
    {
     "artist": "Kienai",
@@ -346,17 +346,17 @@
    },
    {
     "artist": "Ramblamp",
-    "plays": 267,
-    "plays_fmt": "267",
+    "plays": 268,
+    "plays_fmt": "268",
     "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf",
     "pct": 100
    },
    {
     "artist": "BUDOU JUICE",
-    "plays": 247,
-    "plays_fmt": "247",
+    "plays": 248,
+    "plays_fmt": "248",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f",
-    "pct": 92
+    "pct": 93
    },
    {
     "artist": "bedgravity",
@@ -374,24 +374,24 @@
    },
    {
     "artist": "the Wulongs",
-    "plays": 212,
-    "plays_fmt": "212",
+    "plays": 213,
+    "plays_fmt": "213",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
     "pct": 79
    },
    {
     "artist": "Home",
-    "plays": 202,
-    "plays_fmt": "202",
+    "plays": 205,
+    "plays_fmt": "205",
     "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
-    "pct": 75
+    "pct": 76
    },
    {
     "artist": "uyuu",
-    "plays": 199,
-    "plays_fmt": "199",
+    "plays": 200,
+    "plays_fmt": "200",
     "img": "https://i.scdn.co/image/ab67616d0000b27381582c0fb8f5908a6aee7f3e",
-    "pct": 74
+    "pct": 75
    },
    {
     "artist": "wanbed",
@@ -433,22 +433,22 @@
    {
     "album": "HOME COLLECTION",
     "artist": "Home",
-    "plays": 198,
-    "plays_fmt": "198",
+    "plays": 201,
+    "plays_fmt": "201",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
    },
    {
     "album": "BUDOU JUICE",
     "artist": "BUDOU JUICE",
-    "plays": 187,
-    "plays_fmt": "187",
+    "plays": 188,
+    "plays_fmt": "188",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f"
    },
    {
     "album": "Nichijogamatakodamasuru",
     "artist": "Ramblamp",
-    "plays": 178,
-    "plays_fmt": "178",
+    "plays": 179,
+    "plays_fmt": "179",
     "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
    },
    {
@@ -526,8 +526,8 @@
    {
     "track": "N.W.O.L.",
     "artist": "BurnQue",
-    "plays": 64,
-    "plays_fmt": "64"
+    "plays": 65,
+    "plays_fmt": "65"
    },
    {
     "track": "way back",
@@ -599,21 +599,21 @@
    },
    {
     "month": "10",
-    "plays": 449,
-    "plays_fmt": "449",
-    "pct": 8
+    "plays": 631,
+    "plays_fmt": "631",
+    "pct": 12
    }
   ]
  },
  "week": {
-  "total": 969,
-  "total_fmt": "969",
-  "uniq_art": 388,
-  "uniq_art_fmt": "388",
-  "uniq_trk": 513,
-  "uniq_trk_fmt": "513",
-  "start": "9/27",
-  "end": "10/3",
+  "total": 1029,
+  "total_fmt": "1,029",
+  "uniq_art": 467,
+  "uniq_art_fmt": "467",
+  "uniq_trk": 646,
+  "uniq_trk_fmt": "646",
+  "start": "9/28",
+  "end": "10/4",
   "top_art": [
    {
     "artist": "Nankyokuten",
@@ -623,38 +623,52 @@
     "pct": 100
    },
    {
+    "artist": "リハビリたち",
+    "plays": 20,
+    "plays_fmt": "20",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebfd541a37fd956fce07c6583a",
+    "pct": 12
+   },
+   {
     "artist": "700度の火を持って、 私は人とすれちがっている",
-    "plays": 15,
-    "plays_fmt": "15",
+    "plays": 16,
+    "plays_fmt": "16",
     "img": "https://i.scdn.co/image/ab6761610000e5eb1272482edecc688e3d186f96",
     "pct": 9
    },
    {
     "artist": "The Boring Tapes",
+    "plays": 11,
+    "plays_fmt": "11",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb453cae76249491ffcfc8f78a",
+    "pct": 7
+   },
+   {
+    "artist": "Home",
     "plays": 10,
     "plays_fmt": "10",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb453cae76249491ffcfc8f78a",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
     "pct": 6
    },
    {
-    "artist": "ue",
+    "artist": "Record bill babes",
     "plays": 10,
     "plays_fmt": "10",
     "img": null,
     "pct": 6
    },
    {
-    "artist": "Acle",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab67616d0000b273da3b2891301695c345c56bb8",
+    "artist": "Trooper Salute",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb97cd03d0a41316350c7679ae",
     "pct": 6
    },
    {
-    "artist": "Home",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
+    "artist": "butter cookies",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb322c2304bb19ae9951e31655",
     "pct": 6
    },
    {
@@ -665,24 +679,10 @@
     "pct": 6
    },
    {
-    "artist": "AoOo",
+    "artist": "Acle",
     "plays": 7,
     "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
-    "pct": 6
-   },
-   {
-    "artist": "Trooper Salute",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb97cd03d0a41316350c7679ae",
-    "pct": 6
-   },
-   {
-    "artist": "ochunism",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb62c9b61afc21d04d0b23aec8",
+    "img": "https://i.scdn.co/image/ab67616d0000b273da3b2891301695c345c56bb8",
     "pct": 6
    }
   ],
@@ -695,10 +695,17 @@
     "img": null
    },
    {
+    "album": "自殺衝動の天使",
+    "artist": "リハビリたち",
+    "plays": 20,
+    "plays_fmt": "20",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebfd541a37fd956fce07c6583a"
+   },
+   {
     "album": "I carry a 700°C fire in my hand with people walking all around me",
     "artist": "700度の火を持って、 私は人とすれちがっている",
-    "plays": 13,
-    "plays_fmt": "13",
+    "plays": 15,
+    "plays_fmt": "15",
     "img": "https://i.scdn.co/image/ab6761610000e5eb1272482edecc688e3d186f96"
    },
    {
@@ -709,18 +716,39 @@
     "img": "https://i.scdn.co/image/ab6761610000e5eb453cae76249491ffcfc8f78a"
    },
    {
-    "album": "Landscapes Entwined",
-    "artist": "ue",
+    "album": "HOME COLLECTION",
+    "artist": "Home",
     "plays": 10,
     "plays_fmt": "10",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
+   },
+   {
+    "album": "OLU",
+    "artist": "Record bill babes",
+    "plays": 10,
+    "plays_fmt": "10",
+    "img": null
+   },
+   {
+    "album": "Minority",
+    "artist": "butter cookies",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb322c2304bb19ae9951e31655"
+   },
+   {
+    "album": "Landscapes Entwined",
+    "artist": "ue",
+    "plays": 7,
+    "plays_fmt": "7",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/f2b935a3f4b57eaa918ebd81e5490650.jpg"
    },
    {
-    "album": "HOME COLLECTION",
-    "artist": "Home",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
+    "album": "Magical Tank-top Parade",
+    "artist": "Yabai T-Shirts Yasan",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/c4516a9b5490c706796e39a651d9b1a9.jpg"
    },
    {
     "album": "REWILD",
@@ -728,34 +756,6 @@
     "plays": 7,
     "plays_fmt": "7",
     "img": "https://i.scdn.co/image/ab6761610000e5eb62c9b61afc21d04d0b23aec8"
-   },
-   {
-    "album": "Rooom",
-    "artist": "AoOo",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/da74e0f56cc6364849b7ac888d3492d5.jpg"
-   },
-   {
-    "album": "Town in Mind",
-    "artist": "Acle",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/7ce9707bcbff63303d56c4348ae4d809.jpg"
-   },
-   {
-    "album": "Magical Tank-top Parade",
-    "artist": "Yabai T-Shirts Yasan",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/c4516a9b5490c706796e39a651d9b1a9.jpg"
-   },
-   {
-    "album": "CASCADE",
-    "artist": "deddecay",
-    "plays": 5,
-    "plays_fmt": "5",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebcb49764d4560b5c430591de5"
    }
   ],
   "top_trk": [
@@ -790,16 +790,10 @@
     "plays_fmt": "20"
    },
    {
-    "track": "Keep My Head Up",
-    "artist": "türk bluez",
-    "plays": 5,
-    "plays_fmt": "5"
-   },
-   {
-    "track": "kokoro",
-    "artist": "Aonowa",
-    "plays": 5,
-    "plays_fmt": "5"
+    "track": "新約・心のノート",
+    "artist": "リハビリたち",
+    "plays": 7,
+    "plays_fmt": "7"
    },
    {
     "track": "serotonin",
@@ -808,25 +802,25 @@
     "plays_fmt": "5"
    },
    {
+    "track": "Keep My Head Up",
+    "artist": "türk bluez",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
     "track": "Kyokou No Kakera",
     "artist": "Paparazzi Panic",
     "plays": 4,
     "plays_fmt": "4"
    },
    {
-    "track": "MIDDLE",
-    "artist": "JUANAFAN CLUB",
+    "track": "Toho",
+    "artist": "Tha omedetaz",
     "plays": 4,
     "plays_fmt": "4"
    }
   ],
   "by_day": [
-   {
-    "day": "9/27",
-    "plays": 122,
-    "plays_fmt": "122",
-    "pct": 54
-   },
    {
     "day": "9/28",
     "plays": 224,
@@ -859,9 +853,15 @@
    },
    {
     "day": "10/3",
-    "plays": 137,
-    "plays_fmt": "137",
-    "pct": 61
+    "plays": 148,
+    "plays_fmt": "148",
+    "pct": 66
+   },
+   {
+    "day": "10/4",
+    "plays": 171,
+    "plays_fmt": "171",
+    "pct": 76
    }
   ]
  }

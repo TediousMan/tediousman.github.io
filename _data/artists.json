@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7414,
- "total_artists_fmt": "7,414",
+ "total_artists": 7423,
+ "total_artists_fmt": "7,423",
  "missing_img": 8,
  "artists": [
   {
@@ -108,8 +108,8 @@
   },
   {
    "name": "eill",
-   "plays": 631,
-   "plays_fmt": "631",
+   "plays": 632,
+   "plays_fmt": "632",
    "img": "https://i.scdn.co/image/ab6761610000e5ebf3f6ea218e12317560e84a58"
   },
   {
@@ -293,16 +293,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb37c85e7d09ce8668eab4a480"
   },
   {
+   "name": "the cibo",
+   "plays": 438,
+   "plays_fmt": "438",
+   "img": "https://i.scdn.co/image/ab67616d0000b273c845208c60073f8ed525f946"
+  },
+  {
    "name": "さよならポエジー",
    "plays": 438,
    "plays_fmt": "438",
    "img": "https://i.scdn.co/image/ab6761610000e5eb11b9ad412afbcc0c3aa4fa48"
-  },
-  {
-   "name": "the cibo",
-   "plays": 437,
-   "plays_fmt": "437",
-   "img": "https://i.scdn.co/image/ab67616d0000b273c845208c60073f8ed525f946"
   },
   {
    "name": "Tokimeki Records",
@@ -342,8 +342,8 @@
   },
   {
    "name": "Home",
-   "plays": 398,
-   "plays_fmt": "398",
+   "plays": 401,
+   "plays_fmt": "401",
    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
@@ -419,16 +419,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb3f7ea5d6336f02de0539f2be"
   },
   {
+   "name": "life crown",
+   "plays": 372,
+   "plays_fmt": "372",
+   "img": "https://i.scdn.co/image/ab6761610000e5eba28745b1de7f1ad1d41514f6"
+  },
+  {
    "name": "akuruyo-sheep",
    "plays": 370,
    "plays_fmt": "370",
    "img": "https://i.scdn.co/image/ab6761610000e5eb13b71cf0b4e9aca839ca6c72"
-  },
-  {
-   "name": "life crown",
-   "plays": 370,
-   "plays_fmt": "370",
-   "img": "https://i.scdn.co/image/ab6761610000e5eba28745b1de7f1ad1d41514f6"
   },
   {
    "name": "えんぷてい",
@@ -462,21 +462,21 @@
   },
   {
    "name": "Furui Riho",
-   "plays": 349,
-   "plays_fmt": "349",
+   "plays": 350,
+   "plays_fmt": "350",
    "img": "https://i.scdn.co/image/ab6761610000e5ebff647d0f64da73922aad0cd5"
+  },
+  {
+   "name": "灰色ロジック",
+   "plays": 346,
+   "plays_fmt": "346",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb8b1593a9b28a0e6ccd588521"
   },
   {
    "name": "Peanut Butters",
    "plays": 345,
    "plays_fmt": "345",
    "img": "https://i.scdn.co/image/ab6761610000e5eb015682d84efd18a8d00e8268"
-  },
-  {
-   "name": "灰色ロジック",
-   "plays": 345,
-   "plays_fmt": "345",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb8b1593a9b28a0e6ccd588521"
   },
   {
    "name": "RAN",
@@ -510,8 +510,8 @@
   },
   {
    "name": "coldrain",
-   "plays": 328,
-   "plays_fmt": "328",
+   "plays": 329,
+   "plays_fmt": "329",
    "img": "https://i.scdn.co/image/ab6761610000e5eb790734bdee501b47713b4afe"
   },
   {
@@ -558,8 +558,8 @@
   },
   {
    "name": "Cephalo",
-   "plays": 319,
-   "plays_fmt": "319",
+   "plays": 320,
+   "plays_fmt": "320",
    "img": "https://i.scdn.co/image/ab6761610000e5ebeadedb0cf2a489ca33090611"
   },
   {
@@ -702,8 +702,8 @@
   },
   {
    "name": "Have a nice day!",
-   "plays": 287,
-   "plays_fmt": "287",
+   "plays": 288,
+   "plays_fmt": "288",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
   },
   {
@@ -719,16 +719,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb48ac1b5769473be74c75e052"
   },
   {
+   "name": "Haruno",
+   "plays": 284,
+   "plays_fmt": "284",
+   "img": "https://i.scdn.co/image/ab67616d0000b2731494a1e1507f8dbfbce8f2df"
+  },
+  {
    "name": "PanoramaMellow",
    "plays": 284,
    "plays_fmt": "284",
    "img": "https://i.scdn.co/image/ab67616d0000b2739522d7fafd953bddbddea2c9"
-  },
-  {
-   "name": "Haruno",
-   "plays": 283,
-   "plays_fmt": "283",
-   "img": "https://i.scdn.co/image/ab67616d0000b2731494a1e1507f8dbfbce8f2df"
   },
   {
    "name": "Blumepopo",
@@ -822,8 +822,8 @@
   },
   {
    "name": "Ramblamp",
-   "plays": 267,
-   "plays_fmt": "267",
+   "plays": 268,
+   "plays_fmt": "268",
    "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
   },
   {
@@ -893,16 +893,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb93cd81967ea2a33ad6fa53f6"
   },
   {
+   "name": "the Wulongs",
+   "plays": 261,
+   "plays_fmt": "261",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc"
+  },
+  {
    "name": "Yoake",
    "plays": 260,
    "plays_fmt": "260",
    "img": "https://i.scdn.co/image/ab6761610000e5ebf1bccfddcfc9fba86e5b177f"
-  },
-  {
-   "name": "the Wulongs",
-   "plays": 260,
-   "plays_fmt": "260",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc"
   }
  ]
 }
