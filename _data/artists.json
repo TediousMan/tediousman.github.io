@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7423,
- "total_artists_fmt": "7,423",
+ "total_artists": 7424,
+ "total_artists_fmt": "7,424",
  "missing_img": 8,
  "artists": [
   {
@@ -90,8 +90,8 @@
   },
   {
    "name": "kobore",
-   "plays": 665,
-   "plays_fmt": "665",
+   "plays": 666,
+   "plays_fmt": "666",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24"
   },
   {
@@ -114,14 +114,14 @@
   },
   {
    "name": "kurayamisaka",
-   "plays": 629,
-   "plays_fmt": "629",
+   "plays": 631,
+   "plays_fmt": "631",
    "img": "https://i.scdn.co/image/ab6761610000e5eb549929e59e9a3da7b41f0939"
   },
   {
    "name": "にしな",
-   "plays": 617,
-   "plays_fmt": "617",
+   "plays": 618,
+   "plays_fmt": "618",
    "img": "https://i.scdn.co/image/ab6761610000e5eb9c703e5ffc35530b42a70a8e"
   },
   {
@@ -156,8 +156,8 @@
   },
   {
    "name": "BRADIO",
-   "plays": 564,
-   "plays_fmt": "564",
+   "plays": 565,
+   "plays_fmt": "565",
    "img": "https://i.scdn.co/image/ab6761610000e5eb1b468ea5308efde05767f7f3"
   },
   {
@@ -342,8 +342,8 @@
   },
   {
    "name": "Home",
-   "plays": 401,
-   "plays_fmt": "401",
+   "plays": 403,
+   "plays_fmt": "403",
    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
@@ -354,14 +354,14 @@
   },
   {
    "name": "Muque",
-   "plays": 394,
-   "plays_fmt": "394",
+   "plays": 395,
+   "plays_fmt": "395",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
   },
   {
    "name": "Vaundy",
-   "plays": 389,
-   "plays_fmt": "389",
+   "plays": 390,
+   "plays_fmt": "390",
    "img": "https://i.scdn.co/image/ab6761610000e5ebb718d2d3988005d3a72f22c9"
   },
   {
@@ -563,6 +563,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebeadedb0cf2a489ca33090611"
   },
   {
+   "name": "Youmentbay",
+   "plays": 319,
+   "plays_fmt": "319",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb51d099e01631361e50ce714d"
+  },
+  {
    "name": "sawamay",
    "plays": 319,
    "plays_fmt": "319",
@@ -579,12 +585,6 @@
    "plays": 318,
    "plays_fmt": "318",
    "img": "https://i.scdn.co/image/ab67616d0000b273da67bfdd172efa62a5d3470c"
-  },
-  {
-   "name": "Youmentbay",
-   "plays": 318,
-   "plays_fmt": "318",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb51d099e01631361e50ce714d"
   },
   {
    "name": "Miu Mau",
@@ -702,8 +702,8 @@
   },
   {
    "name": "Have a nice day!",
-   "plays": 288,
-   "plays_fmt": "288",
+   "plays": 289,
+   "plays_fmt": "289",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
   },
   {
@@ -804,15 +804,21 @@
   },
   {
    "name": "Kienai",
-   "plays": 271,
-   "plays_fmt": "271",
+   "plays": 272,
+   "plays_fmt": "272",
    "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481"
   },
   {
    "name": "ホピーハイボ",
-   "plays": 271,
-   "plays_fmt": "271",
+   "plays": 272,
+   "plays_fmt": "272",
    "img": "https://i.scdn.co/image/ab6761610000e5eb0eef43e8d0a6ef8f2fe0cae6"
+  },
+  {
+   "name": "Ramblamp",
+   "plays": 269,
+   "plays_fmt": "269",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
   },
   {
    "name": "I Saw You Yesterday",
@@ -821,22 +827,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebf32519dab1f0daa82898fe82"
   },
   {
-   "name": "Ramblamp",
-   "plays": 268,
-   "plays_fmt": "268",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
+   "name": "Hammer Head Shark",
+   "plays": 267,
+   "plays_fmt": "267",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851"
   },
   {
    "name": "illiomote",
    "plays": 267,
    "plays_fmt": "267",
    "img": "https://i.scdn.co/image/ab6761610000e5eba9a5143d6eb3917fbe03ad9b"
-  },
-  {
-   "name": "Hammer Head Shark",
-   "plays": 266,
-   "plays_fmt": "266",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851"
   },
   {
    "name": "レルエ",
