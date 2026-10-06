@@ -6,8 +6,8 @@
  "artists": [
   {
    "name": "chilldspot",
-   "plays": 1047,
-   "plays_fmt": "1,047",
+   "plays": 1048,
+   "plays_fmt": "1,048",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfffcd64678af9f7b7bab7832"
   },
   {
@@ -90,8 +90,8 @@
   },
   {
    "name": "kobore",
-   "plays": 666,
-   "plays_fmt": "666",
+   "plays": 667,
+   "plays_fmt": "667",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24"
   },
   {
@@ -144,8 +144,8 @@
   },
   {
    "name": "Hakubi",
-   "plays": 588,
-   "plays_fmt": "588",
+   "plays": 589,
+   "plays_fmt": "589",
    "img": "https://i.scdn.co/image/ab6761610000e5eba205df6c2dd898c3f39b35ec"
   },
   {
@@ -288,8 +288,8 @@
   },
   {
    "name": "WANIMA",
-   "plays": 445,
-   "plays_fmt": "445",
+   "plays": 446,
+   "plays_fmt": "446",
    "img": "https://i.scdn.co/image/ab6761610000e5eb37c85e7d09ce8668eab4a480"
   },
   {
@@ -324,8 +324,8 @@
   },
   {
    "name": "Dansa Med Dig",
-   "plays": 417,
-   "plays_fmt": "417",
+   "plays": 418,
+   "plays_fmt": "418",
    "img": "https://i.scdn.co/image/ab6761610000e5eb590cfa1ad794bf2697150167"
   },
   {
@@ -342,8 +342,8 @@
   },
   {
    "name": "Home",
-   "plays": 403,
-   "plays_fmt": "403",
+   "plays": 404,
+   "plays_fmt": "404",
    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
@@ -378,8 +378,8 @@
   },
   {
    "name": "sucola",
-   "plays": 382,
-   "plays_fmt": "382",
+   "plays": 383,
+   "plays_fmt": "383",
    "img": "https://i.scdn.co/image/ab6761610000e5eb7fdd8f90022d1fb6f09ce3c9"
   },
   {
@@ -563,16 +563,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebeadedb0cf2a489ca33090611"
   },
   {
+   "name": "sawamay",
+   "plays": 320,
+   "plays_fmt": "320",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb400868142f0cb858d015c76d"
+  },
+  {
    "name": "Youmentbay",
    "plays": 319,
    "plays_fmt": "319",
    "img": "https://i.scdn.co/image/ab6761610000e5eb51d099e01631361e50ce714d"
-  },
-  {
-   "name": "sawamay",
-   "plays": 319,
-   "plays_fmt": "319",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb400868142f0cb858d015c76d"
   },
   {
    "name": "yahyel",
@@ -702,8 +702,8 @@
   },
   {
    "name": "Have a nice day!",
-   "plays": 289,
-   "plays_fmt": "289",
+   "plays": 290,
+   "plays_fmt": "290",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
   },
   {
@@ -744,8 +744,8 @@
   },
   {
    "name": "mukeikaku",
-   "plays": 281,
-   "plays_fmt": "281",
+   "plays": 282,
+   "plays_fmt": "282",
    "img": "https://i.scdn.co/image/ab6761610000e5eb1c7ce3df2cce3afef74566cb"
   },
   {
@@ -881,6 +881,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb521dd8791d85d8b317200133"
   },
   {
+   "name": "the Wulongs",
+   "plays": 262,
+   "plays_fmt": "262",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc"
+  },
+  {
    "name": "Kankaku Piero",
    "plays": 261,
    "plays_fmt": "261",
@@ -891,12 +897,6 @@
    "plays": 261,
    "plays_fmt": "261",
    "img": "https://i.scdn.co/image/ab6761610000e5eb93cd81967ea2a33ad6fa53f6"
-  },
-  {
-   "name": "the Wulongs",
-   "plays": 261,
-   "plays_fmt": "261",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc"
   },
   {
    "name": "Yoake",
