@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-06",
+ "generated": "2026-10-07",
  "year_label": "2026",
  "all": {
-  "total": 220740,
-  "total_fmt": "220,740",
-  "uniq_art": 7424,
-  "uniq_art_fmt": "7,424",
-  "uniq_trk": 31068,
-  "uniq_trk_fmt": "31,068",
+  "total": 220935,
+  "total_fmt": "220,935",
+  "uniq_art": 7425,
+  "uniq_art_fmt": "7,425",
+  "uniq_trk": 31075,
+  "uniq_trk_fmt": "31,075",
   "start": "2018-03-06",
-  "end": "2026-10-06",
+  "end": "2026-10-07",
   "top_art": [
    {
     "artist": "chilldspot",
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 37653,
-    "plays_fmt": "37,653",
+    "plays": 37848,
+    "plays_fmt": "37,848",
     "pct": 70
    }
   ],
@@ -323,45 +323,45 @@
    },
    {
     "year": "2026",
-    "count": 1055,
-    "count_fmt": "1,055",
+    "count": 1056,
+    "count_fmt": "1,056",
     "pct": 44
    }
   ]
  },
  "year": {
-  "total": 37653,
-  "total_fmt": "37,653",
-  "uniq_art": 2907,
-  "uniq_art_fmt": "2,907",
-  "uniq_trk": 8283,
-  "uniq_trk_fmt": "8,283",
+  "total": 37848,
+  "total_fmt": "37,848",
+  "uniq_art": 2908,
+  "uniq_art_fmt": "2,908",
+  "uniq_trk": 8290,
+  "uniq_trk_fmt": "8,290",
   "top_art": [
    {
     "artist": "Kienai",
-    "plays": 269,
-    "plays_fmt": "269",
+    "plays": 270,
+    "plays_fmt": "270",
     "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481",
     "pct": 100
    },
    {
     "artist": "Ramblamp",
-    "plays": 269,
-    "plays_fmt": "269",
+    "plays": 270,
+    "plays_fmt": "270",
     "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf",
     "pct": 100
    },
    {
     "artist": "BUDOU JUICE",
-    "plays": 248,
-    "plays_fmt": "248",
+    "plays": 249,
+    "plays_fmt": "249",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f",
     "pct": 92
    },
    {
     "artist": "bedgravity",
-    "plays": 234,
-    "plays_fmt": "234",
+    "plays": 235,
+    "plays_fmt": "235",
     "img": "https://i.scdn.co/image/ab67616d0000b273d29467756d06ae5882d98238",
     "pct": 87
    },
@@ -370,14 +370,14 @@
     "plays": 233,
     "plays_fmt": "233",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44",
-    "pct": 87
+    "pct": 86
    },
    {
     "artist": "the Wulongs",
     "plays": 214,
     "plays_fmt": "214",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
-    "pct": 80
+    "pct": 79
    },
    {
     "artist": "Home",
@@ -395,8 +395,8 @@
    },
    {
     "artist": "wanbed",
-    "plays": 181,
-    "plays_fmt": "181",
+    "plays": 182,
+    "plays_fmt": "182",
     "img": "https://i.scdn.co/image/ab6761610000e5eb015e59262813fcf812ddf659",
     "pct": 67
    },
@@ -405,22 +405,22 @@
     "plays": 174,
     "plays_fmt": "174",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb146cdd0b2be813c4b411eb2",
-    "pct": 65
+    "pct": 64
    }
   ],
   "top_alb": [
    {
     "album": "sparkleII",
     "artist": "Kienai",
-    "plays": 266,
-    "plays_fmt": "266",
+    "plays": 267,
+    "plays_fmt": "267",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/1c6a42ba2640cb0ed267d0c9d6a5f106.jpg"
    },
    {
     "album": "Unmet Needs",
     "artist": "bedgravity",
-    "plays": 234,
-    "plays_fmt": "234",
+    "plays": 235,
+    "plays_fmt": "235",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/d49e1932df6d076c99051c1c7fe957a4.jpg"
    },
    {
@@ -447,8 +447,8 @@
    {
     "album": "Nichijogamatakodamasuru",
     "artist": "Ramblamp",
-    "plays": 179,
-    "plays_fmt": "179",
+    "plays": 180,
+    "plays_fmt": "180",
     "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
    },
    {
@@ -461,15 +461,15 @@
    {
     "album": "日々、折り返すごとに",
     "artist": "爛漫天国",
-    "plays": 165,
-    "plays_fmt": "165",
+    "plays": 166,
+    "plays_fmt": "166",
     "img": "https://i.scdn.co/image/ab6761610000e5eb59ee187da2de942d5f50e0e0"
    },
    {
     "album": "135",
     "artist": "wanbed",
-    "plays": 161,
-    "plays_fmt": "161",
+    "plays": 162,
+    "plays_fmt": "162",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/8f67506eb69e1457aed72a3f1273f862.jpg"
    },
    {
@@ -494,14 +494,14 @@
     "plays_fmt": "97"
    },
    {
-    "track": "Hibernating Summer",
-    "artist": "Youth Illustrated",
-    "plays": 82,
-    "plays_fmt": "82"
-   },
-   {
     "track": "季節が",
     "artist": "夜標",
+    "plays": 83,
+    "plays_fmt": "83"
+   },
+   {
+    "track": "Hibernating Summer",
+    "artist": "Youth Illustrated",
     "plays": 82,
     "plays_fmt": "82"
    },
@@ -538,8 +538,8 @@
    {
     "track": "Panzamast",
     "artist": "Tattletale",
-    "plays": 58,
-    "plays_fmt": "58"
+    "plays": 59,
+    "plays_fmt": "59"
    }
   ],
   "by_month": [
@@ -599,21 +599,21 @@
    },
    {
     "month": "10",
-    "plays": 1022,
-    "plays_fmt": "1,022",
-    "pct": 19
+    "plays": 1217,
+    "plays_fmt": "1,217",
+    "pct": 22
    }
   ]
  },
  "week": {
-  "total": 1095,
-  "total_fmt": "1,095",
-  "uniq_art": 512,
-  "uniq_art_fmt": "512",
-  "uniq_trk": 736,
-  "uniq_trk_fmt": "736",
-  "start": "9/30",
-  "end": "10/6",
+  "total": 1217,
+  "total_fmt": "1,217",
+  "uniq_art": 565,
+  "uniq_art_fmt": "565",
+  "uniq_trk": 814,
+  "uniq_trk_fmt": "814",
+  "start": "10/1",
+  "end": "10/7",
   "top_art": [
    {
     "artist": "Nankyokuten",
@@ -624,10 +624,10 @@
    },
    {
     "artist": "リハビリたち",
-    "plays": 45,
-    "plays_fmt": "45",
+    "plays": 47,
+    "plays_fmt": "47",
     "img": "https://i.scdn.co/image/ab6761610000e5ebfd541a37fd956fce07c6583a",
-    "pct": 27
+    "pct": 28
    },
    {
     "artist": "700度の火を持って、 私は人とすれちがっている",
@@ -651,31 +651,31 @@
     "pct": 9
    },
    {
-    "artist": "The Boring Tapes",
-    "plays": 11,
-    "plays_fmt": "11",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb453cae76249491ffcfc8f78a",
-    "pct": 7
+    "artist": "ベターユース",
+    "plays": 14,
+    "plays_fmt": "14",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb16dece2d917600d94faa6653",
+    "pct": 8
    },
    {
     "artist": "Record bill babes",
-    "plays": 10,
-    "plays_fmt": "10",
+    "plays": 11,
+    "plays_fmt": "11",
     "img": null,
-    "pct": 6
-   },
-   {
-    "artist": "Home",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
-    "pct": 6
+    "pct": 7
    },
    {
     "artist": "Trooper Salute",
-    "plays": 9,
-    "plays_fmt": "9",
+    "plays": 11,
+    "plays_fmt": "11",
     "img": "https://i.scdn.co/image/ab6761610000e5eb97cd03d0a41316350c7679ae",
+    "pct": 7
+   },
+   {
+    "artist": "Home",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
     "pct": 6
    },
    {
@@ -697,8 +697,8 @@
    {
     "album": "自殺衝動の天使",
     "artist": "リハビリたち",
-    "plays": 45,
-    "plays_fmt": "45",
+    "plays": 46,
+    "plays_fmt": "46",
     "img": "https://i.scdn.co/image/ab6761610000e5ebfd541a37fd956fce07c6583a"
    },
    {
@@ -723,24 +723,24 @@
     "img": "https://i.scdn.co/image/ab6761610000e5ebcf051efa891c15282d4b4320"
    },
    {
-    "album": "All Live Under Some Sort of Curse",
-    "artist": "The Boring Tapes",
-    "plays": 10,
-    "plays_fmt": "10",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb453cae76249491ffcfc8f78a"
+    "album": "この街から",
+    "artist": "ベターユース",
+    "plays": 13,
+    "plays_fmt": "13",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb16dece2d917600d94faa6653"
    },
    {
     "album": "OLU",
     "artist": "Record bill babes",
-    "plays": 10,
-    "plays_fmt": "10",
+    "plays": 11,
+    "plays_fmt": "11",
     "img": null
    },
    {
     "album": "HOME COLLECTION",
     "artist": "Home",
-    "plays": 9,
-    "plays_fmt": "9",
+    "plays": 8,
+    "plays_fmt": "8",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
    },
    {
@@ -751,11 +751,11 @@
     "img": "https://i.scdn.co/image/ab6761610000e5eb322c2304bb19ae9951e31655"
    },
    {
-    "album": "Dream Cloud",
-    "artist": "Yumegiwa Last Girl",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/30ed2e877445fcccd6bc8047eade5058.jpg"
+    "album": "友達がいました",
+    "artist": "Trooper Salute",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/f41863c4c9146f2e2158cda8db761dbf.jpg"
    }
   ],
   "top_trk": [
@@ -796,6 +796,12 @@
     "plays_fmt": "13"
    },
    {
+    "track": "REACH",
+    "artist": "ベターユース",
+    "plays": 11,
+    "plays_fmt": "11"
+   },
+   {
     "track": "Halo",
     "artist": "OFFICE DESTRUCTION GIRL",
     "plays": 7,
@@ -812,21 +818,9 @@
     "artist": "リハビリたち",
     "plays": 5,
     "plays_fmt": "5"
-   },
-   {
-    "track": "よろしくない",
-    "artist": "700度の火を持って、 私は人とすれちがっている",
-    "plays": 5,
-    "plays_fmt": "5"
    }
   ],
   "by_day": [
-   {
-    "day": "9/30",
-    "plays": 73,
-    "plays_fmt": "73",
-    "pct": 35
-   },
    {
     "day": "10/1",
     "plays": 144,
@@ -862,6 +856,12 @@
     "plays": 180,
     "plays_fmt": "180",
     "pct": 85
+   },
+   {
+    "day": "10/7",
+    "plays": 195,
+    "plays_fmt": "195",
+    "pct": 92
    }
   ]
  }
