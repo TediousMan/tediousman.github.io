@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-08",
+ "generated": "2026-10-09",
  "year_label": "2026",
  "all": {
-  "total": 221087,
-  "total_fmt": "221,087",
-  "uniq_art": 7429,
-  "uniq_art_fmt": "7,429",
-  "uniq_trk": 31095,
-  "uniq_trk_fmt": "31,095",
+  "total": 221152,
+  "total_fmt": "221,152",
+  "uniq_art": 7433,
+  "uniq_art_fmt": "7,433",
+  "uniq_trk": 31100,
+  "uniq_trk_fmt": "31,100",
   "start": "2018-03-06",
-  "end": "2026-10-08",
+  "end": "2026-10-09",
   "top_art": [
    {
     "artist": "chilldspot",
@@ -41,10 +41,10 @@
    },
    {
     "artist": "クレナズム",
-    "plays": 884,
-    "plays_fmt": "884",
+    "plays": 886,
+    "plays_fmt": "886",
     "img": "https://i.scdn.co/image/ab6761610000e5ebfd833836d124624e366ed252",
-    "pct": 84
+    "pct": 85
    },
    {
     "artist": "KROI",
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 38000,
-    "plays_fmt": "38,000",
+    "plays": 38065,
+    "plays_fmt": "38,065",
     "pct": 70
    }
   ],
@@ -323,19 +323,19 @@
    },
    {
     "year": "2026",
-    "count": 1060,
-    "count_fmt": "1,060",
+    "count": 1064,
+    "count_fmt": "1,064",
     "pct": 44
    }
   ]
  },
  "year": {
-  "total": 38000,
-  "total_fmt": "38,000",
-  "uniq_art": 2913,
-  "uniq_art_fmt": "2,913",
-  "uniq_trk": 8310,
-  "uniq_trk_fmt": "8,310",
+  "total": 38065,
+  "total_fmt": "38,065",
+  "uniq_art": 2917,
+  "uniq_art_fmt": "2,917",
+  "uniq_trk": 8315,
+  "uniq_trk_fmt": "8,315",
   "top_art": [
    {
     "artist": "Kienai",
@@ -374,10 +374,10 @@
    },
    {
     "artist": "the Wulongs",
-    "plays": 215,
-    "plays_fmt": "215",
+    "plays": 216,
+    "plays_fmt": "216",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
-    "pct": 79
+    "pct": 80
    },
    {
     "artist": "Home",
@@ -395,8 +395,8 @@
    },
    {
     "artist": "wanbed",
-    "plays": 183,
-    "plays_fmt": "183",
+    "plays": 184,
+    "plays_fmt": "184",
     "img": "https://i.scdn.co/image/ab6761610000e5eb015e59262813fcf812ddf659",
     "pct": 68
    },
@@ -468,15 +468,15 @@
    {
     "album": "135",
     "artist": "wanbed",
-    "plays": 163,
-    "plays_fmt": "163",
+    "plays": 164,
+    "plays_fmt": "164",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/8f67506eb69e1457aed72a3f1273f862.jpg"
    },
    {
     "album": "Landscapes Entwined",
     "artist": "ue",
-    "plays": 157,
-    "plays_fmt": "157",
+    "plays": 158,
+    "plays_fmt": "158",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/f2b935a3f4b57eaa918ebd81e5490650.jpg"
    }
   ],
@@ -599,101 +599,94 @@
    },
    {
     "month": "10",
-    "plays": 1369,
-    "plays_fmt": "1,369",
-    "pct": 25
+    "plays": 1434,
+    "plays_fmt": "1,434",
+    "pct": 26
    }
   ]
  },
  "week": {
-  "total": 1225,
-  "total_fmt": "1,225",
-  "uniq_art": 551,
-  "uniq_art_fmt": "551",
-  "uniq_trk": 789,
-  "uniq_trk_fmt": "789",
-  "start": "10/2",
-  "end": "10/8",
+  "total": 1122,
+  "total_fmt": "1,122",
+  "uniq_art": 573,
+  "uniq_art_fmt": "573",
+  "uniq_trk": 828,
+  "uniq_trk_fmt": "828",
+  "start": "10/3",
+  "end": "10/9",
   "top_art": [
-   {
-    "artist": "Nankyokuten",
-    "plays": 169,
-    "plays_fmt": "169",
-    "img": null,
-    "pct": 100
-   },
    {
     "artist": "リハビリたち",
     "plays": 47,
     "plays_fmt": "47",
     "img": "https://i.scdn.co/image/ab6761610000e5ebfd541a37fd956fce07c6583a",
-    "pct": 28
+    "pct": 100
    },
    {
     "artist": "OFFICE DESTRUCTION GIRL",
     "plays": 35,
     "plays_fmt": "35",
     "img": null,
-    "pct": 21
+    "pct": 74
    },
    {
     "artist": "700度の火を持って、 私は人とすれちがっている",
     "plays": 17,
     "plays_fmt": "17",
     "img": "https://i.scdn.co/image/ab6761610000e5eb1272482edecc688e3d186f96",
-    "pct": 10
+    "pct": 36
    },
    {
     "artist": "ANABANTFULLS",
     "plays": 17,
     "plays_fmt": "17",
     "img": "https://i.scdn.co/image/ab6761610000e5ebcf051efa891c15282d4b4320",
-    "pct": 10
+    "pct": 36
    },
    {
     "artist": "ベターユース",
     "plays": 15,
     "plays_fmt": "15",
     "img": "https://i.scdn.co/image/ab6761610000e5eb16dece2d917600d94faa6653",
-    "pct": 9
+    "pct": 32
    },
    {
     "artist": "Record bill babes",
     "plays": 11,
     "plays_fmt": "11",
     "img": null,
-    "pct": 7
+    "pct": 23
    },
    {
     "artist": "Home",
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
-    "pct": 6
+    "pct": 19
    },
    {
     "artist": "Trooper Salute",
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5eb97cd03d0a41316350c7679ae",
-    "pct": 6
+    "pct": 19
    },
    {
     "artist": "butter cookies",
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5eb322c2304bb19ae9951e31655",
-    "pct": 6
+    "pct": 19
+   },
+   {
+    "artist": "City Lizard art school",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": null,
+    "pct": 15
    }
   ],
   "top_alb": [
-   {
-    "album": "bipolar",
-    "artist": "Nankyokuten",
-    "plays": 169,
-    "plays_fmt": "169",
-    "img": null
-   },
    {
     "album": "自殺衝動の天使",
     "artist": "リハビリたち",
@@ -756,39 +749,16 @@
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5eb322c2304bb19ae9951e31655"
+   },
+   {
+    "album": "Dream Cloud",
+    "artist": "Yumegiwa Last Girl",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/30ed2e877445fcccd6bc8047eade5058.jpg"
    }
   ],
   "top_trk": [
-   {
-    "track": "little bird",
-    "artist": "Nankyokuten",
-    "plays": 40,
-    "plays_fmt": "40"
-   },
-   {
-    "track": "sol",
-    "artist": "Nankyokuten",
-    "plays": 38,
-    "plays_fmt": "38"
-   },
-   {
-    "track": "Gaze at the calm",
-    "artist": "Nankyokuten",
-    "plays": 37,
-    "plays_fmt": "37"
-   },
-   {
-    "track": "Ark",
-    "artist": "Nankyokuten",
-    "plays": 34,
-    "plays_fmt": "34"
-   },
-   {
-    "track": "hane",
-    "artist": "Nankyokuten",
-    "plays": 20,
-    "plays_fmt": "20"
-   },
    {
     "track": "Halo",
     "artist": "OFFICE DESTRUCTION GIRL",
@@ -818,15 +788,39 @@
     "artist": "700度の火を持って、 私は人とすれちがっている",
     "plays": 5,
     "plays_fmt": "5"
+   },
+   {
+    "track": "フレディ",
+    "artist": "リハビリたち",
+    "plays": 5,
+    "plays_fmt": "5"
+   },
+   {
+    "track": "反抗未遂",
+    "artist": "Septa",
+    "plays": 5,
+    "plays_fmt": "5"
+   },
+   {
+    "track": "Conformity",
+    "artist": "butter cookies",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "Heart of Gold",
+    "artist": "ANABANTFULLS",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "Kyokou No Kakera",
+    "artist": "Paparazzi Panic",
+    "plays": 4,
+    "plays_fmt": "4"
    }
   ],
   "by_day": [
-   {
-    "day": "10/2",
-    "plays": 168,
-    "plays_fmt": "168",
-    "pct": 80
-   },
    {
     "day": "10/3",
     "plays": 148,
@@ -859,9 +853,15 @@
    },
    {
     "day": "10/8",
-    "plays": 147,
-    "plays_fmt": "147",
-    "pct": 70
+    "plays": 174,
+    "plays_fmt": "174",
+    "pct": 82
+   },
+   {
+    "day": "10/9",
+    "plays": 38,
+    "plays_fmt": "38",
+    "pct": 18
    }
   ]
  }

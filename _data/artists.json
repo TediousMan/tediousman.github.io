@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7429,
- "total_artists_fmt": "7,429",
+ "total_artists": 7433,
+ "total_artists_fmt": "7,433",
  "missing_img": 8,
  "artists": [
   {
@@ -30,8 +30,8 @@
   },
   {
    "name": "クレナズム",
-   "plays": 884,
-   "plays_fmt": "884",
+   "plays": 886,
+   "plays_fmt": "886",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfd833836d124624e366ed252"
   },
   {
@@ -276,8 +276,8 @@
   },
   {
    "name": "Sazanami",
-   "plays": 458,
-   "plays_fmt": "458",
+   "plays": 459,
+   "plays_fmt": "459",
    "img": "https://i.scdn.co/image/ab6761610000e5eba3f038b0d76a49de0bd33221"
   },
   {
@@ -456,8 +456,8 @@
   },
   {
    "name": "kiki vivi lily",
-   "plays": 351,
-   "plays_fmt": "351",
+   "plays": 352,
+   "plays_fmt": "352",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfe3b6188abc328838969e7c5"
   },
   {
@@ -707,6 +707,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb94b818ce361beb89199170c8"
   },
   {
+   "name": "Haruno",
+   "plays": 286,
+   "plays_fmt": "286",
+   "img": "https://i.scdn.co/image/ab67616d0000b2731494a1e1507f8dbfbce8f2df"
+  },
+  {
    "name": "魚韻",
    "plays": 285,
    "plays_fmt": "285",
@@ -717,12 +723,6 @@
    "plays": 284,
    "plays_fmt": "284",
    "img": "https://i.scdn.co/image/ab6761610000e5eb48ac1b5769473be74c75e052"
-  },
-  {
-   "name": "Haruno",
-   "plays": 284,
-   "plays_fmt": "284",
-   "img": "https://i.scdn.co/image/ab67616d0000b2731494a1e1507f8dbfbce8f2df"
   },
   {
    "name": "PanoramaMellow",
@@ -762,8 +762,8 @@
   },
   {
    "name": "36km/h",
-   "plays": 278,
-   "plays_fmt": "278",
+   "plays": 279,
+   "plays_fmt": "279",
    "img": "https://i.scdn.co/image/ab6761610000e5eb8ffe1b4304fc8e392b97c2b7"
   },
   {
@@ -839,6 +839,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eba9a5143d6eb3917fbe03ad9b"
   },
   {
+   "name": "the Wulongs",
+   "plays": 264,
+   "plays_fmt": "264",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc"
+  },
+  {
    "name": "レルエ",
    "plays": 264,
    "plays_fmt": "264",
@@ -873,12 +879,6 @@
    "plays": 263,
    "plays_fmt": "263",
    "img": "https://i.scdn.co/image/ab6761610000e5ebae40b992ffa53731ab3e62bf"
-  },
-  {
-   "name": "the Wulongs",
-   "plays": 263,
-   "plays_fmt": "263",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc"
   },
   {
    "name": "Jam Fuzz Kid",
