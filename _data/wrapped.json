@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-09",
+ "generated": "2026-10-10",
  "year_label": "2026",
  "all": {
-  "total": 221152,
-  "total_fmt": "221,152",
+  "total": 221272,
+  "total_fmt": "221,272",
   "uniq_art": 7433,
   "uniq_art_fmt": "7,433",
   "uniq_trk": 31100,
   "uniq_trk_fmt": "31,100",
   "start": "2018-03-06",
-  "end": "2026-10-09",
+  "end": "2026-10-10",
   "top_art": [
    {
     "artist": "chilldspot",
@@ -267,9 +267,9 @@
    },
    {
     "year": "2026",
-    "plays": 38065,
-    "plays_fmt": "38,065",
-    "pct": 70
+    "plays": 38185,
+    "plays_fmt": "38,185",
+    "pct": 71
    }
   ],
   "new_art_by_year": [
@@ -330,8 +330,8 @@
   ]
  },
  "year": {
-  "total": 38065,
-  "total_fmt": "38,065",
+  "total": 38185,
+  "total_fmt": "38,185",
   "uniq_art": 2917,
   "uniq_art_fmt": "2,917",
   "uniq_trk": 8315,
@@ -353,8 +353,8 @@
    },
    {
     "artist": "BUDOU JUICE",
-    "plays": 249,
-    "plays_fmt": "249",
+    "plays": 250,
+    "plays_fmt": "250",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f",
     "pct": 92
    },
@@ -374,22 +374,22 @@
    },
    {
     "artist": "the Wulongs",
-    "plays": 216,
-    "plays_fmt": "216",
+    "plays": 217,
+    "plays_fmt": "217",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
     "pct": 80
    },
    {
     "artist": "Home",
-    "plays": 209,
-    "plays_fmt": "209",
+    "plays": 212,
+    "plays_fmt": "212",
     "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
-    "pct": 77
+    "pct": 78
    },
    {
     "artist": "uyuu",
-    "plays": 202,
-    "plays_fmt": "202",
+    "plays": 203,
+    "plays_fmt": "203",
     "img": "https://i.scdn.co/image/ab67616d0000b27381582c0fb8f5908a6aee7f3e",
     "pct": 75
    },
@@ -402,10 +402,10 @@
    },
    {
     "artist": "tenbin O",
-    "plays": 174,
-    "plays_fmt": "174",
+    "plays": 175,
+    "plays_fmt": "175",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb146cdd0b2be813c4b411eb2",
-    "pct": 64
+    "pct": 65
    }
   ],
   "top_alb": [
@@ -433,15 +433,15 @@
    {
     "album": "HOME COLLECTION",
     "artist": "Home",
-    "plays": 205,
-    "plays_fmt": "205",
+    "plays": 208,
+    "plays_fmt": "208",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
    },
    {
     "album": "BUDOU JUICE",
     "artist": "BUDOU JUICE",
-    "plays": 188,
-    "plays_fmt": "188",
+    "plays": 189,
+    "plays_fmt": "189",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f"
    },
    {
@@ -599,26 +599,26 @@
    },
    {
     "month": "10",
-    "plays": 1434,
-    "plays_fmt": "1,434",
-    "pct": 26
+    "plays": 1554,
+    "plays_fmt": "1,554",
+    "pct": 29
    }
   ]
  },
  "week": {
-  "total": 1122,
-  "total_fmt": "1,122",
-  "uniq_art": 573,
-  "uniq_art_fmt": "573",
+  "total": 1094,
+  "total_fmt": "1,094",
+  "uniq_art": 576,
+  "uniq_art_fmt": "576",
   "uniq_trk": 828,
   "uniq_trk_fmt": "828",
-  "start": "10/3",
-  "end": "10/9",
+  "start": "10/4",
+  "end": "10/10",
   "top_art": [
    {
     "artist": "リハビリたち",
-    "plays": 47,
-    "plays_fmt": "47",
+    "plays": 46,
+    "plays_fmt": "46",
     "img": "https://i.scdn.co/image/ab6761610000e5ebfd541a37fd956fce07c6583a",
     "pct": 100
    },
@@ -627,56 +627,49 @@
     "plays": 35,
     "plays_fmt": "35",
     "img": null,
-    "pct": 74
-   },
-   {
-    "artist": "700度の火を持って、 私は人とすれちがっている",
-    "plays": 17,
-    "plays_fmt": "17",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb1272482edecc688e3d186f96",
-    "pct": 36
+    "pct": 76
    },
    {
     "artist": "ANABANTFULLS",
-    "plays": 17,
-    "plays_fmt": "17",
+    "plays": 18,
+    "plays_fmt": "18",
     "img": "https://i.scdn.co/image/ab6761610000e5ebcf051efa891c15282d4b4320",
-    "pct": 36
+    "pct": 39
    },
    {
     "artist": "ベターユース",
     "plays": 15,
     "plays_fmt": "15",
     "img": "https://i.scdn.co/image/ab6761610000e5eb16dece2d917600d94faa6653",
-    "pct": 32
+    "pct": 33
    },
    {
     "artist": "Record bill babes",
-    "plays": 11,
-    "plays_fmt": "11",
+    "plays": 12,
+    "plays_fmt": "12",
     "img": null,
-    "pct": 23
+    "pct": 26
    },
    {
     "artist": "Home",
-    "plays": 9,
-    "plays_fmt": "9",
+    "plays": 10,
+    "plays_fmt": "10",
     "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
-    "pct": 19
-   },
-   {
-    "artist": "Trooper Salute",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb97cd03d0a41316350c7679ae",
-    "pct": 19
+    "pct": 22
    },
    {
     "artist": "butter cookies",
+    "plays": 10,
+    "plays_fmt": "10",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb322c2304bb19ae9951e31655",
+    "pct": 22
+   },
+   {
+    "artist": "オレンジスパイニクラブ",
     "plays": 9,
     "plays_fmt": "9",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb322c2304bb19ae9951e31655",
-    "pct": 19
+    "img": "https://i.scdn.co/image/ab6761610000e5eb79131b6dd6a2b6e9c4df4fb4",
+    "pct": 20
    },
    {
     "artist": "City Lizard art school",
@@ -684,14 +677,21 @@
     "plays_fmt": "7",
     "img": null,
     "pct": 15
+   },
+   {
+    "artist": "Yumegiwa Last Girl",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebc64501d40c9b012ed7c59276",
+    "pct": 15
    }
   ],
   "top_alb": [
    {
     "album": "自殺衝動の天使",
     "artist": "リハビリたち",
-    "plays": 46,
-    "plays_fmt": "46",
+    "plays": 45,
+    "plays_fmt": "45",
     "img": "https://i.scdn.co/image/ab6761610000e5ebfd541a37fd956fce07c6583a"
    },
    {
@@ -702,17 +702,10 @@
     "img": null
    },
    {
-    "album": "I carry a 700°C fire in my hand with people walking all around me",
-    "artist": "700度の火を持って、 私は人とすれちがっている",
-    "plays": 16,
-    "plays_fmt": "16",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb1272482edecc688e3d186f96"
-   },
-   {
     "album": "LIFE NOT BUZZ",
     "artist": "ANABANTFULLS",
-    "plays": 16,
-    "plays_fmt": "16",
+    "plays": 17,
+    "plays_fmt": "17",
     "img": "https://i.scdn.co/image/ab6761610000e5ebcf051efa891c15282d4b4320"
    },
    {
@@ -732,22 +725,22 @@
    {
     "album": "OLU",
     "artist": "Record bill babes",
-    "plays": 11,
-    "plays_fmt": "11",
+    "plays": 12,
+    "plays_fmt": "12",
     "img": null
    },
    {
     "album": "HOME COLLECTION",
     "artist": "Home",
-    "plays": 9,
-    "plays_fmt": "9",
+    "plays": 10,
+    "plays_fmt": "10",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
    },
    {
     "album": "Minority",
     "artist": "butter cookies",
-    "plays": 9,
-    "plays_fmt": "9",
+    "plays": 10,
+    "plays_fmt": "10",
     "img": "https://i.scdn.co/image/ab6761610000e5eb322c2304bb19ae9951e31655"
    },
    {
@@ -756,6 +749,13 @@
     "plays": 7,
     "plays_fmt": "7",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/30ed2e877445fcccd6bc8047eade5058.jpg"
+   },
+   {
+    "album": "No.",
+    "artist": "City Lizard art school",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": null
    }
   ],
   "top_trk": [
@@ -766,14 +766,14 @@
     "plays_fmt": "14"
    },
    {
-    "track": "新約・心のノート",
-    "artist": "リハビリたち",
-    "plays": 13,
-    "plays_fmt": "13"
-   },
-   {
     "track": "REACH",
     "artist": "ベターユース",
+    "plays": 12,
+    "plays_fmt": "12"
+   },
+   {
+    "track": "新約・心のノート",
+    "artist": "リハビリたち",
     "plays": 12,
     "plays_fmt": "12"
    },
@@ -784,20 +784,8 @@
     "plays_fmt": "5"
    },
    {
-    "track": "よろしくない",
-    "artist": "700度の火を持って、 私は人とすれちがっている",
-    "plays": 5,
-    "plays_fmt": "5"
-   },
-   {
     "track": "フレディ",
     "artist": "リハビリたち",
-    "plays": 5,
-    "plays_fmt": "5"
-   },
-   {
-    "track": "反抗未遂",
-    "artist": "Septa",
     "plays": 5,
     "plays_fmt": "5"
    },
@@ -818,15 +806,21 @@
     "artist": "Paparazzi Panic",
     "plays": 4,
     "plays_fmt": "4"
+   },
+   {
+    "track": "LIFE NOT BUZZ",
+    "artist": "ANABANTFULLS",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "Matashiyouyo",
+    "artist": "OFFICE DESTRUCTION GIRL",
+    "plays": 4,
+    "plays_fmt": "4"
    }
   ],
   "by_day": [
-   {
-    "day": "10/3",
-    "plays": 148,
-    "plays_fmt": "148",
-    "pct": 70
-   },
    {
     "day": "10/4",
     "plays": 171,
@@ -859,9 +853,15 @@
    },
    {
     "day": "10/9",
-    "plays": 38,
-    "plays_fmt": "38",
+    "plays": 39,
+    "plays_fmt": "39",
     "pct": 18
+   },
+   {
+    "day": "10/10",
+    "plays": 119,
+    "plays_fmt": "119",
+    "pct": 56
    }
   ]
  }
