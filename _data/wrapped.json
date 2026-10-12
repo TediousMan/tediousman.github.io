@@ -1,20 +1,20 @@
 {
- "generated": "2026-10-11",
+ "generated": "2026-10-12",
  "year_label": "2026",
  "all": {
-  "total": 221377,
-  "total_fmt": "221,377",
+  "total": 221493,
+  "total_fmt": "221,493",
   "uniq_art": 7434,
   "uniq_art_fmt": "7,434",
-  "uniq_trk": 31101,
-  "uniq_trk_fmt": "31,101",
+  "uniq_trk": 31102,
+  "uniq_trk_fmt": "31,102",
   "start": "2018-03-06",
-  "end": "2026-10-11",
+  "end": "2026-10-12",
   "top_art": [
    {
     "artist": "chilldspot",
-    "plays": 1048,
-    "plays_fmt": "1,048",
+    "plays": 1049,
+    "plays_fmt": "1,049",
     "img": "https://i.scdn.co/image/ab6761610000e5ebfffcd64678af9f7b7bab7832",
     "pct": 100
    },
@@ -30,7 +30,7 @@
     "plays": 1043,
     "plays_fmt": "1,043",
     "img": null,
-    "pct": 100
+    "pct": 99
    },
    {
     "artist": "No Buses",
@@ -44,7 +44,7 @@
     "plays": 886,
     "plays_fmt": "886",
     "img": "https://i.scdn.co/image/ab6761610000e5ebfd833836d124624e366ed252",
-    "pct": 85
+    "pct": 84
    },
    {
     "artist": "KROI",
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 38290,
-    "plays_fmt": "38,290",
+    "plays": 38406,
+    "plays_fmt": "38,406",
     "pct": 71
    }
   ],
@@ -330,12 +330,12 @@
   ]
  },
  "year": {
-  "total": 38290,
-  "total_fmt": "38,290",
+  "total": 38406,
+  "total_fmt": "38,406",
   "uniq_art": 2918,
   "uniq_art_fmt": "2,918",
-  "uniq_trk": 8317,
-  "uniq_trk_fmt": "8,317",
+  "uniq_trk": 8318,
+  "uniq_trk_fmt": "8,318",
   "top_art": [
    {
     "artist": "Kienai",
@@ -346,17 +346,17 @@
    },
    {
     "artist": "Ramblamp",
-    "plays": 271,
-    "plays_fmt": "271",
+    "plays": 272,
+    "plays_fmt": "272",
     "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf",
     "pct": 100
    },
    {
     "artist": "BUDOU JUICE",
-    "plays": 251,
-    "plays_fmt": "251",
+    "plays": 252,
+    "plays_fmt": "252",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f",
-    "pct": 92
+    "pct": 93
    },
    {
     "artist": "bedgravity",
@@ -388,8 +388,8 @@
    },
    {
     "artist": "uyuu",
-    "plays": 203,
-    "plays_fmt": "203",
+    "plays": 204,
+    "plays_fmt": "204",
     "img": "https://i.scdn.co/image/ab67616d0000b27381582c0fb8f5908a6aee7f3e",
     "pct": 75
    },
@@ -401,11 +401,11 @@
     "pct": 68
    },
    {
-    "artist": "tenbin O",
-    "plays": 175,
-    "plays_fmt": "175",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebb146cdd0b2be813c4b411eb2",
-    "pct": 64
+    "artist": "Muque",
+    "plays": 176,
+    "plays_fmt": "176",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f",
+    "pct": 65
    }
   ],
   "top_alb": [
@@ -440,15 +440,15 @@
    {
     "album": "BUDOU JUICE",
     "artist": "BUDOU JUICE",
-    "plays": 190,
-    "plays_fmt": "190",
+    "plays": 191,
+    "plays_fmt": "191",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f"
    },
    {
     "album": "Nichijogamatakodamasuru",
     "artist": "Ramblamp",
-    "plays": 180,
-    "plays_fmt": "180",
+    "plays": 181,
+    "plays_fmt": "181",
     "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
    },
    {
@@ -475,8 +475,8 @@
    {
     "album": "Landscapes Entwined",
     "artist": "ue",
-    "plays": 158,
-    "plays_fmt": "158",
+    "plays": 159,
+    "plays_fmt": "159",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/f2b935a3f4b57eaa918ebd81e5490650.jpg"
    }
   ],
@@ -599,70 +599,56 @@
    },
    {
     "month": "10",
-    "plays": 1659,
-    "plays_fmt": "1,659",
-    "pct": 30
+    "plays": 1775,
+    "plays_fmt": "1,775",
+    "pct": 33
    }
   ]
  },
  "week": {
-  "total": 1028,
-  "total_fmt": "1,028",
-  "uniq_art": 556,
-  "uniq_art_fmt": "556",
-  "uniq_trk": 802,
-  "uniq_trk_fmt": "802",
-  "start": "10/5",
-  "end": "10/11",
+  "total": 933,
+  "total_fmt": "933",
+  "uniq_art": 534,
+  "uniq_art_fmt": "534",
+  "uniq_trk": 750,
+  "uniq_trk_fmt": "750",
+  "start": "10/6",
+  "end": "10/12",
   "top_art": [
    {
     "artist": "OFFICE DESTRUCTION GIRL",
-    "plays": 36,
-    "plays_fmt": "36",
+    "plays": 37,
+    "plays_fmt": "37",
     "img": null,
     "pct": 100
-   },
-   {
-    "artist": "リハビリたち",
-    "plays": 28,
-    "plays_fmt": "28",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebfd541a37fd956fce07c6583a",
-    "pct": 78
    },
    {
     "artist": "ANABANTFULLS",
     "plays": 18,
     "plays_fmt": "18",
     "img": "https://i.scdn.co/image/ab6761610000e5ebcf051efa891c15282d4b4320",
-    "pct": 50
+    "pct": 49
    },
    {
     "artist": "ベターユース",
     "plays": 16,
     "plays_fmt": "16",
     "img": "https://i.scdn.co/image/ab6761610000e5eb16dece2d917600d94faa6653",
-    "pct": 44
+    "pct": 43
+   },
+   {
+    "artist": "リハビリたち",
+    "plays": 14,
+    "plays_fmt": "14",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebfd541a37fd956fce07c6583a",
+    "pct": 38
    },
    {
     "artist": "オレンジスパイニクラブ",
     "plays": 10,
     "plays_fmt": "10",
     "img": "https://i.scdn.co/image/ab6761610000e5eb79131b6dd6a2b6e9c4df4fb4",
-    "pct": 28
-   },
-   {
-    "artist": "Home",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
-    "pct": 22
-   },
-   {
-    "artist": "Acle",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab67616d0000b273da3b2891301695c345c56bb8",
-    "pct": 19
+    "pct": 27
    },
    {
     "artist": "City Lizard art school",
@@ -672,28 +658,35 @@
     "pct": 19
    },
    {
-    "artist": "Yorikiri Club",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab67616d0000b27310c1c58501c1102b971c7a6b",
-    "pct": 19
-   },
-   {
     "artist": "Yumegiwa Last Girl",
     "plays": 7,
     "plays_fmt": "7",
     "img": "https://i.scdn.co/image/ab6761610000e5ebc64501d40c9b012ed7c59276",
     "pct": 19
+   },
+   {
+    "artist": "Acle",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://i.scdn.co/image/ab67616d0000b273da3b2891301695c345c56bb8",
+    "pct": 16
+   },
+   {
+    "artist": "AoOo",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
+    "pct": 16
+   },
+   {
+    "artist": "Home",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
+    "pct": 16
    }
   ],
   "top_alb": [
-   {
-    "album": "自殺衝動の天使",
-    "artist": "リハビリたち",
-    "plays": 26,
-    "plays_fmt": "26",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebfd541a37fd956fce07c6583a"
-   },
    {
     "album": "shironinarumade",
     "artist": "OFFICE DESTRUCTION GIRL",
@@ -723,11 +716,11 @@
     "img": "https://i.scdn.co/image/ab6761610000e5eb16dece2d917600d94faa6653"
    },
    {
-    "album": "HOME COLLECTION",
-    "artist": "Home",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
+    "album": "自殺衝動の天使",
+    "artist": "リハビリたち",
+    "plays": 12,
+    "plays_fmt": "12",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebfd541a37fd956fce07c6583a"
    },
    {
     "album": "Dream Cloud",
@@ -744,18 +737,25 @@
     "img": null
    },
    {
-    "album": "SAD MUSIC",
-    "artist": "Yorikiri Club",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab67616d0000b27310c1c58501c1102b971c7a6b"
+    "album": "GLHF",
+    "artist": "Muque",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/13bc104dda275aecfdc92e8231ef0b32.jpg"
    },
    {
-    "album": "好きにしろ",
-    "artist": "オレンジスパイニクラブ",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb79131b6dd6a2b6e9c4df4fb4"
+    "album": "HOME COLLECTION",
+    "artist": "Home",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
+   },
+   {
+    "album": "SAD MUSIC",
+    "artist": "Yorikiri Club",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://i.scdn.co/image/ab67616d0000b27310c1c58501c1102b971c7a6b"
    }
   ],
   "top_trk": [
@@ -772,18 +772,6 @@
     "plays_fmt": "13"
    },
    {
-    "track": "新約・心のノート",
-    "artist": "リハビリたち",
-    "plays": 6,
-    "plays_fmt": "6"
-   },
-   {
-    "track": "まだ生きてる",
-    "artist": "リハビリたち",
-    "plays": 5,
-    "plays_fmt": "5"
-   },
-   {
     "track": "Dairokkan yori",
     "artist": "Let Me Know",
     "plays": 4,
@@ -792,12 +780,6 @@
    {
     "track": "Heart of Gold",
     "artist": "ANABANTFULLS",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "Kyokou No Kakera",
-    "artist": "Paparazzi Panic",
     "plays": 4,
     "plays_fmt": "4"
    },
@@ -818,49 +800,67 @@
     "artist": "OFFICE DESTRUCTION GIRL",
     "plays": 4,
     "plays_fmt": "4"
+   },
+   {
+    "track": "ゆらめき",
+    "artist": "miida",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "都市の遠景、祝祭",
+    "artist": "Yorikiri Club",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "!Cool Shout!",
+    "artist": "Fictreal C",
+    "plays": 3,
+    "plays_fmt": "3"
    }
   ],
   "by_day": [
    {
-    "day": "10/5",
-    "plays": 211,
-    "plays_fmt": "211",
-    "pct": 100
-   },
-   {
     "day": "10/6",
     "plays": 180,
     "plays_fmt": "180",
-    "pct": 85
+    "pct": 90
    },
    {
     "day": "10/7",
     "plays": 200,
     "plays_fmt": "200",
-    "pct": 95
+    "pct": 100
    },
    {
     "day": "10/8",
     "plays": 174,
     "plays_fmt": "174",
-    "pct": 82
+    "pct": 87
    },
    {
     "day": "10/9",
     "plays": 39,
     "plays_fmt": "39",
-    "pct": 18
+    "pct": 20
    },
    {
     "day": "10/10",
     "plays": 120,
     "plays_fmt": "120",
-    "pct": 57
+    "pct": 60
    },
    {
     "day": "10/11",
-    "plays": 104,
-    "plays_fmt": "104",
+    "plays": 122,
+    "plays_fmt": "122",
+    "pct": 61
+   },
+   {
+    "day": "10/12",
+    "plays": 98,
+    "plays_fmt": "98",
     "pct": 49
    }
   ]
