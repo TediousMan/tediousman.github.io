@@ -78,8 +78,8 @@
   },
   {
    "name": "羊文学",
-   "plays": 691,
-   "plays_fmt": "691",
+   "plays": 692,
+   "plays_fmt": "692",
    "img": "https://i.scdn.co/image/ab6761610000e5eb1833f4534ed3dd88d9e12c8b"
   },
   {
@@ -90,8 +90,8 @@
   },
   {
    "name": "kobore",
-   "plays": 667,
-   "plays_fmt": "667",
+   "plays": 668,
+   "plays_fmt": "668",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24"
   },
   {
@@ -342,8 +342,8 @@
   },
   {
    "name": "Home",
-   "plays": 409,
-   "plays_fmt": "409",
+   "plays": 411,
+   "plays_fmt": "411",
    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
@@ -449,16 +449,16 @@
    "img": "https://i.scdn.co/image/ab67616d0000b273a10aefa900ad4a60773bd28e"
   },
   {
+   "name": "kiki vivi lily",
+   "plays": 356,
+   "plays_fmt": "356",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebfe3b6188abc328838969e7c5"
+  },
+  {
    "name": "Heavenstamp",
    "plays": 355,
    "plays_fmt": "355",
    "img": "https://i.scdn.co/image/ab6761610000e5eb74d551d6dbd3e14c7de78ab2"
-  },
-  {
-   "name": "kiki vivi lily",
-   "plays": 355,
-   "plays_fmt": "355",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebfe3b6188abc328838969e7c5"
   },
   {
    "name": "Furui Riho",
@@ -504,8 +504,8 @@
   },
   {
    "name": "coldrain",
-   "plays": 331,
-   "plays_fmt": "331",
+   "plays": 333,
+   "plays_fmt": "333",
    "img": "https://i.scdn.co/image/ab6761610000e5eb790734bdee501b47713b4afe"
   },
   {
@@ -641,16 +641,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebad1458fe213f198f7b11d1d4"
   },
   {
+   "name": "Luby Sparks",
+   "plays": 305,
+   "plays_fmt": "305",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb99833843219af1cdc66223fc"
+  },
+  {
    "name": "Haruy",
    "plays": 304,
    "plays_fmt": "304",
    "img": "https://i.scdn.co/image/ab6761610000e5eb2c25588070d843e68a41d6f4"
-  },
-  {
-   "name": "Luby Sparks",
-   "plays": 304,
-   "plays_fmt": "304",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb99833843219af1cdc66223fc"
   },
   {
    "name": "the tiva",
@@ -690,8 +690,8 @@
   },
   {
    "name": "Have a nice day!",
-   "plays": 292,
-   "plays_fmt": "292",
+   "plays": 293,
+   "plays_fmt": "293",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
   },
   {
@@ -713,6 +713,12 @@
    "img": "https://i.scdn.co/image/ab67616d0000b2731494a1e1507f8dbfbce8f2df"
   },
   {
+   "name": "mukeikaku",
+   "plays": 285,
+   "plays_fmt": "285",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb1c7ce3df2cce3afef74566cb"
+  },
+  {
    "name": "魚韻",
    "plays": 285,
    "plays_fmt": "285",
@@ -729,12 +735,6 @@
    "plays": 284,
    "plays_fmt": "284",
    "img": "https://i.scdn.co/image/ab67616d0000b2739522d7fafd953bddbddea2c9"
-  },
-  {
-   "name": "mukeikaku",
-   "plays": 284,
-   "plays_fmt": "284",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb1c7ce3df2cce3afef74566cb"
   },
   {
    "name": "Blumepopo",
@@ -767,10 +767,22 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb8ffe1b4304fc8e392b97c2b7"
   },
   {
+   "name": "Kienai",
+   "plays": 278,
+   "plays_fmt": "278",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481"
+  },
+  {
    "name": "POOL",
    "plays": 278,
    "plays_fmt": "278",
    "img": null
+  },
+  {
+   "name": "Ramblamp",
+   "plays": 278,
+   "plays_fmt": "278",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
   },
   {
    "name": "Summer Whales",
@@ -779,22 +791,10 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb35e11f5ad4a252b96a658376"
   },
   {
-   "name": "Kienai",
-   "plays": 276,
-   "plays_fmt": "276",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481"
-  },
-  {
    "name": "Laura day romance",
    "plays": 276,
    "plays_fmt": "276",
    "img": "https://i.scdn.co/image/ab6761610000e5ebf27e76aad8ec44d8e0b38be2"
-  },
-  {
-   "name": "Ramblamp",
-   "plays": 276,
-   "plays_fmt": "276",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
   },
   {
    "name": "ASOBOiSM",
@@ -821,6 +821,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb0eef43e8d0a6ef8f2fe0cae6"
   },
   {
+   "name": "the Wulongs",
+   "plays": 269,
+   "plays_fmt": "269",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc"
+  },
+  {
    "name": "Hammer Head Shark",
    "plays": 268,
    "plays_fmt": "268",
@@ -837,12 +843,6 @@
    "plays": 267,
    "plays_fmt": "267",
    "img": "https://i.scdn.co/image/ab6761610000e5eba9a5143d6eb3917fbe03ad9b"
-  },
-  {
-   "name": "the Wulongs",
-   "plays": 266,
-   "plays_fmt": "266",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc"
   },
   {
    "name": "レルエ",
@@ -893,16 +893,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb8048ea9ec9630e59fb3f3512"
   },
   {
+   "name": "Black Boboi",
+   "plays": 261,
+   "plays_fmt": "261",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb173cb515bfb6ca8f05dc2aca"
+  },
+  {
    "name": "Kankaku Piero",
    "plays": 261,
    "plays_fmt": "261",
    "img": "https://i.scdn.co/image/ab6761610000e5ebbefd0bad2068f6eb4fe23df0"
-  },
-  {
-   "name": "SLOTHREAT",
-   "plays": 261,
-   "plays_fmt": "261",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb93cd81967ea2a33ad6fa53f6"
   }
  ]
 }

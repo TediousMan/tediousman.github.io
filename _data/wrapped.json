@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-14",
+ "generated": "2026-10-15",
  "year_label": "2026",
  "all": {
-  "total": 221814,
-  "total_fmt": "221,814",
+  "total": 222017,
+  "total_fmt": "222,017",
   "uniq_art": 7438,
   "uniq_art_fmt": "7,438",
-  "uniq_trk": 31118,
-  "uniq_trk_fmt": "31,118",
+  "uniq_trk": 31120,
+  "uniq_trk_fmt": "31,120",
   "start": "2018-03-06",
-  "end": "2026-10-14",
+  "end": "2026-10-15",
   "top_art": [
    {
     "artist": "chilldspot",
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 38727,
-    "plays_fmt": "38,727",
+    "plays": 38930,
+    "plays_fmt": "38,930",
     "pct": 72
    }
   ],
@@ -330,31 +330,31 @@
   ]
  },
  "year": {
-  "total": 38727,
-  "total_fmt": "38,727",
-  "uniq_art": 2924,
-  "uniq_art_fmt": "2,924",
-  "uniq_trk": 8334,
-  "uniq_trk_fmt": "8,334",
+  "total": 38930,
+  "total_fmt": "38,930",
+  "uniq_art": 2925,
+  "uniq_art_fmt": "2,925",
+  "uniq_trk": 8336,
+  "uniq_trk_fmt": "8,336",
   "top_art": [
    {
     "artist": "Ramblamp",
-    "plays": 276,
-    "plays_fmt": "276",
+    "plays": 278,
+    "plays_fmt": "278",
     "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf",
     "pct": 100
    },
    {
     "artist": "Kienai",
-    "plays": 273,
-    "plays_fmt": "273",
+    "plays": 275,
+    "plays_fmt": "275",
     "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481",
     "pct": 99
    },
    {
     "artist": "BUDOU JUICE",
-    "plays": 252,
-    "plays_fmt": "252",
+    "plays": 254,
+    "plays_fmt": "254",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f",
     "pct": 91
    },
@@ -363,7 +363,7 @@
     "plays": 237,
     "plays_fmt": "237",
     "img": "https://i.scdn.co/image/ab67616d0000b273d29467756d06ae5882d98238",
-    "pct": 86
+    "pct": 85
    },
    {
     "artist": "あたまたんさん",
@@ -374,37 +374,37 @@
    },
    {
     "artist": "the Wulongs",
-    "plays": 218,
-    "plays_fmt": "218",
+    "plays": 221,
+    "plays_fmt": "221",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
     "pct": 79
    },
    {
     "artist": "Home",
-    "plays": 213,
-    "plays_fmt": "213",
+    "plays": 215,
+    "plays_fmt": "215",
     "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
     "pct": 77
    },
    {
     "artist": "uyuu",
-    "plays": 206,
-    "plays_fmt": "206",
+    "plays": 208,
+    "plays_fmt": "208",
     "img": "https://i.scdn.co/image/ab67616d0000b27381582c0fb8f5908a6aee7f3e",
     "pct": 75
    },
    {
     "artist": "wanbed",
-    "plays": 186,
-    "plays_fmt": "186",
+    "plays": 187,
+    "plays_fmt": "187",
     "img": "https://i.scdn.co/image/ab6761610000e5eb015e59262813fcf812ddf659",
     "pct": 67
    },
    {
-    "artist": "Muque",
-    "plays": 176,
-    "plays_fmt": "176",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f",
+    "artist": "tenbin O",
+    "plays": 177,
+    "plays_fmt": "177",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebb146cdd0b2be813c4b411eb2",
     "pct": 64
    }
   ],
@@ -412,8 +412,8 @@
    {
     "album": "sparkleII",
     "artist": "Kienai",
-    "plays": 270,
-    "plays_fmt": "270",
+    "plays": 272,
+    "plays_fmt": "272",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/1c6a42ba2640cb0ed267d0c9d6a5f106.jpg"
    },
    {
@@ -433,29 +433,29 @@
    {
     "album": "HOME COLLECTION",
     "artist": "Home",
-    "plays": 209,
-    "plays_fmt": "209",
+    "plays": 211,
+    "plays_fmt": "211",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
    },
    {
     "album": "BUDOU JUICE",
     "artist": "BUDOU JUICE",
-    "plays": 191,
-    "plays_fmt": "191",
+    "plays": 192,
+    "plays_fmt": "192",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f"
    },
    {
     "album": "Nichijogamatakodamasuru",
     "artist": "Ramblamp",
-    "plays": 183,
-    "plays_fmt": "183",
+    "plays": 184,
+    "plays_fmt": "184",
     "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
    },
    {
     "album": "bipolar",
     "artist": "Nankyokuten",
-    "plays": 170,
-    "plays_fmt": "170",
+    "plays": 172,
+    "plays_fmt": "172",
     "img": null
    },
    {
@@ -532,8 +532,8 @@
    {
     "track": "way back",
     "artist": "Kienai",
-    "plays": 63,
-    "plays_fmt": "63"
+    "plays": 64,
+    "plays_fmt": "64"
    },
    {
     "track": "Panzamast",
@@ -599,107 +599,114 @@
    },
    {
     "month": "10",
-    "plays": 2096,
-    "plays_fmt": "2,096",
-    "pct": 38
+    "plays": 2299,
+    "plays_fmt": "2,299",
+    "pct": 42
    }
   ]
  },
  "week": {
-  "total": 874,
-  "total_fmt": "874",
-  "uniq_art": 586,
-  "uniq_art_fmt": "586",
-  "uniq_trk": 802,
-  "uniq_trk_fmt": "802",
-  "start": "10/8",
-  "end": "10/14",
+  "total": 903,
+  "total_fmt": "903",
+  "uniq_art": 564,
+  "uniq_art_fmt": "564",
+  "uniq_trk": 794,
+  "uniq_trk_fmt": "794",
+  "start": "10/9",
+  "end": "10/15",
   "top_art": [
    {
-    "artist": "OFFICE DESTRUCTION GIRL",
-    "plays": 24,
-    "plays_fmt": "24",
-    "img": null,
+    "artist": "DYGL",
+    "plays": 20,
+    "plays_fmt": "20",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb688fee19c642484ece8aff37",
     "pct": 100
    },
    {
-    "artist": "DYGL",
-    "plays": 19,
-    "plays_fmt": "19",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb688fee19c642484ece8aff37",
-    "pct": 79
+    "artist": "Ramblamp",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf",
+    "pct": 40
    },
    {
     "artist": "オレンジスパイニクラブ",
     "plays": 8,
     "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab6761610000e5eb79131b6dd6a2b6e9c4df4fb4",
-    "pct": 33
+    "pct": 40
    },
    {
     "artist": "Acle",
-    "plays": 6,
-    "plays_fmt": "6",
+    "plays": 7,
+    "plays_fmt": "7",
     "img": "https://i.scdn.co/image/ab67616d0000b273da3b2891301695c345c56bb8",
-    "pct": 25
+    "pct": 35
    },
    {
-    "artist": "Ramblamp",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf",
-    "pct": 25
+    "artist": "OFFICE DESTRUCTION GIRL",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": null,
+    "pct": 35
    },
    {
-    "artist": "AoOo",
-    "plays": 5,
-    "plays_fmt": "5",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
-    "pct": 21
-   },
-   {
-    "artist": "EverBrighteller",
-    "plays": 5,
-    "plays_fmt": "5",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb503dcd9fd679892ccbc7fc71",
-    "pct": 21
-   },
-   {
-    "artist": "Fall of Tears",
-    "plays": 5,
-    "plays_fmt": "5",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebb1b34784a7410e5bd15edd80",
-    "pct": 21
+    "artist": "リハビリたち",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebfd541a37fd956fce07c6583a",
+    "pct": 35
    },
    {
     "artist": "Home",
-    "plays": 5,
-    "plays_fmt": "5",
+    "plays": 6,
+    "plays_fmt": "6",
     "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
-    "pct": 21
+    "pct": 30
    },
    {
-    "artist": "Muque",
+    "artist": "the Wulongs",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
+    "pct": 30
+   },
+   {
+    "artist": "uyuu",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://i.scdn.co/image/ab67616d0000b27381582c0fb8f5908a6aee7f3e",
+    "pct": 30
+   },
+   {
+    "artist": "ANABANTFULLS",
     "plays": 5,
     "plays_fmt": "5",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f",
-    "pct": 21
+    "img": "https://i.scdn.co/image/ab6761610000e5ebcf051efa891c15282d4b4320",
+    "pct": 25
    }
   ],
   "top_alb": [
    {
-    "album": "shironinarumade",
-    "artist": "OFFICE DESTRUCTION GIRL",
-    "plays": 23,
-    "plays_fmt": "23",
-    "img": null
-   },
-   {
     "album": "All Tomorrows",
     "artist": "DYGL",
-    "plays": 19,
-    "plays_fmt": "19",
+    "plays": 20,
+    "plays_fmt": "20",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/b94447811908646fe798e1afcb98f207.jpg"
+   },
+   {
+    "album": "HOME COLLECTION",
+    "artist": "Home",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
+   },
+   {
+    "album": "Town in Mind",
+    "artist": "Acle",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/7ce9707bcbff63303d56c4348ae4d809.jpg"
    },
    {
     "album": "好きにしろ",
@@ -709,74 +716,49 @@
     "img": "https://i.scdn.co/image/ab6761610000e5eb79131b6dd6a2b6e9c4df4fb4"
    },
    {
-    "album": "GLHF",
-    "artist": "Muque",
+    "album": "自殺衝動の天使",
+    "artist": "リハビリたち",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebfd541a37fd956fce07c6583a"
+   },
+   {
+    "album": "LIFE NOT BUZZ",
+    "artist": "ANABANTFULLS",
     "plays": 5,
     "plays_fmt": "5",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/13bc104dda275aecfdc92e8231ef0b32.jpg"
+    "img": "https://i.scdn.co/image/ab6761610000e5ebcf051efa891c15282d4b4320"
    },
    {
-    "album": "GOLD",
-    "artist": "EverBrighteller",
+    "album": "TOU.",
+    "artist": "kiki vivi lily",
     "plays": 5,
     "plays_fmt": "5",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb503dcd9fd679892ccbc7fc71"
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/a6ec0c87ee060eb1c1e12d25b6a41074.jpg"
    },
    {
-    "album": "HOME COLLECTION",
-    "artist": "Home",
+    "album": "The most beloved food of 2063 was Synth-Terrine (demo)",
+    "artist": "Bluetea",
     "plays": 5,
     "plays_fmt": "5",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
+    "img": "https://i.scdn.co/image/ab6761610000e5eb0360300d93f5ffedce74bd1f"
    },
    {
-    "album": "Neo Retro Pops",
-    "artist": "Rip van cats",
+    "album": "Trapped in an Aquarium",
+    "artist": "uyuu",
     "plays": 5,
     "plays_fmt": "5",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/832fafb3bba9f2ef0159f6691a760685.jpg"
+    "img": "https://i.scdn.co/image/ab67616d0000b27381582c0fb8f5908a6aee7f3e"
    },
    {
-    "album": "Town in Mind",
-    "artist": "Acle",
+    "album": "shironinarumade",
+    "artist": "OFFICE DESTRUCTION GIRL",
     "plays": 5,
     "plays_fmt": "5",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/7ce9707bcbff63303d56c4348ae4d809.jpg"
-   },
-   {
-    "album": "135",
-    "artist": "wanbed",
-    "plays": 4,
-    "plays_fmt": "4",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/8f67506eb69e1457aed72a3f1273f862.jpg"
-   },
-   {
-    "album": "Remains",
-    "artist": "東京酒吐座(Tokyo Shoegazer)",
-    "plays": 4,
-    "plays_fmt": "4",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/ed79aa4737810a699f0f7ad7c0fc6743.jpg"
+    "img": null
    }
   ],
   "top_trk": [
-   {
-    "track": "Halo",
-    "artist": "OFFICE DESTRUCTION GIRL",
-    "plays": 8,
-    "plays_fmt": "8"
-   },
-   {
-    "track": "Matashiyouyo",
-    "artist": "OFFICE DESTRUCTION GIRL",
-    "plays": 5,
-    "plays_fmt": "5"
-   },
-   {
-    "track": "ゆらめき",
-    "artist": "miida",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
    {
     "track": "恋じゃなくなっても",
     "artist": "らそんぶる",
@@ -784,14 +766,26 @@
     "plays_fmt": "4"
    },
    {
-    "track": "Kalanchoe",
-    "artist": "OFFICE DESTRUCTION GIRL",
+    "track": "DRAPE",
+    "artist": "NARUDORA",
     "plays": 3,
     "plays_fmt": "3"
    },
    {
-    "track": "Super Fast Dog",
-    "artist": "OFFICE DESTRUCTION GIRL",
+    "track": "Falling Leaves",
+    "artist": "DYGL",
+    "plays": 3,
+    "plays_fmt": "3"
+   },
+   {
+    "track": "Hallo",
+    "artist": "Owl",
+    "plays": 3,
+    "plays_fmt": "3"
+   },
+   {
+    "track": "Skirt",
+    "artist": "the Wulongs",
     "plays": 3,
     "plays_fmt": "3"
    },
@@ -802,66 +796,72 @@
     "plays_fmt": "3"
    },
    {
-    "track": "hibana",
-    "artist": "redmarker",
-    "plays": 3,
-    "plays_fmt": "3"
-   },
-   {
-    "track": "side by side",
-    "artist": "OFFICE DESTRUCTION GIRL",
-    "plays": 3,
-    "plays_fmt": "3"
+    "track": "A town with a sea view",
+    "artist": "Her",
+    "plays": 2,
+    "plays_fmt": "2"
    },
    {
     "track": "All Tomorrows",
     "artist": "DYGL",
     "plays": 2,
     "plays_fmt": "2"
+   },
+   {
+    "track": "BURNING",
+    "artist": "EVE OF THE LAIN",
+    "plays": 2,
+    "plays_fmt": "2"
+   },
+   {
+    "track": "Banquet",
+    "artist": "The Posis",
+    "plays": 2,
+    "plays_fmt": "2"
    }
   ],
   "by_day": [
    {
-    "day": "10/8",
-    "plays": 174,
-    "plays_fmt": "174",
-    "pct": 100
-   },
-   {
     "day": "10/9",
     "plays": 39,
     "plays_fmt": "39",
-    "pct": 22
+    "pct": 21
    },
    {
     "day": "10/10",
     "plays": 120,
     "plays_fmt": "120",
-    "pct": 69
+    "pct": 63
    },
    {
     "day": "10/11",
     "plays": 122,
     "plays_fmt": "122",
-    "pct": 70
+    "pct": 65
    },
    {
     "day": "10/12",
     "plays": 148,
     "plays_fmt": "148",
-    "pct": 85
+    "pct": 78
    },
    {
     "day": "10/13",
     "plays": 119,
     "plays_fmt": "119",
-    "pct": 68
+    "pct": 63
    },
    {
     "day": "10/14",
-    "plays": 152,
-    "plays_fmt": "152",
-    "pct": 87
+    "plays": 166,
+    "plays_fmt": "166",
+    "pct": 88
+   },
+   {
+    "day": "10/15",
+    "plays": 189,
+    "plays_fmt": "189",
+    "pct": 100
    }
   ]
  }
