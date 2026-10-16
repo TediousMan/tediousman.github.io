@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-15",
+ "generated": "2026-10-16",
  "year_label": "2026",
  "all": {
-  "total": 222017,
-  "total_fmt": "222,017",
+  "total": 222175,
+  "total_fmt": "222,175",
   "uniq_art": 7438,
   "uniq_art_fmt": "7,438",
   "uniq_trk": 31120,
   "uniq_trk_fmt": "31,120",
   "start": "2018-03-06",
-  "end": "2026-10-15",
+  "end": "2026-10-16",
   "top_art": [
    {
     "artist": "chilldspot",
@@ -41,10 +41,10 @@
    },
    {
     "artist": "クレナズム",
-    "plays": 886,
-    "plays_fmt": "886",
+    "plays": 887,
+    "plays_fmt": "887",
     "img": "https://i.scdn.co/image/ab6761610000e5ebfd833836d124624e366ed252",
-    "pct": 84
+    "pct": 85
    },
    {
     "artist": "KROI",
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 38930,
-    "plays_fmt": "38,930",
+    "plays": 39088,
+    "plays_fmt": "39,088",
     "pct": 72
    }
   ],
@@ -330,8 +330,8 @@
   ]
  },
  "year": {
-  "total": 38930,
-  "total_fmt": "38,930",
+  "total": 39088,
+  "total_fmt": "39,088",
   "uniq_art": 2925,
   "uniq_art_fmt": "2,925",
   "uniq_trk": 8336,
@@ -360,10 +360,10 @@
    },
    {
     "artist": "bedgravity",
-    "plays": 237,
-    "plays_fmt": "237",
+    "plays": 238,
+    "plays_fmt": "238",
     "img": "https://i.scdn.co/image/ab67616d0000b273d29467756d06ae5882d98238",
-    "pct": 85
+    "pct": 86
    },
    {
     "artist": "あたまたんさん",
@@ -374,17 +374,17 @@
    },
    {
     "artist": "the Wulongs",
-    "plays": 221,
-    "plays_fmt": "221",
+    "plays": 222,
+    "plays_fmt": "222",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
-    "pct": 79
+    "pct": 80
    },
    {
     "artist": "Home",
-    "plays": 215,
-    "plays_fmt": "215",
+    "plays": 218,
+    "plays_fmt": "218",
     "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
-    "pct": 77
+    "pct": 78
    },
    {
     "artist": "uyuu",
@@ -401,10 +401,10 @@
     "pct": 67
    },
    {
-    "artist": "tenbin O",
+    "artist": "Muque",
     "plays": 177,
     "plays_fmt": "177",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebb146cdd0b2be813c4b411eb2",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f",
     "pct": 64
    }
   ],
@@ -419,8 +419,8 @@
    {
     "album": "Unmet Needs",
     "artist": "bedgravity",
-    "plays": 237,
-    "plays_fmt": "237",
+    "plays": 238,
+    "plays_fmt": "238",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/d49e1932df6d076c99051c1c7fe957a4.jpg"
    },
    {
@@ -433,8 +433,8 @@
    {
     "album": "HOME COLLECTION",
     "artist": "Home",
-    "plays": 211,
-    "plays_fmt": "211",
+    "plays": 214,
+    "plays_fmt": "214",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
    },
    {
@@ -454,15 +454,15 @@
    {
     "album": "bipolar",
     "artist": "Nankyokuten",
-    "plays": 172,
-    "plays_fmt": "172",
+    "plays": 173,
+    "plays_fmt": "173",
     "img": null
    },
    {
     "album": "日々、折り返すごとに",
     "artist": "爛漫天国",
-    "plays": 168,
-    "plays_fmt": "168",
+    "plays": 170,
+    "plays_fmt": "170",
     "img": "https://i.scdn.co/image/ab6761610000e5eb59ee187da2de942d5f50e0e0"
    },
    {
@@ -599,21 +599,21 @@
    },
    {
     "month": "10",
-    "plays": 2299,
-    "plays_fmt": "2,299",
-    "pct": 42
+    "plays": 2457,
+    "plays_fmt": "2,457",
+    "pct": 45
    }
   ]
  },
  "week": {
-  "total": 903,
-  "total_fmt": "903",
-  "uniq_art": 564,
-  "uniq_art_fmt": "564",
-  "uniq_trk": 794,
-  "uniq_trk_fmt": "794",
-  "start": "10/9",
-  "end": "10/15",
+  "total": 1022,
+  "total_fmt": "1,022",
+  "uniq_art": 596,
+  "uniq_art_fmt": "596",
+  "uniq_trk": 870,
+  "uniq_trk_fmt": "870",
+  "start": "10/10",
+  "end": "10/16",
   "top_art": [
    {
     "artist": "DYGL",
@@ -623,6 +623,27 @@
     "pct": 100
    },
    {
+    "artist": "オレンジスパイニクラブ",
+    "plays": 12,
+    "plays_fmt": "12",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb79131b6dd6a2b6e9c4df4fb4",
+    "pct": 60
+   },
+   {
+    "artist": "Home",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
+    "pct": 45
+   },
+   {
+    "artist": "Acle",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab67616d0000b273da3b2891301695c345c56bb8",
+    "pct": 40
+   },
+   {
     "artist": "Ramblamp",
     "plays": 8,
     "plays_fmt": "8",
@@ -630,18 +651,11 @@
     "pct": 40
    },
    {
-    "artist": "オレンジスパイニクラブ",
+    "artist": "リハビリたち",
     "plays": 8,
     "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb79131b6dd6a2b6e9c4df4fb4",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebfd541a37fd956fce07c6583a",
     "pct": 40
-   },
-   {
-    "artist": "Acle",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab67616d0000b273da3b2891301695c345c56bb8",
-    "pct": 35
    },
    {
     "artist": "OFFICE DESTRUCTION GIRL",
@@ -651,17 +665,17 @@
     "pct": 35
    },
    {
-    "artist": "リハビリたち",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebfd541a37fd956fce07c6583a",
-    "pct": 35
-   },
-   {
-    "artist": "Home",
+    "artist": "ANABANTFULLS",
     "plays": 6,
     "plays_fmt": "6",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebcf051efa891c15282d4b4320",
+    "pct": 30
+   },
+   {
+    "artist": "Mayson's Party",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://i.scdn.co/image/ab6761610000e5eba7a686895edfdbe3c31415d7",
     "pct": 30
    },
    {
@@ -670,20 +684,6 @@
     "plays_fmt": "6",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
     "pct": 30
-   },
-   {
-    "artist": "uyuu",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": "https://i.scdn.co/image/ab67616d0000b27381582c0fb8f5908a6aee7f3e",
-    "pct": 30
-   },
-   {
-    "artist": "ANABANTFULLS",
-    "plays": 5,
-    "plays_fmt": "5",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebcf051efa891c15282d4b4320",
-    "pct": 25
    }
   ],
   "top_alb": [
@@ -697,37 +697,58 @@
    {
     "album": "HOME COLLECTION",
     "artist": "Home",
-    "plays": 6,
-    "plays_fmt": "6",
+    "plays": 9,
+    "plays_fmt": "9",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
-   },
-   {
-    "album": "Town in Mind",
-    "artist": "Acle",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/7ce9707bcbff63303d56c4348ae4d809.jpg"
    },
    {
     "album": "好きにしろ",
     "artist": "オレンジスパイニクラブ",
-    "plays": 6,
-    "plays_fmt": "6",
+    "plays": 9,
+    "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5eb79131b6dd6a2b6e9c4df4fb4"
+   },
+   {
+    "album": "Town in Mind",
+    "artist": "Acle",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/7ce9707bcbff63303d56c4348ae4d809.jpg"
    },
    {
     "album": "自殺衝動の天使",
     "artist": "リハビリたち",
-    "plays": 6,
-    "plays_fmt": "6",
+    "plays": 7,
+    "plays_fmt": "7",
     "img": "https://i.scdn.co/image/ab6761610000e5ebfd541a37fd956fce07c6583a"
    },
    {
     "album": "LIFE NOT BUZZ",
     "artist": "ANABANTFULLS",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebcf051efa891c15282d4b4320"
+   },
+   {
+    "album": "GLHF",
+    "artist": "Muque",
     "plays": 5,
     "plays_fmt": "5",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebcf051efa891c15282d4b4320"
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/13bc104dda275aecfdc92e8231ef0b32.jpg"
+   },
+   {
+    "album": "GOLD",
+    "artist": "EverBrighteller",
+    "plays": 5,
+    "plays_fmt": "5",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb503dcd9fd679892ccbc7fc71"
+   },
+   {
+    "album": "Neo Retro Pops",
+    "artist": "Rip van cats",
+    "plays": 5,
+    "plays_fmt": "5",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/832fafb3bba9f2ef0159f6691a760685.jpg"
    },
    {
     "album": "TOU.",
@@ -735,35 +756,14 @@
     "plays": 5,
     "plays_fmt": "5",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/a6ec0c87ee060eb1c1e12d25b6a41074.jpg"
-   },
-   {
-    "album": "The most beloved food of 2063 was Synth-Terrine (demo)",
-    "artist": "Bluetea",
-    "plays": 5,
-    "plays_fmt": "5",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb0360300d93f5ffedce74bd1f"
-   },
-   {
-    "album": "Trapped in an Aquarium",
-    "artist": "uyuu",
-    "plays": 5,
-    "plays_fmt": "5",
-    "img": "https://i.scdn.co/image/ab67616d0000b27381582c0fb8f5908a6aee7f3e"
-   },
-   {
-    "album": "shironinarumade",
-    "artist": "OFFICE DESTRUCTION GIRL",
-    "plays": 5,
-    "plays_fmt": "5",
-    "img": null
    }
   ],
   "top_trk": [
    {
     "track": "恋じゃなくなっても",
     "artist": "らそんぶる",
-    "plays": 4,
-    "plays_fmt": "4"
+    "plays": 5,
+    "plays_fmt": "5"
    },
    {
     "track": "DRAPE",
@@ -778,8 +778,8 @@
     "plays_fmt": "3"
    },
    {
-    "track": "Hallo",
-    "artist": "Owl",
+    "track": "Non-REM Love",
+    "artist": "slump girl",
     "plays": 3,
     "plays_fmt": "3"
    },
@@ -790,16 +790,22 @@
     "plays_fmt": "3"
    },
    {
+    "track": "Sometimes (Remember My Past Self)",
+    "artist": "Looisbos",
+    "plays": 3,
+    "plays_fmt": "3"
+   },
+   {
     "track": "Unloaded",
     "artist": "DYGL",
     "plays": 3,
     "plays_fmt": "3"
    },
    {
-    "track": "A town with a sea view",
-    "artist": "Her",
-    "plays": 2,
-    "plays_fmt": "2"
+    "track": "無くしたピックを重ねて月に行こう",
+    "artist": "オレンジスパイニクラブ",
+    "plays": 3,
+    "plays_fmt": "3"
    },
    {
     "track": "All Tomorrows",
@@ -808,60 +814,54 @@
     "plays_fmt": "2"
    },
    {
-    "track": "BURNING",
-    "artist": "EVE OF THE LAIN",
-    "plays": 2,
-    "plays_fmt": "2"
-   },
-   {
-    "track": "Banquet",
-    "artist": "The Posis",
+    "track": "Atashini Sureba Iinoni!",
+    "artist": "Koresawa",
     "plays": 2,
     "plays_fmt": "2"
    }
   ],
   "by_day": [
    {
-    "day": "10/9",
-    "plays": 39,
-    "plays_fmt": "39",
-    "pct": 21
-   },
-   {
     "day": "10/10",
     "plays": 120,
     "plays_fmt": "120",
-    "pct": 63
+    "pct": 59
    },
    {
     "day": "10/11",
     "plays": 122,
     "plays_fmt": "122",
-    "pct": 65
+    "pct": 60
    },
    {
     "day": "10/12",
     "plays": 148,
     "plays_fmt": "148",
-    "pct": 78
+    "pct": 72
    },
    {
     "day": "10/13",
     "plays": 119,
     "plays_fmt": "119",
-    "pct": 63
+    "pct": 58
    },
    {
     "day": "10/14",
     "plays": 166,
     "plays_fmt": "166",
-    "pct": 88
+    "pct": 81
    },
    {
     "day": "10/15",
-    "plays": 189,
-    "plays_fmt": "189",
+    "plays": 205,
+    "plays_fmt": "205",
     "pct": 100
+   },
+   {
+    "day": "10/16",
+    "plays": 142,
+    "plays_fmt": "142",
+    "pct": 69
    }
   ]
  }

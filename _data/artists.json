@@ -30,8 +30,8 @@
   },
   {
    "name": "クレナズム",
-   "plays": 886,
-   "plays_fmt": "886",
+   "plays": 887,
+   "plays_fmt": "887",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfd833836d124624e366ed252"
   },
   {
@@ -198,8 +198,8 @@
   },
   {
    "name": "Ayutthaya",
-   "plays": 544,
-   "plays_fmt": "544",
+   "plays": 545,
+   "plays_fmt": "545",
    "img": "https://i.scdn.co/image/ab6761610000e5eb0389567240d2b2d9dbb289d8"
   },
   {
@@ -306,8 +306,8 @@
   },
   {
    "name": "Tokimeki Records",
-   "plays": 435,
-   "plays_fmt": "435",
+   "plays": 436,
+   "plays_fmt": "436",
    "img": "https://i.scdn.co/image/ab6761610000e5eb42c23eeeaedfb6c466f8b3e9"
   },
   {
@@ -342,14 +342,14 @@
   },
   {
    "name": "Home",
-   "plays": 411,
-   "plays_fmt": "411",
+   "plays": 414,
+   "plays_fmt": "414",
    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
    "name": "Muque",
-   "plays": 401,
-   "plays_fmt": "401",
+   "plays": 402,
+   "plays_fmt": "402",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
   },
   {
@@ -443,16 +443,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb4a8c57a013ac825eef0fb401"
   },
   {
+   "name": "kiki vivi lily",
+   "plays": 357,
+   "plays_fmt": "357",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebfe3b6188abc328838969e7c5"
+  },
+  {
    "name": "miida",
    "plays": 357,
    "plays_fmt": "357",
    "img": "https://i.scdn.co/image/ab67616d0000b273a10aefa900ad4a60773bd28e"
-  },
-  {
-   "name": "kiki vivi lily",
-   "plays": 356,
-   "plays_fmt": "356",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebfe3b6188abc328838969e7c5"
   },
   {
    "name": "Heavenstamp",
@@ -468,8 +468,8 @@
   },
   {
    "name": "灰色ロジック",
-   "plays": 348,
-   "plays_fmt": "348",
+   "plays": 349,
+   "plays_fmt": "349",
    "img": "https://i.scdn.co/image/ab6761610000e5eb8b1593a9b28a0e6ccd588521"
   },
   {
@@ -558,8 +558,8 @@
   },
   {
    "name": "Cephalo",
-   "plays": 320,
-   "plays_fmt": "320",
+   "plays": 321,
+   "plays_fmt": "321",
    "img": "https://i.scdn.co/image/ab6761610000e5ebeadedb0cf2a489ca33090611"
   },
   {
@@ -587,16 +587,16 @@
    "img": "https://i.scdn.co/image/ab67616d0000b273da67bfdd172efa62a5d3470c"
   },
   {
+   "name": "Chisa",
+   "plays": 317,
+   "plays_fmt": "317",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebcc959cd12f18b2c2a2baa2c7"
+  },
+  {
    "name": "Miu Mau",
    "plays": 317,
    "plays_fmt": "317",
    "img": "https://i.scdn.co/image/ab67616d0000b273f7450eb7f1ad638f0665d298"
-  },
-  {
-   "name": "Chisa",
-   "plays": 316,
-   "plays_fmt": "316",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebcc959cd12f18b2c2a2baa2c7"
   },
   {
    "name": "DurdN",
@@ -642,8 +642,8 @@
   },
   {
    "name": "Luby Sparks",
-   "plays": 305,
-   "plays_fmt": "305",
+   "plays": 306,
+   "plays_fmt": "306",
    "img": "https://i.scdn.co/image/ab6761610000e5eb99833843219af1cdc66223fc"
   },
   {
@@ -749,6 +749,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb55300c7fa7dffdc1abd1fd39"
   },
   {
+   "name": "36km/h",
+   "plays": 280,
+   "plays_fmt": "280",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb8ffe1b4304fc8e392b97c2b7"
+  },
+  {
    "name": "Regal Lily",
    "plays": 280,
    "plays_fmt": "280",
@@ -759,12 +765,6 @@
    "plays": 279,
    "plays_fmt": "279",
    "img": "https://i.scdn.co/image/ab6761610000e5ebab458bf73950d79c2afe1249"
-  },
-  {
-   "name": "36km/h",
-   "plays": 279,
-   "plays_fmt": "279",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb8ffe1b4304fc8e392b97c2b7"
   },
   {
    "name": "Kienai",
@@ -822,8 +822,8 @@
   },
   {
    "name": "the Wulongs",
-   "plays": 269,
-   "plays_fmt": "269",
+   "plays": 270,
+   "plays_fmt": "270",
    "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc"
   },
   {
@@ -881,6 +881,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebae40b992ffa53731ab3e62bf"
   },
   {
+   "name": "Black Boboi",
+   "plays": 262,
+   "plays_fmt": "262",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb173cb515bfb6ca8f05dc2aca"
+  },
+  {
    "name": "Jam Fuzz Kid",
    "plays": 262,
    "plays_fmt": "262",
@@ -891,12 +897,6 @@
    "plays": 261,
    "plays_fmt": "261",
    "img": "https://i.scdn.co/image/ab6761610000e5eb8048ea9ec9630e59fb3f3512"
-  },
-  {
-   "name": "Black Boboi",
-   "plays": 261,
-   "plays_fmt": "261",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb173cb515bfb6ca8f05dc2aca"
   },
   {
    "name": "Kankaku Piero",
