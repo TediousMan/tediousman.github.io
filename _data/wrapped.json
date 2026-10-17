@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-16",
+ "generated": "2026-10-17",
  "year_label": "2026",
  "all": {
-  "total": 222175,
-  "total_fmt": "222,175",
+  "total": 222193,
+  "total_fmt": "222,193",
   "uniq_art": 7438,
   "uniq_art_fmt": "7,438",
   "uniq_trk": 31120,
   "uniq_trk_fmt": "31,120",
   "start": "2018-03-06",
-  "end": "2026-10-16",
+  "end": "2026-10-17",
   "top_art": [
    {
     "artist": "chilldspot",
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 39088,
-    "plays_fmt": "39,088",
+    "plays": 39106,
+    "plays_fmt": "39,106",
     "pct": 72
    }
   ],
@@ -330,8 +330,8 @@
   ]
  },
  "year": {
-  "total": 39088,
-  "total_fmt": "39,088",
+  "total": 39106,
+  "total_fmt": "39,106",
   "uniq_art": 2925,
   "uniq_art_fmt": "2,925",
   "uniq_trk": 8336,
@@ -339,8 +339,8 @@
   "top_art": [
    {
     "artist": "Ramblamp",
-    "plays": 278,
-    "plays_fmt": "278",
+    "plays": 279,
+    "plays_fmt": "279",
     "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf",
     "pct": 100
    },
@@ -363,7 +363,7 @@
     "plays": 238,
     "plays_fmt": "238",
     "img": "https://i.scdn.co/image/ab67616d0000b273d29467756d06ae5882d98238",
-    "pct": 86
+    "pct": 85
    },
    {
     "artist": "あたまたんさん",
@@ -374,15 +374,15 @@
    },
    {
     "artist": "the Wulongs",
-    "plays": 222,
-    "plays_fmt": "222",
+    "plays": 223,
+    "plays_fmt": "223",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
     "pct": 80
    },
    {
     "artist": "Home",
-    "plays": 218,
-    "plays_fmt": "218",
+    "plays": 219,
+    "plays_fmt": "219",
     "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
     "pct": 78
    },
@@ -405,7 +405,7 @@
     "plays": 177,
     "plays_fmt": "177",
     "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f",
-    "pct": 64
+    "pct": 63
    }
   ],
   "top_alb": [
@@ -433,8 +433,8 @@
    {
     "album": "HOME COLLECTION",
     "artist": "Home",
-    "plays": 214,
-    "plays_fmt": "214",
+    "plays": 215,
+    "plays_fmt": "215",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
    },
    {
@@ -447,15 +447,15 @@
    {
     "album": "Nichijogamatakodamasuru",
     "artist": "Ramblamp",
-    "plays": 184,
-    "plays_fmt": "184",
+    "plays": 185,
+    "plays_fmt": "185",
     "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
    },
    {
     "album": "bipolar",
     "artist": "Nankyokuten",
-    "plays": 173,
-    "plays_fmt": "173",
+    "plays": 174,
+    "plays_fmt": "174",
     "img": null
    },
    {
@@ -500,16 +500,16 @@
     "plays_fmt": "83"
    },
    {
-    "track": "Hibernating Summer",
-    "artist": "Youth Illustrated",
+    "track": "Anemone",
+    "artist": "REVEMERE",
     "plays": 82,
     "plays_fmt": "82"
    },
    {
-    "track": "Anemone",
-    "artist": "REVEMERE",
-    "plays": 81,
-    "plays_fmt": "81"
+    "track": "Hibernating Summer",
+    "artist": "Youth Illustrated",
+    "plays": 82,
+    "plays_fmt": "82"
    },
    {
     "track": "浴槽",
@@ -599,21 +599,21 @@
    },
    {
     "month": "10",
-    "plays": 2457,
-    "plays_fmt": "2,457",
+    "plays": 2475,
+    "plays_fmt": "2,475",
     "pct": 45
    }
   ]
  },
  "week": {
-  "total": 1022,
-  "total_fmt": "1,022",
-  "uniq_art": 596,
-  "uniq_art_fmt": "596",
-  "uniq_trk": 870,
-  "uniq_trk_fmt": "870",
-  "start": "10/10",
-  "end": "10/16",
+  "total": 920,
+  "total_fmt": "920",
+  "uniq_art": 550,
+  "uniq_art_fmt": "550",
+  "uniq_trk": 785,
+  "uniq_trk_fmt": "785",
+  "start": "10/11",
+  "end": "10/17",
   "top_art": [
    {
     "artist": "DYGL",
@@ -623,31 +623,17 @@
     "pct": 100
    },
    {
-    "artist": "オレンジスパイニクラブ",
-    "plays": 12,
-    "plays_fmt": "12",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb79131b6dd6a2b6e9c4df4fb4",
-    "pct": 60
-   },
-   {
-    "artist": "Home",
+    "artist": "Ramblamp",
     "plays": 9,
     "plays_fmt": "9",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf",
     "pct": 45
    },
    {
-    "artist": "Acle",
+    "artist": "オレンジスパイニクラブ",
     "plays": 8,
     "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab67616d0000b273da3b2891301695c345c56bb8",
-    "pct": 40
-   },
-   {
-    "artist": "Ramblamp",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb79131b6dd6a2b6e9c4df4fb4",
     "pct": 40
    },
    {
@@ -658,6 +644,13 @@
     "pct": 40
    },
    {
+    "artist": "Home",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
+    "pct": 35
+   },
+   {
     "artist": "OFFICE DESTRUCTION GIRL",
     "plays": 7,
     "plays_fmt": "7",
@@ -665,17 +658,17 @@
     "pct": 35
    },
    {
-    "artist": "ANABANTFULLS",
+    "artist": "Acle",
     "plays": 6,
     "plays_fmt": "6",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebcf051efa891c15282d4b4320",
+    "img": "https://i.scdn.co/image/ab67616d0000b273da3b2891301695c345c56bb8",
     "pct": 30
    },
    {
-    "artist": "Mayson's Party",
+    "artist": "Trooper Salute",
     "plays": 6,
     "plays_fmt": "6",
-    "img": "https://i.scdn.co/image/ab6761610000e5eba7a686895edfdbe3c31415d7",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb97cd03d0a41316350c7679ae",
     "pct": 30
    },
    {
@@ -684,6 +677,13 @@
     "plays_fmt": "6",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
     "pct": 30
+   },
+   {
+    "artist": "ANABANTFULLS",
+    "plays": 5,
+    "plays_fmt": "5",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebcf051efa891c15282d4b4320",
+    "pct": 25
    }
   ],
   "top_alb": [
@@ -697,23 +697,9 @@
    {
     "album": "HOME COLLECTION",
     "artist": "Home",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
-   },
-   {
-    "album": "好きにしろ",
-    "artist": "オレンジスパイニクラブ",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb79131b6dd6a2b6e9c4df4fb4"
-   },
-   {
-    "album": "Town in Mind",
-    "artist": "Acle",
     "plays": 7,
     "plays_fmt": "7",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/7ce9707bcbff63303d56c4348ae4d809.jpg"
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
    },
    {
     "album": "自殺衝動の天使",
@@ -723,20 +709,6 @@
     "img": "https://i.scdn.co/image/ab6761610000e5ebfd541a37fd956fce07c6583a"
    },
    {
-    "album": "LIFE NOT BUZZ",
-    "artist": "ANABANTFULLS",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebcf051efa891c15282d4b4320"
-   },
-   {
-    "album": "GLHF",
-    "artist": "Muque",
-    "plays": 5,
-    "plays_fmt": "5",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/13bc104dda275aecfdc92e8231ef0b32.jpg"
-   },
-   {
     "album": "GOLD",
     "artist": "EverBrighteller",
     "plays": 5,
@@ -744,18 +716,46 @@
     "img": "https://i.scdn.co/image/ab6761610000e5eb503dcd9fd679892ccbc7fc71"
    },
    {
-    "album": "Neo Retro Pops",
-    "artist": "Rip van cats",
+    "album": "LIFE NOT BUZZ",
+    "artist": "ANABANTFULLS",
     "plays": 5,
     "plays_fmt": "5",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/832fafb3bba9f2ef0159f6691a760685.jpg"
+    "img": "https://i.scdn.co/image/ab6761610000e5ebcf051efa891c15282d4b4320"
    },
    {
-    "album": "TOU.",
-    "artist": "kiki vivi lily",
+    "album": "Nichijogamatakodamasuru",
+    "artist": "Ramblamp",
     "plays": 5,
     "plays_fmt": "5",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/a6ec0c87ee060eb1c1e12d25b6a41074.jpg"
+    "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
+   },
+   {
+    "album": "Town in Mind",
+    "artist": "Acle",
+    "plays": 5,
+    "plays_fmt": "5",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/7ce9707bcbff63303d56c4348ae4d809.jpg"
+   },
+   {
+    "album": "bipolar",
+    "artist": "Nankyokuten",
+    "plays": 5,
+    "plays_fmt": "5",
+    "img": null
+   },
+   {
+    "album": "kudaru",
+    "artist": "hiragi no",
+    "plays": 5,
+    "plays_fmt": "5",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/ddff0fec8b5fe8577b9e4c0e9b39b74c.jpg"
+   },
+   {
+    "album": "shironinarumade",
+    "artist": "OFFICE DESTRUCTION GIRL",
+    "plays": 5,
+    "plays_fmt": "5",
+    "img": null
    }
   ],
   "top_trk": [
@@ -790,12 +790,6 @@
     "plays_fmt": "3"
    },
    {
-    "track": "Sometimes (Remember My Past Self)",
-    "artist": "Looisbos",
-    "plays": 3,
-    "plays_fmt": "3"
-   },
-   {
     "track": "Unloaded",
     "artist": "DYGL",
     "plays": 3,
@@ -804,6 +798,12 @@
    {
     "track": "無くしたピックを重ねて月に行こう",
     "artist": "オレンジスパイニクラブ",
+    "plays": 3,
+    "plays_fmt": "3"
+   },
+   {
+    "track": "絶縁",
+    "artist": "Trooper Salute",
     "plays": 3,
     "plays_fmt": "3"
    },
@@ -821,12 +821,6 @@
    }
   ],
   "by_day": [
-   {
-    "day": "10/10",
-    "plays": 120,
-    "plays_fmt": "120",
-    "pct": 59
-   },
    {
     "day": "10/11",
     "plays": 122,
@@ -859,9 +853,15 @@
    },
    {
     "day": "10/16",
-    "plays": 142,
-    "plays_fmt": "142",
-    "pct": 69
+    "plays": 152,
+    "plays_fmt": "152",
+    "pct": 74
+   },
+   {
+    "day": "10/17",
+    "plays": 8,
+    "plays_fmt": "8",
+    "pct": 4
    }
   ]
  }
