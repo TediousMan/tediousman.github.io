@@ -6,8 +6,8 @@
  "artists": [
   {
    "name": "chilldspot",
-   "plays": 1049,
-   "plays_fmt": "1,049",
+   "plays": 1050,
+   "plays_fmt": "1,050",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfffcd64678af9f7b7bab7832"
   },
   {
@@ -329,16 +329,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb590cfa1ad794bf2697150167"
   },
   {
+   "name": "Home",
+   "plays": 416,
+   "plays_fmt": "416",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
+  },
+  {
    "name": "アルコサイト",
    "plays": 416,
    "plays_fmt": "416",
    "img": "https://i.scdn.co/image/ab6761610000e5ebaf76a42adf1e3c3297ad0d9b"
-  },
-  {
-   "name": "Home",
-   "plays": 415,
-   "plays_fmt": "415",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
    "name": "Moshimo",
@@ -690,8 +690,8 @@
   },
   {
    "name": "Have a nice day!",
-   "plays": 293,
-   "plays_fmt": "293",
+   "plays": 294,
+   "plays_fmt": "294",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
   },
   {
@@ -708,8 +708,8 @@
   },
   {
    "name": "Haruno",
-   "plays": 286,
-   "plays_fmt": "286",
+   "plays": 287,
+   "plays_fmt": "287",
    "img": "https://i.scdn.co/image/ab67616d0000b2731494a1e1507f8dbfbce8f2df"
   },
   {
