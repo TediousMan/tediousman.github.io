@@ -1,13 +1,13 @@
 {
  "count": 150,
- "total_artists": 7438,
- "total_artists_fmt": "7,438",
+ "total_artists": 7442,
+ "total_artists_fmt": "7,442",
  "missing_img": 8,
  "artists": [
   {
    "name": "chilldspot",
-   "plays": 1050,
-   "plays_fmt": "1,050",
+   "plays": 1051,
+   "plays_fmt": "1,051",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfffcd64678af9f7b7bab7832"
   },
   {
@@ -30,8 +30,8 @@
   },
   {
    "name": "クレナズム",
-   "plays": 887,
-   "plays_fmt": "887",
+   "plays": 888,
+   "plays_fmt": "888",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfd833836d124624e366ed252"
   },
   {
@@ -72,8 +72,8 @@
   },
   {
    "name": "FINLANDS",
-   "plays": 703,
-   "plays_fmt": "703",
+   "plays": 704,
+   "plays_fmt": "704",
    "img": "https://i.scdn.co/image/ab6761610000e5ebcf8988fc2f6375e25eb7a350"
   },
   {
@@ -101,16 +101,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb2a08d0189b80a87ff7dc63fc"
   },
   {
+   "name": "For Tracy Hyde",
+   "plays": 633,
+   "plays_fmt": "633",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebb9973cb3e9a7645db81c7e9a"
+  },
+  {
    "name": "eill",
    "plays": 633,
    "plays_fmt": "633",
    "img": "https://i.scdn.co/image/ab6761610000e5ebf3f6ea218e12317560e84a58"
-  },
-  {
-   "name": "For Tracy Hyde",
-   "plays": 632,
-   "plays_fmt": "632",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebb9973cb3e9a7645db81c7e9a"
   },
   {
    "name": "kurayamisaka",
@@ -264,14 +264,14 @@
   },
   {
    "name": "My Lucky Day",
-   "plays": 467,
-   "plays_fmt": "467",
+   "plays": 468,
+   "plays_fmt": "468",
    "img": "https://i.scdn.co/image/ab67616d0000b2737b651335a1ff0dbb8055f1d8"
   },
   {
    "name": "レイラ",
-   "plays": 463,
-   "plays_fmt": "463",
+   "plays": 464,
+   "plays_fmt": "464",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5a7ae7ae77a6230eb4107638"
   },
   {
@@ -318,8 +318,8 @@
   },
   {
    "name": "Blurred City Lights",
-   "plays": 424,
-   "plays_fmt": "424",
+   "plays": 425,
+   "plays_fmt": "425",
    "img": "https://i.scdn.co/image/ab6761610000e5eb2e883a5a8f9cb639a233051e"
   },
   {
@@ -330,8 +330,8 @@
   },
   {
    "name": "Home",
-   "plays": 416,
-   "plays_fmt": "416",
+   "plays": 417,
+   "plays_fmt": "417",
    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
@@ -348,8 +348,8 @@
   },
   {
    "name": "Muque",
-   "plays": 402,
-   "plays_fmt": "402",
+   "plays": 403,
+   "plays_fmt": "403",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
   },
   {
@@ -462,8 +462,8 @@
   },
   {
    "name": "Furui Riho",
-   "plays": 350,
-   "plays_fmt": "350",
+   "plays": 351,
+   "plays_fmt": "351",
    "img": "https://i.scdn.co/image/ab6761610000e5ebff647d0f64da73922aad0cd5"
   },
   {
@@ -540,8 +540,8 @@
   },
   {
    "name": "Nagakumo",
-   "plays": 324,
-   "plays_fmt": "324",
+   "plays": 325,
+   "plays_fmt": "325",
    "img": "https://i.scdn.co/image/ab6761610000e5eb9247cd4ef50307e4425b4bf8"
   },
   {
@@ -569,6 +569,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb400868142f0cb858d015c76d"
   },
   {
+   "name": "Pavilion",
+   "plays": 319,
+   "plays_fmt": "319",
+   "img": "https://i.scdn.co/image/ab67616d0000b273da67bfdd172efa62a5d3470c"
+  },
+  {
    "name": "Youmentbay",
    "plays": 319,
    "plays_fmt": "319",
@@ -579,12 +585,6 @@
    "plays": 319,
    "plays_fmt": "319",
    "img": "https://i.scdn.co/image/ab6761610000e5eb9ff08ad4abc242feaf105f11"
-  },
-  {
-   "name": "Pavilion",
-   "plays": 318,
-   "plays_fmt": "318",
-   "img": "https://i.scdn.co/image/ab67616d0000b273da67bfdd172efa62a5d3470c"
   },
   {
    "name": "Chisa",
@@ -708,8 +708,8 @@
   },
   {
    "name": "Haruno",
-   "plays": 287,
-   "plays_fmt": "287",
+   "plays": 288,
+   "plays_fmt": "288",
    "img": "https://i.scdn.co/image/ab67616d0000b2731494a1e1507f8dbfbce8f2df"
   },
   {
@@ -774,8 +774,8 @@
   },
   {
    "name": "Kienai",
-   "plays": 278,
-   "plays_fmt": "278",
+   "plays": 279,
+   "plays_fmt": "279",
    "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481"
   },
   {
@@ -792,8 +792,8 @@
   },
   {
    "name": "Laura day romance",
-   "plays": 276,
-   "plays_fmt": "276",
+   "plays": 277,
+   "plays_fmt": "277",
    "img": "https://i.scdn.co/image/ab6761610000e5ebf27e76aad8ec44d8e0b38be2"
   },
   {
@@ -828,8 +828,8 @@
   },
   {
    "name": "Hammer Head Shark",
-   "plays": 268,
-   "plays_fmt": "268",
+   "plays": 269,
+   "plays_fmt": "269",
    "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851"
   },
   {
@@ -849,6 +849,12 @@
    "plays": 264,
    "plays_fmt": "264",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd8cf2692aebe6fc3a8bc498e"
+  },
+  {
+   "name": "171",
+   "plays": 263,
+   "plays_fmt": "263",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb8048ea9ec9630e59fb3f3512"
   },
   {
    "name": "Black Boboi",
@@ -891,12 +897,6 @@
    "plays": 262,
    "plays_fmt": "262",
    "img": "https://i.scdn.co/image/ab6761610000e5eb521dd8791d85d8b317200133"
-  },
-  {
-   "name": "171",
-   "plays": 261,
-   "plays_fmt": "261",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb8048ea9ec9630e59fb3f3512"
   },
   {
    "name": "Kankaku Piero",
