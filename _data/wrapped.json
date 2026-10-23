@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-22",
+ "generated": "2026-10-23",
  "year_label": "2026",
  "all": {
-  "total": 222911,
-  "total_fmt": "222,911",
+  "total": 222929,
+  "total_fmt": "222,929",
   "uniq_art": 7442,
   "uniq_art_fmt": "7,442",
-  "uniq_trk": 31154,
-  "uniq_trk_fmt": "31,154",
+  "uniq_trk": 31155,
+  "uniq_trk_fmt": "31,155",
   "start": "2018-03-06",
-  "end": "2026-10-22",
+  "end": "2026-10-23",
   "top_art": [
    {
     "artist": "chilldspot",
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 39824,
-    "plays_fmt": "39,824",
+    "plays": 39842,
+    "plays_fmt": "39,842",
     "pct": 74
    }
   ],
@@ -330,12 +330,12 @@
   ]
  },
  "year": {
-  "total": 39824,
-  "total_fmt": "39,824",
-  "uniq_art": 2931,
-  "uniq_art_fmt": "2,931",
-  "uniq_trk": 8382,
-  "uniq_trk_fmt": "8,382",
+  "total": 39842,
+  "total_fmt": "39,842",
+  "uniq_art": 2932,
+  "uniq_art_fmt": "2,932",
+  "uniq_trk": 8384,
+  "uniq_trk_fmt": "8,384",
   "top_art": [
    {
     "artist": "Ramblamp",
@@ -599,21 +599,21 @@
    },
    {
     "month": "10",
-    "plays": 3193,
-    "plays_fmt": "3,193",
+    "plays": 3211,
+    "plays_fmt": "3,211",
     "pct": 59
    }
   ]
  },
  "week": {
-  "total": 878,
-  "total_fmt": "878",
-  "uniq_art": 506,
-  "uniq_art_fmt": "506",
-  "uniq_trk": 723,
-  "uniq_trk_fmt": "723",
-  "start": "10/16",
-  "end": "10/22",
+  "total": 744,
+  "total_fmt": "744",
+  "uniq_art": 437,
+  "uniq_art_fmt": "437",
+  "uniq_trk": 613,
+  "uniq_trk_fmt": "613",
+  "start": "10/17",
+  "end": "10/23",
   "top_art": [
    {
     "artist": "sheeve",
@@ -637,25 +637,11 @@
     "pct": 77
    },
    {
-    "artist": "Home",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
-    "pct": 69
-   },
-   {
     "artist": "リハビリたち",
-    "plays": 9,
-    "plays_fmt": "9",
+    "plays": 8,
+    "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab6761610000e5ebfd541a37fd956fce07c6583a",
-    "pct": 69
-   },
-   {
-    "artist": "Acle",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab67616d0000b273da3b2891301695c345c56bb8",
-    "pct": 54
+    "pct": 62
    },
    {
     "artist": "Müde",
@@ -679,11 +665,25 @@
     "pct": 54
    },
    {
-    "artist": "Trooper Salute",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb97cd03d0a41316350c7679ae",
-    "pct": 54
+    "artist": "Acle",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://i.scdn.co/image/ab67616d0000b273da3b2891301695c345c56bb8",
+    "pct": 46
+   },
+   {
+    "artist": "BRADIO",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb1b468ea5308efde05767f7f3",
+    "pct": 46
+   },
+   {
+    "artist": "CQ",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://i.scdn.co/image/ab67616d0000b273d5df30b611ba46931c2b1d93",
+    "pct": 46
    }
   ],
   "top_alb": [
@@ -702,20 +702,6 @@
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/10ce876a2547103fa56cb47fe8d19ee8.png"
    },
    {
-    "album": "HOME COLLECTION",
-    "artist": "Home",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
-   },
-   {
-    "album": "自殺衝動の天使",
-    "artist": "リハビリたち",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebfd541a37fd956fce07c6583a"
-   },
-   {
     "album": "Fluctuating Water Temperature",
     "artist": "uyuu",
     "plays": 8,
@@ -723,11 +709,11 @@
     "img": "https://i.scdn.co/image/ab67616d0000b27381582c0fb8f5908a6aee7f3e"
    },
    {
-    "album": "Town in Mind",
-    "artist": "Acle",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/7ce9707bcbff63303d56c4348ae4d809.jpg"
+    "album": "自殺衝動の天使",
+    "artist": "リハビリたち",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebfd541a37fd956fce07c6583a"
    },
    {
     "album": "Yoake wa shin to mizuiro",
@@ -737,13 +723,6 @@
     "img": "https://i.scdn.co/image/ab6761610000e5eb2773a023686f24715dc0bfd8"
    },
    {
-    "album": "友達がいました",
-    "artist": "Trooper Salute",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/f41863c4c9146f2e2158cda8db761dbf.jpg"
-   },
-   {
     "album": "All Tomorrows",
     "artist": "DYGL",
     "plays": 6,
@@ -751,11 +730,32 @@
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/b94447811908646fe798e1afcb98f207.jpg"
    },
    {
-    "album": "FACH",
-    "artist": "the Wulongs",
+    "album": "Gold Fashion",
+    "artist": "BRADIO",
     "plays": 6,
     "plays_fmt": "6",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/98f2e6391df7025c381117edd5682cb7.jpg"
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/bdcf461a42515a1f33a369c657656b3d.jpg"
+   },
+   {
+    "album": "HOME COLLECTION",
+    "artist": "Home",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
+   },
+   {
+    "album": "Town in Mind",
+    "artist": "Acle",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/7ce9707bcbff63303d56c4348ae4d809.jpg"
+   },
+   {
+    "album": "what a Wonderful World's end～2024 Remastered～",
+    "artist": "CQ",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6c7091ca47c7e6fbb47659f8a9f0b8d0.jpg"
    }
   ],
   "top_trk": [
@@ -790,6 +790,12 @@
     "plays_fmt": "4"
    },
    {
+    "track": "エメラルド",
+    "artist": "はしメロ",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
     "track": "Ashikubi",
     "artist": "seaside suu",
     "plays": 3,
@@ -802,31 +808,19 @@
     "plays_fmt": "3"
    },
    {
-    "track": "HAPPY END",
-    "artist": "Mayson's Party",
-    "plays": 3,
-    "plays_fmt": "3"
-   },
-   {
-    "track": "Hanabira",
-    "artist": "Botan",
-    "plays": 3,
-    "plays_fmt": "3"
-   },
-   {
     "track": "Heatstroke",
     "artist": "SUKISHA",
+    "plays": 3,
+    "plays_fmt": "3"
+   },
+   {
+    "track": "Lefteyes",
+    "artist": "butohes",
     "plays": 3,
     "plays_fmt": "3"
    }
   ],
   "by_day": [
-   {
-    "day": "10/16",
-    "plays": 152,
-    "plays_fmt": "152",
-    "pct": 60
-   },
    {
     "day": "10/17",
     "plays": 13,
@@ -862,6 +856,12 @@
     "plays": 253,
     "plays_fmt": "253",
     "pct": 100
+   },
+   {
+    "day": "10/23",
+    "plays": 18,
+    "plays_fmt": "18",
+    "pct": 7
    }
   ]
  }
