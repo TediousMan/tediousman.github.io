@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23",
+ "generated": "2026-10-24",
  "year_label": "2026",
  "all": {
   "total": 222929,
@@ -606,14 +606,14 @@
   ]
  },
  "week": {
-  "total": 744,
-  "total_fmt": "744",
-  "uniq_art": 437,
-  "uniq_art_fmt": "437",
-  "uniq_trk": 613,
-  "uniq_trk_fmt": "613",
-  "start": "10/17",
-  "end": "10/23",
+  "total": 731,
+  "total_fmt": "731",
+  "uniq_art": 431,
+  "uniq_art_fmt": "431",
+  "uniq_trk": 605,
+  "uniq_trk_fmt": "605",
+  "start": "10/18",
+  "end": "10/24",
   "top_art": [
    {
     "artist": "sheeve",
@@ -737,13 +737,6 @@
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/bdcf461a42515a1f33a369c657656b3d.jpg"
    },
    {
-    "album": "HOME COLLECTION",
-    "artist": "Home",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
-   },
-   {
     "album": "Town in Mind",
     "artist": "Acle",
     "plays": 6,
@@ -756,6 +749,13 @@
     "plays": 6,
     "plays_fmt": "6",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6c7091ca47c7e6fbb47659f8a9f0b8d0.jpg"
+   },
+   {
+    "album": "まなざし - EP",
+    "artist": "Müde",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb47cd68844359b7e283acd5cf"
    }
   ],
   "top_trk": [
@@ -774,12 +774,6 @@
    {
     "track": "Shinkai no Kurage - 2026 Ver.",
     "artist": "PALE BLUE POTATO",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "Smoke and Blue",
-    "artist": "ネクライトーキー",
     "plays": 4,
     "plays_fmt": "4"
    },
@@ -818,15 +812,15 @@
     "artist": "butohes",
     "plays": 3,
     "plays_fmt": "3"
+   },
+   {
+    "track": "Leos",
+    "artist": "CQ",
+    "plays": 3,
+    "plays_fmt": "3"
    }
   ],
   "by_day": [
-   {
-    "day": "10/17",
-    "plays": 13,
-    "plays_fmt": "13",
-    "pct": 5
-   },
    {
     "day": "10/18",
     "plays": 79,
@@ -862,6 +856,12 @@
     "plays": 18,
     "plays_fmt": "18",
     "pct": 7
+   },
+   {
+    "day": "10/24",
+    "plays": 0,
+    "plays_fmt": "0",
+    "pct": 0
    }
   ]
  }
