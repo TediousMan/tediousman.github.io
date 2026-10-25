@@ -1,13 +1,13 @@
 {
  "count": 150,
- "total_artists": 7442,
- "total_artists_fmt": "7,442",
+ "total_artists": 7443,
+ "total_artists_fmt": "7,443",
  "missing_img": 8,
  "artists": [
   {
    "name": "chilldspot",
-   "plays": 1051,
-   "plays_fmt": "1,051",
+   "plays": 1052,
+   "plays_fmt": "1,052",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfffcd64678af9f7b7bab7832"
   },
   {
@@ -30,8 +30,8 @@
   },
   {
    "name": "クレナズム",
-   "plays": 889,
-   "plays_fmt": "889",
+   "plays": 890,
+   "plays_fmt": "890",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfd833836d124624e366ed252"
   },
   {
@@ -66,8 +66,8 @@
   },
   {
    "name": "Dannie May",
-   "plays": 727,
-   "plays_fmt": "727",
+   "plays": 728,
+   "plays_fmt": "728",
    "img": "https://i.scdn.co/image/ab6761610000e5eb9629e866cc65376368fe66a8"
   },
   {
@@ -90,8 +90,8 @@
   },
   {
    "name": "kobore",
-   "plays": 671,
-   "plays_fmt": "671",
+   "plays": 672,
+   "plays_fmt": "672",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24"
   },
   {
@@ -114,8 +114,8 @@
   },
   {
    "name": "kurayamisaka",
-   "plays": 632,
-   "plays_fmt": "632",
+   "plays": 633,
+   "plays_fmt": "633",
    "img": "https://i.scdn.co/image/ab6761610000e5eb549929e59e9a3da7b41f0939"
   },
   {
@@ -138,8 +138,8 @@
   },
   {
    "name": "reGretGirl",
-   "plays": 593,
-   "plays_fmt": "593",
+   "plays": 595,
+   "plays_fmt": "595",
    "img": "https://i.scdn.co/image/ab6761610000e5eb003605944411f68127e75169"
   },
   {
@@ -150,8 +150,8 @@
   },
   {
    "name": "BRADIO",
-   "plays": 574,
-   "plays_fmt": "574",
+   "plays": 575,
+   "plays_fmt": "575",
    "img": "https://i.scdn.co/image/ab6761610000e5eb1b468ea5308efde05767f7f3"
   },
   {
@@ -198,8 +198,8 @@
   },
   {
    "name": "Ayutthaya",
-   "plays": 545,
-   "plays_fmt": "545",
+   "plays": 546,
+   "plays_fmt": "546",
    "img": "https://i.scdn.co/image/ab6761610000e5eb0389567240d2b2d9dbb289d8"
   },
   {
@@ -276,8 +276,8 @@
   },
   {
    "name": "Sazanami",
-   "plays": 459,
-   "plays_fmt": "459",
+   "plays": 461,
+   "plays_fmt": "461",
    "img": "https://i.scdn.co/image/ab6761610000e5eba3f038b0d76a49de0bd33221"
   },
   {
@@ -294,8 +294,8 @@
   },
   {
    "name": "the cibo",
-   "plays": 439,
-   "plays_fmt": "439",
+   "plays": 440,
+   "plays_fmt": "440",
    "img": "https://i.scdn.co/image/ab67616d0000b273c845208c60073f8ed525f946"
   },
   {
@@ -324,8 +324,8 @@
   },
   {
    "name": "Home",
-   "plays": 420,
-   "plays_fmt": "420",
+   "plays": 424,
+   "plays_fmt": "424",
    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
@@ -348,8 +348,8 @@
   },
   {
    "name": "Muque",
-   "plays": 404,
-   "plays_fmt": "404",
+   "plays": 406,
+   "plays_fmt": "406",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
   },
   {
@@ -438,21 +438,21 @@
   },
   {
    "name": "kiki vivi lily",
-   "plays": 359,
-   "plays_fmt": "359",
+   "plays": 360,
+   "plays_fmt": "360",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfe3b6188abc328838969e7c5"
+  },
+  {
+   "name": "miida",
+   "plays": 358,
+   "plays_fmt": "358",
+   "img": "https://i.scdn.co/image/ab67616d0000b273a10aefa900ad4a60773bd28e"
   },
   {
    "name": "sancrib",
    "plays": 358,
    "plays_fmt": "358",
    "img": "https://i.scdn.co/image/ab6761610000e5eb4a8c57a013ac825eef0fb401"
-  },
-  {
-   "name": "miida",
-   "plays": 357,
-   "plays_fmt": "357",
-   "img": "https://i.scdn.co/image/ab67616d0000b273a10aefa900ad4a60773bd28e"
   },
   {
    "name": "Heavenstamp",
@@ -480,8 +480,8 @@
   },
   {
    "name": "RAN",
-   "plays": 344,
-   "plays_fmt": "344",
+   "plays": 345,
+   "plays_fmt": "345",
    "img": null
   },
   {
@@ -491,16 +491,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebb80e31243a11fbc080f93153"
   },
   {
+   "name": "coldrain",
+   "plays": 337,
+   "plays_fmt": "337",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb790734bdee501b47713b4afe"
+  },
+  {
    "name": "アマイワナ",
    "plays": 337,
    "plays_fmt": "337",
    "img": "https://i.scdn.co/image/ab6761610000e5eb9fb815c98bc985868e689806"
-  },
-  {
-   "name": "coldrain",
-   "plays": 334,
-   "plays_fmt": "334",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb790734bdee501b47713b4afe"
   },
   {
    "name": "fish in water project",
@@ -623,6 +623,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb5d945f1eb86c81e98e97d715"
   },
   {
+   "name": "Luby Sparks",
+   "plays": 309,
+   "plays_fmt": "309",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb99833843219af1cdc66223fc"
+  },
+  {
    "name": "Stereogirl",
    "plays": 308,
    "plays_fmt": "308",
@@ -633,12 +639,6 @@
    "plays": 307,
    "plays_fmt": "307",
    "img": "https://i.scdn.co/image/ab6761610000e5eb6bb8a0465f0ec9b427da4300"
-  },
-  {
-   "name": "Luby Sparks",
-   "plays": 307,
-   "plays_fmt": "307",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb99833843219af1cdc66223fc"
   },
   {
    "name": "Nigami 17th birthday!!",
@@ -678,20 +678,20 @@
   },
   {
    "name": "omeme tenten",
-   "plays": 297,
-   "plays_fmt": "297",
+   "plays": 298,
+   "plays_fmt": "298",
    "img": "https://i.scdn.co/image/ab6761610000e5eb3b770c187b6a716a2eb91f1b"
   },
   {
    "name": "YONA YONA WEEKENDERS",
-   "plays": 296,
-   "plays_fmt": "296",
+   "plays": 297,
+   "plays_fmt": "297",
    "img": "https://i.scdn.co/image/ab6761610000e5eb6b91739a5b0e997957fff733"
   },
   {
    "name": "Have a nice day!",
-   "plays": 294,
-   "plays_fmt": "294",
+   "plays": 296,
+   "plays_fmt": "296",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
   },
   {
@@ -708,14 +708,14 @@
   },
   {
    "name": "Haruno",
-   "plays": 288,
-   "plays_fmt": "288",
+   "plays": 290,
+   "plays_fmt": "290",
    "img": "https://i.scdn.co/image/ab67616d0000b2731494a1e1507f8dbfbce8f2df"
   },
   {
    "name": "mukeikaku",
-   "plays": 286,
-   "plays_fmt": "286",
+   "plays": 287,
+   "plays_fmt": "287",
    "img": "https://i.scdn.co/image/ab6761610000e5eb1c7ce3df2cce3afef74566cb"
   },
   {
@@ -737,6 +737,12 @@
    "img": "https://i.scdn.co/image/ab67616d0000b2739522d7fafd953bddbddea2c9"
   },
   {
+   "name": "Ramblamp",
+   "plays": 283,
+   "plays_fmt": "283",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
+  },
+  {
    "name": "Blumepopo",
    "plays": 282,
    "plays_fmt": "282",
@@ -749,15 +755,9 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb55300c7fa7dffdc1abd1fd39"
   },
   {
-   "name": "Ramblamp",
+   "name": "36km/h",
    "plays": 281,
    "plays_fmt": "281",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
-  },
-  {
-   "name": "36km/h",
-   "plays": 280,
-   "plays_fmt": "280",
    "img": "https://i.scdn.co/image/ab6761610000e5eb8ffe1b4304fc8e392b97c2b7"
   },
   {
@@ -797,16 +797,22 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebf27e76aad8ec44d8e0b38be2"
   },
   {
+   "name": "the Wulongs",
+   "plays": 276,
+   "plays_fmt": "276",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc"
+  },
+  {
    "name": "ASOBOiSM",
    "plays": 275,
    "plays_fmt": "275",
    "img": "https://i.scdn.co/image/ab6761610000e5eb80403b4ec22b76d2eb4f8931"
   },
   {
-   "name": "the Wulongs",
-   "plays": 275,
-   "plays_fmt": "275",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc"
+   "name": "ホピーハイボ",
+   "plays": 274,
+   "plays_fmt": "274",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb0eef43e8d0a6ef8f2fe0cae6"
   },
   {
    "name": "E.scene",
@@ -819,12 +825,6 @@
    "plays": 273,
    "plays_fmt": "273",
    "img": "https://i.scdn.co/image/ab6761610000e5eb00e06631e438aa05cbd62f09"
-  },
-  {
-   "name": "ホピーハイボ",
-   "plays": 273,
-   "plays_fmt": "273",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb0eef43e8d0a6ef8f2fe0cae6"
   },
   {
    "name": "Hammer Head Shark",
@@ -846,8 +846,8 @@
   },
   {
    "name": "Black Boboi",
-   "plays": 265,
-   "plays_fmt": "265",
+   "plays": 266,
+   "plays_fmt": "266",
    "img": "https://i.scdn.co/image/ab6761610000e5eb173cb515bfb6ca8f05dc2aca"
   },
   {
