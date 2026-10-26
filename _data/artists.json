@@ -90,8 +90,8 @@
   },
   {
    "name": "kobore",
-   "plays": 672,
-   "plays_fmt": "672",
+   "plays": 675,
+   "plays_fmt": "675",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24"
   },
   {
@@ -270,14 +270,14 @@
   },
   {
    "name": "レイラ",
-   "plays": 465,
-   "plays_fmt": "465",
+   "plays": 467,
+   "plays_fmt": "467",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5a7ae7ae77a6230eb4107638"
   },
   {
    "name": "Sazanami",
-   "plays": 461,
-   "plays_fmt": "461",
+   "plays": 462,
+   "plays_fmt": "462",
    "img": "https://i.scdn.co/image/ab6761610000e5eba3f038b0d76a49de0bd33221"
   },
   {
@@ -306,8 +306,8 @@
   },
   {
    "name": "Tokimeki Records",
-   "plays": 436,
-   "plays_fmt": "436",
+   "plays": 437,
+   "plays_fmt": "437",
    "img": "https://i.scdn.co/image/ab6761610000e5eb42c23eeeaedfb6c466f8b3e9"
   },
   {
@@ -317,16 +317,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb19ac44359f592f21110fa31c"
   },
   {
+   "name": "Home",
+   "plays": 426,
+   "plays_fmt": "426",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
+  },
+  {
    "name": "Blurred City Lights",
    "plays": 425,
    "plays_fmt": "425",
    "img": "https://i.scdn.co/image/ab6761610000e5eb2e883a5a8f9cb639a233051e"
-  },
-  {
-   "name": "Home",
-   "plays": 424,
-   "plays_fmt": "424",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
    "name": "Dansa Med Dig",
@@ -719,6 +719,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb1c7ce3df2cce3afef74566cb"
   },
   {
+   "name": "Ramblamp",
+   "plays": 285,
+   "plays_fmt": "285",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
+  },
+  {
    "name": "魚韻",
    "plays": 285,
    "plays_fmt": "285",
@@ -735,12 +741,6 @@
    "plays": 284,
    "plays_fmt": "284",
    "img": "https://i.scdn.co/image/ab67616d0000b2739522d7fafd953bddbddea2c9"
-  },
-  {
-   "name": "Ramblamp",
-   "plays": 283,
-   "plays_fmt": "283",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
   },
   {
    "name": "Blumepopo",
@@ -762,8 +762,8 @@
   },
   {
    "name": "Kienai",
-   "plays": 280,
-   "plays_fmt": "280",
+   "plays": 281,
+   "plays_fmt": "281",
    "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481"
   },
   {
@@ -798,8 +798,8 @@
   },
   {
    "name": "the Wulongs",
-   "plays": 276,
-   "plays_fmt": "276",
+   "plays": 277,
+   "plays_fmt": "277",
    "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc"
   },
   {
@@ -828,8 +828,8 @@
   },
   {
    "name": "Hammer Head Shark",
-   "plays": 269,
-   "plays_fmt": "269",
+   "plays": 270,
+   "plays_fmt": "270",
    "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851"
   },
   {
