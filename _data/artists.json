@@ -162,8 +162,8 @@
   },
   {
    "name": "The Otals",
-   "plays": 565,
-   "plays_fmt": "565",
+   "plays": 566,
+   "plays_fmt": "566",
    "img": "https://i.scdn.co/image/ab6761610000e5ebe880728367d115f0c7dfceb6"
   },
   {
@@ -216,8 +216,8 @@
   },
   {
    "name": "PLUE",
-   "plays": 503,
-   "plays_fmt": "503",
+   "plays": 504,
+   "plays_fmt": "504",
    "img": "https://i.scdn.co/image/ab6761610000e5eb85209c8cac40615200957a58"
   },
   {
@@ -288,8 +288,8 @@
   },
   {
    "name": "WANIMA",
-   "plays": 448,
-   "plays_fmt": "448",
+   "plays": 449,
+   "plays_fmt": "449",
    "img": "https://i.scdn.co/image/ab6761610000e5eb37c85e7d09ce8668eab4a480"
   },
   {
@@ -318,8 +318,8 @@
   },
   {
    "name": "Home",
-   "plays": 426,
-   "plays_fmt": "426",
+   "plays": 427,
+   "plays_fmt": "427",
    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
@@ -330,8 +330,8 @@
   },
   {
    "name": "Dansa Med Dig",
-   "plays": 419,
-   "plays_fmt": "419",
+   "plays": 420,
+   "plays_fmt": "420",
    "img": "https://i.scdn.co/image/ab6761610000e5eb590cfa1ad794bf2697150167"
   },
   {
@@ -438,8 +438,8 @@
   },
   {
    "name": "kiki vivi lily",
-   "plays": 360,
-   "plays_fmt": "360",
+   "plays": 361,
+   "plays_fmt": "361",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfe3b6188abc328838969e7c5"
   },
   {
@@ -468,8 +468,8 @@
   },
   {
    "name": "灰色ロジック",
-   "plays": 349,
-   "plays_fmt": "349",
+   "plays": 350,
+   "plays_fmt": "350",
    "img": "https://i.scdn.co/image/ab6761610000e5eb8b1593a9b28a0e6ccd588521"
   },
   {
@@ -624,8 +624,8 @@
   },
   {
    "name": "Luby Sparks",
-   "plays": 309,
-   "plays_fmt": "309",
+   "plays": 310,
+   "plays_fmt": "310",
    "img": "https://i.scdn.co/image/ab6761610000e5eb99833843219af1cdc66223fc"
   },
   {
@@ -678,8 +678,8 @@
   },
   {
    "name": "omeme tenten",
-   "plays": 298,
-   "plays_fmt": "298",
+   "plays": 299,
+   "plays_fmt": "299",
    "img": "https://i.scdn.co/image/ab6761610000e5eb3b770c187b6a716a2eb91f1b"
   },
   {
@@ -720,8 +720,8 @@
   },
   {
    "name": "Ramblamp",
-   "plays": 285,
-   "plays_fmt": "285",
+   "plays": 286,
+   "plays_fmt": "286",
    "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
   },
   {
@@ -749,6 +749,12 @@
    "img": null
   },
   {
+   "name": "Kienai",
+   "plays": 282,
+   "plays_fmt": "282",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481"
+  },
+  {
    "name": "Nelko",
    "plays": 282,
    "plays_fmt": "282",
@@ -759,12 +765,6 @@
    "plays": 281,
    "plays_fmt": "281",
    "img": "https://i.scdn.co/image/ab6761610000e5eb8ffe1b4304fc8e392b97c2b7"
-  },
-  {
-   "name": "Kienai",
-   "plays": 281,
-   "plays_fmt": "281",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481"
   },
   {
    "name": "Regal Lily",
@@ -791,16 +791,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb35e11f5ad4a252b96a658376"
   },
   {
+   "name": "the Wulongs",
+   "plays": 278,
+   "plays_fmt": "278",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc"
+  },
+  {
    "name": "Laura day romance",
    "plays": 277,
    "plays_fmt": "277",
    "img": "https://i.scdn.co/image/ab6761610000e5ebf27e76aad8ec44d8e0b38be2"
-  },
-  {
-   "name": "the Wulongs",
-   "plays": 277,
-   "plays_fmt": "277",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc"
   },
   {
    "name": "ASOBOiSM",
@@ -833,6 +833,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851"
   },
   {
+   "name": "Black Boboi",
+   "plays": 269,
+   "plays_fmt": "269",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb173cb515bfb6ca8f05dc2aca"
+  },
+  {
    "name": "I Saw You Yesterday",
    "plays": 268,
    "plays_fmt": "268",
@@ -845,22 +851,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eba9a5143d6eb3917fbe03ad9b"
   },
   {
-   "name": "Black Boboi",
-   "plays": 266,
-   "plays_fmt": "266",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb173cb515bfb6ca8f05dc2aca"
+   "name": "171",
+   "plays": 264,
+   "plays_fmt": "264",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb8048ea9ec9630e59fb3f3512"
   },
   {
    "name": "レルエ",
    "plays": 264,
    "plays_fmt": "264",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd8cf2692aebe6fc3a8bc498e"
-  },
-  {
-   "name": "171",
-   "plays": 263,
-   "plays_fmt": "263",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb8048ea9ec9630e59fb3f3512"
   },
   {
    "name": "FENNEC FENNEC",
