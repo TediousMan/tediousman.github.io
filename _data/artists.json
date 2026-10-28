@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7443,
- "total_artists_fmt": "7,443",
+ "total_artists": 7445,
+ "total_artists_fmt": "7,445",
  "missing_img": 8,
  "artists": [
   {
@@ -144,14 +144,14 @@
   },
   {
    "name": "Hakubi",
-   "plays": 590,
-   "plays_fmt": "590",
+   "plays": 591,
+   "plays_fmt": "591",
    "img": "https://i.scdn.co/image/ab6761610000e5eba205df6c2dd898c3f39b35ec"
   },
   {
    "name": "BRADIO",
-   "plays": 575,
-   "plays_fmt": "575",
+   "plays": 576,
+   "plays_fmt": "576",
    "img": "https://i.scdn.co/image/ab6761610000e5eb1b468ea5308efde05767f7f3"
   },
   {
@@ -162,8 +162,8 @@
   },
   {
    "name": "The Otals",
-   "plays": 566,
-   "plays_fmt": "566",
+   "plays": 567,
+   "plays_fmt": "567",
    "img": "https://i.scdn.co/image/ab6761610000e5ebe880728367d115f0c7dfceb6"
   },
   {
@@ -318,8 +318,8 @@
   },
   {
    "name": "Home",
-   "plays": 427,
-   "plays_fmt": "427",
+   "plays": 430,
+   "plays_fmt": "430",
    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
@@ -348,8 +348,8 @@
   },
   {
    "name": "Muque",
-   "plays": 406,
-   "plays_fmt": "406",
+   "plays": 407,
+   "plays_fmt": "407",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
   },
   {
@@ -360,14 +360,14 @@
   },
   {
    "name": "Vaundy",
-   "plays": 393,
-   "plays_fmt": "393",
+   "plays": 395,
+   "plays_fmt": "395",
    "img": "https://i.scdn.co/image/ab6761610000e5ebb718d2d3988005d3a72f22c9"
   },
   {
    "name": "Asmi",
-   "plays": 386,
-   "plays_fmt": "386",
+   "plays": 387,
+   "plays_fmt": "387",
    "img": "https://i.scdn.co/image/ab6761610000e5eb3ac8e8114680356ca222ffa9"
   },
   {
@@ -432,8 +432,8 @@
   },
   {
    "name": "えんぷてい",
-   "plays": 369,
-   "plays_fmt": "369",
+   "plays": 370,
+   "plays_fmt": "370",
    "img": "https://i.scdn.co/image/ab6761610000e5eb11b3475e61b812fbe2327bd0"
   },
   {
@@ -714,8 +714,8 @@
   },
   {
    "name": "mukeikaku",
-   "plays": 287,
-   "plays_fmt": "287",
+   "plays": 288,
+   "plays_fmt": "288",
    "img": "https://i.scdn.co/image/ab6761610000e5eb1c7ce3df2cce3afef74566cb"
   },
   {
@@ -743,16 +743,16 @@
    "img": "https://i.scdn.co/image/ab67616d0000b2739522d7fafd953bddbddea2c9"
   },
   {
+   "name": "Kienai",
+   "plays": 283,
+   "plays_fmt": "283",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481"
+  },
+  {
    "name": "Blumepopo",
    "plays": 282,
    "plays_fmt": "282",
    "img": null
-  },
-  {
-   "name": "Kienai",
-   "plays": 282,
-   "plays_fmt": "282",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481"
   },
   {
    "name": "Nelko",
@@ -828,14 +828,14 @@
   },
   {
    "name": "Hammer Head Shark",
-   "plays": 270,
-   "plays_fmt": "270",
+   "plays": 271,
+   "plays_fmt": "271",
    "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851"
   },
   {
    "name": "Black Boboi",
-   "plays": 269,
-   "plays_fmt": "269",
+   "plays": 270,
+   "plays_fmt": "270",
    "img": "https://i.scdn.co/image/ab6761610000e5eb173cb515bfb6ca8f05dc2aca"
   },
   {
