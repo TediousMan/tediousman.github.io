@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7450,
- "total_artists_fmt": "7,450",
+ "total_artists": 7453,
+ "total_artists_fmt": "7,453",
  "missing_img": 8,
  "artists": [
   {
@@ -30,8 +30,8 @@
   },
   {
    "name": "クレナズム",
-   "plays": 890,
-   "plays_fmt": "890",
+   "plays": 891,
+   "plays_fmt": "891",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfd833836d124624e366ed252"
   },
   {
@@ -66,14 +66,14 @@
   },
   {
    "name": "Dannie May",
-   "plays": 728,
-   "plays_fmt": "728",
+   "plays": 729,
+   "plays_fmt": "729",
    "img": "https://i.scdn.co/image/ab6761610000e5eb9629e866cc65376368fe66a8"
   },
   {
    "name": "FINLANDS",
-   "plays": 705,
-   "plays_fmt": "705",
+   "plays": 706,
+   "plays_fmt": "706",
    "img": "https://i.scdn.co/image/ab6761610000e5ebcf8988fc2f6375e25eb7a350"
   },
   {
@@ -150,8 +150,8 @@
   },
   {
    "name": "BRADIO",
-   "plays": 576,
-   "plays_fmt": "576",
+   "plays": 578,
+   "plays_fmt": "578",
    "img": "https://i.scdn.co/image/ab6761610000e5eb1b468ea5308efde05767f7f3"
   },
   {
@@ -311,16 +311,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb42c23eeeaedfb6c466f8b3e9"
   },
   {
+   "name": "Home",
+   "plays": 432,
+   "plays_fmt": "432",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
+  },
+  {
    "name": "CLAN QUEEN",
    "plays": 430,
    "plays_fmt": "430",
    "img": "https://i.scdn.co/image/ab6761610000e5eb19ac44359f592f21110fa31c"
-  },
-  {
-   "name": "Home",
-   "plays": 430,
-   "plays_fmt": "430",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
    "name": "Blurred City Lights",
@@ -354,14 +354,14 @@
   },
   {
    "name": "GOHOBI",
-   "plays": 396,
-   "plays_fmt": "396",
+   "plays": 397,
+   "plays_fmt": "397",
    "img": "https://i.scdn.co/image/ab6761610000e5eb93311cae2f611f16a5d84e43"
   },
   {
    "name": "Vaundy",
-   "plays": 395,
-   "plays_fmt": "395",
+   "plays": 396,
+   "plays_fmt": "396",
    "img": "https://i.scdn.co/image/ab6761610000e5ebb718d2d3988005d3a72f22c9"
   },
   {
@@ -378,8 +378,8 @@
   },
   {
    "name": "sucola",
-   "plays": 385,
-   "plays_fmt": "385",
+   "plays": 386,
+   "plays_fmt": "386",
    "img": "https://i.scdn.co/image/ab6761610000e5eb7fdd8f90022d1fb6f09ce3c9"
   },
   {
@@ -414,8 +414,8 @@
   },
   {
    "name": "life crown",
-   "plays": 373,
-   "plays_fmt": "373",
+   "plays": 374,
+   "plays_fmt": "374",
    "img": "https://i.scdn.co/image/ab6761610000e5eba28745b1de7f1ad1d41514f6"
   },
   {
@@ -438,8 +438,8 @@
   },
   {
    "name": "kiki vivi lily",
-   "plays": 361,
-   "plays_fmt": "361",
+   "plays": 363,
+   "plays_fmt": "363",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfe3b6188abc328838969e7c5"
   },
   {
@@ -492,8 +492,8 @@
   },
   {
    "name": "coldrain",
-   "plays": 337,
-   "plays_fmt": "337",
+   "plays": 338,
+   "plays_fmt": "338",
    "img": "https://i.scdn.co/image/ab6761610000e5eb790734bdee501b47713b4afe"
   },
   {
@@ -545,16 +545,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb9247cd4ef50307e4425b4bf8"
   },
   {
+   "name": "Cephalo",
+   "plays": 323,
+   "plays_fmt": "323",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebeadedb0cf2a489ca33090611"
+  },
+  {
    "name": "Polkadot Stingray",
    "plays": 323,
    "plays_fmt": "323",
    "img": "https://i.scdn.co/image/ab6761610000e5eb24dd03d4f0a965b78a0bf2f9"
-  },
-  {
-   "name": "Cephalo",
-   "plays": 322,
-   "plays_fmt": "322",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebeadedb0cf2a489ca33090611"
   },
   {
    "name": "Aivy",
@@ -659,6 +659,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb050878df1cfe6e93ca961c7c"
   },
   {
+   "name": "BAND-MAID",
+   "plays": 303,
+   "plays_fmt": "303",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebe6274dae98c66d06ae7382c9"
+  },
+  {
    "name": "Doul",
    "plays": 303,
    "plays_fmt": "303",
@@ -669,12 +675,6 @@
    "plays": 303,
    "plays_fmt": "303",
    "img": "https://i.scdn.co/image/ab6761610000e5eb05b9d43914da5620207492de"
-  },
-  {
-   "name": "BAND-MAID",
-   "plays": 300,
-   "plays_fmt": "300",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebe6274dae98c66d06ae7382c9"
   },
   {
    "name": "omeme tenten",
@@ -773,6 +773,12 @@
    "img": null
   },
   {
+   "name": "the Wulongs",
+   "plays": 280,
+   "plays_fmt": "280",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc"
+  },
+  {
    "name": "(yoru to)SAMPO",
    "plays": 279,
    "plays_fmt": "279",
@@ -789,12 +795,6 @@
    "plays": 278,
    "plays_fmt": "278",
    "img": "https://i.scdn.co/image/ab6761610000e5eb35e11f5ad4a252b96a658376"
-  },
-  {
-   "name": "the Wulongs",
-   "plays": 278,
-   "plays_fmt": "278",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc"
   },
   {
    "name": "Laura day romance",
@@ -827,16 +827,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb00e06631e438aa05cbd62f09"
   },
   {
+   "name": "Black Boboi",
+   "plays": 272,
+   "plays_fmt": "272",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb173cb515bfb6ca8f05dc2aca"
+  },
+  {
    "name": "Hammer Head Shark",
    "plays": 271,
    "plays_fmt": "271",
    "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851"
-  },
-  {
-   "name": "Black Boboi",
-   "plays": 270,
-   "plays_fmt": "270",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb173cb515bfb6ca8f05dc2aca"
   },
   {
    "name": "I Saw You Yesterday",
@@ -899,10 +899,10 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb521dd8791d85d8b317200133"
   },
   {
-   "name": "Kankaku Piero",
+   "name": "BUDOU JUICE",
    "plays": 261,
    "plays_fmt": "261",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebbefd0bad2068f6eb4fe23df0"
+   "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f"
   }
  ]
 }
