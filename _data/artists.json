@@ -6,8 +6,8 @@
  "artists": [
   {
    "name": "chilldspot",
-   "plays": 1052,
-   "plays_fmt": "1,052",
+   "plays": 1053,
+   "plays_fmt": "1,053",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfffcd64678af9f7b7bab7832"
   },
   {
@@ -90,8 +90,8 @@
   },
   {
    "name": "kobore",
-   "plays": 675,
-   "plays_fmt": "675",
+   "plays": 676,
+   "plays_fmt": "676",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24"
   },
   {
@@ -138,8 +138,8 @@
   },
   {
    "name": "reGretGirl",
-   "plays": 595,
-   "plays_fmt": "595",
+   "plays": 596,
+   "plays_fmt": "596",
    "img": "https://i.scdn.co/image/ab6761610000e5eb003605944411f68127e75169"
   },
   {
@@ -150,8 +150,8 @@
   },
   {
    "name": "BRADIO",
-   "plays": 578,
-   "plays_fmt": "578",
+   "plays": 579,
+   "plays_fmt": "579",
    "img": "https://i.scdn.co/image/ab6761610000e5eb1b468ea5308efde05767f7f3"
   },
   {
@@ -198,8 +198,8 @@
   },
   {
    "name": "Ayutthaya",
-   "plays": 546,
-   "plays_fmt": "546",
+   "plays": 547,
+   "plays_fmt": "547",
    "img": "https://i.scdn.co/image/ab6761610000e5eb0389567240d2b2d9dbb289d8"
   },
   {
@@ -294,8 +294,8 @@
   },
   {
    "name": "the cibo",
-   "plays": 440,
-   "plays_fmt": "440",
+   "plays": 441,
+   "plays_fmt": "441",
    "img": "https://i.scdn.co/image/ab67616d0000b273c845208c60073f8ed525f946"
   },
   {
@@ -312,8 +312,8 @@
   },
   {
    "name": "Home",
-   "plays": 432,
-   "plays_fmt": "432",
+   "plays": 434,
+   "plays_fmt": "434",
    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
@@ -438,8 +438,8 @@
   },
   {
    "name": "kiki vivi lily",
-   "plays": 363,
-   "plays_fmt": "363",
+   "plays": 364,
+   "plays_fmt": "364",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfe3b6188abc328838969e7c5"
   },
   {
@@ -473,16 +473,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb8b1593a9b28a0e6ccd588521"
   },
   {
+   "name": "RAN",
+   "plays": 346,
+   "plays_fmt": "346",
+   "img": null
+  },
+  {
    "name": "Peanut Butters",
    "plays": 345,
    "plays_fmt": "345",
    "img": "https://i.scdn.co/image/ab6761610000e5eb015682d84efd18a8d00e8268"
-  },
-  {
-   "name": "RAN",
-   "plays": 345,
-   "plays_fmt": "345",
-   "img": null
   },
   {
    "name": "Yuinishio",
@@ -492,8 +492,8 @@
   },
   {
    "name": "coldrain",
-   "plays": 338,
-   "plays_fmt": "338",
+   "plays": 339,
+   "plays_fmt": "339",
    "img": "https://i.scdn.co/image/ab6761610000e5eb790734bdee501b47713b4afe"
   },
   {
@@ -611,6 +611,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebb37eb231f1029926a95f7cab"
   },
   {
+   "name": "Luby Sparks",
+   "plays": 312,
+   "plays_fmt": "312",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb99833843219af1cdc66223fc"
+  },
+  {
    "name": "Glasgow",
    "plays": 311,
    "plays_fmt": "311",
@@ -621,12 +627,6 @@
    "plays": 311,
    "plays_fmt": "311",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5d945f1eb86c81e98e97d715"
-  },
-  {
-   "name": "Luby Sparks",
-   "plays": 310,
-   "plays_fmt": "310",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb99833843219af1cdc66223fc"
   },
   {
    "name": "Stereogirl",
@@ -683,16 +683,22 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb3b770c187b6a716a2eb91f1b"
   },
   {
+   "name": "Have a nice day!",
+   "plays": 297,
+   "plays_fmt": "297",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
+  },
+  {
    "name": "YONA YONA WEEKENDERS",
    "plays": 297,
    "plays_fmt": "297",
    "img": "https://i.scdn.co/image/ab6761610000e5eb6b91739a5b0e997957fff733"
   },
   {
-   "name": "Have a nice day!",
-   "plays": 296,
-   "plays_fmt": "296",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
+   "name": "Haruno",
+   "plays": 291,
+   "plays_fmt": "291",
+   "img": "https://i.scdn.co/image/ab67616d0000b2731494a1e1507f8dbfbce8f2df"
   },
   {
    "name": "Kenichiro Nishihara",
@@ -707,15 +713,9 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb94b818ce361beb89199170c8"
   },
   {
-   "name": "Haruno",
-   "plays": 290,
-   "plays_fmt": "290",
-   "img": "https://i.scdn.co/image/ab67616d0000b2731494a1e1507f8dbfbce8f2df"
-  },
-  {
    "name": "mukeikaku",
-   "plays": 288,
-   "plays_fmt": "288",
+   "plays": 289,
+   "plays_fmt": "289",
    "img": "https://i.scdn.co/image/ab6761610000e5eb1c7ce3df2cce3afef74566cb"
   },
   {
@@ -761,6 +761,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb55300c7fa7dffdc1abd1fd39"
   },
   {
+   "name": "the Wulongs",
+   "plays": 282,
+   "plays_fmt": "282",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc"
+  },
+  {
    "name": "36km/h",
    "plays": 281,
    "plays_fmt": "281",
@@ -771,12 +777,6 @@
    "plays": 280,
    "plays_fmt": "280",
    "img": null
-  },
-  {
-   "name": "the Wulongs",
-   "plays": 280,
-   "plays_fmt": "280",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc"
   },
   {
    "name": "(yoru to)SAMPO",
@@ -810,9 +810,15 @@
   },
   {
    "name": "ホピーハイボ",
-   "plays": 274,
-   "plays_fmt": "274",
+   "plays": 275,
+   "plays_fmt": "275",
    "img": "https://i.scdn.co/image/ab6761610000e5eb0eef43e8d0a6ef8f2fe0cae6"
+  },
+  {
+   "name": "Black Boboi",
+   "plays": 273,
+   "plays_fmt": "273",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb173cb515bfb6ca8f05dc2aca"
   },
   {
    "name": "E.scene",
@@ -825,12 +831,6 @@
    "plays": 273,
    "plays_fmt": "273",
    "img": "https://i.scdn.co/image/ab6761610000e5eb00e06631e438aa05cbd62f09"
-  },
-  {
-   "name": "Black Boboi",
-   "plays": 272,
-   "plays_fmt": "272",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb173cb515bfb6ca8f05dc2aca"
   },
   {
    "name": "Hammer Head Shark",
@@ -893,16 +893,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebae40b992ffa53731ab3e62bf"
   },
   {
+   "name": "BUDOU JUICE",
+   "plays": 262,
+   "plays_fmt": "262",
+   "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f"
+  },
+  {
    "name": "Jam Fuzz Kid",
    "plays": 262,
    "plays_fmt": "262",
    "img": "https://i.scdn.co/image/ab6761610000e5eb521dd8791d85d8b317200133"
-  },
-  {
-   "name": "BUDOU JUICE",
-   "plays": 261,
-   "plays_fmt": "261",
-   "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f"
   }
  ]
 }
