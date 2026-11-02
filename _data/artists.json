@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7453,
- "total_artists_fmt": "7,453",
+ "total_artists": 7456,
+ "total_artists_fmt": "7,456",
  "missing_img": 8,
  "artists": [
   {
@@ -30,8 +30,8 @@
   },
   {
    "name": "クレナズム",
-   "plays": 891,
-   "plays_fmt": "891",
+   "plays": 892,
+   "plays_fmt": "892",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfd833836d124624e366ed252"
   },
   {
@@ -150,8 +150,8 @@
   },
   {
    "name": "BRADIO",
-   "plays": 579,
-   "plays_fmt": "579",
+   "plays": 580,
+   "plays_fmt": "580",
    "img": "https://i.scdn.co/image/ab6761610000e5eb1b468ea5308efde05767f7f3"
   },
   {
@@ -246,8 +246,8 @@
   },
   {
    "name": "MAN WITH A MISSION",
-   "plays": 476,
-   "plays_fmt": "476",
+   "plays": 477,
+   "plays_fmt": "477",
    "img": "https://i.scdn.co/image/ab6761610000e5ebe30959e15d3719dc8d9ffe65"
   },
   {
@@ -270,8 +270,8 @@
   },
   {
    "name": "レイラ",
-   "plays": 467,
-   "plays_fmt": "467",
+   "plays": 468,
+   "plays_fmt": "468",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5a7ae7ae77a6230eb4107638"
   },
   {
@@ -312,8 +312,8 @@
   },
   {
    "name": "Home",
-   "plays": 435,
-   "plays_fmt": "435",
+   "plays": 436,
+   "plays_fmt": "436",
    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
@@ -348,8 +348,8 @@
   },
   {
    "name": "Muque",
-   "plays": 408,
-   "plays_fmt": "408",
+   "plays": 409,
+   "plays_fmt": "409",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
   },
   {
@@ -438,8 +438,8 @@
   },
   {
    "name": "kiki vivi lily",
-   "plays": 364,
-   "plays_fmt": "364",
+   "plays": 367,
+   "plays_fmt": "367",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfe3b6188abc328838969e7c5"
   },
   {
@@ -468,8 +468,8 @@
   },
   {
    "name": "灰色ロジック",
-   "plays": 350,
-   "plays_fmt": "350",
+   "plays": 351,
+   "plays_fmt": "351",
    "img": "https://i.scdn.co/image/ab6761610000e5eb8b1593a9b28a0e6ccd588521"
   },
   {
@@ -546,8 +546,8 @@
   },
   {
    "name": "Cephalo",
-   "plays": 323,
-   "plays_fmt": "323",
+   "plays": 324,
+   "plays_fmt": "324",
    "img": "https://i.scdn.co/image/ab6761610000e5ebeadedb0cf2a489ca33090611"
   },
   {
@@ -612,8 +612,8 @@
   },
   {
    "name": "Luby Sparks",
-   "plays": 312,
-   "plays_fmt": "312",
+   "plays": 313,
+   "plays_fmt": "313",
    "img": "https://i.scdn.co/image/ab6761610000e5eb99833843219af1cdc66223fc"
   },
   {
@@ -647,6 +647,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebad1458fe213f198f7b11d1d4"
   },
   {
+   "name": "BAND-MAID",
+   "plays": 304,
+   "plays_fmt": "304",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebe6274dae98c66d06ae7382c9"
+  },
+  {
    "name": "Haruy",
    "plays": 304,
    "plays_fmt": "304",
@@ -657,12 +663,6 @@
    "plays": 304,
    "plays_fmt": "304",
    "img": "https://i.scdn.co/image/ab6761610000e5eb050878df1cfe6e93ca961c7c"
-  },
-  {
-   "name": "BAND-MAID",
-   "plays": 303,
-   "plays_fmt": "303",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebe6274dae98c66d06ae7382c9"
   },
   {
    "name": "Doul",
@@ -678,8 +678,8 @@
   },
   {
    "name": "omeme tenten",
-   "plays": 299,
-   "plays_fmt": "299",
+   "plays": 300,
+   "plays_fmt": "300",
    "img": "https://i.scdn.co/image/ab6761610000e5eb3b770c187b6a716a2eb91f1b"
   },
   {
@@ -714,8 +714,8 @@
   },
   {
    "name": "mukeikaku",
-   "plays": 289,
-   "plays_fmt": "289",
+   "plays": 290,
+   "plays_fmt": "290",
    "img": "https://i.scdn.co/image/ab6761610000e5eb1c7ce3df2cce3afef74566cb"
   },
   {
@@ -797,6 +797,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb35e11f5ad4a252b96a658376"
   },
   {
+   "name": "Black Boboi",
+   "plays": 277,
+   "plays_fmt": "277",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb173cb515bfb6ca8f05dc2aca"
+  },
+  {
    "name": "Laura day romance",
    "plays": 277,
    "plays_fmt": "277",
@@ -813,12 +819,6 @@
    "plays": 275,
    "plays_fmt": "275",
    "img": "https://i.scdn.co/image/ab6761610000e5eb0eef43e8d0a6ef8f2fe0cae6"
-  },
-  {
-   "name": "Black Boboi",
-   "plays": 273,
-   "plays_fmt": "273",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb173cb515bfb6ca8f05dc2aca"
   },
   {
    "name": "E.scene",
