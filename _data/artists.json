@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7456,
- "total_artists_fmt": "7,456",
+ "total_artists": 7463,
+ "total_artists_fmt": "7,463",
  "missing_img": 8,
  "artists": [
   {
@@ -138,8 +138,8 @@
   },
   {
    "name": "reGretGirl",
-   "plays": 597,
-   "plays_fmt": "597",
+   "plays": 598,
+   "plays_fmt": "598",
    "img": "https://i.scdn.co/image/ab6761610000e5eb003605944411f68127e75169"
   },
   {
@@ -150,8 +150,8 @@
   },
   {
    "name": "BRADIO",
-   "plays": 580,
-   "plays_fmt": "580",
+   "plays": 581,
+   "plays_fmt": "581",
    "img": "https://i.scdn.co/image/ab6761610000e5eb1b468ea5308efde05767f7f3"
   },
   {
@@ -246,8 +246,8 @@
   },
   {
    "name": "MAN WITH A MISSION",
-   "plays": 477,
-   "plays_fmt": "477",
+   "plays": 478,
+   "plays_fmt": "478",
    "img": "https://i.scdn.co/image/ab6761610000e5ebe30959e15d3719dc8d9ffe65"
   },
   {
@@ -263,16 +263,16 @@
    "img": "https://i.scdn.co/image/ab67616d0000b273b35a708fb4c4e9ccdbcc897c"
   },
   {
+   "name": "レイラ",
+   "plays": 469,
+   "plays_fmt": "469",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb5a7ae7ae77a6230eb4107638"
+  },
+  {
    "name": "My Lucky Day",
    "plays": 468,
    "plays_fmt": "468",
    "img": "https://i.scdn.co/image/ab67616d0000b2737b651335a1ff0dbb8055f1d8"
-  },
-  {
-   "name": "レイラ",
-   "plays": 468,
-   "plays_fmt": "468",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb5a7ae7ae77a6230eb4107638"
   },
   {
    "name": "Sazanami",
@@ -305,16 +305,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb11b9ad412afbcc0c3aa4fa48"
   },
   {
+   "name": "Home",
+   "plays": 437,
+   "plays_fmt": "437",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
+  },
+  {
    "name": "Tokimeki Records",
    "plays": 437,
    "plays_fmt": "437",
    "img": "https://i.scdn.co/image/ab6761610000e5eb42c23eeeaedfb6c466f8b3e9"
-  },
-  {
-   "name": "Home",
-   "plays": 436,
-   "plays_fmt": "436",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
    "name": "CLAN QUEEN",
@@ -348,8 +348,8 @@
   },
   {
    "name": "Muque",
-   "plays": 409,
-   "plays_fmt": "409",
+   "plays": 410,
+   "plays_fmt": "410",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
   },
   {
@@ -425,21 +425,21 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb3f7ea5d6336f02de0539f2be"
   },
   {
+   "name": "えんぷてい",
+   "plays": 371,
+   "plays_fmt": "371",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb11b3475e61b812fbe2327bd0"
+  },
+  {
    "name": "akuruyo-sheep",
    "plays": 370,
    "plays_fmt": "370",
    "img": "https://i.scdn.co/image/ab6761610000e5eb13b71cf0b4e9aca839ca6c72"
   },
   {
-   "name": "えんぷてい",
+   "name": "kiki vivi lily",
    "plays": 370,
    "plays_fmt": "370",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb11b3475e61b812fbe2327bd0"
-  },
-  {
-   "name": "kiki vivi lily",
-   "plays": 367,
-   "plays_fmt": "367",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfe3b6188abc328838969e7c5"
   },
   {
@@ -461,16 +461,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb74d551d6dbd3e14c7de78ab2"
   },
   {
+   "name": "灰色ロジック",
+   "plays": 352,
+   "plays_fmt": "352",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb8b1593a9b28a0e6ccd588521"
+  },
+  {
    "name": "Furui Riho",
    "plays": 351,
    "plays_fmt": "351",
    "img": "https://i.scdn.co/image/ab6761610000e5ebff647d0f64da73922aad0cd5"
-  },
-  {
-   "name": "灰色ロジック",
-   "plays": 351,
-   "plays_fmt": "351",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb8b1593a9b28a0e6ccd588521"
   },
   {
    "name": "RAN",
@@ -552,8 +552,8 @@
   },
   {
    "name": "Polkadot Stingray",
-   "plays": 323,
-   "plays_fmt": "323",
+   "plays": 324,
+   "plays_fmt": "324",
    "img": "https://i.scdn.co/image/ab6761610000e5eb24dd03d4f0a965b78a0bf2f9"
   },
   {
@@ -588,8 +588,8 @@
   },
   {
    "name": "Chisa",
-   "plays": 317,
-   "plays_fmt": "317",
+   "plays": 318,
+   "plays_fmt": "318",
    "img": "https://i.scdn.co/image/ab6761610000e5ebcc959cd12f18b2c2a2baa2c7"
   },
   {
@@ -605,16 +605,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb999c4e64ec6180a0810393f3"
   },
   {
+   "name": "Luby Sparks",
+   "plays": 314,
+   "plays_fmt": "314",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb99833843219af1cdc66223fc"
+  },
+  {
    "name": "Bane",
    "plays": 313,
    "plays_fmt": "313",
    "img": "https://i.scdn.co/image/ab6761610000e5ebb37eb231f1029926a95f7cab"
-  },
-  {
-   "name": "Luby Sparks",
-   "plays": 313,
-   "plays_fmt": "313",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb99833843219af1cdc66223fc"
   },
   {
    "name": "Glasgow",
@@ -648,8 +648,8 @@
   },
   {
    "name": "BAND-MAID",
-   "plays": 304,
-   "plays_fmt": "304",
+   "plays": 305,
+   "plays_fmt": "305",
    "img": "https://i.scdn.co/image/ab6761610000e5ebe6274dae98c66d06ae7382c9"
   },
   {
@@ -678,8 +678,8 @@
   },
   {
    "name": "omeme tenten",
-   "plays": 300,
-   "plays_fmt": "300",
+   "plays": 301,
+   "plays_fmt": "301",
    "img": "https://i.scdn.co/image/ab6761610000e5eb3b770c187b6a716a2eb91f1b"
   },
   {
@@ -714,14 +714,14 @@
   },
   {
    "name": "mukeikaku",
-   "plays": 290,
-   "plays_fmt": "290",
+   "plays": 291,
+   "plays_fmt": "291",
    "img": "https://i.scdn.co/image/ab6761610000e5eb1c7ce3df2cce3afef74566cb"
   },
   {
    "name": "Ramblamp",
-   "plays": 288,
-   "plays_fmt": "288",
+   "plays": 289,
+   "plays_fmt": "289",
    "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
   },
   {
@@ -773,6 +773,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc"
   },
   {
+   "name": "Black Boboi",
+   "plays": 281,
+   "plays_fmt": "281",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb173cb515bfb6ca8f05dc2aca"
+  },
+  {
    "name": "Regal Lily",
    "plays": 280,
    "plays_fmt": "280",
@@ -795,12 +801,6 @@
    "plays": 278,
    "plays_fmt": "278",
    "img": "https://i.scdn.co/image/ab6761610000e5eb35e11f5ad4a252b96a658376"
-  },
-  {
-   "name": "Black Boboi",
-   "plays": 277,
-   "plays_fmt": "277",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb173cb515bfb6ca8f05dc2aca"
   },
   {
    "name": "Laura day romance",
