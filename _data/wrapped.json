@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-03",
+ "generated": "2026-11-04",
  "year_label": "2026",
  "all": {
-  "total": 224850,
-  "total_fmt": "224,850",
-  "uniq_art": 7463,
-  "uniq_art_fmt": "7,463",
-  "uniq_trk": 31393,
-  "uniq_trk_fmt": "31,393",
+  "total": 225068,
+  "total_fmt": "225,068",
+  "uniq_art": 7470,
+  "uniq_art_fmt": "7,470",
+  "uniq_trk": 31466,
+  "uniq_trk_fmt": "31,466",
   "start": "2018-03-06",
-  "end": "2026-11-03",
+  "end": "2026-11-04",
   "top_art": [
    {
     "artist": "chilldspot",
@@ -267,9 +267,9 @@
    },
    {
     "year": "2026",
-    "plays": 41763,
-    "plays_fmt": "41,763",
-    "pct": 77
+    "plays": 41981,
+    "plays_fmt": "41,981",
+    "pct": 78
    }
   ],
   "new_art_by_year": [
@@ -323,24 +323,24 @@
    },
    {
     "year": "2026",
-    "count": 1094,
-    "count_fmt": "1,094",
-    "pct": 45
+    "count": 1101,
+    "count_fmt": "1,101",
+    "pct": 46
    }
   ]
  },
  "year": {
-  "total": 41763,
-  "total_fmt": "41,763",
-  "uniq_art": 2968,
-  "uniq_art_fmt": "2,968",
-  "uniq_trk": 8623,
-  "uniq_trk_fmt": "8,623",
+  "total": 41981,
+  "total_fmt": "41,981",
+  "uniq_art": 2976,
+  "uniq_art_fmt": "2,976",
+  "uniq_trk": 8696,
+  "uniq_trk_fmt": "8,696",
   "top_art": [
    {
     "artist": "Ramblamp",
-    "plays": 289,
-    "plays_fmt": "289",
+    "plays": 290,
+    "plays_fmt": "290",
     "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf",
     "pct": 100
    },
@@ -356,7 +356,7 @@
     "plays": 262,
     "plays_fmt": "262",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f",
-    "pct": 91
+    "pct": 90
    },
    {
     "artist": "bedgravity",
@@ -374,8 +374,8 @@
    },
    {
     "artist": "the Wulongs",
-    "plays": 234,
-    "plays_fmt": "234",
+    "plays": 235,
+    "plays_fmt": "235",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
     "pct": 81
    },
@@ -384,7 +384,7 @@
     "plays": 233,
     "plays_fmt": "233",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44",
-    "pct": 81
+    "pct": 80
    },
    {
     "artist": "uyuu",
@@ -395,15 +395,15 @@
    },
    {
     "artist": "wanbed",
-    "plays": 194,
-    "plays_fmt": "194",
+    "plays": 197,
+    "plays_fmt": "197",
     "img": "https://i.scdn.co/image/ab6761610000e5eb015e59262813fcf812ddf659",
-    "pct": 67
+    "pct": 68
    },
    {
     "artist": "tenbin O",
-    "plays": 186,
-    "plays_fmt": "186",
+    "plays": 187,
+    "plays_fmt": "187",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb146cdd0b2be813c4b411eb2",
     "pct": 64
    }
@@ -447,22 +447,22 @@
    {
     "album": "Nichijogamatakodamasuru",
     "artist": "Ramblamp",
-    "plays": 192,
-    "plays_fmt": "192",
+    "plays": 193,
+    "plays_fmt": "193",
     "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
    },
    {
     "album": "bipolar",
     "artist": "Nankyokuten",
-    "plays": 178,
-    "plays_fmt": "178",
+    "plays": 180,
+    "plays_fmt": "180",
     "img": null
    },
    {
     "album": "135",
     "artist": "wanbed",
-    "plays": 173,
-    "plays_fmt": "173",
+    "plays": 176,
+    "plays_fmt": "176",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/8f67506eb69e1457aed72a3f1273f862.jpg"
    },
    {
@@ -475,8 +475,8 @@
    {
     "album": "FACH",
     "artist": "the Wulongs",
-    "plays": 165,
-    "plays_fmt": "165",
+    "plays": 166,
+    "plays_fmt": "166",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/98f2e6391df7025c381117edd5682cb7.jpg"
    }
   ],
@@ -605,90 +605,90 @@
    },
    {
     "month": "11",
-    "plays": 547,
-    "plays_fmt": "547",
-    "pct": 10
+    "plays": 765,
+    "plays_fmt": "765",
+    "pct": 14
    }
   ]
  },
  "week": {
-  "total": 1190,
-  "total_fmt": "1,190",
-  "uniq_art": 568,
-  "uniq_art_fmt": "568",
-  "uniq_trk": 899,
-  "uniq_trk_fmt": "899",
-  "start": "10/28",
-  "end": "11/3",
+  "total": 1246,
+  "total_fmt": "1,246",
+  "uniq_art": 576,
+  "uniq_art_fmt": "576",
+  "uniq_trk": 926,
+  "uniq_trk_fmt": "926",
+  "start": "10/29",
+  "end": "11/4",
   "top_art": [
    {
     "artist": "Lucky Kilimanjaro",
-    "plays": 21,
-    "plays_fmt": "21",
+    "plays": 23,
+    "plays_fmt": "23",
     "img": "https://i.scdn.co/image/ab6761610000e5eb0b7ec5785bf94846dcabf3cb",
     "pct": 100
-   },
-   {
-    "artist": "Vidro",
-    "plays": 17,
-    "plays_fmt": "17",
-    "img": "https://i.scdn.co/image/ab67616d0000b273328baf62cd09c6038a9c4046",
-    "pct": 81
-   },
-   {
-    "artist": "砂場泥棒",
-    "plays": 17,
-    "plays_fmt": "17",
-    "img": null,
-    "pct": 81
    },
    {
     "artist": "Max'n",
     "plays": 15,
     "plays_fmt": "15",
     "img": "https://i.scdn.co/image/ab6761610000e5eb325a4659634f62ed8f89a884",
-    "pct": 71
+    "pct": 65
+   },
+   {
+    "artist": "Acle",
+    "plays": 14,
+    "plays_fmt": "14",
+    "img": "https://i.scdn.co/image/ab67616d0000b273da3b2891301695c345c56bb8",
+    "pct": 61
    },
    {
     "artist": "Blooming Bungei",
     "plays": 14,
     "plays_fmt": "14",
     "img": "https://i.scdn.co/image/ab6761610000e5eb3d5a0bf12ded4fcef52c8497",
-    "pct": 67
+    "pct": 61
    },
    {
-    "artist": "Acle",
-    "plays": 13,
-    "plays_fmt": "13",
-    "img": "https://i.scdn.co/image/ab67616d0000b273da3b2891301695c345c56bb8",
-    "pct": 62
+    "artist": "Rummy Nose Tetra",
+    "plays": 14,
+    "plays_fmt": "14",
+    "img": null,
+    "pct": 61
+   },
+   {
+    "artist": "miida",
+    "plays": 12,
+    "plays_fmt": "12",
+    "img": "https://i.scdn.co/image/ab67616d0000b273a10aefa900ad4a60773bd28e",
+    "pct": 52
    },
    {
     "artist": "Black Boboi",
-    "plays": 12,
-    "plays_fmt": "12",
+    "plays": 11,
+    "plays_fmt": "11",
     "img": "https://i.scdn.co/image/ab6761610000e5eb173cb515bfb6ca8f05dc2aca",
-    "pct": 57
+    "pct": 48
    },
    {
     "artist": "DNA GAINZ",
     "plays": 11,
     "plays_fmt": "11",
     "img": "https://i.scdn.co/image/ab6761610000e5ebf0f2a28bc1f1eb346299b47e",
-    "pct": 52
-   },
-   {
-    "artist": "Home",
-    "plays": 10,
-    "plays_fmt": "10",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
     "pct": 48
    },
    {
-    "artist": "Noa",
-    "plays": 10,
-    "plays_fmt": "10",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb5c6b6a870c2e95c9a18e6266",
+    "artist": "Vidro",
+    "plays": 11,
+    "plays_fmt": "11",
+    "img": "https://i.scdn.co/image/ab67616d0000b273328baf62cd09c6038a9c4046",
+    "pct": 48
+   },
+   {
+    "artist": "lili maua",
+    "plays": 11,
+    "plays_fmt": "11",
+    "img": null,
     "pct": 48
    }
   ],
@@ -696,23 +696,9 @@
    {
     "album": "ONDO",
     "artist": "Lucky Kilimanjaro",
-    "plays": 21,
-    "plays_fmt": "21",
+    "plays": 23,
+    "plays_fmt": "23",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/088252962291071fd0d14ba7a523d6f8.jpg"
-   },
-   {
-    "album": "ko-en",
-    "artist": "砂場泥棒",
-    "plays": 17,
-    "plays_fmt": "17",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/ac14fa6d25707f3540e2f8005a51b665.jpg"
-   },
-   {
-    "album": "On the Verge",
-    "artist": "Vidro",
-    "plays": 15,
-    "plays_fmt": "15",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/4689ef220eb041eed5fa7bf9b37ebbb6.png"
    },
    {
     "album": "poolside core",
@@ -729,11 +715,18 @@
     "img": "https://i.scdn.co/image/ab6761610000e5eb325a4659634f62ed8f89a884"
    },
    {
-    "album": "Sepia",
-    "artist": "Black Boboi",
+    "album": "Town in Mind",
+    "artist": "Acle",
     "plays": 12,
     "plays_fmt": "12",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/158d6943703e6cd30388cd6dba40f635.jpg"
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/7ce9707bcbff63303d56c4348ae4d809.jpg"
+   },
+   {
+    "album": "ID22",
+    "artist": "lili maua",
+    "plays": 11,
+    "plays_fmt": "11",
+    "img": null
    },
    {
     "album": "ON YOUR MARKS",
@@ -743,11 +736,18 @@
     "img": "https://i.scdn.co/image/ab6761610000e5ebf0f2a28bc1f1eb346299b47e"
    },
    {
-    "album": "Town in Mind",
-    "artist": "Acle",
+    "album": "Sepia",
+    "artist": "Black Boboi",
     "plays": 11,
     "plays_fmt": "11",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/7ce9707bcbff63303d56c4348ae4d809.jpg"
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/158d6943703e6cd30388cd6dba40f635.jpg"
+   },
+   {
+    "album": "A CALL FROM BEYOND",
+    "artist": "miida",
+    "plays": 10,
+    "plays_fmt": "10",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/147b8846a25519277353a8c382676212.png"
    },
    {
     "album": "CLEAN+NOISE",
@@ -757,20 +757,14 @@
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/811ff9af089e7b6b156928e117a22c09.jpg"
    },
    {
-    "album": "ID22",
-    "artist": "lili maua",
+    "album": "Dialogue",
+    "artist": "Tide",
     "plays": 10,
     "plays_fmt": "10",
-    "img": null
+    "img": "https://i.scdn.co/image/ab6761610000e5ebda0a81b8b1846457a3af4bf3"
    }
   ],
   "top_trk": [
-   {
-    "track": "Velvet Venom",
-    "artist": "透明回路",
-    "plays": 5,
-    "plays_fmt": "5"
-   },
    {
     "track": "メタセコイア",
     "artist": "blend house",
@@ -778,20 +772,20 @@
     "plays_fmt": "5"
    },
    {
-    "track": "Heilner",
-    "artist": "砂場泥棒",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "karada",
-    "artist": "Vidro",
+    "track": "ダンシングミッドナイトカンフードラゴン",
+    "artist": "Rummy Nose Tetra",
     "plays": 4,
     "plays_fmt": "4"
    },
    {
     "track": "ポテサラ",
     "artist": "Qoonelu",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "拠り所を奪われた子供たち",
+    "artist": "リハビリたち",
     "plays": 4,
     "plays_fmt": "4"
    },
@@ -814,6 +808,12 @@
     "plays_fmt": "3"
    },
    {
+    "track": "Chocolate",
+    "artist": "Ramblamp",
+    "plays": 3,
+    "plays_fmt": "3"
+   },
+   {
     "track": "Complete silence",
     "artist": "Black Boboi",
     "plays": 3,
@@ -828,46 +828,46 @@
   ],
   "by_day": [
    {
-    "day": "10/28",
-    "plays": 162,
-    "plays_fmt": "162",
-    "pct": 68
-   },
-   {
     "day": "10/29",
     "plays": 94,
     "plays_fmt": "94",
-    "pct": 39
+    "pct": 38
    },
    {
     "day": "10/30",
     "plays": 228,
     "plays_fmt": "228",
-    "pct": 96
+    "pct": 91
    },
    {
     "day": "10/31",
     "plays": 159,
     "plays_fmt": "159",
-    "pct": 67
+    "pct": 64
    },
    {
     "day": "11/1",
     "plays": 109,
     "plays_fmt": "109",
-    "pct": 46
+    "pct": 44
    },
    {
     "day": "11/2",
     "plays": 200,
     "plays_fmt": "200",
-    "pct": 84
+    "pct": 80
    },
    {
     "day": "11/3",
-    "plays": 238,
-    "plays_fmt": "238",
+    "plays": 250,
+    "plays_fmt": "250",
     "pct": 100
+   },
+   {
+    "day": "11/4",
+    "plays": 206,
+    "plays_fmt": "206",
+    "pct": 82
    }
   ]
  }

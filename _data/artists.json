@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7463,
- "total_artists_fmt": "7,463",
+ "total_artists": 7470,
+ "total_artists_fmt": "7,470",
  "missing_img": 8,
  "artists": [
   {
@@ -101,6 +101,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb2a08d0189b80a87ff7dc63fc"
   },
   {
+   "name": "eill",
+   "plays": 636,
+   "plays_fmt": "636",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebf3f6ea218e12317560e84a58"
+  },
+  {
    "name": "kurayamisaka",
    "plays": 634,
    "plays_fmt": "634",
@@ -111,12 +117,6 @@
    "plays": 633,
    "plays_fmt": "633",
    "img": "https://i.scdn.co/image/ab6761610000e5ebb9973cb3e9a7645db81c7e9a"
-  },
-  {
-   "name": "eill",
-   "plays": 633,
-   "plays_fmt": "633",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebf3f6ea218e12317560e84a58"
   },
   {
    "name": "にしな",
@@ -131,16 +131,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb369573c911c27e225b5e37c5"
   },
   {
+   "name": "reGretGirl",
+   "plays": 599,
+   "plays_fmt": "599",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb003605944411f68127e75169"
+  },
+  {
    "name": "Organic Call",
    "plays": 598,
    "plays_fmt": "598",
    "img": "https://i.scdn.co/image/ab6761610000e5eb4e349f1ad15dd5c2b9723386"
-  },
-  {
-   "name": "reGretGirl",
-   "plays": 598,
-   "plays_fmt": "598",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb003605944411f68127e75169"
   },
   {
    "name": "Hakubi",
@@ -233,6 +233,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb887bf742501f2c0f583c3258"
   },
   {
+   "name": "MAN WITH A MISSION",
+   "plays": 479,
+   "plays_fmt": "479",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebe30959e15d3719dc8d9ffe65"
+  },
+  {
    "name": "sayonarablue",
    "plays": 479,
    "plays_fmt": "479",
@@ -243,12 +249,6 @@
    "plays": 478,
    "plays_fmt": "478",
    "img": "https://i.scdn.co/image/ab6761610000e5ebc132f343ecf73edaebe50e72"
-  },
-  {
-   "name": "MAN WITH A MISSION",
-   "plays": 478,
-   "plays_fmt": "478",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebe30959e15d3719dc8d9ffe65"
   },
   {
    "name": "XieXie",
@@ -299,6 +299,12 @@
    "img": "https://i.scdn.co/image/ab67616d0000b273c845208c60073f8ed525f946"
   },
   {
+   "name": "Tokimeki Records",
+   "plays": 438,
+   "plays_fmt": "438",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb42c23eeeaedfb6c466f8b3e9"
+  },
+  {
    "name": "さよならポエジー",
    "plays": 438,
    "plays_fmt": "438",
@@ -309,12 +315,6 @@
    "plays": 437,
    "plays_fmt": "437",
    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
-  },
-  {
-   "name": "Tokimeki Records",
-   "plays": 437,
-   "plays_fmt": "437",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb42c23eeeaedfb6c466f8b3e9"
   },
   {
    "name": "CLAN QUEEN",
@@ -330,8 +330,8 @@
   },
   {
    "name": "Dansa Med Dig",
-   "plays": 420,
-   "plays_fmt": "420",
+   "plays": 422,
+   "plays_fmt": "422",
    "img": "https://i.scdn.co/image/ab6761610000e5eb590cfa1ad794bf2697150167"
   },
   {
@@ -348,8 +348,8 @@
   },
   {
    "name": "Muque",
-   "plays": 410,
-   "plays_fmt": "410",
+   "plays": 411,
+   "plays_fmt": "411",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
   },
   {
@@ -426,9 +426,15 @@
   },
   {
    "name": "えんぷてい",
+   "plays": 372,
+   "plays_fmt": "372",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb11b3475e61b812fbe2327bd0"
+  },
+  {
+   "name": "kiki vivi lily",
    "plays": 371,
    "plays_fmt": "371",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb11b3475e61b812fbe2327bd0"
+   "img": "https://i.scdn.co/image/ab6761610000e5ebfe3b6188abc328838969e7c5"
   },
   {
    "name": "akuruyo-sheep",
@@ -437,15 +443,9 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb13b71cf0b4e9aca839ca6c72"
   },
   {
-   "name": "kiki vivi lily",
+   "name": "miida",
    "plays": 370,
    "plays_fmt": "370",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebfe3b6188abc328838969e7c5"
-  },
-  {
-   "name": "miida",
-   "plays": 359,
-   "plays_fmt": "359",
    "img": "https://i.scdn.co/image/ab67616d0000b273a10aefa900ad4a60773bd28e"
   },
   {
@@ -515,16 +515,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb12c0882bf65989e9bd0edc67"
   },
   {
+   "name": "Reol",
+   "plays": 328,
+   "plays_fmt": "328",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebdf2dbfb158e48df25bd49477"
+  },
+  {
    "name": "shukatsuclub",
    "plays": 328,
    "plays_fmt": "328",
    "img": "https://i.scdn.co/image/ab6761610000e5eb3052db8ddeaeb2ce3a7eb450"
-  },
-  {
-   "name": "Reol",
-   "plays": 327,
-   "plays_fmt": "327",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebdf2dbfb158e48df25bd49477"
   },
   {
    "name": "星期三的康帕內拉",
@@ -569,6 +569,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb400868142f0cb858d015c76d"
   },
   {
+   "name": "Chisa",
+   "plays": 319,
+   "plays_fmt": "319",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebcc959cd12f18b2c2a2baa2c7"
+  },
+  {
    "name": "Pavilion",
    "plays": 319,
    "plays_fmt": "319",
@@ -585,12 +591,6 @@
    "plays": 319,
    "plays_fmt": "319",
    "img": "https://i.scdn.co/image/ab6761610000e5eb9ff08ad4abc242feaf105f11"
-  },
-  {
-   "name": "Chisa",
-   "plays": 318,
-   "plays_fmt": "318",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebcc959cd12f18b2c2a2baa2c7"
   },
   {
    "name": "Miu Mau",
@@ -629,16 +629,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb5d945f1eb86c81e98e97d715"
   },
   {
+   "name": "Longman",
+   "plays": 308,
+   "plays_fmt": "308",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb6bb8a0465f0ec9b427da4300"
+  },
+  {
    "name": "Stereogirl",
    "plays": 308,
    "plays_fmt": "308",
    "img": "https://i.scdn.co/image/ab67616d0000b27372bbe0606a583b1d66ddd16f"
-  },
-  {
-   "name": "Longman",
-   "plays": 307,
-   "plays_fmt": "307",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb6bb8a0465f0ec9b427da4300"
   },
   {
    "name": "Nigami 17th birthday!!",
@@ -720,8 +720,8 @@
   },
   {
    "name": "Ramblamp",
-   "plays": 289,
-   "plays_fmt": "289",
+   "plays": 290,
+   "plays_fmt": "290",
    "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
   },
   {
@@ -749,6 +749,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481"
   },
   {
+   "name": "the Wulongs",
+   "plays": 283,
+   "plays_fmt": "283",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc"
+  },
+  {
    "name": "36km/h",
    "plays": 282,
    "plays_fmt": "282",
@@ -765,12 +771,6 @@
    "plays": 282,
    "plays_fmt": "282",
    "img": "https://i.scdn.co/image/ab6761610000e5eb55300c7fa7dffdc1abd1fd39"
-  },
-  {
-   "name": "the Wulongs",
-   "plays": 282,
-   "plays_fmt": "282",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc"
   },
   {
    "name": "Black Boboi",
@@ -852,8 +852,8 @@
   },
   {
    "name": "171",
-   "plays": 264,
-   "plays_fmt": "264",
+   "plays": 265,
+   "plays_fmt": "265",
    "img": "https://i.scdn.co/image/ab6761610000e5eb8048ea9ec9630e59fb3f3512"
   },
   {
