@@ -1,20 +1,20 @@
 {
- "generated": "2026-11-04",
+ "generated": "2026-11-05",
  "year_label": "2026",
  "all": {
-  "total": 225068,
-  "total_fmt": "225,068",
-  "uniq_art": 7470,
-  "uniq_art_fmt": "7,470",
-  "uniq_trk": 31466,
-  "uniq_trk_fmt": "31,466",
+  "total": 225257,
+  "total_fmt": "225,257",
+  "uniq_art": 7471,
+  "uniq_art_fmt": "7,471",
+  "uniq_trk": 31497,
+  "uniq_trk_fmt": "31,497",
   "start": "2018-03-06",
-  "end": "2026-11-04",
+  "end": "2026-11-05",
   "top_art": [
    {
     "artist": "chilldspot",
-    "plays": 1053,
-    "plays_fmt": "1,053",
+    "plays": 1054,
+    "plays_fmt": "1,054",
     "img": "https://i.scdn.co/image/ab6761610000e5ebfffcd64678af9f7b7bab7832",
     "pct": 100
    },
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 41981,
-    "plays_fmt": "41,981",
+    "plays": 42170,
+    "plays_fmt": "42,170",
     "pct": 78
    }
   ],
@@ -323,19 +323,19 @@
    },
    {
     "year": "2026",
-    "count": 1101,
-    "count_fmt": "1,101",
+    "count": 1102,
+    "count_fmt": "1,102",
     "pct": 46
    }
   ]
  },
  "year": {
-  "total": 41981,
-  "total_fmt": "41,981",
-  "uniq_art": 2976,
-  "uniq_art_fmt": "2,976",
-  "uniq_trk": 8696,
-  "uniq_trk_fmt": "8,696",
+  "total": 42170,
+  "total_fmt": "42,170",
+  "uniq_art": 2978,
+  "uniq_art_fmt": "2,978",
+  "uniq_trk": 8732,
+  "uniq_trk_fmt": "8,732",
   "top_art": [
    {
     "artist": "Ramblamp",
@@ -388,10 +388,10 @@
    },
    {
     "artist": "uyuu",
-    "plays": 221,
-    "plays_fmt": "221",
+    "plays": 223,
+    "plays_fmt": "223",
     "img": "https://i.scdn.co/image/ab67616d0000b27381582c0fb8f5908a6aee7f3e",
-    "pct": 76
+    "pct": 77
    },
    {
     "artist": "wanbed",
@@ -454,9 +454,9 @@
    {
     "album": "bipolar",
     "artist": "Nankyokuten",
-    "plays": 180,
-    "plays_fmt": "180",
-    "img": null
+    "plays": 181,
+    "plays_fmt": "181",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e1329057e61539992783778432e3056a.jpg"
    },
    {
     "album": "135",
@@ -473,11 +473,11 @@
     "img": "https://i.scdn.co/image/ab6761610000e5eb59ee187da2de942d5f50e0e0"
    },
    {
-    "album": "FACH",
-    "artist": "the Wulongs",
-    "plays": 166,
-    "plays_fmt": "166",
-    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/98f2e6391df7025c381117edd5682cb7.jpg"
+    "album": "Gold Fashion",
+    "artist": "BRADIO",
+    "plays": 167,
+    "plays_fmt": "167",
+    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/bdcf461a42515a1f33a369c657656b3d.jpg"
    }
   ],
   "top_trk": [
@@ -605,21 +605,21 @@
    },
    {
     "month": "11",
-    "plays": 765,
-    "plays_fmt": "765",
-    "pct": 14
+    "plays": 954,
+    "plays_fmt": "954",
+    "pct": 18
    }
   ]
  },
  "week": {
-  "total": 1246,
-  "total_fmt": "1,246",
-  "uniq_art": 576,
-  "uniq_art_fmt": "576",
-  "uniq_trk": 926,
-  "uniq_trk_fmt": "926",
-  "start": "10/29",
-  "end": "11/4",
+  "total": 1341,
+  "total_fmt": "1,341",
+  "uniq_art": 617,
+  "uniq_art_fmt": "617",
+  "uniq_trk": 992,
+  "uniq_trk_fmt": "992",
+  "start": "10/30",
+  "end": "11/5",
   "top_art": [
    {
     "artist": "Lucky Kilimanjaro",
@@ -629,10 +629,17 @@
     "pct": 100
    },
    {
-    "artist": "Max'n",
+    "artist": "Tatsuya Kitani",
+    "plays": 21,
+    "plays_fmt": "21",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb47d98389d5bd1c196a287938",
+    "pct": 91
+   },
+   {
+    "artist": "Rummy Nose Tetra",
     "plays": 15,
     "plays_fmt": "15",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb325a4659634f62ed8f89a884",
+    "img": null,
     "pct": 65
    },
    {
@@ -650,17 +657,17 @@
     "pct": 61
    },
    {
-    "artist": "Rummy Nose Tetra",
-    "plays": 14,
-    "plays_fmt": "14",
-    "img": null,
-    "pct": 61
-   },
-   {
     "artist": "miida",
     "plays": 12,
     "plays_fmt": "12",
     "img": "https://i.scdn.co/image/ab67616d0000b273a10aefa900ad4a60773bd28e",
+    "pct": 52
+   },
+   {
+    "artist": "リハビリたち",
+    "plays": 12,
+    "plays_fmt": "12",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebfd541a37fd956fce07c6583a",
     "pct": 52
    },
    {
@@ -671,21 +678,14 @@
     "pct": 48
    },
    {
-    "artist": "DNA GAINZ",
-    "plays": 11,
-    "plays_fmt": "11",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebf0f2a28bc1f1eb346299b47e",
-    "pct": 48
-   },
-   {
-    "artist": "Vidro",
-    "plays": 11,
-    "plays_fmt": "11",
-    "img": "https://i.scdn.co/image/ab67616d0000b273328baf62cd09c6038a9c4046",
-    "pct": 48
-   },
-   {
     "artist": "lili maua",
+    "plays": 11,
+    "plays_fmt": "11",
+    "img": null,
+    "pct": 48
+   },
+   {
+    "artist": "桃蟹",
     "plays": 11,
     "plays_fmt": "11",
     "img": null,
@@ -708,13 +708,6 @@
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/b20f3fed5be1b1744188d0a5e7495131.jpg"
    },
    {
-    "album": "tokyo zombie me",
-    "artist": "Max'n",
-    "plays": 14,
-    "plays_fmt": "14",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb325a4659634f62ed8f89a884"
-   },
-   {
     "album": "Town in Mind",
     "artist": "Acle",
     "plays": 12,
@@ -729,18 +722,25 @@
     "img": null
    },
    {
-    "album": "ON YOUR MARKS",
-    "artist": "DNA GAINZ",
-    "plays": 11,
-    "plays_fmt": "11",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebf0f2a28bc1f1eb346299b47e"
-   },
-   {
     "album": "Sepia",
     "artist": "Black Boboi",
     "plays": 11,
     "plays_fmt": "11",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/158d6943703e6cd30388cd6dba40f635.jpg"
+   },
+   {
+    "album": "自殺衝動の天使",
+    "artist": "リハビリたち",
+    "plays": 11,
+    "plays_fmt": "11",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebfd541a37fd956fce07c6583a"
+   },
+   {
+    "album": "逆光",
+    "artist": "桃蟹",
+    "plays": 11,
+    "plays_fmt": "11",
+    "img": null
    },
    {
     "album": "A CALL FROM BEYOND",
@@ -750,18 +750,18 @@
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/147b8846a25519277353a8c382676212.png"
    },
    {
-    "album": "CLEAN+NOISE",
-    "artist": "Noa",
+    "album": "DEKAI",
+    "artist": "Tatsuya Kitani",
     "plays": 10,
     "plays_fmt": "10",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/811ff9af089e7b6b156928e117a22c09.jpg"
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/f7da84d7b78e17f76430af97382f9d71.jpg"
    },
    {
-    "album": "Dialogue",
-    "artist": "Tide",
+    "album": "DEXTER",
+    "artist": "Rummy Nose Tetra",
     "plays": 10,
     "plays_fmt": "10",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebda0a81b8b1846457a3af4bf3"
+    "img": null
    }
   ],
   "top_trk": [
@@ -772,14 +772,32 @@
     "plays_fmt": "5"
    },
    {
-    "track": "ダンシングミッドナイトカンフードラゴン",
-    "artist": "Rummy Nose Tetra",
+    "track": "DAI TOKYO",
+    "artist": "SQninmu",
     "plays": 4,
     "plays_fmt": "4"
    },
    {
-    "track": "ポテサラ",
-    "artist": "Qoonelu",
+    "track": "Days",
+    "artist": "reGretGirl",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "かわいい子にはちゃん付けを",
+    "artist": "奔走狂走局",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "ぼいぜんがーる。",
+    "artist": "ポコメッツ",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "ダンシングミッドナイトカンフードラゴン",
+    "artist": "Rummy Nose Tetra",
     "plays": 4,
     "plays_fmt": "4"
    },
@@ -790,49 +808,25 @@
     "plays_fmt": "4"
    },
    {
-    "track": "星をみる",
-    "artist": "イロムク",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
     "track": "Aquarium",
     "artist": "matatapia",
     "plays": 3,
     "plays_fmt": "3"
    },
    {
-    "track": "Cherry Pick",
-    "artist": "Vatelier.",
+    "track": "Beacon",
+    "artist": "OLPHEUS",
     "plays": 3,
     "plays_fmt": "3"
    },
    {
-    "track": "Chocolate",
-    "artist": "Ramblamp",
-    "plays": 3,
-    "plays_fmt": "3"
-   },
-   {
-    "track": "Complete silence",
-    "artist": "Black Boboi",
-    "plays": 3,
-    "plays_fmt": "3"
-   },
-   {
-    "track": "Crystal Cloud",
-    "artist": "Blooming Bungei",
+    "track": "Black Swan",
+    "artist": "eskamila",
     "plays": 3,
     "plays_fmt": "3"
    }
   ],
   "by_day": [
-   {
-    "day": "10/29",
-    "plays": 94,
-    "plays_fmt": "94",
-    "pct": 38
-   },
    {
     "day": "10/30",
     "plays": 228,
@@ -865,9 +859,15 @@
    },
    {
     "day": "11/4",
-    "plays": 206,
-    "plays_fmt": "206",
-    "pct": 82
+    "plays": 218,
+    "plays_fmt": "218",
+    "pct": 87
+   },
+   {
+    "day": "11/5",
+    "plays": 177,
+    "plays_fmt": "177",
+    "pct": 71
    }
   ]
  }

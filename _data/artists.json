@@ -1,13 +1,13 @@
 {
  "count": 150,
- "total_artists": 7470,
- "total_artists_fmt": "7,470",
+ "total_artists": 7471,
+ "total_artists_fmt": "7,471",
  "missing_img": 8,
  "artists": [
   {
    "name": "chilldspot",
-   "plays": 1053,
-   "plays_fmt": "1,053",
+   "plays": 1054,
+   "plays_fmt": "1,054",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfffcd64678af9f7b7bab7832"
   },
   {
@@ -120,21 +120,21 @@
   },
   {
    "name": "にしな",
-   "plays": 619,
-   "plays_fmt": "619",
+   "plays": 620,
+   "plays_fmt": "620",
    "img": "https://i.scdn.co/image/ab6761610000e5eb9c703e5ffc35530b42a70a8e"
+  },
+  {
+   "name": "reGretGirl",
+   "plays": 600,
+   "plays_fmt": "600",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb003605944411f68127e75169"
   },
   {
    "name": "Newspeak",
    "plays": 599,
    "plays_fmt": "599",
    "img": "https://i.scdn.co/image/ab6761610000e5eb369573c911c27e225b5e37c5"
-  },
-  {
-   "name": "reGretGirl",
-   "plays": 599,
-   "plays_fmt": "599",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb003605944411f68127e75169"
   },
   {
    "name": "Organic Call",
@@ -150,8 +150,8 @@
   },
   {
    "name": "BRADIO",
-   "plays": 581,
-   "plays_fmt": "581",
+   "plays": 583,
+   "plays_fmt": "583",
    "img": "https://i.scdn.co/image/ab6761610000e5eb1b468ea5308efde05767f7f3"
   },
   {
@@ -527,6 +527,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb3052db8ddeaeb2ce3a7eb450"
   },
   {
+   "name": "Nagakumo",
+   "plays": 326,
+   "plays_fmt": "326",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb9247cd4ef50307e4425b4bf8"
+  },
+  {
    "name": "星期三的康帕內拉",
    "plays": 326,
    "plays_fmt": "326",
@@ -537,12 +543,6 @@
    "plays": 325,
    "plays_fmt": "325",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd37a306d89030f0fe900b7e3"
-  },
-  {
-   "name": "Nagakumo",
-   "plays": 325,
-   "plays_fmt": "325",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb9247cd4ef50307e4425b4bf8"
   },
   {
    "name": "Cephalo",
@@ -648,8 +648,8 @@
   },
   {
    "name": "BAND-MAID",
-   "plays": 305,
-   "plays_fmt": "305",
+   "plays": 306,
+   "plays_fmt": "306",
    "img": "https://i.scdn.co/image/ab6761610000e5ebe6274dae98c66d06ae7382c9"
   },
   {
@@ -684,8 +684,8 @@
   },
   {
    "name": "Have a nice day!",
-   "plays": 298,
-   "plays_fmt": "298",
+   "plays": 299,
+   "plays_fmt": "299",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
   },
   {
@@ -696,8 +696,8 @@
   },
   {
    "name": "Haruno",
-   "plays": 291,
-   "plays_fmt": "291",
+   "plays": 292,
+   "plays_fmt": "292",
    "img": "https://i.scdn.co/image/ab67616d0000b2731494a1e1507f8dbfbce8f2df"
   },
   {
@@ -743,6 +743,12 @@
    "img": "https://i.scdn.co/image/ab67616d0000b2739522d7fafd953bddbddea2c9"
   },
   {
+   "name": "36km/h",
+   "plays": 283,
+   "plays_fmt": "283",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb8ffe1b4304fc8e392b97c2b7"
+  },
+  {
    "name": "Kienai",
    "plays": 283,
    "plays_fmt": "283",
@@ -753,12 +759,6 @@
    "plays": 283,
    "plays_fmt": "283",
    "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc"
-  },
-  {
-   "name": "36km/h",
-   "plays": 282,
-   "plays_fmt": "282",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb8ffe1b4304fc8e392b97c2b7"
   },
   {
    "name": "Blumepopo",
