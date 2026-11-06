@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-05",
+ "generated": "2026-11-06",
  "year_label": "2026",
  "all": {
-  "total": 225257,
-  "total_fmt": "225,257",
-  "uniq_art": 7471,
-  "uniq_art_fmt": "7,471",
-  "uniq_trk": 31497,
-  "uniq_trk_fmt": "31,497",
+  "total": 225295,
+  "total_fmt": "225,295",
+  "uniq_art": 7478,
+  "uniq_art_fmt": "7,478",
+  "uniq_trk": 31520,
+  "uniq_trk_fmt": "31,520",
   "start": "2018-03-06",
-  "end": "2026-11-05",
+  "end": "2026-11-06",
   "top_art": [
    {
     "artist": "chilldspot",
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 42170,
-    "plays_fmt": "42,170",
+    "plays": 42208,
+    "plays_fmt": "42,208",
     "pct": 78
    }
   ],
@@ -323,19 +323,19 @@
    },
    {
     "year": "2026",
-    "count": 1102,
-    "count_fmt": "1,102",
+    "count": 1109,
+    "count_fmt": "1,109",
     "pct": 46
    }
   ]
  },
  "year": {
-  "total": 42170,
-  "total_fmt": "42,170",
-  "uniq_art": 2978,
-  "uniq_art_fmt": "2,978",
-  "uniq_trk": 8732,
-  "uniq_trk_fmt": "8,732",
+  "total": 42208,
+  "total_fmt": "42,208",
+  "uniq_art": 2985,
+  "uniq_art_fmt": "2,985",
+  "uniq_trk": 8755,
+  "uniq_trk_fmt": "8,755",
   "top_art": [
    {
     "artist": "Ramblamp",
@@ -605,114 +605,100 @@
    },
    {
     "month": "11",
-    "plays": 954,
-    "plays_fmt": "954",
+    "plays": 992,
+    "plays_fmt": "992",
     "pct": 18
    }
   ]
  },
  "week": {
-  "total": 1341,
-  "total_fmt": "1,341",
-  "uniq_art": 617,
-  "uniq_art_fmt": "617",
-  "uniq_trk": 992,
-  "uniq_trk_fmt": "992",
-  "start": "10/30",
-  "end": "11/5",
+  "total": 1151,
+  "total_fmt": "1,151",
+  "uniq_art": 545,
+  "uniq_art_fmt": "545",
+  "uniq_trk": 841,
+  "uniq_trk_fmt": "841",
+  "start": "10/31",
+  "end": "11/6",
   "top_art": [
-   {
-    "artist": "Lucky Kilimanjaro",
-    "plays": 23,
-    "plays_fmt": "23",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb0b7ec5785bf94846dcabf3cb",
-    "pct": 100
-   },
    {
     "artist": "Tatsuya Kitani",
     "plays": 21,
     "plays_fmt": "21",
     "img": "https://i.scdn.co/image/ab6761610000e5eb47d98389d5bd1c196a287938",
-    "pct": 91
+    "pct": 100
+   },
+   {
+    "artist": "99",
+    "plays": 16,
+    "plays_fmt": "16",
+    "img": null,
+    "pct": 76
    },
    {
     "artist": "Rummy Nose Tetra",
     "plays": 15,
     "plays_fmt": "15",
     "img": null,
-    "pct": 65
+    "pct": 71
    },
    {
-    "artist": "Acle",
-    "plays": 14,
-    "plays_fmt": "14",
-    "img": "https://i.scdn.co/image/ab67616d0000b273da3b2891301695c345c56bb8",
-    "pct": 61
-   },
-   {
-    "artist": "Blooming Bungei",
-    "plays": 14,
-    "plays_fmt": "14",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb3d5a0bf12ded4fcef52c8497",
-    "pct": 61
+    "artist": "oharai lll",
+    "plays": 15,
+    "plays_fmt": "15",
+    "img": null,
+    "pct": 71
    },
    {
     "artist": "miida",
     "plays": 12,
     "plays_fmt": "12",
     "img": "https://i.scdn.co/image/ab67616d0000b273a10aefa900ad4a60773bd28e",
-    "pct": 52
+    "pct": 57
    },
    {
     "artist": "リハビリたち",
     "plays": 12,
     "plays_fmt": "12",
     "img": "https://i.scdn.co/image/ab6761610000e5ebfd541a37fd956fce07c6583a",
-    "pct": 52
-   },
-   {
-    "artist": "Black Boboi",
-    "plays": 11,
-    "plays_fmt": "11",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb173cb515bfb6ca8f05dc2aca",
-    "pct": 48
+    "pct": 57
    },
    {
     "artist": "lili maua",
     "plays": 11,
     "plays_fmt": "11",
     "img": null,
-    "pct": 48
+    "pct": 52
    },
    {
     "artist": "桃蟹",
     "plays": 11,
     "plays_fmt": "11",
     "img": null,
+    "pct": 52
+   },
+   {
+    "artist": "Acle",
+    "plays": 10,
+    "plays_fmt": "10",
+    "img": "https://i.scdn.co/image/ab67616d0000b273da3b2891301695c345c56bb8",
     "pct": 48
+   },
+   {
+    "artist": "AoOo",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
+    "pct": 38
    }
   ],
   "top_alb": [
    {
-    "album": "ONDO",
-    "artist": "Lucky Kilimanjaro",
-    "plays": 23,
-    "plays_fmt": "23",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/088252962291071fd0d14ba7a523d6f8.jpg"
-   },
-   {
-    "album": "poolside core",
-    "artist": "Blooming Bungei",
-    "plays": 14,
-    "plays_fmt": "14",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/b20f3fed5be1b1744188d0a5e7495131.jpg"
-   },
-   {
-    "album": "Town in Mind",
-    "artist": "Acle",
-    "plays": 12,
-    "plays_fmt": "12",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/7ce9707bcbff63303d56c4348ae4d809.jpg"
+    "album": "utsuroi",
+    "artist": "oharai lll",
+    "plays": 15,
+    "plays_fmt": "15",
+    "img": null
    },
    {
     "album": "ID22",
@@ -720,13 +706,6 @@
     "plays": 11,
     "plays_fmt": "11",
     "img": null
-   },
-   {
-    "album": "Sepia",
-    "artist": "Black Boboi",
-    "plays": 11,
-    "plays_fmt": "11",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/158d6943703e6cd30388cd6dba40f635.jpg"
    },
    {
     "album": "自殺衝動の天使",
@@ -762,14 +741,35 @@
     "plays": 10,
     "plays_fmt": "10",
     "img": null
+   },
+   {
+    "album": "PURE",
+    "artist": "Tatsuya Kitani",
+    "plays": 10,
+    "plays_fmt": "10",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/f490fbd20a27c5087d56cfef9ba0672a.jpg"
+   },
+   {
+    "album": "EnvoL",
+    "artist": "99",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": null
+   },
+   {
+    "album": "Rooom",
+    "artist": "AoOo",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/da74e0f56cc6364849b7ac888d3492d5.jpg"
    }
   ],
   "top_trk": [
    {
-    "track": "メタセコイア",
-    "artist": "blend house",
-    "plays": 5,
-    "plays_fmt": "5"
+    "track": "ame wo matsu",
+    "artist": "oharai lll",
+    "plays": 11,
+    "plays_fmt": "11"
    },
    {
     "track": "DAI TOKYO",
@@ -786,12 +786,6 @@
    {
     "track": "かわいい子にはちゃん付けを",
     "artist": "奔走狂走局",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "ぼいぜんがーる。",
-    "artist": "ポコメッツ",
     "plays": 4,
     "plays_fmt": "4"
    },
@@ -824,15 +818,15 @@
     "artist": "eskamila",
     "plays": 3,
     "plays_fmt": "3"
+   },
+   {
+    "track": "Chocolate",
+    "artist": "Ramblamp",
+    "plays": 3,
+    "plays_fmt": "3"
    }
   ],
   "by_day": [
-   {
-    "day": "10/30",
-    "plays": 228,
-    "plays_fmt": "228",
-    "pct": 91
-   },
    {
     "day": "10/31",
     "plays": 159,
@@ -865,9 +859,15 @@
    },
    {
     "day": "11/5",
-    "plays": 177,
-    "plays_fmt": "177",
+    "plays": 178,
+    "plays_fmt": "178",
     "pct": 71
+   },
+   {
+    "day": "11/6",
+    "plays": 37,
+    "plays_fmt": "37",
+    "pct": 15
    }
   ]
  }
