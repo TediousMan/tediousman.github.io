@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7478,
- "total_artists_fmt": "7,478",
+ "total_artists": 7483,
+ "total_artists_fmt": "7,483",
  "missing_img": 8,
  "artists": [
   {
@@ -257,16 +257,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb4a67d97b439553fdc8cab333"
   },
   {
+   "name": "レイラ",
+   "plays": 470,
+   "plays_fmt": "470",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb5a7ae7ae77a6230eb4107638"
+  },
+  {
    "name": "Doll Parts",
    "plays": 469,
    "plays_fmt": "469",
    "img": "https://i.scdn.co/image/ab67616d0000b273b35a708fb4c4e9ccdbcc897c"
-  },
-  {
-   "name": "レイラ",
-   "plays": 469,
-   "plays_fmt": "469",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb5a7ae7ae77a6230eb4107638"
   },
   {
    "name": "My Lucky Day",
@@ -276,8 +276,8 @@
   },
   {
    "name": "Sazanami",
-   "plays": 464,
-   "plays_fmt": "464",
+   "plays": 466,
+   "plays_fmt": "466",
    "img": "https://i.scdn.co/image/ab6761610000e5eba3f038b0d76a49de0bd33221"
   },
   {
@@ -330,8 +330,8 @@
   },
   {
    "name": "Dansa Med Dig",
-   "plays": 422,
-   "plays_fmt": "422",
+   "plays": 423,
+   "plays_fmt": "423",
    "img": "https://i.scdn.co/image/ab6761610000e5eb590cfa1ad794bf2697150167"
   },
   {
@@ -372,8 +372,8 @@
   },
   {
    "name": "Ivy to Fraudulent Game",
-   "plays": 386,
-   "plays_fmt": "386",
+   "plays": 387,
+   "plays_fmt": "387",
    "img": "https://i.scdn.co/image/ab6761610000e5eb7f8973aeb4176e61b0cec158"
   },
   {
@@ -425,16 +425,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb3f7ea5d6336f02de0539f2be"
   },
   {
+   "name": "kiki vivi lily",
+   "plays": 372,
+   "plays_fmt": "372",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebfe3b6188abc328838969e7c5"
+  },
+  {
    "name": "えんぷてい",
    "plays": 372,
    "plays_fmt": "372",
    "img": "https://i.scdn.co/image/ab6761610000e5eb11b3475e61b812fbe2327bd0"
-  },
-  {
-   "name": "kiki vivi lily",
-   "plays": 371,
-   "plays_fmt": "371",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebfe3b6188abc328838969e7c5"
   },
   {
    "name": "akuruyo-sheep",
@@ -492,8 +492,8 @@
   },
   {
    "name": "coldrain",
-   "plays": 340,
-   "plays_fmt": "340",
+   "plays": 341,
+   "plays_fmt": "341",
    "img": "https://i.scdn.co/image/ab6761610000e5eb790734bdee501b47713b4afe"
   },
   {
@@ -516,8 +516,8 @@
   },
   {
    "name": "Reol",
-   "plays": 328,
-   "plays_fmt": "328",
+   "plays": 329,
+   "plays_fmt": "329",
    "img": "https://i.scdn.co/image/ab6761610000e5ebdf2dbfb158e48df25bd49477"
   },
   {
@@ -678,8 +678,8 @@
   },
   {
    "name": "omeme tenten",
-   "plays": 301,
-   "plays_fmt": "301",
+   "plays": 302,
+   "plays_fmt": "302",
    "img": "https://i.scdn.co/image/ab6761610000e5eb3b770c187b6a716a2eb91f1b"
   },
   {
@@ -725,10 +725,22 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
   },
   {
+   "name": "Kienai",
+   "plays": 286,
+   "plays_fmt": "286",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481"
+  },
+  {
    "name": "魚韻",
    "plays": 285,
    "plays_fmt": "285",
    "img": null
+  },
+  {
+   "name": "36km/h",
+   "plays": 284,
+   "plays_fmt": "284",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb8ffe1b4304fc8e392b97c2b7"
   },
   {
    "name": "EASTOKLAB",
@@ -743,21 +755,9 @@
    "img": "https://i.scdn.co/image/ab67616d0000b2739522d7fafd953bddbddea2c9"
   },
   {
-   "name": "36km/h",
-   "plays": 283,
-   "plays_fmt": "283",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb8ffe1b4304fc8e392b97c2b7"
-  },
-  {
-   "name": "Kienai",
-   "plays": 283,
-   "plays_fmt": "283",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481"
-  },
-  {
    "name": "the Wulongs",
-   "plays": 283,
-   "plays_fmt": "283",
+   "plays": 284,
+   "plays_fmt": "284",
    "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc"
   },
   {
@@ -857,6 +857,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb8048ea9ec9630e59fb3f3512"
   },
   {
+   "name": "BUDOU JUICE",
+   "plays": 264,
+   "plays_fmt": "264",
+   "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f"
+  },
+  {
    "name": "レルエ",
    "plays": 264,
    "plays_fmt": "264",
@@ -891,12 +897,6 @@
    "plays": 263,
    "plays_fmt": "263",
    "img": "https://i.scdn.co/image/ab6761610000e5ebae40b992ffa53731ab3e62bf"
-  },
-  {
-   "name": "BUDOU JUICE",
-   "plays": 262,
-   "plays_fmt": "262",
-   "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f"
   },
   {
    "name": "Jam Fuzz Kid",

@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-06",
+ "generated": "2026-11-09",
  "year_label": "2026",
  "all": {
-  "total": 225295,
-  "total_fmt": "225,295",
-  "uniq_art": 7478,
-  "uniq_art_fmt": "7,478",
-  "uniq_trk": 31520,
-  "uniq_trk_fmt": "31,520",
+  "total": 225436,
+  "total_fmt": "225,436",
+  "uniq_art": 7483,
+  "uniq_art_fmt": "7,483",
+  "uniq_trk": 31532,
+  "uniq_trk_fmt": "31,532",
   "start": "2018-03-06",
-  "end": "2026-11-06",
+  "end": "2026-11-09",
   "top_art": [
    {
     "artist": "chilldspot",
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 42208,
-    "plays_fmt": "42,208",
+    "plays": 42349,
+    "plays_fmt": "42,349",
     "pct": 78
    }
   ],
@@ -323,19 +323,19 @@
    },
    {
     "year": "2026",
-    "count": 1109,
-    "count_fmt": "1,109",
+    "count": 1114,
+    "count_fmt": "1,114",
     "pct": 46
    }
   ]
  },
  "year": {
-  "total": 42208,
-  "total_fmt": "42,208",
-  "uniq_art": 2985,
-  "uniq_art_fmt": "2,985",
-  "uniq_trk": 8755,
-  "uniq_trk_fmt": "8,755",
+  "total": 42349,
+  "total_fmt": "42,349",
+  "uniq_art": 2991,
+  "uniq_art_fmt": "2,991",
+  "uniq_trk": 8767,
+  "uniq_trk_fmt": "8,767",
   "top_art": [
    {
     "artist": "Ramblamp",
@@ -346,17 +346,17 @@
    },
    {
     "artist": "Kienai",
-    "plays": 280,
-    "plays_fmt": "280",
+    "plays": 283,
+    "plays_fmt": "283",
     "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481",
-    "pct": 97
+    "pct": 98
    },
    {
     "artist": "BUDOU JUICE",
-    "plays": 262,
-    "plays_fmt": "262",
+    "plays": 264,
+    "plays_fmt": "264",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f",
-    "pct": 90
+    "pct": 91
    },
    {
     "artist": "bedgravity",
@@ -374,8 +374,8 @@
    },
    {
     "artist": "the Wulongs",
-    "plays": 235,
-    "plays_fmt": "235",
+    "plays": 236,
+    "plays_fmt": "236",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
     "pct": 81
    },
@@ -388,8 +388,8 @@
    },
    {
     "artist": "uyuu",
-    "plays": 223,
-    "plays_fmt": "223",
+    "plays": 224,
+    "plays_fmt": "224",
     "img": "https://i.scdn.co/image/ab67616d0000b27381582c0fb8f5908a6aee7f3e",
     "pct": 77
    },
@@ -412,8 +412,8 @@
    {
     "album": "sparkleII",
     "artist": "Kienai",
-    "plays": 277,
-    "plays_fmt": "277",
+    "plays": 280,
+    "plays_fmt": "280",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/1c6a42ba2640cb0ed267d0c9d6a5f106.jpg"
    },
    {
@@ -440,8 +440,8 @@
    {
     "album": "BUDOU JUICE",
     "artist": "BUDOU JUICE",
-    "plays": 196,
-    "plays_fmt": "196",
+    "plays": 198,
+    "plays_fmt": "198",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f"
    },
    {
@@ -454,8 +454,8 @@
    {
     "album": "bipolar",
     "artist": "Nankyokuten",
-    "plays": 181,
-    "plays_fmt": "181",
+    "plays": 182,
+    "plays_fmt": "182",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e1329057e61539992783778432e3056a.jpg"
    },
    {
@@ -473,11 +473,11 @@
     "img": "https://i.scdn.co/image/ab6761610000e5eb59ee187da2de942d5f50e0e0"
    },
    {
-    "album": "Gold Fashion",
-    "artist": "BRADIO",
+    "album": "FACH",
+    "artist": "the Wulongs",
     "plays": 167,
     "plays_fmt": "167",
-    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/bdcf461a42515a1f33a369c657656b3d.jpg"
+    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/98f2e6391df7025c381117edd5682cb7.jpg"
    }
   ],
   "top_trk": [
@@ -532,8 +532,8 @@
    {
     "track": "way back",
     "artist": "Kienai",
-    "plays": 64,
-    "plays_fmt": "64"
+    "plays": 65,
+    "plays_fmt": "65"
    },
    {
     "track": "Panzamast",
@@ -605,94 +605,101 @@
    },
    {
     "month": "11",
-    "plays": 992,
-    "plays_fmt": "992",
-    "pct": 18
+    "plays": 1133,
+    "plays_fmt": "1,133",
+    "pct": 21
    }
   ]
  },
  "week": {
-  "total": 1151,
-  "total_fmt": "1,151",
-  "uniq_art": 545,
-  "uniq_art_fmt": "545",
-  "uniq_trk": 841,
-  "uniq_trk_fmt": "841",
-  "start": "10/31",
-  "end": "11/6",
+  "total": 824,
+  "total_fmt": "824",
+  "uniq_art": 458,
+  "uniq_art_fmt": "458",
+  "uniq_trk": 700,
+  "uniq_trk_fmt": "700",
+  "start": "11/3",
+  "end": "11/9",
   "top_art": [
+   {
+    "artist": "リハビリたち",
+    "plays": 35,
+    "plays_fmt": "35",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebfd541a37fd956fce07c6583a",
+    "pct": 100
+   },
    {
     "artist": "Tatsuya Kitani",
     "plays": 21,
     "plays_fmt": "21",
     "img": "https://i.scdn.co/image/ab6761610000e5eb47d98389d5bd1c196a287938",
-    "pct": 100
+    "pct": 60
    },
    {
     "artist": "99",
     "plays": 16,
     "plays_fmt": "16",
     "img": null,
-    "pct": 76
+    "pct": 46
    },
    {
     "artist": "Rummy Nose Tetra",
     "plays": 15,
     "plays_fmt": "15",
     "img": null,
-    "pct": 71
+    "pct": 43
    },
    {
     "artist": "oharai lll",
     "plays": 15,
     "plays_fmt": "15",
     "img": null,
-    "pct": 71
-   },
-   {
-    "artist": "miida",
-    "plays": 12,
-    "plays_fmt": "12",
-    "img": "https://i.scdn.co/image/ab67616d0000b273a10aefa900ad4a60773bd28e",
-    "pct": 57
-   },
-   {
-    "artist": "リハビリたち",
-    "plays": 12,
-    "plays_fmt": "12",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebfd541a37fd956fce07c6583a",
-    "pct": 57
+    "pct": 43
    },
    {
     "artist": "lili maua",
+    "plays": 12,
+    "plays_fmt": "12",
+    "img": null,
+    "pct": 34
+   },
+   {
+    "artist": "miida",
     "plays": 11,
     "plays_fmt": "11",
-    "img": null,
-    "pct": 52
+    "img": "https://i.scdn.co/image/ab67616d0000b273a10aefa900ad4a60773bd28e",
+    "pct": 31
    },
    {
     "artist": "桃蟹",
     "plays": 11,
     "plays_fmt": "11",
     "img": null,
-    "pct": 52
+    "pct": 31
    },
    {
     "artist": "Acle",
-    "plays": 10,
-    "plays_fmt": "10",
+    "plays": 6,
+    "plays_fmt": "6",
     "img": "https://i.scdn.co/image/ab67616d0000b273da3b2891301695c345c56bb8",
-    "pct": 48
+    "pct": 17
    },
    {
-    "artist": "AoOo",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
-    "pct": 38
+    "artist": "Galileo Galilei",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb6b90309382c4bd484c7db071",
+    "pct": 17
    }
   ],
   "top_alb": [
+   {
+    "album": "自殺衝動の天使",
+    "artist": "リハビリたち",
+    "plays": 35,
+    "plays_fmt": "35",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebfd541a37fd956fce07c6583a"
+   },
    {
     "album": "utsuroi",
     "artist": "oharai lll",
@@ -703,16 +710,9 @@
    {
     "album": "ID22",
     "artist": "lili maua",
-    "plays": 11,
-    "plays_fmt": "11",
+    "plays": 12,
+    "plays_fmt": "12",
     "img": null
-   },
-   {
-    "album": "自殺衝動の天使",
-    "artist": "リハビリたち",
-    "plays": 11,
-    "plays_fmt": "11",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebfd541a37fd956fce07c6583a"
    },
    {
     "album": "逆光",
@@ -757,11 +757,11 @@
     "img": null
    },
    {
-    "album": "Rooom",
-    "artist": "AoOo",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/da74e0f56cc6364849b7ac888d3492d5.jpg"
+    "album": "Rise of The Man",
+    "artist": "Galileo Galilei",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/cffc8d99f81cc5dda47690574adea51a.jpg"
    }
   ],
   "top_trk": [
@@ -778,14 +778,14 @@
     "plays_fmt": "4"
    },
    {
-    "track": "Days",
-    "artist": "reGretGirl",
+    "track": "かわいい子にはちゃん付けを",
+    "artist": "奔走狂走局",
     "plays": 4,
     "plays_fmt": "4"
    },
    {
-    "track": "かわいい子にはちゃん付けを",
-    "artist": "奔走狂走局",
+    "track": "クソな天使",
+    "artist": "リハビリたち",
     "plays": 4,
     "plays_fmt": "4"
    },
@@ -796,55 +796,37 @@
     "plays_fmt": "4"
    },
    {
-    "track": "拠り所を奪われた子供たち",
+    "track": "Crush",
+    "artist": "kohamo",
+    "plays": 3,
+    "plays_fmt": "3"
+   },
+   {
+    "track": "Days",
+    "artist": "reGretGirl",
+    "plays": 3,
+    "plays_fmt": "3"
+   },
+   {
+    "track": "Potsuri",
+    "artist": "Dolly Varden",
+    "plays": 3,
+    "plays_fmt": "3"
+   },
+   {
+    "track": "それが全てだった",
     "artist": "リハビリたち",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "Aquarium",
-    "artist": "matatapia",
     "plays": 3,
     "plays_fmt": "3"
    },
    {
-    "track": "Beacon",
-    "artist": "OLPHEUS",
-    "plays": 3,
-    "plays_fmt": "3"
-   },
-   {
-    "track": "Black Swan",
-    "artist": "eskamila",
-    "plays": 3,
-    "plays_fmt": "3"
-   },
-   {
-    "track": "Chocolate",
-    "artist": "Ramblamp",
+    "track": "ぼいぜんがーる。",
+    "artist": "ポコメッツ",
     "plays": 3,
     "plays_fmt": "3"
    }
   ],
   "by_day": [
-   {
-    "day": "10/31",
-    "plays": 159,
-    "plays_fmt": "159",
-    "pct": 64
-   },
-   {
-    "day": "11/1",
-    "plays": 109,
-    "plays_fmt": "109",
-    "pct": 44
-   },
-   {
-    "day": "11/2",
-    "plays": 200,
-    "plays_fmt": "200",
-    "pct": 80
-   },
    {
     "day": "11/3",
     "plays": 250,
@@ -865,9 +847,27 @@
    },
    {
     "day": "11/6",
-    "plays": 37,
-    "plays_fmt": "37",
-    "pct": 15
+    "plays": 48,
+    "plays_fmt": "48",
+    "pct": 19
+   },
+   {
+    "day": "11/7",
+    "plays": 35,
+    "plays_fmt": "35",
+    "pct": 14
+   },
+   {
+    "day": "11/8",
+    "plays": 86,
+    "plays_fmt": "86",
+    "pct": 34
+   },
+   {
+    "day": "11/9",
+    "plays": 9,
+    "plays_fmt": "9",
+    "pct": 4
    }
   ]
  }
