@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7483,
- "total_artists_fmt": "7,483",
+ "total_artists": 7485,
+ "total_artists_fmt": "7,485",
  "missing_img": 8,
  "artists": [
   {
@@ -78,8 +78,8 @@
   },
   {
    "name": "羊文学",
-   "plays": 692,
-   "plays_fmt": "692",
+   "plays": 694,
+   "plays_fmt": "694",
    "img": "https://i.scdn.co/image/ab6761610000e5eb1833f4534ed3dd88d9e12c8b"
   },
   {
@@ -96,8 +96,8 @@
   },
   {
    "name": "kuyuru",
-   "plays": 637,
-   "plays_fmt": "637",
+   "plays": 638,
+   "plays_fmt": "638",
    "img": "https://i.scdn.co/image/ab6761610000e5eb2a08d0189b80a87ff7dc63fc"
   },
   {
@@ -365,16 +365,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebb718d2d3988005d3a72f22c9"
   },
   {
+   "name": "Ivy to Fraudulent Game",
+   "plays": 388,
+   "plays_fmt": "388",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb7f8973aeb4176e61b0cec158"
+  },
+  {
    "name": "Asmi",
    "plays": 387,
    "plays_fmt": "387",
    "img": "https://i.scdn.co/image/ab6761610000e5eb3ac8e8114680356ca222ffa9"
-  },
-  {
-   "name": "Ivy to Fraudulent Game",
-   "plays": 387,
-   "plays_fmt": "387",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb7f8973aeb4176e61b0cec158"
   },
   {
    "name": "sucola",
@@ -858,8 +858,8 @@
   },
   {
    "name": "BUDOU JUICE",
-   "plays": 264,
-   "plays_fmt": "264",
+   "plays": 265,
+   "plays_fmt": "265",
    "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f"
   },
   {
