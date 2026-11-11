@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7485,
- "total_artists_fmt": "7,485",
+ "total_artists": 7489,
+ "total_artists_fmt": "7,489",
  "missing_img": 8,
  "artists": [
   {
@@ -36,8 +36,8 @@
   },
   {
    "name": "KROI",
-   "plays": 873,
-   "plays_fmt": "873",
+   "plays": 874,
+   "plays_fmt": "874",
    "img": "https://i.scdn.co/image/ab6761610000e5eb3891ccf48bd7eb050237f789"
   },
   {
@@ -234,8 +234,8 @@
   },
   {
    "name": "MAN WITH A MISSION",
-   "plays": 479,
-   "plays_fmt": "479",
+   "plays": 480,
+   "plays_fmt": "480",
    "img": "https://i.scdn.co/image/ab6761610000e5ebe30959e15d3719dc8d9ffe65"
   },
   {
@@ -276,8 +276,8 @@
   },
   {
    "name": "Sazanami",
-   "plays": 466,
-   "plays_fmt": "466",
+   "plays": 467,
+   "plays_fmt": "467",
    "img": "https://i.scdn.co/image/ab6761610000e5eba3f038b0d76a49de0bd33221"
   },
   {
@@ -419,16 +419,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eba28745b1de7f1ad1d41514f6"
   },
   {
+   "name": "kiki vivi lily",
+   "plays": 373,
+   "plays_fmt": "373",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebfe3b6188abc328838969e7c5"
+  },
+  {
    "name": "Chilli Beans.",
    "plays": 372,
    "plays_fmt": "372",
    "img": "https://i.scdn.co/image/ab6761610000e5eb3f7ea5d6336f02de0539f2be"
-  },
-  {
-   "name": "kiki vivi lily",
-   "plays": 372,
-   "plays_fmt": "372",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebfe3b6188abc328838969e7c5"
   },
   {
    "name": "えんぷてい",
@@ -630,8 +630,8 @@
   },
   {
    "name": "Longman",
-   "plays": 308,
-   "plays_fmt": "308",
+   "plays": 309,
+   "plays_fmt": "309",
    "img": "https://i.scdn.co/image/ab6761610000e5eb6bb8a0465f0ec9b427da4300"
   },
   {
@@ -707,6 +707,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb2b99a62df8934c2ee58eeaa5"
   },
   {
+   "name": "Ramblamp",
+   "plays": 291,
+   "plays_fmt": "291",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
+  },
+  {
    "name": "WANG GUNG BAND",
    "plays": 291,
    "plays_fmt": "291",
@@ -719,16 +725,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb1c7ce3df2cce3afef74566cb"
   },
   {
-   "name": "Ramblamp",
-   "plays": 290,
-   "plays_fmt": "290",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
-  },
-  {
    "name": "Kienai",
    "plays": 286,
    "plays_fmt": "286",
    "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481"
+  },
+  {
+   "name": "the Wulongs",
+   "plays": 285,
+   "plays_fmt": "285",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc"
   },
   {
    "name": "魚韻",
@@ -753,12 +759,6 @@
    "plays": 284,
    "plays_fmt": "284",
    "img": "https://i.scdn.co/image/ab67616d0000b2739522d7fafd953bddbddea2c9"
-  },
-  {
-   "name": "the Wulongs",
-   "plays": 284,
-   "plays_fmt": "284",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc"
   },
   {
    "name": "Blumepopo",
@@ -834,8 +834,8 @@
   },
   {
    "name": "Hammer Head Shark",
-   "plays": 271,
-   "plays_fmt": "271",
+   "plays": 272,
+   "plays_fmt": "272",
    "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851"
   },
   {
