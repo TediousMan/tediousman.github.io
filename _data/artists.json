@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7489,
- "total_artists_fmt": "7,489",
+ "total_artists": 7493,
+ "total_artists_fmt": "7,493",
  "missing_img": 8,
  "artists": [
   {
@@ -120,8 +120,8 @@
   },
   {
    "name": "にしな",
-   "plays": 620,
-   "plays_fmt": "620",
+   "plays": 621,
+   "plays_fmt": "621",
    "img": "https://i.scdn.co/image/ab6761610000e5eb9c703e5ffc35530b42a70a8e"
   },
   {
@@ -251,16 +251,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebc132f343ecf73edaebe50e72"
   },
   {
+   "name": "レイラ",
+   "plays": 471,
+   "plays_fmt": "471",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb5a7ae7ae77a6230eb4107638"
+  },
+  {
    "name": "XieXie",
    "plays": 470,
    "plays_fmt": "470",
    "img": "https://i.scdn.co/image/ab6761610000e5eb4a67d97b439553fdc8cab333"
-  },
-  {
-   "name": "レイラ",
-   "plays": 470,
-   "plays_fmt": "470",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb5a7ae7ae77a6230eb4107638"
   },
   {
    "name": "Doll Parts",
@@ -299,6 +299,12 @@
    "img": "https://i.scdn.co/image/ab67616d0000b273c845208c60073f8ed525f946"
   },
   {
+   "name": "Home",
+   "plays": 438,
+   "plays_fmt": "438",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
+  },
+  {
    "name": "Tokimeki Records",
    "plays": 438,
    "plays_fmt": "438",
@@ -309,12 +315,6 @@
    "plays": 438,
    "plays_fmt": "438",
    "img": "https://i.scdn.co/image/ab6761610000e5eb11b9ad412afbcc0c3aa4fa48"
-  },
-  {
-   "name": "Home",
-   "plays": 437,
-   "plays_fmt": "437",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
    "name": "CLAN QUEEN",
@@ -348,8 +348,8 @@
   },
   {
    "name": "Muque",
-   "plays": 411,
-   "plays_fmt": "411",
+   "plays": 413,
+   "plays_fmt": "413",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
   },
   {
@@ -360,8 +360,8 @@
   },
   {
    "name": "Vaundy",
-   "plays": 396,
-   "plays_fmt": "396",
+   "plays": 397,
+   "plays_fmt": "397",
    "img": "https://i.scdn.co/image/ab6761610000e5ebb718d2d3988005d3a72f22c9"
   },
   {
@@ -600,8 +600,8 @@
   },
   {
    "name": "DurdN",
-   "plays": 314,
-   "plays_fmt": "314",
+   "plays": 315,
+   "plays_fmt": "315",
    "img": "https://i.scdn.co/image/ab6761610000e5eb999c4e64ec6180a0810393f3"
   },
   {
@@ -684,8 +684,8 @@
   },
   {
    "name": "Have a nice day!",
-   "plays": 299,
-   "plays_fmt": "299",
+   "plays": 300,
+   "plays_fmt": "300",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
   },
   {
@@ -761,6 +761,12 @@
    "img": "https://i.scdn.co/image/ab67616d0000b2739522d7fafd953bddbddea2c9"
   },
   {
+   "name": "Black Boboi",
+   "plays": 282,
+   "plays_fmt": "282",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb173cb515bfb6ca8f05dc2aca"
+  },
+  {
    "name": "Blumepopo",
    "plays": 282,
    "plays_fmt": "282",
@@ -771,12 +777,6 @@
    "plays": 282,
    "plays_fmt": "282",
    "img": "https://i.scdn.co/image/ab6761610000e5eb55300c7fa7dffdc1abd1fd39"
-  },
-  {
-   "name": "Black Boboi",
-   "plays": 281,
-   "plays_fmt": "281",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb173cb515bfb6ca8f05dc2aca"
   },
   {
    "name": "Regal Lily",
