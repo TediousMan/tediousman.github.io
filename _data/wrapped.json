@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-15",
+ "generated": "2026-11-16",
  "year_label": "2026",
  "all": {
-  "total": 226213,
-  "total_fmt": "226,213",
-  "uniq_art": 7498,
-  "uniq_art_fmt": "7,498",
-  "uniq_trk": 31683,
-  "uniq_trk_fmt": "31,683",
+  "total": 226376,
+  "total_fmt": "226,376",
+  "uniq_art": 7499,
+  "uniq_art_fmt": "7,499",
+  "uniq_trk": 31722,
+  "uniq_trk_fmt": "31,722",
   "start": "2018-03-06",
-  "end": "2026-11-15",
+  "end": "2026-11-16",
   "top_art": [
    {
     "artist": "chilldspot",
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 43126,
-    "plays_fmt": "43,126",
+    "plays": 43289,
+    "plays_fmt": "43,289",
     "pct": 80
    }
   ],
@@ -323,19 +323,19 @@
    },
    {
     "year": "2026",
-    "count": 1129,
-    "count_fmt": "1,129",
+    "count": 1130,
+    "count_fmt": "1,130",
     "pct": 47
    }
   ]
  },
  "year": {
-  "total": 43126,
-  "total_fmt": "43,126",
-  "uniq_art": 3009,
-  "uniq_art_fmt": "3,009",
-  "uniq_trk": 8918,
-  "uniq_trk_fmt": "8,918",
+  "total": 43289,
+  "total_fmt": "43,289",
+  "uniq_art": 3010,
+  "uniq_art_fmt": "3,010",
+  "uniq_trk": 8959,
+  "uniq_trk_fmt": "8,959",
   "top_art": [
    {
     "artist": "Ramblamp",
@@ -388,8 +388,8 @@
    },
    {
     "artist": "uyuu",
-    "plays": 225,
-    "plays_fmt": "225",
+    "plays": 226,
+    "plays_fmt": "226",
     "img": "https://i.scdn.co/image/ab67616d0000b27381582c0fb8f5908a6aee7f3e",
     "pct": 77
    },
@@ -468,8 +468,8 @@
    {
     "album": "日々、折り返すごとに",
     "artist": "爛漫天国",
-    "plays": 174,
-    "plays_fmt": "174",
+    "plays": 176,
+    "plays_fmt": "176",
     "img": "https://i.scdn.co/image/ab6761610000e5eb59ee187da2de942d5f50e0e0"
    },
    {
@@ -605,21 +605,21 @@
    },
    {
     "month": "11",
-    "plays": 1910,
-    "plays_fmt": "1,910",
-    "pct": 35
+    "plays": 2073,
+    "plays_fmt": "2,073",
+    "pct": 38
    }
   ]
  },
  "week": {
-  "total": 786,
-  "total_fmt": "786",
-  "uniq_art": 442,
-  "uniq_art_fmt": "442",
-  "uniq_trk": 667,
-  "uniq_trk_fmt": "667",
-  "start": "11/9",
-  "end": "11/15",
+  "total": 939,
+  "total_fmt": "939",
+  "uniq_art": 493,
+  "uniq_art_fmt": "493",
+  "uniq_trk": 770,
+  "uniq_trk_fmt": "770",
+  "start": "11/10",
+  "end": "11/16",
   "top_art": [
    {
     "artist": "morensoji",
@@ -630,17 +630,24 @@
    },
    {
     "artist": "丸山純奈",
-    "plays": 18,
-    "plays_fmt": "18",
+    "plays": 19,
+    "plays_fmt": "19",
     "img": "https://i.scdn.co/image/ab6761610000e5ebc059c7f7502df46d9cd81238",
-    "pct": 56
+    "pct": 59
    },
    {
     "artist": "Guys in the quiet neighborhood",
-    "plays": 16,
-    "plays_fmt": "16",
+    "plays": 18,
+    "plays_fmt": "18",
     "img": "https://i.scdn.co/image/ab67616d0000b27354b8a9083a8788be77076a97",
-    "pct": 50
+    "pct": 56
+   },
+   {
+    "artist": "Brooks",
+    "plays": 15,
+    "plays_fmt": "15",
+    "img": null,
+    "pct": 47
    },
    {
     "artist": "Ivy",
@@ -650,17 +657,31 @@
     "pct": 47
    },
    {
-    "artist": "Brooks",
-    "plays": 14,
-    "plays_fmt": "14",
-    "img": null,
-    "pct": 44
+    "artist": "猫は液体",
+    "plays": 12,
+    "plays_fmt": "12",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebf235b7df0755fa3a976a2d3a",
+    "pct": 38
+   },
+   {
+    "artist": "Sala",
+    "plays": 11,
+    "plays_fmt": "11",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb44ed1c527d916765a6b0331a",
+    "pct": 34
    },
    {
     "artist": "D.A.N.",
+    "plays": 10,
+    "plays_fmt": "10",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb800487f745ca82e5a9109c36",
+    "pct": 31
+   },
+   {
+    "artist": "Rojiura no ballerina",
     "plays": 9,
     "plays_fmt": "9",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb800487f745ca82e5a9109c36",
+    "img": null,
     "pct": 28
    },
    {
@@ -669,27 +690,6 @@
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5eb7e91db42e231eb91c7dddcde",
     "pct": 28
-   },
-   {
-    "artist": "Rojiura no ballerina",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": null,
-    "pct": 25
-   },
-   {
-    "artist": "Strongly Carbonated Milk",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": null,
-    "pct": 22
-   },
-   {
-    "artist": "セブンス・ベガ",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebb4fdc7d92824d1ea10c49f3b",
-    "pct": 22
    }
   ],
   "top_alb": [
@@ -703,15 +703,15 @@
    {
     "album": "丸山純奈",
     "artist": "丸山純奈",
-    "plays": 18,
-    "plays_fmt": "18",
+    "plays": 19,
+    "plays_fmt": "19",
     "img": "https://i.scdn.co/image/ab6761610000e5ebc059c7f7502df46d9cd81238"
    },
    {
     "album": "Housing Landscape",
     "artist": "Guys in the quiet neighborhood",
-    "plays": 15,
-    "plays_fmt": "15",
+    "plays": 17,
+    "plays_fmt": "17",
     "img": "https://i.scdn.co/image/ab67616d0000b27354b8a9083a8788be77076a97"
    },
    {
@@ -729,10 +729,24 @@
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/ee706cb6f7cd5c818529f3ad8c3d3d77.png"
    },
    {
+    "album": "Low Tide",
+    "artist": "Sala",
+    "plays": 11,
+    "plays_fmt": "11",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2f5fb130e479f0d944e19d297426922d.jpg"
+   },
+   {
+    "album": "Nekowaekitai",
+    "artist": "猫は液体",
+    "plays": 11,
+    "plays_fmt": "11",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebf235b7df0755fa3a976a2d3a"
+   },
+   {
     "album": "(SILHOUETTE)",
     "artist": "D.A.N.",
-    "plays": 9,
-    "plays_fmt": "9",
+    "plays": 10,
+    "plays_fmt": "10",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/b273ec28e5157b1a64e146a178f02b08.jpg"
    },
    {
@@ -745,23 +759,9 @@
    {
     "album": "Aventure",
     "artist": "Rojiura no ballerina",
-    "plays": 7,
-    "plays_fmt": "7",
+    "plays": 8,
+    "plays_fmt": "8",
     "img": null
-   },
-   {
-    "album": "Poolside Labyrinth",
-    "artist": "Strongly Carbonated Milk",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": null
-   },
-   {
-    "album": "The Beast and the Blue Night",
-    "artist": "Borderline Case",
-    "plays": 6,
-    "plays_fmt": "6",
-    "img": "https://i.scdn.co/image/ab67616d0000b273212ad18f84168f8d724395cb"
    }
   ],
   "top_trk": [
@@ -784,6 +784,24 @@
     "plays_fmt": "5"
    },
    {
+    "track": "ラムネ",
+    "artist": "丸山純奈",
+    "plays": 5,
+    "plays_fmt": "5"
+   },
+   {
+    "track": "Brain Sleep",
+    "artist": "Guys in the quiet neighborhood",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "Crush",
+    "artist": "kohamo",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
     "track": "RAIL",
     "artist": "丸山純奈",
     "plays": 4,
@@ -796,43 +814,19 @@
     "plays_fmt": "4"
    },
    {
-    "track": "ラムネ",
-    "artist": "丸山純奈",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
     "track": "Aikyo",
     "artist": "in sea hole",
     "plays": 3,
     "plays_fmt": "3"
    },
    {
-    "track": "Spring Flowers on You",
-    "artist": "Misato Ono",
-    "plays": 3,
-    "plays_fmt": "3"
-   },
-   {
-    "track": "Tatoe",
-    "artist": "wAlm",
-    "plays": 3,
-    "plays_fmt": "3"
-   },
-   {
-    "track": "bye bye butterfly!",
-    "artist": "morensoji",
+    "track": "COSMIC JAM",
+    "artist": "SUKEROQUE",
     "plays": 3,
     "plays_fmt": "3"
    }
   ],
   "by_day": [
-   {
-    "day": "11/9",
-    "plays": 10,
-    "plays_fmt": "10",
-    "pct": 4
-   },
    {
     "day": "11/10",
     "plays": 28,
@@ -865,9 +859,15 @@
    },
    {
     "day": "11/15",
-    "plays": 120,
-    "plays_fmt": "120",
-    "pct": 52
+    "plays": 135,
+    "plays_fmt": "135",
+    "pct": 59
+   },
+   {
+    "day": "11/16",
+    "plays": 148,
+    "plays_fmt": "148",
+    "pct": 64
    }
   ]
  }

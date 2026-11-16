@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7498,
- "total_artists_fmt": "7,498",
+ "total_artists": 7499,
+ "total_artists_fmt": "7,499",
  "missing_img": 8,
  "artists": [
   {
@@ -72,8 +72,8 @@
   },
   {
    "name": "FINLANDS",
-   "plays": 707,
-   "plays_fmt": "707",
+   "plays": 708,
+   "plays_fmt": "708",
    "img": "https://i.scdn.co/image/ab6761610000e5ebcf8988fc2f6375e25eb7a350"
   },
   {
@@ -365,16 +365,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb93311cae2f611f16a5d84e43"
   },
   {
+   "name": "Ivy to Fraudulent Game",
+   "plays": 389,
+   "plays_fmt": "389",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb7f8973aeb4176e61b0cec158"
+  },
+  {
    "name": "Asmi",
    "plays": 388,
    "plays_fmt": "388",
    "img": "https://i.scdn.co/image/ab6761610000e5eb3ac8e8114680356ca222ffa9"
-  },
-  {
-   "name": "Ivy to Fraudulent Game",
-   "plays": 388,
-   "plays_fmt": "388",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb7f8973aeb4176e61b0cec158"
   },
   {
    "name": "sucola",
@@ -474,8 +474,8 @@
   },
   {
    "name": "RAN",
-   "plays": 346,
-   "plays_fmt": "346",
+   "plays": 347,
+   "plays_fmt": "347",
    "img": null
   },
   {
@@ -522,8 +522,8 @@
   },
   {
    "name": "shukatsuclub",
-   "plays": 328,
-   "plays_fmt": "328",
+   "plays": 329,
+   "plays_fmt": "329",
    "img": "https://i.scdn.co/image/ab6761610000e5eb3052db8ddeaeb2ce3a7eb450"
   },
   {
@@ -678,14 +678,14 @@
   },
   {
    "name": "omeme tenten",
-   "plays": 302,
-   "plays_fmt": "302",
+   "plays": 303,
+   "plays_fmt": "303",
    "img": "https://i.scdn.co/image/ab6761610000e5eb3b770c187b6a716a2eb91f1b"
   },
   {
    "name": "Have a nice day!",
-   "plays": 300,
-   "plays_fmt": "300",
+   "plays": 301,
+   "plays_fmt": "301",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
   },
   {
@@ -701,16 +701,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
   },
   {
+   "name": "mukeikaku",
+   "plays": 293,
+   "plays_fmt": "293",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb1c7ce3df2cce3afef74566cb"
+  },
+  {
    "name": "Haruno",
    "plays": 292,
    "plays_fmt": "292",
    "img": "https://i.scdn.co/image/ab67616d0000b2731494a1e1507f8dbfbce8f2df"
-  },
-  {
-   "name": "mukeikaku",
-   "plays": 292,
-   "plays_fmt": "292",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb1c7ce3df2cce3afef74566cb"
   },
   {
    "name": "Kenichiro Nishihara",
