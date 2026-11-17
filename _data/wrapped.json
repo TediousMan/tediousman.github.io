@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-16",
+ "generated": "2026-11-17",
  "year_label": "2026",
  "all": {
-  "total": 226376,
-  "total_fmt": "226,376",
+  "total": 226437,
+  "total_fmt": "226,437",
   "uniq_art": 7499,
   "uniq_art_fmt": "7,499",
-  "uniq_trk": 31722,
-  "uniq_trk_fmt": "31,722",
+  "uniq_trk": 31734,
+  "uniq_trk_fmt": "31,734",
   "start": "2018-03-06",
-  "end": "2026-11-16",
+  "end": "2026-11-17",
   "top_art": [
    {
     "artist": "chilldspot",
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 43289,
-    "plays_fmt": "43,289",
+    "plays": 43350,
+    "plays_fmt": "43,350",
     "pct": 80
    }
   ],
@@ -330,12 +330,12 @@
   ]
  },
  "year": {
-  "total": 43289,
-  "total_fmt": "43,289",
-  "uniq_art": 3010,
-  "uniq_art_fmt": "3,010",
-  "uniq_trk": 8959,
-  "uniq_trk_fmt": "8,959",
+  "total": 43350,
+  "total_fmt": "43,350",
+  "uniq_art": 3011,
+  "uniq_art_fmt": "3,011",
+  "uniq_trk": 8972,
+  "uniq_trk_fmt": "8,972",
   "top_art": [
    {
     "artist": "Ramblamp",
@@ -388,8 +388,8 @@
    },
    {
     "artist": "uyuu",
-    "plays": 226,
-    "plays_fmt": "226",
+    "plays": 227,
+    "plays_fmt": "227",
     "img": "https://i.scdn.co/image/ab67616d0000b27381582c0fb8f5908a6aee7f3e",
     "pct": 77
    },
@@ -468,8 +468,8 @@
    {
     "album": "日々、折り返すごとに",
     "artist": "爛漫天国",
-    "plays": 176,
-    "plays_fmt": "176",
+    "plays": 177,
+    "plays_fmt": "177",
     "img": "https://i.scdn.co/image/ab6761610000e5eb59ee187da2de942d5f50e0e0"
    },
    {
@@ -605,26 +605,26 @@
    },
    {
     "month": "11",
-    "plays": 2073,
-    "plays_fmt": "2,073",
-    "pct": 38
+    "plays": 2134,
+    "plays_fmt": "2,134",
+    "pct": 39
    }
   ]
  },
  "week": {
-  "total": 939,
-  "total_fmt": "939",
-  "uniq_art": 493,
-  "uniq_art_fmt": "493",
-  "uniq_trk": 770,
-  "uniq_trk_fmt": "770",
-  "start": "11/10",
-  "end": "11/16",
+  "total": 972,
+  "total_fmt": "972",
+  "uniq_art": 497,
+  "uniq_art_fmt": "497",
+  "uniq_trk": 789,
+  "uniq_trk_fmt": "789",
+  "start": "11/11",
+  "end": "11/17",
   "top_art": [
    {
     "artist": "morensoji",
-    "plays": 32,
-    "plays_fmt": "32",
+    "plays": 35,
+    "plays_fmt": "35",
     "img": null,
     "pct": 100
    },
@@ -633,71 +633,71 @@
     "plays": 19,
     "plays_fmt": "19",
     "img": "https://i.scdn.co/image/ab6761610000e5ebc059c7f7502df46d9cd81238",
-    "pct": 59
+    "pct": 54
    },
    {
     "artist": "Guys in the quiet neighborhood",
     "plays": 18,
     "plays_fmt": "18",
     "img": "https://i.scdn.co/image/ab67616d0000b27354b8a9083a8788be77076a97",
-    "pct": 56
+    "pct": 51
    },
    {
     "artist": "Brooks",
     "plays": 15,
     "plays_fmt": "15",
     "img": null,
-    "pct": 47
+    "pct": 43
    },
    {
     "artist": "Ivy",
     "plays": 15,
     "plays_fmt": "15",
     "img": "https://i.scdn.co/image/ab6761610000e5eb0b53a4f54aca500c7de187e5",
-    "pct": 47
+    "pct": 43
    },
    {
     "artist": "猫は液体",
     "plays": 12,
     "plays_fmt": "12",
     "img": "https://i.scdn.co/image/ab6761610000e5ebf235b7df0755fa3a976a2d3a",
-    "pct": 38
+    "pct": 34
    },
    {
     "artist": "Sala",
     "plays": 11,
     "plays_fmt": "11",
     "img": "https://i.scdn.co/image/ab6761610000e5eb44ed1c527d916765a6b0331a",
-    "pct": 34
+    "pct": 31
    },
    {
     "artist": "D.A.N.",
     "plays": 10,
     "plays_fmt": "10",
     "img": "https://i.scdn.co/image/ab6761610000e5eb800487f745ca82e5a9109c36",
-    "pct": 31
+    "pct": 29
    },
    {
     "artist": "Rojiura no ballerina",
     "plays": 9,
     "plays_fmt": "9",
     "img": null,
-    "pct": 28
+    "pct": 26
    },
    {
     "artist": "三四少女",
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5eb7e91db42e231eb91c7dddcde",
-    "pct": 28
+    "pct": 26
    }
   ],
   "top_alb": [
    {
     "album": "high time",
     "artist": "morensoji",
-    "plays": 32,
-    "plays_fmt": "32",
+    "plays": 35,
+    "plays_fmt": "35",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/0e6860c5fb8f0d5ccb1e429ddec7479c.jpg"
    },
    {
@@ -750,26 +750,26 @@
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/b273ec28e5157b1a64e146a178f02b08.jpg"
    },
    {
+    "album": "TINY EYES SPARKLE EYES",
+    "artist": "皆川溺",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d69f20d810b39118b3437e90a50882d6.png"
+   },
+   {
     "album": "光",
     "artist": "三四少女",
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/0173c89ac285309c59db01b2618f44ae.jpg"
-   },
-   {
-    "album": "Aventure",
-    "artist": "Rojiura no ballerina",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": null
    }
   ],
   "top_trk": [
    {
     "track": "goodnight, dear light",
     "artist": "morensoji",
-    "plays": 12,
-    "plays_fmt": "12"
+    "plays": 13,
+    "plays_fmt": "13"
    },
    {
     "track": "光",
@@ -828,12 +828,6 @@
   ],
   "by_day": [
    {
-    "day": "11/10",
-    "plays": 28,
-    "plays_fmt": "28",
-    "pct": 12
-   },
-   {
     "day": "11/11",
     "plays": 104,
     "plays_fmt": "104",
@@ -868,6 +862,12 @@
     "plays": 148,
     "plays_fmt": "148",
     "pct": 64
+   },
+   {
+    "day": "11/17",
+    "plays": 61,
+    "plays_fmt": "61",
+    "pct": 27
    }
   ]
  }
