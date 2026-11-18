@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7499,
- "total_artists_fmt": "7,499",
+ "total_artists": 7501,
+ "total_artists_fmt": "7,501",
  "missing_img": 8,
  "artists": [
   {
@@ -300,8 +300,8 @@
   },
   {
    "name": "Home",
-   "plays": 438,
-   "plays_fmt": "438",
+   "plays": 439,
+   "plays_fmt": "439",
    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
@@ -318,8 +318,8 @@
   },
   {
    "name": "CLAN QUEEN",
-   "plays": 430,
-   "plays_fmt": "430",
+   "plays": 434,
+   "plays_fmt": "434",
    "img": "https://i.scdn.co/image/ab6761610000e5eb19ac44359f592f21110fa31c"
   },
   {
@@ -335,6 +335,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb590cfa1ad794bf2697150167"
   },
   {
+   "name": "Muque",
+   "plays": 417,
+   "plays_fmt": "417",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
+  },
+  {
    "name": "アルコサイト",
    "plays": 416,
    "plays_fmt": "416",
@@ -345,12 +351,6 @@
    "plays": 415,
    "plays_fmt": "415",
    "img": "https://i.scdn.co/image/ab6761610000e5eb1ae047357a3fad0858406431"
-  },
-  {
-   "name": "Muque",
-   "plays": 415,
-   "plays_fmt": "415",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
   },
   {
    "name": "Vaundy",
@@ -414,8 +414,8 @@
   },
   {
    "name": "kiki vivi lily",
-   "plays": 374,
-   "plays_fmt": "374",
+   "plays": 375,
+   "plays_fmt": "375",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfe3b6188abc328838969e7c5"
   },
   {
@@ -468,14 +468,14 @@
   },
   {
    "name": "Furui Riho",
-   "plays": 351,
-   "plays_fmt": "351",
+   "plays": 352,
+   "plays_fmt": "352",
    "img": "https://i.scdn.co/image/ab6761610000e5ebff647d0f64da73922aad0cd5"
   },
   {
    "name": "RAN",
-   "plays": 347,
-   "plays_fmt": "347",
+   "plays": 348,
+   "plays_fmt": "348",
    "img": null
   },
   {
@@ -557,16 +557,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb24dd03d4f0a965b78a0bf2f9"
   },
   {
+   "name": "sawamay",
+   "plays": 322,
+   "plays_fmt": "322",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb400868142f0cb858d015c76d"
+  },
+  {
    "name": "Aivy",
    "plays": 321,
    "plays_fmt": "321",
    "img": "https://i.scdn.co/image/ab6761610000e5eb0cf9b730ba1e4da175a3485b"
-  },
-  {
-   "name": "sawamay",
-   "plays": 321,
-   "plays_fmt": "321",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb400868142f0cb858d015c76d"
   },
   {
    "name": "Chisa",
@@ -659,6 +659,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb2c25588070d843e68a41d6f4"
   },
   {
+   "name": "omeme tenten",
+   "plays": 304,
+   "plays_fmt": "304",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb3b770c187b6a716a2eb91f1b"
+  },
+  {
    "name": "the tiva",
    "plays": 304,
    "plays_fmt": "304",
@@ -677,12 +683,6 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb05b9d43914da5620207492de"
   },
   {
-   "name": "omeme tenten",
-   "plays": 303,
-   "plays_fmt": "303",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb3b770c187b6a716a2eb91f1b"
-  },
-  {
    "name": "Have a nice day!",
    "plays": 301,
    "plays_fmt": "301",
@@ -696,8 +696,8 @@
   },
   {
    "name": "Ramblamp",
-   "plays": 293,
-   "plays_fmt": "293",
+   "plays": 294,
+   "plays_fmt": "294",
    "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
   },
   {
@@ -726,21 +726,21 @@
   },
   {
    "name": "Kienai",
-   "plays": 287,
-   "plays_fmt": "287",
+   "plays": 288,
+   "plays_fmt": "288",
    "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481"
+  },
+  {
+   "name": "36km/h",
+   "plays": 286,
+   "plays_fmt": "286",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb8ffe1b4304fc8e392b97c2b7"
   },
   {
    "name": "the Wulongs",
    "plays": 286,
    "plays_fmt": "286",
    "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc"
-  },
-  {
-   "name": "36km/h",
-   "plays": 285,
-   "plays_fmt": "285",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb8ffe1b4304fc8e392b97c2b7"
   },
   {
    "name": "魚韻",
@@ -777,6 +777,12 @@
    "plays": 282,
    "plays_fmt": "282",
    "img": "https://i.scdn.co/image/ab6761610000e5eb55300c7fa7dffdc1abd1fd39"
+  },
+  {
+   "name": "Hammer Head Shark",
+   "plays": 281,
+   "plays_fmt": "281",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851"
   },
   {
    "name": "Regal Lily",
@@ -831,12 +837,6 @@
    "plays": 273,
    "plays_fmt": "273",
    "img": "https://i.scdn.co/image/ab6761610000e5eb00e06631e438aa05cbd62f09"
-  },
-  {
-   "name": "Hammer Head Shark",
-   "plays": 272,
-   "plays_fmt": "272",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851"
   },
   {
    "name": "I Saw You Yesterday",
