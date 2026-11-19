@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-18",
+ "generated": "2026-11-19",
  "year_label": "2026",
  "all": {
-  "total": 226613,
-  "total_fmt": "226,613",
-  "uniq_art": 7501,
-  "uniq_art_fmt": "7,501",
-  "uniq_trk": 31777,
-  "uniq_trk_fmt": "31,777",
+  "total": 226666,
+  "total_fmt": "226,666",
+  "uniq_art": 7506,
+  "uniq_art_fmt": "7,506",
+  "uniq_trk": 31791,
+  "uniq_trk_fmt": "31,791",
   "start": "2018-03-06",
-  "end": "2026-11-18",
+  "end": "2026-11-19",
   "top_art": [
    {
     "artist": "chilldspot",
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 43526,
-    "plays_fmt": "43,526",
+    "plays": 43579,
+    "plays_fmt": "43,579",
     "pct": 81
    }
   ],
@@ -323,19 +323,19 @@
    },
    {
     "year": "2026",
-    "count": 1132,
-    "count_fmt": "1,132",
+    "count": 1137,
+    "count_fmt": "1,137",
     "pct": 47
    }
   ]
  },
  "year": {
-  "total": 43526,
-  "total_fmt": "43,526",
-  "uniq_art": 3014,
-  "uniq_art_fmt": "3,014",
-  "uniq_trk": 9015,
-  "uniq_trk_fmt": "9,015",
+  "total": 43579,
+  "total_fmt": "43,579",
+  "uniq_art": 3020,
+  "uniq_art_fmt": "3,020",
+  "uniq_trk": 9029,
+  "uniq_trk_fmt": "9,029",
   "top_art": [
    {
     "artist": "Ramblamp",
@@ -454,8 +454,8 @@
    {
     "album": "bipolar",
     "artist": "Nankyokuten",
-    "plays": 186,
-    "plays_fmt": "186",
+    "plays": 187,
+    "plays_fmt": "187",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e1329057e61539992783778432e3056a.jpg"
    },
    {
@@ -473,11 +473,11 @@
     "img": "https://i.scdn.co/image/ab6761610000e5eb59ee187da2de942d5f50e0e0"
    },
    {
-    "album": "FACH",
-    "artist": "the Wulongs",
-    "plays": 169,
-    "plays_fmt": "169",
-    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/98f2e6391df7025c381117edd5682cb7.jpg"
+    "album": "Landscapes Entwined",
+    "artist": "ue",
+    "plays": 170,
+    "plays_fmt": "170",
+    "img": "https://lastfm.freetls.fastly.net/i/u/300x300/f2b935a3f4b57eaa918ebd81e5490650.jpg"
    }
   ],
   "top_trk": [
@@ -605,63 +605,49 @@
    },
    {
     "month": "11",
-    "plays": 2310,
-    "plays_fmt": "2,310",
-    "pct": 42
+    "plays": 2363,
+    "plays_fmt": "2,363",
+    "pct": 43
    }
   ]
  },
  "week": {
-  "total": 1044,
-  "total_fmt": "1,044",
-  "uniq_art": 518,
-  "uniq_art_fmt": "518",
-  "uniq_trk": 842,
-  "uniq_trk_fmt": "842",
-  "start": "11/12",
-  "end": "11/18",
+  "total": 946,
+  "total_fmt": "946",
+  "uniq_art": 502,
+  "uniq_art_fmt": "502",
+  "uniq_trk": 764,
+  "uniq_trk_fmt": "764",
+  "start": "11/13",
+  "end": "11/19",
   "top_art": [
    {
     "artist": "morensoji",
-    "plays": 36,
-    "plays_fmt": "36",
+    "plays": 35,
+    "plays_fmt": "35",
     "img": null,
     "pct": 100
    },
    {
-    "artist": "丸山純奈",
-    "plays": 20,
-    "plays_fmt": "20",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebc059c7f7502df46d9cd81238",
-    "pct": 56
-   },
-   {
     "artist": "Guys in the quiet neighborhood",
-    "plays": 18,
-    "plays_fmt": "18",
+    "plays": 17,
+    "plays_fmt": "17",
     "img": "https://i.scdn.co/image/ab67616d0000b27354b8a9083a8788be77076a97",
-    "pct": 50
+    "pct": 49
    },
    {
     "artist": "Brooks",
-    "plays": 16,
-    "plays_fmt": "16",
-    "img": null,
-    "pct": 44
-   },
-   {
-    "artist": "Ivy",
     "plays": 15,
     "plays_fmt": "15",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb0b53a4f54aca500c7de187e5",
-    "pct": 42
+    "img": null,
+    "pct": 43
    },
    {
-    "artist": "猫は液体",
-    "plays": 12,
-    "plays_fmt": "12",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebf235b7df0755fa3a976a2d3a",
-    "pct": 33
+    "artist": "皆川溺",
+    "plays": 13,
+    "plays_fmt": "13",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb3161ca59376606df056fd86c",
+    "pct": 37
    },
    {
     "artist": "Sala",
@@ -671,41 +657,48 @@
     "pct": 31
    },
    {
-    "artist": "D.A.N.",
-    "plays": 10,
-    "plays_fmt": "10",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb800487f745ca82e5a9109c36",
-    "pct": 28
-   },
-   {
-    "artist": "Dead By Inches",
-    "plays": 10,
-    "plays_fmt": "10",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb23f602a480c0735da0bea3e3",
-    "pct": 28
+    "artist": "猫は液体",
+    "plays": 11,
+    "plays_fmt": "11",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebf235b7df0755fa3a976a2d3a",
+    "pct": 31
    },
    {
     "artist": "Rojiura no ballerina",
     "plays": 10,
     "plays_fmt": "10",
     "img": null,
-    "pct": 28
+    "pct": 29
+   },
+   {
+    "artist": "lilsae",
+    "plays": 10,
+    "plays_fmt": "10",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb82d3b5c10fe116ab083f17c0",
+    "pct": 29
+   },
+   {
+    "artist": "Dead By Inches",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb23f602a480c0735da0bea3e3",
+    "pct": 26
+   },
+   {
+    "artist": "Hammer Head Shark",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851",
+    "pct": 26
    }
   ],
   "top_alb": [
    {
     "album": "high time",
     "artist": "morensoji",
-    "plays": 36,
-    "plays_fmt": "36",
+    "plays": 35,
+    "plays_fmt": "35",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/0e6860c5fb8f0d5ccb1e429ddec7479c.jpg"
-   },
-   {
-    "album": "丸山純奈",
-    "artist": "丸山純奈",
-    "plays": 20,
-    "plays_fmt": "20",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebc059c7f7502df46d9cd81238"
    },
    {
     "album": "Housing Landscape",
@@ -722,13 +715,6 @@
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/ee706cb6f7cd5c818529f3ad8c3d3d77.png"
    },
    {
-    "album": "reason for being",
-    "artist": "Ivy",
-    "plays": 13,
-    "plays_fmt": "13",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/5986b0b532663eb62d477704cc6e83ed.jpg"
-   },
-   {
     "album": "Low Tide",
     "artist": "Sala",
     "plays": 11,
@@ -743,13 +729,6 @@
     "img": "https://i.scdn.co/image/ab6761610000e5ebf235b7df0755fa3a976a2d3a"
    },
    {
-    "album": "(SILHOUETTE)",
-    "artist": "D.A.N.",
-    "plays": 10,
-    "plays_fmt": "10",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/b273ec28e5157b1a64e146a178f02b08.jpg"
-   },
-   {
     "album": "TINY EYES SPARKLE EYES",
     "artist": "皆川溺",
     "plays": 10,
@@ -757,11 +736,32 @@
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d69f20d810b39118b3437e90a50882d6.png"
    },
    {
+    "album": "Aventure",
+    "artist": "Rojiura no ballerina",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": null
+   },
+   {
+    "album": "a i r",
+    "artist": "Hammer Head Shark",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/ef21001e04982ba1ef64291c5282b995.jpg"
+   },
+   {
     "album": "never smile again (笑えない)",
     "artist": "Dead By Inches",
-    "plays": 10,
-    "plays_fmt": "10",
+    "plays": 9,
+    "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5eb23f602a480c0735da0bea3e3"
+   },
+   {
+    "album": "光",
+    "artist": "三四少女",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/0173c89ac285309c59db01b2618f44ae.jpg"
    }
   ],
   "top_trk": [
@@ -778,14 +778,14 @@
     "plays_fmt": "9"
    },
    {
-    "track": "high time",
-    "artist": "morensoji",
-    "plays": 5,
-    "plays_fmt": "5"
+    "track": "only us",
+    "artist": "lilsae",
+    "plays": 8,
+    "plays_fmt": "8"
    },
    {
-    "track": "ラムネ",
-    "artist": "丸山純奈",
+    "track": "high time",
+    "artist": "morensoji",
     "plays": 5,
     "plays_fmt": "5"
    },
@@ -796,20 +796,8 @@
     "plays_fmt": "4"
    },
    {
-    "track": "RAIL",
-    "artist": "丸山純奈",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
     "track": "Who Are You?",
     "artist": "GAMIGAMI",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "driftin'",
-    "artist": "morensoji",
     "plays": 4,
     "plays_fmt": "4"
    },
@@ -820,19 +808,25 @@
     "plays_fmt": "4"
    },
    {
-    "track": "Aikyo",
-    "artist": "in sea hole",
+    "track": "COSMIC JAM",
+    "artist": "SUKEROQUE",
+    "plays": 3,
+    "plays_fmt": "3"
+   },
+   {
+    "track": "Crush",
+    "artist": "kohamo",
+    "plays": 3,
+    "plays_fmt": "3"
+   },
+   {
+    "track": "Dialogues",
+    "artist": "Cue All VinylS",
     "plays": 3,
     "plays_fmt": "3"
    }
   ],
   "by_day": [
-   {
-    "day": "11/12",
-    "plays": 151,
-    "plays_fmt": "151",
-    "pct": 66
-   },
    {
     "day": "11/13",
     "plays": 230,
@@ -865,9 +859,15 @@
    },
    {
     "day": "11/18",
-    "plays": 159,
-    "plays_fmt": "159",
-    "pct": 69
+    "plays": 160,
+    "plays_fmt": "160",
+    "pct": 70
+   },
+   {
+    "day": "11/19",
+    "plays": 52,
+    "plays_fmt": "52",
+    "pct": 23
    }
   ]
  }
