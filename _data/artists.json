@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7506,
- "total_artists_fmt": "7,506",
+ "total_artists": 7508,
+ "total_artists_fmt": "7,508",
  "missing_img": 8,
  "artists": [
   {
@@ -575,6 +575,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebcc959cd12f18b2c2a2baa2c7"
   },
   {
+   "name": "Luby Sparks",
+   "plays": 319,
+   "plays_fmt": "319",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb99833843219af1cdc66223fc"
+  },
+  {
    "name": "Pavilion",
    "plays": 319,
    "plays_fmt": "319",
@@ -591,12 +597,6 @@
    "plays": 319,
    "plays_fmt": "319",
    "img": "https://i.scdn.co/image/ab6761610000e5eb9ff08ad4abc242feaf105f11"
-  },
-  {
-   "name": "Luby Sparks",
-   "plays": 317,
-   "plays_fmt": "317",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb99833843219af1cdc66223fc"
   },
   {
    "name": "Miu Mau",
@@ -725,6 +725,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb94b818ce361beb89199170c8"
   },
   {
+   "name": "Hammer Head Shark",
+   "plays": 288,
+   "plays_fmt": "288",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851"
+  },
+  {
    "name": "Kienai",
    "plays": 288,
    "plays_fmt": "288",
@@ -777,12 +783,6 @@
    "plays": 282,
    "plays_fmt": "282",
    "img": "https://i.scdn.co/image/ab6761610000e5eb55300c7fa7dffdc1abd1fd39"
-  },
-  {
-   "name": "Hammer Head Shark",
-   "plays": 281,
-   "plays_fmt": "281",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851"
   },
   {
    "name": "Regal Lily",

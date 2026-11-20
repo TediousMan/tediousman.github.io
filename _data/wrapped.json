@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-19",
+ "generated": "2026-11-20",
  "year_label": "2026",
  "all": {
-  "total": 226666,
-  "total_fmt": "226,666",
-  "uniq_art": 7506,
-  "uniq_art_fmt": "7,506",
-  "uniq_trk": 31791,
-  "uniq_trk_fmt": "31,791",
+  "total": 226691,
+  "total_fmt": "226,691",
+  "uniq_art": 7508,
+  "uniq_art_fmt": "7,508",
+  "uniq_trk": 31802,
+  "uniq_trk_fmt": "31,802",
   "start": "2018-03-06",
-  "end": "2026-11-19",
+  "end": "2026-11-20",
   "top_art": [
    {
     "artist": "chilldspot",
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 43579,
-    "plays_fmt": "43,579",
+    "plays": 43604,
+    "plays_fmt": "43,604",
     "pct": 81
    }
   ],
@@ -323,19 +323,19 @@
    },
    {
     "year": "2026",
-    "count": 1137,
-    "count_fmt": "1,137",
+    "count": 1139,
+    "count_fmt": "1,139",
     "pct": 47
    }
   ]
  },
  "year": {
-  "total": 43579,
-  "total_fmt": "43,579",
-  "uniq_art": 3020,
-  "uniq_art_fmt": "3,020",
-  "uniq_trk": 9029,
-  "uniq_trk_fmt": "9,029",
+  "total": 43604,
+  "total_fmt": "43,604",
+  "uniq_art": 3025,
+  "uniq_art_fmt": "3,025",
+  "uniq_trk": 9040,
+  "uniq_trk_fmt": "9,040",
   "top_art": [
    {
     "artist": "Ramblamp",
@@ -605,101 +605,94 @@
    },
    {
     "month": "11",
-    "plays": 2363,
-    "plays_fmt": "2,363",
-    "pct": 43
+    "plays": 2388,
+    "plays_fmt": "2,388",
+    "pct": 44
    }
   ]
  },
  "week": {
-  "total": 946,
-  "total_fmt": "946",
-  "uniq_art": 502,
-  "uniq_art_fmt": "502",
-  "uniq_trk": 764,
-  "uniq_trk_fmt": "764",
-  "start": "11/13",
-  "end": "11/19",
+  "total": 741,
+  "total_fmt": "741",
+  "uniq_art": 420,
+  "uniq_art_fmt": "420",
+  "uniq_trk": 623,
+  "uniq_trk_fmt": "623",
+  "start": "11/14",
+  "end": "11/20",
   "top_art": [
-   {
-    "artist": "morensoji",
-    "plays": 35,
-    "plays_fmt": "35",
-    "img": null,
-    "pct": 100
-   },
    {
     "artist": "Guys in the quiet neighborhood",
     "plays": 17,
     "plays_fmt": "17",
     "img": "https://i.scdn.co/image/ab67616d0000b27354b8a9083a8788be77076a97",
-    "pct": 49
+    "pct": 100
    },
    {
-    "artist": "Brooks",
-    "plays": 15,
-    "plays_fmt": "15",
-    "img": null,
-    "pct": 43
+    "artist": "Hammer Head Shark",
+    "plays": 16,
+    "plays_fmt": "16",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851",
+    "pct": 94
    },
    {
     "artist": "皆川溺",
     "plays": 13,
     "plays_fmt": "13",
     "img": "https://i.scdn.co/image/ab6761610000e5eb3161ca59376606df056fd86c",
-    "pct": 37
+    "pct": 76
    },
    {
     "artist": "Sala",
     "plays": 11,
     "plays_fmt": "11",
     "img": "https://i.scdn.co/image/ab6761610000e5eb44ed1c527d916765a6b0331a",
-    "pct": 31
+    "pct": 65
    },
    {
     "artist": "猫は液体",
     "plays": 11,
     "plays_fmt": "11",
     "img": "https://i.scdn.co/image/ab6761610000e5ebf235b7df0755fa3a976a2d3a",
-    "pct": 31
-   },
-   {
-    "artist": "Rojiura no ballerina",
-    "plays": 10,
-    "plays_fmt": "10",
-    "img": null,
-    "pct": 29
+    "pct": 65
    },
    {
     "artist": "lilsae",
     "plays": 10,
     "plays_fmt": "10",
     "img": "https://i.scdn.co/image/ab6761610000e5eb82d3b5c10fe116ab083f17c0",
-    "pct": 29
+    "pct": 59
    },
    {
     "artist": "Dead By Inches",
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5eb23f602a480c0735da0bea3e3",
-    "pct": 26
+    "pct": 53
    },
    {
-    "artist": "Hammer Head Shark",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851",
-    "pct": 26
+    "artist": "morensoji",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": null,
+    "pct": 47
+   },
+   {
+    "artist": "Borderline Case",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://i.scdn.co/image/ab67616d0000b273212ad18f84168f8d724395cb",
+    "pct": 41
+   },
+   {
+    "artist": "LOLOET",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebe1b82836f537626d1a8777f0",
+    "pct": 41
    }
   ],
   "top_alb": [
-   {
-    "album": "high time",
-    "artist": "morensoji",
-    "plays": 35,
-    "plays_fmt": "35",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/0e6860c5fb8f0d5ccb1e429ddec7479c.jpg"
-   },
    {
     "album": "Housing Landscape",
     "artist": "Guys in the quiet neighborhood",
@@ -708,11 +701,11 @@
     "img": "https://i.scdn.co/image/ab67616d0000b27354b8a9083a8788be77076a97"
    },
    {
-    "album": "maison brooks",
-    "artist": "Brooks",
-    "plays": 14,
-    "plays_fmt": "14",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/ee706cb6f7cd5c818529f3ad8c3d3d77.png"
+    "album": "a i r",
+    "artist": "Hammer Head Shark",
+    "plays": 16,
+    "plays_fmt": "16",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/ef21001e04982ba1ef64291c5282b995.jpg"
    },
    {
     "album": "Low Tide",
@@ -736,20 +729,6 @@
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d69f20d810b39118b3437e90a50882d6.png"
    },
    {
-    "album": "Aventure",
-    "artist": "Rojiura no ballerina",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": null
-   },
-   {
-    "album": "a i r",
-    "artist": "Hammer Head Shark",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/ef21001e04982ba1ef64291c5282b995.jpg"
-   },
-   {
     "album": "never smile again (笑えない)",
     "artist": "Dead By Inches",
     "plays": 9,
@@ -757,37 +736,40 @@
     "img": "https://i.scdn.co/image/ab6761610000e5eb23f602a480c0735da0bea3e3"
    },
    {
-    "album": "光",
-    "artist": "三四少女",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/0173c89ac285309c59db01b2618f44ae.jpg"
+    "album": "high time",
+    "artist": "morensoji",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/0e6860c5fb8f0d5ccb1e429ddec7479c.jpg"
+   },
+   {
+    "album": "only us",
+    "artist": "lilsae",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb82d3b5c10fe116ab083f17c0"
+   },
+   {
+    "album": "The Beast and the Blue Night",
+    "artist": "Borderline Case",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://i.scdn.co/image/ab67616d0000b273212ad18f84168f8d724395cb"
+   },
+   {
+    "album": "Chewing!!",
+    "artist": "GAMIGAMI",
+    "plays": 6,
+    "plays_fmt": "6",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/f5af684ebecb635542b4f27f2221c0a2.jpg"
    }
   ],
   "top_trk": [
-   {
-    "track": "goodnight, dear light",
-    "artist": "morensoji",
-    "plays": 13,
-    "plays_fmt": "13"
-   },
-   {
-    "track": "光",
-    "artist": "三四少女",
-    "plays": 9,
-    "plays_fmt": "9"
-   },
    {
     "track": "only us",
     "artist": "lilsae",
     "plays": 8,
     "plays_fmt": "8"
-   },
-   {
-    "track": "high time",
-    "artist": "morensoji",
-    "plays": 5,
-    "plays_fmt": "5"
    },
    {
     "track": "Brain Sleep",
@@ -798,12 +780,6 @@
    {
     "track": "Who Are You?",
     "artist": "GAMIGAMI",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "lake side song",
-    "artist": "morensoji",
     "plays": 4,
     "plays_fmt": "4"
    },
@@ -824,50 +800,74 @@
     "artist": "Cue All VinylS",
     "plays": 3,
     "plays_fmt": "3"
+   },
+   {
+    "track": "TINY EYES SPARKLE EYES",
+    "artist": "皆川溺",
+    "plays": 3,
+    "plays_fmt": "3"
+   },
+   {
+    "track": "Tonbi",
+    "artist": "Hep Burn",
+    "plays": 3,
+    "plays_fmt": "3"
+   },
+   {
+    "track": "i know",
+    "artist": "Hammer Head Shark",
+    "plays": 3,
+    "plays_fmt": "3"
+   },
+   {
+    "track": "とある水曜日",
+    "artist": "Zoo zoo sea",
+    "plays": 3,
+    "plays_fmt": "3"
    }
   ],
   "by_day": [
    {
-    "day": "11/13",
-    "plays": 230,
-    "plays_fmt": "230",
-    "pct": 100
-   },
-   {
     "day": "11/14",
     "plays": 143,
     "plays_fmt": "143",
-    "pct": 62
+    "pct": 89
    },
    {
     "day": "11/15",
     "plays": 135,
     "plays_fmt": "135",
-    "pct": 59
+    "pct": 84
    },
    {
     "day": "11/16",
     "plays": 148,
     "plays_fmt": "148",
-    "pct": 64
+    "pct": 92
    },
    {
     "day": "11/17",
     "plays": 78,
     "plays_fmt": "78",
-    "pct": 34
+    "pct": 49
    },
    {
     "day": "11/18",
     "plays": 160,
     "plays_fmt": "160",
-    "pct": 70
+    "pct": 100
    },
    {
     "day": "11/19",
     "plays": 52,
     "plays_fmt": "52",
-    "pct": 23
+    "pct": 32
+   },
+   {
+    "day": "11/20",
+    "plays": 25,
+    "plays_fmt": "25",
+    "pct": 16
    }
   ]
  }
