@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7508,
- "total_artists_fmt": "7,508",
+ "total_artists": 7509,
+ "total_artists_fmt": "7,509",
  "missing_img": 8,
  "artists": [
   {
@@ -102,8 +102,8 @@
   },
   {
    "name": "eill",
-   "plays": 636,
-   "plays_fmt": "636",
+   "plays": 637,
+   "plays_fmt": "637",
    "img": "https://i.scdn.co/image/ab6761610000e5ebf3f6ea218e12317560e84a58"
   },
   {
@@ -162,8 +162,8 @@
   },
   {
    "name": "The Otals",
-   "plays": 568,
-   "plays_fmt": "568",
+   "plays": 569,
+   "plays_fmt": "569",
    "img": "https://i.scdn.co/image/ab6761610000e5ebe880728367d115f0c7dfceb6"
   },
   {
@@ -252,9 +252,15 @@
   },
   {
    "name": "レイラ",
-   "plays": 474,
-   "plays_fmt": "474",
+   "plays": 475,
+   "plays_fmt": "475",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5a7ae7ae77a6230eb4107638"
+  },
+  {
+   "name": "My Lucky Day",
+   "plays": 471,
+   "plays_fmt": "471",
+   "img": "https://i.scdn.co/image/ab67616d0000b2737b651335a1ff0dbb8055f1d8"
   },
   {
    "name": "XieXie",
@@ -267,12 +273,6 @@
    "plays": 469,
    "plays_fmt": "469",
    "img": "https://i.scdn.co/image/ab67616d0000b273b35a708fb4c4e9ccdbcc897c"
-  },
-  {
-   "name": "My Lucky Day",
-   "plays": 468,
-   "plays_fmt": "468",
-   "img": "https://i.scdn.co/image/ab67616d0000b2737b651335a1ff0dbb8055f1d8"
   },
   {
    "name": "Sazanami",
@@ -701,16 +701,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
   },
   {
+   "name": "Haruno",
+   "plays": 293,
+   "plays_fmt": "293",
+   "img": "https://i.scdn.co/image/ab67616d0000b2731494a1e1507f8dbfbce8f2df"
+  },
+  {
    "name": "mukeikaku",
    "plays": 293,
    "plays_fmt": "293",
    "img": "https://i.scdn.co/image/ab6761610000e5eb1c7ce3df2cce3afef74566cb"
-  },
-  {
-   "name": "Haruno",
-   "plays": 292,
-   "plays_fmt": "292",
-   "img": "https://i.scdn.co/image/ab67616d0000b2731494a1e1507f8dbfbce8f2df"
   },
   {
    "name": "Kenichiro Nishihara",
@@ -725,16 +725,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb94b818ce361beb89199170c8"
   },
   {
+   "name": "Kienai",
+   "plays": 290,
+   "plays_fmt": "290",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481"
+  },
+  {
    "name": "Hammer Head Shark",
    "plays": 288,
    "plays_fmt": "288",
    "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851"
-  },
-  {
-   "name": "Kienai",
-   "plays": 288,
-   "plays_fmt": "288",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481"
   },
   {
    "name": "36km/h",
@@ -749,16 +749,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc"
   },
   {
+   "name": "Black Boboi",
+   "plays": 285,
+   "plays_fmt": "285",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb173cb515bfb6ca8f05dc2aca"
+  },
+  {
    "name": "魚韻",
    "plays": 285,
    "plays_fmt": "285",
    "img": null
-  },
-  {
-   "name": "Black Boboi",
-   "plays": 284,
-   "plays_fmt": "284",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb173cb515bfb6ca8f05dc2aca"
   },
   {
    "name": "EASTOKLAB",
