@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-21",
+ "generated": "2026-11-22",
  "year_label": "2026",
  "all": {
-  "total": 226828,
-  "total_fmt": "226,828",
-  "uniq_art": 7509,
-  "uniq_art_fmt": "7,509",
-  "uniq_trk": 31824,
-  "uniq_trk_fmt": "31,824",
+  "total": 227054,
+  "total_fmt": "227,054",
+  "uniq_art": 7512,
+  "uniq_art_fmt": "7,512",
+  "uniq_trk": 31928,
+  "uniq_trk_fmt": "31,928",
   "start": "2018-03-06",
-  "end": "2026-11-21",
+  "end": "2026-11-22",
   "top_art": [
    {
     "artist": "chilldspot",
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 43741,
-    "plays_fmt": "43,741",
+    "plays": 43967,
+    "plays_fmt": "43,967",
     "pct": 81
    }
   ],
@@ -323,19 +323,19 @@
    },
    {
     "year": "2026",
-    "count": 1140,
-    "count_fmt": "1,140",
+    "count": 1143,
+    "count_fmt": "1,143",
     "pct": 47
    }
   ]
  },
  "year": {
-  "total": 43741,
-  "total_fmt": "43,741",
-  "uniq_art": 3028,
-  "uniq_art_fmt": "3,028",
-  "uniq_trk": 9062,
-  "uniq_trk_fmt": "9,062",
+  "total": 43967,
+  "total_fmt": "43,967",
+  "uniq_art": 3032,
+  "uniq_art_fmt": "3,032",
+  "uniq_trk": 9167,
+  "uniq_trk_fmt": "9,167",
   "top_art": [
    {
     "artist": "Ramblamp",
@@ -346,15 +346,15 @@
    },
    {
     "artist": "Kienai",
-    "plays": 287,
-    "plays_fmt": "287",
+    "plays": 288,
+    "plays_fmt": "288",
     "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481",
     "pct": 98
    },
    {
     "artist": "BUDOU JUICE",
-    "plays": 265,
-    "plays_fmt": "265",
+    "plays": 266,
+    "plays_fmt": "266",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f",
     "pct": 90
    },
@@ -374,8 +374,8 @@
    },
    {
     "artist": "the Wulongs",
-    "plays": 238,
-    "plays_fmt": "238",
+    "plays": 239,
+    "plays_fmt": "239",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
     "pct": 81
    },
@@ -388,8 +388,8 @@
    },
    {
     "artist": "uyuu",
-    "plays": 229,
-    "plays_fmt": "229",
+    "plays": 230,
+    "plays_fmt": "230",
     "img": "https://i.scdn.co/image/ab67616d0000b27381582c0fb8f5908a6aee7f3e",
     "pct": 78
    },
@@ -412,8 +412,8 @@
    {
     "album": "sparkleII",
     "artist": "Kienai",
-    "plays": 284,
-    "plays_fmt": "284",
+    "plays": 285,
+    "plays_fmt": "285",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/1c6a42ba2640cb0ed267d0c9d6a5f106.jpg"
    },
    {
@@ -454,8 +454,8 @@
    {
     "album": "bipolar",
     "artist": "Nankyokuten",
-    "plays": 187,
-    "plays_fmt": "187",
+    "plays": 188,
+    "plays_fmt": "188",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e1329057e61539992783778432e3056a.jpg"
    },
    {
@@ -468,15 +468,15 @@
    {
     "album": "日々、折り返すごとに",
     "artist": "爛漫天国",
-    "plays": 178,
-    "plays_fmt": "178",
+    "plays": 179,
+    "plays_fmt": "179",
     "img": "https://i.scdn.co/image/ab6761610000e5eb59ee187da2de942d5f50e0e0"
    },
    {
     "album": "Landscapes Entwined",
     "artist": "ue",
-    "plays": 172,
-    "plays_fmt": "172",
+    "plays": 173,
+    "plays_fmt": "173",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/f2b935a3f4b57eaa918ebd81e5490650.jpg"
    }
   ],
@@ -605,27 +605,27 @@
    },
    {
     "month": "11",
-    "plays": 2525,
-    "plays_fmt": "2,525",
-    "pct": 46
+    "plays": 2751,
+    "plays_fmt": "2,751",
+    "pct": 51
    }
   ]
  },
  "week": {
-  "total": 735,
-  "total_fmt": "735",
-  "uniq_art": 428,
-  "uniq_art_fmt": "428",
-  "uniq_trk": 626,
-  "uniq_trk_fmt": "626",
-  "start": "11/15",
-  "end": "11/21",
+  "total": 826,
+  "total_fmt": "826",
+  "uniq_art": 457,
+  "uniq_art_fmt": "457",
+  "uniq_trk": 701,
+  "uniq_trk_fmt": "701",
+  "start": "11/16",
+  "end": "11/22",
   "top_art": [
    {
-    "artist": "Guys in the quiet neighborhood",
-    "plays": 17,
-    "plays_fmt": "17",
-    "img": "https://i.scdn.co/image/ab67616d0000b27354b8a9083a8788be77076a97",
+    "artist": "Akasick",
+    "plays": 23,
+    "plays_fmt": "23",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebeabebf63461efce2a3530004",
     "pct": 100
    },
    {
@@ -633,72 +633,72 @@
     "plays": 16,
     "plays_fmt": "16",
     "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851",
-    "pct": 94
+    "pct": 70
    },
    {
     "artist": "Sala",
-    "plays": 14,
-    "plays_fmt": "14",
+    "plays": 15,
+    "plays_fmt": "15",
     "img": "https://i.scdn.co/image/ab6761610000e5eb44ed1c527d916765a6b0331a",
-    "pct": 82
+    "pct": 65
    },
    {
     "artist": "皆川溺",
     "plays": 13,
     "plays_fmt": "13",
     "img": "https://i.scdn.co/image/ab6761610000e5eb3161ca59376606df056fd86c",
-    "pct": 76
+    "pct": 57
+   },
+   {
+    "artist": "plasticpoolside",
+    "plays": 11,
+    "plays_fmt": "11",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb1547c629d5008e4a50d9a321",
+    "pct": 48
    },
    {
     "artist": "猫は液体",
-    "plays": 12,
-    "plays_fmt": "12",
+    "plays": 11,
+    "plays_fmt": "11",
     "img": "https://i.scdn.co/image/ab6761610000e5ebf235b7df0755fa3a976a2d3a",
-    "pct": 71
+    "pct": 48
    },
    {
     "artist": "lilsae",
     "plays": 10,
     "plays_fmt": "10",
     "img": "https://i.scdn.co/image/ab6761610000e5eb82d3b5c10fe116ab083f17c0",
-    "pct": 59
+    "pct": 43
    },
    {
     "artist": "Dead By Inches",
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5eb23f602a480c0735da0bea3e3",
-    "pct": 53
+    "pct": 39
    },
    {
-    "artist": "Borderline Case",
+    "artist": "アマイワナ",
     "plays": 8,
     "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab67616d0000b273212ad18f84168f8d724395cb",
-    "pct": 47
+    "img": "https://i.scdn.co/image/ab6761610000e5eb9fb815c98bc985868e689806",
+    "pct": 35
    },
    {
-    "artist": "LOLOET",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebe1b82836f537626d1a8777f0",
-    "pct": 41
-   },
-   {
-    "artist": "morensoji",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": null,
-    "pct": 41
+    "artist": "ミーマイナー",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebcd7de4d6a907ec3cf511403b",
+    "pct": 35
    }
   ],
   "top_alb": [
    {
-    "album": "Housing Landscape",
-    "artist": "Guys in the quiet neighborhood",
-    "plays": 17,
-    "plays_fmt": "17",
-    "img": "https://i.scdn.co/image/ab67616d0000b27354b8a9083a8788be77076a97"
+    "album": "DOPA",
+    "artist": "Akasick",
+    "plays": 23,
+    "plays_fmt": "23",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebeabebf63461efce2a3530004"
    },
    {
     "album": "a i r",
@@ -710,16 +710,23 @@
    {
     "album": "Low Tide",
     "artist": "Sala",
-    "plays": 14,
-    "plays_fmt": "14",
+    "plays": 15,
+    "plays_fmt": "15",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2f5fb130e479f0d944e19d297426922d.jpg"
    },
    {
     "album": "Nekowaekitai",
     "artist": "猫は液体",
-    "plays": 12,
-    "plays_fmt": "12",
+    "plays": 11,
+    "plays_fmt": "11",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/4d7ed4558986219f783b5ee9f00119ab.jpg"
+   },
+   {
+    "album": "plasticpoolside",
+    "artist": "plasticpoolside",
+    "plays": 11,
+    "plays_fmt": "11",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb1547c629d5008e4a50d9a321"
    },
    {
     "album": "TINY EYES SPARKLE EYES",
@@ -736,11 +743,11 @@
     "img": "https://i.scdn.co/image/ab6761610000e5eb23f602a480c0735da0bea3e3"
    },
    {
-    "album": "The Beast and the Blue Night",
-    "artist": "Borderline Case",
+    "album": "Buffet",
+    "artist": "アマイワナ",
     "plays": 8,
     "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab67616d0000b273212ad18f84168f8d724395cb"
+    "img": "https://i.scdn.co/image/ab6761610000e5eb9fb815c98bc985868e689806"
    },
    {
     "album": "only us",
@@ -750,18 +757,11 @@
     "img": "https://i.scdn.co/image/ab6761610000e5eb82d3b5c10fe116ab083f17c0"
    },
    {
-    "album": "at dusk",
-    "artist": "LOLOET",
+    "album": "I Have a Dream",
+    "artist": "the BL00M",
     "plays": 7,
     "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebe1b82836f537626d1a8777f0"
-   },
-   {
-    "album": "high time",
-    "artist": "morensoji",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/0e6860c5fb8f0d5ccb1e429ddec7479c.jpg"
+    "img": "https://i.scdn.co/image/ab6761610000e5ebef3e3db7985d48474c47a516"
    }
   ],
   "top_trk": [
@@ -772,8 +772,8 @@
     "plays_fmt": "8"
    },
    {
-    "track": "Brain Sleep",
-    "artist": "Guys in the quiet neighborhood",
+    "track": "ネオンライト",
+    "artist": "Nazca",
     "plays": 4,
     "plays_fmt": "4"
    },
@@ -786,6 +786,18 @@
    {
     "track": "Gentleman",
     "artist": "6 mab",
+    "plays": 3,
+    "plays_fmt": "3"
+   },
+   {
+    "track": "Peak",
+    "artist": "Sala",
+    "plays": 3,
+    "plays_fmt": "3"
+   },
+   {
+    "track": "Swallows",
+    "artist": "Brother Sun Sister Moon",
     "plays": 3,
     "plays_fmt": "3"
    },
@@ -808,66 +820,54 @@
     "plays_fmt": "3"
    },
    {
-    "track": "とある水曜日",
-    "artist": "Zoo zoo sea",
-    "plays": 3,
-    "plays_fmt": "3"
-   },
-   {
-    "track": "シーソー",
-    "artist": "Con",
-    "plays": 3,
-    "plays_fmt": "3"
-   },
-   {
-    "track": "ネオンライト",
-    "artist": "Nazca",
+    "track": "umigamieru-",
+    "artist": "Hyo-Hyo",
     "plays": 3,
     "plays_fmt": "3"
    }
   ],
   "by_day": [
    {
-    "day": "11/15",
-    "plays": 135,
-    "plays_fmt": "135",
-    "pct": 84
-   },
-   {
     "day": "11/16",
     "plays": 148,
     "plays_fmt": "148",
-    "pct": 92
+    "pct": 66
    },
    {
     "day": "11/17",
     "plays": 78,
     "plays_fmt": "78",
-    "pct": 49
+    "pct": 35
    },
    {
     "day": "11/18",
     "plays": 160,
     "plays_fmt": "160",
-    "pct": 100
+    "pct": 71
    },
    {
     "day": "11/19",
     "plays": 52,
     "plays_fmt": "52",
-    "pct": 32
+    "pct": 23
    },
    {
     "day": "11/20",
     "plays": 26,
     "plays_fmt": "26",
-    "pct": 16
+    "pct": 12
    },
    {
     "day": "11/21",
-    "plays": 136,
-    "plays_fmt": "136",
-    "pct": 85
+    "plays": 137,
+    "plays_fmt": "137",
+    "pct": 61
+   },
+   {
+    "day": "11/22",
+    "plays": 225,
+    "plays_fmt": "225",
+    "pct": 100
    }
   ]
  }
