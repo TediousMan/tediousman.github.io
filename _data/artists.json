@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7512,
- "total_artists_fmt": "7,512",
+ "total_artists": 7513,
+ "total_artists_fmt": "7,513",
  "missing_img": 8,
  "artists": [
   {
@@ -288,8 +288,8 @@
   },
   {
    "name": "WANIMA",
-   "plays": 450,
-   "plays_fmt": "450",
+   "plays": 451,
+   "plays_fmt": "451",
    "img": "https://i.scdn.co/image/ab6761610000e5eb37c85e7d09ce8668eab4a480"
   },
   {
@@ -300,8 +300,8 @@
   },
   {
    "name": "Home",
-   "plays": 439,
-   "plays_fmt": "439",
+   "plays": 440,
+   "plays_fmt": "440",
    "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d"
   },
   {
@@ -336,8 +336,8 @@
   },
   {
    "name": "Muque",
-   "plays": 417,
-   "plays_fmt": "417",
+   "plays": 418,
+   "plays_fmt": "418",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f"
   },
   {
@@ -479,28 +479,28 @@
    "img": null
   },
   {
+   "name": "アマイワナ",
+   "plays": 346,
+   "plays_fmt": "346",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb9fb815c98bc985868e689806"
+  },
+  {
    "name": "Peanut Butters",
    "plays": 345,
    "plays_fmt": "345",
    "img": "https://i.scdn.co/image/ab6761610000e5eb015682d84efd18a8d00e8268"
   },
   {
-   "name": "アマイワナ",
-   "plays": 345,
-   "plays_fmt": "345",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb9fb815c98bc985868e689806"
+   "name": "coldrain",
+   "plays": 342,
+   "plays_fmt": "342",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb790734bdee501b47713b4afe"
   },
   {
    "name": "Yuinishio",
    "plays": 341,
    "plays_fmt": "341",
    "img": "https://i.scdn.co/image/ab6761610000e5ebb80e31243a11fbc080f93153"
-  },
-  {
-   "name": "coldrain",
-   "plays": 341,
-   "plays_fmt": "341",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb790734bdee501b47713b4afe"
   },
   {
    "name": "fish in water project",
@@ -570,8 +570,8 @@
   },
   {
    "name": "Chisa",
-   "plays": 319,
-   "plays_fmt": "319",
+   "plays": 320,
+   "plays_fmt": "320",
    "img": "https://i.scdn.co/image/ab6761610000e5ebcc959cd12f18b2c2a2baa2c7"
   },
   {
@@ -732,8 +732,8 @@
   },
   {
    "name": "Hammer Head Shark",
-   "plays": 288,
-   "plays_fmt": "288",
+   "plays": 290,
+   "plays_fmt": "290",
    "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851"
   },
   {
@@ -750,8 +750,8 @@
   },
   {
    "name": "Black Boboi",
-   "plays": 285,
-   "plays_fmt": "285",
+   "plays": 286,
+   "plays_fmt": "286",
    "img": "https://i.scdn.co/image/ab6761610000e5eb173cb515bfb6ca8f05dc2aca"
   },
   {
@@ -839,28 +839,28 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb00e06631e438aa05cbd62f09"
   },
   {
+   "name": "BUDOU JUICE",
+   "plays": 268,
+   "plays_fmt": "268",
+   "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f"
+  },
+  {
    "name": "I Saw You Yesterday",
    "plays": 268,
    "plays_fmt": "268",
    "img": "https://i.scdn.co/image/ab6761610000e5ebf32519dab1f0daa82898fe82"
   },
   {
+   "name": "171",
+   "plays": 267,
+   "plays_fmt": "267",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb8048ea9ec9630e59fb3f3512"
+  },
+  {
    "name": "illiomote",
    "plays": 267,
    "plays_fmt": "267",
    "img": "https://i.scdn.co/image/ab6761610000e5eba9a5143d6eb3917fbe03ad9b"
-  },
-  {
-   "name": "171",
-   "plays": 266,
-   "plays_fmt": "266",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb8048ea9ec9630e59fb3f3512"
-  },
-  {
-   "name": "BUDOU JUICE",
-   "plays": 266,
-   "plays_fmt": "266",
-   "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f"
   },
   {
    "name": "レルエ",

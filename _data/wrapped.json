@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-22",
+ "generated": "2026-11-23",
  "year_label": "2026",
  "all": {
-  "total": 227054,
-  "total_fmt": "227,054",
-  "uniq_art": 7512,
-  "uniq_art_fmt": "7,512",
-  "uniq_trk": 31928,
-  "uniq_trk_fmt": "31,928",
+  "total": 227185,
+  "total_fmt": "227,185",
+  "uniq_art": 7513,
+  "uniq_art_fmt": "7,513",
+  "uniq_trk": 31934,
+  "uniq_trk_fmt": "31,934",
   "start": "2018-03-06",
-  "end": "2026-11-22",
+  "end": "2026-11-23",
   "top_art": [
    {
     "artist": "chilldspot",
@@ -267,9 +267,9 @@
    },
    {
     "year": "2026",
-    "plays": 43967,
-    "plays_fmt": "43,967",
-    "pct": 81
+    "plays": 44098,
+    "plays_fmt": "44,098",
+    "pct": 82
    }
   ],
   "new_art_by_year": [
@@ -323,19 +323,19 @@
    },
    {
     "year": "2026",
-    "count": 1143,
-    "count_fmt": "1,143",
+    "count": 1144,
+    "count_fmt": "1,144",
     "pct": 47
    }
   ]
  },
  "year": {
-  "total": 43967,
-  "total_fmt": "43,967",
-  "uniq_art": 3032,
-  "uniq_art_fmt": "3,032",
-  "uniq_trk": 9167,
-  "uniq_trk_fmt": "9,167",
+  "total": 44098,
+  "total_fmt": "44,098",
+  "uniq_art": 3034,
+  "uniq_art_fmt": "3,034",
+  "uniq_trk": 9173,
+  "uniq_trk_fmt": "9,173",
   "top_art": [
    {
     "artist": "Ramblamp",
@@ -353,10 +353,10 @@
    },
    {
     "artist": "BUDOU JUICE",
-    "plays": 266,
-    "plays_fmt": "266",
+    "plays": 268,
+    "plays_fmt": "268",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f",
-    "pct": 90
+    "pct": 91
    },
    {
     "artist": "bedgravity",
@@ -367,8 +367,8 @@
    },
    {
     "artist": "Home",
-    "plays": 243,
-    "plays_fmt": "243",
+    "plays": 244,
+    "plays_fmt": "244",
     "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
     "pct": 83
    },
@@ -402,10 +402,10 @@
    },
    {
     "artist": "Muque",
-    "plays": 192,
-    "plays_fmt": "192",
+    "plays": 193,
+    "plays_fmt": "193",
     "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f",
-    "pct": 65
+    "pct": 66
    }
   ],
   "top_alb": [
@@ -426,8 +426,8 @@
    {
     "album": "HOME COLLECTION",
     "artist": "Home",
-    "plays": 236,
-    "plays_fmt": "236",
+    "plays": 237,
+    "plays_fmt": "237",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/fba348d61a84ffd1694bac70d1a897a4.jpg"
    },
    {
@@ -440,8 +440,8 @@
    {
     "album": "BUDOU JUICE",
     "artist": "BUDOU JUICE",
-    "plays": 199,
-    "plays_fmt": "199",
+    "plays": 200,
+    "plays_fmt": "200",
     "img": "https://i.scdn.co/image/ab67616d0000b27341a52876ab432b89a638827f"
    },
    {
@@ -475,8 +475,8 @@
    {
     "album": "Landscapes Entwined",
     "artist": "ue",
-    "plays": 173,
-    "plays_fmt": "173",
+    "plays": 174,
+    "plays_fmt": "174",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/f2b935a3f4b57eaa918ebd81e5490650.jpg"
    }
   ],
@@ -502,8 +502,8 @@
    {
     "track": "Anemone",
     "artist": "REVEMERE",
-    "plays": 82,
-    "plays_fmt": "82"
+    "plays": 83,
+    "plays_fmt": "83"
    },
    {
     "track": "Hibernating Summer",
@@ -605,121 +605,107 @@
    },
    {
     "month": "11",
-    "plays": 2751,
-    "plays_fmt": "2,751",
-    "pct": 51
+    "plays": 2882,
+    "plays_fmt": "2,882",
+    "pct": 53
    }
   ]
  },
  "week": {
-  "total": 826,
-  "total_fmt": "826",
-  "uniq_art": 457,
-  "uniq_art_fmt": "457",
-  "uniq_trk": 701,
-  "uniq_trk_fmt": "701",
-  "start": "11/16",
-  "end": "11/22",
+  "total": 809,
+  "total_fmt": "809",
+  "uniq_art": 476,
+  "uniq_art_fmt": "476",
+  "uniq_trk": 711,
+  "uniq_trk_fmt": "711",
+  "start": "11/17",
+  "end": "11/23",
   "top_art": [
    {
     "artist": "Akasick",
-    "plays": 23,
-    "plays_fmt": "23",
+    "plays": 24,
+    "plays_fmt": "24",
     "img": "https://i.scdn.co/image/ab6761610000e5ebeabebf63461efce2a3530004",
     "pct": 100
    },
    {
     "artist": "Hammer Head Shark",
-    "plays": 16,
-    "plays_fmt": "16",
+    "plays": 18,
+    "plays_fmt": "18",
     "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851",
-    "pct": 70
-   },
-   {
-    "artist": "Sala",
-    "plays": 15,
-    "plays_fmt": "15",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb44ed1c527d916765a6b0331a",
-    "pct": 65
+    "pct": 75
    },
    {
     "artist": "皆川溺",
     "plays": 13,
     "plays_fmt": "13",
     "img": "https://i.scdn.co/image/ab6761610000e5eb3161ca59376606df056fd86c",
-    "pct": 57
+    "pct": 54
    },
    {
     "artist": "plasticpoolside",
     "plays": 11,
     "plays_fmt": "11",
     "img": "https://i.scdn.co/image/ab6761610000e5eb1547c629d5008e4a50d9a321",
-    "pct": 48
-   },
-   {
-    "artist": "猫は液体",
-    "plays": 11,
-    "plays_fmt": "11",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebf235b7df0755fa3a976a2d3a",
-    "pct": 48
+    "pct": 46
    },
    {
     "artist": "lilsae",
     "plays": 10,
     "plays_fmt": "10",
     "img": "https://i.scdn.co/image/ab6761610000e5eb82d3b5c10fe116ab083f17c0",
-    "pct": 43
+    "pct": 42
    },
    {
     "artist": "Dead By Inches",
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5eb23f602a480c0735da0bea3e3",
-    "pct": 39
+    "pct": 38
    },
    {
     "artist": "アマイワナ",
-    "plays": 8,
-    "plays_fmt": "8",
+    "plays": 9,
+    "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5eb9fb815c98bc985868e689806",
-    "pct": 35
+    "pct": 38
    },
    {
     "artist": "ミーマイナー",
-    "plays": 8,
-    "plays_fmt": "8",
+    "plays": 9,
+    "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5ebcd7de4d6a907ec3cf511403b",
-    "pct": 35
+    "pct": 38
+   },
+   {
+    "artist": "LUVPOLIS",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb11ea7627bcefc7a8386fc017",
+    "pct": 29
+   },
+   {
+    "artist": "the BL00M",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebef3e3db7985d48474c47a516",
+    "pct": 29
    }
   ],
   "top_alb": [
    {
     "album": "DOPA",
     "artist": "Akasick",
-    "plays": 23,
-    "plays_fmt": "23",
+    "plays": 24,
+    "plays_fmt": "24",
     "img": "https://i.scdn.co/image/ab6761610000e5ebeabebf63461efce2a3530004"
    },
    {
     "album": "a i r",
     "artist": "Hammer Head Shark",
-    "plays": 16,
-    "plays_fmt": "16",
+    "plays": 17,
+    "plays_fmt": "17",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/ef21001e04982ba1ef64291c5282b995.jpg"
-   },
-   {
-    "album": "Low Tide",
-    "artist": "Sala",
-    "plays": 15,
-    "plays_fmt": "15",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2f5fb130e479f0d944e19d297426922d.jpg"
-   },
-   {
-    "album": "Nekowaekitai",
-    "artist": "猫は液体",
-    "plays": 11,
-    "plays_fmt": "11",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/4d7ed4558986219f783b5ee9f00119ab.jpg"
    },
    {
     "album": "plasticpoolside",
@@ -736,18 +722,18 @@
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d69f20d810b39118b3437e90a50882d6.png"
    },
    {
+    "album": "Buffet",
+    "artist": "アマイワナ",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb9fb815c98bc985868e689806"
+   },
+   {
     "album": "never smile again (笑えない)",
     "artist": "Dead By Inches",
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5eb23f602a480c0735da0bea3e3"
-   },
-   {
-    "album": "Buffet",
-    "artist": "アマイワナ",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb9fb815c98bc985868e689806"
    },
    {
     "album": "only us",
@@ -762,6 +748,20 @@
     "plays": 7,
     "plays_fmt": "7",
     "img": "https://i.scdn.co/image/ab6761610000e5ebef3e3db7985d48474c47a516"
+   },
+   {
+    "album": "TEST PILOT 01",
+    "artist": "LUVPOLIS",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb11ea7627bcefc7a8386fc017"
+   },
+   {
+    "album": "まばたき",
+    "artist": "ミーマイナー",
+    "plays": 7,
+    "plays_fmt": "7",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/8205ccdbb72a94062211bd74e2e48916.jpg"
    }
   ],
   "top_trk": [
@@ -772,26 +772,20 @@
     "plays_fmt": "8"
    },
    {
-    "track": "ネオンライト",
-    "artist": "Nazca",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "Dialogues",
-    "artist": "Cue All VinylS",
+    "track": "Bokura Futarikiri",
+    "artist": "Hammer Head Shark",
     "plays": 3,
     "plays_fmt": "3"
    },
    {
-    "track": "Gentleman",
-    "artist": "6 mab",
+    "track": "Okujo de",
+    "artist": "Hammer Head Shark",
     "plays": 3,
     "plays_fmt": "3"
    },
    {
-    "track": "Peak",
-    "artist": "Sala",
+    "track": "Spring Storm",
+    "artist": "The Diary Entry",
     "plays": 3,
     "plays_fmt": "3"
    },
@@ -808,12 +802,6 @@
     "plays_fmt": "3"
    },
    {
-    "track": "Who Are You?",
-    "artist": "GAMIGAMI",
-    "plays": 3,
-    "plays_fmt": "3"
-   },
-   {
     "track": "i know",
     "artist": "Hammer Head Shark",
     "plays": 3,
@@ -824,15 +812,21 @@
     "artist": "Hyo-Hyo",
     "plays": 3,
     "plays_fmt": "3"
+   },
+   {
+    "track": "とある水曜日",
+    "artist": "Zoo zoo sea",
+    "plays": 3,
+    "plays_fmt": "3"
+   },
+   {
+    "track": "シーソー",
+    "artist": "Con",
+    "plays": 3,
+    "plays_fmt": "3"
    }
   ],
   "by_day": [
-   {
-    "day": "11/16",
-    "plays": 148,
-    "plays_fmt": "148",
-    "pct": 66
-   },
    {
     "day": "11/17",
     "plays": 78,
@@ -868,6 +862,12 @@
     "plays": 225,
     "plays_fmt": "225",
     "pct": 100
+   },
+   {
+    "day": "11/23",
+    "plays": 131,
+    "plays_fmt": "131",
+    "pct": 58
    }
   ]
  }
