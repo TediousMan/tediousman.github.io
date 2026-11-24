@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-23",
+ "generated": "2026-11-24",
  "year_label": "2026",
  "all": {
-  "total": 227185,
-  "total_fmt": "227,185",
+  "total": 227275,
+  "total_fmt": "227,275",
   "uniq_art": 7513,
   "uniq_art_fmt": "7,513",
-  "uniq_trk": 31934,
-  "uniq_trk_fmt": "31,934",
+  "uniq_trk": 31945,
+  "uniq_trk_fmt": "31,945",
   "start": "2018-03-06",
-  "end": "2026-11-23",
+  "end": "2026-11-24",
   "top_art": [
    {
     "artist": "chilldspot",
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 44098,
-    "plays_fmt": "44,098",
+    "plays": 44188,
+    "plays_fmt": "44,188",
     "pct": 82
    }
   ],
@@ -330,12 +330,12 @@
   ]
  },
  "year": {
-  "total": 44098,
-  "total_fmt": "44,098",
+  "total": 44188,
+  "total_fmt": "44,188",
   "uniq_art": 3034,
   "uniq_art_fmt": "3,034",
-  "uniq_trk": 9173,
-  "uniq_trk_fmt": "9,173",
+  "uniq_trk": 9184,
+  "uniq_trk_fmt": "9,184",
   "top_art": [
    {
     "artist": "Ramblamp",
@@ -374,10 +374,10 @@
    },
    {
     "artist": "the Wulongs",
-    "plays": 239,
-    "plays_fmt": "239",
+    "plays": 240,
+    "plays_fmt": "240",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
-    "pct": 81
+    "pct": 82
    },
    {
     "artist": "あたまたんさん",
@@ -388,10 +388,10 @@
    },
    {
     "artist": "uyuu",
-    "plays": 230,
-    "plays_fmt": "230",
+    "plays": 231,
+    "plays_fmt": "231",
     "img": "https://i.scdn.co/image/ab67616d0000b27381582c0fb8f5908a6aee7f3e",
-    "pct": 78
+    "pct": 79
    },
    {
     "artist": "wanbed",
@@ -605,21 +605,21 @@
    },
    {
     "month": "11",
-    "plays": 2882,
-    "plays_fmt": "2,882",
-    "pct": 53
+    "plays": 2972,
+    "plays_fmt": "2,972",
+    "pct": 55
    }
   ]
  },
  "week": {
-  "total": 809,
-  "total_fmt": "809",
-  "uniq_art": 476,
-  "uniq_art_fmt": "476",
-  "uniq_trk": 711,
-  "uniq_trk_fmt": "711",
-  "start": "11/17",
-  "end": "11/23",
+  "total": 821,
+  "total_fmt": "821",
+  "uniq_art": 490,
+  "uniq_art_fmt": "490",
+  "uniq_trk": 727,
+  "uniq_trk_fmt": "727",
+  "start": "11/18",
+  "end": "11/24",
   "top_art": [
    {
     "artist": "Akasick",
@@ -636,18 +636,25 @@
     "pct": 75
    },
    {
-    "artist": "皆川溺",
-    "plays": 13,
-    "plays_fmt": "13",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb3161ca59376606df056fd86c",
-    "pct": 54
-   },
-   {
     "artist": "plasticpoolside",
     "plays": 11,
     "plays_fmt": "11",
     "img": "https://i.scdn.co/image/ab6761610000e5eb1547c629d5008e4a50d9a321",
     "pct": 46
+   },
+   {
+    "artist": "ミーマイナー",
+    "plays": 11,
+    "plays_fmt": "11",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebcd7de4d6a907ec3cf511403b",
+    "pct": 46
+   },
+   {
+    "artist": "LUVPOLIS",
+    "plays": 10,
+    "plays_fmt": "10",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb11ea7627bcefc7a8386fc017",
+    "pct": 42
    },
    {
     "artist": "lilsae",
@@ -671,18 +678,11 @@
     "pct": 38
    },
    {
-    "artist": "ミーマイナー",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebcd7de4d6a907ec3cf511403b",
-    "pct": 38
-   },
-   {
-    "artist": "LUVPOLIS",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb11ea7627bcefc7a8386fc017",
-    "pct": 29
+    "artist": "Suiheisen",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb75d19d9213b57b0ea8bcf8fe",
+    "pct": 33
    },
    {
     "artist": "the BL00M",
@@ -715,11 +715,11 @@
     "img": "https://i.scdn.co/image/ab6761610000e5eb1547c629d5008e4a50d9a321"
    },
    {
-    "album": "TINY EYES SPARKLE EYES",
-    "artist": "皆川溺",
+    "album": "TEST PILOT 01",
+    "artist": "LUVPOLIS",
     "plays": 10,
     "plays_fmt": "10",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d69f20d810b39118b3437e90a50882d6.png"
+    "img": "https://i.scdn.co/image/ab6761610000e5eb11ea7627bcefc7a8386fc017"
    },
    {
     "album": "Buffet",
@@ -743,18 +743,18 @@
     "img": "https://i.scdn.co/image/ab6761610000e5eb82d3b5c10fe116ab083f17c0"
    },
    {
+    "album": "希望の匂い (Reprise)",
+    "artist": "Suiheisen",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb75d19d9213b57b0ea8bcf8fe"
+   },
+   {
     "album": "I Have a Dream",
     "artist": "the BL00M",
     "plays": 7,
     "plays_fmt": "7",
     "img": "https://i.scdn.co/image/ab6761610000e5ebef3e3db7985d48474c47a516"
-   },
-   {
-    "album": "TEST PILOT 01",
-    "artist": "LUVPOLIS",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb11ea7627bcefc7a8386fc017"
    },
    {
     "album": "まばたき",
@@ -772,6 +772,12 @@
     "plays_fmt": "8"
    },
    {
+    "track": "風船",
+    "artist": "LUVPOLIS",
+    "plays": 6,
+    "plays_fmt": "6"
+   },
+   {
     "track": "Bokura Futarikiri",
     "artist": "Hammer Head Shark",
     "plays": 3,
@@ -786,18 +792,6 @@
    {
     "track": "Spring Storm",
     "artist": "The Diary Entry",
-    "plays": 3,
-    "plays_fmt": "3"
-   },
-   {
-    "track": "Swallows",
-    "artist": "Brother Sun Sister Moon",
-    "plays": 3,
-    "plays_fmt": "3"
-   },
-   {
-    "track": "TINY EYES SPARKLE EYES",
-    "artist": "皆川溺",
     "plays": 3,
     "plays_fmt": "3"
    },
@@ -824,15 +818,15 @@
     "artist": "Con",
     "plays": 3,
     "plays_fmt": "3"
+   },
+   {
+    "track": "南風のアイドル",
+    "artist": "セブンス・ベガ",
+    "plays": 3,
+    "plays_fmt": "3"
    }
   ],
   "by_day": [
-   {
-    "day": "11/17",
-    "plays": 78,
-    "plays_fmt": "78",
-    "pct": 35
-   },
    {
     "day": "11/18",
     "plays": 160,
@@ -868,6 +862,12 @@
     "plays": 131,
     "plays_fmt": "131",
     "pct": 58
+   },
+   {
+    "day": "11/24",
+    "plays": 90,
+    "plays_fmt": "90",
+    "pct": 40
    }
   ]
  }
