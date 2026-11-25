@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7513,
- "total_artists_fmt": "7,513",
+ "total_artists": 7514,
+ "total_artists_fmt": "7,514",
  "missing_img": 8,
  "artists": [
   {
@@ -95,16 +95,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebd069894bd124f8ffb27e9c24"
   },
   {
+   "name": "eill",
+   "plays": 638,
+   "plays_fmt": "638",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebf3f6ea218e12317560e84a58"
+  },
+  {
    "name": "kuyuru",
    "plays": 638,
    "plays_fmt": "638",
    "img": "https://i.scdn.co/image/ab6761610000e5eb2a08d0189b80a87ff7dc63fc"
-  },
-  {
-   "name": "eill",
-   "plays": 637,
-   "plays_fmt": "637",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebf3f6ea218e12317560e84a58"
   },
   {
    "name": "kurayamisaka",
@@ -318,8 +318,8 @@
   },
   {
    "name": "CLAN QUEEN",
-   "plays": 434,
-   "plays_fmt": "434",
+   "plays": 435,
+   "plays_fmt": "435",
    "img": "https://i.scdn.co/image/ab6761610000e5eb19ac44359f592f21110fa31c"
   },
   {
@@ -354,8 +354,8 @@
   },
   {
    "name": "Vaundy",
-   "plays": 399,
-   "plays_fmt": "399",
+   "plays": 401,
+   "plays_fmt": "401",
    "img": "https://i.scdn.co/image/ab6761610000e5ebb718d2d3988005d3a72f22c9"
   },
   {
@@ -545,16 +545,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5ebd37a306d89030f0fe900b7e3"
   },
   {
+   "name": "Polkadot Stingray",
+   "plays": 325,
+   "plays_fmt": "325",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb24dd03d4f0a965b78a0bf2f9"
+  },
+  {
    "name": "Cephalo",
    "plays": 324,
    "plays_fmt": "324",
    "img": "https://i.scdn.co/image/ab6761610000e5ebeadedb0cf2a489ca33090611"
-  },
-  {
-   "name": "Polkadot Stingray",
-   "plays": 324,
-   "plays_fmt": "324",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb24dd03d4f0a965b78a0bf2f9"
   },
   {
    "name": "sawamay",
@@ -569,16 +569,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb0cf9b730ba1e4da175a3485b"
   },
   {
+   "name": "Luby Sparks",
+   "plays": 321,
+   "plays_fmt": "321",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb99833843219af1cdc66223fc"
+  },
+  {
    "name": "Chisa",
    "plays": 320,
    "plays_fmt": "320",
    "img": "https://i.scdn.co/image/ab6761610000e5ebcc959cd12f18b2c2a2baa2c7"
-  },
-  {
-   "name": "Luby Sparks",
-   "plays": 320,
-   "plays_fmt": "320",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb99833843219af1cdc66223fc"
   },
   {
    "name": "Pavilion",
@@ -684,8 +684,8 @@
   },
   {
    "name": "Have a nice day!",
-   "plays": 301,
-   "plays_fmt": "301",
+   "plays": 302,
+   "plays_fmt": "302",
    "img": "https://i.scdn.co/image/ab6761610000e5ebd8a1293f8edac32b65eee4fe"
   },
   {
@@ -696,8 +696,8 @@
   },
   {
    "name": "Ramblamp",
-   "plays": 294,
-   "plays_fmt": "294",
+   "plays": 295,
+   "plays_fmt": "295",
    "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
   },
   {
@@ -738,8 +738,8 @@
   },
   {
    "name": "the Wulongs",
-   "plays": 288,
-   "plays_fmt": "288",
+   "plays": 290,
+   "plays_fmt": "290",
    "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc"
   },
   {
@@ -863,6 +863,12 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eba9a5143d6eb3917fbe03ad9b"
   },
   {
+   "name": "tenbin O",
+   "plays": 264,
+   "plays_fmt": "264",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebb146cdd0b2be813c4b411eb2"
+  },
+  {
    "name": "レルエ",
    "plays": 264,
    "plays_fmt": "264",
@@ -897,12 +903,6 @@
    "plays": 263,
    "plays_fmt": "263",
    "img": "https://i.scdn.co/image/ab6761610000e5ebae40b992ffa53731ab3e62bf"
-  },
-  {
-   "name": "tenbin O",
-   "plays": 263,
-   "plays_fmt": "263",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebb146cdd0b2be813c4b411eb2"
   }
  ]
 }
