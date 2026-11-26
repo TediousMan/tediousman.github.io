@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-25",
+ "generated": "2026-11-26",
  "year_label": "2026",
  "all": {
-  "total": 227454,
-  "total_fmt": "227,454",
+  "total": 227680,
+  "total_fmt": "227,680",
   "uniq_art": 7514,
   "uniq_art_fmt": "7,514",
-  "uniq_trk": 31953,
-  "uniq_trk_fmt": "31,953",
+  "uniq_trk": 31956,
+  "uniq_trk_fmt": "31,956",
   "start": "2018-03-06",
-  "end": "2026-11-25",
+  "end": "2026-11-26",
   "top_art": [
    {
     "artist": "chilldspot",
@@ -267,9 +267,9 @@
    },
    {
     "year": "2026",
-    "plays": 44367,
-    "plays_fmt": "44,367",
-    "pct": 82
+    "plays": 44593,
+    "plays_fmt": "44,593",
+    "pct": 83
    }
   ],
   "new_art_by_year": [
@@ -330,17 +330,17 @@
   ]
  },
  "year": {
-  "total": 44367,
-  "total_fmt": "44,367",
+  "total": 44593,
+  "total_fmt": "44,593",
   "uniq_art": 3035,
   "uniq_art_fmt": "3,035",
-  "uniq_trk": 9192,
-  "uniq_trk_fmt": "9,192",
+  "uniq_trk": 9195,
+  "uniq_trk_fmt": "9,195",
   "top_art": [
    {
     "artist": "Ramblamp",
-    "plays": 295,
-    "plays_fmt": "295",
+    "plays": 296,
+    "plays_fmt": "296",
     "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf",
     "pct": 100
    },
@@ -349,7 +349,7 @@
     "plays": 288,
     "plays_fmt": "288",
     "img": "https://i.scdn.co/image/ab6761610000e5ebbf3b5b448f160ddf3cde6481",
-    "pct": 98
+    "pct": 97
    },
    {
     "artist": "BUDOU JUICE",
@@ -363,19 +363,19 @@
     "plays": 250,
     "plays_fmt": "250",
     "img": "https://i.scdn.co/image/ab67616d0000b273d29467756d06ae5882d98238",
-    "pct": 85
+    "pct": 84
    },
    {
     "artist": "Home",
     "plays": 244,
     "plays_fmt": "244",
     "img": "https://i.scdn.co/image/ab6761610000e5ebcd501c1ff854e55bc7fbdf3d",
-    "pct": 83
+    "pct": 82
    },
    {
     "artist": "the Wulongs",
-    "plays": 242,
-    "plays_fmt": "242",
+    "plays": 244,
+    "plays_fmt": "244",
     "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
     "pct": 82
    },
@@ -395,17 +395,17 @@
    },
    {
     "artist": "wanbed",
-    "plays": 203,
-    "plays_fmt": "203",
+    "plays": 204,
+    "plays_fmt": "204",
     "img": "https://i.scdn.co/image/ab6761610000e5eb015e59262813fcf812ddf659",
     "pct": 69
    },
    {
     "artist": "Muque",
-    "plays": 193,
-    "plays_fmt": "193",
+    "plays": 194,
+    "plays_fmt": "194",
     "img": "https://i.scdn.co/image/ab6761610000e5eb5935d8ce7e18e228d8f4733f",
-    "pct": 65
+    "pct": 66
    }
   ],
   "top_alb": [
@@ -447,36 +447,36 @@
    {
     "album": "Nichijogamatakodamasuru",
     "artist": "Ramblamp",
-    "plays": 197,
-    "plays_fmt": "197",
+    "plays": 198,
+    "plays_fmt": "198",
     "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
    },
    {
     "album": "bipolar",
     "artist": "Nankyokuten",
-    "plays": 188,
-    "plays_fmt": "188",
+    "plays": 189,
+    "plays_fmt": "189",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e1329057e61539992783778432e3056a.jpg"
    },
    {
     "album": "135",
     "artist": "wanbed",
-    "plays": 181,
-    "plays_fmt": "181",
+    "plays": 182,
+    "plays_fmt": "182",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/8f67506eb69e1457aed72a3f1273f862.jpg"
    },
    {
     "album": "日々、折り返すごとに",
     "artist": "爛漫天国",
-    "plays": 180,
-    "plays_fmt": "180",
+    "plays": 182,
+    "plays_fmt": "182",
     "img": "https://i.scdn.co/image/ab6761610000e5eb59ee187da2de942d5f50e0e0"
    },
    {
     "album": "Landscapes Entwined",
     "artist": "ue",
-    "plays": 175,
-    "plays_fmt": "175",
+    "plays": 176,
+    "plays_fmt": "176",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/f2b935a3f4b57eaa918ebd81e5490650.jpg"
    }
   ],
@@ -605,107 +605,114 @@
    },
    {
     "month": "11",
-    "plays": 3151,
-    "plays_fmt": "3,151",
-    "pct": 58
+    "plays": 3377,
+    "plays_fmt": "3,377",
+    "pct": 62
    }
   ]
  },
  "week": {
-  "total": 840,
-  "total_fmt": "840",
-  "uniq_art": 494,
-  "uniq_art_fmt": "494",
-  "uniq_trk": 736,
-  "uniq_trk_fmt": "736",
-  "start": "11/19",
-  "end": "11/25",
+  "total": 1014,
+  "total_fmt": "1,014",
+  "uniq_art": 500,
+  "uniq_art_fmt": "500",
+  "uniq_trk": 754,
+  "uniq_trk_fmt": "754",
+  "start": "11/20",
+  "end": "11/26",
   "top_art": [
    {
     "artist": "Akasick",
-    "plays": 25,
-    "plays_fmt": "25",
+    "plays": 26,
+    "plays_fmt": "26",
     "img": "https://i.scdn.co/image/ab6761610000e5ebeabebf63461efce2a3530004",
     "pct": 100
    },
    {
     "artist": "plasticpoolside",
-    "plays": 12,
-    "plays_fmt": "12",
+    "plays": 13,
+    "plays_fmt": "13",
     "img": "https://i.scdn.co/image/ab6761610000e5eb1547c629d5008e4a50d9a321",
-    "pct": 48
+    "pct": 50
    },
    {
     "artist": "LUVPOLIS",
     "plays": 11,
     "plays_fmt": "11",
     "img": "https://i.scdn.co/image/ab6761610000e5eb11ea7627bcefc7a8386fc017",
-    "pct": 44
+    "pct": 42
    },
    {
-    "artist": "lilsae",
-    "plays": 10,
-    "plays_fmt": "10",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb82d3b5c10fe116ab083f17c0",
-    "pct": 40
+    "artist": "NANKYOKU DIVE",
+    "plays": 11,
+    "plays_fmt": "11",
+    "img": null,
+    "pct": 42
+   },
+   {
+    "artist": "リハビリたち",
+    "plays": 11,
+    "plays_fmt": "11",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebfd541a37fd956fce07c6583a",
+    "pct": 42
    },
    {
     "artist": "Hammer Head Shark",
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851",
-    "pct": 36
+    "pct": 35
    },
    {
-    "artist": "NANKYOKU DIVE",
+    "artist": "Sala",
     "plays": 9,
     "plays_fmt": "9",
-    "img": null,
-    "pct": 36
+    "img": "https://i.scdn.co/image/ab6761610000e5eb44ed1c527d916765a6b0331a",
+    "pct": 35
    },
    {
     "artist": "アマイワナ",
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5eb9fb815c98bc985868e689806",
-    "pct": 36
+    "pct": 35
    },
    {
     "artist": "ミーマイナー",
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5ebcd7de4d6a907ec3cf511403b",
-    "pct": 36
+    "pct": 35
    },
    {
-    "artist": "Suiheisen",
+    "artist": "AoOo",
     "plays": 8,
     "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb75d19d9213b57b0ea8bcf8fe",
-    "pct": 32
-   },
-   {
-    "artist": "the BL00M",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebef3e3db7985d48474c47a516",
-    "pct": 28
+    "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
+    "pct": 31
    }
   ],
   "top_alb": [
    {
     "album": "DOPA",
     "artist": "Akasick",
-    "plays": 25,
-    "plays_fmt": "25",
+    "plays": 26,
+    "plays_fmt": "26",
     "img": "https://i.scdn.co/image/ab6761610000e5ebeabebf63461efce2a3530004"
    },
    {
     "album": "plasticpoolside",
     "artist": "plasticpoolside",
-    "plays": 12,
-    "plays_fmt": "12",
+    "plays": 13,
+    "plays_fmt": "13",
     "img": "https://i.scdn.co/image/ab6761610000e5eb1547c629d5008e4a50d9a321"
+   },
+   {
+    "album": "COMPASS",
+    "artist": "NANKYOKU DIVE",
+    "plays": 11,
+    "plays_fmt": "11",
+    "img": null
    },
    {
     "album": "TEST PILOT 01",
@@ -715,6 +722,13 @@
     "img": "https://i.scdn.co/image/ab6761610000e5eb11ea7627bcefc7a8386fc017"
    },
    {
+    "album": "自殺衝動の天使",
+    "artist": "リハビリたち",
+    "plays": 10,
+    "plays_fmt": "10",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebfd541a37fd956fce07c6583a"
+   },
+   {
     "album": "Buffet",
     "artist": "アマイワナ",
     "plays": 9,
@@ -722,11 +736,18 @@
     "img": "https://i.scdn.co/image/ab6761610000e5eb9fb815c98bc985868e689806"
    },
    {
-    "album": "COMPASS",
-    "artist": "NANKYOKU DIVE",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": null
+    "album": "Low Tide",
+    "artist": "Sala",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2f5fb130e479f0d944e19d297426922d.jpg"
+   },
+   {
+    "album": "Rooom",
+    "artist": "AoOo",
+    "plays": 8,
+    "plays_fmt": "8",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/da74e0f56cc6364849b7ac888d3492d5.jpg"
    },
    {
     "album": "a i r",
@@ -736,41 +757,14 @@
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/ef21001e04982ba1ef64291c5282b995.jpg"
    },
    {
-    "album": "only us",
-    "artist": "lilsae",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb82d3b5c10fe116ab083f17c0"
-   },
-   {
     "album": "希望の匂い (Reprise)",
     "artist": "Suiheisen",
     "plays": 8,
     "plays_fmt": "8",
     "img": "https://i.scdn.co/image/ab6761610000e5eb75d19d9213b57b0ea8bcf8fe"
-   },
-   {
-    "album": "I Have a Dream",
-    "artist": "the BL00M",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebef3e3db7985d48474c47a516"
-   },
-   {
-    "album": "まばたき",
-    "artist": "ミーマイナー",
-    "plays": 7,
-    "plays_fmt": "7",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/8205ccdbb72a94062211bd74e2e48916.jpg"
    }
   ],
   "top_trk": [
-   {
-    "track": "only us",
-    "artist": "lilsae",
-    "plays": 8,
-    "plays_fmt": "8"
-   },
    {
     "track": "風船",
     "artist": "LUVPOLIS",
@@ -778,61 +772,61 @@
     "plays_fmt": "7"
    },
    {
-    "track": "シーソー",
-    "artist": "Con",
+    "track": "Black Swan",
+    "artist": "eskamila",
     "plays": 4,
     "plays_fmt": "4"
    },
    {
-    "track": "Black Swan",
-    "artist": "eskamila",
-    "plays": 3,
-    "plays_fmt": "3"
-   },
-   {
     "track": "Kaiju and Boy",
     "artist": "NANKYOKU DIVE",
-    "plays": 3,
-    "plays_fmt": "3"
-   },
-   {
-    "track": "NANKYOKU DIVE Theme",
-    "artist": "NANKYOKU DIVE",
-    "plays": 3,
-    "plays_fmt": "3"
+    "plays": 4,
+    "plays_fmt": "4"
    },
    {
     "track": "Peak",
+    "artist": "Sala",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "matomo ni yarareruna",
+    "artist": "NANKYOKU DIVE",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "1998",
+    "artist": "ue",
+    "plays": 3,
+    "plays_fmt": "3"
+   },
+   {
+    "track": "39",
+    "artist": "THE CHARM PARK",
+    "plays": 3,
+    "plays_fmt": "3"
+   },
+   {
+    "track": "Airplane Letter",
     "artist": "Sala",
     "plays": 3,
     "plays_fmt": "3"
    },
    {
-    "track": "matomo ni yarareruna",
-    "artist": "NANKYOKU DIVE",
+    "track": "Ali",
+    "artist": "99",
     "plays": 3,
     "plays_fmt": "3"
    },
    {
-    "track": "南風のアイドル",
-    "artist": "セブンス・ベガ",
+    "track": "Boku no Bungaku",
+    "artist": "Aonowa",
     "plays": 3,
     "plays_fmt": "3"
-   },
-   {
-    "track": "1998",
-    "artist": "ue",
-    "plays": 2,
-    "plays_fmt": "2"
    }
   ],
   "by_day": [
-   {
-    "day": "11/19",
-    "plays": 52,
-    "plays_fmt": "52",
-    "pct": 23
-   },
    {
     "day": "11/20",
     "plays": 26,
@@ -861,13 +855,19 @@
     "day": "11/24",
     "plays": 98,
     "plays_fmt": "98",
-    "pct": 44
+    "pct": 43
    },
    {
     "day": "11/25",
     "plays": 171,
     "plays_fmt": "171",
     "pct": 76
+   },
+   {
+    "day": "11/26",
+    "plays": 226,
+    "plays_fmt": "226",
+    "pct": 100
    }
   ]
  }
