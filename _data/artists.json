@@ -1,7 +1,7 @@
 {
  "count": 150,
- "total_artists": 7514,
- "total_artists_fmt": "7,514",
+ "total_artists": 7521,
+ "total_artists_fmt": "7,521",
  "missing_img": 8,
  "artists": [
   {
@@ -126,8 +126,8 @@
   },
   {
    "name": "reGretGirl",
-   "plays": 600,
-   "plays_fmt": "600",
+   "plays": 601,
+   "plays_fmt": "601",
    "img": "https://i.scdn.co/image/ab6761610000e5eb003605944411f68127e75169"
   },
   {
@@ -162,8 +162,8 @@
   },
   {
    "name": "The Otals",
-   "plays": 570,
-   "plays_fmt": "570",
+   "plays": 571,
+   "plays_fmt": "571",
    "img": "https://i.scdn.co/image/ab6761610000e5ebe880728367d115f0c7dfceb6"
   },
   {
@@ -234,8 +234,8 @@
   },
   {
    "name": "MAN WITH A MISSION",
-   "plays": 482,
-   "plays_fmt": "482",
+   "plays": 484,
+   "plays_fmt": "484",
    "img": "https://i.scdn.co/image/ab6761610000e5ebe30959e15d3719dc8d9ffe65"
   },
   {
@@ -252,8 +252,8 @@
   },
   {
    "name": "レイラ",
-   "plays": 475,
-   "plays_fmt": "475",
+   "plays": 476,
+   "plays_fmt": "476",
    "img": "https://i.scdn.co/image/ab6761610000e5eb5a7ae7ae77a6230eb4107638"
   },
   {
@@ -402,8 +402,8 @@
   },
   {
    "name": "kiki vivi lily",
-   "plays": 377,
-   "plays_fmt": "377",
+   "plays": 378,
+   "plays_fmt": "378",
    "img": "https://i.scdn.co/image/ab6761610000e5ebfe3b6188abc328838969e7c5"
   },
   {
@@ -420,8 +420,8 @@
   },
   {
    "name": "life crown",
-   "plays": 374,
-   "plays_fmt": "374",
+   "plays": 375,
+   "plays_fmt": "375",
    "img": "https://i.scdn.co/image/ab6761610000e5eba28745b1de7f1ad1d41514f6"
   },
   {
@@ -437,16 +437,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb3f7ea5d6336f02de0539f2be"
   },
   {
+   "name": "miida",
+   "plays": 372,
+   "plays_fmt": "372",
+   "img": "https://i.scdn.co/image/ab67616d0000b273a10aefa900ad4a60773bd28e"
+  },
+  {
    "name": "akuruyo-sheep",
    "plays": 370,
    "plays_fmt": "370",
    "img": "https://i.scdn.co/image/ab6761610000e5eb13b71cf0b4e9aca839ca6c72"
-  },
-  {
-   "name": "miida",
-   "plays": 370,
-   "plays_fmt": "370",
-   "img": "https://i.scdn.co/image/ab67616d0000b273a10aefa900ad4a60773bd28e"
   },
   {
    "name": "sancrib",
@@ -558,8 +558,8 @@
   },
   {
    "name": "Luby Sparks",
-   "plays": 322,
-   "plays_fmt": "322",
+   "plays": 323,
+   "plays_fmt": "323",
    "img": "https://i.scdn.co/image/ab6761610000e5eb99833843219af1cdc66223fc"
   },
   {
@@ -635,16 +635,16 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb6bb8a0465f0ec9b427da4300"
   },
   {
+   "name": "BAND-MAID",
+   "plays": 308,
+   "plays_fmt": "308",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebe6274dae98c66d06ae7382c9"
+  },
+  {
    "name": "Stereogirl",
    "plays": 308,
    "plays_fmt": "308",
    "img": "https://i.scdn.co/image/ab67616d0000b27372bbe0606a583b1d66ddd16f"
-  },
-  {
-   "name": "BAND-MAID",
-   "plays": 307,
-   "plays_fmt": "307",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebe6274dae98c66d06ae7382c9"
   },
   {
    "name": "Nigami 17th birthday!!",
@@ -701,22 +701,28 @@
    "img": "https://i.scdn.co/image/ab6761610000e5eb78187d5d6f5152ad08bf7dbf"
   },
   {
+   "name": "mukeikaku",
+   "plays": 294,
+   "plays_fmt": "294",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb1c7ce3df2cce3afef74566cb"
+  },
+  {
+   "name": "the Wulongs",
+   "plays": 294,
+   "plays_fmt": "294",
+   "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc"
+  },
+  {
    "name": "Haruno",
    "plays": 293,
    "plays_fmt": "293",
    "img": "https://i.scdn.co/image/ab67616d0000b2731494a1e1507f8dbfbce8f2df"
   },
   {
-   "name": "mukeikaku",
-   "plays": 293,
-   "plays_fmt": "293",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb1c7ce3df2cce3afef74566cb"
-  },
-  {
-   "name": "the Wulongs",
-   "plays": 292,
-   "plays_fmt": "292",
-   "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc"
+   "name": "Hammer Head Shark",
+   "plays": 291,
+   "plays_fmt": "291",
+   "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851"
   },
   {
    "name": "Kenichiro Nishihara",
@@ -735,12 +741,6 @@
    "plays": 291,
    "plays_fmt": "291",
    "img": "https://i.scdn.co/image/ab6761610000e5eb94b818ce361beb89199170c8"
-  },
-  {
-   "name": "Hammer Head Shark",
-   "plays": 290,
-   "plays_fmt": "290",
-   "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851"
   },
   {
    "name": "36km/h",

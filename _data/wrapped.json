@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-26",
+ "generated": "2026-11-27",
  "year_label": "2026",
  "all": {
-  "total": 227680,
-  "total_fmt": "227,680",
-  "uniq_art": 7514,
-  "uniq_art_fmt": "7,514",
-  "uniq_trk": 31956,
-  "uniq_trk_fmt": "31,956",
+  "total": 227868,
+  "total_fmt": "227,868",
+  "uniq_art": 7521,
+  "uniq_art_fmt": "7,521",
+  "uniq_trk": 31975,
+  "uniq_trk_fmt": "31,975",
   "start": "2018-03-06",
-  "end": "2026-11-26",
+  "end": "2026-11-27",
   "top_art": [
    {
     "artist": "chilldspot",
@@ -267,8 +267,8 @@
    },
    {
     "year": "2026",
-    "plays": 44593,
-    "plays_fmt": "44,593",
+    "plays": 44781,
+    "plays_fmt": "44,781",
     "pct": 83
    }
   ],
@@ -323,19 +323,19 @@
    },
    {
     "year": "2026",
-    "count": 1145,
-    "count_fmt": "1,145",
-    "pct": 47
+    "count": 1152,
+    "count_fmt": "1,152",
+    "pct": 48
    }
   ]
  },
  "year": {
-  "total": 44593,
-  "total_fmt": "44,593",
-  "uniq_art": 3035,
-  "uniq_art_fmt": "3,035",
-  "uniq_trk": 9195,
-  "uniq_trk_fmt": "9,195",
+  "total": 44781,
+  "total_fmt": "44,781",
+  "uniq_art": 3044,
+  "uniq_art_fmt": "3,044",
+  "uniq_trk": 9214,
+  "uniq_trk_fmt": "9,214",
   "top_art": [
    {
     "artist": "Ramblamp",
@@ -366,6 +366,13 @@
     "pct": 84
    },
    {
+    "artist": "the Wulongs",
+    "plays": 246,
+    "plays_fmt": "246",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
+    "pct": 83
+   },
+   {
     "artist": "Home",
     "plays": 244,
     "plays_fmt": "244",
@@ -373,11 +380,11 @@
     "pct": 82
    },
    {
-    "artist": "the Wulongs",
-    "plays": 244,
-    "plays_fmt": "244",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebb0027436ad74e8fe6deb19cc",
-    "pct": 82
+    "artist": "uyuu",
+    "plays": 233,
+    "plays_fmt": "233",
+    "img": "https://i.scdn.co/image/ab67616d0000b27381582c0fb8f5908a6aee7f3e",
+    "pct": 79
    },
    {
     "artist": "あたまたんさん",
@@ -385,13 +392,6 @@
     "plays_fmt": "233",
     "img": "https://i.scdn.co/image/ab6761610000e5ebd2f7c1ef036fa7aa58320f44",
     "pct": 79
-   },
-   {
-    "artist": "uyuu",
-    "plays": 231,
-    "plays_fmt": "231",
-    "img": "https://i.scdn.co/image/ab67616d0000b27381582c0fb8f5908a6aee7f3e",
-    "pct": 78
    },
    {
     "artist": "wanbed",
@@ -454,9 +454,16 @@
    {
     "album": "bipolar",
     "artist": "Nankyokuten",
-    "plays": 189,
-    "plays_fmt": "189",
+    "plays": 192,
+    "plays_fmt": "192",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e1329057e61539992783778432e3056a.jpg"
+   },
+   {
+    "album": "日々、折り返すごとに",
+    "artist": "爛漫天国",
+    "plays": 183,
+    "plays_fmt": "183",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb59ee187da2de942d5f50e0e0"
    },
    {
     "album": "135",
@@ -466,17 +473,10 @@
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/8f67506eb69e1457aed72a3f1273f862.jpg"
    },
    {
-    "album": "日々、折り返すごとに",
-    "artist": "爛漫天国",
-    "plays": 182,
-    "plays_fmt": "182",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb59ee187da2de942d5f50e0e0"
-   },
-   {
     "album": "Landscapes Entwined",
     "artist": "ue",
-    "plays": 176,
-    "plays_fmt": "176",
+    "plays": 177,
+    "plays_fmt": "177",
     "img": "https://lastfm.freetls.fastly.net/i/u/300x300/f2b935a3f4b57eaa918ebd81e5490650.jpg"
    }
   ],
@@ -520,8 +520,8 @@
    {
     "track": "shummin",
     "artist": "いとわず",
-    "plays": 69,
-    "plays_fmt": "69"
+    "plays": 70,
+    "plays_fmt": "70"
    },
    {
     "track": "N.W.O.L.",
@@ -538,8 +538,8 @@
    {
     "track": "Panzamast",
     "artist": "Tattletale",
-    "plays": 62,
-    "plays_fmt": "62"
+    "plays": 63,
+    "plays_fmt": "63"
    }
   ],
   "by_month": [
@@ -605,100 +605,107 @@
    },
    {
     "month": "11",
-    "plays": 3377,
-    "plays_fmt": "3,377",
-    "pct": 62
+    "plays": 3565,
+    "plays_fmt": "3,565",
+    "pct": 65
    }
   ]
  },
  "week": {
-  "total": 1014,
-  "total_fmt": "1,014",
-  "uniq_art": 500,
-  "uniq_art_fmt": "500",
-  "uniq_trk": 754,
-  "uniq_trk_fmt": "754",
-  "start": "11/20",
-  "end": "11/26",
+  "total": 1176,
+  "total_fmt": "1,176",
+  "uniq_art": 577,
+  "uniq_art_fmt": "577",
+  "uniq_trk": 883,
+  "uniq_trk_fmt": "883",
+  "start": "11/21",
+  "end": "11/27",
   "top_art": [
    {
     "artist": "Akasick",
-    "plays": 26,
-    "plays_fmt": "26",
+    "plays": 27,
+    "plays_fmt": "27",
     "img": "https://i.scdn.co/image/ab6761610000e5ebeabebf63461efce2a3530004",
     "pct": 100
+   },
+   {
+    "artist": "NANKYOKU DIVE",
+    "plays": 14,
+    "plays_fmt": "14",
+    "img": null,
+    "pct": 52
+   },
+   {
+    "artist": "リハビリたち",
+    "plays": 14,
+    "plays_fmt": "14",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebfd541a37fd956fce07c6583a",
+    "pct": 52
    },
    {
     "artist": "plasticpoolside",
     "plays": 13,
     "plays_fmt": "13",
     "img": "https://i.scdn.co/image/ab6761610000e5eb1547c629d5008e4a50d9a321",
-    "pct": 50
+    "pct": 48
    },
    {
     "artist": "LUVPOLIS",
-    "plays": 11,
-    "plays_fmt": "11",
+    "plays": 12,
+    "plays_fmt": "12",
     "img": "https://i.scdn.co/image/ab6761610000e5eb11ea7627bcefc7a8386fc017",
-    "pct": 42
-   },
-   {
-    "artist": "NANKYOKU DIVE",
-    "plays": 11,
-    "plays_fmt": "11",
-    "img": null,
-    "pct": 42
-   },
-   {
-    "artist": "リハビリたち",
-    "plays": 11,
-    "plays_fmt": "11",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebfd541a37fd956fce07c6583a",
-    "pct": 42
-   },
-   {
-    "artist": "Hammer Head Shark",
-    "plays": 9,
-    "plays_fmt": "9",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb48ae5ff8e0c12b6f29837851",
-    "pct": 35
+    "pct": 44
    },
    {
     "artist": "Sala",
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5eb44ed1c527d916765a6b0331a",
-    "pct": 35
+    "pct": 33
+   },
+   {
+    "artist": "Suiheisen",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb75d19d9213b57b0ea8bcf8fe",
+    "pct": 33
+   },
+   {
+    "artist": "Trooper Salute",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb97cd03d0a41316350c7679ae",
+    "pct": 33
    },
    {
     "artist": "アマイワナ",
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5eb9fb815c98bc985868e689806",
-    "pct": 35
+    "pct": 33
    },
    {
     "artist": "ミーマイナー",
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5ebcd7de4d6a907ec3cf511403b",
-    "pct": 35
-   },
-   {
-    "artist": "AoOo",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb6b83976886f493f6789bb911",
-    "pct": 31
+    "pct": 33
    }
   ],
   "top_alb": [
    {
     "album": "DOPA",
     "artist": "Akasick",
-    "plays": 26,
-    "plays_fmt": "26",
+    "plays": 27,
+    "plays_fmt": "27",
     "img": "https://i.scdn.co/image/ab6761610000e5ebeabebf63461efce2a3530004"
+   },
+   {
+    "album": "COMPASS",
+    "artist": "NANKYOKU DIVE",
+    "plays": 14,
+    "plays_fmt": "14",
+    "img": null
    },
    {
     "album": "plasticpoolside",
@@ -708,25 +715,18 @@
     "img": "https://i.scdn.co/image/ab6761610000e5eb1547c629d5008e4a50d9a321"
    },
    {
-    "album": "COMPASS",
-    "artist": "NANKYOKU DIVE",
-    "plays": 11,
-    "plays_fmt": "11",
-    "img": null
+    "album": "自殺衝動の天使",
+    "artist": "リハビリたち",
+    "plays": 13,
+    "plays_fmt": "13",
+    "img": "https://i.scdn.co/image/ab6761610000e5ebfd541a37fd956fce07c6583a"
    },
    {
     "album": "TEST PILOT 01",
     "artist": "LUVPOLIS",
-    "plays": 11,
-    "plays_fmt": "11",
+    "plays": 12,
+    "plays_fmt": "12",
     "img": "https://i.scdn.co/image/ab6761610000e5eb11ea7627bcefc7a8386fc017"
-   },
-   {
-    "album": "自殺衝動の天使",
-    "artist": "リハビリたち",
-    "plays": 10,
-    "plays_fmt": "10",
-    "img": "https://i.scdn.co/image/ab6761610000e5ebfd541a37fd956fce07c6583a"
    },
    {
     "album": "Buffet",
@@ -734,6 +734,13 @@
     "plays": 9,
     "plays_fmt": "9",
     "img": "https://i.scdn.co/image/ab6761610000e5eb9fb815c98bc985868e689806"
+   },
+   {
+    "album": "友達がいました",
+    "artist": "Trooper Salute",
+    "plays": 9,
+    "plays_fmt": "9",
+    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/f41863c4c9146f2e2158cda8db761dbf.jpg"
    },
    {
     "album": "Low Tide",
@@ -748,13 +755,6 @@
     "plays": 8,
     "plays_fmt": "8",
     "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/da74e0f56cc6364849b7ac888d3492d5.jpg"
-   },
-   {
-    "album": "a i r",
-    "artist": "Hammer Head Shark",
-    "plays": 8,
-    "plays_fmt": "8",
-    "img": "https://lastfm-img.freetls.fastly.net/i/u/300x300/ef21001e04982ba1ef64291c5282b995.jpg"
    },
    {
     "album": "希望の匂い (Reprise)",
@@ -772,13 +772,37 @@
     "plays_fmt": "7"
    },
    {
+    "track": "Jirai to Jikai",
+    "artist": "Head Hunt",
+    "plays": 5,
+    "plays_fmt": "5"
+   },
+   {
+    "track": "Kaiju and Boy",
+    "artist": "NANKYOKU DIVE",
+    "plays": 5,
+    "plays_fmt": "5"
+   },
+   {
+    "track": "matomo ni yarareruna",
+    "artist": "NANKYOKU DIVE",
+    "plays": 5,
+    "plays_fmt": "5"
+   },
+   {
     "track": "Black Swan",
     "artist": "eskamila",
     "plays": 4,
     "plays_fmt": "4"
    },
    {
-    "track": "Kaiju and Boy",
+    "track": "My Kind Of Woman",
+    "artist": "türk bluez",
+    "plays": 4,
+    "plays_fmt": "4"
+   },
+   {
+    "track": "NANKYOKU DIVE Theme",
     "artist": "NANKYOKU DIVE",
     "plays": 4,
     "plays_fmt": "4"
@@ -786,12 +810,6 @@
    {
     "track": "Peak",
     "artist": "Sala",
-    "plays": 4,
-    "plays_fmt": "4"
-   },
-   {
-    "track": "matomo ni yarareruna",
-    "artist": "NANKYOKU DIVE",
     "plays": 4,
     "plays_fmt": "4"
    },
@@ -806,68 +824,50 @@
     "artist": "THE CHARM PARK",
     "plays": 3,
     "plays_fmt": "3"
-   },
-   {
-    "track": "Airplane Letter",
-    "artist": "Sala",
-    "plays": 3,
-    "plays_fmt": "3"
-   },
-   {
-    "track": "Ali",
-    "artist": "99",
-    "plays": 3,
-    "plays_fmt": "3"
-   },
-   {
-    "track": "Boku no Bungaku",
-    "artist": "Aonowa",
-    "plays": 3,
-    "plays_fmt": "3"
    }
   ],
   "by_day": [
    {
-    "day": "11/20",
-    "plays": 26,
-    "plays_fmt": "26",
-    "pct": 12
-   },
-   {
     "day": "11/21",
     "plays": 137,
     "plays_fmt": "137",
-    "pct": 61
+    "pct": 58
    },
    {
     "day": "11/22",
     "plays": 225,
     "plays_fmt": "225",
-    "pct": 100
+    "pct": 95
    },
    {
     "day": "11/23",
     "plays": 131,
     "plays_fmt": "131",
-    "pct": 58
+    "pct": 55
    },
    {
     "day": "11/24",
     "plays": 98,
     "plays_fmt": "98",
-    "pct": 43
+    "pct": 41
    },
    {
     "day": "11/25",
     "plays": 171,
     "plays_fmt": "171",
-    "pct": 76
+    "pct": 72
    },
    {
     "day": "11/26",
-    "plays": 226,
-    "plays_fmt": "226",
+    "plays": 237,
+    "plays_fmt": "237",
     "pct": 100
+   },
+   {
+    "day": "11/27",
+    "plays": 177,
+    "plays_fmt": "177",
+    "pct": 75
    }
   ]
  }
